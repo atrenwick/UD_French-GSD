@@ -11261,7 +11261,7 @@
 # sent_id = fr-ud-train_00390
 # text = L'espérance de vie de la population dans le monde était d'un peu plus de 45 ans en 1950 ;
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	espérance	espérance	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+2	espérance	espérance	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	vie	vie	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	de	de	ADP	_	_	7	case	_	_
@@ -11270,17 +11270,17 @@
 8	dans	dans	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	monde	monde	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
 12	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	advmod	_	_
 14	peu	peu	ADV	_	_	13	fixed	_	_
 15	plus	plus	ADV	_	_	17	advmod	_	_
 16	de	de	ADP	_	_	15	fixed	_	_
 17	45	45	NUM	_	_	18	nummod	_	_
-18	ans	an	NOUN	_	Gender=Masc|Number=Plur	20	obl	_	_
+18	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 19	en	en	ADP	_	_	20	case	_	_
-20	1950	1950	NUM	_	_	0	root	_	_
-21	;	;	PUNCT	_	_	20	punct	_	_
+20	1950	1950	NUM	_	_	18	obl	_	_
+21	;	;	PUNCT	_	_	18	punct	_	_
 
 # sent_id = fr-ud-train_00391
 # text = Il faudra encore du temps », avait-il déclaré.
@@ -56622,7 +56622,7 @@
 8	1997	1997	NUM	_	_	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Cinquième	Cinquième	PROPN	_	_	13	nsubj:pass	_	_
+11	Cinquième	cinquième	ADJ	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
 12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux:pass	_	_
 13	éditée	éditer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 14	par	par	ADP	_	_	16	case	_	_
@@ -102788,12 +102788,12 @@
 # sent_id = fr-ud-train_03655
 # text = En effet, au sein des pyramides, les couloirs s'élevant vers les sommets de la pyramide et le ciel depuis la chambre funéraire du défunt, semblent être des passages permettant à l'âme de s'élever et d'atteindre le « royaume des morts ».
 1	En	en	ADP	_	_	2	case	_	_
-2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+2	effet	effet	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	sein	sein	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
+6	sein	sein	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	_
 7-8	des	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
@@ -103126,7 +103126,7 @@
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	classé	classer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	quatrième	quatrième	NUM	_	_	5	xcomp	_	_
+6	quatrième	quatrième	ADJ	_	Gender=Fem|Number=Sing	5	xcomp	_	_
 7	sur	sur	ADP	_	_	9	case	_	_
 8	«	«	PUNCT	_	_	9	punct	_	_
 9	Hotspot	Hotspot	PROPN	_	_	6	nmod	_	_
@@ -121563,7 +121563,7 @@
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	termine	terminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	quatrième	quatrième	NUM	_	_	5	xcomp	_	_
+6	quatrième	quatrième	ADJ	_	Gender=Masc|Number=Sing	5	xcomp	_	_
 7	lors	lors	ADV	_	_	10	case	_	_
 8	de	de	ADP	_	_	7	fixed	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
@@ -134152,7 +134152,7 @@
 23	et	et	CCONJ	_	_	25	cc	_	_
 24	se	se	PRON	_	Person=3|PronType=Prs	25	expl	_	_
 25	classe	classer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-26	cinquième	cinquième	NUM	_	_	25	xcomp	_	_
+26	cinquième	cinquième	ADJ	_	Gender=Masc|Number=Sing	25	xcomp	_	_
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -153015,7 +153015,7 @@
 11	Caines	Caines	PROPN	_	_	10	flat:name	_	_
 12	se	se	PRON	_	Person=3|PronType=Prs	13	expl	_	_
 13	classe	classer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	troisième	troisième	NUM	_	_	13	xcomp	_	_
+14	troisième	troisième	ADJ	_	Gender=Masc|Number=Sing	13	xcomp	_	_
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	18	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -175716,7 +175716,7 @@
 6	)	)	PUNCT	_	_	3	punct	_	_
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	vingt-sixième	vingt-sixième	NUM	_	_	0	root	_	_
+9	vingt-sixième	vingt-sixième	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	13	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
@@ -183738,7 +183738,7 @@
 11	de	de	ADP	_	_	15	case	_	_
 12	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
-14	troisième	troisième	NUM	_	_	12	conj	_	_
+14	troisième	troisième	ADJ	_	Gender=Fem|Number=Sing	12	conj	_	_
 15	unité	unité	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	croissance	croissance	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
@@ -184478,14 +184478,14 @@
 # sent_id = fr-ud-train_06564
 # text = Sa population était de 74 habitants en 2010.
 1	Sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
-2	population	population	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+2	population	population	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	74	74	NUM	_	_	6	nummod	_	_
-6	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+6	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 7	en	en	ADP	_	_	8	case	_	_
-8	2010	2010	NUM	_	_	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	8	punct	_	_
+8	2010	2010	NUM	_	_	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_06565
 # text = Les forces yorkistes progressent le long de trois routes différentes.
@@ -186031,7 +186031,7 @@
 # text = Il est troisième de la Nationale derrière Kemp et Braun pour le total de buts (322) et mène tout le baseball majeur avec 32 buts-sur-balles intentionnels reçus des lanceurs adverses.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	troisième	troisième	NUM	_	_	0	root	_	_
+3	troisième	troisième	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Nationale	Nationale	PROPN	_	_	3	nmod	_	_
@@ -187372,7 +187372,7 @@
 1	Michael	Michael	PROPN	_	_	4	nsubj	_	_
 2	Schumacher	Schumacher	PROPN	_	_	1	flat:name	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-4	troisième	troisième	NUM	_	_	0	root	_	_
+4	troisième	troisième	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 5	et	et	CCONJ	_	_	7	cc	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	pilotes	pilote	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	_
@@ -199981,20 +199981,20 @@
 # text = Sa dernière exposition à Alger sera à la Galerie Dominique en 1944 car désormais ce sera à Paris qu'elle montrera ses œuvres.
 1	Sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
 2	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
-3	exposition	exposition	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+3	exposition	exposition	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 4	à	à	ADP	_	_	5	case	_	_
 5	Alger	Alger	PROPN	_	_	3	nmod	_	_
-6	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	cop	_	_
+6	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	Galerie	Galerie	PROPN	_	_	12	obl	_	_
+9	Galerie	Galerie	PROPN	_	_	6	obl	_	_
 10	Dominique	Dominique	PROPN	_	_	9	appos	_	_
 11	en	en	ADP	_	_	12	case	_	_
-12	1944	1944	NUM	_	_	0	root	_	_
+12	1944	1944	NUM	_	_	6	obl	_	_
 13	car	car	CCONJ	_	_	16	cc	_	_
 14	désormais	désormais	ADV	_	_	13	advmod	_	_
 15	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	nsubj	_	_
-16	sera	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	conj	_	_
+16	sera	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	conj	_	_
 17	à	à	ADP	_	_	18	case	_	_
 18	Paris	Paris	PROPN	_	_	16	obl	_	_
 19	qu'	que	SCONJ	_	_	21	mark	_	SpaceAfter=No
@@ -200002,7 +200002,7 @@
 21	montrera	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	ccomp	_	_
 22	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	23	det	_	_
 23	œuvres	œuvre	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	12	punct	_	_
+24	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_07120
 # text = Constitués d'argent (comme tous les bijoux ruraux du Maghreb), ils sont ornés de coraux récoltés en Méditerranée ou parfois d'émaux.
@@ -252356,7 +252356,7 @@
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	13ième	13ième	NUM	_	_	19	nmod	_	SpaceAfter=No
+23	13ième	13ième	ADJ	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-train_08969
@@ -295062,7 +295062,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	termine	terminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	deuxième	deuxième	NUM	_	_	5	xcomp	_	_
+6	deuxième	deuxième	ADJ	_	Gender=Masc|Number=Sing	5	xcomp	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -295070,7 +295070,7 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	Hollande-Septentrionale	Hollande-Septentrionale	PROPN	_	_	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	battu	battre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+13	battu	battre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -301555,7 +301555,7 @@
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Blazers	blazer	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	terminent	terminer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	quatrième	quatrième	NUM	_	_	3	xcomp	_	_
+4	quatrième	quatrième	ADJ	_	Gender=Masc|Number=Sing	3	xcomp	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	division	division	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -315922,7 +315922,7 @@
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	finit	finir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
-14	cinquième	cinquième	NUM	_	_	13	xcomp	_	SpaceAfter=No
+14	cinquième	cinquième	ADJ	_	Gender=Masc|Number=Sing	13	xcomp	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_11278
@@ -322599,7 +322599,7 @@
 24	Ring	Ring	PROPN	_	_	23	flat:name	_	_
 25	Ring	Ring	PROPN	_	_	23	flat:name	_	_
 26	terminé	terminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
-27	troisième	troisième	NUM	_	_	26	xcomp	_	SpaceAfter=No
+27	troisième	troisième	ADJ	_	Gender=Masc|Number=Sing	26	xcomp	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_11500
@@ -329001,7 +329001,7 @@
 1	Lors	lors	ADV	_	_	4	case	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	mise	mise	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+4	mise	mise	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
 5	en	en	ADP	_	_	6	case	_	_
 6	place	place	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 7-8	du	_	_	_	_	_	_	_	_
@@ -329010,17 +329010,17 @@
 9	Royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	Islande	Islande	PROPN	_	_	22	nsubj	_	_
-13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	cop	_	_
+12	Islande	Islande	PROPN	_	_	16	nsubj	_	_
+13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
 14	sous	sous	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+16	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	couronne	couronne	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 20	danoise	danois	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
 21	depuis	depuis	ADP	_	_	22	case	_	_
-22	1380	1380	NUM	_	_	0	root	_	SpaceAfter=No
+22	1380	1380	NUM	_	_	16	obl	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	22	punct	_	_
 24	bien	bien	ADV	_	_	26	mark	_	_
 25	qu'	que	SCONJ	_	_	24	fixed	_	SpaceAfter=No
@@ -329029,12 +329029,12 @@
 28	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	cop	_	_
 29	formellement	formellement	ADV	_	_	31	advmod	_	_
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	possession	possession	NOUN	_	Gender=Fem|Number=Sing	22	advcl	_	_
+31	possession	possession	NOUN	_	Gender=Fem|Number=Sing	16	advcl	_	_
 32	norvégienne	norvégien	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
 33	jusqu'	jusque	ADP	_	_	35	case	_	SpaceAfter=No
 34	en	en	ADP	_	_	35	case	_	_
 35	1814	1814	NUM	_	_	31	nmod	_	SpaceAfter=No
-36	.	.	PUNCT	_	_	22	punct	_	_
+36	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-train_11729
 # text = Il s'agit d'une des premières méthodes de chiffrement moderne destinée à un usage civil.
@@ -331252,7 +331252,7 @@
 1	Après	après	ADP	_	_	4	mark	_	_
 2	avoir	avoir	AUX	_	VerbForm=Inf	4	aux	_	_
 3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
-4	neuvième	neuvième	NUM	_	_	12	advcl	_	_
+4	neuvième	neuvième	ADJ	_	Gender=Masc|Number=Sing	12	advcl	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -341591,9 +341591,9 @@
 17	proclama	proclamer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 19	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
-20	Troisième	Troisième	PROPN	_	_	21	amod	_	_
+20	Troisième	troisième	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 21	Civilisation	civilisation	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
-22	Hellénique	Hellénique	PROPN	_	_	21	amod	_	SpaceAfter=No
+22	Hellénique	hellénique	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
 23	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	21	punct	_	_
 25	fondée	fonder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
@@ -400324,11 +400324,11 @@
 21	appuyant	appuyer	VERB	_	Tense=Pres|VerbForm=Part	7	advcl	_	_
 22	sur	sur	ADP	_	_	25	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-24	Sixième	Sixième	PROPN	_	_	25	amod	_	_
-25	Amendement	Amendement	PROPN	_	_	21	obl	_	_
+24	Sixième	sixième	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
+25	Amendement	amendement	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	Constitution	Constitution	PROPN	_	_	25	nmod	_	_
+28	Constitution	constitution	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
 30	Gideon	Gideon	PROPN	_	_	28	appos	_	_
 31	v.	v.	X	_	_	32	cc	_	_
