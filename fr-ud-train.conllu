@@ -20295,7 +20295,7 @@
 17	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_00713
-# text = L'île d'Hispaniola avait une population indigène de habitants.
+# text = L'île d'Hispaniola avait une population indigène de 250 000 habitants.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	île	île	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
@@ -20304,9 +20304,10 @@
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	population	population	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	indigène	indigène	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
-9	de	de	ADP	_	_	10	case	_	_
-10	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	5	punct	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	250 000	250 000	NUM	_	_	11	nummod	_	_
+11	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_00714
 # text = Grâce à la potasse et à la fourrure, il fait rapidement fortune.
@@ -41772,23 +41773,24 @@
 21	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_01480
-# text = Selon le recensement de 2000, la population du comté est de habitants.
+# text = Selon le recensement de 2000, la population du comté est de 19 181 habitants.
 1	Selon	selon	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	recensement	recensement	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+3	recensement	recensement	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	2000	2000	NUM	_	_	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	population	population	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+8	population	population	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	comté	comté	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
-12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	14	punct	_	_
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	19 181	19 181	NUM	_	_	15	nummod	_	_
+15	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = fr-ud-train_01481
 # text = Les Blue Tories prônent le plus souvent des politiques libérales comme la réduction du rôle de l'État dans l'économie, les réductions d'impôts et une plus grande décentralisation du pouvoir du gouvernement fédéral vers les provinces.
@@ -84540,20 +84542,21 @@
 29	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_02988
-# text = Sa population était de habitants lors du recensement de 2010.
+# text = Sa population était de 1 108 habitants lors du recensement de 2010.
 1	Sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
-2	population	population	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
-3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
-6	lors	lors	ADV	_	_	9	case	_	_
-7-8	du	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	6	fixed	_	_
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	recensement	recensement	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-10	de	de	ADP	_	_	11	case	_	_
-11	2010	2010	NUM	_	_	9	nmod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	9	punct	_	_
+2	population	population	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	1 108	1 108	NUM	_	_	6	nummod	_	_
+6	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+7	lors	lors	ADV	_	_	10	case	_	_
+8-9	du	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	7	fixed	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	recensement	recensement	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	2010	2010	NUM	_	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_02989
 # text = À partir du premier match de l'histoire de l'équipe, le 7 avril 1977, il décrit tous les matchs sans exception jusqu'au 3 juin 2004, où le décès de son père le force à prendre congé.
@@ -85757,7 +85760,7 @@
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_03038
-# text = Sur cette période, la population gagne habitants, soit un accroissement de 11,1% pour 10% au niveau national.
+# text = Sur cette période, la population gagne 21 130 habitants, soit un accroissement de 11,1% pour 10% au niveau national.
 1	Sur	sur	ADP	_	_	3	case	_	_
 2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	période	période	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
@@ -85765,23 +85768,24 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	population	population	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 7	gagne	gagner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	7	punct	_	_
-10	soit	soit	SCONJ	_	_	12	cc	_	_
-11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	accroissement	accroissement	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
-13	de	de	ADP	_	_	15	case	_	_
-14	11,1	11,1	NUM	_	_	15	nummod	_	SpaceAfter=No
-15	%	%	SYM	_	_	12	nmod	_	_
-16	pour	pour	ADP	_	_	18	case	_	_
-17	10	10	NUM	_	_	18	nummod	_	SpaceAfter=No
-18	%	%	SYM	_	_	12	nmod	_	_
-19-20	au	_	_	_	_	_	_	_	_
-19	à	à	ADP	_	_	21	case	_	_
-20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-22	national	national	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
-23	.	.	PUNCT	_	_	7	punct	_	_
+8	21 130	21 130	NUM	_	_	9	nummod	_	_
+9	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	soit	soit	SCONJ	_	_	13	cc	_	_
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	accroissement	accroissement	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	11,1	11,1	NUM	_	_	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	_	_	13	nmod	_	_
+17	pour	pour	ADP	_	_	19	case	_	_
+18	10	10	NUM	_	_	19	nummod	_	SpaceAfter=No
+19	%	%	SYM	_	_	13	nmod	_	_
+20-21	au	_	_	_	_	_	_	_	_
+20	à	à	ADP	_	_	22	case	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+23	national	national	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_03039
 # text = D'ailleurs, le propriétaire des lieux aurait d'ores et déjà fait appel à des agents immobiliers afin « d'attirer d'éventuels repreneurs ».
@@ -216699,7 +216703,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_07712
-# text = Le maximum de la population a été atteint en 1800 avec habitants.
+# text = Le maximum de la population a été atteint en 1800 avec 2 791 habitants.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	maximum	maximum	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -216710,9 +216714,10 @@
 8	atteint	atteindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	en	en	ADP	_	_	10	case	_	_
 10	1800	1800	NUM	_	_	8	obl	_	_
-11	avec	avec	ADP	_	_	12	case	_	_
-12	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	8	punct	_	_
+11	avec	avec	ADP	_	_	13	case	_	_
+12	2 791	2 791	NUM	_	_	13	nummod	_	_
+13	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_07713
 # text = l'institut vient d'être rénové.
@@ -336503,7 +336508,7 @@
 17	;	;	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_11996
-# text = Ijevsk est la première ville d'Oudmourtie par sa population : habitants en 2010.
+# text = Ijevsk est la première ville d'Oudmourtie par sa population : 628 116 habitants en 2010.
 1	Ijevsk	Ijevsk	PROPN	_	_	5	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -336515,10 +336520,11 @@
 9	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 10	population	population	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 11	:	:	PUNCT	_	_	10	punct	_	_
-12	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	10	appos	_	_
-13	en	en	ADP	_	_	14	case	_	_
-14	2010	2010	NUM	_	_	12	nmod	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	5	punct	_	_
+12	628 116	628 116	NUM	_	_	13	nummod	_	_
+13	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	10	appos	_	_
+14	en	en	ADP	_	_	15	case	_	_
+15	2010	2010	NUM	_	_	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_11997
 # text = Album qui recevra un très bon accueil de la presse.
