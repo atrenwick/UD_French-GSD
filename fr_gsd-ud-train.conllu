@@ -33166,17 +33166,17 @@
 
 # sent_id = fr-ud-train_01165
 # text = Elle était en relations suivies avec la place d'Amsterdam.
-1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
 3	en	en	ADP	_	_	4	case	_	_
-4	relations	relation	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+4	relations	relation	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 5	suivies	suivre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
 6	avec	avec	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	place	place	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+8	place	place	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	Amsterdam	Amsterdam	PROPN	_	_	8	nmod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	8	punct	_	_
+11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_01166
 # text = En mars 1955, Phoumi fut un des membres fondateurs du Parti du Peuple laotien, au bureau politique duquel il fut élu.
@@ -35855,7 +35855,7 @@
 8	même	même	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 9	avis	avis	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 10	que	que	SCONJ	_	_	11	mark	_	_
-11	moi	soi	PRON	_	Number=Sing|Person=1	9	obl	_	SpaceAfter=No
+11	moi	soi	PRON	_	Number=Sing|Person=1	9	obl:arg	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	alors	alors	ADV	_	_	14	advmod	_	_
 14	allez	aller	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	conj	_	_
@@ -125222,7 +125222,7 @@
 30	théorie	théorie	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
 31	selon	selon	ADP	_	_	32	case	_	_
 32	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	38	obl	_	_
-33	Moscou	Moscou	PROPN	_	_	38	obl	_	_
+33	Moscou	Moscou	PROPN	_	_	38	nsubj	_	_
 34	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
 35	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	cop	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
@@ -131299,7 +131299,7 @@
 11	important	important	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 12	pour	pour	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	lutte	lutte	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+14	lutte	lutte	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
@@ -151857,7 +151857,7 @@
 29	distinction	distinction	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 30	qu'	que	ADP	_	_	32	case	_	SpaceAfter=No
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	grade	grade	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	grade	grade	NOUN	_	Gender=Masc|Number=Sing	29	obl:arg	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_05425
@@ -170788,7 +170788,7 @@
 12	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	pour	pour	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	élite	élite	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+15	élite	élite	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 16	intellectuelle	intellectuel	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 17	que	que	PRON	_	PronType=Rel	18	obj	_	_
 18	fréquenteront	fréquenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
@@ -174270,7 +174270,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	chargé	chargé	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 4	de	de	ADP	_	_	5	case	_	_
-5	formation	formation	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+5	formation	formation	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	dans	dans	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	domaine	domaine	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
@@ -180400,7 +180400,7 @@
 6	original	original	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	qu'	que	ADP	_	_	9	case	_	SpaceAfter=No
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	codificateur	codificateur	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+9	codificateur	codificateur	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	pratique	pratique	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
@@ -203442,7 +203442,7 @@
 19	confirmation	confirmation	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
 20	par	par	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	Sénat	sénat	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+22	Sénat	sénat	NOUN	_	Gender=Masc|Number=Sing	19	obl:arg	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_07239
@@ -212499,14 +212499,14 @@
 7	dans	dans	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	sphère	sphère	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
-10	pour	pour	ADP	_	_	13	mark	_	_
-11	être	être	AUX	_	VerbForm=Inf	13	cop	_	_
+10	pour	pour	ADP	_	_	11	mark	_	_
+11	être	être	VERB	_	VerbForm=Inf	6	advcl	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	moment	moment	NOUN	_	Gender=Masc|Number=Sing	6	advcl	_	_
+13	moment	moment	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	centre	centre	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+16	centre	centre	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
@@ -252753,7 +252753,7 @@
 12	importantes	important	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
 13	pour	pour	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	pilotage	pilotage	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+15	pilotage	pilotage	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
@@ -321986,7 +321986,7 @@
 17	familles	famille	NOUN	_	Gender=Fem|Number=Plur	13	conj	_	_
 18	que	que	ADP	_	_	20	case	_	_
 19	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
-20	critères	critère	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+20	critères	critère	NOUN	_	Gender=Masc|Number=Plur	9	obl:arg	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	parenté	parenté	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	9	punct	_	_
@@ -355489,7 +355489,7 @@
 1-2	Aux	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	abois	abois	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+3	abois	abois	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	film	film	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -387902,7 +387902,7 @@
 5	titre	titre	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	qu'	que	ADP	_	_	8	case	_	SpaceAfter=No
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	nom	nom	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	nom	nom	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
 9	authentique	authentique	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	repris	reprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
