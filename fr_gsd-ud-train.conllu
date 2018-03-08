@@ -60028,18 +60028,18 @@
 
 # sent_id = fr-ud-train_02135
 # text = Il est en service dans l'armée de l'air tchèque.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	en	en	ADP	_	_	4	case	_	_
-4	service	service	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
+4	service	service	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
-7	armée	armée	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	armée	armée	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	air	air	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	tchèque	tchèque	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	7	punct	_	_
+12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_02136
 # text = Une version révisée est reprise en novembre 2005 à Heidelberg.
@@ -101888,10 +101888,10 @@
 
 # sent_id = fr-ud-train_03624
 # text = Zinni est en cours d'adaptation de sa vie à l'arrivée d'une petite sœur dans la famille.
-1	Zinni	Zinni	PROPN	_	_	12	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+1	Zinni	Zinni	PROPN	_	_	4	nsubj	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	en	en	ADP	_	_	4	case	_	_
-4	cours	cours	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+4	cours	cours	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
 6	adaptation	adaptation	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 7	de	de	ADP	_	_	9	case	_	_
@@ -101899,7 +101899,7 @@
 9	vie	vie	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+12	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 13	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	petite	petit	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
@@ -101907,7 +101907,7 @@
 17	dans	dans	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	famille	famille	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	12	punct	_	_
+20	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_03625
 # text = Les éditions du Kiai tseu yuan houa tchouan de Chen Sin-yeou sont nombreuses.
@@ -138253,17 +138253,17 @@
 # sent_id = fr-ud-train_04943
 # text = Sa taille est d'environ 20 à 21 cm de longueur.
 1	Sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
-2	taille	taille	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+2	taille	taille	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 4	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 5	environ	environ	ADV	_	_	6	advmod	_	_
 6	20	20	NUM	_	_	9	nummod	_	_
 7	à	à	ADP	_	_	8	case	_	_
 8	21	21	NUM	_	_	6	nmod	_	_
-9	cm	cm	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	_
+9	cm	cm	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 10	de	de	ADP	_	_	11	case	_	_
-11	longueur	longueur	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	11	punct	_	_
+11	longueur	longueur	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_04944
 # text = Services publics présents sur la commune : mairie, école maternelle et primaire regroupant les enfants de la commune et de celle de Saint-Quentin-lès-Beaurepaire, poste.
@@ -189640,20 +189640,20 @@
 # sent_id = fr-ud-train_06754
 # text = Des négociations intenses étaient en cours mardi entre Paris, Londres et Washington pour déterminer qui prendra la direction des opérations, selon des sources concordantes.
 1	Des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	négociations	négociation	NOUN	_	Gender=Fem|Number=Plur	26	nsubj	_	_
+2	négociations	négociation	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	intenses	intense	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
-4	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
+4	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 5	en	en	ADP	_	_	6	case	_	_
-6	cours	cours	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	_
-7	mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	_
+6	cours	cours	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
 8	entre	entre	ADP	_	_	9	case	_	_
-9	Paris	Paris	PROPN	_	_	26	obl:mod	_	SpaceAfter=No
+9	Paris	Paris	PROPN	_	_	6	obl:mod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	Londres	Londres	PROPN	_	_	9	conj	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	Washington	Washington	PROPN	_	_	9	conj	_	_
 14	pour	pour	ADP	_	_	15	mark	_	_
-15	déterminer	déterminer	VERB	_	VerbForm=Inf	26	advcl	_	_
+15	déterminer	déterminer	VERB	_	VerbForm=Inf	6	advcl	_	_
 16	qui	qui	PRON	_	_	17	nsubj	_	_
 17	prendra	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	ccomp	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -189665,9 +189665,9 @@
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	selon	selon	ADP	_	_	26	case	_	_
 25	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
-26	sources	source	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+26	sources	source	NOUN	_	Gender=Fem|Number=Plur	6	obl:mod	_	_
 27	concordantes	concordant	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	26	punct	_	_
+28	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_06755
 # text = Jean-Luc Outers est un écrivain belge né le 5 mars 1949 à Bruxelles où il vit toujours.
@@ -195568,19 +195568,19 @@
 1	Plus	plus	ADV	_	_	3	advmod	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
 3	3000	3000	NUM	_	_	4	nummod	_	_
-4	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
-5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+4	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
+5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
 6	sans	sans	ADP	_	_	7	case	_	_
-7	abri	abri	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
+7	abri	abri	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 8	après	après	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-10	coulées	coulée	NOUN	_	Gender=Fem|Number=Plur	15	obl:mod	_	_
+10	coulées	coulée	NOUN	_	Gender=Fem|Number=Plur	7	obl:mod	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	boue	boue	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	dans	dans	ADP	_	_	15	case	_	_
 14	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
-15	ville	ville	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	15	punct	_	_
+15	ville	ville	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_06965
 # text = Le napoléon est une pièce de monnaie d'or française de vingt francs contenant 5,805 grammes d'or pur, créée le 28 mars 1803 par le Premier Consul Napoléon Bonaparte.
@@ -240450,32 +240450,32 @@
 2	d'	de	ADP	_	_	1	fixed	_	SpaceAfter=No
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	première	premier	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
-5	demi-heure	demi-heure	NOUN	_	Gender=Fem|Number=Sing	24	obl:mod	_	_
+5	demi-heure	demi-heure	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
 6	gratuite	gratuit	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	24	punct	_	_
+7	,	,	PUNCT	_	_	5	punct	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	coût	coût	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
+9	coût	coût	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
 10	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 11	utilisation	utilisation	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 12	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	vélo	vélo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	70	70	NUM	_	_	18	nummod	_	_
-18	centimes	centime	NOUN	_	Gender=Masc|Number=Plur	24	obl:mod	_	_
+18	centimes	centime	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 19	par	par	ADP	_	_	20	case	_	_
-20	demie-heure	demi-heure	NOUN	_	Gender=Fem|Number=Sing	24	obl:mod	_	_
+20	demie-heure	demi-heure	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
 21	supplémentaire	supplémentaire	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 22	dans	dans	ADP	_	_	24	case	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	limite	limite	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+24	limite	limite	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	deux	deux	NUM	_	_	27	nummod	_	_
 27	heures	heure	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	_
 28	afin	afin	ADV	_	_	30	mark	_	_
 29	d'	de	ADP	_	_	28	fixed	_	SpaceAfter=No
-30	encourager	encourager	VERB	_	VerbForm=Inf	24	advcl	_	_
+30	encourager	encourager	VERB	_	VerbForm=Inf	18	advcl	_	_
 31	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	rotation	rotation	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
 33	rapide	rapide	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	_
@@ -240483,7 +240483,7 @@
 34	de	de	ADP	_	_	36	case	_	_
 35	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
 36	vélos	vélo	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	24	punct	_	_
+37	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = fr-ud-train_08556
 # text = Outre les premières installations antérieures à 1957, dont il ne reste aucune trace à part une photographie, Priore construit quatre appareils pour ses essais, les deux premiers par lui-même, les seconds étant réalisés par la société Leroy-Somer, sous ses directives, dans des hangars extérieurs.
@@ -264145,19 +264145,19 @@
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	débuts	début	NOUN	_	Gender=Masc|Number=Plur	14	obl:mod	_	_
+3	débuts	début	NOUN	_	Gender=Masc|Number=Plur	12	obl:mod	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	années	année	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
 7	60	60	NUM	_	_	6	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	14	punct	_	_
-9	Trenet	Trenet	PROPN	_	_	14	nsubj	_	_
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	Trenet	Trenet	PROPN	_	_	12	nsubj	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	en	en	ADP	_	_	12	case	_	_
-12	procès	procès	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
+12	procès	procès	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 13	contre	contre	ADP	_	_	14	case	_	_
-14	Claude	Claude	PROPN	_	_	0	root	_	_
+14	Claude	Claude	PROPN	_	_	12	nmod	_	_
 15	François	François	PROPN	_	_	14	flat:name	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
 17	Charles	Charles	PROPN	_	_	14	conj	_	_
@@ -264168,7 +264168,7 @@
 22	accuse	accuser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	plagiats	plagiat	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	14	punct	_	_
+25	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-train_09393
 # text = La question que nous devons nous poser ici est : comment se fait-il que les Sephiroth soient androgynes alors que certaines sont appelées mâles et d'autres femelles ?
@@ -317681,28 +317681,28 @@
 # sent_id = fr-ud-train_11336
 # text = Le taux (50,9%) est du même ordre de grandeur que le taux national (51,6%).
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	taux	taux	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+2	taux	taux	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
 4	50,9	50,9	NUM	_	_	5	nummod	_	SpaceAfter=No
 5	%	%	SYM	_	_	2	appos	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	5	punct	_	_
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	11	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	même	même	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-11	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	_
+11	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	grandeur	grandeur	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 14	que	que	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	taux	taux	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+16	taux	taux	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	_
 17	national	national	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 19	51,6	51,6	NUM	_	_	20	nummod	_	SpaceAfter=No
 20	%	%	SYM	_	_	16	appos	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
-22	.	.	PUNCT	_	_	16	punct	_	_
+22	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-train_11337
 # text = En 1751, Jussieu a planté quelques-unes de ces graines en France et en a envoyé d'autres à Philip Miller, le directeur général du Chelsea Physic Garden, et à Philip C. Webb, le propriétaire d'un jardin de plantes exotiques à Busbridge, en Angleterre.
@@ -347092,14 +347092,14 @@
 # sent_id = fr-ud-train_12370
 # text = Les ailes sont de couleur gris foncé à marge finement bordée de jaune d'or aux ailes antérieures, largement aux ailes postérieures.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	ailes	aile	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
-3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+2	ailes	aile	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	de	de	ADP	_	_	5	case	_	_
-5	couleur	couleur	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
+5	couleur	couleur	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6	gris	gris	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	foncé	foncé	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 8	à	à	ADP	_	_	9	case	_	_
-9	marge	marge	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+9	marge	marge	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
 10	finement	finement	ADV	_	_	11	advmod	_	_
 11	bordée	border	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
 12	de	de	ADP	_	_	13	case	_	_
@@ -347118,7 +347118,7 @@
 23	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	ailes	aile	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
 25	postérieures	postérieur	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	9	punct	_	_
+26	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_12371
 # text = La France n'a conclu avec la Polynésie qu'une seule Convention fiscale internationale signée le 28 mars 1957 relative à l'élimination des doubles impositions et à l'établissement des règles d'assistance mutuelle administrative pour l'imposition des revenus de capitaux mobiliers.
@@ -347176,17 +347176,17 @@
 
 # sent_id = fr-ud-train_12372
 # text = Ils étaient au nombre de douze pour Paris.
-1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
-2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+5	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	douze	douze	NUM	_	_	5	nmod	_	_
 8	pour	pour	ADP	_	_	9	case	_	_
-9	Paris	Paris	PROPN	_	_	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	9	punct	_	_
+9	Paris	Paris	PROPN	_	_	5	obl:mod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_12373
 # text = L'IFM se décompose en trois pôles :
@@ -366528,13 +366528,13 @@
 # sent_id = fr-ud-train_13028
 # text = Une réflexion est en cours sur la prise en compte de milieux marins dans le réseau écologique national (Trame verte et bleue nationale, notamment mise en avant par le Grenelle de l'Environnement, qui pourrait être basé sur les parcs marins et le développement des aires marines protégées, basé sur l « inventaires ZNIEFF-MER » par le service du patrimoine naturel du Muséum national d'histoire naturel de Paris (MNHN), avec le département "milieux et peuplements aquatiques", en lien avec les programmes REBENT (Réseau Benthique) coordonnés par Ifremer.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	réflexion	réflexion	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+2	réflexion	réflexion	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	en	en	ADP	_	_	5	case	_	_
-5	cours	cours	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+5	cours	cours	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	sur	sur	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	prise	prise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+8	prise	prise	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
 9	en	en	ADP	_	_	10	case	_	_
 10	compte	compte	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 11	de	de	ADP	_	_	12	case	_	_
@@ -366633,7 +366633,7 @@
 101	coordonnés	coordonner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	95	acl	_	_
 102	par	par	ADP	_	_	103	case	_	_
 103	Ifremer	Ifremer	PROPN	_	_	101	obl:agent	_	SpaceAfter=No
-104	.	.	PUNCT	_	_	8	punct	_	_
+104	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_13029
 # text = Par ailleurs, plusieurs gouvernements ont énergiquement dénoncé la répression marocaine.
@@ -391078,16 +391078,16 @@
 # sent_id = fr-ud-train_13881
 # text = La proportion de femmes était de 100 pour 96,0 hommes.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	proportion	proportion	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+2	proportion	proportion	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	femmes	femme	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
-5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
 6	de	de	ADP	_	_	7	case	_	_
-7	100	100	NUM	_	_	10	obl:mod	_	_
+7	100	100	NUM	_	_	0	root	_	_
 8	pour	pour	ADP	_	_	10	case	_	_
 9	96,0	96,0	NUM	_	_	10	nummod	_	_
-10	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	10	punct	_	_
+10	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_13882
 # text = Les individus se sentant verbalement attaqués sur une base régulière doivent rechercher des conseils de la part de professionnels et partir loin de l'environnement négatif lorsque c'est possible.
@@ -397553,15 +397553,15 @@
 # sent_id = fr-ud-train_14109
 # text = Ce dernier était à Tripoli depuis le 28 février.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
-2	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+2	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	5	case	_	_
-5	Tripoli	Tripoli	PROPN	_	_	9	obl:mod	_	_
+5	Tripoli	Tripoli	PROPN	_	_	3	obl:mod	_	_
 6	depuis	depuis	ADP	_	_	9	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	28	28	NUM	_	_	9	nummod	_	_
-9	février	février	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	9	punct	_	_
+9	février	février	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_14110
 # text = Le principal cours d'eau en termes de débit est Rörumsån, marquant la frontière sud du parc.
