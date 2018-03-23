@@ -8528,8 +8528,8 @@
 5	d'	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	7	det	_	SpaceAfter=No
 6	autres	autre	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
 7	secrétariats	secrétariat	NOUN	_	Gender=Masc|Number=Plur	20	obl:mod	_	_
-8	d'	de	ADP	_	_	7	nmod	_	SpaceAfter=No
-9	accords	accord	NOUN	_	Gender=Masc|Number=Plur	8	fixed	_	_
+8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
+9	accords	accord	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
 10	régionaux	régional	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -17498,10 +17498,10 @@
 6	Comyn	Comyn	PROPN	_	_	8	nsubj	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	évêque	évêque	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-9	«	«	PUNCT	_	_	11	punct	_	_
+9	«	«	PUNCT	_	_	10	punct	_	_
 10	de	de	ADP	_	_	8	nmod	_	_
 11	facto	facto	NOUN	_	_	10	fixed	_	_
-12	»	»	PUNCT	_	_	11	punct	_	SpaceAfter=No
+12	»	»	PUNCT	_	_	10	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	8	punct	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	contrôle	contrôler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
@@ -105637,7 +105637,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	dès	dès	ADP	_	_	3	advmod	_	_
 6	lors	lors	ADV	_	_	5	fixed	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
+7	,	,	PUNCT	_	_	5	punct	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	possession	possession	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 10	pour	pour	ADP	_	_	12	case	_	_
@@ -124610,13 +124610,13 @@
 20	se	se	PRON	_	Person=3|PronType=Prs	21	expl	_	_
 21	montrent	montrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 22	capables	capable	ADJ	_	Gender=Fem|Number=Plur	21	xcomp	_	_
-23	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	in	in	ADP	_	_	22	obl	_	_
 25	vitro	vitro	NOUN	_	_	24	fixed	_	_
-26	et	et	CCONJ	_	_	28	cc	_	_
-27	in	in	ADP	_	_	28	case	_	_
-28	vivo	vivo	NOUN	_	_	25	conj	_	SpaceAfter=No
-29	)	)	PUNCT	_	_	25	punct	_	_
+26	et	et	CCONJ	_	_	27	cc	_	_
+27	in	in	ADP	_	_	24	conj	_	_
+28	vivo	vivo	NOUN	_	_	27	fixed	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	24	punct	_	_
 30	de	de	ADP	_	_	32	mark	_	_
 31	s'	se	PRON	_	Person=3|PronType=Prs	32	iobj	_	SpaceAfter=No
 32	enduire	enduire	VERB	_	VerbForm=Inf	22	xcomp	_	_
@@ -130829,7 +130829,7 @@
 # text = De plus, il lui a sans doute fait étudier le latin et le grec, pré-requis de l'entrée à Cambridge, peut-être en paiement partiel du préceptorat.
 1	De	de	ADP	_	_	10	advmod	_	_
 2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:caus	_	_
 5	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	10	iobj:agent	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
@@ -138867,7 +138867,7 @@
 36	Alabama	Alabama	PROPN	_	_	34	nmod	_	_
 37	aussi	aussi	ADV	_	_	40	mark	_	_
 38	bien	bien	ADV	_	_	37	fixed	_	_
-39	qu'	que	SCONJ	_	_	38	fixed	_	SpaceAfter=No
+39	qu'	que	SCONJ	_	_	37	fixed	_	SpaceAfter=No
 40	à	à	ADP	_	_	42	case	_	_
 41	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
 42	Air	Air	PROPN	_	_	22	obl	_	_
@@ -157013,10 +157013,10 @@
 56	gestion	gestion	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	_
 57	prudente	prudent	ADJ	_	Gender=Fem|Number=Sing	56	amod	_	_
 58	et	et	CCONJ	_	_	64	cc	_	SpaceAfter=No
-59	,	,	PUNCT	_	_	61	punct	_	_
+59	,	,	PUNCT	_	_	60	punct	_	_
 60	bien	bien	ADV	_	_	58	amod	_	_
 61	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	60	fixed	_	SpaceAfter=No
-62	,	,	PUNCT	_	_	61	punct	_	_
+62	,	,	PUNCT	_	_	60	punct	_	_
 63	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
 64	sous-sol	sous-sol	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	_
 65	riche	riche	ADJ	_	Gender=Masc|Number=Sing	64	amod	_	_
@@ -169106,9 +169106,9 @@
 
 # sent_id = fr-ud-train_06034
 # text = Tout d'abord diffusé par Mindscape, le jeu sera ensuite vendu sous le label Maxis.
-1	Tout	tout	ADV	_	_	3	advmod	_	_
-2	d'	de	ADP	_	_	4	obl:mod	_	SpaceAfter=No
-3	abord	abord	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	_
+1	Tout	tout	ADV	_	_	4	advmod	_	_
+2	d'	de	ADP	_	_	1	fixed	_	SpaceAfter=No
+3	abord	abord	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 4	diffusé	diffuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
 5	par	par	ADP	_	_	6	case	_	_
 6	Mindscape	Mindscape	PROPN	_	_	4	obl:agent	_	SpaceAfter=No
@@ -171102,7 +171102,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	d'	de	ADP	_	_	8	advmod	_	SpaceAfter=No
 5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+6	,	,	PUNCT	_	_	4	punct	_	_
 7	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 8	aboutit	aboutir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
@@ -194075,7 +194075,7 @@
 # text = De même, selon la treizième édition du Bon usage de Grevisse (refondue par André Goosse) 1993, la graphie « Au temps » de l'injonction militaire et gymnastique est peut-être une altération de autant.
 1	De	de	ADP	_	_	38	advmod	_	_
 2	même	même	ADV	_	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	selon	selon	ADP	_	_	7	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	treizième	treizième	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
@@ -195948,7 +195948,7 @@
 # text = De plus, il diffère du mezza traditionnel en présentant les assiettes empilées les unes sur les autres, de façon à pouvoir se servir de chaque petit plat quel que soit son emplacement.
 1	De	de	ADP	_	_	5	advmod	_	_
 2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	diffère	différer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6-7	du	_	_	_	_	_	_	_	_
@@ -205998,7 +205998,7 @@
 # text = De plus, n'étant pas du même avis que Johnson dans deux de ces pamphlets, The False Alarme et Taxation No Tyranny, Boswell critique le point de vue de Johnson dans sa biographie.
 1	De	de	ADP	_	_	28	advmod	_	_
 2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 5	étant	être	VERB	_	Tense=Pres|VerbForm=Part	27	acl	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	_
@@ -209509,11 +209509,11 @@
 9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	spécialités	spécialité	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	_
 11	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
-12	d'	de	ADP	_	_	18	obl:mod	_	SpaceAfter=No
+12	d'	de	ADP	_	_	18	advmod	_	SpaceAfter=No
 13	abord	abord	NOUN	_	Gender=Masc|Number=Sing	12	fixed	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	avant	avant	ADP	_	_	16	case	_	_
-16	tout	tout	ADV	_	_	13	conj	_	_
+16	tout	tout	ADV	_	_	12	conj	_	_
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	vins	vin	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
@@ -278451,21 +278451,21 @@
 # text = Tous les scientifiques ne sont pas d'accord avec cette ancienneté, non pas pour des incertitudes de datation, mais plutôt pour des raisons de définition de ce qui fonde la différence entre un tétrapodomorphe et un tétrapode.
 1	Tous	tout	DET	_	Gender=Masc|Number=Plur	3	det	_	_
 2	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	scientifiques	scientifique	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
-4	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	_
-5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-6	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
+3	scientifiques	scientifique	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	_
+5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
 7	d'	de	ADP	_	_	0	root	_	SpaceAfter=No
 8	accord	accord	NOUN	_	Gender=Masc|Number=Sing	7	fixed	_	_
 9	avec	avec	ADP	_	_	11	case	_	_
 10	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
-11	ancienneté	ancienneté	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	8	punct	_	_
+11	ancienneté	ancienneté	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
 13	non	non	ADV	_	_	14	advmod	_	_
 14	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	_
 15	pour	pour	ADP	_	_	17	case	_	_
 16	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-17	incertitudes	incertitude	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+17	incertitudes	incertitude	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	datation	datation	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	17	punct	_	_
@@ -278488,7 +278488,7 @@
 37	et	et	CCONJ	_	_	39	cc	_	_
 38	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	tétrapode	tétrapode	NOUN	_	Gender=Masc|Number=Sing	36	conj	_	SpaceAfter=No
-40	.	.	PUNCT	_	_	8	punct	_	_
+40	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_09899
 # text = Il est situé sur la rue Yonge (la rue principale de Toronto), mais aussi sur Sheppard Avenue où beaucoup de constructions sont apparues.
@@ -297247,7 +297247,7 @@
 13	,	,	PUNCT	_	_	8	punct	_	_
 14	aussi	aussi	ADV	_	_	18	cc	_	_
 15	bien	bien	ADV	_	_	14	fixed	_	_
-16	que	que	SCONJ	_	_	15	fixed	_	_
+16	que	que	SCONJ	_	_	14	fixed	_	_
 17	Avenged	avenged	ADJ	_	_	18	amod	_	_
 18	Sevenfold	Sevenfold	PROPN	_	_	8	conj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
@@ -307143,7 +307143,7 @@
 # text = De plus, le volant est réglable en hauteur et en profondeur.
 1	De	de	ADP	_	_	7	advmod	_	_
 2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	volant	volant	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -312568,7 +312568,7 @@
 # text = Bien sûr, telle politique peut être bénéfique et telle autre mauvaise.
 1	Bien	bien	ADV	_	_	6	advmod	_	_
 2	sûr	sûr	ADV	_	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	telle	tel	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	politique	politique	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 6	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -313581,7 +313581,7 @@
 18	:	:	PUNCT	_	_	38	punct	_	_
 19	en	en	ADP	_	_	38	advmod	_	_
 20	effet	effet	NOUN	_	Gender=Masc|Number=Sing	19	fixed	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	20	punct	_	_
+21	,	,	PUNCT	_	_	19	punct	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	38	nsubj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	29	punct	_	_
@@ -328583,7 +328583,7 @@
 # text = De plus, des macrophytes (des lentilles d'eau par exemple) se développent en surface et jouent le rôle de barrière à la lumière pour les cyanobactéries et le phytoplancton.
 1	De	de	ADP	_	_	15	advmod	_	_
 2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	macrophytes	macrophyte	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
 6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -346049,7 +346049,7 @@
 # text = De plus, la trichotillomanie est fréquemment un symptôme accompagnant un trouble psychiatrique et pas forcément le trouble lui-même.
 1	De	de	ADP	_	_	9	advmod	_	_
 2	plus	plus	ADV	_	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	trichotillomanie	trichotillomanie	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -348185,7 +348185,7 @@
 7	paysages	paysage	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 8	aussi	aussi	ADV	_	_	12	cc	_	_
 9	bien	bien	ADV	_	_	8	fixed	_	_
-10	que	que	SCONJ	_	_	9	fixed	_	_
+10	que	que	SCONJ	_	_	8	fixed	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	fleurs	fleur	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
