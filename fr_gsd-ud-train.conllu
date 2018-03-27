@@ -38627,7 +38627,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
 6	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
-7	en	en	PRON	_	Person=3	10	case	_	_
+7	en	en	PRON	_	Person=3	10	nmod	_	_
 8	subit	subir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	contrecoup	contrecoup	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
@@ -75290,7 +75290,7 @@
 50	zone	zone	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
 51	euro	euro	NOUN	_	Gender=Masc|Number=Sing	50	compound	_	_
 52	n'	ne	ADV	_	Polarity=Neg	55	advmod	_	SpaceAfter=No
-53	en	en	PRON	_	Person=3	55	case	_	_
+53	en	en	PRON	_	Person=3	55	obl:mod	_	_
 54	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	aux:pass	_	_
 55	freinée	freiner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	36	conj	_	SpaceAfter=No
 56	.	.	PUNCT	_	_	4	punct	_	_
@@ -94677,7 +94677,7 @@
 # text = Et là où ils s'établissaient, ils se sont assemblés en une communauté bien organisée autour de grands pôles commerciaux.
 1	Et	et	CCONJ	_	_	11	cc	_	_
 2	là	là	ADV	_	_	11	advmod	_	_
-3	où	où	PRON	_	PronType=Rel	6	case	_	_
+3	où	où	PRON	_	PronType=Rel	6	obl:arg	_	_
 4	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
 6	établissaient	établir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
@@ -123169,7 +123169,7 @@
 4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	_
 5	exactement	exactement	ADV	_	_	3	advmod	_	_
 6	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
-7	en	en	PRON	_	Person=3	10	case	_	_
+7	en	en	PRON	_	Person=3	10	nmod	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	initiateur	initiateur	NOUN	_	Gender=Masc|Number=Sing	3	acl:relcl	_	SpaceAfter=No
@@ -155095,7 +155095,7 @@
 10	car	car	CCONJ	_	_	14	cc	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 12	n'	ne	ADV	_	Polarity=Neg	14	advmod	_	SpaceAfter=No
-13	y	y	PRON	_	_	14	case	_	_
+13	y	y	PRON	_	_	14	expl	_	_
 14	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
 15	rien	rien	PRON	_	Number=Sing|Polarity=Neg	14	obj	_	_
 16	en	en	ADP	_	_	17	case	_	_
@@ -157597,7 +157597,7 @@
 9	jamais	jamais	ADV	_	_	8	advmod	_	_
 10	et	et	CCONJ	_	_	13	cc	_	_
 11	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
-12	y	y	PRON	_	_	13	case	_	_
+12	y	y	PRON	_	_	13	iobj	_	_
 13	reviendrons	revenir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	8	conj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -159005,7 +159005,7 @@
 13	tout	tout	DET	_	Gender=Masc|Number=Sing	15	det	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	monde	monde	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
-16	en	en	PRON	_	Person=3	17	case	_	_
+16	en	en	PRON	_	Person=3	17	iobj	_	_
 17	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 18	!	!	PUNCT	_	_	4	punct	_	_
 
@@ -167259,7 +167259,7 @@
 7	fin	fin	NOUN	_	Gender=Fem|Number=Sing	8	compound	_	_
 8	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
 9	2001	2001	NUM	_	_	8	nmod	_	_
-10	où	où	PRON	_	PronType=Rel	12	case	_	_
+10	où	où	PRON	_	PronType=Rel	12	obl:mod	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	marque	marquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
 13	six	six	NUM	_	_	14	nummod	_	_
@@ -173138,7 +173138,7 @@
 # text = Il n'en reste pas moins qu'il est très agréable et les plats sont bons.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
-3	en	en	PRON	_	Person=3	4	case	_	_
+3	en	en	PRON	_	Person=3	4	obl:mod	_	_
 4	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
 6	moins	moins	ADV	_	_	4	advmod	_	_
@@ -192507,7 +192507,7 @@
 16	ans	an	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	pour	pour	ADP	_	_	20	mark	_	_
-19	en	en	PRON	_	Person=3	24	case	_	_
+19	en	en	PRON	_	Person=3	24	nmod	_	_
 20	présider	présider	VERB	_	VerbForm=Inf	14	advcl	_	_
 21	plusieurs	plusieurs	DET	_	Gender=Fem|Number=Plur	22	det	_	_
 22	fois	fois	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
@@ -221601,7 +221601,7 @@
 4	que	que	SCONJ	_	_	3	fixed	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	jury	jury	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
-7	en	en	PRON	_	Person=3	8	case	_	_
+7	en	en	PRON	_	Person=3	8	iobj	_	_
 8	tienne	tenir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 9	compte	compte	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
@@ -250255,7 +250255,7 @@
 # sent_id = fr-ud-train_08889
 # text = Il en devint amoureux.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	en	en	PRON	_	Person=3	3	case	_	_
+2	en	en	PRON	_	Person=3	4	iobj	_	_
 3	devint	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	amoureux	amoureux	ADJ	_	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
@@ -278018,7 +278018,7 @@
 19	polynôme	polynôme	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 20	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	d'	de	ADP	_	_	23	mark	_	SpaceAfter=No
-22	en	en	PRON	_	Person=3	25	case	_	_
+22	en	en	PRON	_	Person=3	25	nmod	_	_
 23	construire	construire	VERB	_	VerbForm=Inf	20	ccomp	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	matrice	matrice	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
@@ -350155,7 +350155,7 @@
 4	de	de	ADP	_	_	6	case	_	_
 5	70	70	NUM	_	_	6	nummod	_	_
 6	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
-7	y	y	PRON	_	_	8	case	_	_
+7	y	y	PRON	_	_	8	obl:mod	_	_
 8	incarnera	incarner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
@@ -353610,7 +353610,7 @@
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	Côtes-d'Armor	Côtes-d'Armor	PROPN	_	_	24	nmod	_	_
 29	qui	qui	PRON	_	PronType=Rel	31	nsubj	_	_
-30	en	en	PRON	_	Person=3	33	case	_	_
+30	en	en	PRON	_	Person=3	33	nmod	_	_
 31	assure	assurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
 32	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
 33	entretien	entretien	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
@@ -385515,32 +385515,34 @@
 2	suivent	suivre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
 4	derniers	dernier	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
-5	au-delà	au-delà	ADV	_	_	7	case	_	_
-6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
-7	Pyrénées	Pyrénées	PROPN	_	_	2	obl	_	_
-8	en	en	ADP	_	_	9	case	_	_
-9	408	408	NUM	_	_	2	obl	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	13	punct	_	_
-11	avant	avant	ADV	_	_	13	mark	_	_
-12	de	de	ADP	_	_	11	fixed	_	_
-13	conquérir	conquérir	VERB	_	VerbForm=Inf	2	advcl	_	_
-14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
-15	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
-16	province	province	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	León	León	PROPN	_	_	16	nmod	_	_
-19	et	et	CCONJ	_	_	21	cc	_	_
-20	de	de	ADP	_	_	21	mark	_	_
-21	fonder	fonder	VERB	_	VerbForm=Inf	11	conj	_	_
-22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
-24	en	en	ADP	_	_	25	case	_	_
-25	Galice	Galice	PROPN	_	_	21	obl	_	_
-26	:	:	PUNCT	_	_	28	punct	_	_
-27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	_
-29	suève	suève	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	2	punct	_	_
+5	au-delà	au-delà	ADV	_	_	8	case	_	_
+6-7	des	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	5	fixed	_	_
+7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Pyrénées	Pyrénées	PROPN	_	_	2	obl	_	_
+9	en	en	ADP	_	_	10	case	_	_
+10	408	408	NUM	_	_	2	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	2	punct	_	_
+12	avant	avant	ADV	_	_	14	mark	_	_
+13	de	de	ADP	_	_	12	fixed	_	_
+14	conquérir	conquérir	VERB	_	VerbForm=Inf	2	advcl	_	_
+15	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+16	actuelle	actuel	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+17	province	province	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	León	León	PROPN	_	_	17	nmod	_	_
+20	et	et	CCONJ	_	_	22	cc	_	_
+21	de	de	ADP	_	_	22	mark	_	_
+22	fonder	fonder	VERB	_	VerbForm=Inf	14	conj	_	_
+23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
+25	en	en	ADP	_	_	26	case	_	_
+26	Galice	Galice	PROPN	_	_	22	obl	_	_
+27	:	:	PUNCT	_	_	29	punct	_	_
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	24	appos	_	_
+30	suève	suève	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_13682
 # text = Ces derniers améliorent les capacités multimédia des PC et rapproche de plus en plus l'interface Windows du Système Mac.
@@ -388417,7 +388419,7 @@
 17	aéroports	aéroport	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 18	britanniques	britannique	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
 19	à	à	ADP	_	_	22	mark	_	_
-20	en	en	PRON	_	Person=3	22	case	_	_
+20	en	en	PRON	_	Person=3	22	iobj	_	_
 21	être	être	AUX	_	VerbForm=Inf	22	aux	_	_
 22	équipés	équiper	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	17	punct	_	_
@@ -402035,7 +402037,7 @@
 4	parvient	parvenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
 6	à	à	ADP	_	_	8	mark	_	_
-7	en	en	PRON	_	Person=3	10	case	_	_
+7	en	en	PRON	_	Person=3	10	nmod	_	_
 8	observer	observer	VERB	_	VerbForm=Inf	4	xcomp	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	seul	seul	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
@@ -407972,7 +407974,7 @@
 # text = Ceux qui en doutent doivent méditer cet élan de patriotisme qui s'est emparé spontanément de notre jeunesse, à la suite des incidents qui ont émaillé la qualification de l'équipe nationale de football à la coupe du monde 2010.
 1	Ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	5	nsubj	_	_
 2	qui	qui	PRON	_	PronType=Rel	4	nsubj	_	_
-3	en	en	PRON	_	Person=3	4	case	_	_
+3	en	en	PRON	_	Person=3	4	iobj	_	_
 4	doutent	douter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
 5	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	méditer	méditer	VERB	_	VerbForm=Inf	5	xcomp	_	_
@@ -408433,7 +408435,7 @@
 # sent_id = fr-ud-train_14496
 # text = Il en résulte que les couples mariés doivent souscrire une seule déclaration qui regroupe l'ensemble de leurs biens, droits et valeurs imposables ainsi que ceux de leurs enfants mineurs lorsqu'ils ont l'administration légale de leurs biens.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	en	en	PRON	_	Person=3	3	case	_	_
+2	en	en	PRON	_	Person=3	3	iobj	_	_
 3	résulte	résulter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	que	que	SCONJ	_	_	8	mark	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
