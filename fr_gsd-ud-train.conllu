@@ -37194,75 +37194,77 @@
 14	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_01316
-# text = de jeunes forêts isolées dans le Svartåmyran constitue la deuxième zone, qui sera brûlée dans un premier temps pour restaurer sa naturalité, en prenant soin de certains arbres comme les saules et les aulnes, puis laissée à elle-même, les feux de forêts ne s'y produisant naturellement pas du fait de la situation au cœur du marais.
-1	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-2	jeunes	jeune	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
-3	forêts	forêt	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
-4	isolées	isoler	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
-5	dans	dans	ADP	_	_	7	case	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Svartåmyran	Svartåmyran	PROPN	_	_	4	obl:mod	_	_
-8	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Correct=constituent
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-10	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-11	zone	zone	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	11	punct	_	_
-13	qui	qui	PRON	_	PronType=Rel	15	nsubj:pass	_	_
-14	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux:pass	_	_
-15	brûlée	brûler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
-16	dans	dans	ADP	_	_	19	case	_	_
-17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-18	premier	premier	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
-19	temps	temps	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
-20	pour	pour	ADP	_	_	21	mark	_	_
-21	restaurer	restaurer	VERB	_	VerbForm=Inf	15	advcl	_	_
-22	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det	_	_
-23	naturalité	naturalité	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	15	punct	_	_
-25	en	en	ADP	_	_	26	mark	_	_
-26	prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	15	advcl	_	_
-27	soin	soin	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
-28	de	de	ADP	_	_	30	case	_	_
-29	certains	certain	DET	_	Gender=Masc|Number=Plur	30	det	_	_
-30	arbres	arbre	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
-31	comme	comme	ADP	_	_	33	case	_	_
-32	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
-33	saules	saule	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
-34	et	et	CCONJ	_	_	36	cc	_	_
-35	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
-36	aulnes	aulne	NOUN	_	Gender=Masc|Number=Plur	33	conj	_	SpaceAfter=No
-37	,	,	PUNCT	_	_	15	punct	_	_
-38	puis	puis	SCONJ	_	_	39	cc	_	_
-39	laissée	laisser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
-40	à	à	ADP	_	_	41	case	_	_
-41	elle-même	elle-même	PRON	_	Gender=Fem|Number=Sing|Person=3|Reflex=Yes	39	obl	_	SpaceAfter=No
-42	,	,	PUNCT	_	_	39	punct	_	_
-43	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
-44	feux	feu	NOUN	_	Gender=Masc|Number=Plur	50	nsubj	_	_
-45	de	de	ADP	_	_	46	case	_	_
-46	forêts	forêt	NOUN	_	Gender=Fem|Number=Plur	44	nmod	_	_
-47	ne	ne	ADV	_	Polarity=Neg	50	advmod	_	_
-48	s'	se	PRON	_	Person=3|PronType=Prs	50	expl:pass	_	SpaceAfter=No
-49	y	y	ADV	_	_	50	advmod	_	_
-50	produisant	produire	VERB	_	Tense=Pres|VerbForm=Part	39	advcl	_	_
-51	naturellement	naturellement	ADV	_	_	50	advmod	_	_
-52	pas	pas	ADV	_	Polarity=Neg	50	advmod	_	_
-53-54	du	_	_	_	_	_	_	_	_
-53	de	de	ADP	_	_	55	case	_	_
-54	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	det	_	_
-55	fait	fait	NOUN	_	Gender=Masc|Number=Sing	50	obl	_	_
-56	de	de	ADP	_	_	58	case	_	_
-57	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
-58	situation	situation	NOUN	_	Gender=Fem|Number=Sing	55	nmod	_	_
-59-60	au	_	_	_	_	_	_	_	_
-59	à	à	ADP	_	_	61	case	_	_
-60	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
-61	cœur	cœur	NOUN	_	Gender=Masc|Number=Sing	58	nmod	_	_
-62-63	du	_	_	_	_	_	_	_	_
-62	de	de	ADP	_	_	64	case	_	_
-63	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
-64	marais	marais	NOUN	_	Gender=Masc|Number=Sing	61	nmod	_	SpaceAfter=No
-65	.	.	PUNCT	_	_	8	punct	_	_
+# text = 17 ha de jeunes forêts isolées dans le Svartåmyran constitue la deuxième zone, qui sera brûlée dans un premier temps pour restaurer sa naturalité, en prenant soin de certains arbres comme les saules et les aulnes, puis laissée à elle-même, les feux de forêts ne s'y produisant naturellement pas du fait de la situation au cœur du marais.
+1	17	17	NUM	_	_	2	nummod	_	_
+2	ha	ha	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	jeunes	jeune	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+5	forêts	forêt	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6	isolées	isoler	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7	dans	dans	ADP	_	_	9	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Svartåmyran	Svartåmyran	PROPN	_	_	6	obl:mod	_	_
+10	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Correct=constituent
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+13	zone	zone	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	qui	qui	PRON	_	PronType=Rel	17	nsubj:pass	_	_
+16	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux:pass	_	_
+17	brûlée	brûler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	dans	dans	ADP	_	_	21	case	_	_
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	premier	premier	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+21	temps	temps	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
+22	pour	pour	ADP	_	_	23	mark	_	_
+23	restaurer	restaurer	VERB	_	VerbForm=Inf	17	advcl	_	_
+24	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det	_	_
+25	naturalité	naturalité	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	17	punct	_	_
+27	en	en	ADP	_	_	28	mark	_	_
+28	prenant	prendre	VERB	_	Tense=Pres|VerbForm=Part	17	advcl	_	_
+29	soin	soin	NOUN	_	Gender=Masc|Number=Sing	28	obj	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	certains	certain	DET	_	Gender=Masc|Number=Plur	32	det	_	_
+32	arbres	arbre	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
+33	comme	comme	ADP	_	_	35	case	_	_
+34	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	saules	saule	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	_
+36	et	et	CCONJ	_	_	38	cc	_	_
+37	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	aulnes	aulne	NOUN	_	Gender=Masc|Number=Plur	35	conj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	17	punct	_	_
+40	puis	puis	SCONJ	_	_	41	cc	_	_
+41	laissée	laisser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
+42	à	à	ADP	_	_	43	case	_	_
+43	elle-même	elle-même	PRON	_	Gender=Fem|Number=Sing|Person=3|Reflex=Yes	41	obl	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	41	punct	_	_
+45	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	feux	feu	NOUN	_	Gender=Masc|Number=Plur	52	nsubj	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	forêts	forêt	NOUN	_	Gender=Fem|Number=Plur	46	nmod	_	_
+49	ne	ne	ADV	_	Polarity=Neg	52	advmod	_	_
+50	s'	se	PRON	_	Person=3|PronType=Prs	52	expl:pass	_	SpaceAfter=No
+51	y	y	ADV	_	_	52	advmod	_	_
+52	produisant	produire	VERB	_	Tense=Pres|VerbForm=Part	41	advcl	_	_
+53	naturellement	naturellement	ADV	_	_	52	advmod	_	_
+54	pas	pas	ADV	_	Polarity=Neg	52	advmod	_	_
+55-56	du	_	_	_	_	_	_	_	_
+55	de	de	ADP	_	_	57	case	_	_
+56	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
+57	fait	fait	NOUN	_	Gender=Masc|Number=Sing	52	obl	_	_
+58	de	de	ADP	_	_	60	case	_	_
+59	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	situation	situation	NOUN	_	Gender=Fem|Number=Sing	57	nmod	_	_
+61-62	au	_	_	_	_	_	_	_	_
+61	à	à	ADP	_	_	63	case	_	_
+62	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
+63	cœur	cœur	NOUN	_	Gender=Masc|Number=Sing	60	nmod	_	_
+64-65	du	_	_	_	_	_	_	_	_
+64	de	de	ADP	_	_	66	case	_	_
+65	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	66	det	_	_
+66	marais	marais	NOUN	_	Gender=Masc|Number=Sing	63	nmod	_	SpaceAfter=No
+67	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_01317
 # text = Elles amènent l'éditeur parisien Charles Philipon à lui proposer de s'installer à Paris où à partir de 1847 il suit les cours du lycée Charlemagne et dessine en même temps des caricatures pour le Journal pour rire de Philippon.
@@ -202377,10 +202379,12 @@
 18	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_07205
-# text = Il mesure.
+# text = Il mesure 2,13 m.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	mesure	mesurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	2	punct	_	_
+2	mesure	mesurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	2,13	2,13	NUM	_	_	4	nummod	_	_
+4	m	m	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_07206
 # text = On lui propose le poste de vice-directeur de la Société locale des jeunes naturalistes (organisation soviétique chargée d'apprendre les sciences naturelles aux enfants du primaire).
@@ -211114,10 +211118,10 @@
 62	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_07518
-# text = L'ancien hôtel de ville de Belley de Belley, en France, a utilisé de 1770 à 1863.
+# text = L'ancien hôtel de ville de Belley de Belley, en France, a été utilisé de 1770 à 1863.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-3	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+3	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	ville	ville	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	de	de	ADP	_	_	7	case	_	_
@@ -211127,14 +211131,15 @@
 10	,	,	PUNCT	_	_	3	punct	_	_
 11	en	en	ADP	_	_	12	case	_	_
 12	France	France	PROPN	_	_	3	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	15	punct	_	_
-14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
-15	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-16	de	de	ADP	_	_	17	case	_	_
-17	1770	1770	NUM	_	_	15	obl	_	_
-18	à	à	ADP	_	_	19	case	_	_
-19	1863	1863	NUM	_	_	17	nmod:range	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	15	punct	_	_
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux:pass	_	_
+16	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	1770	1770	NUM	_	_	16	obl	_	_
+19	à	à	ADP	_	_	20	case	_	_
+20	1863	1863	NUM	_	_	18	nmod:range	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-train_07519
 # text = Il a été décoré à plusieurs reprises en raison de sa bravoure.
@@ -313408,11 +313413,11 @@
 69	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_11185
-# text = De son illustre prisonnier qui se plaisait à l'appeler avec un doux sourire :, il parvint à gagner tant l'estime que l'affection.
+# text = De son illustre prisonnier qui se plaisait à l'appeler avec un doux sourire : « Il mio buon Carceriere » (en français : « mon bon gardien de prison ! »), il parvint à gagner tant l'estime que l'affection.
 1	De	de	ADP	_	_	4	case	_	_
 2	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
 3	illustre	illustre	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
-4	prisonnier	prisonnier	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	_
+4	prisonnier	prisonnier	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
 5	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
 6	se	se	PRON	_	Person=3|PronType=Prs	7	expl	_	_
 7	plaisait	plaire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	_
@@ -313423,19 +313428,38 @@
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	doux	doux	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 14	sourire	sourire	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
-15	:	:	PUNCT	_	_	7	punct	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	4	punct	_	_
-17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
-18	parvint	parvenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-19	à	à	ADP	_	_	20	mark	_	_
-20	gagner	gagner	VERB	_	VerbForm=Inf	18	xcomp	_	_
-21	tant	tant	ADV	_	_	23	cc	_	_
-22	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
-23	estime	estime	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
-24	que	que	SCONJ	_	_	26	cc	_	_
-25	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
-26	affection	affection	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	18	punct	_	_
+15	:	:	PUNCT	_	_	10	punct	_	_
+16	«	«	PUNCT	_	_	17	punct	_	_
+17	Il	Il	X	_	_	10	xcomp	_	Foreign=it
+18	mio	mio	X	_	_	17	flat	_	Foreign=it
+19	buon	buon	X	_	_	17	flat	_	Foreign=it
+20	Carceriere	Carceriere	X	_	_	17	flat	_	Foreign=it
+21	»	»	PUNCT	_	_	17	punct	_	_
+22	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
+23	en	en	ADP	_	_	24	case	_	_
+24	français	français	NOUN	Gender=Masc|Number=Sing	_	29	nmod	_	_
+25	:	:	PUNCT	_	_	24	punct	_	_
+26	«	«	PUNCT	_	_	29	punct	_	_
+27	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det	_	_
+28	bon	bon	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	_
+29	gardien	gardien	NOUN	_	Gender=Masc|Number=Sing	17	appos	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	prison	prison	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	!	!	PUNCT	_	_	29	punct	_	_
+33	»	»	PUNCT	_	_	29	punct	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	4	punct	_	_
+36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	parvint	parvenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+38	à	à	ADP	_	_	39	mark	_	_
+39	gagner	gagner	VERB	_	VerbForm=Inf	37	xcomp	_	_
+40	tant	tant	ADV	_	_	42	cc	_	_
+41	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
+42	estime	estime	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	_
+43	que	que	SCONJ	_	_	45	cc	_	_
+44	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	SpaceAfter=No
+45	affection	affection	NOUN	_	Gender=Fem|Number=Sing	42	conj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	37	punct	_	_
 
 # sent_id = fr-ud-train_11186
 # text = Il entraîne ensuite différents clubs de première division, comme le Lille OSC, l'AS Saint-Étienne et le FC Sochaux qu'il rejoint en cours de saison en décembre 1994.
@@ -370914,22 +370938,23 @@
 38	.	.	PUNCT	_	_	23	punct	_	_
 
 # sent_id = fr-ud-train_13178
-# text = Au 31 décembre 2009, Français étaient inscrits sur les registres consulaires.
+# text = Au 31 décembre 2009, 808 Français étaient inscrits sur les registres consulaires.
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	4	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	31	31	NUM	_	_	4	nummod	_	_
-4	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+4	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
 5	2009	2009	NUM	_	_	4	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	9	punct	_	_
-7	Français	Français	PROPN	_	_	9	nsubj	_	_
-8	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
-9	inscrits	inscrire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-10	sur	sur	ADP	_	_	12	case	_	_
-11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-12	registres	registre	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
-13	consulaires	consulaire	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	9	punct	_	_
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	808	808	NUM	_	_	8	nummod	_	_
+8	Français	Français	PROPN	_	_	10	nsubj	_	_
+9	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	inscrits	inscrire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+11	sur	sur	ADP	_	_	13	case	_	_
+12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	registres	registre	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+14	consulaires	consulaire	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_13179
 # text = Pas n'importe lequel.
@@ -376147,7 +376172,7 @@
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_13364
-# text = Dès le mois d'avril, le débit baisse graduellement tout au long du printemps, pour aboutir aux basses eaux d'été qui ont lieu de juillet à septembre inclus, entraînant une baisse du débit mensuel moyen jusqu'à au mois d'août.
+# text = Dès le mois d'avril, le débit baisse graduellement tout au long du printemps, pour aboutir aux basses eaux d'été qui ont lieu de juillet à septembre inclus, entraînant une baisse du débit mensuel moyen jusqu'à 0,715 m3/s au mois d'août.
 1	Dès	dès	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	mois	mois	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
@@ -376195,15 +376220,17 @@
 41	débit	débit	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
 42	mensuel	mensuel	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
 43	moyen	moyen	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
-44	jusqu'	jusque	ADP	_	_	48	case	_	SpaceAfter=No
-45	à	à	ADP	_	_	48	case	_	_
-46-47	au	_	_	_	_	_	_	_	_
-46	à	à	ADP	_	_	48	case	_	_
-47	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
-48	mois	mois	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
-49	d'	de	ADP	_	_	50	case	_	SpaceAfter=No
-50	août	août	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
-51	.	.	PUNCT	_	_	9	punct	_	_
+44	jusqu'	jusque	ADP	_	_	47	case	_	SpaceAfter=No
+45	à	à	ADP	_	_	47	case	_	_
+46	0,715	0,715	NUM	_	_	47	nummod	_	_
+47	m3/s	m3/s	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
+48-49	au	_	_	_	_	_	_	_	_
+48	à	à	ADP	_	_	50	case	_	_
+49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	mois	mois	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
+51	d'	de	ADP	_	_	52	case	_	SpaceAfter=No
+52	août	août	NOUN	_	Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
+53	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_13365
 # text = La cure psychanalytique classique est la marque d'une évolution.
@@ -390173,7 +390200,7 @@
 62	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-train_13844
-# text = L'assemblée est convoquée et par le roi des Francs Clovis Ier et en sa présence.
+# text = L'assemblée est convoquée et par le roi des Francs Clovis Ier et a lieu en sa présence.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -390188,11 +390215,13 @@
 11	Francs	Francs	PROPN	_	_	8	nmod	_	_
 12	Clovis	Clovis	PROPN	_	_	8	appos	_	_
 13	Ier	Ier	NUM	_	_	12	nummod	_	_
-14	et	et	CCONJ	_	_	17	cc	_	_
-15	en	en	ADP	_	_	17	case	_	_
-16	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	_
-17	présence	présence	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	4	punct	_	_
+14	et	et	CCONJ	_	_	15	cc	_	_
+15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+17	en	en	ADP	_	_	19	case	_	_
+18	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
+19	présence	présence	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_13845
 # text = Désapprouvant cette décision, l'armée yougoslave se révolte deux jours plus tard et proclame la majorité du jeune Pierre II.
@@ -406080,7 +406109,7 @@
 40	.	.	PUNCT	_	_	33	punct	_	_
 
 # sent_id = fr-ud-train_14418
-# text = On recherche donc des solutions où tous les champs varient comme.
+# text = On recherche donc des solutions où tous les champs varient comme exp[i(k.r–ωt)].
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	recherche	rechercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	donc	donc	ADV	_	_	2	advmod	_	_
@@ -406091,8 +406120,9 @@
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	champs	champ	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 10	varient	varier	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
-11	comme	comme	ADV	_	_	10	advmod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	2	punct	_	_
+11	comme	comme	ADP	_	_	12	case	_	_
+12	exp[i(k.r–ωt)]	exp[i(k.r–ωt)]	PROPN	_	_	10	obl:arg	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_14419
 # text = Les zones d'habitat les plus élevées et les espaces naturels d'altitude peuvent connaître quelques gelées hivernales.
