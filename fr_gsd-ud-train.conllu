@@ -1554,7 +1554,7 @@
 32	être	être	AUX	_	VerbForm=Inf	33	aux:pass	_	_
 33	retrouvés	retrouver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	31	xcomp	_	_
 34	et	et	CCONJ	_	_	40	cc	_	_
-35	dont	dont	PRON	_	PronType=Rel	37	nmod	_	_
+35	dont	dont	PRON	_	PronType=Rel	44	nmod	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	tombeau	tombeau	NOUN	_	Gender=Masc|Number=Sing	40	nsubj	_	_
 38	de	de	ADP	_	_	39	case	_	_
@@ -11067,7 +11067,7 @@
 12	126	126	NUM	_	_	13	nummod	_	_
 13	commandes	commande	NOUN	_	Gender=Fem|Number=Plur	7	appos	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	5	punct	_	_
-15	dont	dont	PRON	_	PronType=Rel	13	nmod	_	_
+15	dont	dont	PRON	_	PronType=Rel	17	nmod	_	_
 16	61	61	NUM	_	_	17	nummod	_	_
 17	fermes	ferme	ADJ	_	Gender=Fem|Number=Plur	13	appos	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
@@ -18937,7 +18937,7 @@
 19	Société	société	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 20	Schneider	Schneider	PROPN	_	_	19	appos	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	9	punct	_	_
-22	dont	dont	PRON	_	PronType=Rel	26	nmod	_	_
+22	dont	dont	PRON	_	PronType=Rel	24	obl:arg	_	_
 23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
 24	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 25	huit	huit	NUM	_	_	26	nummod	_	_
@@ -35523,7 +35523,7 @@
 34	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
 35	finances	finance	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	31	punct	_	_
-37	dont	dont	PRON	_	PronType=Rel	41	obl	_	_
+37	dont	dont	PRON	_	PronType=Rel	39	obl:arg	_	_
 38	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
 39	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
 40	entre	entre	ADP	_	_	42	case	_	_
@@ -99707,7 +99707,7 @@
 8	Lauri	Lauri	PROPN	_	_	7	appos	_	_
 9	Viita	Viita	PROPN	_	_	8	flat:name	_	_
 10	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-11	dont	dont	PRON	_	PronType=Rel	13	nmod	_	_
+11	dont	dont	PRON	_	PronType=Rel	17	nmod	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	musée	musée	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 14	dédié	dédier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
@@ -121199,7 +121199,7 @@
 22	de	de	ADP	_	_	23	case	_	_
 23	Beausacq	Beausacq	PROPN	_	_	21	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	19	punct	_	_
-25	dont	dont	PRON	_	PronType=Rel	29	nmod	_	_
+25	dont	dont	PRON	_	PronType=Rel	27	obl:arg	_	_
 26	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 27	eut	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	acl:relcl	_	_
 28	un	un	NUM	_	_	29	nummod	_	_
@@ -125354,7 +125354,7 @@
 10	2	deux	PRON	_	Number=Plur	7	conj	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
-13	dont	dont	PRON	_	PronType=Rel	15	nmod	_	_
+13	dont	dont	PRON	_	PronType=Rel	18	nmod	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
 16-17	des	_	_	_	_	_	_	_	_
@@ -155175,7 +155175,7 @@
 14	Alpes	alpe	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
 15	orientales	oriental	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
 16	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-17	dont	dont	PRON	_	PronType=Rel	18	nmod	_	_
+17	dont	dont	PRON	_	PronType=Rel	19	nmod	_	_
 18	300	300	NUM	_	_	19	nummod	_	_
 19	solitaires	solitaire	ADJ	_	Gender=Fem|Number=Plur	11	acl:relcl	_	_
 20	et	et	CCONJ	_	_	22	cc	_	_
@@ -157044,7 +157044,7 @@
 80	pays	pays	NOUN	_	Gender=Masc|Number=Sing	115	nsubj	_	_
 81	enclavé	enclaver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	80	acl	_	SpaceAfter=No
 82	,	,	PUNCT	_	_	90	punct	_	_
-83	dont	dont	PRON	_	PronType=Rel	86	nmod	_	_
+83	dont	dont	PRON	_	PronType=Rel	89	nmod	_	_
 84	seules	seul	ADJ	_	Gender=Fem|Number=Plur	86	amod	_	_
 85	5	5	NUM	_	_	86	nummod	_	SpaceAfter=No
 86	%	%	SYM	_	_	90	nsubj	_	_
@@ -216705,7 +216705,7 @@
 7	Elizabeth	Elizabeth	PROPN	_	_	6	obj	_	_
 8	Fargusson	Fargusson	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
-10	dont	dont	PRON	_	PronType=Rel	14	nmod	_	_
+10	dont	dont	PRON	_	PronType=Rel	12	obl:arg	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	acl:relcl	_	_
 13	six	six	NUM	_	_	14	nummod	_	_
@@ -249807,7 +249807,7 @@
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Lombenben	Lombenben	PROPN	_	_	5	appos	_	_
-11	dont	dont	PRON	_	PronType=Rel	13	nmod	_	_
+11	dont	dont	PRON	_	PronType=Rel	24	obl:arg	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	mont	mont	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
 14	Manaro	Manaro	PROPN	_	_	13	appos	_	SpaceAfter=No
@@ -314226,7 +314226,7 @@
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	manière	manière	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-14	dont	dont	PRON	_	PronType=Rel	16	obl	_	_
+14	dont	dont	PRON	_	PronType=Rel	16	obl:nmod	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
 16	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
 17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
@@ -335715,7 +335715,7 @@
 16	1252	1252	NUM	_	_	14	obl	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	9	punct	_	_
-19	dont	dont	PRON	_	PronType=Rel	26	nmod	_	_
+19	dont	dont	PRON	_	PronType=Rel	22	obl:arg	_	_
 20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 21	n'	ne	ADV	_	Polarity=Neg	23	advmod	_	SpaceAfter=No
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
@@ -378862,7 +378862,7 @@
 22	écrivains	écrivain	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	_
 23	magyarophones	magyarophone	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	15	punct	_	_
-25	dont	dont	PRON	_	PronType=Rel	27	obl	_	_
+25	dont	dont	PRON	_	PronType=Rel	26	nmod	_	_
 26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	issu	issu	ADJ	_	Gender=Masc|Number=Sing	15	appos	_	_
 28-29	des	_	_	_	_	_	_	_	_
@@ -379778,7 +379778,7 @@
 26	linnéenne	linnéen	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	Londres	Londres	PROPN	_	_	25	nmod	_	_
-29	dont	dont	PRON	_	PronType=Rel	33	nmod	_	_
+29	dont	dont	PRON	_	PronType=Rel	31	obl:arg	_	_
 30	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
 31	reçoit	recevoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
@@ -381698,7 +381698,7 @@
 6	5	5	NUM	_	_	7	nummod	_	_
 7	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	dont	dont	PRON	_	PronType=Rel	11	obl	_	_
+9	dont	dont	PRON	_	PronType=Rel	11	nmod	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	inédite	inédit	ADJ	_	Gender=Fem|Number=Sing	7	appos	_	_
 12	de	de	ADP	_	_	13	case	_	_
@@ -385465,7 +385465,7 @@
 22	simuler	simuler	VERB	_	VerbForm=Inf	13	advcl	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	manière	manière	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
-25	dont	dont	PRON	_	PronType=Rel	29	obl	_	_
+25	dont	dont	PRON	_	PronType=Rel	29	obl:mod	_	_
 26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	individu	individu	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
 28	moyen	moyen	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
