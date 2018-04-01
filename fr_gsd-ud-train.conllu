@@ -11069,7 +11069,7 @@
 14	,	,	PUNCT	_	_	5	punct	_	_
 15	dont	dont	PRON	_	PronType=Rel	13	nmod	_	_
 16	61	61	NUM	_	_	17	nummod	_	_
-17	fermes	ferme	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+17	fermes	ferme	ADJ	_	Gender=Fem|Number=Plur	13	appos	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_00383
@@ -13907,7 +13907,7 @@
 35	conflits	conflit	NOUN	_	Gender=Masc|Number=Plur	31	obj	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	38	punct	_	_
 37	dont	dont	PRON	_	PronType=Rel	38	nmod	_	_
-38	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	35	nmod	_	_
+38	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	35	appos	_	_
 39	de	de	ADP	_	_	41	case	_	_
 40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	Côte	côte	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
@@ -42755,7 +42755,7 @@
 25	dont	dont	PRON	_	PronType=Rel	28	nmod	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 27	obligatoire	obligatoire	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
-28	War	War	PROPN	_	_	22	nmod	_	_
+28	War	War	PROPN	_	_	22	appos	_	_
 29	Machine	Machine	PROPN	_	_	28	flat:name	_	_
 30	en	en	ADP	_	_	34	case	_	_
 31	référence	référence	NOUN	_	Gender=Fem|Number=Sing	30	fixed	_	_
@@ -56449,7 +56449,7 @@
 19	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	automobilistes	automobiliste	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
 21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
-22	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+22	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
 23	plus	plus	ADV	_	_	25	advmod	_	_
 24	de	de	ADP	_	_	23	fixed	_	_
 25	100	100	NUM	_	_	26	nummod	_	_
@@ -131840,7 +131840,7 @@
 29	,	,	PUNCT	_	_	32	punct	_	_
 30	dont	dont	PRON	_	PronType=Rel	32	nmod	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	procureur	procureur	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+32	procureur	procureur	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
 33	de	de	ADP	_	_	35	case	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	province	province	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
@@ -136646,7 +136646,7 @@
 15	locuteurs	locuteur	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
-18	estimé	estimer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+18	estimé	estimer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
 19	à	à	ADP	_	_	20	case	_	_
 20	147 000	147 000	NUM	_	_	18	obl	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
@@ -155177,7 +155177,7 @@
 16	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 17	dont	dont	PRON	_	PronType=Rel	18	nmod	_	_
 18	300	300	NUM	_	_	19	nummod	_	_
-19	solitaires	solitaire	ADJ	_	Gender=Fem|Number=Plur	11	conj	_	_
+19	solitaires	solitaire	ADJ	_	Gender=Fem|Number=Plur	11	acl:relcl	_	_
 20	et	et	CCONJ	_	_	22	cc	_	_
 21	150	150	NUM	_	_	22	nummod	_	_
 22	premières	premier	ADJ	_	Gender=Fem|Number=Plur	19	conj	_	SpaceAfter=No
@@ -191216,7 +191216,7 @@
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	dont	dont	PRON	_	PronType=Rel	11	nmod	_	_
 11	un	un	PRON	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
-12	livré	livrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+12	livré	livrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	appos	_	_
 13	en	en	ADP	_	_	14	case	_	_
 14	Nouvelle-Zélande	Nouvelle-Zélande	PROPN	_	_	12	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
@@ -270726,7 +270726,7 @@
 26	neuf	neuf	NUM	_	_	27	nummod	_	_
 27	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
 28	dont	dont	PRON	_	PronType=Rel	30	nmod	_	_
-29	un	un	PRON	_	Gender=Masc|Number=Sing	30	nsubj	_	_
+29	un	un	DET	_	Gender=Masc|Number=Sing	30	det	_	_
 30	ressortissant	ressortissant	NOUN	_	Gender=Masc|Number=Sing	27	acl:relcl	_	_
 31	yéménite	yéménite	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
 32	recherché	rechercher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
@@ -273536,7 +273536,7 @@
 19	dont	dont	PRON	_	PronType=Rel	21	nmod	_	_
 20	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	origine	origine	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
-22	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+22	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
 23-24	au	_	_	_	_	_	_	_	_
 23	à	à	ADP	_	_	26	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -306238,8 +306238,8 @@
 15	dont	dont	PRON	_	PronType=Rel	16	obl	_	_
 16	Devine	deviner	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	appos	_	_
 17	qui	qui	PRON	_	_	18	nsubj	_	_
-18	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
-19	dîner	dîner	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
+18	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
+19	dîner	dîner	NOUN	_	Gender=Masc|Number=Sing	18	xcomp	_	_
 20	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_10925
@@ -336003,7 +336003,7 @@
 16	civils	civil	NOUN	_	Gender=Masc|Number=Plur	24	nsubj:pass	_	_
 17	dont	dont	PRON	_	PronType=Rel	19	nmod	_	_
 18	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
-19	dizaines	dizaine	NOUN	_	Gender=Fem|Number=Plur	16	acl:relcl	_	_
+19	dizaines	dizaine	NOUN	_	Gender=Fem|Number=Plur	16	appos	_	_
 20	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
 21	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
 22	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
@@ -359145,7 +359145,7 @@
 7	4	4	NUM	_	_	8	nsubj	_	_
 8	représentant	représenter	VERB	_	Tense=Pres|VerbForm=Part	5	acl:relcl	_	_
 9	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	châteaux	château	NOUN	_	Gender=Masc|Number=Plur	8	xcomp	_	SpaceAfter=No
+10	châteaux	château	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_12785
@@ -388119,7 +388119,7 @@
 24	,	,	PUNCT	_	_	20	punct	_	_
 25	dont	dont	PRON	_	PronType=Rel	27	nmod	_	_
 26	54	54	NUM	_	_	27	nummod	_	SpaceAfter=No
-27	%	%	SYM	_	_	20	nmod	_	_
+27	%	%	SYM	_	_	17	appos	_	_
 28	d'	de	ADP	_	_	29	case	_	SpaceAfter=No
 29	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	8	punct	_	_
@@ -402236,7 +402236,7 @@
 7	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	dont	dont	PRON	_	PronType=Rel	10	nmod	_	_
-10	13 641	13 641	NUM	_	_	7	acl:relcl	_	_
+10	13 641	13 641	NUM	_	_	7	appos	_	_
 11	à	à	ADP	_	_	12	case	_	_
 12	Gołdap	Gołdap	PROPN	_	_	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
