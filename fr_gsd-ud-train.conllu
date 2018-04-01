@@ -367256,7 +367256,7 @@
 24	d'	de	ADP	_	_	27	case	_	SpaceAfter=No
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 26	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
-27	femme	femme	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
+27	femme	femme	NOUN	_	Gender=Fem|Number=Sing	23	obl:arg	_	_
 28	mariée	marier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	27	punct	_	_
 30	Mária	Mária	PROPN	_	_	27	appos	_	_
@@ -367368,7 +367368,7 @@
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	efforts	effort	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+18	efforts	effort	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 19	gouvernementaux	gouvernemental	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -367513,7 +367513,7 @@
 7	de	de	ADP	_	_	10	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 9	différents	différent	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
-10	moyens	moyen	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+10	moyens	moyen	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	transports	transport	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
 13	tels	tel	ADJ	_	Gender=Masc|Number=Plur	16	case	_	_
@@ -367542,7 +367542,7 @@
 4	mars	mars	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Gare	Gare	PROPN	_	_	1	obl	_	_
+7	Gare	Gare	PROPN	_	_	1	obl:arg	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	Est	est	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -367705,7 +367705,7 @@
 8	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 10	certaine	certain	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-11	importance	importance	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+11	importance	importance	NOUN	_	Gender=Fem|Number=Sing	7	obl:arg	_	_
 12	car	car	CCONJ	_	_	22	cc	_	_
 13	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	documents	document	NOUN	_	Gender=Masc|Number=Plur	22	nsubj	_	_
@@ -403689,9 +403689,9 @@
 39	vers	vers	ADP	_	_	41	case	_	_
 40	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
 41	Angleterre	Angleterre	PROPN	_	_	38	nmod	_	_
-42	d'	de	ADP	_	_	44	case	_	SpaceAfter=No
+42	d'	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	44	det	_	SpaceAfter=No
 43	importants	important	ADJ	_	Gender=Masc|Number=Plur	44	amod	_	_
-44	contingents	contingent	NOUN	_	Gender=Masc|Number=Plur	36	obl	_	_
+44	contingents	contingent	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
 45	anglais	anglais	ADJ	_	Gender=Masc|Number=Plur	44	amod	_	_
 46	et	et	CCONJ	_	_	47	cc	_	_
 47	français	français	ADJ	_	Gender=Masc|Number=Plur	45	conj	_	SpaceAfter=No
