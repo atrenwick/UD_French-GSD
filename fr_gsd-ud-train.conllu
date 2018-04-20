@@ -73250,11 +73250,11 @@
 14	servis	servir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	advcl	_	_
 15	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
 16	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
-17	20	20	NUM	_	_	16	nummod	_	_
-18	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	16	compound	_	_
+17	20	20	NUM	_	_	16	nmod	_	_
+18	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 19	2009	2009	NUM	_	_	18	nmod	_	_
 20	vers	vers	ADP	_	_	21	case	_	_
-21	19h00	19h00	NUM	_	_	16	nmod	_	_
+21	19h00	19h00	NUM	_	_	14	obl	_	_
 22	!	!	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_02600
@@ -83957,23 +83957,23 @@
 # text = Les 19 prisonniers politiques sont en grève de la faim depuis les 20, 21 et 22 mars.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	19	19	NUM	_	_	3	nummod	_	_
-3	prisonniers	prisonnier	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+3	prisonniers	prisonnier	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 4	politiques	politique	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
-5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	en	en	ADP	_	_	7	case	_	_
-7	grève	grève	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
+7	grève	grève	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	faim	faim	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-11	depuis	depuis	ADP	_	_	18	case	_	_
+11	depuis	depuis	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	20	20	NUM	_	_	18	nummod	_	SpaceAfter=No
+13	20	20	NUM	_	_	7	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	21	21	NUM	_	_	13	conj	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
 17	22	22	NUM	_	_	13	conj	_	_
-18	mars	mars	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	18	punct	_	_
+18	mars	mars	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_02971
 # text = Mettant ainsi à profit cette inaction, les troupes prussiennes prennent pied sur la rive gauche de la Lizaine (ou Luzine).
@@ -95158,8 +95158,8 @@
 10	presse	presse	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	jeudi	jeudi	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-13	13	13	NUM	_	_	12	nummod	_	_
-14	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	12	compound	_	SpaceAfter=No
+13	13	13	NUM	_	_	12	nmod	_	_
+14	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -108712,14 +108712,14 @@
 2	se	se	PRON	_	Person=3|PronType=Prs	3	expl:pass	_	_
 3	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	du	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	10	case	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-6	11	11	NUM	_	_	10	nummod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	11	11	NUM	_	_	3	obl:mod	_	_
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	18	18	NUM	_	_	6	nummod	_	_
-10	avril	avril	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	SpaceAfter=No
+9	18	18	NUM	_	_	6	nmod:range	_	_
+10	avril	avril	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_03874
@@ -119958,24 +119958,24 @@
 37	zone	zone	NOUN	_	Gender=Fem|Number=Sing	33	obl	_	_
 38	intertropicale	intertropical	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	25	punct	_	_
-40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-41	21	21	NUM	_	_	44	nummod	_	_
+40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	21	21	NUM	_	_	25	nmod	_	_
 42	ou	ou	CCONJ	_	_	43	cc	_	_
 43	22	22	NUM	_	_	41	conj	_	_
-44	juin	juin	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+44	juin	juin	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
 45	)	)	PUNCT	_	_	25	punct	_	_
 46	à	à	ADP	_	_	48	case	_	_
 47	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	SpaceAfter=No
 48	équinoxe	équinoxe	NOUN	_	Gender=Masc|Number=Sing	19	nmod:range	_	_
 49	d'	de	ADP	_	_	50	case	_	SpaceAfter=No
 50	automne	automne	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	_
-51	(	(	PUNCT	_	_	56	punct	_	SpaceAfter=No
-52	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
-53	22	22	NUM	_	_	56	nummod	_	_
+51	(	(	PUNCT	_	_	53	punct	_	SpaceAfter=No
+52	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
+53	22	22	NUM	_	_	48	nmod	_	_
 54	ou	ou	CCONJ	_	_	55	cc	_	_
 55	23	23	NUM	_	_	53	conj	_	_
-56	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
-57	)	)	PUNCT	_	_	56	punct	_	SpaceAfter=No
+56	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	53	nmod	_	SpaceAfter=No
+57	)	)	PUNCT	_	_	53	punct	_	SpaceAfter=No
 58	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-train_04290
@@ -130177,14 +130177,14 @@
 15	en	en	ADP	_	_	16	case	_	_
 16	France	France	PROPN	_	_	11	obl	_	_
 17-18	du	_	_	_	_	_	_	_	_
-17	de	de	ADP	_	_	23	case	_	_
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-19	13	13	NUM	_	_	23	nummod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	13	13	NUM	_	_	11	obl:mod	_	_
 20-21	au	_	_	_	_	_	_	_	_
 20	à	à	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	20	20	NUM	_	_	19	nummod	_	_
-23	mai	mai	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+22	20	20	NUM	_	_	19	nmod:range	_	_
+23	mai	mai	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 24	2013	2013	NUM	_	_	23	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -139927,9 +139927,9 @@
 2	bataille	bataille	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	5	5	NUM	_	_	7	appos	_	_
-7	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	5	5	NUM	_	_	3	obl:arg	_	_
+7	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_05004
@@ -151002,8 +151002,8 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	jeudi	jeudi	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
-6	22	22	NUM	_	_	5	nummod	_	_
-7	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	5	compound	_	_
+6	22	22	NUM	_	_	5	nmod	_	_
+7	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	journée	journée	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 10	nationale	national	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
@@ -173662,13 +173662,13 @@
 11	différent	différent	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	2	punct	_	_
-14	entre	entre	ADP	_	_	20	case	_	_
+14	entre	entre	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	25	25	NUM	_	_	20	nummod	_	_
+16	25	25	NUM	_	_	2	obl	_	_
 17	et	et	CCONJ	_	_	19	cc	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	26	26	NUM	_	_	16	conj	_	_
-20	août	août	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+20	août	août	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 21	avec	avec	ADP	_	_	23	case	_	_
 22	23	23	NUM	_	_	23	nummod	_	_
 23	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	2	obl:mod	_	_
@@ -200831,13 +200831,13 @@
 18	contacté	contacter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	_
-21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
-22	11	11	NUM	_	_	27	nummod	_	SpaceAfter=No
+21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	11	11	NUM	_	_	18	obl	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	12	12	NUM	_	_	22	conj	_	_
 25	et	et	CCONJ	_	_	26	cc	_	_
 26	13	13	NUM	_	_	22	conj	_	_
-27	août	août	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+27	août	août	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 28	pour	pour	ADP	_	_	30	mark	_	_
 29	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	30	iobj	_	_
 30	fournir	fournir	VERB	_	VerbForm=Inf	18	advcl	_	_
@@ -207089,36 +207089,38 @@
 
 # sent_id = fr-ud-train_07380
 # text = Roger Barde (1921-16 janvier 2007) est un ancien arbitre français de football des années 1960, affilié à Lyon qui officia de 1961 à 1968.
-1	Roger	Roger	PROPN	_	_	11	nsubj	_	_
+1	Roger	Roger	PROPN	_	_	13	nsubj	_	_
 2	Barde	Barde	PROPN	_	_	1	flat:name	_	_
-3	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
-4	1921-16	1921-16	NUM	_	_	5	nmod	_	_
-5	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-6	2007	2007	NUM	_	_	5	nmod	_	SpaceAfter=No
-7	)	)	PUNCT	_	_	5	punct	_	_
-8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-11	arbitre	arbitre	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-12	français	français	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	football	football	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-15-16	des	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	17	case	_	_
-16	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-17	années	année	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
-18	1960	1960	NUM	_	_	17	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	_	_	11	punct	_	_
-20	affilié	affilier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
-21	à	à	ADP	_	_	22	case	_	_
-22	Lyon	Lyon	PROPN	_	_	20	obl	_	_
-23	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	_
-24	officia	officier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl:relcl	_	_
-25	de	de	ADP	_	_	26	case	_	_
-26	1961	1961	NUM	_	_	24	obl:mod	_	_
-27	à	à	ADP	_	_	28	case	_	_
-28	1968	1968	NUM	_	_	26	nmod:range	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	11	punct	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	1921	1921	NUM	_	_	1	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	16	16	NUM	_	_	4	conj	_	_
+7	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+8	2007	2007	NUM	_	_	7	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	4	punct	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	arbitre	arbitre	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+14	français	français	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	football	football	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	des	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	années	année	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+20	1960	1960	NUM	_	_	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	13	punct	_	_
+22	affilié	affilier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+23	à	à	ADP	_	_	24	case	_	_
+24	Lyon	Lyon	PROPN	_	_	22	obl	_	_
+25	qui	qui	PRON	_	PronType=Rel	26	nsubj	_	_
+26	officia	officier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	1961	1961	NUM	_	_	26	obl:mod	_	_
+29	à	à	ADP	_	_	30	case	_	_
+30	1968	1968	NUM	_	_	28	nmod:range	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-train_07381
 # text = Les communes romanes du Pays-de-Herve appartiennent au groupe de l'est-wallon.
@@ -245063,11 +245065,13 @@
 17	télévision	télévision	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	mai	mai	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-20	1926-28	1926-28	NUM	_	_	19	nmod	_	_
-21	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
-22	1982	1982	NUM	_	_	21	nmod	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	15	punct	_	_
+20	1926	1926	NUM	_	_	19	nmod	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	28	28	NUM	_	_	19	conj	_	_
+23	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+24	1982	1982	NUM	_	_	23	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = fr-ud-train_08714
 # text = Confié à son oncle Jean de La Rochefoucauld, abbé de Marmoutier, il fait ses humanités et étudie la philosophie et la théologie au collège de Clermont tenu par les Jésuites.
@@ -251808,12 +251812,12 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	décret	décret	NOUN	_	Gender=Masc|Number=Sing	14	obl:agent	_	_
 18-19	des	_	_	_	_	_	_	_	_
-18	de	de	ADP	_	_	23	case	_	_
-19	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
-20	13	13	NUM	_	_	23	nummod	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	13	13	NUM	_	_	17	nmod	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
 22	19	19	NUM	_	_	20	conj	_	_
-23	février	février	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+23	février	février	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 24	1790	1790	NUM	_	_	23	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -256468,8 +256472,8 @@
 5	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	jeudi	jeudi	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
-8	25	25	NUM	_	_	7	nummod	_	_
-9	février	février	NOUN	_	Gender=Masc|Number=Sing	7	compound	_	_
+8	25	25	NUM	_	_	7	nmod	_	_
+9	février	février	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	aéroport	aéroport	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
@@ -260939,8 +260943,8 @@
 5	produit	produire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
-8	7	7	NUM	_	_	7	nummod	_	_
-9	février	février	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+8	7	7	NUM	_	_	7	nmod	_	_
+9	février	février	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 10	dans	dans	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	eaux	eau	NOUN	_	Gender=Fem|Number=Plur	5	obl:mod	_	_
@@ -300702,8 +300706,8 @@
 6	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
 7	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 8	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
-9	19	19	NUM	_	_	8	nummod	_	_
-10	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
+9	19	19	NUM	_	_	8	nmod	_	_
+10	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	4	punct	_	_
 12	sous	sous	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
@@ -314369,11 +314373,11 @@
 8	Lakehurst	Lakehurst	PROPN	_	_	6	obl	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	Francfort	Francfort	PROPN	_	_	8	conj	_	_
-11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-12	10	10	NUM	_	_	15	nummod	_	_
+11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	10	10	NUM	_	_	6	obl	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	11	11	NUM	_	_	12	conj	_	_
-15	août	août	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+15	août	août	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 16	1936	1936	NUM	_	_	15	nmod	_	_
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 18	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -341353,12 +341357,12 @@
 10	élections	élection	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
 11	législatives	législatif	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 12-13	des	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	17	case	_	_
-13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
-14	10	10	NUM	_	_	17	nummod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	10	10	NUM	_	_	10	nmod	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	17	17	NUM	_	_	14	conj	_	_
-17	juin	juin	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+17	juin	juin	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 18	2012	2012	NUM	_	_	17	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	1	punct	_	_
 20	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
@@ -350822,11 +350826,11 @@
 4	Lonato	Lonato	PROPN	_	_	2	nmod	_	_
 5	eut	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
-7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
-8	2	2	NUM	_	_	11	nummod	_	_
+7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	2	2	NUM	_	_	5	obl	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	3	3	NUM	_	_	8	conj	_	_
-11	août	août	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+11	août	août	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	1796	1796	NUM	_	_	11	nmod	_	_
 13	près	près	ADV	_	_	15	case	_	_
 14	de	de	ADP	_	_	13	fixed	_	_
@@ -361790,14 +361794,14 @@
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15-16	du	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	21	case	_	_
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-17	9	9	NUM	_	_	21	nummod	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	9	9	NUM	_	_	14	obl:mod	_	_
 18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	17	17	NUM	_	_	17	nmod	_	_
-21	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
+20	17	17	NUM	_	_	17	nmod:range	_	_
+21	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 22	dans	dans	ADP	_	_	24	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Solent	Solent	PROPN	_	_	14	obl:mod	_	SpaceAfter=No
@@ -388096,14 +388100,14 @@
 11	à	à	ADP	_	_	12	case	_	_
 12	Lyon	Lyon	PROPN	_	_	10	obl	_	_
 13-14	du	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	19	case	_	_
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-15	25	25	NUM	_	_	19	nummod	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	25	25	NUM	_	_	10	obl:mod	_	_
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	27	27	NUM	_	_	15	nmod	_	_
-19	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
+18	27	27	NUM	_	_	15	nmod:range	_	_
+19	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 20	?	?	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-train_13772
@@ -404894,14 +404898,14 @@
 19	en	en	ADP	_	_	20	case	_	_
 20	Chine	Chine	PROPN	_	_	13	obl	_	_
 21-22	du	_	_	_	_	_	_	_	_
-21	de	de	ADP	_	_	27	case	_	_
-22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-23	13	13	NUM	_	_	27	nummod	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	13	13	NUM	_	_	13	obl:mod	_	_
 24-25	au	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	19	19	NUM	_	_	23	nummod	_	_
-27	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	SpaceAfter=No
+26	19	19	NUM	_	_	23	nmod:range	_	_
+27	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-train_14375
@@ -405840,11 +405844,11 @@
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	mort	mourir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl:relcl	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	17	17	NUM	_	_	20	nummod	_	_
+16	17	17	NUM	_	_	14	obl:arg	_	_
 17	ou	ou	CCONJ	_	_	19	cc	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	27	27	NUM	_	_	16	conj	_	_
-20	août	août	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+20	août	août	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 21	1655	1655	NUM	_	_	20	nmod	_	_
 22	ou	ou	CCONJ	_	_	23	cc	_	_
 23	1656	1656	NUM	_	_	21	conj	_	_
@@ -407204,8 +407208,8 @@
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	annoncent	annoncer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 30	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
-31	14	14	NUM	_	_	30	nummod	_	_
-32	février	février	NOUN	_	Gender=Masc|Number=Sing	30	compound	_	_
+31	14	14	NUM	_	_	30	nmod	_	_
+32	février	février	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 33	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
 34	journaux	journal	NOUN	_	Gender=Masc|Number=Plur	29	nsubj	_	_
 35	El	El	PROPN	_	_	34	appos	_	_
