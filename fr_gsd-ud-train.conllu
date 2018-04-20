@@ -34834,7 +34834,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	nouvel	nouveau	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 5	édifice	édifice	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
-6	Namgyal	Namgyal	PROPN	_	_	5	xcomp	_	_
+6	Namgyal	Namgyal	PROPN	_	_	2	xcomp	_	_
 7	Chödzong	Chödzong	PROPN	_	_	6	flat:name	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -37821,7 +37821,7 @@
 11	obtient	obtenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 12	2	2	NUM	_	_	13	nummod	_	_
 13	sièges	siège	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
-14	pour	pour	ADP	_	_	13	xcomp	_	_
+14	pour	pour	ADP	_	_	13	case	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	CAPN	CAPN	PROPN	_	_	11	obl	_	_
@@ -37834,7 +37834,7 @@
 23	sièges	siège	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
 24	à	à	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	CAPN	CAPN	PROPN	_	_	11	obl	_	_
+26	CAPN	CAPN	PROPN	_	_	23	obl	_	_
 27-28	des	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	29	case	_	_
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
@@ -49406,7 +49406,7 @@
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	danse	danse	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 7	très	très	ADV	_	_	8	advmod	_	_
-8	complète	complet	ADJ	_	Gender=Fem|Number=Sing	6	xcomp	_	_
+8	complète	complet	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 9	car	car	CCONJ	_	_	16	cc	_	_
 10	chaque	chaque	DET	_	Gender=Fem|Number=Sing	11	det	_	_
 11	partie	partie	NOUN	_	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
@@ -57239,7 +57239,7 @@
 36	texte	texte	NOUN	_	Gender=Masc|Number=Sing	43	nsubj	_	_
 37	intitulé	intituler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl	_	_
 38	«	«	PUNCT	_	_	39	punct	_	_
-39	partitions	partition	NOUN	_	Gender=Fem|Number=Plur	36	xcomp	_	_
+39	partitions	partition	NOUN	_	Gender=Fem|Number=Plur	37	xcomp	_	_
 40	de	de	ADP	_	_	41	case	_	SpaceAfter=No
 41	...	...	PUNCT	_	_	39	punct	_	_
 42	»	»	PUNCT	_	_	39	punct	_	_
@@ -67275,7 +67275,7 @@
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	autre	autre	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 9	migrateur	migrateur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-10	pouvant	pouvoir	VERB	_	Tense=Pres|VerbForm=Part	9	xcomp	_	_
+10	pouvant	pouvoir	VERB	_	Tense=Pres|VerbForm=Part	9	acl	_	_
 11	traverser	traverser	VERB	_	VerbForm=Inf	10	xcomp	_	_
 12	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -141706,7 +141706,7 @@
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 13	:	:	PUNCT	_	_	6	punct	_	_
-14	sincère	sincère	ADJ	_	Gender=Masc|Number=Sing	6	xcomp	_	_
+14	sincère	sincère	ADJ	_	Gender=Masc|Number=Sing	6	parataxis	_	_
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
@@ -162130,7 +162130,7 @@
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	saisie	saisie	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
 16	plus	plus	ADV	_	_	17	advmod	_	_
-17	facile	facile	ADJ	_	Gender=Fem|Number=Sing	15	xcomp	_	SpaceAfter=No
+17	facile	facile	ADJ	_	Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-train_05784
@@ -205753,7 +205753,7 @@
 # sent_id = fr-ud-train_07331
 # text = Quelques jours passés au Jardin d'Homps, c'est tout simplement se retrouver au paradis.
 1	Quelques	quelque	DET	_	Gender=Masc|Number=Plur	2	det	_	_
-2	jours	jour	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+2	jours	jour	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
 3	passés	passer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	_
@@ -205761,18 +205761,18 @@
 6	Jardin	jardin	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
 7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 8	Homps	Homps	PROPN	_	_	6	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	13	punct	_	_
-10	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	expl	_	SpaceAfter=No
-11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+9	,	,	PUNCT	_	_	15	punct	_	_
+10	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	expl	_	SpaceAfter=No
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 12	tout	tout	ADV	_	_	13	advmod	_	_
-13	simplement	simplement	ADV	_	_	0	root	_	_
+13	simplement	simplement	ADV	_	_	15	advmod	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs	15	expl:pass	_	_
-15	retrouver	retrouver	VERB	_	VerbForm=Inf	13	xcomp	_	_
+15	retrouver	retrouver	VERB	_	VerbForm=Inf	0	root	_	_
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	paradis	paradis	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	13	punct	_	_
+19	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = fr-ud-train_07332
 # text = Papilio chiansiades est un papillon d'une envergure de 52 mm à 55 mm, de couleur noire, aux antérieures marquées d'une tache blanche et aux postérieures dentelées de queues atrophiées avec un semi de taches roses en position anale.
@@ -260452,7 +260452,7 @@
 14	double	double	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 15	inversion	inversion	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 16	appelée	appeler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
-17	roll-over	roll-over	NOUN	_	Gender=Masc|Number=Sing	15	xcomp	_	SpaceAfter=No
+17	roll-over	roll-over	NOUN	_	Gender=Masc|Number=Sing	16	xcomp	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	corkscrew	corkscrew	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
@@ -266258,7 +266258,7 @@
 2	Coralie	Coralie	PROPN	_	_	1	flat:name	_	_
 3	Geoffroy	Geoffroy	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	xcomp	_	_
+5	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 6	Guffroy	Guffroy	PROPN	_	_	5	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
@@ -317085,7 +317085,7 @@
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	cinq	cinq	NUM	_	_	7	nummod	_	_
 7	crématoires	crématoire	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
-8	appelés	appeler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	xcomp	_	_
+8	appelés	appeler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
 9	K	K	X	_	_	8	xcomp	_	_
 10	I	I	NUM	_	_	9	nummod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
@@ -337430,7 +337430,7 @@
 6	salins	salin	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	9	aux	_	_
-9	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
+9	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 10	donner	donner	VERB	_	VerbForm=Inf	9	xcomp	_	_
 11	lien	lien	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
 12	à	à	ADP	_	_	14	case	_	_
@@ -394594,7 +394594,7 @@
 # sent_id = fr-ud-train_14008
 # text = Ce grand écart place la France dans une position qui pourrait s'avérer délicate vis-à-vis de l'Union européenne : elle rend l'accomplissement des obligations de résultat fixées par la directive cadre sur l'eau (DCE) à l'horizon 2015 plus coûteux, plus difficile et plus aléatoire.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-2	grand	grand	ADJ	_	Gender=Masc|Number=Sing	3	xcomp	_	_
+2	grand	grand	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	écart	écart	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 4	place	placer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -402583,7 +402583,7 @@
 14	Beach	Beach	PROPN	_	_	13	flat:name	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	13	punct	_	_
 16	Meilleur	meilleur	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
-17	album	album	NOUN	_	Gender=Masc|Number=Sing	13	xcomp	_	_
+17	album	album	NOUN	_	Gender=Masc|Number=Sing	11	xcomp	_	_
 18	francophone	francophone	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 19	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	3	punct	_	_
