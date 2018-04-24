@@ -35777,7 +35777,7 @@
 10	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 11	1884	1884	NUM	_	_	10	nmod	_	_
 12	à	à	ADP	_	_	13	case	_	_
-13	Waco	Waco	PROPN	_	_	10	nmod	_	SpaceAfter=No
+13	Waco	Waco	PROPN	_	_	9	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	Texas	Texas	PROPN	_	_	13	nmod	_	_
 16-17	aux	_	_	_	_	_	_	_	_
@@ -35789,7 +35789,7 @@
 21	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 22	1933	1933	NUM	_	_	21	nmod	_	_
 23	à	à	ADP	_	_	24	case	_	_
-24	Vancouver	Vancouver	PROPN	_	_	21	nmod	_	_
+24	Vancouver	Vancouver	PROPN	_	_	20	nmod	_	_
 25-26	au	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -36968,7 +36968,7 @@
 29	)	)	PUNCT	_	_	28	punct	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
-32	25	25	NUM	_	_	31	appos	_	_
+32	25	25	NUM	_	_	31	nmod	_	_
 33	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	_
 34	2010	2010	NUM	_	_	33	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	10	punct	_	_
@@ -56000,7 +56000,7 @@
 58	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	57	nmod	_	_
 59	de	de	ADP	_	_	61	case	_	_
 60	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	SpaceAfter=No
-61	année	année	NOUN	_	Gender=Fem|Number=Sing	58	nmod	_	_
+61	année	année	NOUN	_	Gender=Fem|Number=Sing	57	nmod	_	_
 62	de	de	ADP	_	_	63	case	_	_
 63	début	début	NOUN	_	Gender=Masc|Number=Sing	61	nmod	_	_
 64	d'	de	ADP	_	_	65	case	_	SpaceAfter=No
@@ -56620,7 +56620,7 @@
 4	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 5	1994	1994	NUM	_	_	4	nmod	_	_
 6	à	à	ADP	_	_	7	case	_	_
-7	mars	mars	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	mars	mars	NOUN	_	Gender=Masc|Number=Sing	3	nmod:range	_	_
 8	1997	1997	NUM	_	_	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -57961,9 +57961,9 @@
 
 # sent_id = fr-ud-train_02055
 # text = Le mardi 8 décembre, à Genève, l'Institut du Caire pour l'étude des droits de l'homme rend public son « Rapport sur l'état général des droits de l'homme dans le monde arabe.
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-3	8	8	NUM	_	_	23	obl:mod	_	_
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	23	obl:mod	_	_
+3	8	8	NUM	_	_	2	nmod	_	_
 4	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	23	punct	_	_
 6	à	à	ADP	_	_	7	case	_	_
@@ -90549,12 +90549,12 @@
 8	17	17	NUM	_	_	23	obl:mod	_	_
 9	août	août	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	1661	1661	NUM	_	_	9	nmod	_	SpaceAfter=No
+11	1661	1661	NUM	_	_	8	nmod	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	6	6	NUM	_	_	16	nummod	_	_
-16	heures	heure	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+16	heures	heure	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -92243,7 +92243,7 @@
 4	de	de	ADP	_	_	7	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	même	même	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
-7	année	année	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	année	année	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -98441,8 +98441,8 @@
 1	Diffusion	diffusion	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-5	17	17	NUM	_	_	1	nmod	_	_
+4	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	17	17	NUM	_	_	4	nmod	_	_
 6	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 7	1973	1973	NUM	_	_	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	1	punct	_	_
@@ -109755,12 +109755,12 @@
 14	avril	avril	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 15	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 16	vieux	vieux	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
-17	style	style	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-18	22	22	NUM	_	_	14	nmod	_	_
+17	style	style	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+18	22	22	NUM	_	_	13	nmod	_	_
 19	mars	mars	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	18	punct	_	_
-21	1885	1885	NUM	_	_	14	nmod	_	SpaceAfter=No
-22	--	--	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	1885	1885	NUM	_	_	13	nmod	_	SpaceAfter=No
+22	--	--	PUNCT	_	_	23	punct	_	SpaceAfter=No
 23	6	6	NUM	_	_	13	conj	_	_
 24	mars	mars	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 25	1961	1961	NUM	_	_	24	nmod	_	SpaceAfter=No
@@ -113046,7 +113046,7 @@
 2	:	:	PUNCT	_	_	1	punct	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
-5	27	27	NUM	_	_	4	compound	_	_
+5	27	27	NUM	_	_	4	nmod	_	_
 6	avril	avril	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 7	1973	1973	NUM	_	_	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
@@ -123961,7 +123961,7 @@
 2	24	24	NUM	_	_	1	nmod	_	_
 3	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 4	à	à	ADP	_	_	5	case	_	_
-5	18h	18h	NUM	_	_	3	nmod	_	_
+5	18h	18h	NUM	_	_	1	nmod	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	7	fixed	_	_
@@ -129066,12 +129066,12 @@
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	27	27	NUM	_	_	20	nmod	_	_
+23	27	27	NUM	_	_	19	nmod:range	_	_
 24	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	00h45	00h45	NUM	_	_	16	nmod	_	_
 27	à	à	ADP	_	_	28	case	_	_
-28	5h45	5h45	NUM	_	_	26	nmod	_	SpaceAfter=No
+28	5h45	5h45	NUM	_	_	26	nmod:range	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_04618
@@ -133353,7 +133353,7 @@
 5	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
-8	année	année	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8	année	année	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 9	suivant	suivant	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 10	en	en	ADP	_	_	11	case	_	_
 11	République	république	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
@@ -134228,7 +134228,7 @@
 12	août	août	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 13	1692	1692	NUM	_	_	12	nmod	_	_
 14	à	à	ADP	_	_	15	case	_	_
-15	Grenoble	Grenoble	PROPN	_	_	12	nmod	_	SpaceAfter=No
+15	Grenoble	Grenoble	PROPN	_	_	11	nmod	_	SpaceAfter=No
 16	)	)	PUNCT	_	_	4	punct	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -152966,7 +152966,7 @@
 # text = Le jeudi 28 vers 12h, un attentat frappe le haut-lieu du tourisme au Maroc, la place Jamaâ El Fna à Marrakech.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	jeudi	jeudi	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
-3	28	28	NUM	_	_	2	nummod	_	_
+3	28	28	NUM	_	_	2	nmod	_	_
 4	vers	vers	ADP	_	_	5	case	_	_
 5	12h	12h	NUM	_	_	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
@@ -213806,7 +213806,7 @@
 3	à	à	ADP	_	_	4	case	_	_
 4	Bordeaux	Bordeaux	PROPN	_	_	1	obl	_	_
 5	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
-6	16	16	NUM	_	_	5	nummod	_	SpaceAfter=No
+6	16	16	NUM	_	_	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 9	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	10	obj	_	_
@@ -228474,8 +228474,8 @@
 
 # sent_id = fr-ud-train_08130
 # text = Samedi 2 octobre au Centre Saint Paul (12 rue Saint Joseph--75002 Paris) : Session sur les chrétiens d'Orient dans un cycle de Géopolitique du christianisme aujourd'hui--Avec la participation de Pierre Périer, d'Antoine Assaf, d'Annie Laurent et de plusieurs évêques chrétiens d'Orient qui nous présenteront le destin de leur communauté.
-1	Samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-2	2	2	NUM	_	_	19	nmod	_	_
+1	Samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+2	2	2	NUM	_	_	1	nmod	_	_
 3	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	_
@@ -233330,10 +233330,10 @@
 31	18h	18h	NUM	_	_	29	nmod	_	_
 32	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
 33	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
-34	18	18	NUM	_	_	33	nummod	_	_
+34	18	18	NUM	_	_	33	nmod	_	_
 35	et	et	CCONJ	_	_	36	cc	_	_
 36	dimanche	dimanche	NOUN	_	Gender=Masc|Number=Sing	33	conj	_	_
-37	19	19	NUM	_	_	33	nmod	_	_
+37	19	19	NUM	_	_	36	nmod	_	_
 38	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
 39	prochains	prochain	ADJ	_	Gender=Masc|Number=Plur	33	amod	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	17	punct	_	_
@@ -252983,10 +252983,10 @@
 16	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	_
 17	assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 18	Générale	général	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-20	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
-21	1er	1er	NUM	_	_	22	nummod	_	_
-22	Juin	Juin	PROPN	_	_	15	obl	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
+21	1er	1er	NUM	_	_	20	nmod	_	_
+22	Juin	juin	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 23	à	à	ADP	_	_	24	case	_	_
 24	15h	15h	NUM	_	_	15	obl	_	SpaceAfter=No
 25	..	..	PUNCT	_	_	15	punct	_	_
@@ -276028,7 +276028,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	sous	sous	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	direction	direction	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+8	direction	direction	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	Henri	Henri	PROPN	_	_	8	nmod	_	_
 11	Frenay	Frenay	PROPN	_	_	10	flat:name	_	SpaceAfter=No
@@ -280714,8 +280714,8 @@
 39	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_09981
-# text = Franklin Delano (Del) Reeves (14 juillet 1932 à Sparta, Caroline du Nord--Décédé le 2007 à Centerville, Tennessee) était un chanteur de musique country américain.
-1	Franklin	Franklin	PROPN	_	_	29	nsubj	_	_
+# text = Franklin Delano (Del) Reeves (14 juillet 1932 à Sparta, Caroline du Nord--Décédé le 1er janvier 2007 à Centerville, Tennessee) était un chanteur de musique country américain.
+1	Franklin	Franklin	PROPN	_	_	31	nsubj	_	_
 2	Delano	Delano	PROPN	_	_	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	Del	Del	PROPN	_	_	2	appos	_	SpaceAfter=No
@@ -280726,7 +280726,7 @@
 9	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 10	1932	1932	NUM	_	_	9	nmod	_	_
 11	à	à	ADP	_	_	12	case	_	_
-12	Sparta	Sparta	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	Sparta	Sparta	PROPN	_	_	8	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	Caroline	Caroline	PROPN	_	_	12	nmod	_	_
 15-16	du	_	_	_	_	_	_	_	_
@@ -280736,20 +280736,22 @@
 18	--	--	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	Décédé	décéder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	2007	2007	NUM	_	_	19	obl	_	_
-22	à	à	ADP	_	_	23	case	_	_
-23	Centerville	Centerville	PROPN	_	_	19	obl	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	23	punct	_	_
-25	Tennessee	Tennessee	PROPN	_	_	23	nmod	_	SpaceAfter=No
-26	)	)	PUNCT	_	_	8	punct	_	_
-27	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
-28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	chanteur	chanteur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-30	de	de	ADP	_	_	31	case	_	_
-31	musique	musique	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
-32	country	country	NOUN	_	Gender=Fem|Number=Sing	31	appos	_	_
-33	américain	américain	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
-34	.	.	PUNCT	_	_	29	punct	_	_
+21	1er	1er	NUM	_	_	19	obl	_	_
+22	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+23	2007	2007	NUM	_	_	22	nmod	_	_
+24	à	à	ADP	_	_	25	case	_	_
+25	Centerville	Centerville	PROPN	_	_	19	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	Tennessee	Tennessee	PROPN	_	_	25	nmod	_	SpaceAfter=No
+28	)	)	PUNCT	_	_	8	punct	_	_
+29	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	cop	_	_
+30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	chanteur	chanteur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	musique	musique	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+34	country	country	NOUN	_	Gender=Fem|Number=Sing	33	appos	_	_
+35	américain	américain	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	31	punct	_	_
 
 # sent_id = fr-ud-train_09982
 # text = Ces abeilles métisses sont plus agressives que les abeilles des races dont elles sont issues.
@@ -286067,7 +286069,7 @@
 11	Autriche	Autriche	PROPN	_	_	9	obl	_	_
 12	en	en	ADP	_	_	13	case	_	_
 13	août	août	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-14	2009	2009	NUM	_	_	13	compound	_	_
+14	2009	2009	NUM	_	_	13	nmod	_	_
 15	et	et	CCONJ	_	_	17	cc	_	_
 16	à	à	ADP	_	_	17	case	_	_
 17	New	New	PROPN	_	_	11	conj	_	_
@@ -287550,7 +287552,7 @@
 
 # sent_id = fr-ud-train_10239
 # text = Rentré à Paris, il décède le 11 mars de la même année.
-1	Rentré	rentrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+1	Rentré	rentrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
 2	à	à	ADP	_	_	3	case	_	_
 3	Paris	Paris	PROPN	_	_	1	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -287562,7 +287564,7 @@
 10	de	de	ADP	_	_	13	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 12	même	même	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
-13	année	année	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	année	année	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_10240
@@ -296021,7 +296023,7 @@
 7	1792	1792	NUM	_	_	6	nmod	_	_
 8	près	près	ADV	_	_	10	case	_	_
 9	de	de	ADP	_	_	8	fixed	_	_
-10	Petersburg	Petersburg	PROPN	_	_	6	nmod	_	SpaceAfter=No
+10	Petersburg	Petersburg	PROPN	_	_	5	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	Virginie	Virginie	PROPN	_	_	10	nmod	_	SpaceAfter=No
 13	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
@@ -296029,7 +296031,7 @@
 15	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 16	1862	1862	NUM	_	_	15	nmod	_	_
 17	à	à	ADP	_	_	18	case	_	_
-18	Tallahassee	Tallahassee	PROPN	_	_	15	nmod	_	SpaceAfter=No
+18	Tallahassee	Tallahassee	PROPN	_	_	14	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	Floride	Floride	PROPN	_	_	18	nmod	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	5	punct	_	_
@@ -299419,7 +299421,7 @@
 16	bissextile	bissextile	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	6	punct	_	_
 18	en	en	ADP	_	_	19	case	_	_
-19	sport	sport	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+19	sport	sport	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_10686
@@ -318828,12 +318830,12 @@
 47	4	4	NUM	_	_	41	obl	_	_
 48	juin	juin	NOUN	_	Gender=Masc|Number=Sing	47	nmod	_	_
 49	1794	1794	NUM	_	_	48	nmod	_	_
-50	(	(	PUNCT	_	_	52	punct	_	SpaceAfter=No
-51	16	16	NUM	_	_	52	nummod	_	_
-52	prairial	prairial	NUM	_	_	48	nmod	_	_
+50	(	(	PUNCT	_	_	51	punct	_	SpaceAfter=No
+51	16	16	NUM	_	_	47	nmod	_	_
+52	prairial	prairial	NUM	_	_	51	nmod	_	_
 53	an	an	NOUN	_	Gender=Masc|Number=Sing	52	nmod	_	_
 54	II	II	NUM	_	_	53	nmod	_	SpaceAfter=No
-55	)	)	PUNCT	_	_	52	punct	_	_
+55	)	)	PUNCT	_	_	51	punct	_	_
 56	sur	sur	ADP	_	_	58	case	_	_
 57	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	SpaceAfter=No
 58	état	état	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
@@ -330769,7 +330771,7 @@
 33	de	de	ADP	_	_	36	case	_	_
 34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 35	même	même	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	_
-36	année	année	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+36	année	année	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_11793
@@ -332553,7 +332555,7 @@
 8	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
-11	année	année	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+11	année	année	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 12	suivante	suivant	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -332725,7 +332727,7 @@
 20	avril	avril	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 21	à	à	ADP	_	_	23	case	_	_
 22	19	19	NUM	_	_	23	nummod	_	SpaceAfter=No
-23	h	heure	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	h	heure	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 24	30	30	NUM	_	_	23	nummod	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -341475,7 +341477,7 @@
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_12179
-# text = Les élections législatives françaises de 1997 ont eu lieu les dimanches 25 mai et juin 1997.
+# text = Les élections législatives françaises de 1997 ont eu lieu les dimanches 25 mai et 1er juin 1997.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	élections	élection	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 3	législatives	législatif	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -341487,12 +341489,13 @@
 9	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	dimanches	dimanche	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
-12	25	25	NUM	_	_	11	appos	_	_
+12	25	25	NUM	_	_	11	nmod	_	_
 13	mai	mai	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
-15	juin	juin	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
-16	1997	1997	NUM	_	_	13	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	8	punct	_	_
+15	1er	1er	NUM	_	_	12	conj	_	_
+16	juin	juin	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+17	1997	1997	NUM	_	_	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_12180
 # text = Ceci a pour conséquence immédiate d'organiser une grande réunion de tous les seigneurs des Marches pour discuter de ce qu'il convient de faire.
@@ -381081,8 +381084,8 @@
 
 # sent_id = fr-ud-train_13529
 # text = Mardi 2 février à 20H00 au Centre Saint Paul (12 rue Saint Joseph--75002 Paris), conférence de Kostas Mavrakis : " Le marxisme a-t-il un avenir ?
-1	Mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-2	2	2	NUM	_	_	21	nmod	_	_
+1	Mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+2	2	2	NUM	_	_	1	nmod	_	_
 3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 4	à	à	ADP	_	_	5	case	_	_
 5	20H00	20H00	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
@@ -381497,7 +381500,7 @@
 37-38	au	_	_	_	_	_	_	_	_
 37	à	à	ADP	_	_	39	case	_	_
 38	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	30	30	NUM	_	_	36	nmod	_	_
+39	30	30	NUM	_	_	35	nmod:range	_	_
 40	juin	juin	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
 41	2002	2002	NUM	_	_	40	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	3	punct	_	_
@@ -391031,7 +391034,7 @@
 # text = Par ailleurs, tout le monde a constaté l'absence, presque totale, des forces de sécurité à Layoune, le matin du lundi 8 novembre.
 1	Par	par	ADP	_	_	2	case	_	_
 2	ailleurs	ailleurs	ADV	_	_	8	advmod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	8	punct	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	tout	tout	DET	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
 6	monde	monde	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	_
@@ -391039,10 +391042,10 @@
 8	constaté	constater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	absence	absence	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	8	punct	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
 12	presque	presque	ADV	_	_	13	advmod	_	_
 13	totale	total	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	8	punct	_	_
+14	,	,	PUNCT	_	_	10	punct	_	_
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
@@ -391053,12 +391056,12 @@
 21	Layoune	Layoune	PROPN	_	_	10	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	8	punct	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	matin	matin	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+24	matin	matin	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 25-26	du	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	lundi	lundi	PROPN	_	_	24	nmod	_	_
-28	8	8	NUM	_	_	27	compound	_	_
+28	8	8	NUM	_	_	27	nmod	_	_
 29	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -398407,8 +398410,8 @@
 5	12	12	NUM	_	_	1	nmod	_	_
 6	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 7	1825	1825	NUM	_	_	6	nmod	_	SpaceAfter=No
-8	--	--	PUNCT	_	_	5	punct	_	SpaceAfter=No
-9	11	11	NUM	_	_	6	nmod	_	_
+8	--	--	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	11	11	NUM	_	_	5	conj	_	_
 10	août	août	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 11	1908	1908	NUM	_	_	10	nmod	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	5	punct	_	_
@@ -398431,7 +398434,7 @@
 27	de	de	ADP	_	_	28	case	_	_
 28	1864	1864	NUM	_	_	17	nmod	_	_
 29	à	à	ADP	_	_	30	case	_	_
-30	1897	1897	NUM	_	_	28	nmod	_	SpaceAfter=No
+30	1897	1897	NUM	_	_	28	nmod:range	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-train_14146
@@ -403111,17 +403114,17 @@
 
 # sent_id = fr-ud-train_14313
 # text = Mercredi 3 août et samedi 27 août, à 14h, concours jeunes réservés aux 6-16 ans.
-1	Mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-2	3	3	NUM	_	_	13	nmod	_	_
+1	Mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+2	3	3	NUM	_	_	1	nmod	_	_
 3	août	août	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-4	et	et	CCONJ	_	_	6	cc	_	_
-5	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-6	27	27	NUM	_	_	2	conj	_	_
+4	et	et	CCONJ	_	_	5	cc	_	_
+5	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+6	27	27	NUM	_	_	5	nmod	_	_
 7	août	août	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	2	punct	_	_
+8	,	,	PUNCT	_	_	1	punct	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	14	14	NUM	_	_	11	nummod	_	SpaceAfter=No
-11	h	heure	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+11	h	heure	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	concours	concours	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 14	jeunes	jeune	NOUN	_	Gender=Masc|Number=Plur	13	compound	_	_
