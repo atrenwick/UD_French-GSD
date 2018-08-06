@@ -6485,7 +6485,7 @@
 50	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_00224
-# text = Chaque arrondissement forme un secteur municipal, à l'exception des 1 et 4 arrondissement, d'une part, et des 2 et 3 arrondissements, d'autre part, qui forment respectivement les 1 et 2 secteurs.
+# text = Chaque arrondissement forme un secteur municipal, à l'exception des 1er et 4e arrondissement, d'une part, et des 2e et 3e arrondissements, d'autre part, qui forment respectivement les 1er et 2e secteurs.
 1	Chaque	chaque	DET	_	Gender=Masc|Number=Sing	2	det	_	_
 2	arrondissement	arrondissement	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	forme	former	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6499,9 +6499,9 @@
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	16	case	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-13	1	1	NUM	_	_	16	nummod	_	_
+13	1er	1er	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
-15	4	4	NUM	_	_	13	conj	_	_
+15	4e	4e	ADJ	_	Gender=Masc|Number=Sing	13	conj	_	_
 16	arrondissement	arrondissement	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
 18	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
@@ -6512,9 +6512,9 @@
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	28	case	_	_
 24	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
-25	2	2	NUM	_	_	28	nummod	_	_
+25	2e	2e	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
-27	3	3	NUM	_	_	25	conj	_	_
+27	3e	3e	ADJ	_	Gender=Masc|Number=Sing	25	conj	_	_
 28	arrondissements	arrondissement	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	32	punct	_	_
 30	d'	de	ADP	_	_	32	case	_	SpaceAfter=No
@@ -6525,9 +6525,9 @@
 35	forment	former	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
 36	respectivement	respectivement	ADV	_	_	35	advmod	_	_
 37	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
-38	1	1	NUM	_	_	41	nummod	_	_
+38	1er	1er	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
 39	et	et	CCONJ	_	_	40	cc	_	_
-40	2	2	NUM	_	_	38	conj	_	_
+40	2e	2e	ADJ	_	Gender=Masc|Number=Sing	38	conj	_	_
 41	secteurs	secteur	NOUN	_	Gender=Masc|Number=Plur	35	obj	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -14542,7 +14542,7 @@
 45	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-train_00505
-# text = L'International football cup 1964-1965 est la 4 édition de l'International football cup.
+# text = L'International football cup 1964-1965 est la 4e édition de l'International football cup.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	International	International	PROPN	_	_	9	nsubj	_	_
 3	football	football	PROPN	_	_	2	flat:name	_	_
@@ -14550,7 +14550,7 @@
 5	1964-1965	1964-1965	NUM	_	_	2	nmod	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-8	4	quatrième	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+8	4e	4e	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 9	édition	édition	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
@@ -18024,7 +18024,7 @@
 22	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_00628
-# text = Giovanni Galeone commence sa carrière d'entraineur à 34 ans, en Serie D avec Pordenone Calcio durant la saison 1975/1976, il obtient la 11 place.
+# text = Giovanni Galeone commence sa carrière d'entraineur à 34 ans, en Serie D avec Pordenone Calcio durant la saison 1975/1976, il obtient la 11e place.
 1	Giovanni	Giovanni	PROPN	_	_	3	nsubj	_	_
 2	Galeone	Galeone	PROPN	_	_	1	flat:name	_	_
 3	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18052,7 +18052,7 @@
 25	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 26	obtient	obtenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-28	11	onzième	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+28	11e	11e	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
 29	place	place	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -18252,7 +18252,7 @@
 30	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_00636
-# text = Il a été institué pour une durée "illimitée" par le traité Euratom, signé le 25 mars 1957 par les six pays membres de la Communauté européenne du charbon et de l'acier (CECA), et est entrée en vigueur le 1958).
+# text = Il a été institué pour une durée "illimitée" par le traité Euratom, signé le 25 mars 1957 par les six pays membres de la Communauté européenne du charbon et de l'acier (CECA), et est entrée en vigueur le 1er janvier 1958).
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
@@ -18267,7 +18267,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	traité	traité	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
 14	Euratom	Euratom	PROPN	_	_	13	appos	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	4	punct	_	_
+15	,	,	PUNCT	_	_	13	punct	_	_
 16	signé	signer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	25	25	NUM	_	_	16	obl	_	_
@@ -18300,9 +18300,11 @@
 44	en	en	ADP	_	_	45	case	_	_
 45	vigueur	vigueur	NOUN	_	Gender=Fem|Number=Sing	43	obl	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	1958	1958	NUM	_	_	43	obl	_	SpaceAfter=No
-48	)	)	PUNCT	_	_	47	punct	_	SpaceAfter=No
-49	.	.	PUNCT	_	_	4	punct	_	_
+47	1er	1er	NUM	_	_	43	obl	_	_
+48	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	47	nmod	_	_
+49	1958	1958	NUM	_	_	48	nmod	_	SpaceAfter=No
+50	)	)	PUNCT	_	_	47	punct	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_00637
 # text = Après plusieurs récompenses dans les championnats internationaux dans les catégories juniors, elle se révèle parmi l'élite mondiale en 2010 en décrochant un premier titre de championne de France et une médaille de bronze européenne sur son épreuve de prédilection, le papillon.
@@ -18892,7 +18894,7 @@
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-train_00657
-# text = Il marque sont premier but à la 90 minute d'une victoire contre Monaco (3-0).
+# text = Il marque sont premier but à la 90e minute d'une victoire contre Monaco (3-0).
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	marque	marquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sont	son	DET	_	Gender=Masc|Number=Sing|PronType=Prs	5	det	_	_
@@ -18900,7 +18902,7 @@
 5	but	but	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
 6	à	à	ADP	_	_	9	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-8	90	90	NUM	_	_	9	nummod	_	_
+8	90e	90e	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 9	minute	minute	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
 10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -33942,14 +33944,14 @@
 49	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = fr-ud-train_01193
-# text = Situé 42 boulevard Jourdan dans le 14 arrondissement de Paris, il est accessible à tous.
+# text = Situé 42 boulevard Jourdan dans le 14e arrondissement de Paris, il est accessible à tous.
 1	Situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
 2	42	42	NUM	_	_	3	nummod	_	_
 3	boulevard	boulevard	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	_
 4	Jourdan	Jourdan	PROPN	_	_	3	appos	_	_
 5	dans	dans	ADP	_	_	8	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	14	14	NUM	_	_	8	nummod	_	_
+7	14e	14e	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 8	arrondissement	arrondissement	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	Paris	Paris	PROPN	_	_	8	nmod	_	SpaceAfter=No
@@ -39260,7 +39262,7 @@
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_01388
-# text = L'Hôtel de Chimay, connu successivement sous les noms d'Hôtel de la Bazinière, de Grand hôtel de Bouillon, Hôtel de La Pagerie avant de prendre son nom actuel, est un hôtel particulier situé 17 quai Malaquais dans le 6 arrondissement à Paris.
+# text = L'Hôtel de Chimay, connu successivement sous les noms d'Hôtel de la Bazinière, de Grand hôtel de Bouillon, Hôtel de La Pagerie avant de prendre son nom actuel, est un hôtel particulier situé 17 quai Malaquais dans le 6e arrondissement à Paris.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	Hôtel	Hôtel	PROPN	_	_	36	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -39304,7 +39306,7 @@
 41	Malaquais	Malaquais	PROPN	_	_	40	appos	_	_
 42	dans	dans	ADP	_	_	45	case	_	_
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-44	6	6	NUM	_	_	45	nummod	_	_
+44	6e	6e	ADJ	_	Gender=Masc|Number=Sing	45	amod	_	_
 45	arrondissement	arrondissement	NOUN	_	Gender=Masc|Number=Sing	38	obl:arg	_	_
 46	à	à	ADP	_	_	47	case	_	_
 47	Paris	Paris	PROPN	_	_	38	obl	_	SpaceAfter=No
@@ -44245,7 +44247,7 @@
 55	.	.	PUNCT	_	_	24	punct	_	_
 
 # sent_id = fr-ud-train_01567
-# text = Fabrice Baron est un footballeur français né le 1974 à Dunkerque (Nord).
+# text = Fabrice Baron est un footballeur français né le 1er août 1974 à Dunkerque (Nord).
 1	Fabrice	Fabrice	PROPN	_	_	5	nsubj	_	_
 2	Baron	Baron	PROPN	_	_	1	flat:name	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -44254,13 +44256,15 @@
 6	français	français	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	1974	1974	NUM	_	_	7	obl	_	_
-10	à	à	ADP	_	_	11	case	_	_
-11	Dunkerque	Dunkerque	PROPN	_	_	7	obl	_	_
-12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-13	Nord	nord	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
-15	.	.	PUNCT	_	_	5	punct	_	_
+9	1er	1er	ADJ	_	Gender=Masc|Number=Sing	7	obl	_	_
+10	août	août	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+11	1974	1974	NUM	_	_	10	nmod	_	_
+12	à	à	ADP	_	_	13	case	_	_
+13	Dunkerque	Dunkerque	PROPN	_	_	7	obl	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Nord	nord	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_01568
 # text = Villemain, dont la santé s'était altérée à la suite de sa tentative de suicide, fut pendant quelque temps plongé dans un désespoir proche de la folie ;
@@ -45863,7 +45867,7 @@
 34	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_01622
-# text = La saison 2004 du Championnat de Norvège de football était la 42 édition de la première division norvégienne à poule unique, la Tippeligaen.
+# text = La saison 2004 du Championnat de Norvège de football était la 42e édition de la première division norvégienne à poule unique, la Tippeligaen.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	saison	saison	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	2004	2004	NUM	_	_	2	nmod	_	_
@@ -45877,7 +45881,7 @@
 10	football	football	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-13	42	42	NUM	_	_	14	nummod	_	_
+13	42e	42e	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 14	édition	édition	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 15	de	de	ADP	_	_	18	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -47358,13 +47362,13 @@
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_01675
-# text = Pendant 3 mois, la 43 division de l'armée républicaine, adossée à la frontière française, a opposé, dans la haute vallée du rio Cinca, une farouche résistance à l'avancée franquiste renforcée par l'aviation allemande et italienne qui a semé la terreur en incendiant les villages de Bielsa et de Parzan, ainsi que les installations minières de l'Hospital de Parzan où la 43 division avait installé son quartier général.
+# text = Pendant 3 mois, la 43e division de l'armée républicaine, adossée à la frontière française, a opposé, dans la haute vallée du rio Cinca, une farouche résistance à l'avancée franquiste renforcée par l'aviation allemande et italienne qui a semé la terreur en incendiant les villages de Bielsa et de Parzan, ainsi que les installations minières de l'Hospital de Parzan où la 43e division avait installé son quartier général.
 1	Pendant	pendant	ADP	_	_	3	case	_	_
 2	3	3	NUM	_	_	3	nummod	_	_
 3	mois	mois	NOUN	_	Gender=Masc|Number=Plur	20	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	43	43	NUM	_	_	7	nummod	_	_
+6	43e	43e	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 7	division	division	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
@@ -47431,7 +47435,7 @@
 69	Parzan	Parzan	PROPN	_	_	67	nmod	_	_
 70	où	où	PRON	_	PronType=Rel	75	obl	_	_
 71	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
-72	43	43	NUM	_	_	73	nummod	_	_
+72	43e	43e	ADJ	_	Gender=Fem|Number=Sing	73	amod	_	_
 73	division	division	NOUN	_	Gender=Fem|Number=Sing	75	nsubj	_	_
 74	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	75	aux	_	_
 75	installé	installer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	67	acl:relcl	_	_
@@ -48684,9 +48688,9 @@
 20	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_01724
-# text = Les 8 Championnats d'Europe juniors d'athlétisme ont eu lieu en 1985 à Cottbus, en Allemagne.
+# text = Les 8e Championnats d'Europe juniors d'athlétisme ont eu lieu en 1985 à Cottbus, en Allemagne.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-2	8	8	NUM	_	_	3	nummod	_	_
+2	8e	8e	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	Championnats	championnat	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	Europe	Europe	PROPN	_	_	3	nmod	_	_
@@ -50151,9 +50155,9 @@
 27	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_01775
-# text = La 69 division d'infanterie est une division d'infanterie de l'armée de terre française qui a participé à la Première Guerre mondiale.
+# text = La 69e division d'infanterie est une division d'infanterie de l'armée de terre française qui a participé à la Première Guerre mondiale.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	69	69	NUM	_	_	3	nummod	_	_
+2	69e	69e	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	division	division	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	infanterie	infanterie	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
@@ -56847,7 +56851,7 @@
 50	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_02018
-# text = L'ordre positif fut donné à la 68 heure.
+# text = L'ordre positif fut donné à la 68e heure.
 1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	positif	positif	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -56855,7 +56859,7 @@
 5	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	à	à	ADP	_	_	9	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-8	68	68	NUM	_	_	9	nummod	_	_
+8	68e	68e	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 9	heure	heure	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -59537,11 +59541,11 @@
 16	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-train_02118
-# text = C'est le 3 titre de champion d'Égypte de l'histoire du club.
+# text = C'est le 3e titre de champion d'Égypte de l'histoire du club.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-4	3	3	NUM	_	_	5	nummod	_	_
+4	3e	3e	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 5	titre	titre	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	champion	champion	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
@@ -59749,7 +59753,7 @@
 81	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-train_02124
-# text = Reformé à Briançon puis à Embrun sous le nom de 159 régiment d'infanterie alpine (RIA) sous les ordres du colonel Gruyer puis capitaine Pegorier au 11 juin 1940 puis Capitaine Jeandel au 13 juin 1940, à la 27 division d'infanterie alpine.
+# text = Reformé à Briançon puis à Embrun sous le nom de 159 régiment d'infanterie alpine (RIA) sous les ordres du colonel Gruyer puis capitaine Pegorier au 11 juin 1940 puis Capitaine Jeandel au 13 juin 1940, à la 27e division d'infanterie alpine.
 1	Reformé	reformer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 2	à	à	ADP	_	_	3	case	_	_
 3	Briançon	Briançon	PROPN	_	_	1	obl	_	_
@@ -59797,7 +59801,7 @@
 42	,	,	PUNCT	_	_	1	punct	_	_
 43	à	à	ADP	_	_	46	case	_	_
 44	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-45	27	27	NUM	_	_	46	nummod	_	_
+45	27e	27e	ADJ	_	Gender=Fem|Number=Sing	46	amod	_	_
 46	division	division	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
 47	d'	de	ADP	_	_	48	case	_	SpaceAfter=No
 48	infanterie	infanterie	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
@@ -80133,7 +80137,7 @@
 35	!	!	PUNCT	_	_	21	punct	_	_
 
 # sent_id = fr-ud-train_02846
-# text = Au cours de sa carrière, il a pris à deux reprises la 5 place en slalom lors de Championnats du monde (en 2003 et 2007) avant de remporter le titre lors des mondiaux 2009 à Val d'Isère et compte trois victoires en slalom en Coupe du monde (Kitzbühel et Schladming en 2005, Wengen en 2009).
+# text = Au cours de sa carrière, il a pris à deux reprises la 5e place en slalom lors de Championnats du monde (en 2003 et 2007) avant de remporter le titre lors des mondiaux 2009 à Val d'Isère et compte trois victoires en slalom en Coupe du monde (Kitzbühel et Schladming en 2005, Wengen en 2009).
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -80149,7 +80153,7 @@
 12	deux	deux	NUM	_	_	13	nummod	_	_
 13	reprises	reprise	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-15	5	5	NUM	_	_	16	nummod	_	_
+15	5e	5e	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 16	place	place	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
 17	en	en	ADP	_	_	18	case	_	_
 18	slalom	slalom	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
@@ -90373,7 +90377,7 @@
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_03209
-# text = Le titre est officiellement remporté lors de la 32 journée et une victoire 2-0 face au Borussia Mönchengladbach.
+# text = Le titre est officiellement remporté lors de la 32e journée et une victoire 2-0 face au Borussia Mönchengladbach.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	titre	titre	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
@@ -90382,7 +90386,7 @@
 6	lors	lors	ADV	_	_	10	case	_	_
 7	de	de	ADP	_	_	6	fixed	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-9	32	trente-deuxième	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
+9	32e	32e	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 10	journée	journée	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -91004,7 +91008,7 @@
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_03231
-# text = Elle fut mise en place lors de la 27 édition (2001).
+# text = Elle fut mise en place lors de la 27e édition (2001).
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
 2	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
 3	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -91013,7 +91017,7 @@
 6	lors	lors	ADV	_	_	10	case	_	_
 7	de	de	ADP	_	_	6	fixed	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-9	27	27	NUM	_	_	10	nummod	_	_
+9	27e	27e	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 10	édition	édition	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	2001	2001	NUM	_	_	10	nmod	_	SpaceAfter=No
@@ -95493,7 +95497,7 @@
 32	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-train_03393
-# text = La saison 1958-1959 du Championnat de Bulgarie de football était la 35 édition du championnat de première division en Bulgarie.
+# text = La saison 1958-1959 du Championnat de Bulgarie de football était la 35e édition du championnat de première division en Bulgarie.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	saison	saison	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	1958-1959	1958-1959	NUM	_	_	2	nmod	_	_
@@ -95507,7 +95511,7 @@
 10	football	football	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-13	35	35	NUM	_	_	14	nummod	_	_
+13	35e	35e	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 14	édition	édition	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
@@ -96327,7 +96331,7 @@
 19	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-train_03420
-# text = Le 9 juillet 1842, il brigua avec succès la députation dans le 5 collège de la Côte-d'Or (Châtillon-sur-Seine), obtenant les voix de 65% des votants.
+# text = Le 9 juillet 1842, il brigua avec succès la députation dans le 5e collège de la Côte-d'Or (Châtillon-sur-Seine), obtenant les voix de 65% des votants.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	9	9	NUM	_	_	7	obl:mod	_	_
 3	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -96341,7 +96345,7 @@
 11	députation	députation	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 12	dans	dans	ADP	_	_	15	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-14	5	5	NUM	_	_	15	nummod	_	_
+14	5e	5e	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 15	collège	collège	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -99040,10 +99044,10 @@
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_03528
-# text = À la 54 minute de jeu Marcel Desailly reprend victorieusement un coup franc de la tête 2-1.
+# text = À la 54e minute de jeu Marcel Desailly reprend victorieusement un coup franc de la tête 2-1.
 1	À	à	ADP	_	_	4	case	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-3	54	54	NUM	_	_	4	appos	_	_
+3	54e	54e	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 4	minute	minute	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
@@ -104911,7 +104915,7 @@
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_03730
-# text = En 1967, il fera partie des cadres de la Protection civile des Hautes-Pyrénées en qualité de commandant de la 1 compagnie d'Hébergement des Hautes-Pyrénées.
+# text = En 1967, il fera partie des cadres de la Protection civile des Hautes-Pyrénées en qualité de commandant de la 1re compagnie d'Hébergement des Hautes-Pyrénées.
 1	En	en	ADP	_	_	2	case	_	_
 2	1967	1967	NUM	_	_	5	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
@@ -104936,7 +104940,7 @@
 20	commandant	commandant	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 21	de	de	ADP	_	_	24	case	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-23	1	1	NUM	_	_	24	nummod	_	_
+23	1re	1re	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
 24	compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 25	d'	de	ADP	_	_	26	case	_	SpaceAfter=No
 26	Hébergement	hébergement	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
@@ -124029,7 +124033,7 @@
 30	;	;	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_04441
-# text = La ruelle du Soleil-d'Or est une voie du 15 arrondissement de Paris.
+# text = La ruelle du Soleil-d'Or est une voie du 15e arrondissement de Paris.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ruelle	ruelle	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3-4	du	_	_	_	_	_	_	_	_
@@ -124042,7 +124046,7 @@
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	12	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-11	15	15	NUM	_	_	12	nummod	_	_
+11	15e	15e	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 12	arrondissement	arrondissement	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Paris	Paris	PROPN	_	_	12	nmod	_	SpaceAfter=No
@@ -131943,7 +131947,7 @@
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_04720
-# text = Il termine l'année sur de meilleures impressions avec une 5 place à Kranjska Gora et une 7 à Lenzerheide pour terminer à la 12 place du classement du slalom.
+# text = Il termine l'année sur de meilleures impressions avec une 5e place à Kranjska Gora et une 7e à Lenzerheide pour terminer à la 12e place du classement du slalom.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	termine	terminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
@@ -131954,21 +131958,21 @@
 8	impressions	impression	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	_
 9	avec	avec	ADP	_	_	12	case	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-11	5	5	NUM	_	_	12	nummod	_	_
+11	5e	5e	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 12	place	place	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
 13	à	à	ADP	_	_	14	case	_	_
 14	Kranjska	Kranjska	PROPN	_	_	2	obl	_	_
 15	Gora	Gora	PROPN	_	_	14	flat:name	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	7	7	NUM	_	_	11	conj	_	_
+18	7e	7e	ADJ	_	Gender=Fem|Number=Sing	11	conj	_	_
 19	à	à	ADP	_	_	20	case	_	_
 20	Lenzerheide	Lenzerheide	PROPN	_	_	18	nmod	_	_
 21	pour	pour	ADP	_	_	22	mark	_	_
 22	terminer	terminer	VERB	_	VerbForm=Inf	2	advcl	_	_
 23	à	à	ADP	_	_	26	case	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-25	12	12	NUM	_	_	26	nummod	_	_
+25	12e	12e	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	_
 26	place	place	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	29	case	_	_
@@ -132625,7 +132629,7 @@
 40	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_04743
-# text = Il est à nouveau accordé en 1707, toujours dans la pairie d'Écosse, en faveur du 4 marquis de Montrose et appartient depuis à la famille Graham.
+# text = Il est à nouveau accordé en 1707, toujours dans la pairie d'Écosse, en faveur du 4e marquis de Montrose et appartient depuis à la famille Graham.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 3	à	à	ADP	_	_	5	advmod	_	_
@@ -132646,7 +132650,7 @@
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	21	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-20	4	4	NUM	_	_	21	nummod	_	_
+20	4e	4e	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 21	marquis	marquis	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	Montrose	Montrose	PROPN	_	_	21	nmod	_	_
@@ -151148,7 +151152,7 @@
 12	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_05396
-# text = Il doit s'embarquer pour l'Europe avec la 19 division d'infanterie mais la pandémie de grippe espagnole puis l'armistice l'en empêchent.
+# text = Il doit s'embarquer pour l'Europe avec la 19e division d'infanterie mais la pandémie de grippe espagnole puis l'armistice l'en empêchent.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
@@ -151158,7 +151162,7 @@
 7	Europe	Europe	PROPN	_	_	4	obl	_	_
 8	avec	avec	ADP	_	_	11	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-10	19	19	NUM	_	_	11	nummod	_	_
+10	19e	19e	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 11	division	division	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	infanterie	infanterie	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -156879,14 +156883,14 @@
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_05595
-# text = Il est issu du 85 Régiment d'Infanterie : à la mobilisation, chaque régiment d'active créé un régiment de réserve dont le numéro est le sien plus 200.
+# text = Il est issu du 85e Régiment d'Infanterie : à la mobilisation, chaque régiment d'active créé un régiment de réserve dont le numéro est le sien plus 200.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	issu	issu	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	7	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-6	85	85	NUM	_	_	7	nummod	_	_
+6	85e	85e	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 7	Régiment	Régiment	PROPN	_	_	3	obl:arg	_	_
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	Infanterie	Infanterie	PROPN	_	_	7	nmod	_	_
@@ -168708,7 +168712,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_06022
-# text = Il joua trois saisons avec Seattle se classant au 7 rang au niveau national des meilleurs marqueurs lors de sa saison senior (1962-63).
+# text = Il joua trois saisons avec Seattle se classant au 7e rang au niveau national des meilleurs marqueurs lors de sa saison senior (1962-63).
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	joua	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	trois	trois	NUM	_	_	4	nummod	_	_
@@ -168720,7 +168724,7 @@
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	12	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-11	7	7	NUM	_	_	12	nummod	_	_
+11	7e	7e	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 12	rang	rang	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
@@ -173686,7 +173690,7 @@
 32	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_06198
-# text = 56 aéronefs au total furent perdus le 24 mars, 21 des 144 avions qui transportaient le 17 aéroporté furent abattus et 59 furent endommagés par les feux antiaériens.
+# text = 56 aéronefs au total furent perdus le 24 mars, 21 des 144 avions qui transportaient le 17e aéroporté furent abattus et 59 furent endommagés par les feux antiaériens.
 1	56	56	NUM	_	_	2	nummod	_	_
 2	aéronefs	aéronef	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3-4	au	_	_	_	_	_	_	_	_
@@ -173708,7 +173712,7 @@
 17	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
 18	transportaient	transporter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-20	17	17	NUM	_	_	21	nummod	_	_
+20	17e	17e	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 21	aéroporté	aéroporté	ADJ	_	Gender=Masc|Number=Sing	18	obj	_	_
 22	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
 23	abattus	abattre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	_
@@ -178516,11 +178520,11 @@
 4	;-)	;-)	SYM	_	_	1	dep	_	_
 
 # sent_id = fr-ud-train_06374
-# text = Il atteint la 18 place du classement Oricon.
+# text = Il atteint la 18e place du classement Oricon.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	atteint	atteindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-4	18	18	NUM	_	_	5	nummod	_	_
+4	18e	18e	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 5	place	place	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
@@ -181855,7 +181859,7 @@
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_06475
-# text = Du 12 au 25 novembre 2008, la ville a accueilli les 38 Olympiades d'échecs ;
+# text = Du 12 au 25 novembre 2008, la ville a accueilli les 38e Olympiades d'échecs ;
 1-2	Du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -181872,8 +181876,8 @@
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	accueilli	accueillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-15	38	38	NUM	_	_	16	nummod	_	_
-16	Olympiades	Olympiades	PROPN	_	_	13	obj	_	_
+15	38e	38e	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
+16	Olympiades	olympiade	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
 17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 18	échecs	échec	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 19	;	;	PUNCT	_	_	13	punct	_	_
@@ -217045,9 +217049,9 @@
 37	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_07724
-# text = Les 8 championnats d'Europe de kayak-polo de 2009 se sont déroulés du 19 au 23 août à Essen, en Allemagne, en 2009.
+# text = Les 8e championnats d'Europe de kayak-polo de 2009 se sont déroulés du 19 au 23 août à Essen, en Allemagne, en 2009.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-2	8	8	NUM	_	_	3	nummod	_	_
+2	8e	8e	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	championnats	championnat	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	Europe	Europe	PROPN	_	_	3	nmod	_	_
@@ -224407,12 +224411,12 @@
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_07986
-# text = Live Hits est le 1 DVD live de Melanie C. Filmé fin août 2006 à The Bridge, Londres.
+# text = Live Hits est le 1er DVD live de Melanie C. Filmé fin août 2006 à The Bridge, Londres.
 1	Live	Live	PROPN	_	_	6	nsubj	_	_
 2	Hits	Hits	PROPN	_	_	1	flat:name	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	1	1	NUM	_	_	6	nummod	_	_
+5	1er	1er	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	DVD	DVD	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 7	live	live	ADJ	_	_	6	amod	_	_
 8	de	de	ADP	_	_	9	case	_	_
@@ -232009,13 +232013,13 @@
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_08250
-# text = La saison 1974-1975 est la 3 saison du championnat d'Espagne de Hockey sur glace.
+# text = La saison 1974-1975 est la 3e saison du championnat d'Espagne de Hockey sur glace.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	saison	saison	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	1974-1975	1974-1975	NUM	_	_	2	appos	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	3	3	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+6	3e	3e	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 7	saison	saison	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
@@ -244404,7 +244408,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_08691
-# text = À 3h45, des éléments de la 2 division attaquèrent à l'est du village, espérant percer la ligne Hindenburg et s'emparer d'Hendecourt-lès-Cagnicourt tandis la 62 division britannique tentait de s'emparer de Bullecourt même.
+# text = À 3h45, des éléments de la 2e division attaquèrent à l'est du village, espérant percer la ligne Hindenburg et s'emparer d'Hendecourt-lès-Cagnicourt tandis la 62e division britannique tentait de s'emparer de Bullecourt même.
 1	À	à	ADP	_	_	3	case	_	_
 2	3	3	NUM	_	_	3	nummod	_	SpaceAfter=No
 3	h	heure	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	SpaceAfter=No
@@ -244414,7 +244418,7 @@
 7	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
 8	de	de	ADP	_	_	11	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-10	2	2	NUM	_	_	11	nummod	_	_
+10	2e	2e	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 11	division	division	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 12	attaquèrent	attaquer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 13	à	à	ADP	_	_	15	case	_	_
@@ -244437,7 +244441,7 @@
 29	Hendecourt-lès-Cagnicourt	Hendecourt-lès-Cagnicourt	PROPN	_	_	27	obl:arg	_	_
 30	tandis	tandis	ADV	_	_	35	mark	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-32	62	62	NUM	_	_	33	nummod	_	_
+32	62e	62e	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
 33	division	division	NOUN	_	Gender=Fem|Number=Sing	35	nsubj	_	_
 34	britannique	britannique	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
 35	tentait	tenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
@@ -245995,7 +245999,7 @@
 36	.	.	PUNCT	_	_	20	punct	_	_
 
 # sent_id = fr-ud-train_08745
-# text = L'Escadron de Chasse 1/3 Navarre est leader sur le 2 détachement, et c'est le 01 octobre 2005 qu'une patrouille mixte de l'EC 02.003 et de l'EC 01.003 ouvrira le feu sur des positions talibanes en renfort des forces spéciales françaises.
+# text = L'Escadron de Chasse 1/3 Navarre est leader sur le 2e détachement, et c'est le 01 octobre 2005 qu'une patrouille mixte de l'EC 02.003 et de l'EC 01.003 ouvrira le feu sur des positions talibanes en renfort des forces spéciales françaises.
 1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	Escadron	escadron	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -246008,7 +246012,7 @@
 10	leader	leader	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 11	sur	sur	ADP	_	_	14	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-13	2	2	NUM	_	_	14	nummod	_	_
+13	2e	2e	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 14	détachement	détachement	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	10	punct	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
@@ -251178,7 +251182,7 @@
 37	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-train_08924
-# text = Les troisièmes disputent un match pour la 5 place.
+# text = Les troisièmes disputent un match pour la 5e place.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	troisièmes	troisième	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	disputent	disputer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -251186,7 +251190,7 @@
 5	match	match	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	pour	pour	ADP	_	_	9	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-8	5	5	NUM	_	_	9	nummod	_	_
+8	5e	5e	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 9	place	place	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -256033,12 +256037,12 @@
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_09103
-# text = En géographie, le 99 méridien ouest est le méridien joignant les points de la surface de la Terre dont la longitude est égale à 99° ouest.
+# text = En géographie, le 99e méridien ouest est le méridien joignant les points de la surface de la Terre dont la longitude est égale à 99° ouest.
 1	En	en	ADP	_	_	2	case	_	_
 2	géographie	géographie	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	10	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	99	99	NUM	_	_	6	nummod	_	_
+5	99e	99e	NOUN	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	méridien	méridien	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 7	ouest	ouest	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
@@ -258795,7 +258799,7 @@
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_09199
-# text = La Coupe d'Europe de hockey sur glace 1971 fut la 6 édition de la Coupe d'Europe de hockey sur glace, première compétition européenne de club organisé par l'IIHF.
+# text = La Coupe d'Europe de hockey sur glace 1971 fut la 6e édition de la Coupe d'Europe de hockey sur glace, première compétition européenne de club organisé par l'IIHF.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
@@ -258807,7 +258811,7 @@
 9	1971	1971	NUM	_	_	2	nmod	_	_
 10	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-12	6	6	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+12	6e	6e	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 13	édition	édition	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -261164,8 +261168,8 @@
 26	?	?	PUNCT	_	_	25	punct	_	_
 
 # sent_id = fr-ud-train_09284
-# text = Né dans une famille noble de la Petite Russie, le 5 juin 1798, il sortit diplômé du Corps des Cadets de l'Infanterie, au grade de lieutenant, il reçut son affectation pour servir au 12 Régiment de Chasseurs.
-1	Né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+# text = Né dans une famille noble de la Petite Russie, le 5 juin 1798, il sortit diplômé du Corps des Cadets de l'Infanterie, au grade de lieutenant, il reçut son affectation pour servir au 12e Régiment de Chasseurs.
+1	Né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	_	_
 2	dans	dans	ADP	_	_	4	case	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	famille	famille	NOUN	_	Gender=Fem|Number=Sing	1	obl:mod	_	_
@@ -261186,11 +261190,11 @@
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	Corps	Corps	PROPN	_	_	17	obl:mod	_	_
+21	Corps	corps	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
 22-23	des	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
-24	Cadets	Cadets	PROPN	_	_	21	nmod	_	_
+24	Cadets	cadet	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	Infanterie	Infanterie	PROPN	_	_	24	nmod	_	SpaceAfter=No
@@ -261211,10 +261215,10 @@
 41-42	au	_	_	_	_	_	_	_	_
 41	à	à	ADP	_	_	44	case	_	_
 42	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
-43	12	12	PROPN	_	_	44	nummod	_	_
-44	Régiment	Régiment	PROPN	_	_	40	obl	_	_
+43	12e	12e	ADJ	_	Gender=Fem|Number=Sing	44	amod	_	_
+44	Régiment	régiment	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	_
 45	de	de	ADP	_	_	46	case	_	_
-46	Chasseurs	Chasseurs	PROPN	_	_	44	nmod	_	SpaceAfter=No
+46	Chasseurs	chasseur	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-train_09285
@@ -264030,7 +264034,7 @@
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-train_09388
-# text = Il fut tout de même sélectionné au 13 échelon.
+# text = Il fut tout de même sélectionné au 13e échelon.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
 2	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
 3	tout	tout	ADV	_	_	6	advmod	_	_
@@ -264040,7 +264044,7 @@
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	10	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	13	13	NUM	_	_	10	nummod	_	_
+9	13e	13e	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 10	échelon	échelon	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -267959,7 +267963,7 @@
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_09531
-# text = Le 9 février 2005, il effectue sa première sélection en équipe de Roumanie, lors du match Roumanie--Slovaquie (2-2) en match amical en rentrant à la 71 minutes à la place de son compatriote Florentin Petre.
+# text = Le 9 février 2005, il effectue sa première sélection en équipe de Roumanie, lors du match Roumanie--Slovaquie (2-2) en match amical en rentrant à la 71e minutes à la place de son compatriote Florentin Petre.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	9	9	NUM	_	_	7	obl:mod	_	_
 3	février	février	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -267993,7 +267997,7 @@
 30	rentrant	rentrer	VERB	_	Tense=Pres|VerbForm=Part	7	advcl	_	_
 31	à	à	ADP	_	_	34	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-33	71	71	NUM	_	_	34	nummod	_	_
+33	71e	71e	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	_
 34	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	30	obl	_	_
 35	à	à	ADP	_	_	37	case	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
@@ -270900,7 +270904,7 @@
 43	.	.	PUNCT	_	_	24	punct	_	_
 
 # sent_id = fr-ud-train_09638
-# text = Le 12 décembre 1942 à Lafayette en Louisiane, il s'engage dans les troupes aéroportées (Easy Company, 506 régiment d'infanterie parachutée de la 101 aéroportée) où on avait prévu de le placer dans une des trois compagnies médicales pour la Easy, bien qu'il n'avait alors aucune expérience médicale.
+# text = Le 12 décembre 1942 à Lafayette en Louisiane, il s'engage dans les troupes aéroportées (Easy Company, 506e régiment d'infanterie parachutée de la 101e aéroportée) où on avait prévu de le placer dans une des trois compagnies médicales pour la Easy, bien qu'il n'avait alors aucune expérience médicale.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	12	12	NUM	_	_	12	obl:mod	_	_
 3	décembre	décembre	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -270921,15 +270925,15 @@
 18	Easy	Easy	PROPN	_	_	15	appos	_	_
 19	Company	Company	PROPN	_	_	18	flat:name	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	18	punct	_	_
-21	506	506	NUM	_	_	22	nummod	_	_
+21	506e	506e	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
 22	régiment	régiment	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	_
 23	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
 24	infanterie	infanterie	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 25	parachutée	parachuter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	_
-26	de	de	ADP	_	_	29	case	_	_
-27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-28	101	101	NUM	_	_	29	nummod	_	_
-29	aéroportée	aéroporter	NOUN	_	Gender=Fem|Number=Sing|Tense=Past	22	nmod	_	SpaceAfter=No
+26	de	de	ADP	_	_	28	case	_	_
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	101e	101e	ADJ	_	Gender=Fem|Number=Sing	22	nmod	_	_
+29	aéroportée	aéroporté	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
 30	)	)	PUNCT	_	_	18	punct	_	_
 31	où	où	PRON	_	PronType=Rel	34	obl	_	_
 32	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
@@ -276197,11 +276201,11 @@
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_09815
-# text = C'est le 8 titre de champion de son histoire.
+# text = C'est le 8e titre de champion de son histoire.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-4	8	8	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+4	8e	8e	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 5	titre	titre	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	champion	champion	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
@@ -278137,7 +278141,7 @@
 18	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_09885
-# text = La Saison 2009 des Athletics d'Oakland est la 109 saison en Ligue majeure pour cette franchise et la 42 depuis son arrivée en Californie en 1968.
+# text = La Saison 2009 des Athletics d'Oakland est la 109e saison en Ligue majeure pour cette franchise et la 42e depuis son arrivée en Californie en 1968.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Saison	saison	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	2009	2009	NUM	_	_	2	nmod	_	_
@@ -278149,7 +278153,7 @@
 8	Oakland	Oakland	PROPN	_	_	6	nmod	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-11	109	109	NUM	_	_	12	nummod	_	_
+11	109e	109e	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 12	saison	saison	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 13	en	en	ADP	_	_	14	case	_	_
 14	Ligue	ligue	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
@@ -278159,7 +278163,7 @@
 18	franchise	franchise	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 19	et	et	CCONJ	_	_	21	cc	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	42	42	NUM	_	_	11	conj	_	_
+21	42e	42e	ADJ	_	Gender=Fem|Number=Sing	11	conj	_	_
 22	depuis	depuis	ADP	_	_	24	case	_	_
 23	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det	_	_
 24	arrivée	arrivée	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
@@ -280960,7 +280964,7 @@
 18	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_09987
-# text = Le 25 mai 1832, une compagnie royaliste de Fromentières et de Ruillé qui se dirigeait vers le château de Chânay se battit entre Gennes et le château des Courants avec une compagnie du 31 de ligne.
+# text = Le 25 mai 1832, une compagnie royaliste de Fromentières et de Ruillé qui se dirigeait vers le château de Chânay se battit entre Gennes et le château des Courants avec une compagnie du 31e de ligne.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	25	25	NUM	_	_	23	obl:mod	_	_
 3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -280999,7 +281003,7 @@
 35-36	du	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-37	31	31	NUM	_	_	34	nmod	_	_
+37	31e	31e	ADJ	_	Gender=Fem|Number=Sing	34	nmod	_	_
 38	de	de	ADP	_	_	39	case	_	_
 39	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	23	punct	_	_
@@ -283070,7 +283074,7 @@
 18	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_10067
-# text = Les troisièmes disputent un match pour la 5 place.
+# text = Les troisièmes disputent un match pour la 5e place.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	troisièmes	troisième	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	disputent	disputer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -283078,7 +283082,7 @@
 5	match	match	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	pour	pour	ADP	_	_	9	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-8	5	5	NUM	_	_	9	nummod	_	_
+8	5e	5e	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 9	place	place	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -284269,7 +284273,7 @@
 29	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = fr-ud-train_10112
-# text = L'économie est soutenue par la professionnalisation du 8 régiment d'artillerie, installé depuis 1963 dans la commune.
+# text = L'économie est soutenue par la professionnalisation du 8e régiment d'artillerie, installé depuis 1963 dans la commune.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	économie	économie	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -284280,7 +284284,7 @@
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	11	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	8	8	NUM	_	_	11	nummod	_	_
+10	8e	8e	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 11	régiment	régiment	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	artillerie	artillerie	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -290994,7 +290998,7 @@
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_10376
-# text = Le port de Tolbiac est une voie située dans le quartier de la Gare du 13 arrondissement de Paris.
+# text = Le port de Tolbiac est une voie située dans le quartier de la Gare du 13e arrondissement de Paris.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	port	port	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -291012,7 +291016,7 @@
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	18	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-17	13	13	NUM	_	_	18	nummod	_	_
+17	13e	13e	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
 18	arrondissement	arrondissement	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	Paris	Paris	PROPN	_	_	18	nmod	_	SpaceAfter=No
@@ -296193,7 +296197,7 @@
 27	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_10562
-# text = La pont-métro Morland est un pont ferroviaire situé dans les 4 et 12 arrondissements de Paris, en France.
+# text = La pont-métro Morland est un pont ferroviaire situé dans les 4e et 12e arrondissements de Paris, en France.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	pont-métro	pont-métro	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	Morland	Morland	PROPN	_	_	2	appos	_	_
@@ -296204,9 +296208,9 @@
 8	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
 9	dans	dans	ADP	_	_	14	case	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-11	4	4	NUM	_	_	14	nummod	_	_
+11	4e	4e	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
-13	12	12	NUM	_	_	11	conj	_	_
+13	12e	12e	ADJ	_	Gender=Masc|Number=Sing	11	conj	_	_
 14	arrondissements	arrondissement	NOUN	_	Gender=Masc|Number=Plur	8	obl:arg	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	Paris	Paris	PROPN	_	_	14	nmod	_	SpaceAfter=No
@@ -301014,7 +301018,7 @@
 60	.	.	PUNCT	_	_	21	punct	_	_
 
 # sent_id = fr-ud-train_10736
-# text = La rue Sibour est une voie du 10 arrondissement de Paris, en France.
+# text = La rue Sibour est une voie du 10e arrondissement de Paris, en France.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	rue	rue	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	Sibour	Sibour	PROPN	_	_	2	appos	_	_
@@ -301024,7 +301028,7 @@
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	10	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-9	10	10	NUM	_	_	10	nummod	_	_
+9	10e	10e	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 10	arrondissement	arrondissement	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	Paris	Paris	PROPN	_	_	10	nmod	_	SpaceAfter=No
@@ -315241,13 +315245,13 @@
 27	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_11253
-# text = Après une semaine à la 1 place des ventes d'albums américains, le groupe révélé par "Making The Band 3" se fait détrôner par les Day26 qui se trouve être le groupe masculin révélé par "Making The Band 4".
+# text = Après une semaine à la 1re place des ventes d'albums américains, le groupe révélé par "Making The Band 3" se fait détrôner par les Day26 qui se trouve être le groupe masculin révélé par "Making The Band 4".
 1	Après	après	ADP	_	_	3	case	_	_
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	27	obl:mod	_	_
 4	à	à	ADP	_	_	7	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	1	1	NUM	_	_	7	nummod	_	_
+6	1re	1re	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 7	place	place	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 8-9	des	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
@@ -326942,9 +326946,9 @@
 6	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-train_11655
-# text = La 29 édition des Championnats du monde de judo se déroule du 26 au 30 août 2009 à Rotterdam aux Pays-Bas.
+# text = La 29e édition des Championnats du monde de judo se déroule du 26 au 30 août 2009 à Rotterdam aux Pays-Bas.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-2	29	29	NUM	_	_	3	nummod	_	_
+2	29e	29e	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	édition	édition	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
@@ -328072,7 +328076,7 @@
 27	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_11694
-# text = L'adoption de cette DKG, permet à la M3 coupé de gagner 2 dixièmes de seconde sur le 0--pour se contenter de 4,6 secondes.
+# text = L'adoption de cette DKG, permet à la M3 coupé de gagner 2 dixièmes de seconde sur le 0-100 km/h pour se contenter de 4,6 secondes.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	adoption	adoption	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -328090,17 +328094,19 @@
 15	dixièmes	dixième	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	seconde	seconde	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-18	sur	sur	ADP	_	_	20	case	_	_
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	0	0	NUM	_	_	13	obl	_	SpaceAfter=No
-21	--	--	PUNCT	_	_	7	punct	_	SpaceAfter=No
-22	pour	pour	ADP	_	_	24	mark	_	_
-23	se	se	PRON	_	Person=3|PronType=Prs	24	expl	_	_
-24	contenter	contenter	VERB	_	VerbForm=Inf	7	advcl	_	_
-25	de	de	ADP	_	_	27	case	_	_
-26	4,6	4,6	NUM	_	_	27	nummod	_	_
-27	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	24	obl:arg	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	7	punct	_	_
+18	sur	sur	ADP	_	_	23	case	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+20	0	0	NUM	_	_	23	nummod	_	SpaceAfter=No
+21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	100	100	NUM	_	_	20	nmod:range	_	_
+23	km/h	km/h	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+24	pour	pour	ADP	_	_	26	mark	_	_
+25	se	se	PRON	_	Person=3|PronType=Prs	26	expl	_	_
+26	contenter	contenter	VERB	_	VerbForm=Inf	7	advcl	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	4,6	4,6	NUM	_	_	29	nummod	_	_
+29	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	26	obl:arg	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_11695
 # text = Tout est fait pour que tout le monde y trouve son compte.
@@ -330589,9 +330595,9 @@
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_11786
-# text = Le 52 parallèle sud passe au-dessus des océans sur près de 98% de sa longueur ;
+# text = Le 52e parallèle sud passe au-dessus des océans sur près de 98% de sa longueur ;
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	52	52	NUM	_	_	3	nummod	_	_
+2	52e	52e	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	parallèle	parallèle	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 4	sud	sud	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 5	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -338365,7 +338371,7 @@
 45	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_12069
-# text = Les réserves mobiles que les Allemands possédaient consistaient en environ 150 véhicules blindés de combat, sous le commandement de la 1 armée parachutiste, la majorité d'entre eux appartenant au XLVII.
+# text = Les réserves mobiles que les Allemands possédaient consistaient en environ 150 véhicules blindés de combat, sous le commandement de la 1re armée parachutiste, la majorité d'entre eux appartenant au XLVII.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	réserves	réserve	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
 3	mobiles	mobile	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
@@ -338387,7 +338393,7 @@
 19	commandement	commandement	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 20	de	de	ADP	_	_	23	case	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-22	1	1	NUM	_	_	23	nummod	_	_
+22	1re	1re	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 23	armée	armée	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 24	parachutiste	parachutiste	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	8	punct	_	_
@@ -338645,7 +338651,7 @@
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_12083
-# text = Il participa à l'Euro 1964, il marqua pour le match de la troisième place, à la 82 minute contre la Hongrie, match perdu en prolongations (1-3 ap).
+# text = Il participa à l'Euro 1964, il marqua pour le match de la troisième place, à la 82e minute contre la Hongrie, match perdu en prolongations (1-3 ap).
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	participa	participer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	5	case	_	_
@@ -338665,7 +338671,7 @@
 17	,	,	PUNCT	_	_	12	punct	_	_
 18	à	à	ADP	_	_	21	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-20	82	82	NUM	_	_	21	nummod	_	_
+20	82e	82e	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 21	minute	minute	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
 22	contre	contre	ADP	_	_	24	case	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
@@ -358977,9 +358983,9 @@
 36	.	.	PUNCT	_	_	29	punct	_	_
 
 # sent_id = fr-ud-train_12781
-# text = Le 15 RGA étant dépositaire des traditions des unités de la voie de 60, le locotracteur a été placé auprès du monument aux morts du DA 136, il perpétue le souvenir de ce régiment.
+# text = Le 15e RGA étant dépositaire des traditions des unités de la voie de 60, le locotracteur a été placé auprès du monument aux morts du DA 136, il perpétue le souvenir de ce régiment.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	15	15	NUM	_	_	3	nummod	_	_
+2	15e	15e	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	RGA	RGA	X	_	_	5	nsubj	_	_
 4	étant	être	AUX	_	Tense=Pres|VerbForm=Part	5	cop	_	_
 5	dépositaire	dépositaire	NOUN	_	Gender=Masc|Number=Sing	22	advcl	_	_
@@ -375726,13 +375732,13 @@
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_13346
-# text = Il est intégré à la 13 base de soutien du matériel le 1 juillet 1999.
+# text = Il est intégré à la 13e base de soutien du matériel le 1 juillet 1999.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	intégré	intégrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	à	à	ADP	_	_	7	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	13	13	NUM	_	_	7	nummod	_	_
+6	13e	13e	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 7	base	base	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	soutien	soutien	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
@@ -377220,9 +377226,9 @@
 16	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_13397
-# text = Le 11 régiment d'infanterie coloniale ou 11 régiment d'infanterie de marine est une ancienne unité de l'armée de terre française.
+# text = Le 11e régiment d'infanterie coloniale ou 11 régiment d'infanterie de marine est une ancienne unité de l'armée de terre française.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	11	11	NUM	_	_	3	nummod	_	_
+2	11e	11e	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	régiment	régiment	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	infanterie	infanterie	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
@@ -382907,12 +382913,12 @@
 41	?	?	PUNCT	_	_	33	punct	_	_
 
 # sent_id = fr-ud-train_13592
-# text = En géographie, le 75 parallèle sud est le parallèle joignant les points de la surface de la Terre dont la latitude est égale à 75° sud.
+# text = En géographie, le 75e parallèle sud est le parallèle joignant les points de la surface de la Terre dont la latitude est égale à 75° sud.
 1	En	en	ADP	_	_	2	case	_	_
 2	géographie	géographie	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	10	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	75	75	NUM	_	_	6	nummod	_	_
+5	75e	75e	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	parallèle	parallèle	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 7	sud	sud	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
@@ -385985,7 +385991,7 @@
 29	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_13696
-# text = Crack the Shutters a également été utilisée dans le 15 épisode de la série 90210, intitulé Carpe Diem en français et Help Me, Rhonda en anglais.
+# text = Crack the Shutters a également été utilisée dans le 15e épisode de la série 90210, intitulé Carpe Diem en français et Help Me, Rhonda en anglais.
 1	Crack	Crack	VERB	_	_	3	compound	_	Foreign=en
 2	the	the	DET	_	Definite=Def	3	compound	_	Foreign=en
 3	Shutters	shutter	NOUN	_	Number=Plur	7	nsubj:pass	_	Foreign=en
@@ -385995,7 +386001,7 @@
 7	utilisée	utiliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	dans	dans	ADP	_	_	11	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	15	15	NUM	_	_	11	nummod	_	_
+10	15e	15e	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 11	épisode	épisode	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -388298,7 +388304,7 @@
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_13779
-# text = Le fœtus est considéré comme arrivé à son terme de développement entre la 35 et 39 semaine, ce qui signifie qu'on le considère apte à vivre en dehors de l'utérus.
+# text = Le fœtus est considéré comme arrivé à son terme de développement entre la 35e et 39e semaine, ce qui signifie qu'on le considère apte à vivre en dehors de l'utérus.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fœtus	fœtus	NOUN	_	Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -388312,11 +388318,11 @@
 11	développement	développement	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 12	entre	entre	ADP	_	_	17	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-14	35	35	NUM	_	_	17	nummod	_	_
+14	35e	35e	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
-16	39	39	NUM	_	_	14	conj	_	_
+16	39e	39e	ADJ	_	Gender=Fem|Number=Sing	14	conj	_	_
 17	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	4	punct	_	_
+18	,	,	PUNCT	_	_	17	punct	_	_
 19	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	17	appos	_	_
 20	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
 21	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
@@ -396130,18 +396136,18 @@
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_14062
-# text = Ces divisions sont appuyées par le 42 colonial et le 258 régiment.
+# text = Ces divisions sont appuyées par le 42e colonial et le 258e régiment.
 1	Ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
 2	divisions	division	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	appuyées	appuyer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 5	par	par	ADP	_	_	8	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-7	42	42	NUM	_	_	8	nummod	_	_
+7	42e	42e	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 8	colonial	colonial	NOUN	_	Gender=Masc|Number=Sing	4	obl:agent	_	_
 9	et	et	CCONJ	_	_	12	cc	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-11	258	258	NUM	_	_	12	nummod	_	_
+11	258e	258e	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 12	régiment	régiment	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
