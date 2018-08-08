@@ -16103,7 +16103,7 @@
 8	attractifs	attractif	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 9	...	...	PUNCT	_	_	8	punct	_	_
 
-# sent_id = fr	-ud-train_00563
+# sent_id = fr-ud-train_00563
 # text = Il est donc nécessaire d'être proactif et de prendre des mesures afin d'éviter une grave crise de l'eau dans la ville de Bergen.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -59328,7 +59328,7 @@
 20	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 21	susceptibles	susceptible	ADJ	_	Gender=Fem|Number=Plur	11	acl:relcl	_	_
 22	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
-23	être	être	AUX:PASS	_	VerbForm=Inf	24	cop	_	_
+23	être	être	AUX	_	VerbForm=Inf	24	cop	_	_
 24	réduites	réduit	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	21	xcomp	_	_
 25	et	et	CCONJ	_	_	26	cc	_	_
 26	oxydées	oxyder	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	24	conj	_	SpaceAfter=No
@@ -155331,7 +155331,52 @@
 
 # sent_id = fr-ud-train_05534
 # text = La ville compte ou a compté de très nombreux résidents célèbres dont Diana Ross, Mel Gibson, le catcheur de la WWE Triple H (Paul Levesque), Tommy Hilfiger, Richard Attias, Vince McMahon, Patricia MacDonald et Cécilia Attias, ex Sarkozy.
-mod	_	_
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ville	ville	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ou	ou	CCONJ	_	_	6	cc	_	_
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	compté	compter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+7	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+8	très	très	ADV	_	_	9	advmod	_	_
+9	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+10	résidents	résident	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+11	célèbres	célèbre	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+12	dont	dont	PRON	_	PronType=Rel	13	nmod	_	_
+13	Diana	Diana	PROPN	_	_	10	appos	_	_
+14	Ross	Ross	PROPN	_	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	Mel	Mel	PROPN	_	_	13	conj	_	_
+17	Gibson	Gibson	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	catcheur	catcheur	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	WWE	WWE	PROPN	_	_	20	nmod	_	_
+24	Triple	Triple	PROPN	_	_	23	flat:name	_	_
+25	H	H	SYM	_	_	23	flat:name	_	_
+26	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	Paul	Paul	PROPN	_	_	20	appos	_	_
+28	Levesque	Levesque	PROPN	_	_	27	flat:name	_	SpaceAfter=No
+29	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	Tommy	Tommy	PROPN	_	_	13	conj	_	_
+32	Hilfiger	Hilfiger	PROPN	_	_	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	Richard	Richard	PROPN	_	_	13	conj	_	_
+35	Attias	Attias	PROPN	_	_	34	flat:name	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	Vince	Vince	PROPN	_	_	13	conj	_	_
+38	McMahon	McMahon	PROPN	_	_	37	flat:name	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	40	punct	_	_
+40	Patricia	Patricia	PROPN	_	_	13	conj	_	_
+41	MacDonald	MacDonald	PROPN	_	_	40	flat:name	_	_
+42	et	et	CCONJ	_	_	43	cc	_	_
+43	Cécilia	Cécilia	PROPN	_	_	13	conj	_	_
+44	Attias	Attias	PROPN	_	_	43	flat:name	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	43	punct	_	_
+46	ex	ex	PART	_	_	47	advmod	_	_
 47	Sarkozy	Sarkozy	PROPN	_	_	43	appos	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	3	punct	_	_
 
