@@ -1455,9 +1455,9 @@
 56	de	de	ADP	_	_	57	case	_	_
 57	plus	plus	ADV	_	_	61	advmod	_	_
 58	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	61	nsubj	_	_
-59	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	_
+59	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	_
 60	en	en	ADP	_	_	61	case	_	_
-61	division	division	NOUN	_	Gender=Fem|Number=Sing	44	conj	_	_
+61	division	division	NOUN	_	Gender=Fem|Number=Sing	44	parataxis	_	_
 62	harmonique	harmonique	ADJ	_	Gender=Fem|Number=Sing	61	amod	_	_
 63	(	(	PUNCT	_	_	66	punct	_	SpaceAfter=No
 64	dans	dans	ADP	_	_	66	case	_	_
@@ -2591,7 +2591,7 @@
 
 # sent_id = fr-ud-train_00095
 # text = Lors du tour final, le club termina 2 derrière le VfB Speldorf et monta en 2.
-1	Lors	lors	ADV	_	_	9	advmod	_	MWEPOS=ADP
+1	Lors	lors	ADV	_	_	9	advmod	_	_
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -3120,7 +3120,7 @@
 
 # sent_id = fr-ud-train_00110
 # text = En tout cas je n'y retourne pas et ma collègue non plus !
-1	En	en	ADP	_	_	7	advmod	_	_
+1	En	en	ADP	_	_	7	advmod	_	MWEPOS=ADV
 2	tout	tout	DET	_	Gender=Masc|Number=Sing	1	fixed	_	_
 3	cas	cas	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
