@@ -20725,11 +20725,11 @@
 
 # sent_id = fr-ud-train_00730
 # text = Il fait observer à Pierre le Grand la circulation sanguine dans la queue d'une anguille.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	observer	observer	VERB	_	VerbForm=Inf	2	ccomp	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:caus	_	_
+3	observer	observer	VERB	_	VerbForm=Inf	0	root	_	_
 4	à	à	ADP	_	_	5	case	_	_
-5	Pierre	Pierre	PROPN	_	_	3	obl	_	_
+5	Pierre	Pierre	PROPN	_	_	3	obl:agent	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Grand	Grand	PROPN	_	_	5	appos	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -20741,7 +20741,7 @@
 14	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	anguille	anguille	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	2	punct	_	_
+17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_00731
 # text = Des fêtes médiévales ont aussi été organisées dont celle des 20 ans (en 2003) de l'association avec tournoi de chevalerie.
@@ -30425,7 +30425,7 @@
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
 3	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	qu'	que	SCONJ	_	_	3	mark	_	SpaceAfter=No
+4	qu'	que	ADV	_	_	5	advmod	_	SpaceAfter=No
 5	accélérer	accélérer	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
@@ -49196,17 +49196,17 @@
 4	connaître	connaître	VERB	_	VerbForm=Inf	3	xcomp	_	_
 5	Alan	Alan	PROPN	_	_	4	obj	_	_
 6	Odle	Odle	PROPN	_	_	5	flat:name	_	_
-7	comme	comme	ADP	_	_	9	mark	_	_
-8	se	se	PRON	_	Person=3|PronType=Prs	9	obj	_	_
-9	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	_
-10	passer	passer	VERB	_	VerbForm=Inf	9	ccomp	_	_
+7	comme	comme	ADP	_	_	10	mark	_	_
+8	se	se	PRON	_	Person=3|PronType=Prs	10	obj:agent	_	_
+9	faisant	faire	AUX	_	Tense=Pres|VerbForm=Part	10	aux:caus	_	_
+10	passer	passer	VERB	_	VerbForm=Inf	4	advcl	_	_
 11	alors	alors	ADV	_	_	10	advmod	_	_
 12	pour	pour	ADP	_	_	16	case	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 14	certain	certain	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
-16	Mr	Mr	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
-17	Watkins	Watkins	PROPN	_	_	16	appos	_	SpaceAfter=No
+16	Mr	Mr	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
+17	Watkins	Watkins	PROPN	_	_	16	flat:name	_	SpaceAfter=No
 18	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -55263,14 +55263,14 @@
 # sent_id = fr-ud-train_01964
 # text = De 1905 à 1910, il fait paraître Eggs of the Birds of Europe, 24 fascicules illustrés de planches en couleur et de photographies de nids.
 1	De	de	ADP	_	_	2	case	_	_
-2	1905	1905	NUM	_	_	7	obl:mod	_	_
+2	1905	1905	NUM	_	_	8	obl:mod	_	_
 3	à	à	ADP	_	_	4	case	_	_
-4	1910	1910	NUM	_	_	7	obl:mod	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-7	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	paraître	paraître	VERB	_	VerbForm=Inf	7	ccomp	_	_
-9	Eggs	egg	NOUN	_	Number=Plur	8	obj	_	_
+4	1910	1910	NUM	_	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:caus	_	_
+8	paraître	paraître	VERB	_	VerbForm=Inf	0	root	_	_
+9	Eggs	egg	NOUN	_	Number=Plur	8	obj:agent	_	_
 10	of	of	ADP	_	_	12	case	_	_
 11	the	the	DET	_	Definite=Def	12	det	_	_
 12	Birds	bird	NOUN	_	Number=Plur	9	nmod	_	_
@@ -55289,7 +55289,7 @@
 25	photographies	photographie	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	_
 26	de	de	ADP	_	_	27	case	_	_
 27	nids	nid	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
-28	.	.	PUNCT	_	_	7	punct	_	_
+28	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_01965
 # text = Mais un jour, alors qu'il survole l'Amazonie, leur avion s'écrase dans la forêt.
@@ -58774,20 +58774,20 @@
 
 # sent_id = fr-ud-train_02086
 # text = Parce qu'Il avait fait brûler des milliers d'enfants dans ses fosses ?
-1	Parce	parce	ADV	_	_	5	mark	_	MWEPOS=SCONJ
+1	Parce	parce	ADV	_	_	6	mark	_	MWEPOS=SCONJ
 2	qu'	que	SCONJ	_	_	1	fixed	_	SpaceAfter=No
-3	Il	Il	PROPN	_	_	5	nsubj	_	_
-4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
-5	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	brûler	brûler	VERB	_	VerbForm=Inf	5	ccomp	_	_
+3	Il	Il	PROPN	_	_	6	nsubj	_	_
+4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:caus	_	_
+6	brûler	brûler	VERB	_	VerbForm=Inf	0	root	_	_
 7	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-8	milliers	millier	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+8	milliers	millier	NOUN	_	Gender=Masc|Number=Plur	6	obj:agent	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
 12	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det	_	_
 13	fosses	fosse	NOUN	_	Gender=Fem|Number=Plur	6	obl:mod	_	_
-14	?	?	PUNCT	_	_	5	punct	_	_
+14	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_02087
 # text = Cette enseignante spécialisée de 31 ans était en poste l'an dernier à l'école Bellevue de Sedan.
@@ -142334,13 +142334,13 @@
 10	réussit	réussir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	quand	quand	ADV	_	_	10	advmod	_	MWEPOS=ADV
 12	même	même	ADV	_	_	11	fixed	_	_
-13	à	à	ADP	_	_	14	mark	_	_
-14	faire	faire	VERB	_	VerbForm=Inf	10	xcomp	_	_
-15	croire	croire	VERB	_	VerbForm=Inf	14	ccomp	_	_
+13	à	à	ADP	_	_	15	mark	_	_
+14	faire	faire	AUX	_	VerbForm=Inf	15	aux:caus	_	_
+15	croire	croire	VERB	_	VerbForm=Inf	10	xcomp	_	_
 16-17	aux	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	assiégés	assiégé	NOUN	_	Gender=Masc|Number=Plur	15	obl	_	_
+18	assiégés	assiégé	NOUN	_	Gender=Masc|Number=Plur	15	obl:agent	_	_
 19	que	que	SCONJ	_	_	24	mark	_	_
 20	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	21	det	_	_
 21	troupes	troupe	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	_	_
@@ -145955,13 +145955,13 @@
 30-31	du	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	34	mark	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-32	«	«	PUNCT	_	_	34	punct	_	_
-33	laisser	laisser	VERB	_	VerbForm=Inf	34	compound	_	_
-34	faire	faire	VERB	_	VerbForm=Inf	29	nmod	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	37	punct	_	_
-36	laisser	laisser	VERB	_	VerbForm=Inf	37	compound	_	_
-37	passer	passer	VERB	_	VerbForm=Inf	34	conj	_	_
-38	»	»	PUNCT	_	_	34	punct	_	SpaceAfter=No
+32	«	«	PUNCT	_	_	33	punct	_	_
+33	laisser	laisser	VERB	_	VerbForm=Inf	29	nmod	_	MWEPOS=NOUN
+34	faire	faire	VERB	_	VerbForm=Inf	33	ccomp	_	INMWE=Yes|SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	INMWE=Yes
+36	laisser	laisser	VERB	_	VerbForm=Inf	33	conj	_	INMWE=Yes
+37	passer	passer	VERB	_	VerbForm=Inf	36	ccomp	_	INMWE=Yes
+38	»	»	PUNCT	_	_	33	punct	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	29	punct	_	_
 40	c'est-à-dire	c'est-à-dire	ADV	_	_	43	cc	_	_
 41-42	au	_	_	_	_	_	_	_	_
@@ -176394,10 +176394,10 @@
 # sent_id = fr-ud-train_06295
 # text = Mais pour le faire fonctionner, les parents seront mis à contribution !
 1	Mais	mais	CCONJ	_	_	10	cc	_	_
-2	pour	pour	ADP	_	_	4	mark	_	_
-3	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
-4	faire	faire	VERB	_	VerbForm=Inf	10	advcl	_	_
-5	fonctionner	fonctionner	VERB	_	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+2	pour	pour	ADP	_	_	5	mark	_	_
+3	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj:agent	_	_
+4	faire	faire	AUX	_	VerbForm=Inf	5	aux:caus	_	_
+5	fonctionner	fonctionner	VERB	_	VerbForm=Inf	10	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	parents	parent	NOUN	_	Gender=Masc|Number=Plur	10	nsubj:pass	_	_
@@ -183566,14 +183566,14 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	renseignement	renseignement	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	_
-6	et	et	CCONJ	_	_	10	cc	_	_
-7	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
+6	et	et	CCONJ	_	_	11	cc	_	_
+7	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	SpaceAfter=No
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
-9	jamais	jamais	ADV	_	Polarity=Neg	10	advmod	_	_
-10	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
-11	sauter	sauter	VERB	_	VerbForm=Inf	10	ccomp	_	_
-12	de	de	ADP	_	_	13	case	_	_
-13	train	train	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	SpaceAfter=No
+9	jamais	jamais	ADV	_	Polarity=Neg	11	advmod	_	_
+10	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:caus	_	_
+11	sauter	sauter	VERB	_	VerbForm=Inf	2	conj	_	_
+12	de	de	ADP	_	_	13	det	_	_
+13	train	train	NOUN	_	Gender=Masc|Number=Sing	11	obj:agent	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	22	punct	_	_
 15	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
 16	chapitre	chapitre	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
@@ -218703,8 +218703,8 @@
 12	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	appos	_	_
 13	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	_
 14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
-15	faire	faire	VERB	_	VerbForm=Inf	14	xcomp	_	_
-16	supposer	supposer	VERB	_	VerbForm=Inf	15	ccomp	_	_
+15	faire	faire	AUX	_	VerbForm=Inf	16	aux:caus	_	_
+16	supposer	supposer	VERB	_	VerbForm=Inf	14	xcomp	_	_
 17	qu'	que	SCONJ	_	_	19	mark	_	SpaceAfter=No
 18	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
 19	partagèrent	partager	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	ccomp	_	_
@@ -281193,7 +281193,7 @@
 2	ferait	faire	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mieux	mieux	ADV	_	_	2	advmod	_	_
 4	de	de	ADP	_	_	5	mark	_	_
-5	fermer	fermer	VERB	_	VerbForm=Inf	2	acl	_	SpaceAfter=No
+5	fermer	fermer	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_09998
@@ -293491,9 +293491,9 @@
 15	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
 16	à	à	ADP	_	_	17	case	_	INMWE=Yes
 17	présent	présent	ADJ	_	Gender=Masc|Number=Sing	15	advmod	_	MWEPOS=ADV
-18	grief	grief	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	grief	grief	NOUN	_	Gender=Masc|Number=Sing	15	obj:lvc	_	_
 19	de	de	ADP	_	_	20	mark	_	_
-20	mentir	mentir	VERB	_	VerbForm=Inf	15	acl	_	SpaceAfter=No
+20	mentir	mentir	VERB	_	VerbForm=Inf	15	ccomp	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	2	punct	_	_
 22	car	car	CCONJ	_	_	36	cc	_	_
 23	de	de	ADP	_	_	24	mark	_	_
@@ -298266,18 +298266,18 @@
 5	personnels	personnel	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-8	s'	se	PRON	_	Person=3|PronType=Prs	10	expl	_	SpaceAfter=No
+8	s'	se	PRON	_	Person=3|PronType=Prs	10	iobj	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 12	sans	sans	ADP	_	_	14	mark	_	_
 13	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
-14	vouloir	vouloir	VERB	_	VerbForm=Inf	10	acl	_	SpaceAfter=No
+14	vouloir	vouloir	VERB	_	VerbForm=Inf	10	advcl	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	spécialité	spécialité	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
 18	d'	de	ADP	_	_	19	mark	_	SpaceAfter=No
-19	interpréter	interpréter	VERB	_	VerbForm=Inf	17	acl	_	_
+19	interpréter	interpréter	VERB	_	VerbForm=Inf	10	xcomp	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	façon	façon	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
 22	originale	original	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
@@ -318989,11 +318989,11 @@
 41	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	livre	livre	NOUN	_	Gender=Masc|Number=Sing	39	obl:arg	_	_
 43	que	que	PRON	_	PronType=Rel	48	obj	_	_
-44	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	47	nsubj	_	_
+44	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	48	nsubj	_	_
 45	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	48	iobj	_	SpaceAfter=No
 46	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	47	aux	_	_
-47	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	acl:relcl	_	_
-48	offrir	offrir	VERB	_	VerbForm=Inf	47	ccomp	_	_
+47	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	aux:caus	_	_
+48	offrir	offrir	VERB	_	VerbForm=Inf	42	acl:relcl	_	_
 49	mais	mais	CCONJ	_	_	54	cc	_	_
 50	dont	dont	PRON	_	PronType=Rel	56	nmod	_	_
 51	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	54	nsubj	_	SpaceAfter=No
@@ -333129,10 +333129,10 @@
 36	qu'	que	PRON	_	PronType=Rel	38	obj	_	SpaceAfter=No
 37	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	38	nsubj	_	_
 38	échange	échanger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
-39	pour	pour	ADP	_	_	41	mark	_	_
-40	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	obj	_	_
-41	faire	faire	VERB	_	VerbForm=Inf	38	advcl	_	_
-42	évoluer	évoluer	VERB	_	VerbForm=Inf	41	ccomp	_	SpaceAfter=No
+39	pour	pour	ADP	_	_	42	mark	_	_
+40	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	obj:agent	_	_
+41	faire	faire	AUX	_	VerbForm=Inf	42	aux:caus	_	_
+42	évoluer	évoluer	VERB	_	VerbForm=Inf	38	advcl	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	46	punct	_	_
 44	Spectrum	Spectrum	PROPN	_	_	46	nsubj	_	_
 45	se	se	PRON	_	Person=3|PronType=Prs	46	expl:pass	_	_
@@ -349283,7 +349283,7 @@
 21	protestants	protestant	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
 22	ne	ne	ADV	_	Polarity=Neg	23	advmod	_	_
 23	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
-24	qu'	que	SCONJ	_	_	23	mark	_	SpaceAfter=No
+24	qu'	que	ADV	_	_	25	advmod	_	SpaceAfter=No
 25	aggraver	aggraver	VERB	_	VerbForm=Inf	23	xcomp	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	crise	crise	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
@@ -392773,7 +392773,7 @@
 16	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
 17	fera	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 18	sans	sans	ADP	_	_	19	mark	_	_
-19	hésiter	hésiter	VERB	_	VerbForm=Inf	17	acl	_	SpaceAfter=No
+19	hésiter	hésiter	VERB	_	VerbForm=Inf	17	advcl	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-train_13942
@@ -393272,7 +393272,7 @@
 4	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-7	que	que	SCONJ	_	_	6	expl	_	_
+7	que	que	ADV	_	_	8	advmod	_	_
 8	réduire	réduire	VERB	_	VerbForm=Inf	6	xcomp	_	_
 9	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 10	retard	retard	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
