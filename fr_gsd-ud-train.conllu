@@ -1911,13 +1911,13 @@
 
 # sent_id = fr-ud-train_00073
 # text = À partir du XXIe siècle, les recensements réels des communes de moins de 10 000 habitants ont lieu tous les cinq ans.
-1	À	à	ADP	_	_	6	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	19	advmod	_	MWEPOS=ADV
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
+3	de	de	ADP	_	_	6	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	XXIe	XXIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
-6	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	SpaceAfter=No
+6	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	19	punct	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	recensements	recensement	NOUN	_	Gender=Masc|Number=Plur	19	nsubj	_	_
@@ -5645,11 +5645,11 @@
 6	narration	narration	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 7	tragi-comique	tragi-comique	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	improvisée	improviser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
-9	à	à	ADP	_	_	13	case	_	_
-10	partir	partir	VERB	_	VerbForm=Inf	9	fixed	_	_
-11	d'	de	ADP	_	_	9	fixed	_	SpaceAfter=No
+9	à	à	ADP	_	_	10	mark	_	INMWE=Yes
+10	partir	partir	VERB	_	VerbForm=Inf	8	advmod	_	MWEPOS=ADV
+11	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	thème	thème	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+13	thème	thème	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
 14	par	par	ADP	_	_	15	case	_	_
 15	Jean	Jean	PROPN	_	_	8	obl:agent	_	_
 16	Shepherd	Shepherd	PROPN	_	_	15	flat:name	_	SpaceAfter=No
@@ -5847,10 +5847,10 @@
 
 # sent_id = fr-ud-train_00200
 # text = À partir de 1977, les actions de sabotage de cette dernière sont plus nombreux et certains d'entre eux, meurtriers.
-1	À	à	ADP	_	_	4	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
-4	1977	1977	NUM	_	_	15	obl:mod	_	SpaceAfter=No
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	15	advmod	_	MWEPOS=ADV
+3	de	de	ADP	_	_	4	case	_	_
+4	1977	1977	NUM	_	_	2	obl:arg	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	actions	action	NOUN	_	Gender=Fem|Number=Plur	15	nsubj	_	_
@@ -7445,11 +7445,11 @@
 9	dans	dans	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	falaise	falaise	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
-12	à	à	ADP	_	_	16	case	_	_
-13	partir	partir	VERB	_	VerbForm=Inf	12	fixed	_	_
-14	d'	de	ADP	_	_	12	fixed	_	SpaceAfter=No
+12	à	à	ADP	_	_	13	mark	_	INMWE=Yes
+13	partir	partir	VERB	_	VerbForm=Inf	4	advmod	_	MWEPOS=ADV
+14	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	temple	temple	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+16	temple	temple	NOUN	_	Gender=Masc|Number=Sing	13	obl:arg	_	_
 17	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
 18	comportait	comporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
 19	également	également	ADV	_	_	18	advmod	_	_
@@ -32235,11 +32235,11 @@
 19	fois	fois	NOUN	_	Gender=Fem|Number=Plur	17	obl	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	suite	suite	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
-22	à	à	ADP	_	_	26	case	_	_
-23	partir	partir	VERB	_	VerbForm=Inf	22	fixed	_	_
-24	de	de	ADP	_	_	22	fixed	_	_
+22	à	à	ADP	_	_	23	mark	_	INMWE=Yes
+23	partir	partir	VERB	_	VerbForm=Inf	17	advmod	_	MWEPOS=ADV
+24	de	de	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+26	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	23	obl:arg	_	_
 27	47	47	NUM	_	_	26	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -33327,12 +33327,12 @@
 7	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	produits	produit	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 9	manufacturés	manufacturer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
-10	à	à	ADP	_	_	14	case	_	_
-11	partir	partir	VERB	_	VerbForm=Inf	10	fixed	_	_
+10	à	à	ADP	_	_	11	mark	_	INMWE=Yes
+11	partir	partir	VERB	_	VerbForm=Inf	9	advmod	_	MWEPOS=ADV
 12-13	des	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	10	fixed	_	_
+12	de	de	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
-14	matières	matière	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	_
+14	matières	matière	NOUN	_	Gender=Fem|Number=Plur	11	obl:arg	_	_
 15	préalablement	préalablement	ADV	_	_	16	advmod	_	_
 16	exportées	exporter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	8	punct	_	_
@@ -37281,10 +37281,10 @@
 14	à	à	ADP	_	_	15	case	_	_
 15	Paris	Paris	PROPN	_	_	13	obl	_	_
 16	où	où	PRON	_	PronType=Rel	22	obl	_	_
-17	à	à	ADP	_	_	20	case	_	_
-18	partir	partir	VERB	_	VerbForm=Inf	17	fixed	_	_
-19	de	de	ADP	_	_	17	fixed	_	_
-20	1847	1847	NUM	_	_	22	obl:mod	_	_
+17	à	à	ADP	_	_	18	mark	_	INMWE=Yes
+18	partir	partir	VERB	_	VerbForm=Inf	22	advmod	_	MWEPOS=ADV
+19	de	de	ADP	_	_	20	case	_	_
+20	1847	1847	NUM	_	_	18	obl:arg	_	_
 21	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 22	suit	suivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
 23	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
@@ -44830,11 +44830,11 @@
 42	imagina	imaginer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	acl:relcl	_	_
 43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	nom	nom	NOUN	_	Gender=Masc|Number=Sing	42	obj	_	_
-45	à	à	ADP	_	_	49	case	_	_
-46	partir	partir	VERB	_	VerbForm=Inf	45	fixed	_	_
-47	de	de	ADP	_	_	45	fixed	_	_
+45	à	à	ADP	_	_	46	mark	_	INMWE=Yes
+46	partir	partir	VERB	_	VerbForm=Inf	42	advmod	_	MWEPOS=ADV
+47	de	de	ADP	_	_	49	case	_	_
 48	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	SpaceAfter=No
-49	expression	expression	NOUN	_	Gender=Fem|Number=Sing	42	obl	_	_
+49	expression	expression	NOUN	_	Gender=Fem|Number=Sing	46	obl:arg	_	_
 50	"	"	PUNCT	_	_	52	punct	_	SpaceAfter=No
 51	which	which	PRON	_	_	52	nsubj	_	_
 52	dread	dread	VERB	_	_	49	appos	_	_
@@ -50405,10 +50405,10 @@
 41	et	et	CCONJ	_	_	50	cc	_	_
 42	qui	qui	PRON	_	_	50	nsubj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	50	punct	_	_
-44	à	à	ADP	_	_	47	case	_	_
-45	partir	partir	VERB	_	VerbForm=Inf	44	fixed	_	_
-46	de	de	ADP	_	_	44	fixed	_	_
-47	1483	1483	NUM	_	_	50	obl:mod	_	SpaceAfter=No
+44	à	à	ADP	_	_	45	mark	_	INMWE=Yes
+45	partir	partir	VERB	_	VerbForm=Inf	50	advmod	_	MWEPOS=ADV
+46	de	de	ADP	_	_	47	case	_	_
+47	1483	1483	NUM	_	_	45	obl:arg	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	47	punct	_	_
 49	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	50	cop	_	_
 50	maître	maître	ADJ	_	Gender=Masc|Number=Sing	28	conj	_	_
@@ -51629,11 +51629,11 @@
 18	structuraient	structurer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 19	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det	_	_
 20	tableaux	tableau	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
-21	à	à	ADP	_	_	25	case	_	_
-22	partir	partir	VERB	_	VerbForm=Inf	21	fixed	_	_
-23	d'	de	ADP	_	_	21	fixed	_	SpaceAfter=No
+21	à	à	ADP	_	_	22	mark	_	INMWE=Yes
+22	partir	partir	VERB	_	VerbForm=Inf	18	advmod	_	MWEPOS=ADV
+23	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	construction	construction	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
+25	construction	construction	NOUN	_	Gender=Fem|Number=Sing	22	obl:arg	_	_
 26	géométrique	géométrique	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
 27	rigoureuse	rigoureux	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	25	punct	_	_
@@ -53617,10 +53617,10 @@
 
 # sent_id = fr-ud-train_01902
 # text = À partir de 1991, Rick Manning devient commentateur des matches des Cleveland Indians sur les chaines de telévision cablée.
-1	À	à	ADP	_	_	4	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
-4	1991	1991	NUM	_	_	8	obl:mod	_	SpaceAfter=No
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	8	advmod	_	MWEPOS=ADV
+3	de	de	ADP	_	_	4	case	_	_
+4	1991	1991	NUM	_	_	2	obl:arg	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	Rick	Rick	PROPN	_	_	8	nsubj	_	_
 7	Manning	Manning	PROPN	_	_	6	flat:name	_	_
@@ -54982,10 +54982,10 @@
 
 # sent_id = fr-ud-train_01951
 # text = À partir de 1916, il escorta des convois à travers l'Atlantique.
-1	À	à	ADP	_	_	4	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
-4	1916	1916	NUM	_	_	7	obl:mod	_	SpaceAfter=No
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	7	advmod	_	MWEPOS=ADV
+3	de	de	ADP	_	_	4	case	_	_
+4	1916	1916	NUM	_	_	2	obl:arg	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 7	escorta	escorter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -56017,10 +56017,10 @@
 75	si	si	SCONJ	_	_	77	mark	_	_
 76	celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	77	nsubj	_	_
 77	intervient	intervenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	acl	_	_
-78	à	à	ADP	_	_	81	case	_	_
-79	partir	partir	VERB	_	VerbForm=Inf	78	fixed	_	_
-80	d'	de	ADP	_	_	78	fixed	_	SpaceAfter=No
-81	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	77	obl	_	SpaceAfter=No
+78	à	à	ADP	_	_	79	mark	_	INMWE=Yes
+79	partir	partir	VERB	_	VerbForm=Inf	77	advmod	_	MWEPOS=ADV
+80	d'	de	ADP	_	_	81	case	_	SpaceAfter=No
+81	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	79	obl:arg	_	SpaceAfter=No
 82	)	)	PUNCT	_	_	71	punct	_	SpaceAfter=No
 83	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -56366,11 +56366,11 @@
 15	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	champ	champ	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
-18	à	à	ADP	_	_	22	case	_	_
-19	partir	partir	VERB	_	VerbForm=Inf	18	fixed	_	_
-20	d'	de	ADP	_	_	18	fixed	_	SpaceAfter=No
+18	à	à	ADP	_	_	19	mark	_	INMWE=Yes
+19	partir	partir	VERB	_	VerbForm=Inf	11	advmod	_	MWEPOS=ADV
+20	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
 21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	théorie	théorie	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+22	théorie	théorie	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	_
 23	classique	classique	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
@@ -84554,13 +84554,13 @@
 
 # sent_id = fr-ud-train_02989
 # text = À partir du premier match de l'histoire de l'équipe, le 7 avril 1977, il décrit tous les matchs sans exception jusqu'au 3 juin 2004, où le décès de son père le force à prendre congé.
-1	À	à	ADP	_	_	6	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	20	advmod	_	MWEPOS=ADV
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
+3	de	de	ADP	_	_	6	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	premier	premier	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
-6	match	match	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	_
+6	match	match	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -94484,10 +94484,10 @@
 8	ouest	ouest	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 9	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
 10	restaurées	restaurer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-11	à	à	ADP	_	_	14	case	_	_
-12	partir	partir	VERB	_	VerbForm=Inf	11	fixed	_	_
-13	de	de	ADP	_	_	11	fixed	_	_
-14	1686	1686	NUM	_	_	10	obl	_	SpaceAfter=No
+11	à	à	ADP	_	_	12	mark	_	INMWE=Yes
+12	partir	partir	VERB	_	VerbForm=Inf	10	advmod	_	MWEPOS=ADV
+13	de	de	ADP	_	_	14	case	_	_
+14	1686	1686	NUM	_	_	12	obl:arg	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_03354
@@ -97400,10 +97400,10 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	occupera	occuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	à	à	ADP	_	_	7	case	_	_
-5	partir	partir	VERB	_	VerbForm=Inf	4	fixed	_	_
-6	de	de	ADP	_	_	4	fixed	_	_
-7	1981	1981	NUM	_	_	2	obl	_	SpaceAfter=No
+4	à	à	ADP	_	_	5	mark	_	INMWE=Yes
+5	partir	partir	VERB	_	VerbForm=Inf	2	advmod	_	MWEPOS=ADV
+6	de	de	ADP	_	_	7	case	_	_
+7	1981	1981	NUM	_	_	5	obl:arg	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	fauteuil	fauteuil	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -102563,11 +102563,11 @@
 1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	hébraïsme	hébraïsme	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	à	à	ADP	_	_	7	case	_	_
-5	partir	partir	VERB	_	VerbForm=Inf	4	fixed	_	_
+4	à	à	ADP	_	_	5	mark	_	INMWE=Yes
+5	partir	partir	VERB	_	VerbForm=Inf	9	advmod	_	MWEPOS=ADV
 6-7	duquel	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	4	fixed	_	_
-7	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	9	obl	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	5	obl:arg	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs	9	expl:pass	_	_
 9	développa	développer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -103389,12 +103389,12 @@
 16	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	relais	relais	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
-19	à	à	ADP	_	_	23	case	_	_
-20	partir	partir	VERB	_	VerbForm=Inf	19	fixed	_	_
+19	à	à	ADP	_	_	20	mark	_	INMWE=Yes
+20	partir	partir	VERB	_	VerbForm=Inf	16	advmod	_	MWEPOS=ADV
 21-22	du	_	_	_	_	_	_	_	_
-21	de	de	ADP	_	_	19	fixed	_	_
+21	de	de	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	11	11	NUM	_	_	16	obl	_	_
+23	11	11	NUM	_	_	20	obl:arg	_	_
 24	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 25	2007	2007	NUM	_	_	24	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	3	punct	_	_
@@ -106471,10 +106471,10 @@
 34	Cent	Cent	NUM	_	_	35	nummod	_	_
 35	Ans	Ans	PROPN	_	_	32	nmod	_	_
 36	(	(	PUNCT	_	_	40	punct	_	SpaceAfter=No
-37	à	à	ADP	_	_	40	case	_	_
-38	partir	partir	VERB	_	VerbForm=Inf	37	fixed	_	_
-39	de	de	ADP	_	_	37	fixed	_	_
-40	1440	1440	NUM	_	_	29	nmod	_	SpaceAfter=No
+37	à	à	ADP	_	_	38	mark	_	INMWE=Yes
+38	partir	partir	VERB	_	VerbForm=Inf	29	advmod	_	MWEPOS=ADV
+39	de	de	ADP	_	_	40	case	_	_
+40	1440	1440	NUM	_	_	38	obl:arg	_	SpaceAfter=No
 41	)	)	PUNCT	_	_	40	punct	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -109302,10 +109302,10 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	percement	percement	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-20	à	à	ADP	_	_	23	case	_	_
-21	partir	partir	VERB	_	VerbForm=Inf	20	fixed	_	_
-22	d'	de	ADP	_	_	20	fixed	_	SpaceAfter=No
-23	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+20	à	à	ADP	_	_	21	mark	_	INMWE=Yes
+21	partir	partir	VERB	_	VerbForm=Inf	19	advmod	_	MWEPOS=ADV
+22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
+23	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	21	obl:arg	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_03895
@@ -111036,11 +111036,11 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	50	50	NUM	_	_	12	nummod	_	_
 12	km	km	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
-13	à	à	ADP	_	_	17	case	_	_
-14	partir	partir	VERB	_	VerbForm=Inf	13	fixed	_	_
-15	de	de	ADP	_	_	13	fixed	_	_
+13	à	à	ADP	_	_	14	mark	_	INMWE=Yes
+14	partir	partir	VERB	_	VerbForm=Inf	6	advmod	_	MWEPOS=ADV
+15	de	de	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	commune	commune	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+17	commune	commune	NOUN	_	Gender=Fem|Number=Sing	14	obl:arg	_	_
 18	de	de	ADP	_	_	21	case	_	_
 19	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
 20	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -114901,11 +114901,11 @@
 6	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	frontières	frontière	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
 8	européennes	européen	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
-9	à	à	ADP	_	_	13	case	_	_
-10	partir	partir	VERB	_	VerbForm=Inf	9	fixed	_	_
-11	de	de	ADP	_	_	9	fixed	_	_
+9	à	à	ADP	_	_	10	mark	_	INMWE=Yes
+10	partir	partir	VERB	_	VerbForm=Inf	5	advmod	_	MWEPOS=ADV
+11	de	de	ADP	_	_	13	case	_	_
 12	quelque	quelque	DET	_	Gender=Fem|Number=Sing	13	det	_	_
-13	chose	chose	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+13	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	tangible	tangible	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
@@ -116944,10 +116944,10 @@
 29	:	:	PUNCT	_	_	37	punct	_	_
 30	comment	comment	ADV	_	_	37	advmod	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	37	punct	_	_
-32	à	à	ADP	_	_	35	case	_	_
-33	partir	partir	VERB	_	VerbForm=Inf	32	fixed	_	_
-34	d'	de	ADP	_	_	32	fixed	_	SpaceAfter=No
-35	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	37	obl:mod	_	_
+32	à	à	ADP	_	_	33	mark	_	INMWE=Yes
+33	partir	partir	VERB	_	VerbForm=Inf	37	advmod	_	MWEPOS=ADV
+34	d'	de	ADP	_	_	35	case	_	SpaceAfter=No
+35	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	33	obl:arg	_	_
 36	mémoriels	mémoriel	ADJ	_	Gender=Masc|Number=Plur	35	amod	_	_
 37	construire	construire	VERB	_	VerbForm=Inf	9	conj	_	_
 38	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
@@ -117942,11 +117942,11 @@
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	identifié	identifier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	à	à	ADP	_	_	13	case	_	_
-10	partir	partir	VERB	_	VerbForm=Inf	9	fixed	_	_
-11	de	de	ADP	_	_	9	fixed	_	_
+9	à	à	ADP	_	_	10	mark	_	INMWE=Yes
+10	partir	partir	VERB	_	VerbForm=Inf	8	advmod	_	MWEPOS=ADV
+11	de	de	ADP	_	_	13	case	_	_
 12	quelques	quelque	DET	_	Gender=Fem|Number=Plur	13	det	_	_
-13	vertèbres	vertèbre	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+13	vertèbres	vertèbre	NOUN	_	Gender=Fem|Number=Plur	10	obl:arg	_	_
 14	et	et	CCONJ	_	_	17	cc	_	_
 15	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -123364,11 +123364,11 @@
 
 # sent_id = fr-ud-train_04417
 # text = À partir de cette date, le groupe assure son développement sur l'ensemble du territoire national, en se concentrant sur les principales métropoles régionales et la périphérie parisienne.
-1	À	à	ADP	_	_	5	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	9	advmod	_	MWEPOS=ADV
+3	de	de	ADP	_	_	5	case	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
-5	date	date	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	SpaceAfter=No
+5	date	date	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -126003,11 +126003,11 @@
 15	se	se	PRON	_	Person=3|PronType=Prs	16	expl:pass	_	_
 16	construit	construire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 17	aussi	aussi	ADV	_	_	16	advmod	_	_
-18	à	à	ADP	_	_	22	case	_	_
-19	partir	partir	VERB	_	VerbForm=Inf	18	fixed	_	_
-20	de	de	ADP	_	_	18	fixed	_	_
+18	à	à	ADP	_	_	19	mark	_	INMWE=Yes
+19	partir	partir	VERB	_	VerbForm=Inf	16	advmod	_	MWEPOS=ADV
+20	de	de	ADP	_	_	22	case	_	_
 21	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	22	det	_	_
-22	transformations	transformation	NOUN	_	Gender=Fem|Number=Plur	16	obl	_	_
+22	transformations	transformation	NOUN	_	Gender=Fem|Number=Plur	19	obl:arg	_	_
 23	et	et	CCONJ	_	_	26	cc	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -126790,10 +126790,10 @@
 15	chez	chez	ADP	_	_	16	case	_	_
 16	Fleuve	Fleuve	PROPN	_	_	14	obl	_	_
 17	noir	noir	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
-18	à	à	ADP	_	_	21	case	_	_
-19	partir	partir	VERB	_	VerbForm=Inf	18	fixed	_	_
-20	de	de	ADP	_	_	18	fixed	_	_
-21	2011	2011	NUM	_	_	14	obl	_	SpaceAfter=No
+18	à	à	ADP	_	_	19	mark	_	INMWE=Yes
+19	partir	partir	VERB	_	VerbForm=Inf	14	advmod	_	MWEPOS=ADV
+20	de	de	ADP	_	_	21	case	_	_
+21	2011	2011	NUM	_	_	19	obl:arg	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_04537
@@ -136943,10 +136943,10 @@
 8	ensuite	ensuite	ADV	_	_	7	advmod	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
 10	bâtira	bâtir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
-11	à	à	ADP	_	_	14	case	_	_
-12	partir	partir	VERB	_	VerbForm=Inf	11	fixed	_	_
-13	de	de	ADP	_	_	11	fixed	_	_
-14	là	là	ADV	_	_	10	advmod	_	SpaceAfter=No
+11	à	à	ADP	_	_	12	mark	_	INMWE=Yes
+12	partir	partir	VERB	_	VerbForm=Inf	10	advmod	_	MWEPOS=ADV
+13	de	de	ADP	_	_	14	case	_	_
+14	là	là	ADV	_	_	12	obl:arg	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_04896
@@ -138613,10 +138613,10 @@
 28	de	de	ADP	_	_	30	case	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	Sart-Tilman	Sart-Tilman	PROPN	_	_	26	nmod	_	_
-31	à	à	ADP	_	_	34	case	_	_
-32	partir	partir	VERB	_	VerbForm=Inf	31	fixed	_	_
-33	de	de	ADP	_	_	31	fixed	_	_
-34	1977	1977	NUM	_	_	23	obl	_	SpaceAfter=No
+31	à	à	ADP	_	_	32	mark	_	INMWE=Yes
+32	partir	partir	VERB	_	VerbForm=Inf	23	advmod	_	MWEPOS=ADV
+33	de	de	ADP	_	_	34	case	_	_
+34	1977	1977	NUM	_	_	32	obl:arg	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	23	punct	_	_
 
 # sent_id = fr-ud-train_04957
@@ -140620,10 +140620,10 @@
 12	UA	UA	PROPN	_	_	9	nmod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Kampala	Kampala	PROPN	_	_	9	nmod	_	_
-15	à	à	ADP	_	_	18	case	_	_
-16	partir	partir	VERB	_	VerbForm=Inf	15	fixed	_	_
-17	de	de	ADP	_	_	15	fixed	_	_
-18	dimanche	dimanche	PROPN	_	_	9	nmod	_	SpaceAfter=No
+15	à	à	ADP	_	_	16	mark	_	INMWE=Yes
+16	partir	partir	VERB	_	VerbForm=Inf	9	advmod	_	MWEPOS=ADV
+17	de	de	ADP	_	_	18	case	_	_
+18	dimanche	dimanche	PROPN	_	_	16	obl:arg	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	6	punct	_	_
 20	même	même	ADV	_	_	24	advmod	_	_
 21	s'	si	SCONJ	_	_	24	mark	_	SpaceAfter=No
@@ -149478,11 +149478,11 @@
 27	8	8	NUM	_	_	28	nummod	_	_
 28	branches	branche	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
 29	formée	former	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
-30	à	à	ADP	_	_	34	case	_	_
-31	partir	partir	VERB	_	VerbForm=Inf	30	fixed	_	_
-32	de	de	ADP	_	_	30	fixed	_	_
+30	à	à	ADP	_	_	31	mark	_	INMWE=Yes
+31	partir	partir	VERB	_	VerbForm=Inf	29	advmod	_	MWEPOS=ADV
+32	de	de	ADP	_	_	34	case	_	_
 33	2	2	NUM	_	_	34	nummod	_	_
-34	carrés	carré	NOUN	_	Gender=Masc|Number=Plur	29	obl	_	_
+34	carrés	carré	NOUN	_	Gender=Masc|Number=Plur	31	obl:arg	_	_
 35	superposés	superposer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	34	acl	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	14	punct	_	_
@@ -151668,10 +151668,10 @@
 18	autres	autre	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
 19	points	point	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
 20	stratégiques	stratégique	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
-21	à	à	ADP	_	_	24	case	_	_
-22	partir	partir	VERB	_	VerbForm=Inf	21	fixed	_	_
-23	de	de	ADP	_	_	21	fixed	_	_
-24	1909	1909	NUM	_	_	14	obl	_	SpaceAfter=No
+21	à	à	ADP	_	_	22	mark	_	INMWE=Yes
+22	partir	partir	VERB	_	VerbForm=Inf	14	advmod	_	MWEPOS=ADV
+23	de	de	ADP	_	_	24	case	_	_
+24	1909	1909	NUM	_	_	22	obl:arg	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_05417
@@ -154484,10 +154484,10 @@
 2	distribution	distribution	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	assurée	assurer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	à	à	ADP	_	_	8	case	_	_
-6	partir	partir	VERB	_	VerbForm=Inf	5	fixed	_	_
-7	de	de	ADP	_	_	5	fixed	_	_
-8	1971	1971	NUM	_	_	4	obl	_	_
+5	à	à	ADP	_	_	6	mark	_	INMWE=Yes
+6	partir	partir	VERB	_	VerbForm=Inf	4	advmod	_	MWEPOS=ADV
+7	de	de	ADP	_	_	8	case	_	_
+8	1971	1971	NUM	_	_	6	obl:arg	_	_
 9	par	par	ADP	_	_	10	case	_	_
 10	BASF	BASF	PROPN	_	_	4	obl:agent	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	4	punct	_	_
@@ -160759,10 +160759,10 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	Sant	Sant	PROPN	_	_	5	nmod	_	_
 11	Jordi	Jordi	PROPN	_	_	10	flat:name	_	_
-12	à	à	ADP	_	_	15	case	_	_
-13	partir	partir	VERB	_	VerbForm=Inf	12	fixed	_	_
-14	de	de	ADP	_	_	12	fixed	_	_
-15	1953	1953	NUM	_	_	1	obl	_	SpaceAfter=No
+12	à	à	ADP	_	_	13	mark	_	INMWE=Yes
+13	partir	partir	VERB	_	VerbForm=Inf	1	advmod	_	MWEPOS=ADV
+14	de	de	ADP	_	_	15	case	_	_
+15	1953	1953	NUM	_	_	13	obl:arg	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	1	punct	_	_
 17	Borrell	Borrell	PROPN	_	_	18	nsubj	_	_
 18	évolue	évoluer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -164253,11 +164253,11 @@
 8	de	de	ADP	_	_	10	mark	_	_
 9	se	se	PRON	_	Person=3|PronType=Prs	10	expl:pass	_	_
 10	développer	développer	VERB	_	VerbForm=Inf	7	xcomp	_	_
-11	à	à	ADP	_	_	15	case	_	_
-12	partir	partir	VERB	_	VerbForm=Inf	11	fixed	_	_
-13	de	de	ADP	_	_	11	fixed	_	_
+11	à	à	ADP	_	_	12	mark	_	INMWE=Yes
+12	partir	partir	VERB	_	VerbForm=Inf	10	advmod	_	MWEPOS=ADV
+13	de	de	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
-15	arsenic	arsenic	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+15	arsenic	arsenic	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	_
 16	et	et	CCONJ	_	_	18	cc	_	_
 17	d'	de	ADP	_	_	18	mark	_	SpaceAfter=No
 18	incorporer	incorporer	VERB	_	VerbForm=Inf	10	conj	_	_
@@ -165588,11 +165588,11 @@
 
 # sent_id = fr-ud-train_05901
 # text = À partir de l'année 1941, après le bombardement de l'usine du quai de Javel, les études de la TPV reprennent en cachette de l'occupant.
-1	À	à	ADP	_	_	5	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	25	advmod	_	MWEPOS=ADV
+3	de	de	ADP	_	_	5	case	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
-5	année	année	NOUN	_	Gender=Fem|Number=Sing	25	obl:mod	_	_
+5	année	année	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	_
 6	1941	1941	NUM	_	_	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	après	après	ADP	_	_	10	case	_	_
@@ -167882,13 +167882,13 @@
 
 # sent_id = fr-ud-train_05989
 # text = À partir du même procédé de fabrication, il y a, comme pour les céramiques usuelles, de substantielles déviations par rapport aux valeurs indiquées.
-1	À	à	ADP	_	_	6	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	12	advmod	_	MWEPOS=ADV
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
+3	de	de	ADP	_	_	6	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	même	même	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
-6	procédé	procédé	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+6	procédé	procédé	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	fabrication	fabrication	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
@@ -190877,11 +190877,11 @@
 35	poèmes	poème	NOUN	_	Gender=Masc|Number=Plur	37	nsubj	_	_
 36	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
 37	publiés	publier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	conj	_	_
-38	à	à	ADP	_	_	42	case	_	_
-39	partir	partir	VERB	_	VerbForm=Inf	38	fixed	_	_
-40	de	de	ADP	_	_	38	fixed	_	_
+38	à	à	ADP	_	_	39	mark	_	INMWE=Yes
+39	partir	partir	VERB	_	VerbForm=Inf	37	advmod	_	MWEPOS=ADV
+40	de	de	ADP	_	_	42	case	_	_
 41	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	42	det	_	_
-42	année	année	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	_
+42	année	année	NOUN	_	Gender=Fem|Number=Sing	39	obl:arg	_	_
 43	dans	dans	ADP	_	_	46	case	_	_
 44	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
 45	nombreuses	nombreux	ADJ	_	Gender=Fem|Number=Plur	46	amod	_	_
@@ -192630,11 +192630,11 @@
 14	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 16	seulement	seulement	ADV	_	_	15	advmod	_	_
-17	à	à	ADP	_	_	21	case	_	_
-18	partir	partir	VERB	_	VerbForm=Inf	17	fixed	_	_
-19	de	de	ADP	_	_	17	fixed	_	_
+17	à	à	ADP	_	_	18	mark	_	INMWE=Yes
+18	partir	partir	VERB	_	VerbForm=Inf	6	conj	_	MWEPOS=ADV
+19	de	de	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	découverte	découverte	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+21	découverte	découverte	NOUN	_	Gender=Fem|Number=Sing	18	obl:arg	_	_
 22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
 23	or	or	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 24	dans	dans	ADP	_	_	26	case	_	_
@@ -192650,8 +192650,8 @@
 34	premier	premier	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
 35	établissement	établissement	NOUN	_	Gender=Masc|Number=Sing	37	nsubj	_	_
 36	euro-américain	euro-américain	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
-37	eut	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	advcl:cleft	_	_
-38	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No
+37	eut	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	advcl:cleft	_	_
+38	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	37	obj:lvc	_	SpaceAfter=No
 39	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_06860
@@ -193551,12 +193551,12 @@
 6	fonctionnel	fonctionnel	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	se	se	PRON	_	Person=3|PronType=Prs	8	expl:pass	_	_
 8	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	à	à	ADP	_	_	13	case	_	_
-10	partir	partir	VERB	_	VerbForm=Inf	9	fixed	_	_
+9	à	à	ADP	_	_	10	mark	_	INMWE=Yes
+10	partir	partir	VERB	_	VerbForm=Inf	8	advmod	_	MWEPOS=ADV
 11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	9	fixed	_	_
+11	de	de	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+13	bilan	bilan	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
 14	comptable	comptable	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 15	avant	avant	ADP	_	_	16	case	_	_
 16	répartition	répartition	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
@@ -195202,10 +195202,10 @@
 # sent_id = fr-ud-train_06954
 # text = Développé à partir de 1994, mSQL comblait le trou qui existait entre les bases de données personnelles intégrées comme Microsoft Access et celles commerciales comme Oracle ou DB2.
 1	Développé	développer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
-2	à	à	ADP	_	_	5	case	_	_
-3	partir	partir	VERB	_	VerbForm=Inf	2	fixed	_	_
-4	de	de	ADP	_	_	2	fixed	_	_
-5	1994	1994	NUM	_	_	1	obl	_	SpaceAfter=No
+2	à	à	ADP	_	_	3	mark	_	INMWE=Yes
+3	partir	partir	VERB	_	VerbForm=Inf	1	advmod	_	MWEPOS=ADV
+4	de	de	ADP	_	_	5	case	_	_
+5	1994	1994	NUM	_	_	3	obl:arg	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	mSQL	mSQL	PROPN	_	_	8	nsubj	_	_
 8	comblait	combler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -195276,13 +195276,13 @@
 
 # sent_id = fr-ud-train_06957
 # text = À partir du XVIIe siècle, des travaux sont entrepris pour fixer son cours, la région devenant le nouveau centre politique du Japon.
-1	À	à	ADP	_	_	6	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	11	advmod	_	MWEPOS=ADV
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
+3	de	de	ADP	_	_	6	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	XVIIe	XVIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
-6	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	SpaceAfter=No
+6	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	travaux	travail	NOUN	_	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
@@ -201513,12 +201513,12 @@
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	glande	glande	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 18	surrénale	surrénal	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
-19	à	à	ADP	_	_	23	case	_	_
-20	partir	partir	VERB	_	VerbForm=Inf	19	fixed	_	_
+19	à	à	ADP	_	_	20	mark	_	INMWE=Yes
+20	partir	partir	VERB	_	VerbForm=Inf	4	advmod	_	MWEPOS=ADV
 21-22	du	_	_	_	_	_	_	_	_
-21	de	de	ADP	_	_	19	fixed	_	_
+21	de	de	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	cholestérol	cholestérol	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+23	cholestérol	cholestérol	NOUN	_	Gender=Masc|Number=Sing	20	obl:arg	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_07177
@@ -202332,12 +202332,12 @@
 12	NP-difficile	NP-difficile	ADJ	_	Gender=Masc|Number=Sing	2	ccomp	_	_
 13	par	par	ADP	_	_	14	case	_	_
 14	Réduction	Réduction	PROPN	_	_	12	obl:mod	_	_
-15	à	à	ADP	_	_	19	case	_	_
-16	partir	partir	VERB	_	VerbForm=Inf	15	fixed	_	_
+15	à	à	ADP	_	_	16	mark	_	INMWE=Yes
+16	partir	partir	VERB	_	VerbForm=Inf	14	advmod	_	MWEPOS=ADV
 17-18	du	_	_	_	_	_	_	_	_
-17	de	de	ADP	_	_	15	fixed	_	_
+17	de	de	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	problème	problème	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+19	problème	problème	NOUN	_	Gender=Masc|Number=Sing	16	obl:arg	_	_
 20-21	du	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -203544,11 +203544,11 @@
 3	dès	dès	ADP	_	_	1	advmod	_	_
 4	maintenant	maintenant	ADV	_	_	3	fixed	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
-6	à	à	ADP	_	_	10	case	_	_
-7	partir	partir	VERB	_	VerbForm=Inf	6	fixed	_	_
-8	de	de	ADP	_	_	6	fixed	_	_
+6	à	à	ADP	_	_	7	mark	_	INMWE=Yes
+7	partir	partir	VERB	_	VerbForm=Inf	1	advmod	_	MWEPOS=ADV
+8	de	de	ADP	_	_	10	case	_	_
 9	6	6	NUM	_	_	10	nummod	_	_
-10	€	€	SYM	_	_	1	obl	_	_
+10	€	€	SYM	_	_	7	obl:arg	_	_
 11	par	par	ADP	_	_	12	case	_	_
 12	mois	mois	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
@@ -206428,10 +206428,10 @@
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
 6	entreprises	entreprendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-7	à	à	ADP	_	_	10	case	_	_
-8	partir	partir	VERB	_	VerbForm=Inf	7	fixed	_	_
-9	de	de	ADP	_	_	7	fixed	_	_
-10	1974	1974	NUM	_	_	6	obl	_	_
+7	à	à	ADP	_	_	8	mark	_	INMWE=Yes
+8	partir	partir	VERB	_	VerbForm=Inf	6	advmod	_	MWEPOS=ADV
+9	de	de	ADP	_	_	10	case	_	_
+10	1974	1974	NUM	_	_	8	obl:arg	_	_
 11	par	par	ADP	_	_	14	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	National	national	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
@@ -209283,9 +209283,9 @@
 # text = Il commande à partir juillet 1945 la 20th USAAF dont le quartier-général est basé dans l'île de Guam.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	commande	commander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	à	à	ADP	_	_	5	case	_	_
-4	partir	partir	VERB	_	VerbForm=Inf	3	fixed	_	_
-5	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
+3	à	à	ADP	_	_	4	case	_	INMWE=Yes
+4	partir	partir	VERB	_	VerbForm=Inf	2	advmod	_	MWEPOS=ADV
+5	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
 6	1945	1945	NUM	_	_	5	nmod	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	20th	20th	ADJ	_	_	9	amod	_	_
@@ -213851,10 +213851,10 @@
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 5	même	même	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	clocher	clocher	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-7	à	à	ADP	_	_	10	case	_	_
-8	partir	partir	VERB	_	VerbForm=Inf	7	fixed	_	_
-9	de	de	ADP	_	_	7	fixed	_	_
-10	1431	1431	NUM	_	_	2	nmod	_	_
+7	à	à	ADP	_	_	8	mark	_	INMWE=Yes
+8	partir	partir	VERB	_	VerbForm=Inf	2	advmod	_	MWEPOS=ADV
+9	de	de	ADP	_	_	10	case	_	_
+10	1431	1431	NUM	_	_	8	obl:arg	_	_
 11	ne	ne	ADV	_	Polarity=Neg	12	advmod	_	_
 12	fut	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 13	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
@@ -217639,12 +217639,12 @@
 16	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
 17	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
 18	entoure	entourer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
-19	à	à	ADP	_	_	24	case	_	_
-20	partir	partir	VERB	_	VerbForm=Inf	19	fixed	_	_
-21	de	de	ADP	_	_	19	fixed	_	_
+19	à	à	ADP	_	_	20	mark	_	INMWE=Yes
+20	partir	partir	VERB	_	VerbForm=Inf	11	advmod	_	MWEPOS=ADV
+21	de	de	ADP	_	_	24	case	_	_
 22	ses	son	DET	_	Number=Plur|Poss=Yes|PronType=Prs	24	det	_	_
 23	propres	propre	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
-24	construits	construire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	obl	_	SpaceAfter=No
+24	construits	construire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	obl:arg	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_07745
@@ -224531,11 +224531,11 @@
 11	de	de	ADP	_	_	13	det	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	fixed	_	_
 13	musique	musique	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
-14	à	à	ADP	_	_	18	case	_	_
-15	partir	partir	VERB	_	VerbForm=Inf	14	fixed	_	_
-16	d'	de	ADP	_	_	14	fixed	_	SpaceAfter=No
+14	à	à	ADP	_	_	15	mark	_	INMWE=Yes
+15	partir	partir	VERB	_	VerbForm=Inf	10	advmod	_	MWEPOS=ADV
+16	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	carte	carte	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+18	carte	carte	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	_
 19	SD	SD	NOUN	_	Gender=Masc|Number=Sing	18	compound	_	_
 20	ou	ou	CCONJ	_	_	23	cc	_	_
 21	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
@@ -227215,10 +227215,10 @@
 5	Niedermeyer	Niedermeyer	PROPN	_	_	4	appos	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	Paris	Paris	PROPN	_	_	4	nmod	_	_
-8	à	à	ADP	_	_	11	case	_	_
-9	partir	partir	VERB	_	VerbForm=Inf	8	fixed	_	_
-10	de	de	ADP	_	_	8	fixed	_	_
-11	1857	1857	NUM	_	_	1	nmod	_	SpaceAfter=No
+8	à	à	ADP	_	_	9	mark	_	INMWE=Yes
+9	partir	partir	VERB	_	VerbForm=Inf	1	advmod	_	MWEPOS=ADV
+10	de	de	ADP	_	_	11	case	_	_
+11	1857	1857	NUM	_	_	9	obl:arg	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	1	punct	_	_
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 14	eut	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -229657,12 +229657,12 @@
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	aboutissants	aboutissants	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
-6	à	à	ADP	_	_	10	case	_	_
-7	partir	partir	VERB	_	VerbForm=Inf	6	fixed	_	_
+6	à	à	ADP	_	_	7	mark	_	INMWE=Yes
+7	partir	partir	VERB	_	VerbForm=Inf	17	advmod	_	MWEPOS=ADV
 8-9	du	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	6	fixed	_	_
+8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	choix	choix	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
+10	choix	choix	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	_
 11	éclairé	éclairé	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
@@ -236052,12 +236052,12 @@
 5	circulation	circulation	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 6	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux:pass	_	_
 7	rétablie	rétablir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-8	à	à	ADP	_	_	12	case	_	_
-9	partir	partir	VERB	_	VerbForm=Inf	8	fixed	_	_
+8	à	à	ADP	_	_	9	mark	_	INMWE=Yes
+9	partir	partir	VERB	_	VerbForm=Inf	7	advmod	_	MWEPOS=ADV
 10-11	du	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	8	fixed	_	_
+10	de	de	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	22	22	NUM	_	_	7	obl	_	_
+12	22	22	NUM	_	_	9	obl:arg	_	_
 13	mars	mars	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -240319,10 +240319,10 @@
 7	de	de	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	chartes	charte	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
-10	à	à	ADP	_	_	13	case	_	_
-11	partir	partir	VERB	_	VerbForm=Inf	10	fixed	_	_
-12	de	de	ADP	_	_	10	fixed	_	_
-13	1930	1930	NUM	_	_	3	nmod	_	_
+10	à	à	ADP	_	_	11	mark	_	INMWE=Yes
+11	partir	partir	VERB	_	VerbForm=Inf	3	advmod	_	MWEPOS=ADV
+12	de	de	ADP	_	_	13	case	_	_
+13	1930	1930	NUM	_	_	11	obl:arg	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	élu	élire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
@@ -243993,10 +243993,10 @@
 
 # sent_id = fr-ud-train_08674
 # text = À partir de 1968, l'association reçoit une subvention de la ville de Boisbriand pour entretenir les équipements et organiser des activités.
-1	À	à	ADP	_	_	4	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
-4	1968	1968	NUM	_	_	8	obl:mod	_	SpaceAfter=No
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	8	advmod	_	MWEPOS=ADV
+3	de	de	ADP	_	_	4	case	_	_
+4	1968	1968	NUM	_	_	2	obl:arg	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	association	association	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -251694,10 +251694,10 @@
 16	maître	maître	NOUN	_	Gender=Masc|Number=Sing	11	xcomp	_	_
 17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
 18	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-19	à	à	ADP	_	_	22	case	_	_
-20	partir	partir	VERB	_	VerbForm=Inf	19	fixed	_	_
-21	de	de	ADP	_	_	19	fixed	_	_
-22	1227	1227	NUM	_	_	16	nmod	_	SpaceAfter=No
+19	à	à	ADP	_	_	20	mark	_	INMWE=Yes
+20	partir	partir	VERB	_	VerbForm=Inf	16	advmod	_	MWEPOS=ADV
+21	de	de	ADP	_	_	22	case	_	_
+22	1227	1227	NUM	_	_	20	obl:arg	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	_
 24	et	et	CCONJ	_	_	25	cc	_	_
 25	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	16	conj	_	SpaceAfter=No
@@ -252220,10 +252220,10 @@
 
 # sent_id = fr-ud-train_08964
 # text = À partir de 440, les Huns menacent l'Empire d'Orient, ravagent les régions danubiennes et obligent Théodose II à payer un tribut annuel.
-1	À	à	ADP	_	_	4	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
-4	440	440	NUM	_	_	8	obl:mod	_	SpaceAfter=No
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	8	advmod	_	MWEPOS=ADV
+3	de	de	ADP	_	_	4	case	_	_
+4	440	440	NUM	_	_	2	obl:arg	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	Huns	Huns	PROPN	_	_	8	nsubj	_	_
@@ -255715,11 +255715,11 @@
 
 # sent_id = fr-ud-train_09094
 # text = À partir de ce moment, le film devient de plus en plus poignant, car Ray met en scène le sempiternel conflit entre un jeune homme porté par ses ambitions et une mère qui l'aime et dont il s'éloigne inexorablement.
-1	À	à	ADP	_	_	5	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	9	advmod	_	MWEPOS=ADV
+3	de	de	ADP	_	_	5	case	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
-5	moment	moment	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	SpaceAfter=No
+5	moment	moment	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	film	film	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -256946,11 +256946,11 @@
 11	dériver	dériver	VERB	_	VerbForm=Inf	9	acl	_	_
 12	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	13	det	_	_
 13	équations	équation	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
-14	à	à	ADP	_	_	18	case	_	_
-15	partir	partir	VERB	_	VerbForm=Inf	14	fixed	_	_
-16	de	de	ADP	_	_	14	fixed	_	_
+14	à	à	ADP	_	_	15	mark	_	INMWE=Yes
+15	partir	partir	VERB	_	VerbForm=Inf	11	advmod	_	MWEPOS=ADV
+16	de	de	ADP	_	_	18	case	_	_
 17	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
-18	équation	équation	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+18	équation	équation	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	Boltzmann	Boltzmann	PROPN	_	_	18	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	9	punct	_	_
@@ -257595,10 +257595,10 @@
 10	mit	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	en	en	ADP	_	_	12	case	_	_
 12	oeuvre	oeuvre	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
-13	à	à	ADP	_	_	16	case	_	_
-14	partir	partir	VERB	_	VerbForm=Inf	13	fixed	_	_
-15	de	de	ADP	_	_	13	fixed	_	_
-16	1942	1942	NUM	_	_	10	obl	_	_
+13	à	à	ADP	_	_	14	mark	_	INMWE=Yes
+14	partir	partir	VERB	_	VerbForm=Inf	10	advmod	_	MWEPOS=ADV
+15	de	de	ADP	_	_	16	case	_	_
+16	1942	1942	NUM	_	_	14	obl:arg	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	tactique	tactique	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
 19	de	de	ADP	_	_	20	case	_	_
@@ -261629,13 +261629,13 @@
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	développé	développer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	progressivement	progressivement	ADV	_	_	9	advmod	_	_
-11	à	à	ADP	_	_	16	case	_	_
-12	partir	partir	VERB	_	VerbForm=Inf	11	fixed	_	_
+11	à	à	ADP	_	_	12	mark	_	INMWE=Yes
+12	partir	partir	VERB	_	VerbForm=Inf	9	advmod	_	MWEPOS=ADV
 13-14	du	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	11	fixed	_	_
+13	de	de	ADP	_	_	16	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	XVIe	XVIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	_
-16	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+16	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	_
 17	en	en	ADP	_	_	18	case	_	_
 18	Europe	Europe	PROPN	_	_	9	obl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	9	punct	_	_
@@ -266046,11 +266046,11 @@
 17	père	père	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 18	dominicain	dominicain	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 19	Mazzuchelli	Mazzuchelli	PROPN	_	_	17	appos	_	_
-20	à	à	ADP	_	_	24	case	_	_
-21	partir	partir	VERB	_	VerbForm=Inf	20	fixed	_	_
-22	de	de	ADP	_	_	20	fixed	_	_
+20	à	à	ADP	_	_	21	mark	_	INMWE=Yes
+21	partir	partir	VERB	_	VerbForm=Inf	9	advmod	_	MWEPOS=ADV
+22	de	de	ADP	_	_	24	case	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	paroisse	paroisse	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+24	paroisse	paroisse	NOUN	_	Gender=Fem|Number=Sing	21	obl:arg	_	_
 25	Saint-Paul	Saint-Paul	PROPN	_	_	24	appos	_	_
 26	de	de	PROPN	_	_	27	case	_	_
 27	Burlington	Burlington	PROPN	_	_	25	nmod	_	_
@@ -269390,10 +269390,10 @@
 4	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
 5	raisons	raison	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
 6	qu'	que	SCONJ	_	_	18	mark	_	SpaceAfter=No
-7	à	à	ADP	_	_	10	case	_	_
-8	partir	partir	VERB	_	VerbForm=Inf	7	fixed	_	_
-9	de	de	ADP	_	_	7	fixed	_	_
-10	1950	1950	NUM	_	_	18	obl:mod	_	SpaceAfter=No
+7	à	à	ADP	_	_	8	mark	_	INMWE=Yes
+8	partir	partir	VERB	_	VerbForm=Inf	18	advmod	_	MWEPOS=ADV
+9	de	de	ADP	_	_	10	case	_	_
+10	1950	1950	NUM	_	_	8	obl:arg	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	«	«	PUNCT	_	_	14	punct	_	_
@@ -275230,11 +275230,11 @@
 5	considérer	considérer	VERB	_	VerbForm=Inf	4	ccomp	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	conflit	conflit	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
-8	à	à	ADP	_	_	12	case	_	_
-9	partir	partir	VERB	_	VerbForm=Inf	8	fixed	_	_
-10	de	de	ADP	_	_	8	fixed	_	_
+8	à	à	ADP	_	_	9	mark	_	INMWE=Yes
+9	partir	partir	VERB	_	VerbForm=Inf	5	advmod	_	MWEPOS=ADV
+10	de	de	ADP	_	_	12	case	_	_
 11	divers	divers	DET	_	Gender=Masc|Number=Plur	12	det	_	_
-12	enjeux	enjeu	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+12	enjeux	enjeu	NOUN	_	Gender=Masc|Number=Plur	9	obl:arg	_	_
 13	politiques	politique	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	économiques	économique	ADJ	_	Gender=Masc|Number=Plur	13	conj	_	_
@@ -277752,12 +277752,12 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
 5	construit	construire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	à	à	ADP	_	_	10	case	_	_
-7	partir	partir	VERB	_	VerbForm=Inf	6	fixed	_	_
+6	à	à	ADP	_	_	7	mark	_	INMWE=Yes
+7	partir	partir	VERB	_	VerbForm=Inf	5	advmod	_	MWEPOS=ADV
 8-9	du	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	6	fixed	_	_
+8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	breton	breton	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
+10	breton	breton	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	_
 11	maen	maen	NOUN	_	_	10	appos	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	«	«	PUNCT	_	_	14	punct	_	_
@@ -293089,12 +293089,12 @@
 3	rafles	rafle	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	déportations	déportation	NOUN	_	Gender=Fem|Number=Plur	3	conj	_	_
-6	à	à	ADP	_	_	11	case	_	_
-7	partir	partir	VERB	_	VerbForm=Inf	6	fixed	_	_
-8	de	de	ADP	_	_	6	fixed	_	_
+6	à	à	ADP	_	_	7	mark	_	INMWE=Yes
+7	partir	partir	VERB	_	VerbForm=Inf	2	advmod	_	MWEPOS=ADV
+8	de	de	ADP	_	_	11	case	_	_
 9	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det	_	_
 10	propres	propre	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
-11	fichiers	fichier	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	_
+11	fichiers	fichier	NOUN	_	Gender=Masc|Number=Plur	7	obl:arg	_	_
 12	manuels	manuel	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	cf.	cf.	X	_	_	11	appos	_	_
@@ -294582,13 +294582,13 @@
 14	formations	formation	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 15	qui	qui	PRON	_	PronType=Rel	38	nsubj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	38	punct	_	_
-17	à	à	ADP	_	_	22	case	_	_
-18	partir	partir	VERB	_	VerbForm=Inf	17	fixed	_	_
+17	à	à	ADP	_	_	18	mark	_	INMWE=Yes
+18	partir	partir	VERB	_	VerbForm=Inf	38	advmod	_	MWEPOS=ADV
 19-20	du	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	17	fixed	_	_
+19	de	de	ADP	_	_	22	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	XIIIe	XIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	22	amod	_	_
-22	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	38	obl:mod	_	_
+22	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	18	obl:arg	_	_
 23	et	et	CCONJ	_	_	26	cc	_	_
 24	sous	sous	ADP	_	_	26	case	_	_
 25	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
@@ -305802,10 +305802,10 @@
 13	par	par	ADP	_	_	14	case	_	_
 14	injection	injection	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	7	punct	_	_
-16	à	à	ADP	_	_	19	case	_	_
-17	partir	partir	VERB	_	VerbForm=Inf	16	fixed	_	_
-18	de	de	ADP	_	_	16	fixed	_	_
-19	matières	matière	NOUN	_	Gender=Fem|Number=Plur	7	obl	_	_
+16	à	à	ADP	_	_	17	mark	_	INMWE=Yes
+17	partir	partir	VERB	_	VerbForm=Inf	7	advmod	_	MWEPOS=ADV
+18	de	de	ADP	_	_	19	case	_	_
+19	matières	matière	NOUN	_	Gender=Fem|Number=Plur	17	obl:arg	_	_
 20	majoritairement	majoritairement	ADV	_	_	21	advmod	_	_
 21	recyclées	recycler	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
 22	:	:	PUNCT	_	_	19	punct	_	_
@@ -310450,13 +310450,13 @@
 11	médiévaux	médiéval	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	apparaissent	apparaître	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	à	à	ADP	_	_	19	case	_	_
-15	partir	partir	VERB	_	VerbForm=Inf	14	fixed	_	_
+14	à	à	ADP	_	_	15	mark	_	INMWE=Yes
+15	partir	partir	VERB	_	VerbForm=Inf	13	advmod	_	MWEPOS=ADV
 16-17	du	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	14	fixed	_	_
+16	de	de	ADP	_	_	19	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 18	XIIe	XIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
-19	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+19	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	15	obl:arg	_	_
 20	et	et	CCONJ	_	_	22	cc	_	_
 21	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
 22	inspirées	inspirer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	conj	_	_
@@ -312915,20 +312915,20 @@
 6	en	en	ADP	_	_	7	case	_	_
 7	Toscane	Toscane	PROPN	_	_	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
-9	à	à	ADP	_	_	13	case	_	_
-10	partir	partir	VERB	_	VerbForm=Inf	9	fixed	_	_
-11	de	de	ADP	_	_	9	fixed	_	_
+9	à	à	ADP	_	_	10	mark	_	INMWE=Yes
+10	partir	partir	VERB	_	VerbForm=Inf	5	advmod	_	MWEPOS=ADV
+11	de	de	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	ville	ville	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
+13	ville	ville	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	Florence	Florence	PROPN	_	_	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	5	punct	_	_
-17	à	à	ADP	_	_	21	case	_	_
-18	partir	partir	VERB	_	VerbForm=Inf	17	fixed	_	_
+17	à	à	ADP	_	_	18	mark	_	INMWE=Yes
+18	partir	partir	VERB	_	VerbForm=Inf	5	advmod	_	MWEPOS=ADV
 19-20	du	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	17	fixed	_	_
+19	de	de	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	XIIIe	XIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	5	obl	_	_
+21	XIIIe	XIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	18	obl:arg	_	_
 22-23	au	_	_	_	_	_	_	_	_
 22	à	à	ADP	_	_	25	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -320207,11 +320207,11 @@
 52	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
 53	bord	bord	NOUN	_	Gender=Masc|Number=Sing	50	nmod	_	_
 54	externe	externe	ADJ	_	Gender=Masc|Number=Sing	53	amod	_	_
-55	à	à	ADP	_	_	59	case	_	_
-56	partir	partir	VERB	_	VerbForm=Inf	55	fixed	_	_
-57	de	de	ADP	_	_	55	fixed	_	_
+55	à	à	ADP	_	_	56	mark	_	INMWE=Yes
+56	partir	partir	VERB	_	VerbForm=Inf	50	advmod	_	MWEPOS=ADV
+57	de	de	ADP	_	_	59	case	_	_
 58	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	SpaceAfter=No
-59	apex	apex	NOUN	_	Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
+59	apex	apex	NOUN	_	Gender=Masc|Number=Sing	56	obl:arg	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-train_11418
@@ -325416,12 +325416,12 @@
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	caprins	caprin	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
 6	nés	né	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
-7	à	à	ADP	_	_	11	case	_	_
-8	partir	partir	VERB	_	VerbForm=Inf	7	fixed	_	_
+7	à	à	ADP	_	_	8	mark	_	INMWE=Yes
+8	partir	partir	VERB	_	VerbForm=Inf	6	advmod	_	MWEPOS=ADV
 9-10	du	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	7	fixed	_	_
+9	de	de	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	1er	1er	NUM	_	_	6	obl	_	_
+11	1er	1er	NUM	_	_	8	obl:arg	_	_
 12	juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 13	2010	2010	NUM	_	_	12	nmod	_	_
 14	devront	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -327227,23 +327227,23 @@
 39	1016	1016	NUM	_	_	37	conj	_	_
 40	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
 41	Oswald	Oswald	PROPN	_	_	31	obl	_	_
-42	à	à	ADP	_	_	45	case	_	_
-43	partir	partir	VERB	_	VerbForm=Inf	42	fixed	_	_
-44	de	de	ADP	_	_	42	fixed	_	_
-45	972	972	NUM	_	_	41	nmod	_	SpaceAfter=No
+42	à	à	ADP	_	_	43	mark	_	INMWE=Yes
+43	partir	partir	VERB	_	VerbForm=Inf	41	advmod	_	MWEPOS=ADV
+44	de	de	ADP	_	_	45	case	_	_
+45	972	972	NUM	_	_	43	obl:arg	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	47	punct	_	_
 47	Ealdwulf	Ealdwulf	PROPN	_	_	41	conj	_	_
-48	à	à	ADP	_	_	51	case	_	_
-49	partir	partir	VERB	_	VerbForm=Inf	48	fixed	_	_
-50	de	de	ADP	_	_	48	fixed	_	_
-51	992	992	NUM	_	_	47	nmod	_	SpaceAfter=No
+48	à	à	ADP	_	_	49	mark	_	INMWE=Yes
+49	partir	partir	VERB	_	VerbForm=Inf	47	advmod	_	MWEPOS=ADV
+50	de	de	ADP	_	_	51	case	_	_
+51	992	992	NUM	_	_	49	obl:arg	_	SpaceAfter=No
 52	,	,	PUNCT	_	_	41	punct	_	_
 53	et	et	CCONJ	_	_	54	cc	_	_
 54	Wulfstan	Wulfstan	PROPN	_	_	41	conj	_	_
-55	à	à	ADP	_	_	58	case	_	_
-56	partir	partir	VERB	_	VerbForm=Inf	55	fixed	_	_
-57	de	de	ADP	_	_	55	fixed	_	_
-58	1003	1003	NUM	_	_	54	nmod	_	SpaceAfter=No
+55	à	à	ADP	_	_	56	mark	_	INMWE=Yes
+56	partir	partir	VERB	_	VerbForm=Inf	54	advmod	_	MWEPOS=ADV
+57	de	de	ADP	_	_	58	case	_	_
+58	1003	1003	NUM	_	_	56	obl:arg	_	SpaceAfter=No
 59	)	)	PUNCT	_	_	41	punct	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	15	punct	_	_
 
@@ -333578,13 +333578,13 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	fortement	fortement	ADV	_	_	4	advmod	_	_
 4	diffusée	diffuser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	à	à	ADP	_	_	10	case	_	_
-6	partir	partir	VERB	_	VerbForm=Inf	5	fixed	_	_
+5	à	à	ADP	_	_	6	mark	_	INMWE=Yes
+6	partir	partir	VERB	_	VerbForm=Inf	4	advmod	_	MWEPOS=ADV
 7-8	du	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	5	fixed	_	_
+7	de	de	ADP	_	_	10	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	XIIe	XIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
-10	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	4	punct	_	_
 12	car	car	CCONJ	_	_	25	cc	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -334528,10 +334528,10 @@
 8	construite	construire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
 9	à	à	ADP	_	_	10	case	_	_
 10	Saint-Denis	Saint-Denis	PROPN	_	_	8	obl	_	_
-11	à	à	ADP	_	_	14	case	_	_
-12	partir	partir	VERB	_	VerbForm=Inf	11	fixed	_	_
-13	de	de	ADP	_	_	11	fixed	_	_
-14	1875	1875	NUM	_	_	8	obl	_	_
+11	à	à	ADP	_	_	12	mark	_	INMWE=Yes
+12	partir	partir	VERB	_	VerbForm=Inf	8	advmod	_	MWEPOS=ADV
+13	de	de	ADP	_	_	14	case	_	_
+14	1875	1875	NUM	_	_	12	obl:arg	_	_
 15	entre	entre	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	canal	canal	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
@@ -339143,12 +339143,12 @@
 18	à	à	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Japon	Japon	PROPN	_	_	17	obl	_	_
-21	à	à	ADP	_	_	25	case	_	_
-22	partir	partir	VERB	_	VerbForm=Inf	21	fixed	_	_
+21	à	à	ADP	_	_	22	mark	_	INMWE=Yes
+22	partir	partir	VERB	_	VerbForm=Inf	17	advmod	_	MWEPOS=ADV
 23-24	du	_	_	_	_	_	_	_	_
-23	de	de	ADP	_	_	21	fixed	_	_
+23	de	de	ADP	_	_	25	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	1	1	NUM	_	_	17	obl	_	_
+25	1	1	NUM	_	_	22	obl:arg	_	_
 26	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 27	1982	1982	NUM	_	_	26	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	5	punct	_	_
@@ -339632,10 +339632,10 @@
 11	y	y	ADV	_	_	12	advmod	_	_
 12	avoir	avoir	VERB	_	VerbForm=Inf	10	xcomp	_	_
 13	accès	accès	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
-14	à	à	ADP	_	_	17	case	_	_
-15	partir	partir	VERB	_	VerbForm=Inf	14	fixed	_	_
-16	de	de	ADP	_	_	14	fixed	_	_
-17	15H00	15H00	NUM	_	Gender=Fem|Number=Plur	12	obl	_	_
+14	à	à	ADP	_	_	15	mark	_	INMWE=Yes
+15	partir	partir	VERB	_	VerbForm=Inf	12	advmod	_	MWEPOS=ADV
+16	de	de	ADP	_	_	17	case	_	_
+17	15H00	15H00	NUM	_	Gender=Fem|Number=Plur	15	obl:arg	_	_
 18	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 19	après-midi	après-midi	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	10	punct	_	_
@@ -340162,10 +340162,10 @@
 
 # sent_id = fr-ud-train_12129
 # text = À partir de 2001 ce poste est occupé par Vasile Panciuc qui a été réélu à trois reprises : en 2003--lors des élections anticipées (à cause de la réforme territoriale et administrative), en 2007 et en 2011.
-1	À	à	ADP	_	_	4	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
-4	2001	2001	NUM	_	_	8	obl:mod	_	_
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	8	advmod	_	MWEPOS=ADV
+3	de	de	ADP	_	_	4	case	_	_
+4	2001	2001	NUM	_	_	2	obl:arg	_	_
 5	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	poste	poste	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
@@ -342850,10 +342850,10 @@
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	liturgie	liturgie	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 24	sacrée	sacrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
-25	à	à	ADP	_	_	28	case	_	_
-26	partir	partir	VERB	_	VerbForm=Inf	25	fixed	_	_
-27	de	de	ADP	_	_	25	fixed	_	_
-28	1962	1962	NUM	_	_	8	nmod	_	SpaceAfter=No
+25	à	à	ADP	_	_	26	mark	_	INMWE=Yes
+26	partir	partir	VERB	_	VerbForm=Inf	8	advmod	_	MWEPOS=ADV
+27	de	de	ADP	_	_	28	case	_	_
+28	1962	1962	NUM	_	_	26	obl:arg	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_12226
@@ -346682,10 +346682,10 @@
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
 2	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
 3	transformée	transformer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	à	à	ADP	_	_	7	case	_	_
-5	partir	partir	VERB	_	VerbForm=Inf	4	fixed	_	_
-6	de	de	ADP	_	_	4	fixed	_	_
-7	1809	1809	NUM	_	_	3	obl	_	_
+4	à	à	ADP	_	_	5	mark	_	INMWE=Yes
+5	partir	partir	VERB	_	VerbForm=Inf	3	advmod	_	MWEPOS=ADV
+6	de	de	ADP	_	_	7	case	_	_
+7	1809	1809	NUM	_	_	5	obl:arg	_	_
 8	avec	avec	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	construction	construction	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
@@ -346706,10 +346706,10 @@
 25	station	station	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
 26	de	de	ADP	_	_	27	case	_	_
 27	pompage	pompage	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
-28	à	à	ADP	_	_	31	case	_	_
-29	partir	partir	VERB	_	VerbForm=Inf	28	fixed	_	_
-30	de	de	ADP	_	_	28	fixed	_	_
-31	1838	1838	NUM	_	_	23	obl	_	SpaceAfter=No
+28	à	à	ADP	_	_	29	mark	_	INMWE=Yes
+29	partir	partir	VERB	_	VerbForm=Inf	23	advmod	_	MWEPOS=ADV
+30	de	de	ADP	_	_	31	case	_	_
+31	1838	1838	NUM	_	_	29	obl:arg	_	SpaceAfter=No
 32	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_12356
@@ -352007,10 +352007,10 @@
 18	environ	environ	ADV	_	_	19	advmod	_	_
 19	47	47	NUM	_	_	20	nummod	_	_
 20	résidences	résidence	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
-21	à	à	ADP	_	_	24	case	_	_
-22	partir	partir	VERB	_	VerbForm=Inf	21	fixed	_	_
-23	de	de	ADP	_	_	21	fixed	_	_
-24	1995	1995	NUM	_	_	17	obl	_	SpaceAfter=No
+21	à	à	ADP	_	_	22	mark	_	INMWE=Yes
+22	partir	partir	VERB	_	VerbForm=Inf	17	advmod	_	MWEPOS=ADV
+23	de	de	ADP	_	_	24	case	_	_
+24	1995	1995	NUM	_	_	22	obl:arg	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-train_12541
@@ -352842,13 +352842,13 @@
 8	Chine	Chine	PROPN	_	_	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	2	punct	_	_
 10	particulièrement	particulièrement	ADV	_	_	11	advmod	_	_
-11	à	à	ADP	_	_	16	case	_	_
-12	partir	partir	VERB	_	VerbForm=Inf	11	fixed	_	_
+11	à	à	ADP	_	_	12	mark	_	INMWE=Yes
+12	partir	partir	VERB	_	VerbForm=Inf	2	advmod	_	MWEPOS=ADV
 13-14	du	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	11	fixed	_	_
+13	de	de	ADP	_	_	16	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	IVe	IVe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	16	amod	_	_
-16	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+16	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	royaumes	royaume	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
@@ -355475,12 +355475,12 @@
 19	neuf	neuf	NUM	_	_	20	nummod	_	_
 20	mois	mois	NOUN	_	Gender=Masc|Number=Plur	17	nmod:range	_	SpaceAfter=No
 21	)	)	PUNCT	_	_	17	punct	_	_
-22	à	à	ADP	_	_	26	case	_	_
-23	partir	partir	VERB	_	VerbForm=Inf	22	fixed	_	_
+22	à	à	ADP	_	_	23	mark	_	INMWE=Yes
+23	partir	partir	VERB	_	VerbForm=Inf	6	advmod	_	MWEPOS=ADV
 24-25	du	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	22	fixed	_	_
+24	de	de	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+26	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	23	obl:arg	_	_
 27	2008	2008	NUM	_	_	26	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -355970,12 +355970,12 @@
 24	qui	qui	PRON	_	PronType=Rel	26	nsubj	_	_
 25	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
 26	fournit	fournir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
-27	à	à	ADP	_	_	32	case	_	_
-28	partir	partir	VERB	_	VerbForm=Inf	27	fixed	_	_
-29	de	de	ADP	_	_	27	fixed	_	_
+27	à	à	ADP	_	_	28	mark	_	INMWE=Yes
+28	partir	partir	VERB	_	VerbForm=Inf	26	advmod	_	MWEPOS=ADV
+29	de	de	ADP	_	_	32	case	_	_
 30	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	32	det	_	_
 31	propres	propre	ADJ	_	Gender=Fem|Number=Plur	32	amod	_	_
-32	ressources	ressource	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	SpaceAfter=No
+32	ressources	ressource	NOUN	_	Gender=Fem|Number=Plur	28	obl:arg	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_12673
@@ -356401,12 +356401,12 @@
 38	pour	pour	ADP	_	_	39	mark	_	_
 39	dire	dire	VERB	_	VerbForm=Inf	37	advcl	_	_
 40	qu'	que	SCONJ	_	_	60	mark	_	SpaceAfter=No
-41	à	à	ADP	_	_	42	case	_	_
-42	partir	partir	VERB	_	VerbForm=Inf	60	obl:mod	_	_
+41	à	à	ADP	_	_	42	mark	_	INMWE=Yes
+42	partir	partir	VERB	_	VerbForm=Inf	60	advmod	_	MWEPOS=ADV
 43-44	du	_	_	_	_	_	_	_	_
 43	de	de	ADP	_	_	45	case	_	_
 44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	moment	moment	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
+45	moment	moment	NOUN	_	Gender=Masc|Number=Sing	42	obl:arg	_	_
 46	où	où	PRON	_	_	49	advmod	_	_
 47	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	pays	pays	NOUN	_	Gender=Masc|Number=Sing	49	nsubj	_	_
@@ -363330,10 +363330,10 @@
 34	de	de	ADP	_	_	36	case	_	_
 35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	_
 36	avoués	avoués	PROPN	_	_	33	nmod	_	_
-37	à	à	ADP	_	_	40	case	_	_
-38	partir	partir	VERB	_	VerbForm=Inf	37	fixed	_	_
-39	de	de	ADP	_	_	37	fixed	_	_
-40	1867	1867	NUM	_	_	30	nmod	_	SpaceAfter=No
+37	à	à	ADP	_	_	38	mark	_	INMWE=Yes
+38	partir	partir	VERB	_	VerbForm=Inf	30	advmod	_	MWEPOS=ADV
+39	de	de	ADP	_	_	40	case	_	_
+40	1867	1867	NUM	_	_	38	obl:arg	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-train_12928
@@ -366749,12 +366749,12 @@
 
 # sent_id = fr-ud-train_13033
 # text = À partir du guichet, il faut traverser la route et grimper un des deux cheminements piétonniers assez raides, de chaque côté du viaduc, côté Loges (sud de la voie) pour la direction Versailles-Chantiers, côté Petit Jouy (nord de la voie) pour la direction Jouy-en-Josas.
-1	À	à	ADP	_	_	5	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	8	advmod	_	MWEPOS=ADV
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
+3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	guichet	guichet	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	SpaceAfter=No
+5	guichet	guichet	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -368250,10 +368250,10 @@
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	résultats	résultat	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
 3	obtenus	obtenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
-4	à	à	ADP	_	_	7	case	_	_
-5	partir	partir	VERB	_	VerbForm=Inf	4	fixed	_	_
-6	de	de	ADP	_	_	4	fixed	_	_
-7	restes	reste	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+4	à	à	ADP	_	_	5	mark	_	INMWE=Yes
+5	partir	partir	VERB	_	VerbForm=Inf	3	advmod	_	MWEPOS=ADV
+6	de	de	ADP	_	_	7	case	_	_
+7	restes	reste	NOUN	_	Gender=Masc|Number=Plur	5	obl:arg	_	_
 8	couvrant	couvrir	VERB	_	Tense=Pres|VerbForm=Part	7	acl	_	_
 9	plusieurs	plusieurs	DET	_	Gender=Masc|Number=Plur	10	det	_	_
 10	milliers	millier	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
@@ -370504,13 +370504,13 @@
 39	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	41	nsubj	_	_
 40	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	41	obj	_	SpaceAfter=No
 41	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	ccomp	_	_
-42	à	à	ADP	_	_	47	case	_	_
-43	partir	partir	VERB	_	VerbForm=Inf	42	fixed	_	_
+42	à	à	ADP	_	_	43	mark	_	INMWE=Yes
+43	partir	partir	VERB	_	VerbForm=Inf	41	advmod	_	MWEPOS=ADV
 44-45	du	_	_	_	_	_	_	_	_
-44	de	de	ADP	_	_	42	fixed	_	_
+44	de	de	ADP	_	_	47	case	_	_
 45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
 46	XIIe	XIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	47	amod	_	_
-47	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	41	obl	_	SpaceAfter=No
+47	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	43	obl:arg	_	SpaceAfter=No
 48	,	,	PUNCT	_	_	47	punct	_	_
 49	puis	puis	SCONJ	_	_	53	cc	_	_
 50-51	au	_	_	_	_	_	_	_	_
@@ -371007,10 +371007,10 @@
 10	en	en	ADP	_	_	11	case	_	_
 11	sens	sens	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 12	unique	unique	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-13	à	à	ADP	_	_	16	case	_	_
-14	partir	partir	VERB	_	VerbForm=Inf	13	fixed	_	_
-15	de	de	ADP	_	_	13	fixed	_	_
-16	1964	1964	NUM	_	_	9	obl	_	SpaceAfter=No
+13	à	à	ADP	_	_	14	mark	_	INMWE=Yes
+14	partir	partir	VERB	_	VerbForm=Inf	9	advmod	_	MWEPOS=ADV
+15	de	de	ADP	_	_	16	case	_	_
+16	1964	1964	NUM	_	_	14	obl:arg	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_13184
@@ -371817,12 +371817,12 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	grandi	grandir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	à	à	ADP	_	_	8	case	_	_
-5	partir	partir	VERB	_	VerbForm=Inf	4	fixed	_	_
+4	à	à	ADP	_	_	5	mark	_	INMWE=Yes
+5	partir	partir	VERB	_	VerbForm=Inf	3	advmod	_	MWEPOS=ADV
 6-7	du	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	4	fixed	_	_
+6	de	de	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Scout	scout	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+8	Scout	scout	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
 9	louveteau	louveteau	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	3	punct	_	_
 11	et	et	CCONJ	_	_	13	cc	_	_
@@ -375898,10 +375898,10 @@
 
 # sent_id = fr-ud-train_13354
 # text = À partir de 1942, pour compenser son manque de bombardiers lourds, la Luftwaffe a commencé à expérimenter l'utilisation d'anciens bombardiers Junkers Ju 88 usées par les années de guerres comme d'énormes ogives à charge creuse en les guidant vers leur cible avec un avion de chasse monté sur l'arrière du bombardier sans pilote.
-1	À	à	ADP	_	_	4	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
-4	1942	1942	NUM	_	_	17	obl:mod	_	SpaceAfter=No
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	17	advmod	_	MWEPOS=ADV
+3	de	de	ADP	_	_	4	case	_	_
+4	1942	1942	NUM	_	_	2	obl:arg	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	17	punct	_	_
 6	pour	pour	ADP	_	_	7	mark	_	_
 7	compenser	compenser	VERB	_	VerbForm=Inf	17	advcl	_	_
@@ -377978,10 +377978,10 @@
 26	)	)	PUNCT	_	_	25	punct	_	_
 27	et	et	CCONJ	_	_	28	cc	_	_
 28	Québec	Québec	PROPN	_	_	18	conj	_	_
-29	à	à	ADP	_	_	32	case	_	_
-30	partir	partir	VERB	_	VerbForm=Inf	29	fixed	_	_
-31	d'	de	ADP	_	_	29	fixed	_	SpaceAfter=No
-32	Héberville	Héberville	PROPN	_	_	28	nmod	_	_
+29	à	à	ADP	_	_	30	mark	_	INMWE=Yes
+30	partir	partir	VERB	_	VerbForm=Inf	28	advmod	_	MWEPOS=ADV
+31	d'	de	ADP	_	_	32	case	_	SpaceAfter=No
+32	Héberville	Héberville	PROPN	_	_	30	obl:arg	_	_
 33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
 34	169	169	NUM	_	_	32	nmod	_	SpaceAfter=No
 35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
@@ -385350,12 +385350,12 @@
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	Mitidja	Mitidja	PROPN	_	_	12	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	8	punct	_	_
-18	à	à	ADP	_	_	22	case	_	_
-19	partir	partir	VERB	_	VerbForm=Inf	18	fixed	_	_
+18	à	à	ADP	_	_	19	mark	_	INMWE=Yes
+19	partir	partir	VERB	_	VerbForm=Inf	8	advmod	_	MWEPOS=ADV
 20-21	des	_	_	_	_	_	_	_	_
-20	de	de	ADP	_	_	18	fixed	_	_
+20	de	de	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
-22	versants	versant	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	_
+22	versants	versant	NOUN	_	Gender=Masc|Number=Plur	19	obl:arg	_	_
 23	et	et	CCONJ	_	_	24	cc	_	_
 24	piedmonts	piedmont	NOUN	_	Gender=Masc|Number=Plur	22	conj	_	_
 25	nord	nord	NOUN	_	Gender=Masc|Number=Sing	24	appos	_	_
@@ -388995,12 +388995,12 @@
 16	nom	nom	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 17	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 18	programmés	programmer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-19	à	à	ADP	_	_	23	case	_	_
-20	partir	partir	VERB	_	VerbForm=Inf	19	fixed	_	_
+19	à	à	ADP	_	_	20	mark	_	INMWE=Yes
+20	partir	partir	VERB	_	VerbForm=Inf	18	advmod	_	MWEPOS=ADV
 21-22	du	_	_	_	_	_	_	_	_
-21	de	de	ADP	_	_	19	fixed	_	_
+21	de	de	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	7	7	NUM	_	_	18	obl	_	_
+23	7	7	NUM	_	_	20	obl:arg	_	_
 24	avril	avril	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	18	punct	_	_
 
@@ -392742,11 +392742,11 @@
 23	manière	manière	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	_
 24	embryonnaire	embryonnaire	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25	qu'	que	ADV	_	_	30	advmod	_	SpaceAfter=No
-26	à	à	ADP	_	_	30	case	_	_
-27	partir	partir	VERB	_	VerbForm=Inf	26	fixed	_	_
-28	de	de	ADP	_	_	26	fixed	_	_
+26	à	à	ADP	_	_	27	mark	_	INMWE=Yes
+27	partir	partir	VERB	_	VerbForm=Inf	17	advmod	_	MWEPOS=ADV
+28	de	de	ADP	_	_	30	case	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	politique	politique	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+30	politique	politique	NOUN	_	Gender=Fem|Number=Sing	27	obl:arg	_	_
 31	méditerranéenne	méditerranéen	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
 32	rénovée	rénover	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	30	punct	_	_
@@ -396834,10 +396834,10 @@
 
 # sent_id = fr-ud-train_14085
 # text = À partir de 1969, le concours de recrutement des Écoles normales primaires est reporté après le baccalauréat avec une formation professionnelle portée de un à deux ans comme le prévoyait pour partie le plan Langevin-Wallon de 1947.
-1	À	à	ADP	_	_	4	case	_	_
-2	partir	partir	VERB	_	VerbForm=Inf	1	fixed	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
-4	1969	1969	NUM	_	_	16	obl:mod	_	SpaceAfter=No
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	partir	partir	VERB	_	VerbForm=Inf	16	advmod	_	MWEPOS=ADV
+3	de	de	ADP	_	_	4	case	_	_
+4	1969	1969	NUM	_	_	2	obl:arg	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	concours	concours	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:pass	_	_
@@ -402775,10 +402775,10 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Michigan	Michigan	PROPN	_	_	12	nmod	_	_
-16	à	à	ADP	_	_	19	case	_	_
-17	partir	partir	VERB	_	VerbForm=Inf	16	fixed	_	_
-18	de	de	ADP	_	_	16	fixed	_	_
-19	1928	1928	NUM	_	_	2	obl	_	_
+16	à	à	ADP	_	_	17	mark	_	INMWE=Yes
+17	partir	partir	VERB	_	VerbForm=Inf	2	advmod	_	MWEPOS=ADV
+18	de	de	ADP	_	_	19	case	_	_
+19	1928	1928	NUM	_	_	17	obl:arg	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
 21	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 22	conservateur	conservateur	NOUN	_	Gender=Masc|Number=Sing	21	xcomp	_	_
@@ -405640,12 +405640,12 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	famille	famille	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-14	à	à	ADP	_	_	18	case	_	_
-15	partir	partir	VERB	_	VerbForm=Inf	14	fixed	_	_
+14	à	à	ADP	_	_	15	mark	_	INMWE=Yes
+15	partir	partir	VERB	_	VerbForm=Inf	8	advmod	_	MWEPOS=ADV
 16-17	des	_	_	_	_	_	_	_	_
-16	de	de	ADP	_	_	14	fixed	_	_
+16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
-18	années	année	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
+18	années	année	NOUN	_	Gender=Fem|Number=Plur	15	obl:arg	_	_
 19	1550	1550	NUM	_	_	18	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
 
