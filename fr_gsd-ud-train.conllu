@@ -8598,12 +8598,12 @@
 
 # sent_id = fr-ud-train_00297
 # text = Étant donné que sa composition reflète celle du Congrès et son mode de fonctionnement, il est parfois appelé « gouvernement collégial ».
-1	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	2	aux	_	_
-2	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+1	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	2	aux	_	INMWE=Yes
+2	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	mark	_	MWEPOS=ADP
 3	que	que	SCONJ	_	_	6	mark	_	_
 4	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
 5	composition	composition	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
-6	reflète	refléter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+6	reflète	refléter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
 7	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	6	obj	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
@@ -10255,7 +10255,7 @@
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	projet	projet	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 22	Manhattan	Manhattan	PROPN	_	_	21	appos	_	_
-23	tout	tout	ADV	_	_	24	advmod	_	_
+23	tout	tout	ADV	_	_	25	advmod	_	_
 24	en	en	ADP	_	_	25	mark	_	_
 25	menant	mener	VERB	_	Tense=Pres|VerbForm=Part	18	advcl	_	_
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
@@ -10508,10 +10508,10 @@
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 8	également	également	ADV	_	_	9	advmod	_	_
 9	intervenue	intervenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-10	étant	être	AUX	_	Tense=Pres|VerbForm=Part	13	case	_	_
-11	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	fixed	_	_
+10	étant	être	AUX	_	Tense=Pres|VerbForm=Part	11	aux	_	INMWE=Yes
+11	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	case	_	MWEPOS=ADP
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	nature	nature	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+13	nature	nature	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	activité	activité	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
@@ -61077,8 +61077,8 @@
 # sent_id = fr-ud-train_02173
 # text = « Étant donné l'avancée du projet, il me semble impossible que l'on n'obtienne pas l'autorisation », lâche le maire gersois, Yvon Montané.
 1	«	«	PUNCT	_	_	12	punct	_	_
-2	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	5	case	_	_
-3	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	fixed	_	_
+2	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	3	aux	_	INMWE=Yes
+3	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	case	_	MWEPOS=ADP
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	avancée	avancée	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
 6-7	du	_	_	_	_	_	_	_	_
@@ -67123,12 +67123,12 @@
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	valeur	valeur	NOUN	_	Gender=Fem|Number=Sing	14	acl:relcl	_	_
 19	résiduelle	résiduel	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
-20	étant	être	AUX	_	Tense=Pres|VerbForm=Part	21	aux	_	_
-21	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+20	étant	être	AUX	_	Tense=Pres|VerbForm=Part	21	aux	_	INMWE=Yes
+21	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	mark	_	MWEPOS=ADP
 22	qu'	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
 23	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
 24	ne	ne	ADV	_	Polarity=Neg	25	advmod	_	_
-25	correspond	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	csubj	_	_
+25	correspond	correspondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
 26	qu'	que	ADV	_	_	29	advmod	_	SpaceAfter=No
 27	à	à	ADP	_	_	29	case	_	_
 28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
@@ -70054,14 +70054,14 @@
 27	en	en	ADP	_	_	28	case	_	_
 28	601	601	NUM	_	_	26	obl	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	14	punct	_	_
-30	étant	être	AUX	_	Tense=Pres|VerbForm=Part	31	aux	_	_
-31	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
+30	étant	être	AUX	_	Tense=Pres|VerbForm=Part	31	aux	_	INMWE=Yes
+31	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	mark	_	MWEPOS=ADV
 32	que	que	SCONJ	_	_	37	mark	_	_
 33	Grégoire	Grégoire	PROPN	_	_	37	nsubj	_	_
 34	n'	ne	ADV	_	Polarity=Neg	37	advmod	_	SpaceAfter=No
 35	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
 36	pas	pas	ADV	_	Polarity=Neg	37	advmod	_	_
-37	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	ccomp	_	_
+37	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
 38	à	à	ADP	_	_	40	case	_	_
 39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	sous-roi	sous-roi	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
@@ -124006,10 +124006,10 @@
 7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 8	deux	deux	NUM	_	_	9	nummod	_	_
 9	places	place	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
-10	étant	être	AUX	_	Tense=Pres|VerbForm=Part	11	aux	_	_
-11	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+10	étant	être	AUX	_	Tense=Pres|VerbForm=Part	11	aux	_	INMWE=Yes
+11	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	case	_	MWEPOS=ADP
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	tremplin	tremplin	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+13	tremplin	tremplin	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 14	potentiel	potentiel	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 15	qu'	que	PRON	_	PronType=Rel	17	obj	_	SpaceAfter=No
 16	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
@@ -128732,10 +128732,10 @@
 
 # sent_id = fr-ud-train_04607
 # text = Étant donné l'ampleur du débat, la revue la "Nouvelle critique" accepte de publier, parmi quelques contributions d'instituteurs communistes membres du mouvement Freinet, une longue lettre signée P. Cahen (il s'agit de Pauline Cahen).
-1	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	2	aux	_	_
-2	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+1	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	2	aux	_	INMWE=Yes
+2	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	case	_	MWEPOS=ADP
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	ampleur	ampleur	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+4	ampleur	ampleur	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -175630,12 +175630,12 @@
 
 # sent_id = fr-ud-train_06264
 # text = Étant donné que sa composition reflète celle du Congrès et son mode de fonctionnement, il est parfois appelé « gouvernement collégial ».
-1	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	2	aux	_	_
-2	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+1	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	2	aux	_	INMWE=Yes
+2	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	mark	_	MWEPOS=ADP
 3	que	que	SCONJ	_	_	6	mark	_	_
 4	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
 5	composition	composition	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
-6	reflète	refléter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+6	reflète	refléter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
 7	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	6	obj	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
