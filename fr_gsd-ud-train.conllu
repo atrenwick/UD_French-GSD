@@ -10616,7 +10616,7 @@
 10	mais	mais	CCONJ	_	_	12	cc	_	_
 11	ne	ne	ADV	_	Polarity=Neg	12	advmod	_	_
 12	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-13	que	que	SCONJ	_	_	15	advmod	_	_
+13	que	que	ADV	_	_	15	advmod	_	_
 14	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	commentaires	commentaire	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
 16	publics	public	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
@@ -16867,9 +16867,9 @@
 16	emporos	emporos	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 17	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
-19	davantage	davantage	ADV	_	_	20	advmod	_	_
-20	qu'	que	SCONJ	_	_	24	advmod	_	SpaceAfter=No
-21	auparavant	auparavant	ADV	_	_	20	fixed	_	SpaceAfter=No
+19	davantage	davantage	ADV	_	_	17	advmod	_	_
+20	qu'	que	SCONJ	_	_	21	case	_	SpaceAfter=No
+21	auparavant	auparavant	ADV	_	_	19	obl:arg	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	motif	motif	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
@@ -54781,12 +54781,12 @@
 20	déposer	déposer	VERB	_	VerbForm=Inf	19	xcomp	_	_
 21	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det	_	_
 22	bagages	bagage	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
-23	qu'	que	SCONJ	_	_	28	advmod	_	SpaceAfter=No
-24	à	à	ADP	_	_	28	case	_	_
-25	partir	partir	VERB	_	VerbForm=Inf	24	fixed	_	_
-26	de	de	ADP	_	_	24	fixed	_	_
+23	qu'	que	ADV	_	_	28	advmod	_	SpaceAfter=No
+24	à	à	ADP	_	_	28	case	_	INMWE=Yes
+25	partir	partir	VERB	_	VerbForm=Inf	20	advmod	_	MWEPOS=ADV
+26	de	de	ADP	_	_	28	case	_	_
 27	16	16	NUM	_	_	28	nummod	_	SpaceAfter=No
-28	h	heure	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+28	h	heure	NOUN	_	Gender=Fem|Number=Sing	25	obl:arg	_	_
 
 # sent_id = fr-ud-train_01945
 # text = Mais depuis le XXe siècle dans la majorité des foyers, et par appropriation de la coutume américaine, la légende contée aux enfants veut que ce soit le Père Noël qui livre les cadeaux ;
@@ -218181,12 +218181,12 @@
 5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	être	être	AUX	_	VerbForm=Inf	7	aux:pass	_	_
 7	commandé	commander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
-8	que	que	SCONJ	_	_	5	advmod	_	_
+8	que	que	ADV	_	_	13	advmod	_	_
 9	lorsque	lorsque	SCONJ	_	_	13	mark	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	compte	compte	NOUN	_	Gender=Masc|Number=Sing	13	nsubj:pass	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
-13	alimenté	alimenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+13	alimenté	alimenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	Nouvelle	Nouvelle	PROPN	_	_	5	dep	_	_
 16	Zélande	Zélande	PROPN	_	_	15	flat:name	_	SpaceAfter=No
@@ -244077,7 +244077,7 @@
 11	ne	ne	ADV	_	Polarity=Neg	16	advmod	_	_
 12	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	16	obj:agent	_	_
 13	fera	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux:caus	_	_
-14	que	que	SCONJ	_	_	15	advmod	_	_
+14	que	que	ADV	_	_	15	advmod	_	_
 15	mieux	mieux	ADV	_	_	16	advmod	_	_
 16	apprécier	apprécier	VERB	_	VerbForm=Inf	0	root	_	_
 17	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
@@ -329981,9 +329981,9 @@
 5	dans	dans	ADP	_	_	7	case	_	_
 6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	ville	ville	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-8	qu'	que	PRON	_	PronType=Rel	10	advmod	_	SpaceAfter=No
+8	qu'	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-10	décèdera	décéder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	acl:relcl	_	_
+10	décèdera	décéder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	advcl:cleft	_	_
 11	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	cancer	cancer	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
