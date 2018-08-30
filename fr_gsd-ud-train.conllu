@@ -10275,8 +10275,8 @@
 
 # sent_id = fr-ud-train_00354
 # text = Par contre, le dialogue reste omniprésent dans la résistance des corps, toujours moyen d'expression important dans le film.
-1	Par	par	ADP	_	_	2	case	_	_
-2	contre	contre	ADP	_	_	6	case	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	contre	contre	NOUN	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	dialogue	dialogue	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -95255,8 +95255,8 @@
 
 # sent_id = fr-ud-train_03386
 # text = Par contre il n'y a pas de maître d'école.
-1	Par	par	ADP	_	_	2	case	_	_
-2	contre	contre	ADP	_	_	6	case	_	_
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	contre	contre	NOUN	_	_	6	advmod	_	MWEPOS=ADV
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 5	y	y	PRON	_	_	6	expl	_	_
@@ -95475,8 +95475,8 @@
 14	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det	_	_
 15	consommation	consommation	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	21	punct	_	_
-17	par	par	ADP	_	_	21	advmod	_	_
-18	contre	contre	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
+17	par	par	ADP	_	_	18	case	_	INMWE=Yes
+18	contre	contre	NOUN	_	Gender=Masc|Number=Sing	21	advmod	_	MWEPOS=ADV
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	pays	pays	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
 21	produit	produire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
@@ -112366,8 +112366,8 @@
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	Rangers	Rangers	PROPN	_	_	8	obl:arg	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	21	punct	_	_
-13	par	par	ADP	_	_	14	case	_	_
-14	contre	contre	ADP	_	_	21	case	_	_
+13	par	par	ADP	_	_	14	case	_	INMWE=Yes
+14	contre	contre	NOUN	_	_	21	advmod	_	MWEPOS=ADV
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
 17	de	de	ADP	_	_	18	case	_	_
@@ -125129,8 +125129,8 @@
 1	En	en	ADP	_	_	2	case	_	_
 2	appel	appel	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	13	punct	_	_
-4	par	par	ADP	_	_	13	advmod	_	_
-5	contre	contre	ADP	_	_	4	fixed	_	SpaceAfter=No
+4	par	par	ADP	_	_	5	case	_	INMWE=Yes
+5	contre	contre	NOUN	_	_	13	advmod	_	MWEPOS=ADV|SpaceAfter=No
 6	,	,	PUNCT	_	_	13	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
@@ -145632,8 +145632,8 @@
 
 # sent_id = fr-ud-train_05205
 # text = Par contre la ligne de chemin de fer d'Auray à Pontivy n'est utilisée que pour le transport des marchandises, notamment les productions agro-alimentaires du bassin de Pontivy, la gare de Baud et l'usine Unicopa sont situées sur la commune de Languidic, en bordure du territoire de Baud.
-1	Par	par	ADP	_	_	2	case	_	_
-2	contre	contre	ADV	_	_	15	advmod	_	_
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	contre	contre	NOUN	_	_	15	advmod	_	MWEPOS=ADV
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	15	nsubj:pass	_	_
 5	de	de	ADP	_	_	6	case	_	_
@@ -165123,8 +165123,8 @@
 
 # sent_id = fr-ud-train_05886
 # text = Par contre, le Maroc se trouve acculé par une communauté internationale qui n'est pas près de lâcher le principe d'autodétermination.
-1	Par	par	ADP	_	_	7	advmod	_	_
-2	contre	contre	ADP	_	_	1	fixed	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	contre	contre	NOUN	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Maroc	Maroc	PROPN	_	_	7	nsubj	_	_
@@ -166618,8 +166618,8 @@
 
 # sent_id = fr-ud-train_05942
 # text = Par contre, j'ai été obligé de prendre une douche froide le matin de mon départ, la chaudière étant tombée en panne.
-1	Par	par	ADP	_	_	7	advmod	_	_
-2	contre	contre	ADP	_	_	1	fixed	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	contre	contre	NOUN	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj:pass	_	SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -171161,8 +171161,8 @@
 
 # sent_id = fr-ud-train_06110
 # text = Par contre le midi, vu le succès du resto et la salle non insonorisée, il y a pas mal de bruit.
-1	Par	par	ADP	_	_	20	advmod	_	_
-2	contre	contre	ADP	_	_	1	fixed	_	_
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	contre	contre	NOUN	_	_	20	advmod	_	MWEPOS=ADV
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	midi	midi	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	20	punct	_	_
@@ -209926,8 +209926,8 @@
 9	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 10	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	_
-12	par	par	ADP	_	_	13	case	_	_
-13	contre	contre	ADP	_	_	15	advmod	_	_
+12	par	par	ADP	_	_	13	case	_	INMWE=Yes
+13	contre	contre	NOUN	_	_	15	advmod	_	MWEPOS=ADV
 14	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	SpaceAfter=No
 15	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -222283,8 +222283,8 @@
 
 # sent_id = fr-ud-train_07910
 # text = Par contre, parvenir à fabriquer un équilibre de valeurs atmosphériques différent de l'équilibre où nous évoluons habituellement requiert une maîtrise technique bien plus sophistiquée.
-1	Par	par	ADP	_	_	2	case	_	_
-2	contre	contre	ADP	_	_	20	case	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	contre	contre	NOUN	_	_	20	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	20	punct	_	_
 4	parvenir	parvenir	VERB	_	VerbForm=Inf	20	csubj	_	_
 5	à	à	ADP	_	_	6	mark	_	_
@@ -292784,8 +292784,8 @@
 24	de	de	ADP	_	_	25	case	_	_
 25	Galles	Galles	PROPN	_	_	23	nmod	_	_
 26	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
-27	par	par	ADP	_	_	28	case	_	_
-28	contre	contre	ADV	_	_	29	advmod	_	_
+27	par	par	ADP	_	_	28	case	_	INMWE=Yes
+28	contre	contre	NOUN	_	_	29	advmod	_	MWEPOS=ADV
 29	absents	absent	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 30-31	du	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
@@ -316573,8 +316573,8 @@
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
 22	savons	savoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-23	par	par	ADP	_	_	22	advmod	_	_
-24	contre	contre	ADP	_	_	23	fixed	_	_
+23	par	par	ADP	_	_	24	case	_	INMWE=Yes
+24	contre	contre	NOUN	_	_	22	advmod	_	MWEPOS=ADV
 25	que	que	SCONJ	_	_	31	mark	_	_
 26	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	germes	germe	NOUN	_	Gender=Masc|Number=Plur	31	nsubj	_	_
@@ -321448,8 +321448,8 @@
 2	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
 3	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-5	par	par	ADP	_	_	7	advmod	_	_
-6	contre	contre	ADP	_	_	5	fixed	_	_
+5	par	par	ADP	_	_	6	case	_	INMWE=Yes
+6	contre	contre	NOUN	_	_	7	advmod	_	MWEPOS=ADV
 7	facturé	facturer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	sans	sans	ADP	_	_	10	case	_	_
 9	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	10	det	_	_
@@ -323671,8 +323671,8 @@
 
 # sent_id = fr-ud-train_11538
 # text = Par contre c'est le Musée national de Varsovie, architecture néo-classique caractéristique de l'Entre-deux-guerres dans la capitale polonaise, qui représente l'Institut de la jeunesse hitlérienne à Braunschweig.
-1	Par	par	ADP	_	_	2	case	_	_
-2	contre	contre	ADP	_	_	6	case	_	_
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	contre	contre	NOUN	_	_	6	advmod	_	MWEPOS=ADV
 3	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -323797,8 +323797,8 @@
 
 # sent_id = fr-ud-train_11542
 # text = Par contre, la négation ou l'implication ne conserve pas le caractère diophantien.
-1	Par	par	ADP	_	_	2	case	_	_
-2	contre	contre	ADV	_	_	10	advmod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	contre	contre	NOUN	_	_	10	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	10	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	négation	négation	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -342331,8 +342331,8 @@
 
 # sent_id = fr-ud-train_12207
 # text = Par contre, tous ceux qui ne seront pas en mesure de recevoir le signal sans fil à cause de la géomorphologie, de la densité d'abonnés ou de l'éloignement pourront être desservis par satellite, moyennant l'installation d'une coupole personnelle de 74 cm.
-1	Par	par	ADP	_	_	33	advmod	_	_
-2	contre	contre	ADP	_	_	1	fixed	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	contre	contre	NOUN	_	_	33	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	33	punct	_	_
 4	tous	tout	DET	_	Gender=Masc|Number=Plur	5	det	_	_
 5	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	33	nsubj	_	_
@@ -357098,8 +357098,8 @@
 11	trop	trop	ADV	_	_	12	advmod	_	_
 12	théorique	théorique	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 13	mais	mais	CCONJ	_	_	18	cc	_	_
-14	par	par	ADP	_	_	5	advmod	_	_
-15	contre	contre	ADP	_	_	14	fixed	_	_
+14	par	par	ADP	_	_	15	case	_	INMWE=Yes
+15	contre	contre	NOUN	_	_	5	advmod	_	MWEPOS=ADV
 16	de	de	ADP	_	_	18	mark	_	_
 17	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
 18	incarner	incarner	VERB	_	VerbForm=Inf	5	conj	_	SpaceAfter=No
