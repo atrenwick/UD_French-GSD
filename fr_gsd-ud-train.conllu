@@ -529,11 +529,11 @@
 15	--	--	PUNCT	_	_	18	punct	_	SpaceAfter=No
 16	soit	soit	SCONJ	_	_	18	cc	_	_
 17	39	39	NUM	_	_	18	nummod	_	SpaceAfter=No
-18	%	%	SYM	_	_	14	conj	_	_
+18	%	%	SYM	_	_	12	conj	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	population	population	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
-22	--	--	PUNCT	_	_	12	punct	_	SpaceAfter=No
+22	--	--	PUNCT	_	_	18	punct	_	SpaceAfter=No
 23	n'	ne	ADV	_	Polarity=Neg	24	advmod	_	SpaceAfter=No
 24	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 25	pas	pas	ADV	_	Polarity=Neg	24	advmod	_	_
@@ -1797,7 +1797,7 @@
 53-54	des	_	_	_	_	_	_	_	_
 53	de	de	ADP	_	_	55	case	_	_
 54	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	55	det	_	_
-55	Nations	Nations	PROPN	_	_	51	nmod	_	_
+55	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	51	nmod	_	_
 56	unies	uni	ADJ	_	Gender=Fem|Number=Plur	55	amod	_	SpaceAfter=No
 57	.	.	PUNCT	_	_	43	punct	_	_
 
@@ -3365,7 +3365,7 @@
 19	de	de	ADP	_	_	20	case	_	_
 20	brut	brut	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 21	par	par	ADP	_	_	22	case	_	_
-22	jour	jour	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	jour	jour	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_00120
@@ -6693,11 +6693,11 @@
 8	millions	million	NOUN	_	Gender=Masc|Number=Plur	5	obl:arg	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	exemplaires	exemplaire	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	_
+11	,	,	PUNCT	_	_	8	punct	_	_
 12	à	à	ADP	_	_	13	case	_	_
 13	quoi	quoi	PRON	_	PronType=Rel	15	obl:arg	_	_
 14	s'	se	PRON	_	Person=3|PronType=Prs	15	expl:pass	_	SpaceAfter=No
-15	ajoutent	ajouter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	ajoutent	ajouter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 16	340 000	340 000	NUM	_	_	17	nummod	_	_
 17	breaks	break	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
@@ -24246,7 +24246,7 @@
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-18	Nations	Nations	PROPN	_	_	14	nmod	_	_
+18	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
 19	unies	uni	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -30988,8 +30988,8 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	Nations	Nations	PROPN	_	_	16	nmod	_	_
-20	Unies	Unies	PROPN	_	_	19	flat:name	_	_
+19	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
+20	Unies	uni	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
 21	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	Minurso	Minurso	PROPN	_	_	16	appos	_	SpaceAfter=No
 23	)	)	PUNCT	_	_	22	punct	_	_
@@ -33373,11 +33373,11 @@
 8	de	de	ADP	_	_	9	case	_	_
 9	lires	lire	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
 10	en	en	ADP	_	_	11	case	_	_
-11	argent	argent	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+11	argent	argent	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 12	comptant	compter	VERB	_	Tense=Pres|VerbForm=Part	11	acl	_	_
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-15	titres	titre	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
+15	titres	titre	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	5	5	NUM	_	_	18	nummod	_	SpaceAfter=No
 18	%	%	SYM	_	_	15	nmod	_	_
@@ -33390,7 +33390,7 @@
 25	milliard	milliard	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 26	de	de	ADP	_	_	27	case	_	_
 27	lires	lire	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
-28	,	,	PUNCT	_	_	27	punct	_	_
+28	,	,	PUNCT	_	_	25	punct	_	_
 29	confiés	confier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
 30	par	par	ADP	_	_	31	case	_	_
 31	Pie	Pie	PROPN	_	_	29	obl:agent	_	_
@@ -62780,7 +62780,7 @@
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	organise	organiser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	son	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
-8	Concert	Concert	PROPN	_	_	6	obj	_	_
+8	Concert	concert	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
 9	gratuit	gratuit	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
@@ -62799,7 +62799,7 @@
 23	million	million	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	spectateurs	spectateur	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	6	punct	_	_
+26	,	,	PUNCT	_	_	23	punct	_	_
 27	sans	sans	ADP	_	_	28	mark	_	_
 28	compter	compter	VERB	_	VerbForm=Inf	21	advcl	_	_
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
@@ -77731,11 +77731,11 @@
 16	contre	contre	ADP	_	_	19	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 18	4,5	4,5	NUM	_	_	19	nummod	_	_
-19	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+19	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 20	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
 21	années	année	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
 22	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
-23	existence	existence	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+23	existence	existence	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 24-25	du	_	_	_	_	_	_	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -80804,7 +80804,7 @@
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
-25	Nations	Nations	PROPN	_	_	20	nmod	_	_
+25	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
 26	unies	uni	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -82073,7 +82073,7 @@
 23	de	de	ADP	_	_	24	case	_	_
 24	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
 25	d'	de	ADP	_	_	26	case	_	SpaceAfter=No
-26	actions	action	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+26	actions	action	NOUN	_	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-train_02912
@@ -85284,8 +85284,8 @@
 36-37	des	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	38	case	_	_
 37	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
-38	Nations	Nations	PROPN	_	_	35	nmod	_	_
-39	Unies	Unies	ADJ	_	Gender=Fem|Number=Plur	38	amod	_	SpaceAfter=No
+38	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	_
+39	Unies	uni	ADJ	_	Gender=Fem|Number=Plur	38	amod	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_03016
@@ -90983,13 +90983,13 @@
 3	manifestations	manifestation	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 4	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
-6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-7	New	New	ADJ	_	_	8	amod	_	_
-8	York	York	PROPN	_	_	4	obl	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
-10	mars	mars	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	New	New	PROPN	_	_	4	obl	_	_
+8	York	York	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	mars	mars	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	1930	1930	NUM	_	_	10	nmod	_	SpaceAfter=No
-12	)	)	PUNCT	_	_	8	punct	_	_
+12	)	)	PUNCT	_	_	7	punct	_	_
 13	et	et	CCONJ	_	_	17	cc	_	_
 14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	influence	influence	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
@@ -91532,9 +91532,9 @@
 3	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
-6	à	à	ADP	_	_	8	case	_	_
-7	New	New	ADJ	_	_	8	amod	_	_
-8	York	York	PROPN	_	_	5	obl	_	SpaceAfter=No
+6	à	à	ADP	_	_	7	case	_	_
+7	New	New	PROPN	_	_	5	obl	_	_
+8	York	York	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	_
 10	Carmen	Carmen	PROPN	_	_	13	nsubj:pass	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
@@ -97862,7 +97862,7 @@
 11	millions	million	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	points	point	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
-14	relevés	relever	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	SpaceAfter=No
+14	relevés	relever	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_03483
@@ -107099,7 +107099,7 @@
 49-50	du	_	_	_	_	_	_	_	_
 49	de	de	ADP	_	_	51	case	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	pays	pays	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	_
+51	pays	pays	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	_
 52	en	en	PRON	_	Person=3	54	obl	_	_
 53	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	cop	_	_
 54	privée	privé	ADJ	_	Gender=Fem|Number=Sing	37	ccomp	_	SpaceAfter=No
@@ -114212,9 +114212,9 @@
 4	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
 5	version	version	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 6	de	de	ADP	_	_	7	case	_	_
-7	Good	good	ADV	_	_	5	nmod	_	_
-8	Rockin'	rock	VERB	_	_	7	flat:name	_	_
-9	Tonight	tonight	NOUN	_	_	7	flat:name	_	SpaceAfter=No
+7	Good	good	PROPN	_	_	5	nmod	_	_
+8	Rockin'	rock	PROPN	_	_	7	flat:name	_	_
+9	Tonight	tonight	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	Roy	Roy	PROPN	_	_	5	nmod	_	_
@@ -118703,8 +118703,8 @@
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	Nations	Nations	PROPN	_	_	2	nmod	_	_
-6	Unies	Unies	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+5	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6	Unies	uni	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	décrit	décrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	plus	plus	ADV	_	_	10	advmod	_	_
@@ -123682,7 +123682,7 @@
 27	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
 28	par	par	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
-30	Nations	Nations	PROPN	_	_	25	obl:agent	_	_
+30	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	25	obl:agent	_	_
 31	unies	uni	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
 32-33	au	_	_	_	_	_	_	_	_
 32	à	à	ADP	_	_	34	case	_	_
@@ -131708,7 +131708,7 @@
 7	d'	de	ADP	_	_	8	mark	_	SpaceAfter=No
 8	appeler	appeler	VERB	_	VerbForm=Inf	2	xcomp	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-10	Nations	Nations	PROPN	_	_	8	obj	_	_
+10	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
 11	unies	uni	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 12	à	à	ADP	_	_	13	mark	_	_
 13	faire	faire	VERB	_	VerbForm=Inf	8	xcomp	_	_
@@ -146973,7 +146973,7 @@
 7	à	à	ADP	_	_	8	case	_	_
 8	Saban	Saban	PROPN	_	_	3	obl	_	_
 9	International	International	ADJ	_	_	8	amod	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	3	punct	_	_
+10	,	,	PUNCT	_	_	8	punct	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 12	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 13	société	société	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
@@ -147011,7 +147011,7 @@
 44	à	à	ADP	_	_	47	case	_	_
 45	travers	travers	NOUN	_	Gender=Masc|Number=Sing	44	fixed	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	monde	monde	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
+47	monde	monde	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
 48	et	et	CCONJ	_	_	50	cc	_	_
 49	Lévy	Lévy	PROPN	_	_	50	nsubj	_	_
 50	enchaîne	enchaîner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	_	_
@@ -152263,7 +152263,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	Nations	Nations	PROPN	_	_	10	nmod	_	_
+19	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
 20	unies	uni	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
 21	?	?	PUNCT	_	_	3	punct	_	_
 
@@ -152535,7 +152535,7 @@
 18	2008	2008	NUM	_	_	17	nmod	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	37	37	NUM	_	_	21	nummod	_	_
-21	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	8	nmod:range	_	_
+21	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	5	obl:arg	_	_
 22-23	au	_	_	_	_	_	_	_	_
 22	à	à	ADP	_	_	24	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -158002,10 +158002,10 @@
 15	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	12	obl:arg	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	dollars	dollar	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	21	punct	_	_
+18	,	,	PUNCT	_	_	15	punct	_	_
 19	soit	soit	SCONJ	_	_	21	cc	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+21	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
 22	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
 23	environ	environ	ADV	_	_	24	advmod	_	_
 24	10	10	NUM	_	_	25	nummod	_	SpaceAfter=No
@@ -166756,7 +166756,7 @@
 4	millions	million	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	nuitées	nuitée	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
-7	enregistrées	enregistrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
+7	enregistrées	enregistrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
 8	en	en	ADP	_	_	9	case	_	_
 9	2007	2007	NUM	_	_	7	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	22	punct	_	_
@@ -173833,7 +173833,7 @@
 71-72	des	_	_	_	_	_	_	_	_
 71	de	de	ADP	_	_	73	case	_	_
 72	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	73	det	_	_
-73	Nations	Nations	PROPN	_	_	69	nmod	_	_
+73	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	69	nmod	_	_
 74	unies	uni	ADJ	_	Gender=Fem|Number=Plur	73	amod	_	_
 75	et	et	CCONJ	_	_	78	cc	_	_
 76	de	de	ADP	_	_	78	case	_	_
@@ -175301,7 +175301,7 @@
 # sent_id = fr-ud-train_06253
 # text = Initialement édité en 1986 dans la revue Chroniques d'outre-monde, il fut édité en livre à couverture dure par Aujourd'hui Communication en 1988 (72p, 149 FF).
 1	Initialement	initialement	ADV	_	_	2	advmod	_	_
-2	édité	éditer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+2	édité	éditer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
 3	en	en	ADP	_	_	4	case	_	_
 4	1986	1986	NUM	_	_	2	obl	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
@@ -175325,7 +175325,7 @@
 23	en	en	ADP	_	_	24	case	_	_
 24	1988	1988	NUM	_	_	14	obl	_	_
 25	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
-26	72p	72p	NUM	_	_	16	appos	_	SpaceAfter=No
+26	72p	72p	NUM	_	_	16	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	29	punct	_	_
 28	149	149	NUM	_	_	29	nummod	_	_
 29	FF	FF	X	_	_	26	conj	_	SpaceAfter=No
@@ -184803,8 +184803,8 @@
 22	sain	sain	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 23	en	en	ADP	_	_	25	case	_	_
 24	10	10	NUM	_	_	25	nummod	_	_
-25	ans	an	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	19	punct	_	_
+25	ans	an	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	16	punct	_	_
 27	avec	avec	ADP	_	_	28	case	_	_
 28	près	près	ADV	_	_	19	nmod	_	_
 29	de	de	ADP	_	_	31	case	_	_
@@ -184813,9 +184813,9 @@
 32	de	de	ADP	_	_	33	case	_	_
 33	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
 34	de	de	ADP	_	_	35	case	_	_
-35	canalisations	canalisation	NOUN	_	Gender=Fem|Number=Plur	33	nmod	_	_
+35	canalisations	canalisation	NOUN	_	Gender=Fem|Number=Plur	31	nmod	_	_
 36	à	à	ADP	_	_	37	mark	_	_
-37	remplacer	remplacer	VERB	_	VerbForm=Inf	33	acl	_	_
+37	remplacer	remplacer	VERB	_	VerbForm=Inf	35	acl	_	_
 38	!	!	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_06576
@@ -186382,7 +186382,7 @@
 21	individus	individu	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
 22	dans	dans	ADP	_	_	24	case	_	_
 23	chaque	chaque	DET	_	Number=Sing	24	det	_	_
-24	État	état	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	État	état	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_06638
@@ -200046,7 +200046,7 @@
 11	plus	plus	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	albums	album	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	2	punct	_	_
+14	,	,	PUNCT	_	_	9	punct	_	_
 15	avec	avec	ADP	_	_	16	case	_	_
 16	plus	plus	ADV	_	_	9	obl:mod	_	_
 17	de	de	ADP	_	_	19	case	_	_
@@ -202512,7 +202512,7 @@
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-19	Nations	Nations	PROPN	_	_	16	nmod	_	_
+19	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
 20	unies	uni	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
 21	et	et	CCONJ	_	_	24	cc	_	_
 22	qui	qui	PRON	_	_	24	nsubj	_	_
@@ -202789,8 +202789,8 @@
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
-23	Nations	Nations	PROPN	_	_	19	nmod	_	_
-24	Unies	Unies	PROPN	_	_	23	flat:name	_	_
+23	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
+24	Unies	uni	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
 25-26	au	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -214424,12 +214424,12 @@
 5	aussi	aussi	ADV	_	_	6	advmod	_	_
 6	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	réunir	réunir	VERB	_	VerbForm=Inf	6	xcomp	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	grand	grand	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 10	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 11	de	de	ADP	_	_	12	case	_	_
-12	vidéos	vidéo	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
-13	enregistrées	enregistrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	nmod	_	_
+12	vidéos	vidéo	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
+13	enregistrées	enregistrer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	nmod	_	_
 14	sur	sur	ADP	_	_	16	case	_	_
 15	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	portables	portable	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
@@ -220600,7 +220600,7 @@
 26-27	des	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
-28	Nations	Nations	PROPN	_	_	25	nmod	_	_
+28	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
 29	unies	uni	ADJ	_	Gender=Fem|Number=Plur	28	amod	_	_
 30	pour	pour	ADP	_	_	32	case	_	_
 31	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
@@ -223587,7 +223587,7 @@
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	30	det	_	_
-30	Nations	Nations	PROPN	_	_	27	nmod	_	_
+30	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	_
 31	unies	uni	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
 32	sur	sur	ADP	_	_	34	case	_	_
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
@@ -223682,11 +223682,11 @@
 16	,	,	PUNCT	_	_	19	punct	_	_
 17	contre	contre	ADP	_	_	19	case	_	_
 18	11,2	11,2	NUM	_	_	19	nummod	_	_
-19	millions	million	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
+19	millions	million	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 20	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
 21	euros	euro	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
 22	en	en	ADP	_	_	23	case	_	_
-23	2008	2008	NUM	_	_	21	nmod	_	SpaceAfter=No
+23	2008	2008	NUM	_	_	19	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_07962
@@ -227378,10 +227378,10 @@
 23	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	17	obl:mod	_	_
 24	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
 25	euros	euro	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	25	punct	_	_
+26	,	,	PUNCT	_	_	23	punct	_	_
 27	soit	soit	SCONJ	_	_	29	cc	_	_
 28	12	12	NUM	_	_	29	nummod	_	SpaceAfter=No
-29	%	%	SYM	_	_	25	conj	_	_
+29	%	%	SYM	_	_	23	conj	_	_
 30-31	du	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -229376,7 +229376,7 @@
 7	pour	pour	ADP	_	_	9	case	_	_
 8	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
 9	salaire	salaire	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	_
-10	:	:	PUNCT	_	_	5	punct	_	_
+10	:	:	PUNCT	_	_	9	punct	_	_
 11	17.8	17.8	NUM	_	_	12	nummod	_	_
 12	millions	million	NOUN	_	Gender=Masc|Number=Plur	9	appos	_	_
 13	de	de	ADP	_	_	14	case	_	_
@@ -232271,7 +232271,7 @@
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-16	Nations	Nations	PROPN	_	_	11	nmod	_	_
+16	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
 17	2010	2010	NUM	_	_	11	nmod	_	_
 18-19	aux	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	_
@@ -235018,7 +235018,7 @@
 33	supervisées	superviser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	conj	_	_
 34	par	par	ADP	_	_	36	case	_	_
 35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	_
-36	Nations	Nations	PROPN	_	_	33	obl:agent	_	_
+36	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	33	obl:agent	_	_
 37	unies	uni	ADJ	_	Gender=Fem|Number=Plur	36	amod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
 39	"	"	PUNCT	_	_	4	punct	_	_
@@ -243759,7 +243759,7 @@
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	euros	euro	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 14	par	par	ADP	_	_	15	case	_	_
-15	an	an	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+15	an	an	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 16	en	en	ADP	_	_	17	case	_	_
 17	France	France	PROPN	_	_	11	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	8	punct	_	_
@@ -244992,7 +244992,7 @@
 52-53	des	_	_	_	_	_	_	_	_
 52	de	de	ADP	_	_	54	case	_	_
 53	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	54	det	_	_
-54	Nations	Nations	PROPN	_	_	51	nmod	_	_
+54	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	51	nmod	_	_
 55	unies	uni	ADJ	_	Gender=Fem|Number=Plur	54	amod	_	_
 56	pour	pour	ADP	_	_	58	case	_	_
 57	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	SpaceAfter=No
@@ -245411,7 +245411,7 @@
 31	kilowatts	kilowatt	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
 32	heure	heure	NOUN	_	Gender=Fem|Number=Sing	31	compound	_	_
 33	par	par	ADP	_	_	34	case	_	_
-34	an	an	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+34	an	an	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_08725
@@ -247104,8 +247104,8 @@
 20	de	de	ADP	_	_	21	case	_	_
 21	Wanderings	wandering	NOUN	_	Number=Plur	19	appos	_	Foreign=en
 22	in	in	ADP	_	_	23	case	_	Foreign=en
-23	New	new	ADJ	_	_	21	nmod	_	Foreign=en
-24	South	south	NOUN	_	_	23	flat:name	_	Foreign=en
+23	New	new	PROPN	_	_	21	nmod	_	Foreign=en
+24	South	south	PROPN	_	_	23	flat:name	_	Foreign=en
 25	Wales	Wales	PROPN	_	_	23	flat:name	_	Foreign=en|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	Batavia	Batavia	PROPN	_	_	23	conj	_	SpaceAfter=No
@@ -253122,8 +253122,8 @@
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-18	Nations	Nations	PROPN	_	_	15	nmod	_	_
-19	Unies	Unies	PROPN	_	_	18	flat:name	_	_
+18	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+19	Unies	uni	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
 20	sur	sur	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	changements	changement	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
@@ -253324,11 +253324,11 @@
 8	utilisateurs	utilisateur	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	monde	monde	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	2	punct	_	_
+11	monde	monde	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	6	punct	_	_
 13	dont	dont	PRON	_	PronType=Rel	15	nmod	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
+15	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
 16-17	aux	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -267024,9 +267024,9 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	État	état	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-20	de	de	ADP	_	_	22	case	_	_
-21	New	New	ADJ	_	_	22	amod	_	_
-22	York	York	PROPN	_	_	19	nmod	_	SpaceAfter=No
+20	de	de	ADP	_	_	21	case	_	_
+21	New	New	PROPN	_	_	19	nmod	_	_
+22	York	York	PROPN	_	_	21	flat:name	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	16	punct	_	_
 24	Silas	Silas	PROPN	_	_	16	appos	_	_
 25	Wright	Wright	PROPN	_	_	24	flat:name	_	SpaceAfter=No
@@ -271125,8 +271125,8 @@
 7-8	des	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-9	Nations	Nations	PROPN	_	_	6	nmod	_	_
-10	Unies	Unies	PROPN	_	_	9	flat:name	_	_
+9	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+10	Unies	uni	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	ONU	ONU	PROPN	_	_	6	appos	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	12	punct	_	_
@@ -278627,14 +278627,14 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	yuans	yuan	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 12	en	en	ADP	_	_	13	case	_	_
-13	1959	1959	NUM	_	_	11	nmod	_	_
+13	1959	1959	NUM	_	_	9	nmod	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	2,968	2,968	NUM	_	_	16	nummod	_	_
 16	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	9	nmod:range	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	yuans	yuan	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 19	en	en	ADP	_	_	20	case	_	_
-20	2008	2008	NUM	_	_	18	nmod	_	SpaceAfter=No
+20	2008	2008	NUM	_	_	16	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_09905
@@ -285799,19 +285799,19 @@
 # sent_id = fr-ud-train_10173
 # text = En 2011, son chiffre d'affaires est de 3 358,6 millions d'euros.
 1	En	en	ADP	_	_	2	case	_	_
-2	2011	2011	NUM	_	_	13	obl:mod	_	SpaceAfter=No
+2	2011	2011	NUM	_	_	11	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
-5	chiffre	chiffre	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+5	chiffre	chiffre	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
-8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	3 358,6	3 358,6	NUM	_	_	11	nummod	_	_
 11	millions	million	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	euros	euro	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	13	punct	_	_
+14	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-train_10174
 # text = Parfait pour un repas intime ou entre potes.
@@ -290402,7 +290402,7 @@
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
-25	Nations	Nations	PROPN	_	_	20	nmod	_	_
+25	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
 26	unies	uni	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
 27	et	et	CCONJ	_	_	29	cc	_	_
 28	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
@@ -290541,7 +290541,7 @@
 # sent_id = fr-ud-train_10357
 # text = Au total quelque trente institutions financières avaient déposé des plaintes pour réclamer 22 milliards de dollars au titre de la restitution de leurs investissements dans des produits dérivés.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	5	advmod	_	_
+1	à	à	ADP	_	_	9	advmod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	total	total	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
 4	quelque	quelque	DET	_	Gender=Fem|Number=Sing	6	det	_	_
@@ -298021,7 +298021,7 @@
 5	sur	sur	ADP	_	_	7	case	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	après	après	ADP	_	_	4	obl	_	_
-8	Moubarak	Moubarak	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+8	Moubarak	Moubarak	PROPN	_	_	7	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	non	non	ADV	_	_	13	advmod	_	_
 11	plus	plus	ADV	_	_	10	fixed	_	_
@@ -315104,9 +315104,9 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	ville	ville	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	New	New	ADJ	_	_	16	amod	_	_
-16	York	York	PROPN	_	_	13	nmod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	New	New	PROPN	_	_	13	nmod	_	_
+16	York	York	PROPN	_	_	15	flat:name	_	_
 17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	Manhattan	Manhattan	PROPN	_	_	10	appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
@@ -323659,7 +323659,7 @@
 43-44	des	_	_	_	_	_	_	_	_
 43	de	de	ADP	_	_	45	case	_	_
 44	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	45	det	_	_
-45	Nations	Nations	PROPN	_	_	42	nmod	_	_
+45	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	42	nmod	_	_
 46	unies	uni	ADJ	_	Gender=Fem|Number=Plur	45	amod	_	_
 47	contre	contre	ADP	_	_	49	case	_	_
 48	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
@@ -328748,9 +328748,9 @@
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Bottom	Bottom	PROPN	_	_	20	nmod	_	_
 24	Line	Line	PROPN	_	_	23	flat:name	_	_
-25	à	à	ADP	_	_	27	case	_	_
-26	New	New	ADJ	_	_	27	amod	_	_
-27	York	York	PROPN	_	_	20	nmod	_	SpaceAfter=No
+25	à	à	ADP	_	_	26	case	_	_
+26	New	New	PROPN	_	_	20	nmod	_	_
+27	York	York	PROPN	_	_	26	flat:name	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_11718
@@ -334744,7 +334744,7 @@
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
-23	Nations	Nations	PROPN	_	_	20	nmod	_	_
+23	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	_
 24	unies	uni	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
 25	et	et	CCONJ	_	_	26	cc	_	_
 26	travaille	travailler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
@@ -344643,8 +344643,8 @@
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	par	par	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-12	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	7	obl:mod	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	16	punct	_	_
+12	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	16	det	_	_
 16	fonctionnaires	fonctionnaire	NOUN	_	Gender=Masc|Number=Plur	8	obl:arg	_	_
@@ -347263,7 +347263,7 @@
 55-56	des	_	_	_	_	_	_	_	_
 55	de	de	ADP	_	_	57	case	_	_
 56	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	57	det	_	_
-57	Nations	Nations	PROPN	_	_	54	nmod	_	_
+57	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	54	nmod	_	_
 58	unies	uni	ADJ	_	Gender=Fem|Number=Plur	57	amod	_	_
 59	»	»	PUNCT	_	_	3	punct	_	SpaceAfter=No
 60	.	.	PUNCT	_	_	3	punct	_	_
@@ -351134,7 +351134,7 @@
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-16	Nations	Nations	PROPN	_	_	10	nmod	_	_
+16	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
 17	Unies	uni	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
 18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	UNRIC	UNRIC	X	_	_	16	appos	_	SpaceAfter=No
@@ -351146,7 +351146,7 @@
 25-26	des	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
-27	Nations	Nations	PROPN	_	_	24	nmod	_	_
+27	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	_
 28	Unies	uni	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
 29	dont	dont	PRON	_	PronType=Rel	31	nmod	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -351159,7 +351159,7 @@
 37-38	des	_	_	_	_	_	_	_	_
 37	de	de	ADP	_	_	39	case	_	_
 38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	_
-39	Nations	Nations	PROPN	_	_	36	nmod	_	_
+39	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	36	nmod	_	_
 40	Unies	uni	ADJ	_	Gender=Fem|Number=Plur	39	amod	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	43	punct	_	_
 42	d'	de	ADP	_	_	43	mark	_	SpaceAfter=No
@@ -351184,7 +351184,7 @@
 59-60	des	_	_	_	_	_	_	_	_
 59	de	de	ADP	_	_	61	case	_	_
 60	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	61	det	_	_
-61	Nations	Nations	PROPN	_	_	58	nmod	_	_
+61	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	58	nmod	_	_
 62	Unies	uni	ADJ	_	Gender=Fem|Number=Plur	61	amod	_	SpaceAfter=No
 63	.	.	PUNCT	_	_	24	punct	_	_
 
@@ -364729,7 +364729,7 @@
 35-36	aux	_	_	_	_	_	_	_	_
 35	à	à	ADP	_	_	37	case	_	_
 36	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
-37	Nations	Nations	PROPN	_	_	32	nmod	_	_
+37	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	_
 38	unies	uni	ADJ	_	Gender=Fem|Number=Plur	37	amod	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	29	punct	_	_
 40	et	et	CCONJ	_	_	45	cc	_	_
@@ -381703,7 +381703,7 @@
 18-19	des	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-20	Nations	Nations	PROPN	_	_	17	nmod	_	_
+20	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
 21	unies	uni	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -390352,10 +390352,10 @@
 9	studio	studio	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	»	»	PUNCT	_	_	6	punct	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	17	punct	_	_
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-13	New	New	ADJ	_	_	15	compound	_	_
-14	York	York	PROPN	_	_	15	compound	_	_
-15	Times	Times	PROPN	_	_	17	nsubj	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	New	New	PROPN	_	_	17	nsubj	_	_
+14	York	York	PROPN	_	_	13	flat:name	_	_
+15	Times	Times	PROPN	_	_	13	flat:name	_	_
 16	n'	ne	ADV	_	Polarity=Neg	17	advmod	_	SpaceAfter=No
 17	attribuerai	attribuer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 18	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	_
@@ -399711,9 +399711,9 @@
 10	chez	chez	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	Yankees	Yankees	PROPN	_	_	9	obl	_	_
-13	de	de	ADP	_	_	15	case	_	_
-14	New	New	ADJ	_	_	15	amod	_	_
-15	York	York	PROPN	_	_	12	nmod	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	New	New	PROPN	_	_	12	nmod	_	_
+15	York	York	PROPN	_	_	14	flat:name	_	_
 16	en	en	ADP	_	_	17	case	_	_
 17	retour	retour	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 18-19	du	_	_	_	_	_	_	_	_
@@ -407123,7 +407123,7 @@
 16	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_14450
-# text = Cependant, l'album est un échec relatif, vendu à exemplaires aux États-Unis au milieu de l'année 1999 et à peine plus de 2 millions d'exemplaires dans le monde.
+# text = Cependant, l'album est un échec relatif, vendu à 900 000 exemplaires aux États-Unis au milieu de l'année 1999 et à peine plus de 2 millions d'exemplaires dans le monde.
 1	Cependant	cependant	ADV	_	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
@@ -407133,34 +407133,35 @@
 7	échec	échec	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 8	relatif	relatif	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
-10	vendu	vendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
-11	à	à	ADP	_	_	12	case	_	_
-12	exemplaires	exemplaire	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
-13-14	aux	_	_	_	_	_	_	_	_
-13	à	à	ADP	_	_	15	case	_	_
-14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	États-Unis	États-Unis	PROPN	_	_	10	obl	_	_
-16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	_	18	case	_	_
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
-21	année	année	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
-22	1999	1999	NUM	_	_	21	nmod	_	_
-23	et	et	CCONJ	_	_	26	cc	_	_
-24	à	à	ADP	_	_	25	case	_	_
-25	peine	peine	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
-26	plus	plus	ADV	_	_	12	conj	_	_
-27	de	de	ADP	_	_	29	case	_	_
-28	2	2	NUM	_	_	29	nummod	_	_
-29	millions	million	NOUN	_	Gender=Masc|Number=Plur	26	obl:arg	_	_
-30	d'	de	ADP	_	_	31	case	_	SpaceAfter=No
-31	exemplaires	exemplaire	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
-32	dans	dans	ADP	_	_	34	case	_	_
-33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	monde	monde	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	7	punct	_	_
+10	vendu	vendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+11	à	à	ADP	_	_	13	case	_	_
+12	900 000	900 000	NUM	_	_	13	nummod	_	_
+13	exemplaires	exemplaire	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+14-15	aux	_	_	_	_	_	_	_	_
+14	à	à	ADP	_	_	16	case	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+16	États-Unis	États-Unis	PROPN	_	_	10	obl	_	_
+17-18	au	_	_	_	_	_	_	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	année	année	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+23	1999	1999	NUM	_	_	22	nmod	_	_
+24	et	et	CCONJ	_	_	27	cc	_	_
+25	à	à	ADP	_	_	26	case	_	_
+26	peine	peine	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+27	plus	plus	ADV	_	_	13	conj	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	2	2	NUM	_	_	30	nummod	_	_
+30	millions	million	NOUN	_	Gender=Masc|Number=Plur	27	obl:arg	_	_
+31	d'	de	ADP	_	_	32	case	_	SpaceAfter=No
+32	exemplaires	exemplaire	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
+33	dans	dans	ADP	_	_	35	case	_	_
+34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	monde	monde	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_14451
 # text = Elle est organisée en quatre régions (Grande Terre, Nengone, Drehu et Iaai), 18 consistoires et 94 paroisses.
