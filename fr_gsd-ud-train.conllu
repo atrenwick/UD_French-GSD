@@ -1451,7 +1451,7 @@
 52	de	de	ADP	_	_	54	case	_	_
 53	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
 54	triangle	triangle	NOUN	_	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
-55	,	,	PUNCT	_	_	59	punct	_	_
+55	,	,	PUNCT	_	_	61	punct	_	_
 56	de	de	ADP	_	_	57	case	_	_
 57	plus	plus	ADV	_	_	61	advmod	_	_
 58	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	61	nsubj	_	_
@@ -7118,8 +7118,8 @@
 17	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
 18	débit	débit	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	15	punct	_	_
-20	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	mark	_	MWEPOS=SCONJ
-21	que	que	SCONJ	_	_	20	fixed	_	SpaceAfter=No
+20	vu	vu	ADP	_	_	42	mark	_	_
+21	que	que	SCONJ	_	_	42	mark	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	20	punct	_	_
 23	en	en	ADP	_	_	24	case	_	_
 24	accord	accord	NOUN	_	Gender=Masc|Number=Sing	42	obl:mod	_	_
@@ -33735,11 +33735,11 @@
 14	perdurer	perdurer	VERB	_	VerbForm=Inf	13	xcomp	_	_
 15	»	»	PUNCT	_	_	10	punct	_	_
 16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	_	20	case	_	_
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	_
-18	vu	vu	NOUN	_	Gender=Masc|Number=Sing	16	fixed	_	_
+16	à	à	ADP	_	_	18	case	_	INMWE=Yes
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	vu	vu	NOUN	_	Gender=Masc|Number=Sing	10	advmod	_	MWEPOS=ADV
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	fixed	_	_
-20	leçons	leçon	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+20	leçons	leçon	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	Histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
@@ -77020,9 +77020,9 @@
 # sent_id = fr-ud-train_02733
 # text = Cependant vu l'âge du condamné, et ses états de service durant la Première Guerre mondiale, Philippe Pétain voit sa peine commuée en réclusion à perpétuité.
 1	Cependant	cependant	ADV	_	_	22	advmod	_	_
-2	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+2	vu	vu	ADP	_	_	4	case	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	âge	âge	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	âge	âge	NOUN	_	Gender=Masc|Number=Sing	22	obl:mod	_	_
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -133296,7 +133296,7 @@
 45-46	au	_	_	_	_	_	_	_	_
 45	à	à	ADP	_	_	47	case	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	vu	vu	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
+47	vu	vu	NOUN	_	Gender=Masc|Number=Sing	31	advmod	_	MWEPOS=ADV
 48	de	de	ADP	_	_	50	case	_	_
 49	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	50	det	_	_
 50	participation	participation	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	_
@@ -171166,9 +171166,9 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	midi	midi	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	20	punct	_	_
-6	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+6	vu	vu	PREP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	succès	succès	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+8	succès	succès	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -277134,7 +277134,7 @@
 6	premier	premier	NUM	_	_	7	nummod	_	_
 7	étage	étage	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 8	avec	avec	ADP	_	_	9	case	_	_
-9	vu	vu	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+9	vu	vue	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	Correct=vue
 10	sur	sur	ADP	_	_	13	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 12	vieux	vieux	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
@@ -372917,7 +372917,7 @@
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	obl:mod	_	_
+3	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advmod	_	MWEPOS=ADV
 4	de	de	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	situation	situation	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
