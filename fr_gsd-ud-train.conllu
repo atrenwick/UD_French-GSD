@@ -12903,7 +12903,7 @@
 2	peu	peu	ADV	_	_	1	fixed	_	_
 3	long	long	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 4	pour	pour	ADP	_	_	5	mark	_	_
-5	répondre	répondre	VERB	_	VerbForm=Inf	3	acl	_	_
+5	répondre	répondre	VERB	_	VerbForm=Inf	3	advcl	_	_
 6-7	aux	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
@@ -13897,8 +13897,8 @@
 29	,	,	PUNCT	_	_	28	punct	_	_
 30	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
 31	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-32	à	à	ADP	_	_	33	case	_	_
-33	peine	peine	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
+32	à	à	ADP	_	_	33	case	_	INMWE=Yes
+33	peine	peine	NOUN	_	Gender=Fem|Number=Sing	34	advmod	_	MWEPOS=ADV
 34	4	4	NUM	_	_	35	nummod	_	_
 35	conflits	conflit	NOUN	_	Gender=Masc|Number=Plur	31	obj	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	38	punct	_	_
@@ -20374,7 +20374,7 @@
 3	là	là	ADV	_	_	0	root	_	_
 4	qu'	que	SCONJ	_	_	6	mark	_	SpaceAfter=No
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-6	invente	inventer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	invente	inventer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl:cleft	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Rolex	Rolex	PROPN	_	_	6	obj	_	_
 9	«	«	PUNCT	_	_	10	punct	_	_
@@ -24493,7 +24493,7 @@
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 14	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
 15	fois	fois	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
-16	-ci	ci	PART	_	_	15	fixed	_	_
+16	-ci	ci	PART	_	_	15	advmod	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	couleur	couleur	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
 19	graphite	graphite	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	SpaceAfter=No
@@ -24582,7 +24582,7 @@
 # sent_id = fr-ud-train_00864
 # text = Mais à peine avait-on commencé qu'un groupe de Marocains, présents au Forum et participant à d'autres activités, a commencé à proférer des insultes, envahissant la salle et allant jusqu'à se battre avec ces membres de l'organisation qui tentaient de prendre la scène en photo.
 1	Mais	mais	CCONJ	_	_	6	cc	_	_
-2	à	à	ADP	_	_	6	advmod	_	_
+2	à	à	ADP	_	_	3	case	_	INMWE=Yes
 3	peine	peine	NOUN	_	Gender=Fem|Number=Sing	2	fixed	_	_
 4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	SpaceAfter=No
 5	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
@@ -76765,7 +76765,7 @@
 5	autrement	autrement	ADV	_	_	3	advmod	_	_
 6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	fois	fois	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
-8	-ci	ci	PART	_	_	7	fixed	_	_
+8	-ci	ci	PART	_	_	7	advmod	_	_
 9	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_02726
@@ -77749,7 +77749,7 @@
 3	là	là	ADV	_	_	0	root	_	_
 4	que	que	SCONJ	_	_	6	mark	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	6	expl:pass	_	_
-6	trouverait	trouver	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	trouverait	trouver	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl:cleft	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	centre	centre	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 9	géographique	géographique	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
@@ -159063,17 +159063,17 @@
 29	articles	article	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	_
 30	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
 31	pointue	pointu	ADJ	_	Gender=Fem|Number=Sing	9	parataxis	_	SpaceAfter=No
-32	,	,	PUNCT	_	_	37	punct	_	_
+32	,	,	PUNCT	_	_	36	punct	_	_
 33	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
 34	belles	beau	ADJ	_	Gender=Fem|Number=Plur	35	amod	_	_
-35	marques	marque	NOUN	_	Gender=Fem|Number=Plur	37	nsubj	_	_
-36	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
-37	là	là	ADV	_	_	31	conj	_	SpaceAfter=No
+35	marques	marque	NOUN	_	Gender=Fem|Number=Plur	36	nsubj	_	_
+36	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	conj	_	_
+37	là	là	ADV	_	_	36	obl:arg	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	40	punct	_	_
 39	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
-40	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	31	conj	_	_
+40	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	42	nsubj	_	_
 41	très	très	ADV	_	_	42	advmod	_	_
-42	sympa	sympa	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	SpaceAfter=No
+42	sympa	sympa	ADJ	_	Gender=Masc|Number=Sing	31	conj	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_05669
@@ -187093,9 +187093,9 @@
 3	là	là	ADV	_	_	0	root	_	_
 4	qu'	que	SCONJ	_	_	6	mark	_	SpaceAfter=No
 5	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
-6	entrèrent	entrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
+6	entrèrent	entrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl:cleft	_	_
 7	en	en	ADP	_	_	8	case	_	_
-8	contact	contact	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
+8	contact	contact	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	_
 9	avec	avec	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	_
@@ -252504,7 +252504,7 @@
 34	"	"	PUNCT	_	_	36	punct	_	_
 35	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	36	det	_	_
 36	fois	fois	NOUN	_	Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
-37	-ci	ci	PART	_	_	36	fixed	_	SpaceAfter=No
+37	-ci	ci	PART	_	_	36	advmod	_	SpaceAfter=No
 38	,	,	PUNCT	_	_	42	punct	_	_
 39	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	SpaceAfter=No
 40	-t	t	PART	_	_	41	expl	_	SpaceAfter=No
@@ -314325,11 +314325,11 @@
 
 # sent_id = fr-ud-train_11217
 # text = VéloCité est là pour promouvoir les moyens alternatifs de déplacement dans la ville de Besançon comme le vélo et les transports en commun de l'agglomération plus respectueux du cadre de vie que la place prépondérante de la voiture dans la ville.
-1	VéloCité	VéloCité	PROPN	_	_	3	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	là	là	ADV	_	_	0	root	_	_
+1	VéloCité	VéloCité	PROPN	_	_	2	nsubj	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	là	là	ADV	_	_	2	obl:arg	_	_
 4	pour	pour	ADP	_	_	5	mark	_	_
-5	promouvoir	promouvoir	VERB	_	VerbForm=Inf	3	advcl	_	_
+5	promouvoir	promouvoir	VERB	_	VerbForm=Inf	2	advcl	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	moyens	moyen	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 8	alternatifs	alternatif	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
@@ -314369,7 +314369,7 @@
 41	dans	dans	ADP	_	_	43	case	_	_
 42	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	ville	ville	NOUN	_	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	_	_	3	punct	_	_
+44	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_11218
 # text = Le trajet le plus rapide effectué entre Lakehurst et Francfort les 10 et 11 août 1936 a permis de parcourir 6 732 km en 43,02 h, soit une moyenne de 157 km/h grâce à des vents particulièrement favorables.
@@ -318175,7 +318175,7 @@
 5	que	que	SCONJ	_	_	8	mark	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	bât	bât	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
-8	blesse	blesser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	blesse	blesser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl:cleft	_	_
 9	:	:	PUNCT	_	_	8	punct	_	_
 10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
 11	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
@@ -320540,7 +320540,7 @@
 11	plus	plus	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	11	nmod	_	_
-14	ci	ci	PART	_	_	13	goeswith	_	_
+14	ci	ci	PART	_	_	13	advmod	_	Correct=-ci
 15	:	:	PUNCT	_	_	20	punct	_	_
 16	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	20	expl	_	SpaceAfter=No
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
@@ -401333,7 +401333,7 @@
 3	dans	dans	ADP	_	_	5	case	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	SpaceAfter=No
-6	-ci	ci	PART	_	_	5	fixed	_	_
+6	-ci	ci	PART	_	_	5	advmod	_	_
 7	également	également	ADV	_	_	8	advmod	_	_
 8	imprégnés	imprégner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 9	de	de	ADP	_	_	11	case	_	_
