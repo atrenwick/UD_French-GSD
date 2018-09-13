@@ -1044,7 +1044,7 @@
 12	texte	texte	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
-15	par	par	ADP	_	_	17	case	_	_
+15	par	par	ADP	_	_	16	case	_	_
 16	Jan	Jan	PROPN	_	_	14	obl	_	_
 17	Ymbrechts	Ymbrechts	PROPN	_	_	16	flat:name	_	SpaceAfter=No
 18	--	--	PUNCT	_	_	19	punct	_	SpaceAfter=No
@@ -15078,7 +15078,7 @@
 
 # sent_id = fr-ud-train_00525
 # text = Le Colli Orientali del Friuli Tazzelenghe superiore se déguste à une température comprise entre 14 et 16°C.
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Colli	Colli	PROPN	_	_	9	nsubj	_	_
 3	Orientali	Orientali	PROPN	_	_	2	flat:name	_	_
 4	del	del	ADP	_	_	2	flat:name	_	_
@@ -58195,7 +58195,7 @@
 1	Bothrops	bothrops	NOUN	_	_	10	nsubj	_	_
 2	lanceolatus	lanceolatus	ADJ	_	_	1	flat:name	_	_
 3	encore	encore	ADV	_	_	4	advmod	_	_
-4	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 5	Fer	fer	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	lance	lance	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
@@ -59019,7 +59019,7 @@
 2	B.	B.	PROPN	_	_	1	flat:name	_	_
 3	Oren	Oren	PROPN	_	_	1	flat:name	_	_
 4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	1955	1955	NUM	_	_	5	obl	_	SpaceAfter=No
 8	)	)	PUNCT	_	_	5	punct	_	_
@@ -81951,7 +81951,7 @@
 20	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 21	équipes	équipe	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
 22	majeures	majeur	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
-23	comme	comme	ADP	_	_	25	case	_	_
+23	comme	comme	ADP	_	_	24	case	_	_
 24	AC	AC	PROPN	_	_	21	nmod	_	_
 25	Fiorentina	Fiorentina	PROPN	_	_	24	flat:name	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
@@ -82791,14 +82791,14 @@
 7	précisément	précisément	ADV	_	_	5	advmod	_	_
 8	l	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	église	église	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
-10	Saint-Vital-et-Saint-Modeste	Saint-Vital-et-Saint-Modeste	PROPN	_	_	9	compound	_	_
+10	Saint-Vital-et-Saint-Modeste	Saint-Vital-et-Saint-Modeste	PROPN	_	_	9	appos	_	_
 11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 12	Pieve	Pieve	PROPN	_	_	9	appos	_	_
 13	dei	dei	ADP	_	_	14	case	_	_
 14	Santi	Santi	PROPN	_	_	12	nmod	_	_
 15	Vito	Vito	PROPN	_	_	14	flat:name	_	_
 16	e	e	CCONJ	_	_	17	cc	_	_
-17	Modesto	Modesto	PROPN	_	_	15	conj	_	_
+17	Modesto	Modesto	PROPN	_	_	14	conj	_	_
 18	en	en	ADP	_	_	19	case	_	_
 19	italien	italien	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	12	punct	_	_
@@ -87755,12 +87755,12 @@
 8	église	église	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 9	romane	roman	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
-11	à	à	ADP	_	_	14	case	_	_
+11	à	à	ADP	_	_	12	case	_	_
 12	Prats	Prats	PROPN	_	_	10	obl	_	_
 13	i	i	X	_	_	12	flat:name	_	_
 14	Sansor	Sansor	PROPN	_	_	12	flat:name	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	14	punct	_	_
-16	commune	commune	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	_
+15	,	,	PUNCT	_	_	12	punct	_	_
+16	commune	commune	NOUN	_	Gender=Fem|Number=Sing	12	appos	_	_
 17	espagnole	espagnol	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -87838,7 +87838,7 @@
 58	Chủ	Chủ	PROPN	_	_	56	flat:name	_	_
 59	nhật	nhật	PROPN	_	_	56	flat:name	_	_
 60	(	(	PUNCT	_	_	61	punct	_	SpaceAfter=No
-61	Actualités	Actualités	PROPN	_	_	59	appos	_	_
+61	Actualités	Actualités	PROPN	_	_	56	appos	_	_
 62-63	du	_	_	_	_	_	_	_	_
 62	de	de	ADP	_	_	64	case	_	_
 63	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
@@ -91797,7 +91797,7 @@
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	saxophone	saxophone	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	saxophone	saxophone	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 13	ténor	ténor	NOUN	_	Gender=Masc|Number=Sing	12	compound	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	soprano	soprano	NOUN	_	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
@@ -92553,7 +92553,7 @@
 6	avion	avion	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 7	biplace	biplace	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 8	conçu	concevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
-9	par	par	ADP	_	_	11	case	_	_
+9	par	par	ADP	_	_	10	case	_	_
 10	LH	LH	PROPN	_	_	8	obl	_	_
 11	Aviation	Aviation	PROPN	_	_	10	flat:name	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
@@ -110313,7 +110313,7 @@
 14	Directeur	directeur	NOUN	_	Gender=Masc|Number=Sing	13	compound	_	_
 15	Général	général	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 16	Délégué	délégué	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
-17	de	de	ADP	_	_	19	case	_	_
+17	de	de	ADP	_	_	18	case	_	_
 18	BNP	BNP	PROPN	_	_	13	nmod	_	_
 19	Paribas	Paribas	PROPN	_	_	18	flat:name	_	_
 20	en	en	ADP	_	_	21	case	_	_
@@ -120263,7 +120263,7 @@
 17	:	:	PUNCT	_	_	18	punct	_	_
 18	AMC	AMC	PROPN	_	_	5	appos	_	_
 19	Marine	Marine	PROPN	_	_	18	flat:name	_	_
-20	20	20	NUM	_	_	19	nmod	_	SpaceAfter=No
+20	20	20	NUM	_	_	18	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_04302
@@ -136521,7 +136521,7 @@
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 26	Petit	petit	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 27	Manoir	manoir	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
-28	de	de	ADP	_	_	31	case	_	_
+28	de	de	ADP	_	_	29	case	_	_
 29	Poul	Poul	PROPN	_	_	27	nmod	_	_
 30	ar	ar	X	_	_	29	flat:name	_	_
 31	Velin	Velin	PROPN	_	_	29	flat:name	_	SpaceAfter=No
@@ -137474,7 +137474,7 @@
 34	SC	SC	PROPN	_	_	39	nsubj	_	_
 35	Heerenveen	Heerenveen	PROPN	_	_	34	flat:name	_	_
 36	et	et	CCONJ	_	_	37	cc	_	_
-37	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	35	conj	_	_
+37	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	34	conj	_	_
 38	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	39	aux	_	_
 39	parvenus	parvenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	26	ccomp	_	_
 40	à	à	ADP	_	_	42	case	_	_
@@ -148516,7 +148516,7 @@
 3	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	nom	nom	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
-6	de	de	ADP	_	_	9	case	_	_
+6	de	de	ADP	_	_	7	case	_	_
 7	Gueredic	Gueredic	PROPN	_	_	5	nmod	_	_
 8	saint	saint	NOUN	_	Gender=Masc|Number=Sing	7	flat:name	_	_
 9	Hervé	Hervé	PROPN	_	_	7	flat:name	_	SpaceAfter=No
@@ -171214,8 +171214,8 @@
 15	de	de	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	calendrier	calendrier	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-18	de	de	ADP	_	_	21	case	_	_
-19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+18	de	de	ADP	_	_	20	case	_	_
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	UCI	UCI	PROPN	_	_	17	nmod	_	_
 21	Europe	Europe	PROPN	_	_	20	flat:name	_	_
 22	Tour	Tour	PROPN	_	_	20	flat:name	_	SpaceAfter=No
@@ -177471,7 +177471,7 @@
 23	et	et	CCONJ	_	_	26	cc	_	_
 24	par	par	ADP	_	_	26	case	_	_
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
-26	Beatles	Beatles	PROPN	_	_	22	conj	_	SpaceAfter=No
+26	Beatles	Beatles	PROPN	_	_	21	conj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_06339
@@ -181002,8 +181002,8 @@
 # text = Sociétaire du CA Vitry, Henri bénéficia, pour sa première sélection, de toutes les attentions.
 1	Sociétaire	sociétaire	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
 2-3	du	_	_	_	_	_	_	_	_
-2	de	de	ADP	_	_	5	case	_	_
-3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	CA	CA	PROPN	_	_	1	nmod	_	_
 5	Vitry	Vitry	PROPN	_	_	4	flat:name	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
@@ -181217,19 +181217,19 @@
 70	del	del	ADP	_	_	68	flat:name	_	_
 71	Friuli	Friuli	PROPN	_	_	68	flat:name	_	_
 72	(	(	PUNCT	_	_	73	punct	_	SpaceAfter=No
-73	AOC	AOC	X	_	_	71	appos	_	SpaceAfter=No
+73	AOC	AOC	X	_	_	68	appos	_	SpaceAfter=No
 74	)	)	PUNCT	_	_	73	punct	_	SpaceAfter=No
 75	,	,	PUNCT	_	_	77	punct	_	_
 76	de	de	ADP	_	_	77	case	_	_
-77	Sauris	Sauris	PROPN	_	_	71	conj	_	SpaceAfter=No
+77	Sauris	Sauris	PROPN	_	_	68	conj	_	SpaceAfter=No
 78	,	,	PUNCT	_	_	80	punct	_	_
 79	de	de	ADP	_	_	80	case	_	_
-80	Cormons	Cormons	PROPN	_	_	71	conj	_	_
+80	Cormons	Cormons	PROPN	_	_	68	conj	_	_
 81	et	et	CCONJ	_	_	84	cc	_	_
 82-83	du	_	_	_	_	_	_	_	_
 82	de	de	ADP	_	_	84	case	_	_
 83	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	84	det	_	_
-84	Carso	Carso	PROPN	_	_	71	conj	_	SpaceAfter=No
+84	Carso	Carso	PROPN	_	_	68	conj	_	SpaceAfter=No
 85	,	,	PUNCT	_	_	88	punct	_	_
 86	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	88	det	_	_
 87	"	"	PUNCT	_	_	88	punct	_	SpaceAfter=No
@@ -183807,7 +183807,7 @@
 32	même	même	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	_
 33	saison	saison	NOUN	_	Gender=Fem|Number=Sing	29	obl:arg	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	24	punct	_	_
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	CSKA	CSKA	PROPN	_	_	24	appos	_	_
 37	Moscou	Moscou	PROPN	_	_	36	flat:name	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	13	punct	_	_
@@ -192388,9 +192388,9 @@
 1	Après	après	ADP	_	_	3	case	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	fin	fin	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
-4	de	de	ADP	_	_	7	case	_	_
+4	de	de	ADP	_	_	5	case	_	_
 5	Viva	Viva	PROPN	_	_	3	nmod	_	_
-6	La	La	X	_	_	5	flat:name	_	_
+6	La	La	PROPN	_	_	5	flat:name	_	_
 7	Bam	Bam	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	Raab	Raab	PROPN	_	_	12	nsubj	_	_
@@ -195552,7 +195552,7 @@
 41	di	di	ADP	_	_	40	flat:name	_	_
 42	Viareggio	Viareggio	PROPN	_	_	40	flat:name	_	_
 43	(	(	PUNCT	_	_	44	punct	_	SpaceAfter=No
-44	2004	2004	NUM	_	_	42	nmod	_	_
+44	2004	2004	NUM	_	_	40	nmod	_	_
 45	et	et	CCONJ	_	_	46	cc	_	_
 46	2005	2005	NUM	_	_	44	conj	_	SpaceAfter=No
 47	)	)	PUNCT	_	_	44	punct	_	SpaceAfter=No
@@ -196994,7 +196994,7 @@
 7	Jean-Luc	Jean-Luc	PROPN	_	_	3	nmod	_	_
 8	Ettori	Ettori	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	_
-10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	AS	AS	PROPN	_	_	13	nsubj	_	_
 12	Monaco	Monaco	PROPN	_	_	11	flat:name	_	_
 13	effectuera	effectuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -199331,7 +199331,7 @@
 23	Gournay	Gournay	PROPN	_	_	21	flat:name	_	_
 24	et	et	CCONJ	_	_	26	cc	_	_
 25	de	de	ADP	_	_	26	case	_	_
-26	Bertin	Bertin	PROPN	_	_	23	conj	_	SpaceAfter=No
+26	Bertin	Bertin	PROPN	_	_	21	conj	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_07097
@@ -203323,7 +203323,7 @@
 4	dans	dans	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	rubrique	rubrique	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
-7	Intégration	intégration	NOUN	_	Gender=Fem|Number=Sing	6	flat:name	_	_
+7	Intégration	intégration	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 8	à	à	ADP	_	_	9	case	_	_
 9	Facebook	Facebook	PROPN	_	_	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	_
@@ -216517,13 +216517,13 @@
 18	Mane	Mane	PROPN	_	_	14	flat:name	_	_
 19	Niane	Niane	PROPN	_	_	14	flat:name	_	_
 20	Diouf	Diouf	PROPN	_	_	14	flat:name	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	5	punct	_	_
+21	,	,	PUNCT	_	_	6	punct	_	_
 22	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
 23	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
 24	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	cop	_	_
 25	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 26	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	27	amod	_	_
-27	rois	roi	NOUN	_	Gender=Masc|Number=Plur	12	acl:relcl	_	_
+27	rois	roi	NOUN	_	Gender=Masc|Number=Plur	6	acl:relcl	_	_
 28-29	du	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -225901,7 +225901,7 @@
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	Friday	Friday	NOUN	_	_	11	conj	_	_
 19	Night	night	NOUN	_	_	18	nmod	_	_
-20	at	at	ADP	_	_	22	case	_	_
+20	at	at	ADP	_	_	21	case	_	_
 21	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 22	Andrews	Andrews	PROPN	_	_	21	flat:name	_	_
 23	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	_
@@ -229434,7 +229434,7 @@
 23	à	à	ADP	_	_	25	case	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	City	City	PROPN	_	_	22	obl	_	_
-26	pour	pour	ADP	_	_	28	case	_	_
+26	pour	pour	ADP	_	_	27	case	_	_
 27	JP	JP	PROPN	_	_	22	obl	_	_
 28	Morgan	Morgan	PROPN	_	_	27	flat:name	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	8	punct	_	_
@@ -250377,7 +250377,7 @@
 19	pas	pas	ADV	_	Polarity=Neg	18	advmod	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	score	score	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
-22	de	de	ADP	_	_	24	case	_	_
+22	de	de	ADP	_	_	23	case	_	_
 23	F.	F.	PROPN	_	_	21	nmod	_	_
 24	Bayrou	Bayrou	PROPN	_	_	23	flat:name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	21	punct	_	_
@@ -251723,13 +251723,13 @@
 7	31	31	NUM	_	_	4	obl	_	_
 8	Juillet	juillet	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 9	1994	1994	NUM	_	_	8	nmod	_	_
-10	à	à	ADP	_	_	12	case	_	_
+10	à	à	ADP	_	_	11	case	_	_
 11	WCW	WCW	PROPN	_	_	4	obl	_	_
 12	Main	Main	PROPN	_	_	11	flat:name	_	_
 13	Event	Event	PROPN	_	_	11	flat:name	_	_
 14	ou	où	ADV	_	PronType=Rel	16	advmod	_	_
 15	Steamboat	Steamboat	PROPN	_	_	16	nsubj	_	_
-16	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+16	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
 17	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
 18	avec	avec	ADP	_	_	19	case	_	_
 19	Sting	Sting	PROPN	_	_	17	nmod	_	_
@@ -266265,8 +266265,8 @@
 14	exil	exil	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 15	Jorge	Jorge	PROPN	_	_	11	appos	_	_
 16	Pérez	Pérez	PROPN	_	_	15	flat:name	_	_
-17	y	y	CCONJ	_	_	16	flat:name	_	_
-18	Guillermo	Guillermo	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+17	y	y	CCONJ	_	_	15	flat:name	_	_
+18	Guillermo	Guillermo	PROPN	_	_	15	flat:name	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_09466
@@ -272610,14 +272610,14 @@
 16	successivement	successivement	ADV	_	_	18	advmod	_	_
 17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
 18	dirigée	diriger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-19	par	par	ADP	_	_	22	case	_	_
+19	par	par	ADP	_	_	21	case	_	_
 20	:	:	PUNCT	_	_	19	punct	_	_
-21	José	José	PROPN	_	_	18	obl	_	_
+21	José	José	PROPN	_	_	18	obl:agent	_	_
 22	Tirondelli	Tirondelli	PROPN	_	_	21	flat:name	_	_
 23	-	-	PUNCT	_	_	22	punct	_	_
 24	1963	1963	NUM	_	_	21	nmod	_	SpaceAfter=No
 25	;	;	PUNCT	_	_	26	punct	_	_
-26	José	José	PROPN	_	_	18	obl	_	_
+26	José	José	PROPN	_	_	21	conj	_	_
 27	Merísio	Merísio	PROPN	_	_	26	flat:name	_	_
 28	-	-	PUNCT	_	_	29	punct	_	_
 29	1963	1963	NUM	_	_	26	nmod	_	_
@@ -277454,14 +277454,14 @@
 8	II	II	NUM	_	_	7	nmod	_	_
 9	Descartes	Descartes	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
 12	«	«	PUNCT	_	_	13	punct	_	_
 13	Descartes	Descartes	PROPN	_	_	11	obj	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	Chavagne	Chavagne	PROPN	_	_	13	nmod	_	_
 16	»	»	PUNCT	_	_	13	punct	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	9	punct	_	_
-18	conseiller	conseiller	NOUN	_	Gender=Masc|Number=Sing	9	appos	_	_
+17	,	,	PUNCT	_	_	7	punct	_	_
+18	conseiller	conseiller	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
 19-20	au	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -277473,7 +277473,7 @@
 26	à	à	ADP	_	_	27	case	_	_
 27	1678	1678	NUM	_	_	18	nmod	_	_
 28	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
-29	mort	mourir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+29	mort	mourir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
 30	en	en	ADP	_	_	31	case	_	_
 31	1680	1680	NUM	_	_	29	obl	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	29	punct	_	SpaceAfter=No
@@ -278274,7 +278274,7 @@
 23	Musketeer	Musketeer	PROPN	_	_	22	flat:name	_	_
 24	Custom	Custom	PROPN	_	_	22	flat:name	_	_
 25	de	de	ADP	_	_	26	case	_	_
-26	1968	1968	NUM	_	_	23	nmod	_	SpaceAfter=No
+26	1968	1968	NUM	_	_	22	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_09890
@@ -323468,9 +323468,9 @@
 19	et	et	CCONJ	_	_	20	cc	_	_
 20	SK	SK	PROPN	_	_	16	conj	_	_
 21	Telecom	Telecom	PROPN	_	_	20	flat:name	_	SpaceAfter=No
-22	,	,	PUNCT	_	_	4	punct	_	_
+22	,	,	PUNCT	_	_	20	punct	_	_
 23	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
-24	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	21	appos	_	_
+24	dernière	dernier	NOUN	_	Gender=Fem|Number=Sing	20	appos	_	_
 25	détenant	détenir	VERB	_	Tense=Pres|VerbForm=Part	24	acl	_	_
 26	51	51	NUM	_	_	27	nummod	_	SpaceAfter=No
 27	%	%	SYM	_	_	25	obj	_	SpaceAfter=No
@@ -327561,7 +327561,7 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	première	premier	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 7	fois	fois	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
-8	dans	dans	ADP	_	_	14	case	_	_
+8	dans	dans	ADP	_	_	9	case	_	_
 9	Motion	Motion	PROPN	_	_	3	obl	_	Foreign=en
 10	Picture	Picture	PROPN	_	_	9	flat:name	_	Foreign=en
 11	Funnies	Funnies	PROPN	_	_	9	flat:name	_	Foreign=en
@@ -329003,9 +329003,9 @@
 # text = Le premier champion fut le FC 1900 Königsberg.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	premier	premier	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-3	champion	champion	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
-4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+3	champion	champion	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	FC	FC	PROPN	_	_	0	root	_	_
 7	1900	1900	NUM	_	_	6	flat:name	_	_
 8	Königsberg	Königsberg	PROPN	_	_	6	flat:name	_	SpaceAfter=No
@@ -366020,7 +366020,7 @@
 19	Attel	Attel	PROPN	_	_	11	appos	_	_
 20	Malagate	Malagate	PROPN	_	_	19	flat:name	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	prince	prince	NOUN	_	Gender=Masc|Number=Sing	20	appos	_	_
+22	prince	prince	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	_
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
@@ -366029,7 +366029,7 @@
 27	et	et	CCONJ	_	_	28	cc	_	_
 28	reclus	reclus	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
-30	Kokor	Kokor	PROPN	_	_	20	conj	_	_
+30	Kokor	Kokor	PROPN	_	_	19	conj	_	_
 31	Hekkus	Hekkus	PROPN	_	_	30	flat:name	_	_
 32	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
 33	immortel	immortel	NOUN	_	Gender=Masc|Number=Sing	30	appos	_	_
@@ -366051,7 +366051,7 @@
 49	à	à	ADP	_	_	50	mark	_	_
 50	tuer	tuer	VERB	_	VerbForm=Inf	48	acl	_	SpaceAfter=No
 51	,	,	PUNCT	_	_	52	punct	_	_
-52	Viole	Viole	PROPN	_	_	20	conj	_	_
+52	Viole	Viole	PROPN	_	_	19	conj	_	_
 53	Falushe	Falushe	PROPN	_	_	52	flat:name	_	_
 54	qui	qui	PRON	_	PronType=Rel	60	nsubj	_	_
 55	sur	sur	ADP	_	_	57	case	_	_
@@ -366059,7 +366059,7 @@
 57	planète	planète	NOUN	_	Gender=Fem|Number=Sing	60	obl:mod	_	_
 58	s'	se	PRON	_	Person=3|PronType=Prs	60	iobj	_	SpaceAfter=No
 59	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	60	aux	_	_
-60	bâti	bâtir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	53	acl:relcl	_	_
+60	bâti	bâtir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	acl:relcl	_	_
 61	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
 62	monde	monde	NOUN	_	Gender=Masc|Number=Sing	60	obj	_	_
 63	d'	de	ADP	_	_	64	case	_	SpaceAfter=No
@@ -366081,7 +366081,7 @@
 79	moyens	moyen	NOUN	_	Gender=Masc|Number=Plur	73	obl:mod	_	_
 80	possibles	possible	ADJ	_	Gender=Masc|Number=Plur	79	amod	_	SpaceAfter=No
 81	,	,	PUNCT	_	_	82	punct	_	_
-82	Lens	Lens	PROPN	_	_	20	conj	_	_
+82	Lens	Lens	PROPN	_	_	19	conj	_	_
 83	Larque	Larque	PROPN	_	_	82	flat:name	_	SpaceAfter=No
 84	,	,	PUNCT	_	_	82	punct	_	_
 85	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	_
@@ -366114,9 +366114,9 @@
 109	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	110	det	_	_
 110	visage	visage	NOUN	_	Gender=Masc|Number=Sing	105	obj	_	_
 111	repoussant	repoussant	ADJ	_	Gender=Masc|Number=Sing	110	amod	_	SpaceAfter=No
-112	,	,	PUNCT	_	_	20	punct	_	_
+112	,	,	PUNCT	_	_	19	punct	_	_
 113	et	et	CCONJ	_	_	114	cc	_	_
-114	Howard	Howard	PROPN	_	_	20	conj	_	_
+114	Howard	Howard	PROPN	_	_	19	conj	_	_
 115	Alan	Alan	PROPN	_	_	114	flat:name	_	_
 116	Treesong	Treesong	PROPN	_	_	114	flat:name	_	SpaceAfter=No
 117	,	,	PUNCT	_	_	114	punct	_	_
@@ -367712,8 +367712,8 @@
 29	Claude-Henri	Claude-Henri	PROPN	_	_	27	nmod	_	_
 30	de	de	ADP	_	_	29	flat:name	_	_
 31	Fusée	Fusée	PROPN	_	_	29	flat:name	_	_
-32	de	de	ADP	_	_	33	case	_	_
-33	Voisenon	Voisenon	PROPN	_	_	31	nmod	_	SpaceAfter=No
+32	de	de	ADP	_	_	29	flat:name	_	_
+33	Voisenon	Voisenon	PROPN	_	_	29	flat:name	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_13065
@@ -377812,7 +377812,7 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	polar	polar	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 12	méditerranéen	méditerranéen	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
-13	de	de	ADP	_	_	16	case	_	_
+13	de	de	ADP	_	_	14	case	_	_
 14	Villeneuve	Villeneuve	PROPN	_	_	8	nmod	_	_
 15	lez	lez	X	_	_	14	flat:name	_	_
 16	Avignon	Avignon	PROPN	_	_	14	flat:name	_	_
@@ -401505,12 +401505,12 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	cérémonie	cérémonie	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 3-4	des	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	7	case	_	_
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-5	9èmes	9ème	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
-6	Latin	Latin	ADJ	_	_	8	amod	_	_
-7	Grammy	Grammy	PROPN	_	_	2	nmod	_	_
-8	Awards	Awards	PROPN	_	_	7	flat:name	_	_
+3	de	de	ADP	_	_	6	case	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+5	9èmes	9ème	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+6	Latin	Latin	PROPN	_	_	2	nmod	_	_
+7	Grammy	Grammy	PROPN	_	_	6	flat:name	_	_
+8	Awards	Awards	PROPN	_	_	6	flat:name	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
