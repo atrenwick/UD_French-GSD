@@ -9216,7 +9216,7 @@
 1	I	I	PROPN	_	_	9	nsubj	_	_
 2	Carinae	Carinae	PROPN	_	_	1	flat:name	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	I	I	NUM	_	_	1	appos	_	_
+4	I	I	PROPN	_	_	1	appos	_	_
 5	Car	Car	PROPN	_	_	4	flat:name	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	4	punct	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -262009,11 +262009,11 @@
 28	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
 29	indifférents	indifférent	ADJ	_	Gender=Masc|Number=Plur	17	advcl	_	_
 30	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
-31	uns	un	PRON	_	Gender=Masc|Number=Plur	29	obl	_	_
+31	uns	un	PRON	_	Gender=Masc|Number=Plur	29	obl:mod	_	_
 32-33	aux	_	_	_	_	_	_	_	_
 32	à	à	ADP	_	_	34	case	_	_
 33	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
-34	autres	autre	PRON	_	Number=Plur	29	obl	_	SpaceAfter=No
+34	autres	autre	PRON	_	Number=Plur	31	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_09310
@@ -387093,9 +387093,9 @@
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 18	de	de	ADP	_	_	19	case	_	_
-19	Singapour	Singapour	PROPN	_	_	17	nmod	_	_
+19	Singapour	Singapour	PROPN	_	_	15	obl:arg	_	_
 20	à	à	ADP	_	_	21	case	_	_
-21	Darwin	Darwin	PROPN	_	_	15	obl	_	SpaceAfter=No
+21	Darwin	Darwin	PROPN	_	_	15	obl:arg	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	5	punct	_	_
 23	bien	bien	ADV	_	_	25	mark	_	MWEPOS=SCONJ
 24	qu'	que	SCONJ	_	_	23	fixed	_	SpaceAfter=No
