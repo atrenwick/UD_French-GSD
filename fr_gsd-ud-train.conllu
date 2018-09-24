@@ -14266,7 +14266,7 @@
 6	couteux	coûteux	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	en	en	ADP	_	_	9	case	_	_
-9	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+9	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	12	advmod	_	_
 10	pour	pour	ADP	_	_	12	case	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	nation	nation	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
@@ -28510,7 +28510,7 @@
 25	académiques	académique	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	24	punct	_	_
 27	en	en	ADP	_	_	28	case	_	_
-28	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	24	advmod	_	_
+28	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	31	advmod	_	_
 29	contre	contre	ADP	_	_	31	case	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	théorie	théorie	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
@@ -49433,7 +49433,7 @@
 9	accidents	accident	NOUN	_	Gender=Masc|Number=Plur	5	obl:agent	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	en	en	ADP	_	_	12	case	_	_
-12	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
+12	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	14	advmod	_	_
 13	chez	chez	ADP	_	_	14	case	_	_
 14	Ferrari	Ferrari	PROPN	_	_	5	obl	_	_
 15	où	où	ADV	_	_	23	advmod	_	SpaceAfter=No
@@ -62050,7 +62050,7 @@
 2	cantons	canton	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	en	en	ADP	_	_	5	case	_	_
-5	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	7	obl:mod	_	SpaceAfter=No
+5	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	7	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	pourraient	pouvoir	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	comprendre	comprendre	VERB	_	VerbForm=Inf	7	xcomp	_	_
@@ -76129,7 +76129,7 @@
 # text = La réalité en est malheureusement toute différente.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
-3	en	en	PRON	_	Person=3	7	expl	_	_
+3	en	en	PRON	_	Person=3	7	iobj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	malheureusement	malheureusement	ADV	_	_	7	advmod	_	_
 6	toute	tout	ADV	_	_	7	advmod	_	_
@@ -107104,7 +107104,7 @@
 49	de	de	ADP	_	_	51	case	_	_
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	pays	pays	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	_
-52	en	en	PRON	_	Person=3	54	obl	_	_
+52	en	en	PRON	_	Person=3	54	iobj	_	_
 53	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	cop	_	_
 54	privée	privé	ADJ	_	Gender=Fem|Number=Sing	37	ccomp	_	SpaceAfter=No
 55	.	.	PUNCT	_	_	13	punct	_	_
@@ -136955,8 +136955,8 @@
 
 # sent_id = fr-ud-train_04896
 # text = En définitive, il acheva et fit représenter son Catilina (1748), avec une grande magnificence.
-1	En	en	ADP	_	_	2	case	_	_
-2	définitive	définitif	ADJ	_	Gender=Fem|Number=Sing	5	advmod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	définitive	définitif	ADJ	_	Gender=Fem|Number=Sing	5	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	acheva	achever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -151414,7 +151414,7 @@
 # sent_id = fr-ud-train_05406
 # text = j'en suis très contente.
 1	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
-2	en	en	PRON	_	Person=3	5	obl	_	_
+2	en	en	PRON	_	Person=3	5	iobj	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	très	très	ADV	_	_	5	advmod	_	_
 5	contente	content	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -179234,11 +179234,11 @@
 8	de	de	ADP	_	_	9	case	_	INMWE=Yes
 9	suite	suite	NOUN	_	Gender=Fem|Number=Sing	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 10	,	,	PUNCT	_	_	6	punct	_	_
-11	en	en	ADP	_	_	13	case	_	_
-12	«	«	PUNCT	_	_	13	punct	_	_
+11	en	en	ADP	_	_	14	case	_	_
+12	«	«	PUNCT	_	_	14	punct	_	_
 13	ready	ready	ADJ	_	_	14	advmod	_	Foreign=en
 14	made	make	VERB	_	_	6	acl	_	Foreign=en
-15	»	»	PUNCT	_	_	13	punct	_	SpaceAfter=No
+15	»	»	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	2	punct	_	_
 17	comme	comme	ADP	_	_	19	case	_	_
 18	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
@@ -202610,7 +202610,7 @@
 22	humanité	humanité	NOUN	_	Gender=Fem|Number=Sing	27	nsubj	_	_
 23	toute	toute	ADV	_	_	24	advmod	_	_
 24	entière	entier	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
-25	en	en	PRON	_	Person=3	27	obl	_	_
+25	en	en	PRON	_	Person=3	27	iobj	_	_
 26	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	cop	_	_
 27	responsable	responsable	ADJ	_	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	19	punct	_	_
@@ -215000,7 +215000,7 @@
 18	,	,	PUNCT	_	_	11	punct	_	_
 19	utilisée	utiliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
 20	en	en	ADP	_	_	21	case	_	_
-21	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	19	obl:mod	_	_
+21	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	19	advmod	_	_
 22	dans	dans	ADP	_	_	24	case	_	_
 23	certaines	certain	DET	_	Gender=Fem|Number=Plur	24	det	_	_
 24	peintures	peinture	NOUN	_	Gender=Fem|Number=Plur	19	obl:mod	_	_
@@ -222609,8 +222609,8 @@
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 16	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux:pass	_	_
 17	envoyée	envoyer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-18	en	en	ADP	_	_	19	case	_	_
-19	vain	vain	ADJ	_	Gender=Masc|Number=Sing	17	advmod	_	_
+18	en	en	ADP	_	_	19	case	_	INMWE=Yes
+19	vain	vain	ADJ	_	Gender=Masc|Number=Sing	17	advmod	_	MWEPOS=ADV
 20	pour	pour	ADP	_	_	23	mark	_	_
 21	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	23	obj	_	_
 22	en	en	PRON	_	Person=3	23	iobj	_	_
@@ -241530,8 +241530,8 @@
 8	Confédérés	confédérés	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 9	tentèrent	tenter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	en	en	ADP	_	_	12	case	_	_
-12	vain	vain	ADJ	_	Gender=Masc|Number=Sing	9	advmod	_	SpaceAfter=No
+11	en	en	ADP	_	_	12	case	_	INMWE=Yes
+12	vain	vain	ADJ	_	Gender=Masc|Number=Sing	9	advmod	_	MWEPOS=ADV|SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	de	de	ADP	_	_	15	mark	_	_
 15	renommer	renommer	VERB	_	VerbForm=Inf	9	xcomp	_	_
@@ -266766,8 +266766,8 @@
 24	1795	1795	NUM	_	_	23	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	tente	tenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
-27	en	en	ADP	_	_	28	case	_	_
-28	vain	vain	ADJ	_	Gender=Masc|Number=Sing	26	advmod	_	_
+27	en	en	ADP	_	_	28	case	_	INMWE=Yes
+28	vain	vain	ADJ	_	Gender=Masc|Number=Sing	26	advmod	_	MWEPOS=ADV
 29	d'	de	ADP	_	_	30	mark	_	SpaceAfter=No
 30	intervenir	intervenir	VERB	_	VerbForm=Inf	26	xcomp	_	_
 31	auprès	auprès	ADV	_	_	30	obl	_	_
@@ -274177,12 +274177,12 @@
 50	rondes	rond	ADJ	_	Gender=Fem|Number=Plur	49	amod	_	SpaceAfter=No
 51	,	,	PUNCT	_	_	49	punct	_	_
 52	en	en	ADP	_	_	53	case	_	_
-53	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	49	advmod	_	_
-54	au-dessus	au-dessus	ADP	_	_	57	case	_	_
+53	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	54	advmod	_	_
+54	au-dessus	au-dessus	ADP	_	_	45	advmod	_	_
 55-56	des	_	_	_	_	_	_	_	_
-55	de	de	ADP	_	_	54	fixed	_	_
+55	de	de	ADP	_	_	57	case	_	_
 56	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	_	_
-57	portes	porte	NOUN	_	Gender=Fem|Number=Plur	49	nmod	_	_
+57	portes	porte	NOUN	_	Gender=Fem|Number=Plur	54	obl:arg	_	_
 58	et	et	CCONJ	_	_	61	cc	_	_
 59-60	des	_	_	_	_	_	_	_	_
 59	de	de	ADP	_	_	61	case	_	_
@@ -301483,8 +301483,8 @@
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	après	après	ADP	_	_	13	mark	_	_
 10	avoir	avoir	AUX	_	VerbForm=Inf	13	aux	_	_
-11	en	en	ADP	_	_	12	case	_	_
-12	vain	vain	ADJ	_	Gender=Masc|Number=Sing	13	advmod	_	_
+11	en	en	ADP	_	_	12	case	_	INMWE=Yes
+12	vain	vain	ADJ	_	Gender=Masc|Number=Sing	13	advmod	_	MWEPOS=ADV
 13	multiplié	multiplier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	recours	recours	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
@@ -380958,7 +380958,7 @@
 27	protestants	protestant	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	26	punct	_	_
 29	en	en	ADP	_	_	30	case	_	_
-30	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	32	obl:mod	_	_
+30	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	32	advmod	_	_
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	ex-jésuite	ex-jésuite	ADJ	_	Gender=Masc|Number=Sing	33	amod	_	_
 33	Marco	Marco	PROPN	_	_	26	appos	_	_
@@ -385080,7 +385080,7 @@
 1	Tout	tout	DET	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	monde	monde	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
-4	en	en	PRON	_	_	7	obl:arg	_	_
+4	en	en	PRON	_	_	7	iobj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	extrêmement	extrêmement	ADV	_	_	7	advmod	_	_
 7	conscient	conscient	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -399281,7 +399281,7 @@
 # sent_id = fr-ud-train_14174
 # text = En particulier lorsque ce dernier, en fonction de son expérience catholique, souhaitait être baptisé.
 1	En	en	ADP	_	_	2	case	_	_
-2	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+2	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	14	advmod	_	_
 3	lorsque	lorsque	SCONJ	_	_	14	mark	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	dernier	dernier	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
