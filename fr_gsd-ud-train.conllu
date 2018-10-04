@@ -129794,23 +129794,25 @@
 31	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_04642
-# text = Beaucoup sont massacrés à travers par les troupes plus fraîches et plus rapides de Norfolk.
+# text = Beaucoup sont massacrés à travers Bloody Meadow par les troupes plus fraîches et plus rapides de Norfolk.
 1	Beaucoup	beaucoup	PRON	_	_	3	nsubj:pass	_	_
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	massacrés	massacrer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-4	à	à	ADP	_	_	5	case	_	_
-5	travers	travers	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
-6	par	par	ADP	_	_	8	case	_	_
-7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
-8	troupes	troupe	NOUN	_	Gender=Fem|Number=Plur	3	obl:agent	_	_
-9	plus	plus	ADV	_	_	10	advmod	_	_
-10	fraîches	frais	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
-11	et	et	CCONJ	_	_	13	cc	_	_
-12	plus	plus	ADV	_	_	13	advmod	_	_
-13	rapides	rapide	ADJ	_	Gender=Fem|Number=Plur	10	conj	_	_
-14	de	de	ADP	_	_	15	case	_	_
-15	Norfolk	Norfolk	PROPN	_	_	8	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	3	punct	_	_
+4	à	à	ADP	_	_	5	case	_	INMWE=Yes
+5	travers	travers	NOUN	_	Gender=Masc|Number=Sing	6	case	_	MWEPOS=ADP
+6	Bloody	Bloody	PROPN	_	_	3	obl:mod	_	_
+7	Meadow	Meadow	PROPN	_	_	6	flat:name	_	_
+8	par	par	ADP	_	_	10	case	_	_
+9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	troupes	troupe	NOUN	_	Gender=Fem|Number=Plur	3	obl:agent	_	_
+11	plus	plus	ADV	_	_	12	advmod	_	_
+12	fraîches	frais	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+13	et	et	CCONJ	_	_	15	cc	_	_
+14	plus	plus	ADV	_	_	15	advmod	_	_
+15	rapides	rapide	ADJ	_	Gender=Fem|Number=Plur	12	conj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Norfolk	Norfolk	PROPN	_	_	10	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_04643
 # text = Je conseille d'essayer une autre boutique.
