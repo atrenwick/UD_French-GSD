@@ -36700,21 +36700,20 @@
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	seul	seul	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 16	régiment	régiment	NOUN	_	Gender=Masc|Number=Sing	11	obl:agent	_	_
-17	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
-18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-19	26	26	NUM	_	_	21	nummod	_	SpaceAfter=No
-20	°	°	SYM	_	_	21	compound	_	_
-21	North	North	PROPN	_	_	16	appos	_	_
-22	Carolina	Carolina	PROPN	_	_	21	flat:name	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	21	punct	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	16	punct	_	_
-25	renforcé	renforcer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
-26	de	de	ADP	_	_	28	case	_	_
-27	quelques	quelque	DET	_	Gender=Fem|Number=Plur	28	det	_	_
-28	compagnies	compagnie	NOUN	_	Gender=Fem|Number=Plur	25	obl:agent	_	_
-29	de	de	ADP	_	_	30	case	_	_
-30	cavalerie	cavalerie	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	11	punct	_	_
+17	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	26°	26°	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+20	North	North	PROPN	_	_	16	appos	_	_
+21	Carolina	Carolina	PROPN	_	_	20	flat:name	_	SpaceAfter=No
+22	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	16	punct	_	_
+24	renforcé	renforcer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	quelques	quelque	DET	_	Gender=Fem|Number=Plur	27	det	_	_
+27	compagnies	compagnie	NOUN	_	Gender=Fem|Number=Plur	24	obl:agent	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	cavalerie	cavalerie	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-train_01297
 # text = Sous la pression de la vieille garde du régime, en particulier Khaddam qui craint l'« algérisation » de la Syrie, Assad met fin à ce mouvement libéral en déclarant qu'il est des limites à ne pas franchir.
@@ -44254,7 +44253,7 @@
 6	français	français	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	1er	1er	ADJ	_	Gender=Masc|Number=Sing	7	obl	_	_
+9	1er	1er	NUM	_	_	7	obl	_	_
 10	août	août	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 11	1974	1974	NUM	_	_	10	nmod	_	_
 12	à	à	ADP	_	_	13	case	_	_
@@ -64014,7 +64013,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	1er	1er	NUM	_	_	5	obl	_	_
+7	1er	1er	ADJ	_	Gender=Masc|Number=Sing	5	obl	_	_
 8	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 9	1942	1942	NUM	_	_	8	nmod	_	_
 10	à	à	ADP	_	_	11	case	_	_
@@ -216149,7 +216148,7 @@
 19	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 20	à	à	ADP	_	_	23	case	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-22	3e	3e	NUM	_	_	23	nummod	_	_
+22	3e	3e	ADJ	_	Gender=Fem|Number=Sing	23	nummod	_	_
 23	flotte	flotte	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	_
 24	sur	sur	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -270327,7 +270326,7 @@
 30	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det	_	_
 31	co-équipier	co-équipier	NOUN	_	Gender=Masc|Number=Sing	27	obl:mod	_	SpaceAfter=No
 32	)	)	PUNCT	_	_	31	punct	_	_
-33	2e	2e	NUM	_	_	27	xcomp	_	SpaceAfter=No
+33	2e	2e	ADJ	_	Gender=Masc|Number=Sing	27	xcomp	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	21	punct	_	_
 35	ou	ou	CCONJ	_	_	38	cc	_	_
 36	sur	sur	ADP	_	_	38	case	_	_
@@ -323861,12 +323860,12 @@
 3	1er	1er	NUM	_	_	19	obl:mod	_	_
 4	juin	juin	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 5	2010	2010	NUM	_	_	4	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	19	punct	_	_
+6	,	,	PUNCT	_	_	3	punct	_	_
 7	et	et	CCONJ	_	_	10	cc	_	_
 8	pendant	pendant	ADP	_	_	10	case	_	_
 9	36	36	NUM	_	_	10	nummod	_	_
 10	mois	mois	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	19	punct	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
 12	Océanide	Océanide	PROPN	_	_	19	nsubj	_	_
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
