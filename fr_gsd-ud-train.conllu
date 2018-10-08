@@ -78510,7 +78510,7 @@
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_02792
-# text = Le canton de Villamblard groupe 17 communes et compte habitants (population municipale) au janvier 2009.
+# text = Le canton de Villamblard groupe 17 communes et compte 5 555 habitants (population municipale) au 1er janvier 2009.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	canton	canton	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -78520,17 +78520,19 @@
 7	communes	commune	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-10	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
-11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	population	population	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
-13	municipale	municipal	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	12	punct	_	_
-15-16	au	_	_	_	_	_	_	_	_
-15	à	à	ADP	_	_	17	case	_	_
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
-18	2009	2009	NUM	_	_	17	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	5	punct	_	_
+10	5 555	5 555	NUM	_	_	11	nummod	_	_
+11	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	population	population	NOUN	_	Gender=Fem|Number=Sing	11	appos	_	_
+14	municipale	municipal	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	13	punct	_	_
+16-17	au	_	_	_	_	_	_	_	_
+16	à	à	ADP	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	1er	1er	NUM	_	_	9	obl:mod	_	_
+19	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+20	2009	2009	NUM	_	_	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_02793
 # text = Il a été le premier des Somoza à diriger le pays.
@@ -97447,7 +97449,7 @@
 13	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_03466
-# text = Le canton de Mauléon groupe 5 communes et compte habitants (population municipale) au janvier 2009.
+# text = Le canton de Mauléon groupe 5 communes et compte 16 851 habitants (population municipale) au 1er janvier 2009.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	canton	canton	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -97457,17 +97459,19 @@
 7	communes	commune	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-10	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
-11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	population	population	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
-13	municipale	municipal	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	12	punct	_	_
-15-16	au	_	_	_	_	_	_	_	_
-15	à	à	ADP	_	_	17	case	_	_
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
-18	2009	2009	NUM	_	_	17	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	5	punct	_	_
+10	16 851	16 851	NUM	_	_	11	nummod	_	_
+11	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	population	population	NOUN	_	Gender=Fem|Number=Sing	11	appos	_	_
+14	municipale	municipal	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	13	punct	_	_
+16-17	au	_	_	_	_	_	_	_	_
+16	à	à	ADP	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	1er	1er	NUM	_	_	9	obl:mod	_	_
+19	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+20	2009	2009	NUM	_	_	19	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_03467
 # text = Enfin, en matière d'éducation, la partie algérienne transmettra à la partie tanzanienne un quota de bourses pour l'année universitaire 2011-2012.
@@ -115471,7 +115475,7 @@
 12	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_04133
-# text = La communauté de communes du Grand Ligueillois comptait habitants (population légale INSEE) au 2007.
+# text = La communauté de communes du Grand Ligueillois comptait 9 577 habitants (population légale INSEE) au 1er janvier 2007.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	communauté	communauté	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -115482,17 +115486,20 @@
 7	Grand	Grand	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 8	Ligueillois	Ligueillois	PROPN	_	_	2	nmod	_	_
 9	comptait	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-10	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
-11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	population	population	NOUN	_	Gender=Fem|Number=Sing	10	appos	_	_
-13	légale	légal	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
-14	INSEE	INSEE	PROPN	_	_	12	appos	_	SpaceAfter=No
-15	)	)	PUNCT	_	_	12	punct	_	_
-16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	_	18	case	_	_
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	2007	2007	NUM	_	_	9	obl:mod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	9	punct	_	_
+10	9 577	9 577	NUM	_	_	11	nummod	_	_
+11	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	population	population	NOUN	_	Gender=Fem|Number=Sing	11	appos	_	_
+14	légale	légal	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	INSEE	INSEE	PROPN	_	_	13	appos	_	SpaceAfter=No
+16	)	)	PUNCT	_	_	13	punct	_	_
+17-18	au	_	_	_	_	_	_	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	1er	1er	NUM	_	_	9	obl:mod	_	_
+20	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+21	2007	2007	NUM	_	_	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_04134
 # text = Les frontières ouest (la Saône) et nord du futur département sont alors fixées et ont constitué une limite culturelle entre le nord (langue d'oïl) et le sud (franco-provençal).
@@ -166005,7 +166012,7 @@
 23	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_05918
-# text = Le maximum de la population a été atteint 2006 avec habitants.
+# text = Le maximum de la population a été atteint 2006 avec 6 344 habitants.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	maximum	maximum	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -166014,10 +166021,11 @@
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	atteint	atteindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	2006	2006	NUM	_	_	8	obl	_	_
-10	avec	avec	ADP	_	_	11	case	_	_
-11	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	8	punct	_	_
+9	2006	2006	NUM	_	_	8	obl:mod	_	_
+10	avec	avec	ADP	_	_	12	case	_	_
+11	6 344	6 344	NUM	_	_	12	nummod	_	_
+12	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_05919
 # text = Après l'incendie, le conseil municipal annonce un concours international pour concevoir un nouveau bâtiment pour le théâtre d'opéra à Kiev.
@@ -179510,7 +179518,7 @@
 67	.	.	PUNCT	_	_	34	punct	_	_
 
 # sent_id = fr-ud-train_06405
-# text = Selon l'Office fédéral de la statistique, Adelboden possède habitants en 2008.
+# text = Selon l'Office fédéral de la statistique, Adelboden possède 3 618 habitants en 2008.
 1	Selon	selon	ADP	_	_	3	case	_	_
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	Office	Office	PROPN	_	_	10	obl:mod	_	_
@@ -179521,10 +179529,11 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	Adelboden	Adelboden	PROPN	_	_	10	nsubj	_	_
 10	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
-12	en	en	ADP	_	_	13	case	_	_
-13	2008	2008	NUM	_	_	10	obl	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	10	punct	_	_
+11	3 618	3 618	NUM	_	_	12	nummod	_	_
+12	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13	en	en	ADP	_	_	14	case	_	_
+14	2008	2008	NUM	_	_	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_06406
 # text = Maîtrise divine sur le chaos ?
@@ -311158,23 +311167,26 @@
 30	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_11109
-# text = Sur habitants, le Loiret compte en 2004, emplois non salariés et emplois salariés.
-1	Sur	sur	ADP	_	_	2	case	_	_
-2	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	6	punct	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Loiret	Loiret	PROPN	_	_	6	nsubj	_	_
-6	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	en	en	ADP	_	_	8	case	_	_
-8	2004	2004	NUM	_	_	6	obl	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	6	punct	_	_
-10	emplois	emploi	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
-11	non	non	ADV	_	_	12	advmod	_	_
-12	salariés	salarié	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
-13	et	et	CCONJ	_	_	14	cc	_	_
-14	emplois	emploi	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
-15	salariés	salarié	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	6	punct	_	_
+# text = Sur 633 400 habitants, le Loiret compte en 2004, 18 424 emplois non salariés et 251 888 emplois salariés.
+1	Sur	sur	ADP	_	_	3	case	_	_
+2	633 400	633 400	NUM	_	_	3	nummod	_	_
+3	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	7	obl:mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Loiret	Loiret	PROPN	_	_	7	nsubj	_	_
+7	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	en	en	ADP	_	_	9	case	_	_
+9	2004	2004	NUM	_	_	7	obl:mod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	18 424	18 424	NUM	_	_	12	nummod	_	_
+12	emplois	emploi	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+13	non	non	ADV	_	_	14	advmod	_	_
+14	salariés	salarié	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+15	et	et	CCONJ	_	_	17	cc	_	_
+16	251 888	251 888	NUM	_	_	17	nummod	_	_
+17	emplois	emploi	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
+18	salariés	salarié	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_11110
 # text = L'article 28 interdit les restrictions quantitatives ou mesures équivalentes, ici la CJCE va plus loin.
@@ -332546,17 +332558,18 @@
 21	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_11847
-# text = Fondée en 1925, elle compte habitants en 2008.
-1	Fondée	fonder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+# text = Fondée en 1925, elle compte 2 529 habitants en 2008.
+1	Fondée	fonder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
 2	en	en	ADP	_	_	3	case	_	_
-3	1925	1925	NUM	_	_	1	obl	_	SpaceAfter=No
+3	1925	1925	NUM	_	_	1	obl:arg	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
-8	en	en	ADP	_	_	9	case	_	_
-9	2008	2008	NUM	_	_	6	obl	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	6	punct	_	_
+7	2 529	2 529	NUM	_	_	8	nummod	_	_
+8	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+9	en	en	ADP	_	_	10	case	_	_
+10	2008	2008	NUM	_	_	6	obl:mod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_11848
 # text = L'initiative a été déposée le 5 novembre de l'année suivante à la chancellerie fédérale qui l'a déclarée valide le 9 décembre.
