@@ -35363,7 +35363,7 @@
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	25,6	25,6	NUM	_	_	10	nummod	_	_
-10	millions	millions	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+10	millions	million	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 12	euros	euro	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
 13	;	;	PUNCT	_	_	10	punct	_	_
@@ -36649,7 +36649,7 @@
 5	chercheurs	chercheur	NOUN	_	Gender=Masc|Number=Plur	17	obl:mod	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
-8	université	université	PROPN	_	_	5	nmod	_	_
+8	université	université	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	Glasgow	Glasgow	PROPN	_	_	8	nmod	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -73037,7 +73037,7 @@
 15	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_02593
-# text = Jean-Jacques Rousseau lui rendit visite pour ses 80 ans et il le reçut en entonnant d'une voix puissante le Nunc dimittis servum tuum, Domine ce qui fit dire à Rousseau en se retirant : Il mourut dans la gêne à l'âge de quatre-vingt-quatre ans en 1773.
+# text = Jean-Jacques Rousseau lui rendit visite pour ses 80 ans et il le reçut en entonnant d'une voix puissante le Nunc dimittis servum tuum, Domine ce qui fit dire à Rousseau en se retirant : « C'est la Pythie sur son trépied » Il mourut dans la gêne à l'âge de quatre-vingt-quatre ans en 1773.
 1	Jean-Jacques	Jean-Jacques	PROPN	_	_	4	nsubj	_	_
 2	Rousseau	Rousseau	PROPN	_	_	1	flat:name	_	_
 3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
@@ -73058,13 +73058,13 @@
 18	voix	voix	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
 19	puissante	puissant	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	Nunc	Nunc	PROPN	_	_	15	obj	_	_
-22	dimittis	dimittis	PROPN	_	_	21	flat:name	_	_
-23	servum	servum	PROPN	_	_	21	flat:name	_	_
-24	tuum	tuum	PROPN	_	_	21	flat:name	_	SpaceAfter=No
-25	,	,	PUNCT	_	_	26	punct	_	_
-26	Domine	dominus	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	21	appos	_	_
-27	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	26	obj	_	_
+21	Nunc	Nunc	PROPN	_	_	15	obj	_	TITLE=YES
+22	dimittis	dimittis	PROPN	_	_	21	flat:foreign	_	INTITLE=YES
+23	servum	servum	PROPN	_	_	21	flat:foreign	_	INTITLE=YES
+24	tuum	tuum	PROPN	_	_	21	flat:foreign	_	INTITLE=YES|SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	INTITLE=YES
+26	Domine	dominus	NOUN	_	Case=Voc|Gender=Masc|Number=Sing	21	flat:foreign	_	INTITLE=YES
+27	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	parataxis	_	_
 28	qui	qui	PRON	_	PronType=Rel	30	nsubj:caus	_	_
 29	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux:caus	_	_
 30	dire	dire	VERB	_	VerbForm=Inf	27	acl:relcl	_	_
@@ -73072,22 +73072,31 @@
 32	Rousseau	Rousseau	PROPN	_	_	30	obl:agent	_	_
 33	en	en	ADP	_	_	35	mark	_	_
 34	se	se	PRON	_	Person=3|PronType=Prs	35	obj	_	_
-35	retirant	retirer	VERB	_	Tense=Pres|VerbForm=Part	15	advcl	_	_
-36	:	:	PUNCT	_	_	38	punct	_	_
-37	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	_
-38	mourut	mourir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	parataxis	_	_
-39	dans	dans	ADP	_	_	41	case	_	_
-40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	gêne	gêne	NOUN	_	Gender=Fem|Number=Sing	38	obl:mod	_	_
-42	à	à	ADP	_	_	44	case	_	_
-43	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
-44	âge	âge	NOUN	_	Gender=Masc|Number=Sing	38	obl:mod	_	_
-45	de	de	ADP	_	_	47	case	_	_
-46	quatre-vingt-quatre	quatre-vingt-quatre	NUM	_	_	47	nummod	_	_
-47	ans	an	NOUN	_	Gender=Masc|Number=Plur	44	nmod	_	_
-48	en	en	ADP	_	_	49	case	_	_
-49	1773	1773	NUM	_	_	38	obl:arg	_	SpaceAfter=No
-50	.	.	PUNCT	_	_	38	punct	_	_
+35	retirant	retirer	VERB	_	Tense=Pres|VerbForm=Part	30	advcl	_	_
+36	:	:	PUNCT	_	_	30	punct	_	_
+37	«	«	PUNCT	_	_	41	punct	_	_
+38	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	41	nsubj	_	SpaceAfter=No
+39	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+40	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	Pythie	Pythie	PROPN	_	_	30	parataxis	_	_
+42	sur	sur	ADP	_	_	44	case	_	_
+43	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	44	det	_	_
+44	trépied	trépied	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
+45	»	»	PUNCT	_	_	41	punct	_	_
+46	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	47	nsubj	_	_
+47	mourut	mourir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	parataxis	_	_
+48	dans	dans	ADP	_	_	50	case	_	_
+49	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	gêne	gêne	NOUN	_	Gender=Fem|Number=Sing	47	obl:mod	_	_
+51	à	à	ADP	_	_	53	case	_	_
+52	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	SpaceAfter=No
+53	âge	âge	NOUN	_	Gender=Masc|Number=Sing	47	obl:mod	_	_
+54	de	de	ADP	_	_	56	case	_	_
+55	quatre-vingt-quatre	quatre-vingt-quatre	NUM	_	_	56	nummod	_	_
+56	ans	an	NOUN	_	Gender=Masc|Number=Plur	53	nmod	_	_
+57	en	en	ADP	_	_	58	case	_	_
+58	1773	1773	NUM	_	_	47	obl:arg	_	SpaceAfter=No
+59	.	.	PUNCT	_	_	47	punct	_	_
 
 # sent_id = fr-ud-train_02594
 # text = On sent que vous maitrisez votre sujet et de plus, vous partagez volontiers.
@@ -80050,8 +80059,8 @@
 27	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	28	nsubj	_	SpaceAfter=No
 28	aurais	avoir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	conj	_	_
 29	probablement	probablement	ADV	_	_	28	advmod	_	_
-30	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
-31	millions	millions	NUM	_	_	28	obj	_	_
+30	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	millions	million	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
 32	d'	de	ADP	_	_	33	case	_	SpaceAfter=No
 33	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
 34	aujourd'hui	aujourd'hui	ADV	_	_	28	advmod	_	_
@@ -89237,7 +89246,7 @@
 11	utilisateurs	utilisateur	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 12	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 13	en	en	ADP	_	_	14	case	_	_
-14	millions	millions	NUM	_	_	9	nmod	_	SpaceAfter=No
+14	millions	million	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	Facebook	Facebook	PROPN	_	_	11	conj	_	_
@@ -93621,7 +93630,7 @@
 58	quelques	quelques	ADV	_	_	59	advmod	_	_
 59	centaines	centaine	NOUN	_	Gender=Fem|Number=Plur	18	conj	_	_
 60	de	de	ADP	_	_	61	case	_	_
-61	millions	millions	NUM	_	_	59	nmod	_	_
+61	millions	million	NOUN	_	Gender=Masc|Number=Plur	59	nmod	_	_
 62	d'	de	ADP	_	_	63	case	_	SpaceAfter=No
 63	euros	euro	NOUN	_	Gender=Masc|Number=Plur	61	nmod	_	_
 64	(	(	PUNCT	_	_	67	punct	_	SpaceAfter=No
@@ -127669,7 +127678,7 @@
 8	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
 9	accepte	accepter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Légion	Légion	PROPN	_	_	9	obj	_	_
+11	Légion	légion	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	Honneur	Honneur	PROPN	_	_	11	nmod	_	_
 14	que	que	ADV	_	_	18	advmod	_	_
@@ -150327,7 +150336,7 @@
 13	1,85	1,85	NUM	_	_	14	nummod	_	_
 14	partie	partie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 15	par	par	ADP	_	_	16	case	_	_
-16	million	million	NUM	_	_	14	nmod	_	SpaceAfter=No
+16	million	million	NOUN	_	_	14	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	soit	soit	ADV	_	_	21	advmod	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -182976,7 +182985,7 @@
 4	inspiré	inspirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Légion	Légion	PROPN	_	_	4	obl:arg	_	_
+7	Légion	légion	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	française	français	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
@@ -209784,10 +209793,10 @@
 22	titre	titre	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
-25	Enseignant	Enseignant	PROPN	_	_	22	nmod	_	_
+25	Enseignant	enseignant	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
-28	académie	académie	PROPN	_	_	25	nmod	_	_
+28	académie	académie	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
 29	ou	ou	CCONJ	_	_	32	cc	_	_
 30-31	du	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
@@ -214688,7 +214697,7 @@
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Légion	légion	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
 29	d'	de	ADP	_	_	30	case	_	SpaceAfter=No
-30	honneur	honneur	PROPN	_	_	28	nmod	_	SpaceAfter=No
+30	honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_07663
@@ -224545,7 +224554,7 @@
 12	mètre	mètre	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	large	large	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
-15	de	de	ADP	_	_	22	case	_	INMWE=Yes
+15	de	de	ADP	_	_	16	case	_	INMWE=Yes
 16	part	part	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	MWEPOS=NOUN
 17	et	et	CCONJ	_	_	19	cc	_	INMWE=Yes
 18	d'	de	ADP	_	_	19	case	_	INMWE=Yes|SpaceAfter=No
@@ -230966,7 +230975,7 @@
 22	jamais	jamais	ADV	_	Polarity=Neg	23	advmod	_	_
 23	réussi	réussir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
 24	à	à	ADP	_	_	25	mark	_	_
-25	vendre	vendre	VERB	_	VerbForm=Inf	23	obj	_	SpaceAfter=No
+25	vendre	vendre	VERB	_	VerbForm=Inf	23	xcomp	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	à	à	ADP	_	_	28	case	_	_
 28	titre	titre	NOUN	_	Gender=Masc|Number=Sing	25	obl:mod	_	_
@@ -242711,7 +242720,7 @@
 4	globale	global	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	529	529	NUM	_	_	7	nummod	_	_
-7	millions	millions	NUM	_	_	3	nmod	_	_
+7	millions	million	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 9	euros	euro	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
@@ -244641,8 +244650,8 @@
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	Blackberry	Blackberry	PROPN	_	_	20	nmod	_	_
 24-25	du	_	_	_	_	_	_	_	_
-24	de	de	ADP	_	_	27	case	_	_
-25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	canadien	canadien	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
 27	Research	research	NOUN	_	_	26	nmod	_	_
 28	in	in	ADP	_	_	29	case	_	_
@@ -271935,9 +271944,9 @@
 13	officier	officier	NOUN	_	Gender=Masc|Number=Sing	11	xcomp	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Légion	Légion	PROPN	_	_	13	nmod	_	_
+16	Légion	légion	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
-18	honneur	honneur	PROPN	_	_	16	nmod	_	SpaceAfter=No
+18	honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	5	punct	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	8	8	NUM	_	_	5	obl	_	_
@@ -281835,7 +281844,7 @@
 9	1987	1987	NUM	_	_	5	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	université	université	PROPN	_	_	2	appos	_	_
+12	université	université	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Sejong	Sejong	PROPN	_	_	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	5	punct	_	_
@@ -325084,7 +325093,7 @@
 8	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	république	république	PROPN	_	_	14	nsubj	_	_
+11	république	république	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	Volterra	Volterra	PROPN	_	_	11	nmod	_	_
 14	participa	participer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -366950,9 +366959,9 @@
 23	Chevalier	Chevalier	PROPN	_	_	22	xcomp	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	Légion	Légion	PROPN	_	_	23	nmod	_	_
+26	Légion	légion	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
 27	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
-28	honneur	honneur	PROPN	_	_	26	nmod	_	SpaceAfter=No
+28	honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = fr-ud-train_13105
@@ -369898,7 +369907,7 @@
 7	philosophie	philosophie	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	université	université	PROPN	_	_	3	obl:mod	_	_
+10	université	université	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	Genève	Genève	PROPN	_	_	10	nmod	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
@@ -384189,7 +384198,7 @@
 9	intégrée	intégrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
-12	académie	académie	PROPN	_	_	9	obl:arg	_	_
+12	académie	académie	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	musique	musique	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 15	de	de	ADP	_	_	17	case	_	_
