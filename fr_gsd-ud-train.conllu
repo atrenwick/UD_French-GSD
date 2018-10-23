@@ -124666,9 +124666,9 @@
 17	telle	tel	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 18	qu'	que	SCONJ	_	_	17	mark	_	SpaceAfter=No
 19	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
-20	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+20	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
 21	en	en	ADP	_	_	22	case	_	_
-22	1939	1939	NUM	_	_	17	obl	_	_
+22	1939	1939	NUM	_	_	17	obl:mod	_	_
 23	?	?	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_04472
@@ -179813,9 +179813,9 @@
 23	dirhams	dirham	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
 24	en	en	ADP	_	_	25	case	_	_
 25	Euros	euro	NOUN	_	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
-26	,	,	PUNCT	_	_	30	punct	_	_
+26	,	,	PUNCT	_	_	20	punct	_	_
 27	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	20	parataxis	_	_
-28	qui	qui	PRON	_	PronType=Rel	30	cop	_	_
+28	qui	qui	PRON	_	PronType=Rel	30	nsubj	_	_
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
 30	interdit	interdit	ADJ	_	Gender=Masc|Number=Sing	27	acl:relcl	_	_
 31	à	à	ADP	_	_	35	case	_	_
