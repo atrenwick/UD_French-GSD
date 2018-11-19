@@ -6877,7 +6877,7 @@
 27-28	au	_	_	_	_	_	_	_	_
 27	à	à	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	M.	monsieur	PROPN	_	_	26	nmod	_	_
+29	M.	M.	PROPN	_	_	26	nmod	_	_
 30	A.	A.	PROPN	_	_	29	flat:name	_	_
 31	I	I	PROPN	_	_	29	flat:name	_	_
 32	à	à	ADP	_	_	33	case	_	_
@@ -23562,7 +23562,7 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	général	général	NOUN	_	Gender=Masc|Number=Sing	3	obl:agent	_	_
 12	James	James	PROPN	_	_	11	appos	_	_
-13	M.	monsieur	PROPN	_	_	12	flat:name	_	_
+13	M.	M.	PROPN	_	_	12	flat:name	_	_
 14	Gavin	Gavin	PROPN	_	_	12	flat:name	_	_
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	commandant	commander	VERB	_	Tense=Pres|VerbForm=Part	11	acl	_	_
@@ -149364,7 +149364,8 @@
 13	événement	événement	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 14	House	House	PROPN	_	_	13	appos	_	_
 15	of	of	ADP	_	_	16	case	_	_
-16	M.	monsieur	PROPN	_	_	14	nmod	_	_
+16	M	M	PROPN	_	_	14	nmod	_	_
+17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_05342
 # text = Mais qui sait quelle nouvelle surprise les frères Gallagher peuvent encore nous réserver !
@@ -233270,13 +233271,13 @@
 17	L.	L.	PROPN	_	_	11	conj	_	_
 18	Guttmann	Guttmann	PROPN	_	_	17	flat:name	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	M.	monsieur	PROPN	_	_	11	conj	_	_
+20	M.	M.	PROPN	_	_	11	conj	_	_
 21	Fau	Fau	PROPN	_	_	20	flat:name	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	G.	G.	PROPN	_	_	11	conj	_	_
 24	Gleizes	Gleizes	PROPN	_	_	23	flat:name	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	M.	monsieur	PROPN	_	_	11	conj	_	_
+26	M.	M.	PROPN	_	_	11	conj	_	_
 27	Harfault	Harfault	PROPN	_	_	26	flat:name	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -240576,7 +240577,7 @@
 21	Major	Major	PROPN	_	_	22	compound	_	_
 22	Général	Général	PROPN	_	_	18	nmod	_	_
 23	Alexander	Alexander	PROPN	_	_	22	appos	_	_
-24	M.	monsieur	PROPN	_	_	23	flat:name	_	_
+24	M.	M.	PROPN	_	_	23	flat:name	_	_
 25	McCook	McCook	PROPN	_	_	23	flat:name	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	9	punct	_	_
 27	et	et	CCONJ	_	_	29	cc	_	_
