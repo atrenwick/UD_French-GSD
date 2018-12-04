@@ -1452,8 +1452,8 @@
 53	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
 54	triangle	triangle	NOUN	_	Gender=Masc|Number=Sing	49	nmod	_	SpaceAfter=No
 55	,	,	PUNCT	_	_	61	punct	_	_
-56	de	de	ADP	_	_	57	case	_	_
-57	plus	plus	ADV	_	_	61	advmod	_	_
+56	de	de	ADP	_	_	57	case	_	INMWE=Yes
+57	plus	plus	ADV	_	_	61	advmod	_	MWEPOS=ADV
 58	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	61	nsubj	_	_
 59	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	_
 60	en	en	ADP	_	_	61	case	_	_
@@ -47892,10 +47892,10 @@
 36	Mali	Mali	PROPN	_	_	32	nmod	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	36	punct	_	_
 38	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
-39	de	de	ADP	_	_	43	advmod	_	_
-40	plus	plus	ADV	_	_	39	fixed	_	_
-41	en	en	ADP	_	_	39	fixed	_	_
-42	plus	plus	ADV	_	_	39	fixed	_	_
+39	de	de	ADP	_	_	40	case	_	INMWE=Yes
+40	plus	plus	ADV	_	_	43	advmod	_	MWEPOS=ADV
+41	en	en	ADP	_	_	42	case	_	INMWE=Yes
+42	plus	plus	ADV	_	_	40	obl:mod	_	INMWE=Yes
 43	difficile	difficile	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 44	à	à	ADP	_	_	45	mark	_	_
 45	gérer	gérer	VERB	_	VerbForm=Inf	43	acl	_	_
@@ -49369,8 +49369,8 @@
 14	De	De	PROPN	_	_	15	case	_	_
 15	Taddeo	Taddeo	PROPN	_	_	13	nmod	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
-17	de	de	ADP	_	_	19	advmod	_	_
-18	plus	plus	ADV	_	_	17	fixed	_	_
+17	de	de	ADP	_	_	18	case	_	INMWE=Yes
+18	plus	plus	ADV	_	_	19	advmod	_	MWEPOS=ADV
 19	élu	élire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 20	meilleur	meilleur	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 21	entraîneur	entraîneur	NOUN	_	Gender=Masc|Number=Sing	19	xcomp	_	_
@@ -113439,8 +113439,8 @@
 38	et	et	CCONJ	_	_	39	cc	_	_
 39	voyait	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	conj	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	39	punct	_	_
-41	de	de	ADP	_	_	39	advmod	_	_
-42	plus	plus	ADV	_	_	41	fixed	_	SpaceAfter=No
+41	de	de	ADP	_	_	42	case	_	INMWE=Yes
+42	plus	plus	ADV	_	_	39	advmod	_	MWEPOS=ADV|SpaceAfter=No
 43	,	,	PUNCT	_	_	39	punct	_	_
 44	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	45	det	_	_
 45	bande	bande	NOUN	_	Gender=Fem|Number=Sing	39	obj	_	_
@@ -167742,11 +167742,11 @@
 33	gratter	gratter	VERB	_	VerbForm=Inf	31	xcomp	_	_
 34	quelque	quelque	DET	_	Gender=Fem|Number=Sing	35	det	_	_
 35	chose	chose	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
-36	de	de	ADP	_	_	35	advmod	_	_
-37	plus	plus	ADV	_	_	36	fixed	_	_
+36	de	de	ADP	_	_	37	case	_	_
+37	plus	plus	ADV	_	_	35	advmod	_	_
 38	que	que	SCONJ	_	_	40	case	_	_
 39	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	surface	surface	NOUN	_	Gender=Fem|Number=Sing	36	advcl	_	_
+40	surface	surface	NOUN	_	Gender=Fem|Number=Sing	37	obl:arg	_	_
 41	»	»	PUNCT	_	_	20	punct	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -171255,8 +171255,8 @@
 6	acheta	acheter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	35	35	NUM	_	_	8	nummod	_	_
 8	appareils	appareil	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
-9	de	de	ADP	_	_	6	advmod	_	_
-10	plus	plus	ADV	_	_	9	fixed	_	SpaceAfter=No
+9	de	de	ADP	_	_	10	case	_	_
+10	plus	plus	ADV	_	_	8	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	_
 12	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -192454,8 +192454,8 @@
 22	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	fois	fois	NOUN	_	Gender=Fem|Number=Sing	27	obl:mod	_	_
-25	de	de	ADP	_	_	24	advmod	_	_
-26	plus	plus	ADV	_	_	25	fixed	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	plus	plus	ADV	_	_	24	advmod	_	_
 27	soumis	soumettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
 28	à	à	ADP	_	_	31	case	_	_
 29	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
@@ -195262,8 +195262,8 @@
 7	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 8	resto	resto	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
-10	de	de	ADP	_	_	14	advmod	_	_
-11	plus	plus	ADV	_	_	10	fixed	_	_
+10	de	de	ADP	_	_	11	case	_	INMWE=Yes
+11	plus	plus	ADV	_	_	14	advmod	_	MWEPOS=Yes
 12	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	14	nsubj	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 14	ouvert	ouvert	ADJ	_	Gender=Masc|Number=Sing	3	conj	_	_
@@ -200472,8 +200472,8 @@
 12	et	et	CCONJ	_	_	14	cc	_	_
 13	deux	deux	NUM	_	_	14	nummod	_	_
 14	ailes	aile	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
-15	de	de	ADP	_	_	11	advmod	_	_
-16	plus	plus	ADV	_	_	15	fixed	_	SpaceAfter=No
+15	de	de	ADP	_	_	16	case	_	_
+16	plus	plus	ADV	_	_	11	advmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_07152
@@ -226577,8 +226577,8 @@
 15	propre	propre	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 16	principauté	principauté	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 17	et	et	CCONJ	_	_	23	cc	_	_
-18	de	de	ADP	_	_	17	advmod	_	_
-19	plus	plus	ADV	_	_	18	fixed	_	SpaceAfter=No
+18	de	de	ADP	_	_	19	case	_	INMWE=Yes
+19	plus	plus	ADV	_	_	17	advmod	_	INMWE=Yes|SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
 22	mariage	mariage	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
@@ -247992,8 +247992,8 @@
 # text = Que demander de plus ?
 1	Que	que	PRON	_	_	2	obj	_	_
 2	demander	demander	VERB	_	VerbForm=Inf	0	root	_	_
-3	de	de	ADP	_	_	2	advmod	_	_
-4	plus	plus	ADV	_	_	3	fixed	_	_
+3	de	de	ADP	_	_	4	case	_	INMWE=Yes
+4	plus	plus	ADV	_	_	2	advmod	_	MWEPOS=ADV
 5	?	?	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_08839
@@ -259258,8 +259258,8 @@
 5	faire	faire	VERB	_	VerbForm=Inf	3	ccomp	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	pas	pas	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
-8	de	de	ADP	_	_	7	advmod	_	_
-9	plus	plus	ADV	_	_	8	fixed	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	plus	plus	ADV	_	_	7	advmod	_	_
 10	:	:	PUNCT	_	_	3	punct	_	_
 11	ne	ne	ADV	_	Polarity=Neg	12	advmod	_	_
 12	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	SpaceAfter=No
@@ -265593,8 +265593,8 @@
 9	Pour	pour	ADP	_	_	11	case	_	_
 10	quelques	quelque	DET	_	Gender=Fem|Number=Plur	11	det	_	_
 11	canettes	canette	NOUN	_	Gender=Fem|Number=Plur	8	obl	_	_
-12	de	de	ADP	_	_	11	advmod	_	_
-13	plus	plus	ADV	_	_	12	fixed	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	plus	plus	ADV	_	_	11	advmod	_	_
 14	chez	chez	ADP	_	_	15	case	_	_
 15	MC	MC	PROPN	_	_	4	obl	_	_
 16	Productions	Productions	PROPN	_	_	15	flat:name	_	_
@@ -278438,12 +278438,12 @@
 1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	9	nsubj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-4	rien	rien	PRON	_	Number=Sing	9	obj	_	_
-5	de	de	ADP	_	_	4	nmod	_	_
-6	plus	plus	ADV	_	_	5	fixed	_	_
-7	qu'	que	ADV	_	_	9	advmod	_	SpaceAfter=No
+4	rien	rien	PRON	_	Number=Sing	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	plus	plus	ADV	_	_	4	advmod	_	_
+7	qu'	que	SCONJ	_	_	9	case	_	SpaceAfter=No
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+9	assemblée	assemblée	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
 12-13	des	_	_	_	_	_	_	_	_
@@ -313764,8 +313764,8 @@
 # text = Il faut de plus une indication d'ordre énergétique.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	de	de	ADP	_	_	2	advmod	_	_
-4	plus	plus	ADV	_	_	3	fixed	_	_
+3	de	de	ADP	_	_	4	case	_	INMWE=Yes
+4	plus	plus	ADV	_	_	2	advmod	_	MWEPOS=ADV
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	indication	indication	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 7	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
@@ -318316,8 +318316,8 @@
 55	ajouter	ajouter	VERB	_	VerbForm=Inf	54	ccomp	_	_
 56	85	85	NUM	_	_	57	nummod	_	SpaceAfter=No
 57	%	%	SYM	_	_	55	obj	_	_
-58	de	de	ADP	_	_	57	advmod	_	_
-59	plus	plus	ADV	_	_	58	fixed	_	_
+58	de	de	ADP	_	_	59	case	_	_
+59	plus	plus	ADV	_	_	57	advmod	_	_
 60	à	à	ADP	_	_	62	case	_	_
 61	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	62	det	_	_
 62	coût	coût	NOUN	_	Gender=Masc|Number=Sing	55	obl:arg	_	SpaceAfter=No
@@ -359307,8 +359307,8 @@
 44	,	,	PUNCT	_	_	4	punct	_	_
 45	que	que	PRON	_	_	46	obj	_	_
 46	demander	demander	VERB	_	VerbForm=Inf	4	parataxis	_	_
-47	de	de	ADP	_	_	46	advmod	_	_
-48	plus	plus	ADV	_	_	47	fixed	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	plus	plus	ADV	_	_	45	advmod	_	_
 49	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_12851
