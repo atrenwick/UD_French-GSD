@@ -308,8 +308,8 @@
 15	où	où	ADV	_	PronType=Rel	17	advmod	_	_
 16	se	se	PRON	_	Person=3|PronType=Prs	17	expl:pass	_	_
 17	pratiquaient	pratiquer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
-18	d'	de	ADP	_	_	17	advmod	_	MWEPOS=ADV|SpaceAfter=No
-19	ailleurs	ailleurs	ADV	_	_	18	fixed	_	_
+18	d'	de	ADP	_	_	19	case	_	INMWE=Yes|SpaceAfter=No
+19	ailleurs	ailleurs	ADV	_	_	17	advmod	_	MWEPOS=ADV
 20	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 21	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
 22	échanges	échange	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
@@ -5299,8 +5299,8 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	y	y	ADV	_	_	3	advmod	_	_
 3	gagne	gagner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	d'	de	ADP	_	_	3	advmod	_	MWEPOS=ADV|SpaceAfter=No
-5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	_
+4	d'	de	ADP	_	_	5	case	_	INMWE=Yes|SpaceAfter=No
+5	ailleurs	ailleurs	ADV	_	_	3	advmod	_	MWEPOS=ADV
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	prix	prix	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 8-9	du	_	_	_	_	_	_	_	_
@@ -16850,8 +16850,8 @@
 # text = Il semble d'ailleurs qu'au IVe siècle av. J.-C., le métier demporos constitue, davantage qu'auparavant, un motif de fierté : à Halicarnasse, une inscription rédigée par un emporos nommé Phaineos remercie Aphrodite de lui avoir permis de s'enrichir en tant que « grand marchand sur la mer » ;
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	_
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	2	advmod	_	MWEPOS=ADV
 5	qu'	que	ADV	_	_	6	advmod	_	SpaceAfter=No
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	9	case	_	_
@@ -27686,8 +27686,8 @@
 # text = Elle cultive d'ailleurs cette ambiguïté sur elle puisqu'elle possède deux tatouages : un représentant le Aum et un autre représentant le démon.
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	cultive	cultiver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	_
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	2	advmod	_	MWEPOS=ADV
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	ambiguïté	ambiguïté	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 7	sur	sur	ADP	_	_	8	case	_	_
@@ -30223,8 +30223,8 @@
 # text = C'est d'ailleurs à ce style que se rattache la majorité du mobilier.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-3	d'	de	ADP	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	_
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	7	advmod	_	MWEPOS=ADV
 5	à	à	ADP	_	_	7	case	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	style	style	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -37660,8 +37660,8 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 6	craignait	craindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	d'	de	ADP	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
-8	ailleurs	ailleurs	ADV	_	_	7	fixed	_	_
+7	d'	de	ADP	_	_	8	case	_	INMWE=Yes|SpaceAfter=No
+8	ailleurs	ailleurs	ADV	_	_	6	advmod	_	MWEPOS=ADV
 9	que	que	SCONJ	_	_	14	mark	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -41511,8 +41511,8 @@
 6	apparaît	apparaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 7	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
 8	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	d'	de	ADP	_	_	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
-10	ailleurs	ailleurs	ADV	_	_	9	fixed	_	SpaceAfter=No
+9	d'	de	ADP	_	_	10	case	_	INMWE=Yes|SpaceAfter=No
+10	ailleurs	ailleurs	ADV	_	_	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	_
 12	en	en	ADP	_	_	13	case	_	_
 13	couverture	couverture	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
@@ -46692,8 +46692,8 @@
 
 # sent_id = fr-ud-train_01650
 # text = D'ailleurs plusieurs d'entres eux sont rédigés comme une infopub...
-1	D'	de	ADP	_	_	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
-2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	_
+1	D'	de	ADP	_	_	2	case	_	INMWE=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	8	advmod	_	MWEPOS=ADV
 3	plusieurs	plusieurs	PRON	_	Number=Plur	8	nsubj	_	_
 4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
 5	entres	entres	ADP	_	_	4	fixed	_	_
@@ -49727,8 +49727,8 @@
 
 # sent_id = fr-ud-train_01761
 # text = D'ailleurs la ville a garder son souk enhassine (marché du cuivre) dans le médina.
-1	D'	de	ADP	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
-2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	_
+1	D'	de	ADP	_	_	2	case	_	INMWE=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	6	advmod	_	MWEPOS=ADV
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	ville	ville	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -51910,8 +51910,8 @@
 # text = Sébastien remercie d'ailleurs "ses quatre parents" dans les albums de Simple Plan.
 1	Sébastien	Sébastien	PROPN	_	_	2	nsubj	_	_
 2	remercie	remercier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	_
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	2	advmod	_	MWEPOS=ADV
 5	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 6	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det	_	_
 7	quatre	quatre	NUM	_	_	8	nummod	_	_
@@ -65915,8 +65915,8 @@
 # text = Il existe d'ailleurs beaucoup de types de crampons différents, selon le type de terrain (herbe, sable, boue) et son état (gras, sec, profond).
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	_
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	2	advmod	_	MWEPOS=ADV
 5	beaucoup	beaucoup	ADV	_	_	2	obj	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	types	type	NOUN	_	Gender=Masc|Number=Plur	5	obl:arg	_	_
@@ -67359,8 +67359,8 @@
 2	choix	choix	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	expl:pass	_	_
 4	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	d'	de	ADP	_	_	4	advmod	_	MWEPOS=ADV|SpaceAfter=No
-6	ailleurs	ailleurs	ADV	_	_	5	fixed	_	_
+5	d'	de	ADP	_	_	6	case	_	INMWE=Yes|SpaceAfter=No
+6	ailleurs	ailleurs	ADV	_	_	4	advmod	_	MWEPOS=ADV
 7	ironiquement	ironiquement	ADV	_	_	4	advmod	_	_
 8	sur	sur	ADP	_	_	10	case	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -70681,8 +70681,8 @@
 # text = Il fonde d'ailleurs l'association « Personimages » et ses ateliers pour handicapés mentaux.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	fonde	fonder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	_
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	2	advmod	_	MWEPOS=ADV
 5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	association	association	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 7	«	«	PUNCT	_	_	8	punct	_	_
@@ -85717,8 +85717,8 @@
 
 # sent_id = fr-ud-train_03039
 # text = D'ailleurs, le propriétaire des lieux aurait d'ores et déjà fait appel à des agents immobiliers afin « d'attirer d'éventuels repreneurs ».
-1	D'	de	ADP	_	_	14	advmod	_	MWEPOS=ADV|SpaceAfter=No
-2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	D'	de	ADP	_	_	2	case	_	INMWE=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	14	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	propriétaire	propriétaire	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -95767,8 +95767,8 @@
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 5	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	d'	de	ADP	_	_	5	advmod	_	MWEPOS=ADV|SpaceAfter=No
-7	ailleurs	ailleurs	ADV	_	_	6	fixed	_	_
+6	d'	de	ADP	_	_	7	case	_	INMWE=Yes|SpaceAfter=No
+7	ailleurs	ailleurs	ADV	_	_	5	advmod	_	MWEPOS=ADV
 8	lister	lister	VERB	_	VerbForm=Inf	5	xcomp	_	_
 9	Charles	Charles	PROPN	_	_	8	obj	_	_
 10	Nodier	Nodier	PROPN	_	_	9	flat:name	_	SpaceAfter=No
@@ -99129,8 +99129,8 @@
 # text = Combien, d'ailleurs, savaient que ces cavaliers des steppes avaient, en 1241, conquis la Russie, écrasé les armées de Pologne et de Hongrie, le tout en trois ans ?
 1	Combien	combien	PRON	_	Number=Plur	6	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	6	punct	_	_
-3	d'	de	ADP	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	SpaceAfter=No
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	savaient	savoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	que	que	SCONJ	_	_	18	mark	_	_
@@ -99351,8 +99351,8 @@
 9	al-Kader	al-Kader	PROPN	_	_	8	flat:name	_	_
 10	al-Husseini	al-Husseini	PROPN	_	_	8	flat:name	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
-12	d'	de	ADP	_	_	14	advmod	_	MWEPOS=ADV|SpaceAfter=No
-13	ailleurs	ailleurs	ADV	_	_	12	fixed	_	_
+12	d'	de	ADP	_	_	13	case	_	INMWE=Yes|SpaceAfter=No
+13	ailleurs	ailleurs	ADV	_	_	14	advmod	_	MWEPOS=ADV
 14	tué	tuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	17	case	_	_
@@ -132158,8 +132158,8 @@
 # text = Il utilise d'ailleurs l'énergie nucléaire comme source de propulsion.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	utilise	utiliser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	_
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	2	advmod	_	MWEPOS=ADV
 5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	énergie	énergie	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 7	nucléaire	nucléaire	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
@@ -133295,8 +133295,8 @@
 2	chantiers	chantier	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	navals	naval	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 4	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	_
-5	d'	de	ADP	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
-6	ailleurs	ailleurs	ADV	_	_	5	fixed	_	_
+5	d'	de	ADP	_	_	6	case	_	INMWE=Yes|SpaceAfter=No
+6	ailleurs	ailleurs	ADV	_	_	7	advmod	_	MWEPOS=ADV
 7	amenés	amener	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 8	à	à	ADP	_	_	9	mark	_	_
 9	jouer	jouer	VERB	_	VerbForm=Inf	7	xcomp	_	_
@@ -144106,8 +144106,8 @@
 
 # sent_id = fr-ud-train_05161
 # text = D'ailleurs le dernier commentaire est fait par son épouse.
-1	D'	de	ADP	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
-2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	_
+1	D'	de	ADP	_	_	2	case	_	INMWE=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	7	advmod	_	MWEPOS=ADV
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 5	commentaire	commentaire	NOUN	_	Gender=Masc|Number=Sing	7	nsubj:pass	_	_
@@ -156526,8 +156526,8 @@
 11	à	à	ADP	_	_	3	conj	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
 13	revoir	revoir	VERB	_	VerbForm=Inf	11	fixed	_	_
-14	d'	de	ADP	_	_	3	advmod	_	MWEPOS=ADV|SpaceAfter=No
-15	ailleurs	ailleurs	ADV	_	_	14	fixed	_	_
+14	d'	de	ADP	_	_	15	case	_	INMWE=Yes|SpaceAfter=No
+15	ailleurs	ailleurs	ADV	_	_	3	advmod	_	MWEPOS=ADV
 16	!	!	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_05592
@@ -163647,8 +163647,8 @@
 1	D'	un	DET	_	Definite=Ind|PronType=Art	2	det	_	SpaceAfter=No
 2	aucuns	aucun	PRON	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	estiment	estimer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	d'	de	ADP	_	_	3	advmod	_	MWEPOS=ADV|SpaceAfter=No
-5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	_
+4	d'	de	ADP	_	_	5	case	_	INMWE=Yes|SpaceAfter=No
+5	ailleurs	ailleurs	ADV	_	_	3	advmod	_	MWEPOS=ADV
 6	que	que	SCONJ	_	_	10	mark	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	sacres	sacre	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
@@ -166003,8 +166003,8 @@
 
 # sent_id = fr-ud-train_05931
 # text = D'ailleurs la campagne se déroule également dans 125 autres villes de France.
-1	D'	de	ADP	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
-2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	_
+1	D'	de	ADP	_	_	2	case	_	INMWE=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	6	advmod	_	MWEPOS=ADV
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	campagne	campagne	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	6	expl	_	_
@@ -166121,8 +166121,8 @@
 # text = Il faisait d'ailleurs partie de la dernière génération de joueurs ayant disputé l'UEFA avec Saint-Étienne, en 1982 face aux Bohemians de Prague.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	_
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	2	advmod	_	MWEPOS=ADV
 5	partie	partie	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 6	de	de	ADP	_	_	9	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -170756,8 +170756,8 @@
 1	Sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	médiation	médiation	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	d'	de	ADP	_	_	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
-5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	SpaceAfter=No
+4	d'	de	ADP	_	_	5	case	_	INMWE=Yes|SpaceAfter=No
+5	ailleurs	ailleurs	ADV	_	_	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 8	aboutit	aboutir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -173699,8 +173699,8 @@
 
 # sent_id = fr-ud-train_06210
 # text = D'ailleurs, comme partenaire de l'OIF, la Tunisie doit partager les principes d'action de l'Organisation internationale de la Francophonie en matière de consolidation de paix, de promotion de la culture démocratique et du respect des droits de l'homme.
-1	D'	de	ADP	_	_	12	advmod	_	MWEPOS=ADV|SpaceAfter=No
-2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	D'	de	ADP	_	_	2	case	_	INMWE=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	12	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	comme	comme	ADP	_	_	5	case	_	_
 5	partenaire	partenaire	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
@@ -189503,8 +189503,8 @@
 2	première	premier	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	publication	publication	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-5	d'	de	ADP	_	_	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
-6	ailleurs	ailleurs	ADV	_	_	5	fixed	_	_
+5	d'	de	ADP	_	_	6	case	_	INMWE=Yes|SpaceAfter=No
+6	ailleurs	ailleurs	ADV	_	_	8	advmod	_	MWEPOS=ADV
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	essai	essai	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 9	de	de	ADP	_	_	10	case	_	_
@@ -196222,8 +196222,8 @@
 12	»	»	PUNCT	_	_	11	punct	_	_
 13	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	17	iobj	_	_
 14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
-15	d'	de	ADP	_	_	17	advmod	_	MWEPOS=ADV|SpaceAfter=No
-16	ailleurs	ailleurs	ADV	_	_	15	fixed	_	_
+15	d'	de	ADP	_	_	16	case	_	INMWE=Yes|SpaceAfter=No
+16	ailleurs	ailleurs	ADV	_	_	17	advmod	_	MWEPOS=ADV
 17	valu	valoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 18	en	en	ADP	_	_	19	case	_	_
 19	2006	2006	NUM	_	_	17	obl	_	_
@@ -199257,8 +199257,8 @@
 
 # sent_id = fr-ud-train_07112
 # text = D'ailleurs, il dément tout contentieux supposé sur le prix du gaz qui sera livré à l'Europe par le biais du Medgaz.
-1	D'	de	ADP	_	_	5	advmod	_	MWEPOS=ADV|SpaceAfter=No
-2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	D'	de	ADP	_	_	2	case	_	INMWE=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	5	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	dément	démentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -218452,8 +218452,8 @@
 37	,	,	PUNCT	_	_	42	punct	_	_
 38	qui	qui	PRON	_	PronType=Rel	42	nsubj	_	_
 39	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
-40	d'	de	ADP	_	_	42	advmod	_	MWEPOS=ADV|SpaceAfter=No
-41	ailleurs	ailleurs	ADV	_	_	40	fixed	_	_
+40	d'	de	ADP	_	_	41	case	_	INMWE=Yes|SpaceAfter=No
+41	ailleurs	ailleurs	ADV	_	_	42	advmod	_	MWEPOS=ADV
 42	coûté	coûter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	acl:relcl	_	_
 43	5050	5050	NUM	_	_	44	nummod	_	_
 44	euros	euro	NOUN	_	Gender=Masc|Number=Plur	42	obj	_	_
@@ -221089,8 +221089,8 @@
 17	Kelly	Kelly	PROPN	_	_	16	flat:name	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	illustre	illustrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-20	d'	de	ADP	_	_	19	advmod	_	MWEPOS=ADV|SpaceAfter=No
-21	ailleurs	ailleurs	ADV	_	_	20	fixed	_	_
+20	d'	de	ADP	_	_	21	case	_	INMWE=Yes|SpaceAfter=No
+21	ailleurs	ailleurs	ADV	_	_	19	advmod	_	MWEPOS=ADV
 22	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	débuts	début	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
 24	parfois	parfois	ADV	_	_	25	advmod	_	_
@@ -225980,8 +225980,8 @@
 25	loge	loge	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
 26	P2	P2	PROPN	_	_	25	appos	_	_
 27	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
-28	d'	de	ADP	_	_	31	advmod	_	MWEPOS=ADV|SpaceAfter=No
-29	ailleurs	ailleurs	ADV	_	_	28	fixed	_	_
+28	d'	de	ADP	_	_	29	case	_	INMWE=Yes|SpaceAfter=No
+29	ailleurs	ailleurs	ADV	_	_	31	advmod	_	MWEPOS=ADV
 30	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	aux:pass	_	_
 31	mis	mettre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 32	en	en	ADP	_	_	33	case	_	_
@@ -229704,8 +229704,8 @@
 1	Elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	perdent	perdre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	d'	de	ADP	_	_	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
-5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	SpaceAfter=No
+4	d'	de	ADP	_	_	5	case	_	INMWE=Yes|SpaceAfter=No
+5	ailleurs	ailleurs	ADV	_	_	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	en	en	ADP	_	_	8	mark	_	_
 8	arrivant	arriver	VERB	_	Tense=Pres|VerbForm=Part	2	advcl	_	_
@@ -230746,8 +230746,8 @@
 17	Wyman	Wyman	PROPN	_	_	16	flat:name	_	_
 18	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 19	décrit	décrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
-20	d'	de	ADP	_	_	19	advmod	_	MWEPOS=ADV|SpaceAfter=No
-21	ailleurs	ailleurs	ADV	_	_	20	fixed	_	_
+20	d'	de	ADP	_	_	21	case	_	INMWE=Yes|SpaceAfter=No
+21	ailleurs	ailleurs	ADV	_	_	19	advmod	_	MWEPOS=ADV
 22	comme	comme	ADP	_	_	25	case	_	_
 23	«	«	PUNCT	_	_	25	punct	_	_
 24	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
@@ -250906,8 +250906,8 @@
 # text = J'ai d'ailleurs été interrogé par la police sur le contenu de cet article, lorsque j'ai été arrêté en décembre.
 1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj:pass	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
-3	d'	de	ADP	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	_
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	6	advmod	_	MWEPOS=ADV
 5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
 6	interrogé	interroger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	par	par	ADP	_	_	9	case	_	_
@@ -267807,8 +267807,8 @@
 5	protocoles	protocole	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 6	actuels	actuel	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
 7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-8	d'	de	ADP	_	_	11	advmod	_	MWEPOS=ADV|SpaceAfter=No
-9	ailleurs	ailleurs	ADV	_	_	8	fixed	_	_
+8	d'	de	ADP	_	_	9	case	_	INMWE=Yes|SpaceAfter=No
+9	ailleurs	ailleurs	ADV	_	_	11	advmod	_	MWEPOS=ADV
 10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:pass	_	_
 11	développés	développer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 12	en	en	ADP	_	_	14	mark	_	_
@@ -292060,8 +292060,8 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	monde	monde	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
 14	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
-15	d'	de	ADP	_	_	18	advmod	_	MWEPOS=ADV|SpaceAfter=No
-16	ailleurs	ailleurs	ADV	_	_	15	fixed	_	_
+15	d'	de	ADP	_	_	16	case	_	INMWE=Yes|SpaceAfter=No
+16	ailleurs	ailleurs	ADV	_	_	18	advmod	_	MWEPOS=ADV
 17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
 18	trouvée	trouver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 19-20	au	_	_	_	_	_	_	_	_
@@ -293957,8 +293957,8 @@
 
 # sent_id = fr-ud-train_10526
 # text = D'ailleurs, avec l'ensemble "Ley Menestrie", il vient d'enregistrer un disque qui sera bientôt vendu au conservatoire.
-1	D'	de	ADP	_	_	13	advmod	_	MWEPOS=ADV|SpaceAfter=No
-2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	D'	de	ADP	_	_	2	case	_	INMWE=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	13	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	13	punct	_	_
 4	avec	avec	ADP	_	_	6	case	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
@@ -302966,8 +302966,8 @@
 
 # sent_id = fr-ud-train_10855
 # text = D'ailleurs, avant d'annoncer les grands axes de la politique européenne de voisinage « révisée et renouvelée », Hugues Mingarelli a reconnu que « l'UE n'a pu peser sur les réformes politiques, favorisant plutôt l'aspect économique ».
-1	D'	de	ADP	_	_	25	advmod	_	MWEPOS=ADV|SpaceAfter=No
-2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	D'	de	ADP	_	_	2	case	_	INMWE=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	25	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	25	punct	_	_
 4	avant	avant	ADV	_	_	25	advmod	_	_
 5	d'	de	ADP	_	_	6	mark	_	SpaceAfter=No
@@ -318957,8 +318957,8 @@
 27	yiddish	yiddish	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	23	punct	_	_
 29	comme	comme	ADP	_	_	35	case	_	_
-30	d'	de	ADP	_	_	29	advmod	_	MWEPOS=ADV|SpaceAfter=No
-31	ailleurs	ailleurs	ADV	_	_	30	fixed	_	_
+30	d'	de	ADP	_	_	31	case	_	INMWE=Yes|SpaceAfter=No
+31	ailleurs	ailleurs	ADV	_	_	29	advmod	_	MWEPOS=ADV
 32	pour	pour	ADP	_	_	35	case	_	_
 33	tous	tout	DET	_	Gender=Masc|Number=Plur	35	det	_	_
 34	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
@@ -322472,8 +322472,8 @@
 5	classe	classe	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-8	d'	de	ADP	_	_	11	obl:mod	_	MWEPOS=ADV|SpaceAfter=No
-9	ailleurs	ailleurs	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	_
+8	d'	de	ADP	_	_	9	case	_	INMWE=Yes|SpaceAfter=No
+9	ailleurs	ailleurs	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	MWEPOS=ADV
 10	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
 11	séparé	séparer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	physiquement	physiquement	ADV	_	_	11	advmod	_	_
@@ -328492,8 +328492,8 @@
 # text = C'est d'ailleurs dans cette ville qu'il décèdera d'un cancer le 29 avril 1969.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-3	d'	de	ADP	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	_
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	7	advmod	_	MWEPOS=ADV
 5	dans	dans	ADP	_	_	7	case	_	_
 6	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
 7	ville	ville	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -337519,8 +337519,8 @@
 # text = Il était d'ailleurs offert avec les toutes premières platines CD à avoir été commercialisées, vendues au Japon à partir du 1 octobre 1982.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
-3	d'	de	ADP	_	_	5	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	_
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	5	advmod	_	MWEPOS=ADV
 5	offert	offrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	avec	avec	ADP	_	_	10	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
@@ -345675,8 +345675,8 @@
 # text = On ressentira d'ailleurs, à force d'entraînement, les moments où l'on doit faire un simple, un double et dans quel sens.
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	ressentira	ressentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-3	d'	de	ADP	_	_	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
-4	ailleurs	ailleurs	ADV	_	_	3	fixed	_	SpaceAfter=No
+3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
+4	ailleurs	ailleurs	ADV	_	_	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	à	à	ADP	_	_	7	case	_	_
 7	force	force	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
@@ -346851,8 +346851,8 @@
 38	grossières	grossier	ADJ	_	Gender=Fem|Number=Plur	37	amod	_	_
 39	qui	qui	PRON	_	PronType=Rel	40	nsubj	_	_
 40	supposent	supposer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
-41	d'	de	ADP	_	_	40	advmod	_	MWEPOS=ADV|SpaceAfter=No
-42	ailleurs	ailleurs	ADV	_	_	41	fixed	_	SpaceAfter=No
+41	d'	de	ADP	_	_	42	case	_	INMWE=Yes|SpaceAfter=No
+42	ailleurs	ailleurs	ADV	_	_	40	advmod	_	MWEPOS=ADV|SpaceAfter=No
 43	,	,	PUNCT	_	_	40	punct	_	_
 44	entre	entre	ADP	_	_	45	case	_	_
 45	autres	autre	PRON	_	Number=Plur	40	obl	_	SpaceAfter=No
@@ -364299,8 +364299,8 @@
 
 # sent_id = fr-ud-train_13017
 # text = D'ailleurs, l'une de ces photos montre une femme qui a perdu une jambe : elle a été victime d'une brouille avec le Hamas, justement. "
-1	D'	de	ADP	_	_	9	advmod	_	MWEPOS=ADV|SpaceAfter=No
-2	ailleurs	ailleurs	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	D'	de	ADP	_	_	2	case	_	INMWE=Yes|SpaceAfter=No
+2	ailleurs	ailleurs	ADV	_	_	9	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	une	un	PRON	_	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -392863,8 +392863,8 @@
 2	anglais	anglais	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 3	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	d'	de	ADP	_	_	4	advmod	_	MWEPOS=ADV|SpaceAfter=No
-6	ailleurs	ailleurs	ADV	_	_	5	fixed	_	_
+5	d'	de	ADP	_	_	6	case	_	INMWE=Yes|SpaceAfter=No
+6	ailleurs	ailleurs	ADV	_	_	4	advmod	_	MWEPOS=ADV
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	nom	nom	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 9	de	de	ADP	_	_	10	case	_	_
@@ -392917,8 +392917,8 @@
 3	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
 4	textes	texte	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-6	d'	de	ADP	_	_	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
-7	ailleurs	ailleurs	ADV	_	_	6	fixed	_	_
+6	d'	de	ADP	_	_	7	case	_	INMWE=Yes|SpaceAfter=No
+7	ailleurs	ailleurs	ADV	_	_	8	advmod	_	MWEPOS=ADV
 8	disponible	disponible	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 9	sur	sur	ADP	_	_	10	case	_	_
 10	Wikisource	Wikisource	PROPN	_	_	8	obl	_	_
@@ -393787,8 +393787,8 @@
 1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	colline	colline	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	héberge	héberger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	d'	de	ADP	_	_	3	advmod	_	MWEPOS=ADV|SpaceAfter=No
-5	ailleurs	ailleurs	ADV	_	_	4	fixed	_	_
+4	d'	de	ADP	_	_	5	case	_	INMWE=Yes|SpaceAfter=No
+5	ailleurs	ailleurs	ADV	_	_	3	advmod	_	MWEPOS=ADV
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	réservoir	réservoir	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 8	municipal	municipal	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
@@ -398410,8 +398410,8 @@
 17	/	/	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	gauche	gauche	ADJ	_	Gender=Fem|Number=Sing	16	conj	_	_
 19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
-20	d'	de	ADP	_	_	26	advmod	_	MWEPOS=ADV|SpaceAfter=No
-21	ailleurs	ailleurs	ADV	_	_	20	fixed	_	_
+20	d'	de	ADP	_	_	21	case	_	INMWE=Yes|SpaceAfter=No
+21	ailleurs	ailleurs	ADV	_	_	26	advmod	_	MWEPOS=ADV
 22	pour	pour	ADP	_	_	24	case	_	_
 23	C.	C.	X	_	_	24	compound	_	_
 24	Mouffe	Mouffe	PROPN	_	_	26	obl:mod	_	_
