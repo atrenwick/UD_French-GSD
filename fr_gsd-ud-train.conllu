@@ -16852,7 +16852,7 @@
 2	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	_	_	4	case	_	INMWE=Yes|SpaceAfter=No
 4	ailleurs	ailleurs	ADV	_	_	2	advmod	_	MWEPOS=ADV
-5	qu'	que	ADV	_	_	6	advmod	_	SpaceAfter=No
+5	qu'	que	SCONJ	_	_	17	mark	_	SpaceAfter=No
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	9	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -16865,7 +16865,7 @@
 14	métier	métier	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 15	d	de	ADP	_	_	16	case	_	SpaceAfter=No
 16	emporos	emporos	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-17	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+17	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	davantage	davantage	ADV	_	_	17	advmod	_	_
 20	qu'	que	SCONJ	_	_	21	case	_	SpaceAfter=No
@@ -16890,7 +16890,7 @@
 39	remercie	remercier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 40	Aphrodite	Aphrodite	PROPN	_	_	39	obj	_	_
 41	de	de	ADP	_	_	44	mark	_	_
-42	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	44	obl:arg	_	_
+42	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	44	iobj	_	_
 43	avoir	avoir	AUX	_	VerbForm=Inf	44	aux	_	_
 44	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	xcomp	_	_
 45	de	de	ADP	_	_	47	mark	_	_
@@ -50876,7 +50876,7 @@
 9	ZTE	ZTE	PROPN	_	_	7	appos	_	_
 10	se	se	PRON	_	Person=3|PronType=Prs	11	obj	_	_
 11	lance	lancer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	11	nmod	_	_
+12	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	11	obl:mod	_	_
 13	aussi	aussi	ADV	_	_	12	advmod	_	_
 14	dans	dans	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
@@ -89382,7 +89382,7 @@
 11	qui	qui	PRON	_	PronType=Rel	14	obl:arg	_	_
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
-14	ami	ami	ADJ	_	Gender=Masc|Number=Sing	8	acl:relcl	_	_
+14	ami	ami	ADJ	_	Gender=Masc|Number=Sing	6	ccomp	_	_
 15	depuis	depuis	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
@@ -89393,11 +89393,11 @@
 22	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	25	nsubj	_	SpaceAfter=No
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 24	toujours	toujours	ADV	_	_	25	advmod	_	_
-25	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	6	advcl	_	_
-26	que	que	PRON	_	PronType=Rel	29	obj	_	_
+25	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	6	ccomp	_	_
+26	que	que	SCONJ	_	PronType=Rel	29	mark	_	_
 27	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	nsubj	_	MWEPOS=PRON|SpaceAfter=No
 28	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	27	fixed	_	_
-29	canarde	canarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+29	canarde	canarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl:cleft	_	_
 30	lorsqu'	lorsque	SCONJ	_	_	32	mark	_	SpaceAfter=No
 31	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
 32	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
@@ -125775,7 +125775,7 @@
 # text = Le soleil lui, brille déjà à merveille.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	soleil	soleil	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	expl	_	SpaceAfter=No
+3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	brille	briller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	déjà	déjà	ADV	_	_	5	advmod	_	_
@@ -143627,7 +143627,7 @@
 # text = Chuck, lui, prend moins bien la nouvelle histoire d'amour de Blair et fait tout pour les séparer.
 1	Chuck	Chuck	PROPN	_	_	5	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod	_	SpaceAfter=No
+3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	moins	moins	ADV	_	_	7	advmod	_	_
@@ -171849,7 +171849,7 @@
 9	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
 10	en	en	ADP	_	_	11	mark	_	_
 11	grandissant	grandir	VERB	_	Tense=Pres|VerbForm=Part	12	advcl	_	_
-12	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl:cleft	_	_
 13	organiser	organiser	VERB	_	VerbForm=Inf	12	xcomp	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	révolte	révolte	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
@@ -244868,8 +244868,8 @@
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	film	film	NOUN	_	Gender=Masc|Number=Sing	27	obj	_	_
 31	:	:	PUNCT	_	_	35	punct	_	_
-32	Verdoux	Verdoux	PROPN	_	_	35	nsubj	_	_
-33	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	35	expl	_	SpaceAfter=No
+32	Verdoux	Verdoux	PROPN	_	_	35	dislocated	_	_
+33	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	35	nsubj	_	SpaceAfter=No
 34	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	cop	_	_
 35	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	parataxis	_	_
 36	!	!	PUNCT	_	_	35	punct	_	_
@@ -252697,10 +252697,10 @@
 # sent_id = fr-ud-train_09009
 # text = Une fois lui aussi parti en Californie, Carl Radle joue un temps avec le groupe Skip & Flip de Skip Battin.
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
-3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	9	appos	_	_
+2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obl:mod	_	_
 4	aussi	aussi	ADV	_	_	3	advmod	_	_
-5	parti	partir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	parti	partir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	Californie	Californie	PROPN	_	_	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
@@ -282053,7 +282053,7 @@
 17	désormais	désormais	ADV	_	_	16	advmod	_	_
 18	se	se	PRON	_	Person=3|PronType=Prs	19	expl	_	_
 19	pencher	pencher	VERB	_	VerbForm=Inf	16	ccomp	_	_
-20	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	19	expl	_	_
+20	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	19	obl:mod	_	_
 21	aussi	aussi	ADV	_	_	20	advmod	_	_
 22	sur	sur	ADP	_	_	24	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -314061,7 +314061,7 @@
 2	DVD	DVD	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
 3	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	3	appos	_	SpaceAfter=No
+5	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obl:mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	consacre	consacrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
 8	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
@@ -338305,7 +338305,7 @@
 6	reconnu	reconnaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	et	et	CCONJ	_	_	12	cc	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
-9	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	12	expl	_	_
+9	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	12	obl:mod	_	_
 10	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	12	obj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	changées	changer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
@@ -354835,7 +354835,7 @@
 15	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	_
 16	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	15	nmod	_	SpaceAfter=No
+18	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	16	obl:mod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	partie	partie	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
@@ -364104,7 +364104,7 @@
 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
 35	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	24	conj	_	_
 36	qui	qui	PRON	_	PronType=Rel	37	nsubj	_	_
-37	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
+37	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	advcl:cleft	_	_
 38-39	des	_	_	_	_	_	_	_	_
 38	de	de	ADP	_	_	40	case	_	_
 39	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
@@ -364122,7 +364122,7 @@
 51	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	24	conj	_	_
 52	qui	qui	PRON	_	PronType=Rel	54	nsubj	_	_
 53	se	se	PRON	_	Person=3|PronType=Prs	54	expl	_	_
-54	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	acl:relcl	_	_
+54	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	advcl:cleft	_	_
 55	garant	garant	NOUN	_	Gender=Masc|Number=Sing	54	xcomp	_	_
 56-57	des	_	_	_	_	_	_	_	_
 56	de	de	ADP	_	_	58	case	_	_
@@ -404706,7 +404706,7 @@
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 20	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	6	conj	_	_
 21	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
-22	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+22	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl:cleft	_	_
 23	diriger	diriger	VERB	_	VerbForm=Inf	22	xcomp	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	pays	pays	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
