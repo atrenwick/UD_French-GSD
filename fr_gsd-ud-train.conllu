@@ -11275,7 +11275,7 @@
 17	45	45	NUM	_	_	18	nummod	_	_
 18	ans	an	NOUN	_	Gender=Masc|Number=Plur	15	obl:arg	_	_
 19	en	en	ADP	_	_	20	case	_	_
-20	1950	1950	NUM	_	_	18	obl:mod	_	_
+20	1950	1950	NUM	_	_	15	obl:mod	_	_
 21	;	;	PUNCT	_	_	18	punct	_	_
 
 # sent_id = fr-ud-train_00391
@@ -14584,7 +14584,7 @@
 24	de	de	ADP	_	_	25	case	_	_
 25	1960	1960	NUM	_	_	20	nmod	_	_
 26	à	à	ADP	_	_	27	case	_	_
-27	1965	1965	NUM	_	_	20	nmod	_	_
+27	1965	1965	NUM	_	_	25	nmod	_	_
 28	chez	chez	ADP	_	_	29	case	_	_
 29	Ernst	Ernst	PROPN	_	_	20	nmod	_	_
 30	Klett	Klett	PROPN	_	_	29	flat:name	_	_
@@ -14693,7 +14693,7 @@
 # text = Dans le groupe des hommes de 50-54 ans, la prévalence des adénomes était de 18,5% contre 10,7% chez les femmes dans la même tranche d'âge.
 1	Dans	dans	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+3	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
@@ -15708,9 +15708,9 @@
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 12	pas	pas	ADV	_	Polarity=Neg	16	advmod	_	_
 13-14	du	_	_	_	_	_	_	_	_
-13	de	de	ADP	_	_	16	advmod	_	_
-14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	fixed	_	_
-15	tout	tout	PRON	_	Gender=Masc|Number=Sing	13	fixed	_	_
+13	de	de	ADP	_	_	15	case	_	INMWE=Yes
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	INMWE=Yes
+15	tout	tout	PRON	_	Gender=Masc|Number=Sing	16	advmod	_	MWEPOS=ADV
 16	rétractée	rétracter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
 17	»	»	PUNCT	_	_	16	punct	_	_
 18	mais	mais	CCONJ	_	_	22	cc	_	_
@@ -25824,9 +25824,9 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 4	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	9	advmod	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	fixed	_	_
-7	tout	tout	PRON	_	Gender=Masc|Number=Sing	5	fixed	_	_
+5	de	de	ADP	_	_	7	case	_	INMWE=Yes
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	INMWE=Yes
+7	tout	tout	PRON	_	Gender=Masc|Number=Sing	9	advmod	_	MWEPOS=ADV
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	bar	bar	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
@@ -28192,9 +28192,9 @@
 13	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	cars	car	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
 15-16	du	_	_	_	_	_	_	_	_
-15	de	de	ADP	_	_	11	advmod	_	_
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	fixed	_	_
-17	tout	tout	PRON	_	Gender=Masc|Number=Sing	15	fixed	_	SpaceAfter=No
+15	de	de	ADP	_	_	17	case	_	INMWE=Yes
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	INMWE=Yes
+17	tout	tout	PRON	_	Gender=Masc|Number=Sing	14	advmod	_	MWEPOS=ADV|SpaceAfter=No
 18	,	,	PUNCT	_	_	11	punct	_	SpaceAfter=No
 19	"	"	PUNCT	_	_	11	punct	_	_
 20	s'	se	PRON	_	Person=3|PronType=Prs	22	expl	_	SpaceAfter=No
@@ -123058,9 +123058,9 @@
 18	pas	pas	ADV	_	Polarity=Neg	19	advmod	_	_
 19	cuit	cuit	ADJ	_	Gender=Masc|Number=Sing	11	xcomp	_	_
 20-21	du	_	_	_	_	_	_	_	_
-20	de	de	ADP	_	_	19	advmod	_	_
-21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	fixed	_	_
-22	tout	tout	PRON	_	Gender=Masc|Number=Sing	20	fixed	_	_
+20	de	de	ADP	_	_	22	case	_	INMWE=Yes
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	INMWE=Yes
+22	tout	tout	PRON	_	Gender=Masc|Number=Sing	19	advmod	_	MWEPOS=ADV
 23	avec	avec	ADP	_	_	26	case	_	_
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 25	sale	sale	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
@@ -174627,9 +174627,9 @@
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	_
 11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	14	advmod	_	_
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
-13	tout	tout	PRON	_	Gender=Masc|Number=Sing	11	fixed	_	_
+11	de	de	ADP	_	_	13	case	_	INMWE=Yes
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	INMWE=Yes
+13	tout	tout	PRON	_	Gender=Masc|Number=Sing	14	advmod	_	MWEPOS=ADV
 14	insonorisé	insonoriser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -282143,13 +282143,13 @@
 3	se	se	PRON	_	Person=3|PronType=Prs	4	expl	_	_
 4	dégrada	dégrader	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	7	case	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	tout	tout	PRON	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+5	de	de	ADP	_	_	7	case	_	INMWE=Yes
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	INMWE=Yes
+7	tout	tout	PRON	_	Gender=Masc|Number=Sing	4	advmod	_	MWEPOS=ADV
 8-9	au	_	_	_	_	_	_	_	_
-8	à	à	ADP	_	_	10	case	_	_
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	tout	tout	PRON	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+8	à	à	ADP	_	_	10	case	_	INMWE=Yes
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	INMWE=Yes
+10	tout	tout	PRON	_	Gender=Masc|Number=Sing	7	obl:mod	_	INMWE=Yes
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -283074,9 +283074,9 @@
 38	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	43	aux	_	_
 39	pas	pas	ADV	_	Polarity=Neg	43	advmod	_	_
 40-41	du	_	_	_	_	_	_	_	_
-40	de	de	ADP	_	_	43	advmod	_	_
-41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	fixed	_	_
-42	tout	tout	PRON	_	Gender=Masc|Number=Sing	40	fixed	_	_
+40	de	de	ADP	_	_	42	case	_	INMWE=Yes
+41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	INMWE=Yes
+42	tout	tout	PRON	_	Gender=Masc|Number=Sing	43	advmod	_	MWEPOS=ADV
 43	regretté	regretter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -322115,9 +322115,9 @@
 12	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
 13	pratique	pratique	ADJ	_	Gender=Masc|Number=Sing	2	conj	_	_
 14-15	du	_	_	_	_	_	_	_	_
-14	de	de	ADP	_	_	13	advmod	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	fixed	_	_
-16	tout	tout	PRON	_	Gender=Masc|Number=Sing	14	fixed	_	_
+14	de	de	ADP	_	_	16	case	_	INMWE=Yes
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	INMWE=Yes
+16	tout	tout	PRON	_	Gender=Masc|Number=Sing	13	advmod	_	MWEPOS=ADV
 17	et	et	CCONJ	_	_	24	cc	_	_
 18	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	vendeuses	vendeur	NOUN	_	Gender=Fem|Number=Plur	24	nsubj	_	SpaceAfter=No
@@ -323630,9 +323630,9 @@
 9	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	_
 10	chers	cher	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	10	advmod	_	_
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
-13	tout	tout	ADV	_	_	11	fixed	_	SpaceAfter=No
+11	de	de	ADP	_	_	13	case	_	INMWE=Yes
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	INMWE=Yes
+13	tout	tout	ADV	_	_	10	advmod	_	MWEPOS=ADV|SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_11586
@@ -332869,9 +332869,9 @@
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 8	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
 9-10	du	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	12	advmod	_	_
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	fixed	_	_
-11	tout	tout	PRON	_	Gender=Masc|Number=Sing	9	fixed	_	_
+9	de	de	ADP	_	_	11	case	_	INMWE=Yes
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	INMWE=Yes
+11	tout	tout	PRON	_	Gender=Masc|Number=Sing	12	advmod	_	MWEPOS=ADV
 12	concluant	concluant	ADJ	_	Gender=Masc|Number=Sing	15	advcl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
