@@ -16541,9 +16541,9 @@
 25	sous	sous	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	numéro	numéro	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
-28	1-030	1-030	NUM	_	_	29	nummod	_	_
-29	TA	TA	X	_	_	27	appos	_	_
-30	66	66	NUM	_	_	29	nummod	_	SpaceAfter=No
+28	1-030	1-030	NUM	_	_	27	nmmod	_	_
+29	TA	TA	X	_	_	28	nmod	_	_
+30	66	66	NUM	_	_	29	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_00577
@@ -16568,8 +16568,8 @@
 18	,	,	PUNCT	_	_	12	punct	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 20	anecdotique	anecdotique	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-21	quant	quant	ADV	_	_	24	case	_	_
-22	à	à	ADP	_	_	21	fixed	_	_
+21	quant	quant	ADV	_	_	24	case	_	MWEPOS=ADP
+22	à	à	ADP	_	_	21	fixed	_	INMWE=Yes
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	qualification	qualification	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	20	punct	_	_
@@ -83547,8 +83547,8 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Nasdaq	Nasdaq	PROPN	_	_	7	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-4	quant	quant	ADV	_	_	6	case	_	_
-5	à	à	ADP	_	_	4	fixed	_	_
+4	quant	quant	ADV	_	_	6	case	_	MWEPOS=ADP
+5	à	à	ADP	_	_	4	fixed	_	INMWE=Yes
 6	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obl	_	_
 7	cédé	céder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	8,1	8,1	NUM	_	_	9	nummod	_	SpaceAfter=No
@@ -92777,8 +92777,8 @@
 # text = Colin, quant à lui, est blessé et tombe.
 1	Colin	Colin	PROPN	_	_	8	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	8	punct	_	_
-3	quant	quant	ADV	_	_	5	case	_	_
-4	à	à	ADP	_	_	3	fixed	_	_
+3	quant	quant	ADV	_	_	5	case	_	MWEPOS=ADP
+4	à	à	ADP	_	_	3	fixed	_	INMWE=Yes
 5	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	8	obl:mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -117352,8 +117352,8 @@
 3	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 4	bonnes	bon	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 5	pratiques	pratique	NOUN	_	Gender=Fem|Number=Plur	1	nsubj	_	_
-6	quant	quant	ADV	_	_	9	case	_	_
-7	à	à	ADP	_	_	6	fixed	_	_
+6	quant	quant	ADV	_	_	9	case	_	MWEPOS=ADP
+7	à	à	ADP	_	_	6	fixed	_	INMWE=Yes
 8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	utilisation	utilisation	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 10-11	du	_	_	_	_	_	_	_	_
@@ -123696,9 +123696,9 @@
 
 # sent_id = fr-ud-train_04436
 # text = Quant aux modèles haut de gamme, Visa Premier ou Gold Mastercard, le plafond dépasse rarement 2.000 euros sur la même période.
-1	Quant	quant	ADV	_	_	4	case	_	_
+1	Quant	quant	ADV	_	_	4	case	_	MWEPOS=ADP
 2-3	aux	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	1	fixed	_	_
+2	à	à	ADP	_	_	1	fixed	_	INMWE=Yes
 3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	modèles	modèle	NOUN	_	Gender=Masc|Number=Plur	17	obl:mod	_	_
 5	haut	haut	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
@@ -142638,8 +142638,8 @@
 6	animée	animé	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
-9	quant	quant	ADV	_	_	11	case	_	_
-10	à	à	ADP	_	_	9	fixed	_	_
+9	quant	quant	ADV	_	_	11	case	_	MWEPOS=ADP
+10	à	à	ADP	_	_	9	fixed	_	INMWE=Yes
 11	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	12	obl	_	_
 12	distribués	distribuer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 13	en	en	ADP	_	_	14	case	_	_
@@ -155522,9 +155522,9 @@
 
 # sent_id = fr-ud-train_05551
 # text = Quant aux riches archives de l'ancienne université de Louvain elles sont toujours conservée aux Archives Générales du Royaume de Belgique.)
-1	Quant	quant	ADV	_	_	5	case	_	_
+1	Quant	quant	ADV	_	_	5	case	_	MWEPOS=ADP
 2-3	aux	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	1	fixed	_	_
+2	à	à	ADP	_	_	1	fixed	_	INMWE=Yes
 3	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 4	riches	riche	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
 5	archives	archive	NOUN	_	Gender=Fem|Number=Plur	15	obl:mod	_	_
@@ -162048,8 +162048,8 @@
 
 # sent_id = fr-ud-train_05790
 # text = Quant à Thor, ce n'est pas tout à fait un super-héros, mais un dieu d'Asgaard ;
-1	Quant	quant	ADV	_	_	3	case	_	_
-2	à	à	ADP	_	_	1	fixed	_	_
+1	Quant	quant	ADV	_	_	3	case	_	MWEPOS=ADP
+2	à	à	ADP	_	_	1	fixed	_	INMWE=Yes
 3	Thor	Thor	PROPN	_	_	13	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	13	punct	_	_
 5	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nsubj	_	_
@@ -162538,8 +162538,8 @@
 
 # sent_id = fr-ud-train_05808
 # text = Quant à l'Europe et plus globalement, le monde occidental, il doit se réveiller, arrêter de soutenir des dictatures non-viables et tout faire pour appuyer des mouvements qui visent le changement pluraliste dans la région.
-1	Quant	quant	ADV	_	_	4	case	_	_
-2	à	à	ADP	_	_	1	fixed	_	_
+1	Quant	quant	ADV	_	_	4	case	_	MWEPOS=ADP
+2	à	à	ADP	_	_	1	fixed	_	INMWE=Yes
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	Europe	Europe	PROPN	_	_	14	obl:mod	_	_
 5	et	et	CCONJ	_	_	10	cc	_	_
@@ -198192,8 +198192,8 @@
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	doutes	doute	NOUN	_	Gender=Masc|Number=Plur	11	obl:arg	_	_
 16	éventuels	éventuel	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
-17	quant	quant	ADV	_	_	20	case	_	_
-18	à	à	ADP	_	_	17	fixed	_	_
+17	quant	quant	ADV	_	_	20	case	_	MWEPOS=ADP
+18	à	à	ADP	_	_	17	fixed	_	INMWE=Yes
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	possibilité	possibilité	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
 21	que	que	SCONJ	_	_	29	mark	_	_
@@ -208775,8 +208775,8 @@
 2	droit	droit	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	musulman	musulman	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	10	punct	_	_
-5	quant	quant	ADV	_	_	7	case	_	_
-6	à	à	ADP	_	_	5	fixed	_	_
+5	quant	quant	ADV	_	_	7	case	_	MWEPOS=ADP
+6	à	à	ADP	_	_	5	fixed	_	INMWE=Yes
 7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	10	obl:mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
@@ -214087,9 +214087,9 @@
 
 # sent_id = fr-ud-train_07641
 # text = Quant aux libertés individuelles, elle ne sont pas acceptables et doivent être guidées par la tyrannie rationnelle.
-1	Quant	quant	ADV	_	_	4	case	_	_
+1	Quant	quant	ADV	_	_	4	case	_	MWEPOS=ADP
 2-3	aux	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	1	fixed	_	_
+2	à	à	ADP	_	_	1	fixed	_	INMWE=Yes
 3	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	libertés	liberté	NOUN	_	Gender=Fem|Number=Plur	11	obl:mod	_	_
 5	individuelles	individuel	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
@@ -217208,8 +217208,8 @@
 
 # sent_id = fr-ud-train_07748
 # text = Quant à la Vie de Samuel Johnson par Boswell, elle fait date dans le domaine de la biographie.
-1	Quant	quant	ADV	_	_	4	case	_	_
-2	à	à	ADP	_	_	1	fixed	_	_
+1	Quant	quant	ADV	_	_	4	case	_	MWEPOS=ADP
+2	à	à	ADP	_	_	1	fixed	_	INMWE=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Vie	vie	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
 5	de	de	ADP	_	_	6	case	_	_
@@ -237696,8 +237696,8 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	cuivre	cuivre	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
 9	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
-10	quant	quant	ADV	_	_	12	case	_	_
-11	à	à	ADP	_	_	10	fixed	_	_
+10	quant	quant	ADV	_	_	12	case	_	MWEPOS=ADP
+11	à	à	ADP	_	_	10	fixed	_	INMWE=Yes
 12	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	13	obl	_	_
 13	lissés	lisser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
@@ -241673,8 +241673,8 @@
 16	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	regrette	regretter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-19	quant	quant	ADV	_	_	21	case	_	_
-20	à	à	ADP	_	_	19	fixed	_	_
+19	quant	quant	ADV	_	_	21	case	_	MWEPOS=ADP
+20	à	à	ADP	_	_	19	fixed	_	INMWE=Yes
 21	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	18	obl	_	_
 22	que	que	SCONJ	_	_	30	mark	_	_
 23	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
@@ -244769,8 +244769,8 @@
 6	hypothèse	hypothèse	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	poids	poids	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-9	quant	quant	ADV	_	_	13	case	_	_
-10	à	à	ADP	_	_	9	fixed	_	_
+9	quant	quant	ADV	_	_	13	case	_	MWEPOS=ADP
+10	à	à	ADP	_	_	9	fixed	_	INMWE=Yes
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 12	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 13	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
@@ -267220,8 +267220,8 @@
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	inquiétudes	inquiétude	NOUN	_	Gender=Fem|Number=Plur	5	obl:arg	_	_
 8	circulent	circuler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	quant	quant	ADV	_	_	12	case	_	_
-10	à	à	ADP	_	_	9	fixed	_	_
+9	quant	quant	ADV	_	_	12	case	_	MWEPOS=ADP
+10	à	à	ADP	_	_	9	fixed	_	INMWE=Yes
 11	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	innocuité	innocuité	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
 13	de	de	ADP	_	_	15	case	_	_
@@ -268673,9 +268673,9 @@
 8	connaître	connaître	VERB	_	VerbForm=Inf	0	root	_	_
 9	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
 10	décision	décision	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
-11	quant	quant	ADV	_	_	14	case	_	_
+11	quant	quant	ADV	_	_	14	case	_	MWEPOS=ADP
 12-13	au	_	_	_	_	_	_	_	_
-12	à	à	ADP	_	_	11	fixed	_	_
+12	à	à	ADP	_	_	11	fixed	_	INMWE=Yes
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	maintien	maintien	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 15	ou	ou	CCONJ	_	_	16	cc	_	_
@@ -280966,8 +280966,8 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	Europe	Europe	PROPN	_	_	16	nsubj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
-11	quant	quant	ADV	_	_	13	case	_	_
-12	à	à	ADP	_	_	11	fixed	_	_
+11	quant	quant	ADV	_	_	13	case	_	MWEPOS=ADP
+12	à	à	ADP	_	_	11	fixed	_	INMWE=Yes
 13	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	9	punct	_	_
 15	ne	ne	ADV	_	Polarity=Neg	16	advmod	_	_
@@ -281467,8 +281467,8 @@
 # text = Aundrea Fimbres quant à elle jouera dans la comédie musicale Le Magicien d'Oz où elle tiendra le rôle de Dorothy.
 1	Aundrea	Aundrea	PROPN	_	_	6	nsubj	_	_
 2	Fimbres	Fimbres	PROPN	_	_	1	flat:name	_	_
-3	quant	quant	ADV	_	_	5	case	_	_
-4	à	à	ADP	_	_	3	fixed	_	_
+3	quant	quant	ADV	_	_	5	case	_	MWEPOS=ADP
+4	à	à	ADP	_	_	3	fixed	_	INMWE=Yes
 5	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nmod	_	_
 6	jouera	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	dans	dans	ADP	_	_	9	case	_	_
@@ -283102,8 +283102,8 @@
 1	Ixodes	Ixodes	PROPN	_	_	3	nsubj	_	_
 2	ovatus	ovatus	PROPN	_	_	1	flat:name	_	_
 3	transmet	transmettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	quant	quant	ADV	_	_	6	case	_	_
-5	à	à	ADP	_	_	4	fixed	_	_
+4	quant	quant	ADV	_	_	6	case	_	MWEPOS=ADP
+5	à	à	ADP	_	_	4	fixed	_	INMWE=Yes
 6	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
 7	Borrelia	Borrelia	PROPN	_	_	3	obj	_	_
 8	japonica	japonica	PROPN	_	_	7	flat:name	_	SpaceAfter=No
@@ -287063,8 +287063,8 @@
 # text = Nanours, quant à lui, demanda des chaussures pour sa mère.
 1	Nanours	Nanours	PROPN	_	_	7	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	_	_
-3	quant	quant	ADV	_	_	5	case	_	_
-4	à	à	ADP	_	_	3	fixed	_	_
+3	quant	quant	ADV	_	_	5	case	_	MWEPOS=ADP
+4	à	à	ADP	_	_	3	fixed	_	INMWE=Yes
 5	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	1	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	demanda	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -304383,9 +304383,9 @@
 
 # sent_id = fr-ud-train_10901
 # text = Quant aux diarrhées dont on parle tant, elles ne concernent que 10% des patients, ce qui est peu élevé.
-1	Quant	quant	ADV	_	_	4	case	_	_
+1	Quant	quant	ADV	_	_	4	case	_	MWEPOS=ADP
 2-3	aux	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	1	fixed	_	_
+2	à	à	ADP	_	_	1	fixed	_	INMWE=Yes
 3	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	diarrhées	diarrhée	NOUN	_	Gender=Fem|Number=Plur	12	obl:mod	_	_
 5	dont	dont	PRON	_	PronType=Rel	7	iobj	_	_
@@ -322516,8 +322516,8 @@
 6	Ripoulin	Ripoulin	PROPN	_	_	5	flat:name	_	_
 7	réalisaient	réaliser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	quant	quant	ADV	_	_	11	case	_	_
-10	à	à	ADP	_	_	9	fixed	_	_
+9	quant	quant	ADV	_	_	11	case	_	MWEPOS=ADP
+10	à	à	ADP	_	_	9	fixed	_	INMWE=Yes
 11	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	7	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	7	punct	_	_
 13	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
@@ -324611,9 +324611,9 @@
 19	à	à	ADP	_	_	21	case	_	_
 20	du	du	DET	_	Gender=Masc|Number=Sing	21	det	_	_
 21	fétichisme	fétichisme	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	_
-22	quant	quant	ADV	_	_	25	case	_	_
+22	quant	quant	ADV	_	_	25	case	_	MWEPOS=ADP
 23-24	au	_	_	_	_	_	_	_	_
-23	à	à	ADP	_	_	22	fixed	_	_
+23	à	à	ADP	_	_	22	fixed	_	INMWE=Yes
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	travestisme	travestisme	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 26	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
@@ -328028,8 +328028,8 @@
 7	spéciale	spécial	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	commencera	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
-10	quant	quant	ADV	_	_	12	case	_	_
-11	à	à	ADP	_	_	10	fixed	_	_
+10	quant	quant	ADV	_	_	12	case	_	MWEPOS=ADP
+11	à	à	ADP	_	_	10	fixed	_	INMWE=Yes
 12	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	à	à	ADP	_	_	16	case	_	_
@@ -329952,8 +329952,8 @@
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Athéniens	athénien	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	quant	quant	ADV	_	_	6	case	_	_
-5	à	à	ADP	_	_	4	fixed	_	_
+4	quant	quant	ADV	_	_	6	case	_	MWEPOS=ADP
+5	à	à	ADP	_	_	4	fixed	_	INMWE=Yes
 6	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	8	obl:mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	placent	placer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -335120,8 +335120,8 @@
 
 # sent_id = fr-ud-train_12006
 # text = Quant à Armand, il comprend que Zorro était le mari d'Elena.
-1	Quant	quant	ADV	_	_	3	case	_	_
-2	à	à	ADP	_	_	1	fixed	_	_
+1	Quant	quant	ADV	_	_	3	case	_	MWEPOS=ADP
+2	à	à	ADP	_	_	1	fixed	_	INMWE=Yes
 3	Armand	Armand	PROPN	_	_	6	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -344369,8 +344369,8 @@
 
 # sent_id = fr-ud-train_12334
 # text = Quant à nous, voisins arabes et maghrébins, il faut bien reconnaître que les Tunisiens nous ont déjà administré leur leçon.
-1	Quant	quant	ADV	_	_	3	case	_	_
-2	à	à	ADP	_	_	1	fixed	_	_
+1	Quant	quant	ADV	_	_	3	case	_	MWEPOS=ADP
+2	à	à	ADP	_	_	1	fixed	_	INMWE=Yes
 3	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	11	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	11	punct	_	_
 5	voisins	voisin	NOUN	_	Gender=Masc|Number=Plur	3	appos	_	_
@@ -365930,8 +365930,8 @@
 16	Christopher	Christopher	PROPN	_	_	14	obl:agent	_	_
 17	Nolan	Nolan	PROPN	_	_	16	flat:name	_	_
 18	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	aux:pass	_	_
-19	quant	quant	ADV	_	_	21	case	_	_
-20	à	à	ADP	_	_	19	fixed	_	_
+19	quant	quant	ADV	_	_	21	case	_	MWEPOS=ADP
+20	à	à	ADP	_	_	19	fixed	_	INMWE=Yes
 21	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	obl	_	_
 22	diffusée	diffuser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
 23-24	au	_	_	_	_	_	_	_	_
@@ -367799,8 +367799,8 @@
 24	Baulet-Châtelet/Chatelineau	Baulet-Châtelet/Chatelineau	PROPN	_	_	23	flat:name	_	SpaceAfter=No
 25	)	)	PUNCT	_	_	7	punct	_	_
 26	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
-27	quant	quant	ADV	_	_	29	case	_	_
-28	à	à	ADP	_	_	27	fixed	_	_
+27	quant	quant	ADV	_	_	29	case	_	MWEPOS=ADP
+28	à	à	ADP	_	_	27	fixed	_	INMWE=Yes
 29	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	30	obl	_	_
 30	assurées	assurer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 31	par	par	ADP	_	_	34	case	_	_
@@ -368698,8 +368698,8 @@
 5	Maures	Maures	PROPN	_	_	2	nmod	_	_
 6	Darmanko	Darmanko	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
-8	quant	quant	ADV	_	_	10	case	_	_
-9	à	à	ADP	_	_	8	fixed	_	_
+8	quant	quant	ADV	_	_	10	case	_	MWEPOS=ADP
+9	à	à	ADP	_	_	8	fixed	_	INMWE=Yes
 10	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	11	obl	_	_
 11	implanté	implanter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 12-13	au	_	_	_	_	_	_	_	_
@@ -376494,8 +376494,8 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	club	club	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
-11	quant	quant	ADV	_	_	13	case	_	_
-12	à	à	ADP	_	_	11	fixed	_	_
+11	quant	quant	ADV	_	_	13	case	_	MWEPOS=ADP
+12	à	à	ADP	_	_	11	fixed	_	INMWE=Yes
 13	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	14	obl	_	_
 14	inauguré	inaugurer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 15	en	en	ADP	_	_	16	case	_	_
@@ -378146,8 +378146,8 @@
 5	Zone	Zone	PROPN	_	_	2	appos	_	_
 6	3	3	NUM	_	_	5	compound	_	_
 7	produit	produire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	quant	quant	ADV	_	_	10	case	_	_
-9	à	à	ADP	_	_	8	fixed	_	_
+8	quant	quant	ADV	_	_	10	case	_	MWEPOS=ADP
+9	à	à	ADP	_	_	8	fixed	_	INMWE=Yes
 10	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
 11	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	émission	émission	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
@@ -386852,8 +386852,8 @@
 21	légales	légal	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
 22	intermédiaires	intermédiaire	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
 23	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
-24	quant	quant	ADV	_	_	26	case	_	_
-25	à	à	ADP	_	_	24	fixed	_	_
+24	quant	quant	ADV	_	_	26	case	_	MWEPOS=ADP
+25	à	à	ADP	_	_	24	fixed	_	INMWE=Yes
 26	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	27	obl	_	_
 27	estimées	estimer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	conj	_	_
 28	par	par	ADP	_	_	29	case	_	_
