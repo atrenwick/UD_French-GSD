@@ -965,8 +965,8 @@
 
 # sent_id = fr-ud-train_00040
 # text = De plus l'appartenance à l'ordre équestre était nécessaire pour accéder aux postes d'officier dans l'armée.
-1	De	de	ADP	_	_	10	advmod	_	MWEPOS=ADV
-2	plus	plus	ADV	_	_	1	fixed	_	_
+1	De	de	ADP	_	_	2	case	_	INMWE=Yes|MWEPOS=ADV
+2	plus	plus	ADV	_	_	10	advmod	_	MWEPOS=ADV
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	appartenance	appartenance	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 5	à	à	ADP	_	_	7	case	_	_
@@ -15916,8 +15916,8 @@
 35	Malmaison	Malmaison	PROPN	_	_	33	nmod	_	_
 36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
 37	inventaire	inventaire	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
-38	MM	MM	X	_	_	37	appos	_	_
-39	7149	7149	NUM	_	_	38	nummod	_	SpaceAfter=No
+38	MM	MM	X	_	_	37	nmod	_	_
+39	7149	7149	NUM	_	_	38	nmod	_	SpaceAfter=No
 40	)	)	PUNCT	_	_	37	punct	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -28848,9 +28848,9 @@
 # text = Il est d'autant plus à craindre qu'il existe un persécuteur désigné, c'est-à-dire un individu précis, jugé comme étant responsable des persécutions que le sujet pense endurer ;
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-3	d'	de	ADP	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
+3	d'	de	ADP	_	_	5	case	_	INMWE=Yes|MWEPOS=ADV|SpaceAfter=No
 4	autant	autant	ADV	_	_	3	fixed	_	_
-5	plus	plus	ADV	_	_	3	fixed	_	_
+5	plus	plus	ADV	_	_	7	advmod	_	MWEPOS=ADV
 6	à	à	ADP	_	_	7	mark	_	_
 7	craindre	craindre	VERB	_	VerbForm=Inf	0	root	_	_
 8	qu'	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
@@ -33020,9 +33020,9 @@
 # text = On est d'autant plus autorisé à le penser, que c'est l'avis de G. Héquet qui écrivait que Hignard avait « fait beaucoup mieux déjà », ajoutant toutefois qu'il avait « été si peu exécuté, ou si vous préférez, si cruellement exécuté » que le critique devait bien avouer qu'il ne lui était « guère possible d'avoir une opinion sur son ouvrage », c'est-à-dire sur l'œuvre de Hignard en général.
 1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-3	d'	de	ADP	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
+3	d'	de	ADP	_	_	5	case	_	INMWE=Yes|MWEPOS=ADV|SpaceAfter=No
 4	autant	autant	ADV	_	_	3	fixed	_	_
-5	plus	plus	ADV	_	_	3	fixed	_	_
+5	plus	plus	ADV	_	_	6	advmod	_	MWEPOS=ADV
 6	autorisé	autoriser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	à	à	ADP	_	_	9	mark	_	_
 8	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
@@ -86021,9 +86021,9 @@
 17	non	non	ADV	_	_	18	advmod	_	_
 18	française	français	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	6	punct	_	_
-20	d'	de	ADP	_	_	26	advmod	_	MWEPOS=ADV|SpaceAfter=No
+20	d'	de	ADP	_	_	22	case	_	INMWE=Yes|MWEPOS=ADV|SpaceAfter=No
 21	autant	autant	ADV	_	_	20	fixed	_	_
-22	plus	plus	ADV	_	_	20	fixed	_	_
+22	plus	plus	ADV	_	_	26	advmod	_	MWEPOS=ADV
 23	si	si	SCONJ	_	_	26	mark	_	_
 24	leurs	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	25	det	_	_
 25	activités	activité	NOUN	_	Gender=Fem|Number=Plur	26	nsubj	_	_
@@ -102735,9 +102735,9 @@
 # text = Il fut d'autant plus surpris par ce qu'il y trouva, des gens ouverts et amicaux et le plus beau paysage qu'il ait vu en Australie.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
 2	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
-3	d'	de	ADP	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
+3	d'	de	ADP	_	_	5	case	_	INMWE=Yes|MWEPOS=ADV|SpaceAfter=No
 4	autant	autant	ADV	_	_	3	fixed	_	_
-5	plus	plus	ADV	_	_	3	fixed	_	_
+5	plus	plus	ADV	_	_	6	advmod	_	MWEPOS=ADV
 6	surpris	surprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	par	par	ADP	_	_	8	case	_	_
 8	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	obl:agent	_	_
@@ -245851,9 +245851,9 @@
 13	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	d'	de	ADP	_	_	15	mark	_	SpaceAfter=No
 15	accentuer	accentuer	VERB	_	VerbForm=Inf	13	xcomp	_	_
-16	d'	de	ADP	_	_	15	advmod	_	MWEPOS=ADV|SpaceAfter=No
+16	d'	de	ADP	_	_	18	case	_	INMWE=Yes|MWEPOS=ADV|SpaceAfter=No
 17	autant	autant	ADV	_	_	16	fixed	_	_
-18	plus	plus	ADV	_	_	16	fixed	_	_
+18	plus	plus	ADV	_	_	15	advmod	_	MWEPOS=ADV
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 21-22	des	_	_	_	_	_	_	_	_
@@ -325252,9 +325252,9 @@
 11	avances	avance	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	et	et	CCONJ	_	_	17	cc	_	_
-14	d'	de	ADP	_	_	17	advmod	_	MWEPOS=ADV|SpaceAfter=No
+14	d'	de	ADP	_	_	16	case	_	INMWE=Yes|MWEPOS=ADV|SpaceAfter=No
 15	autant	autant	ADV	_	_	14	fixed	_	_
-16	plus	plus	ADV	_	_	14	fixed	_	_
+16	plus	plus	ADV	_	_	17	advmod	_	MWEPOS=ADV
 17	fortement	fortement	ADV	_	_	9	conj	_	_
 18	que	que	SCONJ	_	_	21	mark	_	_
 19	Bugs	Bugs	PROPN	_	_	21	nsubj	_	_
