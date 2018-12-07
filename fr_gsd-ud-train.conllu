@@ -965,7 +965,7 @@
 
 # sent_id = fr-ud-train_00040
 # text = De plus l'appartenance à l'ordre équestre était nécessaire pour accéder aux postes d'officier dans l'armée.
-1	De	de	ADP	_	_	2	case	_	INMWE=Yes|MWEPOS=ADV
+1	De	de	ADP	_	_	2	case	_	INMWE=Yes
 2	plus	plus	ADV	_	_	10	advmod	_	MWEPOS=ADV
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	appartenance	appartenance	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
@@ -17496,7 +17496,7 @@
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	évêque	évêque	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 9	«	«	PUNCT	_	_	10	punct	_	_
-10	de	de	ADP	_	_	8	nmod	_	MWEPOS=ADV
+10	de	de	ADP	_	_	8	advmod	_	MWEPOS=ADV
 11	facto	facto	NOUN	_	_	10	fixed	_	_
 12	»	»	PUNCT	_	_	10	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	8	punct	_	_
@@ -17527,7 +17527,7 @@
 4	chiffre	chiffre	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
 5	de	de	ADP	_	_	8	case	_	_
 6	10	10	NUM	_	_	7	nummod	_	_
-7	milliards	milliard	NOUN	_	Gender=Masc|Number=Plur	8	nummod	_	_
+7	milliards	milliard	NUM	_	Gender=Masc|Number=Plur	8	nmod	_	_
 8	€	€	SYM	_	_	4	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -28949,8 +28949,8 @@
 29	chez	chez	ADP	_	_	30	case	_	_
 30	Polybe	Polybe	PROPN	_	_	28	obl	_	_
 31	(	(	PUNCT	_	_	32	punct	_	SpaceAfter=No
-32	e.g.	e.g.	X	_	_	30	appos	_	_
-33	4.67.5	4.67.5	NUM	_	_	32	nummod	_	SpaceAfter=No
+32	e.g.	e.g.	ADV	_	_	33	advmod	_	_
+33	4.67.5	4.67.5	NUM	_	_	30	nmod	_	SpaceAfter=No
 34	)	)	PUNCT	_	_	32	punct	_	_
 35	comme	comme	ADP	_	_	37	case	_	_
 36	chez	chez	ADP	_	_	37	case	_	_
@@ -29193,7 +29193,7 @@
 4	restant	restant	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 5	embarquent	embarquer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	13	13	NUM	_	_	5	nummod	_	_
+7	13	13	NUM	_	_	5	obl:mod	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	gare	gare	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
@@ -78814,8 +78814,8 @@
 32	bord	bord	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
 33	de	de	ADP	_	_	34	case	_	_
 34	mer	mer	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
-35	D	D	X	_	_	29	appos	_	_
-36	6098	6098	NUM	_	_	35	nummod	_	_
+35	D	D	X	_	_	29	nmod	_	_
+36	6098	6098	NUM	_	_	35	nmod	_	_
 37	et	et	CCONJ	_	_	38	cc	_	_
 38	accueille	accueillir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 39	une	une	NUM	_	_	40	nummod	_	_
@@ -82277,7 +82277,7 @@
 9	de	de	ADP	_	_	8	fixed	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	A	A	X	_	_	7	obl	_	_
-12	106	106	NUM	_	_	11	nummod	_	SpaceAfter=No
+12	106	106	NUM	_	_	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_02916
@@ -273105,8 +273105,8 @@
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	2.1.5	2.1.5	NUM	_	_	9	dep	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	p	p	X	_	_	16	appos	_	_
-19	112	112	NUM	_	_	18	nummod	_	SpaceAfter=No
+18	p	p	NOUN	_	_	16	obl:mod	_	_
+19	112	112	NUM	_	_	18	nmod	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -291147,7 +291147,7 @@
 # text = Entre vous deux, vous pouvez tout arranger.
 1	Entre	entre	ADP	_	_	2	case	_	_
 2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	6	obl:mod	_	_
-3	deux	deux	NUM	_	_	2	nummod	_	SpaceAfter=No
+3	deux	deux	NUM	_	_	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_
 6	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -313922,7 +313922,7 @@
 8	tennis	tennis	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 10	classé	classer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
-11	15	15	NUM	_	_	10	nummod	_	SpaceAfter=No
+11	15	15	NUM	_	_	10	xcomp	_	SpaceAfter=No
 12	/	/	PUNCT	_	_	11	punct	_	SpaceAfter=No
 13	5	5	NUM	_	_	11	nummod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
@@ -315670,22 +315670,22 @@
 7	crématoires	crématoire	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 8	appelés	appeler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
 9	K	K	X	_	_	8	xcomp	_	_
-10	I	I	NUM	_	_	9	nummod	_	SpaceAfter=No
+10	I	I	NUM	_	_	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	K	K	X	_	_	9	conj	_	_
-13	II	II	NUM	_	_	12	nummod	_	SpaceAfter=No
+13	II	II	NUM	_	_	12	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	K	K	X	_	_	9	conj	_	_
-16	III	III	NUM	_	_	15	nummod	_	SpaceAfter=No
+16	III	III	NUM	_	_	15	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	K	K	X	_	_	9	conj	_	_
-19	IV	IV	NUM	_	_	18	nummod	_	_
+19	IV	IV	NUM	_	_	18	nmod	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
 21	K	K	X	_	_	9	conj	_	_
-22	V	V	NUM	_	_	21	nummod	_	_
+22	V	V	NUM	_	_	21	nmod	_	_
 23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
 24	K	K	X	_	_	5	parataxis	_	_
-25	I	I	NUM	_	_	24	nummod	_	_
+25	I	I	NUM	_	_	24	nmod	_	_
 26	à	à	ADP	_	_	27	case	_	_
 27	Auschwitz	Auschwitz	PROPN	_	_	24	nmod	_	_
 28	I	I	NUM	_	_	27	nmod	_	SpaceAfter=No
@@ -322499,7 +322499,7 @@
 9	et	et	CCONJ	_	_	13	cc	_	_
 10	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	un	un	PRON	_	Gender=Masc|Number=Sing	13	nsubj	_	_
-12	deux	deux	NUM	_	_	11	nummod	_	_
+12	deux	deux	NUM	_	_	11	nmod	_	_
 13	fit	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 14	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 15	brillantes	brillant	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
@@ -352067,7 +352067,7 @@
 7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 8	composer	composer	VERB	_	VerbForm=Inf	7	ccomp	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	02 31 30 47 70	02 31 30 47 70	NUM	_	_	8	nummod	_	_
+10	02 31 30 47 70	02 31 30 47 70	NUM	_	_	8	obj	_	_
 
 # sent_id = fr-ud-train_12599
 # text = En avril 2000, il est nommé conseiller pour les affaires économiques du président Poutine, dont il sera également le sherpa pour le G8, que la Russie organisera pour la première fois après son départ de l'administration présidentielle, en juillet 2006.
@@ -357175,7 +357175,7 @@
 30	de	de	ADP	_	_	32	case	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	DA	DA	X	_	_	26	nmod	_	_
-33	136	136	NUM	_	_	32	nummod	_	SpaceAfter=No
+33	136	136	NUM	_	_	32	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	36	punct	_	_
 35	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
 36	perpétue	perpétuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
@@ -360271,7 +360271,7 @@
 17	franco-allemande	franco-allemand	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 19	TDF	TDF	X	_	_	12	appos	_	_
-20	1	1	NUM	_	_	19	nummod	_	SpaceAfter=No
+20	1	1	NUM	_	_	19	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
 22	Kopernicus	Kopernicus	PROPN	_	_	19	conj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
@@ -369390,7 +369390,7 @@
 36	allant	aller	VERB	_	Tense=Pres|VerbForm=Part	35	acl	_	_
 37	jusqu'	jusque	ADV	_	_	39	advmod	_	SpaceAfter=No
 38	à	à	ADP	_	_	39	case	_	_
-39	14	14	NUM	_	_	36	nummod	_	SpaceAfter=No
+39	14	14	NUM	_	_	36	obl:arg	_	SpaceAfter=No
 40	,	,	PUNCT	_	_	35	punct	_	_
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	normale	normale	NOUN	_	Gender=Fem|Number=Sing	35	appos	_	_
@@ -373488,14 +373488,14 @@
 3	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	normes	norme	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
 5	ISO	ISO	X	_	_	4	appos	_	_
-6	9000	9000	NUM	_	_	5	nummod	_	_
+6	9000	9000	NUM	_	_	5	nmod	_	_
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	8	punct	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	ISO	ISO	X	_	_	5	conj	_	_
-13	14000	14000	NUM	_	_	12	nummod	_	_
+13	14000	14000	NUM	_	_	12	nmod	_	_
 14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 15	respect	respect	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
 16	de	de	ADP	_	_	18	case	_	_
@@ -373938,9 +373938,9 @@
 22	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
 23	anciens	ancien	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	_
 24	bombardiers	bombardier	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
-25	Junkers	Junkers	PROPN	_	_	24	appos	_	_
-26	Ju	Ju	X	_	_	25	appos	_	_
-27	88	88	NUM	_	_	26	nummod	_	_
+25	Junkers	Junkers	PROPN	_	_	24	nmod	_	_
+26	Ju	Ju	X	_	_	25	nmod	_	_
+27	88	88	NUM	_	_	26	nmod	_	_
 28	usées	user	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	25	acl	_	_
 29	par	par	ADP	_	_	31	case	_	_
 30	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
@@ -388635,7 +388635,7 @@
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	PLDM	PLDM	X	_	_	3	conj	_	_
-9	32	32	NUM	_	_	8	nummod	_	SpaceAfter=No
+9	32	32	NUM	_	_	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Parti	parti	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
@@ -394608,9 +394608,9 @@
 23	professionnelle	professionnel	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
 24	portée	porter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
 25	de	de	ADP	_	_	29	case	_	_
-26	un	un	NUM	_	_	24	nummod	_	_
+26	un	un	NUM	_	_	24	obl:arg	_	_
 27	à	à	ADP	_	_	28	case	_	_
-28	deux	deux	NUM	_	_	26	nmod	_	_
+28	deux	deux	NUM	_	_	29	nummod	_	_
 29	ans	an	NOUN	_	Gender=Masc|Number=Plur	24	obl:arg	_	_
 30	comme	comme	ADP	_	_	32	case	_	_
 31	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
@@ -406865,11 +406865,11 @@
 7	Polonais	Polonais	PROPN	_	_	2	obl	_	_
 8	Łukasz	Łukasz	PROPN	_	_	7	appos	_	_
 9	Kubot	Kubot	PROPN	_	_	8	flat:name	_	_
-10	7-6	7-6	NUM	_	_	2	nummod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	10	punct	_	_
-12	7-5	7-5	NUM	_	_	10	nummod	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	10	punct	_	_
-14	6-1	6-1	NUM	_	_	10	nummod	_	_
+10	7-6	7-6	NUM	_	_	2	obl:arg	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	7-5	7-5	NUM	_	_	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	6-1	6-1	NUM	_	_	10	conj	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	accède	accéder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 17	ainsi	ainsi	ADV	_	_	16	advmod	_	_
