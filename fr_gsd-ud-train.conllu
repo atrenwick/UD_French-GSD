@@ -256536,8 +256536,8 @@
 
 # sent_id = fr-ud-train_09145
 # text = Dès lors que la relation entre la période et la luminosité des céphéides est correctement calibrée, il devient possible de l'utiliser pour mesurer la distance de toutes les céphéides classiques identifiées.
-1	Dès	dès	ADP	_	_	17	mark	_	_
-2	lors	lors	ADV	_	_	17	mark	_	_
+1	Dès	dès	ADP	_	_	2	case	_	INMWE=Yes
+2	lors	lors	ADV	_	_	20	advmod	_	MWEPOS=ADV
 3	que	que	SCONJ	_	_	17	mark	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	relation	relation	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
@@ -256553,7 +256553,7 @@
 14	céphéides	céphéide	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
 16	correctement	correctement	ADV	_	_	17	advmod	_	_
-17	calibrée	calibrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	SpaceAfter=No
+17	calibrée	calibrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 20	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -275150,11 +275150,11 @@
 20	ou	ou	CCONJ	_	_	22	cc	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	blues	blues	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
-23	dès	dès	ADP	_	_	27	mark	_	_
-24	lors	lors	ADV	_	_	27	mark	_	_
+23	dès	dès	ADP	_	_	24	case	_	INMWE=Yes
+24	lors	lors	ADV	_	_	8	advmod	_	MWEPOS=ADV
 25	qu'	que	SCONJ	_	_	27	mark	_	SpaceAfter=No
 26	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
-27	emménage	emménager	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+27	emménage	emménager	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
 28	à	à	ADP	_	_	29	case	_	_
 29	Bristol	Bristol	PROPN	_	_	27	obl:arg	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	8	punct	_	_
