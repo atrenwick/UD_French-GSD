@@ -10065,12 +10065,12 @@
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 9	admises	admettre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	à	à	ADP	_	_	16	mark	_	_
-12	moins	moins	ADV	_	_	11	fixed	_	_
-13	d'	de	ADP	_	_	11	fixed	_	SpaceAfter=No
+11	à	à	ADP	_	_	12	case	_	INMWE=Yes
+12	moins	moins	ADV	_	_	9	advmod	_	MWEPOS=ADV
+13	d'	de	ADP	_	_	16	mark	_	SpaceAfter=No
 14	être	être	AUX	_	VerbForm=Inf	16	aux:pass	_	_
 15	explicitement	explicitement	ADV	_	_	16	advmod	_	_
-16	interdites	interdire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
+16	interdites	interdire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	xcomp	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_00346
@@ -59845,11 +59845,11 @@
 
 # sent_id = fr-ud-train_02127
 # text = À moins qu'il accepte de revoir à la baisse le nombre d'heures de cours hebdomadaire.
-1	À	à	ADP	_	_	5	mark	_	_
-2	moins	moins	ADV	_	_	1	fixed	_	_
-3	qu'	que	SCONJ	_	_	1	fixed	_	SpaceAfter=No
+1	À	à	ADP	_	_	2	case	_	INMWE=Yes
+2	moins	moins	ADV	_	_	0	root	_	MWEPOS=ADV
+3	qu'	que	SCONJ	_	_	5	mark	_	SpaceAfter=No
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-5	accepte	accepter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	accepte	accepter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 6	de	de	ADP	_	_	7	mark	_	_
 7	revoir	revoir	VERB	_	VerbForm=Inf	5	xcomp	_	_
 8	à	à	ADP	_	_	10	case	_	_
@@ -161185,7 +161185,7 @@
 25	Chambéry-Challes-les-Eaux	Chambéry-Challes-les-Eaux	PROPN	_	_	23	nmod	_	_
 26	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
 27	à	à	ADP	_	_	28	case	_	_
-28	moins	moins	ADV	_	_	26	obl	_	_
+28	moins	moins	ADV	_	_	26	obl:arg	_	_
 29	d'	de	ADP	_	_	31	case	_	SpaceAfter=No
 30	une	une	NUM	_	_	31	nummod	_	_
 31	dizaine	dizaine	NOUN	_	Gender=Fem|Number=Sing	28	obl:arg	_	_
@@ -196006,9 +196006,9 @@
 55	chez	chez	ADP	_	_	56	case	_	_
 56	Lafitte	Lafitte	PROPN	_	_	54	obl	_	SpaceAfter=No
 57	...	...	PUNCT	_	_	2	punct	_	_
-58	à	à	ADP	_	_	77	mark	_	_
-59	moins	moins	ADV	_	_	58	fixed	_	_
-60	que	que	SCONJ	_	_	58	fixed	_	SpaceAfter=No
+58	à	à	ADP	_	_	59	case	_	INMWE=Yes
+59	moins	moins	ADV	_	_	43	advmod	_	MWEPOS=ADV
+60	que	que	SCONJ	_	_	77	mark	_	SpaceAfter=No
 61	,	,	PUNCT	_	_	77	punct	_	_
 62	compte	compte	NOUN	_	Gender=Masc|Number=Sing	63	nsubj	_	_
 63	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	77	advcl	_	_
@@ -196026,7 +196026,7 @@
 74	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	77	nsubj	_	_
 75	ne	ne	ADV	_	Polarity=Neg	77	advmod	_	_
 76	s'	se	PRON	_	Person=3|PronType=Prs	77	expl	_	SpaceAfter=No
-77	agisse	agir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+77	agisse	agir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	ccomp	_	_
 78	tout	tout	ADV	_	_	79	advmod	_	_
 79	simplement	simplement	ADV	_	_	77	advmod	_	_
 80	d'	de	ADP	_	_	83	case	_	SpaceAfter=No
@@ -286710,7 +286710,7 @@
 34	moins	moins	ADV	_	_	23	obl	_	_
 35	d'	de	ADP	_	_	37	case	_	SpaceAfter=No
 36	un	un	NUM	_	_	37	nummod	_	_
-37	an	an	NOUN	_	Gender=Masc|Number=Sing	34	obl:mod	_	_
+37	an	an	NOUN	_	Gender=Masc|Number=Sing	34	obl:arg	_	_
 38	de	de	ADP	_	_	40	case	_	_
 39	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	présidentielle	présidentiel	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
@@ -300514,9 +300514,9 @@
 21	de	de	ADP	_	_	19	advmod	_	_
 22	sitôt	sitôt	ADV	_	_	21	fixed	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	19	punct	_	_
-24	à	à	ADP	_	_	37	mark	_	_
-25	moins	moins	ADV	_	_	24	fixed	_	_
-26	que	que	SCONJ	_	_	24	fixed	_	_
+24	à	à	ADP	_	_	25	case	_	INMWE=Yes
+25	moins	moins	ADV	_	_	19	advmod	_	MWEPOS=ADV
+26	que	que	SCONJ	_	_	37	mark	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	dossier	dossier	NOUN	_	Gender=Masc|Number=Sing	37	nsubj:pass	_	_
 29-30	des	_	_	_	_	_	_	_	_
@@ -300528,7 +300528,7 @@
 34	homme	homme	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 35	ne	ne	ADV	_	Polarity=Neg	37	advmod	_	_
 36	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux:pass	_	_
-37	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
+37	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	ccomp	_	_
 38	sur	sur	ADP	_	_	40	case	_	_
 39	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	table	table	NOUN	_	Gender=Fem|Number=Sing	37	obl	_	SpaceAfter=No
