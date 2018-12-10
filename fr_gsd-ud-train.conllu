@@ -295474,12 +295474,12 @@
 # text = Ce pôle en est aux études de faisabilité.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	pôle	pôle	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
-3	en	en	PRON	_	Person=3	7	iobj	_	_
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	en	en	PRON	_	Person=3	4	expl	_	_
+4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5-6	aux	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	études	étude	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+7	études	étude	NOUN	_	Gender=Fem|Number=Plur	4	obl:arg	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	faisabilité	faisabilité	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
@@ -297545,13 +297545,13 @@
 
 # sent_id = fr-ud-train_10665
 # text = Membre de Québec solidaire, elle en est co-porte-parole durant l'absence de Françoise David de juin à août 2011.
-1	Membre	membre	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
+1	Membre	membre	NOUN	_	Gender=Masc|Number=Sing	8	advcl	_	_
 2	de	de	ADP	_	_	3	case	_	_
 3	Québec	Québec	PROPN	_	_	1	nmod	_	_
 4	solidaire	solidaire	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-7	en	en	PRON	_	Person=3	9	iobj	_	_
+7	en	en	PRON	_	Person=3	9	nmod	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 9	co-porte-parole	co-porte-parole	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 10	durant	durant	ADP	_	_	12	case	_	_
@@ -299807,15 +299807,15 @@
 9	Mod	Mod	PROPN	_	_	8	appos	_	_
 10	O	O	NUM	_	_	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	17	punct	_	_
-12	en	en	PRON	_	Person=3	17	iobj	_	_
-13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
-14	actuellement	actuellement	ADV	_	_	17	advmod	_	_
+12	en	en	PRON	_	Person=3	13	expl	_	_
+13	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	actuellement	actuellement	ADV	_	_	13	advmod	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	_
-17	version	version	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+17	version	version	NOUN	_	Gender=Fem|Number=Sing	13	obl:arg	_	_
 18	Mod	Mod	PROPN	_	_	17	appos	_	_
 19	5	5	NUM	_	_	18	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	17	punct	_	_
+20	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-train_10740
 # text = De là il est envoyé dans le monde entier où il est intégré à de nombreuses autres préparations.
@@ -300088,7 +300088,7 @@
 # sent_id = fr-ud-train_10747
 # text = Dumoulin en tenait alors du comte de Boulogne.
 1	Dumoulin	Dumoulin	PROPN	_	_	3	nsubj	_	_
-2	en	en	PRON	_	Person=3	3	iobj	_	_
+2	en	en	PRON	_	Person=3	3	obj	_	_
 3	tenait	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	alors	alors	ADV	_	_	3	advmod	_	_
 5-6	du	_	_	_	_	_	_	_	_
@@ -310011,7 +310011,7 @@
 4	tard	tard	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-7	en	en	PRON	_	Person=3	8	iobj	_	_
+7	en	en	PRON	_	Person=3	9	nmod	_	_
 8	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	secrétaire	secrétaire	NOUN	_	Gender=Masc|Number=Sing	8	xcomp	_	_
 10	général	général	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
@@ -316294,7 +316294,7 @@
 11	en	en	ADP	_	_	12	case	_	_
 12	France	France	PROPN	_	_	6	obl	_	_
 13	et	et	CCONJ	_	_	16	cc	_	_
-14	en	en	PRON	_	Person=3	16	iobj	_	_
+14	en	en	PRON	_	Person=3	18	nmod	_	_
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	envoyé	envoyer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
 17	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	SpaceAfter=No
@@ -316497,7 +316497,7 @@
 # text = Désireux d'en finir avec l'affaire Mallet, il s'adressa au Cardinal de Fleury, premier ministre de Louis XV, encouragé par le fait qu'il connaissait personnellement l'aumônier du Cardinal, originaire de Cabasse.
 1	Désireux	désireux	ADJ	_	Gender=Masc|Number=Sing	12	advcl	_	_
 2	d'	de	ADP	_	_	4	mark	_	SpaceAfter=No
-3	en	en	PRON	_	Person=3	4	iobj	_	_
+3	en	en	PRON	_	Person=3	4	expl	_	_
 4	finir	finir	VERB	_	VerbForm=Inf	1	xcomp	_	_
 5	avec	avec	ADP	_	_	7	case	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -318166,7 +318166,7 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	traduction	traduction	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:pass	_	_
 3	française	français	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
-4	en	en	PRON	_	Person=3	7	iobj	_	_
+4	en	en	PRON	_	Person=3	2	nmod	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:pass	_	_
 7	publiée	publier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -325240,7 +325240,7 @@
 # sent_id = fr-ud-train_11647
 # text = Bugs en tombe rapidement amoureux, mais elle repousse ses avances, et d'autant plus fortement que Bugs l'accoste en l'appelant « poupée ».
 1	Bugs	Bugs	PROPN	_	_	3	nsubj	_	_
-2	en	en	PRON	_	Person=3	3	iobj	_	_
+2	en	en	PRON	_	Person=3	5	obl:arg	_	_
 3	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	rapidement	rapidement	ADV	_	_	3	advmod	_	_
 5	amoureux	amoureux	ADJ	_	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
@@ -330876,7 +330876,7 @@
 34	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
 35	ennemis	ennemi	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	_
 36	qui	qui	PRON	_	PronType=Rel	38	nsubj	_	_
-37	en	en	PRON	_	Person=3	38	iobj	_	_
+37	en	en	PRON	_	Person=3	38	expl	_	_
 38	voulaient	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	35	acl:relcl	_	_
 39	à	à	ADP	_	_	41	case	_	_
 40	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	41	det	_	_
@@ -332573,7 +332573,7 @@
 # sent_id = fr-ud-train_11903
 # text = Il en a toujours été ainsi !
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-2	en	en	PRON	_	Person=3	5	iobj	_	_
+2	en	en	PRON	_	Person=3	5	expl	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	toujours	toujours	ADV	_	_	5	advmod	_	_
 5	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -332655,12 +332655,12 @@
 
 # sent_id = fr-ud-train_11906
 # text = Il en est à sa version 8 en commercialisation et est disponible en français pour Mac et Windows.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-2	en	en	PRON	_	Person=3	6	iobj	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	en	en	PRON	_	Person=3	3	expl	_	_
+3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
-6	version	version	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	version	version	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
 7	8	8	NUM	_	_	6	nmod	_	_
 8	en	en	ADP	_	_	9	case	_	_
 9	commercialisation	commercialisation	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -332673,7 +332673,7 @@
 16	Mac	Mac	PROPN	_	_	12	obl	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	Windows	Windows	PROPN	_	_	16	conj	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	6	punct	_	_
+19	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_11907
 # text = Résultats Officiels FIS
@@ -338646,7 +338646,7 @@
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	en	en	PRON	_	Person=3	7	iobj	_	_
+6	en	en	PRON	_	Person=3	7	expl	_	_
 7	venir	venir	VERB	_	VerbForm=Inf	5	xcomp	_	_
 8	à	à	ADP	_	_	9	mark	_	_
 9	favoriser	favoriser	VERB	_	VerbForm=Inf	7	xcomp	_	_
@@ -339767,7 +339767,7 @@
 44	Potier	Potier	PROPN	_	_	43	flat:name	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	48	punct	_	_
 46	et	et	CCONJ	_	_	48	cc	_	_
-47	en	en	PRON	_	Person=3	48	iobj	_	_
+47	en	en	PRON	_	Person=3	48	expl	_	_
 48	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
 49-50	au	_	_	_	_	_	_	_	_
 49	à	à	ADP	_	_	51	case	_	_
@@ -340950,7 +340950,7 @@
 11	de	de	ADP	_	_	12	case	_	_
 12	Charles	Charles	PROPN	_	_	10	nmod	_	_
 13	VII	VII	NUM	_	_	12	nmod	_	_
-14	en	en	PRON	_	Person=3	17	iobj	_	_
+14	en	en	PRON	_	Person=3	17	nmod	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	autre	autre	PRON	_	Number=Sing	0	root	_	SpaceAfter=No
@@ -341053,17 +341053,17 @@
 
 # sent_id = fr-ud-train_12221
 # text = Laganne en est à l'un de ces miraculeux moments ou la généralisation abstractive engendre à tous coups son homologue contradictoirement ambigu qu'est la signifiance structurée... ».
-1	Laganne	Laganne	PROPN	_	_	6	nsubj	_	_
-2	en	en	PRON	_	Person=3	6	iobj	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+1	Laganne	Laganne	PROPN	_	_	3	nsubj	_	_
+2	en	en	PRON	_	Person=3	3	expl	_	_
+3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
-6	un	un	PRON	_	Gender=Masc|Number=Sing	0	root	_	_
+6	un	un	PRON	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
 7	de	de	ADP	_	_	10	case	_	_
 8	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
 9	miraculeux	miraculeux	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
 10	moments	moment	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
-11	ou	où	ADV	_	PronType=Rel	15	advmod	_	_
+11	ou	où	ADV	_	PronType=Rel	15	advmod	_	Correct=où
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	généralisation	généralisation	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 14	abstractive	abstractif	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
@@ -341080,9 +341080,9 @@
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	signifiance	signifiance	NOUN	_	Gender=Fem|Number=Sing	20	acl:relcl	_	_
 27	structurée	structurer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	SpaceAfter=No
-28	...	...	PUNCT	_	_	6	punct	_	_
-29	»	»	PUNCT	_	_	6	punct	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	6	punct	_	_
+28	...	...	PUNCT	_	_	3	punct	_	_
+29	»	»	PUNCT	_	_	3	punct	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_12222
 # text = Ou s'agit-il de tombes, comme les pyramides ?
@@ -357845,7 +357845,7 @@
 9	Dépression	dépression	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 10	en	en	PRON	_	Person=3	11	iobj	_	_
 11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-12	raison	raison	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+12	raison	raison	NOUN	_	Gender=Fem|Number=Sing	11	obj:lvc	_	_
 13	:	:	PUNCT	_	_	11	punct	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	indices	indice	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	_
@@ -368014,7 +368014,7 @@
 # sent_id = fr-ud-train_13143
 # text = Quels en ont été les progrès jusqu'à la mort de Jules César ?
 1	Quels	quel	PRON	_	Gender=Masc|Number=Plur	0	root	_	_
-2	en	en	PRON	_	Person=3	1	iobj	_	_
+2	en	en	PRON	_	Person=3	6	nmod	_	_
 3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	cop	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
@@ -387611,7 +387611,7 @@
 22	,	,	PUNCT	_	_	13	punct	_	_
 23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 24	n'	ne	ADV	_	Polarity=Neg	26	advmod	_	SpaceAfter=No
-25	en	en	PRON	_	Person=3	26	iobj	_	_
+25	en	en	PRON	_	Person=3	26	expl	_	_
 26	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 27	pas	pas	ADV	_	Polarity=Neg	26	advmod	_	_
 28	de	de	ADP	_	_	29	case	_	INMWE=Yes
