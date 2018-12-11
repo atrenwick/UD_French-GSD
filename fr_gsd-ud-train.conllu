@@ -6750,7 +6750,7 @@
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	système	système	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	26	punct	_	_
-35	avant	avant	ADV	_	_	21	advmod	_	_
+35	avant	avant	ADP	_	_	45	mark	_	_
 36	que	que	SCONJ	_	_	45	mark	_	_
 37	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
 38	énergie	énergie	NOUN	_	Gender=Fem|Number=Sing	45	nsubj	_	_
@@ -6761,7 +6761,7 @@
 42	premier	premier	ADJ	_	Gender=Masc|Number=Sing	43	amod	_	_
 43	pendule	pendule	NOUN	_	Gender=Masc|Number=Sing	38	nmod	_	_
 44	n'	ne	ADV	_	Polarity=Neg	45	advmod	_	SpaceAfter=No
-45	augmente	augmenter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	_	_
+45	augmente	augmenter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
 46	à	à	ADP	_	_	47	case	_	INMWE=Yes
 47	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	45	advmod	_	MWEPOS=ADV|SpaceAfter=No
 48	.	.	PUNCT	_	_	21	punct	_	_
@@ -18508,7 +18508,7 @@
 19	de	de	ADP	_	_	20	case	_	_
 20	vitesse	vitesse	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	26	punct	_	_
-22	de	de	ADP	_	_	26	case	_	_
+22	de	de	ADP	_	_	15	advmod	_	_
 23	même	même	ADV	_	_	22	fixed	_	_
 24	que	que	SCONJ	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -27325,7 +27325,7 @@
 7	heurts	heurt	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	éclaté	éclater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-10	après	après	ADV	_	_	9	advmod	_	_
+10	après	après	ADP	_	_	21	mark	_	_
 11	que	que	SCONJ	_	_	21	mark	_	_
 12	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	membres	membre	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
@@ -27337,7 +27337,7 @@
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	Werchefana	Werchefana	PROPN	_	_	16	nmod	_	_
 20	aient	avoir	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
-21	installé	installer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+21	installé	installer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
 22	jeudi	jeudi	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	_
 23	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	barrages	barrage	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
@@ -50797,12 +50797,12 @@
 31	et	et	CCONJ	_	_	33	cc	_	_
 32	sans	sans	ADP	_	_	33	case	_	_
 33	jugement	jugement	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	_
-34	après	après	ADV	_	_	27	advmod	_	_
+34	après	après	ADP	_	_	39	mark	_	_
 35	qu'	que	SCONJ	_	_	39	mark	_	SpaceAfter=No
 36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
 37	se	se	PRON	_	Person=3|PronType=Prs	39	expl	_	_
 38	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
-39	rendu	rendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	ccomp	_	SpaceAfter=No
+39	rendu	rendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	advcl	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	27	punct	_	_
 
 # sent_id = fr-ud-train_01798
@@ -53582,21 +53582,21 @@
 13	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
 14	déjà	déjà	ADV	_	_	15	advmod	_	_
 15	attribués	attribuer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
-16	avant	avant	ADV	_	_	15	advmod	_	_
+16	avant	avant	ADP	_	_	22	mark	_	_
 17	que	que	SCONJ	_	_	22	mark	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	pièce	pièce	NOUN	_	Gender=Fem|Number=Sing	22	nsubj:pass	_	_
 20	ait	avoir	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 21	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux:pass	_	_
-22	écrite	écrire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	ccomp	_	SpaceAfter=No
-23	,	,	PUNCT	_	_	24	punct	_	_
-24	avant	avant	ADV	_	_	16	conj	_	_
+22	écrite	écrire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	30	punct	_	_
+24	avant	avant	ADP	_	_	30	mark	_	_
 25	que	que	SCONJ	_	_	30	mark	_	_
 26	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	événement	événement	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
 28	ne	ne	ADV	_	Polarity=Neg	30	advmod	_	_
 29	se	se	PRON	_	Person=3|PronType=Prs	30	expl:pass	_	_
-30	produise	produire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	SpaceAfter=No
+30	produise	produire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_01902
@@ -59016,10 +59016,10 @@
 
 # sent_id = fr-ud-train_02098
 # text = Après qu'eut reçu sa charte en 1795, il était presque naturel qu'il continuât son œuvre dans le même bâtiment qu'occupait déjà l'Académie Schenectady.
-1	Après	après	ADV	_	_	13	advmod	_	_
+1	Après	après	ADP	_	_	4	mark	_	_
 2	qu'	que	SCONJ	_	_	4	mark	_	SpaceAfter=No
 3	eut	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
-4	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+4	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
 5	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
 6	charte	charte	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 7	en	en	ADP	_	_	8	case	_	_
@@ -74672,7 +74672,7 @@
 14	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det	_	_
 15	ami	ami	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 16	Lanner	Lanner	PROPN	_	_	15	appos	_	_
-17	avant	avant	ADV	_	_	5	advmod	_	_
+17	avant	avant	ADP	_	_	25	mark	_	_
 18	qu'	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
 19	en	en	ADP	_	_	20	case	_	_
 20	1904	1904	NUM	_	_	25	obl:mod	_	SpaceAfter=No
@@ -74680,7 +74680,7 @@
 22	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	23	det	_	_
 23	restes	reste	NOUN	_	Gender=Masc|Number=Plur	25	nsubj:pass	_	_
 24	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
-25	transférés	transférer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	ccomp	_	_
+25	transférés	transférer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
 26	dans	dans	ADP	_	_	28	case	_	_
 27	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
 28	tombes	tombe	NOUN	_	Gender=Fem|Number=Plur	25	obl:arg	_	_
@@ -86810,7 +86810,7 @@
 36	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	35	fixed	_	_
 37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
 38	en	en	ADP	_	_	39	case	_	INMWE=Yes
-39	train	train	NOUN	_	Gender=Masc|Number=Sing	30	con	_	MWEPOS=ADJ
+39	train	train	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	MWEPOS=ADJ
 40	de	de	ADP	_	_	41	mark	_	_
 41	sortir	sortir	VERB	_	VerbForm=Inf	39	xcomp	_	_
 42	de	de	ADP	_	_	44	case	_	_
@@ -105210,11 +105210,11 @@
 17	familial	familial	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	13	punct	_	_
 19	peu	peu	ADV	_	_	20	advmod	_	_
-20	avant	avant	ADV	_	_	13	advmod	_	_
+20	avant	avant	ADP	_	_	24	mark	_	_
 21	que	que	SCONJ	_	_	24	mark	_	_
 22	Chuck	Chuck	PROPN	_	_	24	nsubj	_	_
 23	ne	ne	ADV	_	Polarity=Neg	24	advmod	_	_
-24	complète	compléter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+24	complète	compléter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
 25	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	27	det	_	_
 26	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 27	année	année	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
@@ -120471,11 +120471,11 @@
 6	à	à	ADP	_	_	5	advmod	_	_
 7	toute	tout	DET	_	Gender=Fem|Number=Sing	6	fixed	_	_
 8	vitesse	vitesse	NOUN	_	Gender=Fem|Number=Sing	6	fixed	_	_
-9	avant	avant	ADV	_	_	5	advmod	_	_
+9	avant	avant	ADP	_	_	13	mark	_	_
 10	que	que	SCONJ	_	_	13	mark	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	plats	plat	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
-13	disparaissent	disparaître	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+13	disparaissent	disparaître	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
@@ -121989,7 +121989,7 @@
 17	en	en	ADP	_	_	18	case	_	_
 18	1972	1972	NUM	_	_	16	obl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	5	punct	_	_
-20	avant	avant	ADV	_	_	5	advmod	_	_
+20	avant	avant	ADP	_	_	32	mark	_	_
 21	qu'	que	SCONJ	_	_	32	mark	_	SpaceAfter=No
 22	Antenne	Antenne	PROPN	_	_	32	nsubj	_	_
 23	2	2	NUM	_	_	22	nmod	_	SpaceAfter=No
@@ -122001,7 +122001,7 @@
 29	,	,	PUNCT	_	_	22	punct	_	_
 30	ne	ne	ADV	_	Polarity=Neg	32	advmod	_	_
 31	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
-32	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+32	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 33	responsable	responsable	ADJ	_	Gender=Masc|Number=Sing	32	xcomp	_	_
 34-35	des	_	_	_	_	_	_	_	_
 34	de	de	ADP	_	_	36	case	_	_
@@ -125387,14 +125387,14 @@
 14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	ouverture	ouverture	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
 16	bien	bien	ADV	_	_	17	advmod	_	_
-17	avant	avant	ADV	_	_	12	advmod	_	_
+17	avant	avant	ADP	_	_	24	mark	_	_
 18	que	que	SCONJ	_	_	24	mark	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	vague	vague	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	contestation	contestation	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 23	ne	ne	ADV	_	Polarity=Neg	24	advmod	_	_
-24	déferle	déferler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	SpaceAfter=No
+24	déferle	déferler	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	plutôt	plutôt	ADV	_	_	28	case	_	_
 27	qu'	que	SCONJ	_	_	26	fixed	_	SpaceAfter=No
@@ -135630,12 +135630,12 @@
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	Orient	Orient	PROPN	_	_	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	8	punct	_	_
-16	après	après	ADV	_	_	3	advmod	_	_
+16	après	après	ADP	_	_	21	mark	_	_
 17	que	que	SCONJ	_	_	21	mark	_	_
 18	Manuel	Manuel	PROPN	_	_	21	nsubj	_	_
 19	I	I	NUM	_	_	18	nmod	_	_
 20	eut	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	_
-21	subi	subir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	ccomp	_	_
+21	subi	subir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
 22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	défaite	défaite	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
 24	en	en	ADP	_	_	25	case	_	_
@@ -140801,7 +140801,7 @@
 14	que	que	ADV	_	_	16	advmod	_	_
 15	trois	trois	NUM	_	_	16	nummod	_	_
 16	générations	génération	NOUN	_	Gender=Fem|Number=Plur	11	advmod	_	_
-17	après	après	ADV	_	_	16	advmod	_	_
+17	après	après	ADP	_	_	32	mark	_	_
 18	que	que	SCONJ	_	_	32	mark	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	croisement	croisement	NOUN	_	Gender=Masc|Number=Sing	32	nsubj	_	_
@@ -140816,7 +140816,7 @@
 29	autre	autre	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
 30	race	race	NOUN	_	Gender=Fem|Number=Sing	25	conj	_	_
 31	ait	avoir	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
-32	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	ccomp	_	_
+32	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
 33	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -184595,7 +184595,7 @@
 4	être	être	AUX	_	VerbForm=Inf	5	aux:pass	_	_
 5	mesurée	mesurer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
-7	de	de	ADP	_	_	11	case	_	_
+7	de	de	ADP	_	_	5	advmod	_	_
 8	même	même	ADV	_	_	7	fixed	_	_
 9	que	que	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -195940,11 +195940,11 @@
 14	mort	mort	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
 16	atteint	atteindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-17	avant	avant	ADV	_	_	16	advmod	_	_
+17	avant	avant	ADP	_	_	21	mark	_	_
 18	qu'	que	SCONJ	_	_	21	mark	_	SpaceAfter=No
 19	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 20	n'	ne	ADV	_	Polarity=Neg	21	advmod	_	SpaceAfter=No
-21	arrive	arriver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	SpaceAfter=No
+21	arrive	arriver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_06992
@@ -216271,12 +216271,12 @@
 
 # sent_id = fr-ud-train_07716
 # text = Après que Bonner eut été privé de son siège, vers 1549, Thomas Cranmer envoya Feckenham à la Tour de Londres, et là son savoir et son éloquence lui assurèrent un tel succès comme avocat qu'il fut temporairement libéré (« emprunté à la prison ») pour prendre part à sept discussions publiques contre * 1552-1554 : John Hooper, John Jewel et d'autres.
-1	Après	après	ADV	_	_	16	advmod	_	_
+1	Après	après	ADP	_	_	6	mark	_	_
 2	que	que	SCONJ	_	_	6	mark	_	_
 3	Bonner	Bonner	PROPN	_	_	6	nsubj:pass	_	_
 4	eut	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
 5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
-6	privé	priver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+6	privé	priver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
 9	siège	siège	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	SpaceAfter=No
@@ -227552,12 +227552,12 @@
 2	URSS	URSS	PROPN	_	_	4	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	disparue	disparu	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
-5	avant	avant	ADV	_	_	4	advmod	_	_
+5	avant	avant	ADP	_	_	10	mark	_	_
 6	que	que	SCONJ	_	_	10	mark	_	_
 7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	phase	phase	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 9	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
-10	arrive	arriver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+10	arrive	arriver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
 13	terme	terme	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	SpaceAfter=No
@@ -227823,11 +227823,11 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 9	juste	juste	ADV	_	_	10	advmod	_	_
-10	avant	avant	ADV	_	_	8	advmod	_	_
+10	avant	avant	ADP	_	_	14	mark	_	_
 11	qu'	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
 12	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 13	ne	ne	ADV	_	Polarity=Neg	14	advmod	_	_
-14	devienne	devenir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+14	devienne	devenir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 15	numéro	numéro	NOUN	_	Gender=Masc|Number=Sing	14	xcomp	_	_
 16	un	un	NUM	_	_	15	nmod	_	_
 17	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	19	case	_	MWEPOS=ADP
@@ -230342,14 +230342,14 @@
 
 # sent_id = fr-ud-train_08214
 # text = Après que la peinture monumentale eut été endommagée par l'humidité, Monet l'a découpée en trois.
-1	Après	après	ADV	_	_	16	advmod	_	_
+1	Après	après	ADP	_	_	8	mark	_	_
 2	que	que	SCONJ	_	_	8	mark	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	peinture	peinture	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 5	monumentale	monumental	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	eut	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
-8	endommagée	endommager	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+8	endommagée	endommager	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
 9	par	par	ADP	_	_	11	case	_	_
 10	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	humidité	humidité	NOUN	_	Gender=Fem|Number=Sing	8	obl:agent	_	SpaceAfter=No
@@ -233194,7 +233194,7 @@
 # text = Enfin, avant que le début de l'hiver ne force Inglefield à repartir, l'expédition explora et cartographie la plus grande partie de la côte orientale de l'île de Baffin.
 1	Enfin	enfin	ADV	_	_	18	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	18	punct	_	_
-3	avant	avant	ADV	_	_	18	advmod	_	_
+3	avant	avant	ADP	_	_	11	mark	_	_
 4	que	que	SCONJ	_	_	11	mark	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	début	début	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -233202,7 +233202,7 @@
 8	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	hiver	hiver	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	_
-11	force	forcer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+11	force	forcer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
 12	Inglefield	Inglefield	PROPN	_	_	11	obj	_	_
 13	à	à	ADP	_	_	14	mark	_	_
 14	repartir	repartir	VERB	_	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
@@ -267518,11 +267518,11 @@
 
 # sent_id = fr-ud-train_09550
 # text = Avant qu'il ait atteint l'âge de vingt-et-un ans, il était déjà un auteur reconnu des lecteurs de pulps de space opera mais avait été contraint de quitter le MIT en raison d'un échec à une épreuve d'allemand.
-1	Avant	avant	ADV	_	_	16	advmod	_	_
+1	Avant	avant	ADP	_	_	5	mark	_	_
 2	qu'	que	SCONJ	_	_	5	mark	_	SpaceAfter=No
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	ait	avoir	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	atteint	atteindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+5	atteint	atteindre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	âge	âge	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	de	de	ADP	_	_	10	case	_	_
@@ -275103,12 +275103,12 @@
 8	pour	pour	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
-11	avant	avant	ADV	_	_	3	advmod	_	_
+11	avant	avant	ADP	_	_	16	mark	_	_
 12	qu'	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 14	ne	ne	ADV	_	Polarity=Neg	16	advmod	_	_
 15	se	se	PRON	_	Person=3|PronType=Prs	16	expl	_	_
-16	consacre	consacrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+16	consacre	consacrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 17	définitivement	définitivement	ADV	_	_	16	advmod	_	_
 18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	_
@@ -342649,7 +342649,7 @@
 11	avec	avec	ADP	_	_	12	case	_	_
 12	Nobless	Nobless	PROPN	_	_	3	obl:mod	_	_
 13	M	M	SYM	_	_	12	flat:name	_	_
-14	après	après	ADV	_	_	3	advmod	_	_
+14	après	après	ADP	_	_	29	mark	_	_
 15	qu'	que	SCONJ	_	_	29	mark	_	SpaceAfter=No
 16	Ideo	Ideo	PROPN	_	_	29	nsubj	_	_
 17-18	du	_	_	_	_	_	_	_	_
@@ -342665,7 +342665,7 @@
 26	,	,	PUNCT	_	_	29	punct	_	_
 27	se	se	PRON	_	Person=3|PronType=Prs	29	obj	_	_
 28	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
-29	blessé	blesser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	SpaceAfter=No
+29	blessé	blesser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_12273
@@ -383091,13 +383091,13 @@
 4	depuis	depuis	ADP	_	_	6	case	_	_
 5	un	un	NUM	_	_	6	nummod	_	_
 6	an	an	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
-7	avant	avant	ADV	_	_	3	advmod	_	_
+7	avant	avant	ADP	_	_	13	mark	_	_
 8	qu'	que	SCONJ	_	_	13	mark	_	SpaceAfter=No
 9	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 10	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	_
 11	se	se	PRON	_	Person=3|PronType=Prs	12	reparandum	_	_
 12	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	tombée	tomber	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+13	tombée	tomber	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
 14	amoureuse	amoureux	ADJ	_	Gender=Fem|Number=Sing	13	xcomp	_	_
 15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
 16	Amy	Amy	PROPN	_	_	14	obl:arg	_	_
