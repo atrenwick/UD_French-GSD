@@ -9564,12 +9564,12 @@
 31	Productions	production	NOUN	_	Gender=Fem|Number=Plur	30	flat:name	_	SpaceAfter=No
 32	"	"	PUNCT	_	_	30	punct	_	_
 33	apparaisse	apparaître	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
-34	à	à	ADP	_	_	35	case	_	_
-35	côté	côté	NOUN	_	Gender=Masc|Number=Sing	33	obl:mod	_	_
+34	à	à	ADP	_	_	35	case	_	INMWE=Yes
+35	côté	côté	NOUN	_	Gender=Masc|Number=Sing	33	advmod	_	MWEPOS=ADV
 36-37	du	_	_	_	_	_	_	_	_
 36	de	de	ADP	_	_	38	case	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	logo	logo	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
+38	logo	logo	NOUN	_	Gender=Masc|Number=Sing	35	obl:arg	_	_
 39	de	de	ADP	_	_	41	case	_	_
 40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	Columbia	Columbia	PROPN	_	_	38	nmod	_	_
@@ -35939,8 +35939,8 @@
 59	3	3	NUM	_	_	57	nmod	_	_
 60	»	»	PUNCT	_	_	59	punct	_	_
 61	juste	juste	ADV	_	_	63	advmod	_	_
-62	à	à	ADP	_	_	63	case	_	_
-63	côté	côté	NOUN	_	Gender=Masc|Number=Sing	57	nmod	_	SpaceAfter=No
+62	à	à	ADP	_	_	63	case	_	INMWE=Yes
+63	côté	côté	NOUN	_	Gender=Masc|Number=Sing	57	advmod	_	MWEPOS=ADV|SpaceAfter=No
 64	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-train_01266
@@ -68556,12 +68556,12 @@
 2	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	origine	origine	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	à	à	ADP	_	_	6	case	_	_
-6	côté	côté	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
+5	à	à	ADP	_	_	6	case	_	INMWE=Yes
+6	côté	côté	NOUN	_	Gender=Masc|Number=Sing	17	advmod	_	MWEPOS=ADV
 7-8	des	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-9	coureurs	coureur	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	coureurs	coureur	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	_
 10	cherchant	chercher	VERB	_	Tense=Pres|VerbForm=Part	9	acl	_	_
 11	à	à	ADP	_	_	12	mark	_	_
 12	réaliser	réaliser	VERB	_	VerbForm=Inf	10	xcomp	_	_
@@ -69734,8 +69734,8 @@
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	_
 28	juste	juste	ADV	_	_	30	advmod	_	_
-29	à	à	ADP	_	_	30	case	_	_
-30	côté	côté	NOUN	_	Gender=Masc|Number=Sing	27	obl:arg	_	SpaceAfter=No
+29	à	à	ADP	_	_	30	case	_	INMWE=Yes
+30	côté	côté	NOUN	_	Gender=Masc|Number=Sing	27	obl:arg	_	MWEPOS=ADV|SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	_
 32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 33	porté	porter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -71104,8 +71104,8 @@
 54	rivière	rivière	NOUN	_	Gender=Fem|Number=Sing	56	nsubj	_	_
 55	Moldova	Moldova	PROPN	_	_	54	appos	_	_
 56	passant	passer	VERB	_	Tense=Pres|VerbForm=Part	34	acl	_	_
-57	à	à	ADP	_	_	58	case	_	_
-58	côté	côté	NOUN	_	Gender=Masc|Number=Sing	56	obl:mod	_	SpaceAfter=No
+57	à	à	ADP	_	_	58	case	_	INMWE=Yes
+58	côté	côté	NOUN	_	Gender=Masc|Number=Sing	56	advmod	_	MWEPOS=ADV|SpaceAfter=No
 59	,	,	PUNCT	_	_	64	punct	_	_
 60	et	et	CCONJ	_	_	64	cc	_	_
 61	pour	pour	ADP	_	_	62	mark	_	_
@@ -159778,11 +159778,11 @@
 6	forte	fort	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 8	construite	construire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	à	à	ADP	_	_	10	case	_	_
-10	côté	côté	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+9	à	à	ADP	_	_	10	case	_	INMWE=Yes
+10	côté	côté	NOUN	_	Gender=Masc|Number=Sing	8	advmod	_	MWEPOS=ADV
 11	de	de	ADP	_	_	13	case	_	_
 12	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
-13	église	église	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+13	église	église	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	_
 14	pour	pour	ADP	_	_	15	mark	_	_
 15	défendre	défendre	VERB	_	VerbForm=Inf	8	advcl	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -160288,13 +160288,13 @@
 
 # sent_id = fr-ud-train_05724
 # text = D'autant plus que j'avais apprécié son professionnalisme lors de la prise de rendez-vous.
-1	D'	de	ADP	_	_	7	mark	_	SpaceAfter=No
+1	D'	de	ADP	_	_	0	root	_	SpaceAfter=No
 2	autant	autant	SCONJ	_	_	1	fixed	_	_
 3	plus	plus	ADV	_	_	1	fixed	_	_
-4	que	que	SCONJ	_	_	1	fixed	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
 5	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	SpaceAfter=No
 6	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
-7	apprécié	apprécier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	apprécié	apprécier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
 8	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
 9	professionnalisme	professionnalisme	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10	lors	lors	ADV	_	_	7	obl	_	_
@@ -160303,7 +160303,7 @@
 13	prise	prise	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	rendez-vous	rendez-vous	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	7	punct	_	_
+16	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-train_05725
 # text = Son épouse appartenait à une famille qui, comme les Brignole, était originaire de Rapallo.
@@ -165938,15 +165938,15 @@
 14	plein	plein	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 15	jour	jour	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
-17	plutôt	plutôt	ADV	_	_	21	cc	_	_
-18	qu'	que	SCONJ	_	_	17	fixed	_	SpaceAfter=No
+17	plutôt	plutôt	ADV	_	_	15	advmod	_	_
+18	qu'	que	SCONJ	_	_	21	case	_	SpaceAfter=No
 19-20	au	_	_	_	_	_	_	_	_
-19	à	à	ADP	_	_	21	case	_	_
-20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	cours	cours	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
+19	à	à	ADP	_	_	21	case	_	INMWE=Yes
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	INMWE=Yes
+21	cours	cours	NOUN	_	Gender=Masc|Number=Sing	17	obl:arg	_	MWEPOS=ADV
 22	de	de	ADP	_	_	24	case	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	21	obl:arg	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_05929
@@ -167508,13 +167508,13 @@
 16	patrimoniales	patrimonial	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
 17	maliennes	malien	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	26	punct	_	_
-19	de	de	ADP	_	_	25	det	_	_
+19	de	de	ADP	_	_	26	nsubj	_	MWEPOS=ADV
 20	plus	plus	ADV	_	_	19	fixed	_	_
 21	en	en	ADP	_	_	19	fixed	_	_
 22	plus	plus	ADV	_	_	19	fixed	_	_
-23	de	de	ADP	_	_	19	fixed	_	_
+23	de	de	ADP	_	_	24	case	_	_
 24	jeunes	jeune	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
-25	créateurs	créateur	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	_
+25	créateurs	créateur	NOUN	_	Gender=Masc|Number=Plur	19	obl:arg	_	_
 26	parviennent	parvenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 27	à	à	ADP	_	_	28	mark	_	_
 28	exprimer	exprimer	VERB	_	VerbForm=Inf	26	xcomp	_	_
@@ -172927,9 +172927,9 @@
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	revient	revenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	pour	pour	ADP	_	_	9	case	_	INMWE=Yes
+7	pour	pour	ADP	_	_	6	advmod	_	MWEPOS=ADV
 8	de	de	ADP	_	_	7	fixed	_	_
-9	bon	bon	ADJ	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV
+9	bon	bon	ADJ	_	Gender=Masc|Number=Sing	7	fixed	_	_
 10	en	en	ADP	_	_	11	case	_	_
 11	1999	1999	NUM	_	_	6	obl	_	_
 12	et	et	CCONJ	_	_	14	cc	_	_
@@ -174270,12 +174270,12 @@
 # sent_id = fr-ud-train_06228
 # text = Juste à coté du centre-ville, cet hôtel fera pour vous un endroit idéal aussi bien pour un week end que pour passer l'été.
 1	Juste	juste	ADV	_	_	6	advmod	_	_
-2	à	à	ADP	_	_	6	case	_	_
-3	coté	côté	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	_
+2	à	à	ADP	_	_	3	case	_	INMWE=Yes
+3	coté	côté	NOUN	_	Gender=Masc|Number=Sing	10	advmod	_	MWEPOS=ADV
 4-5	du	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	2	fixed	_	_
+4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	centre-ville	centre-ville	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	SpaceAfter=No
+6	centre-ville	centre-ville	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 9	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -190233,11 +190233,11 @@
 14	Farga	Farga	PROPN	_	_	6	obl:mod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	6	punct	_	_
 16	tout	tout	ADV	_	_	18	advmod	_	_
-17	à	à	ADP	_	_	18	case	_	_
-18	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+17	à	à	ADP	_	_	18	case	_	INMWE=Yes
+18	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV
 19	de	de	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	capitale	capitale	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	capitale	capitale	NOUN	_	Gender=Fem|Number=Sing	18	obl:arg	_	_
 22	catalane	catalan	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 23	(	(	PUNCT	_	_	29	punct	_	SpaceAfter=No
 24	et	et	CCONJ	_	_	29	cc	_	_
@@ -192937,10 +192937,10 @@
 # text = Le couple à côté de nous s'est vu proposer le dessert sans avoir eu le plat de résistance... L'ambiance qui règne dans ce restaurant me pousse vraiment à le déconseiller !
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	couple	couple	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-3	à	à	ADP	_	_	6	case	_	_
-4	côté	côté	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	_
+3	à	à	ADP	_	_	5	case	_	INMWE=Yes
+4	côté	côté	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV
 5	de	de	ADP	_	_	3	fixed	_	_
-6	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	2	nmod	_	_
+6	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	4	obl:arg	_	_
 7	s'	se	PRON	_	Person=3|PronType=Prs	9	expl	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -203550,12 +203550,12 @@
 # text = Ma place à coté du couloir n'a rien amélioré.
 1	Ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	place	place	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-3	à	à	ADP	_	_	7	case	_	_
-4	coté	côté	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	_
+3	à	à	ADP	_	_	4	case	_	INMWE=Yes
+4	coté	côté	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV
 5-6	du	_	_	_	_	_	_	_	_
-5	de	de	ADP	_	_	3	fixed	_	_
+5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	couloir	couloir	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+7	couloir	couloir	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
 8	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	SpaceAfter=No
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 10	rien	rien	PRON	_	Number=Sing|Polarity=Neg	11	obj	_	_
@@ -242372,12 +242372,12 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
 3	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	à	à	ADP	_	_	8	case	_	_
-5	coté	côté	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	_
+4	à	à	ADP	_	_	5	case	_	INMWE=Yes
+5	coté	côté	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	MWEPOS=ADV
 6-7	du	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	4	fixed	_	_
+6	de	de	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	château	château	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+8	château	château	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	Berlin	Berlin	PROPN	_	_	8	nmod	_	SpaceAfter=No
 11	--	--	PUNCT	_	_	3	punct	_	SpaceAfter=No
@@ -253200,14 +253200,14 @@
 
 # sent_id = fr-ud-train_09029
 # text = C'est juste à côté de la gare, les prix sont bas et la qualité est au rendez-vous !
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-3	juste	juste	ADV	_	_	8	advmod	_	_
-4	à	à	ADP	_	_	8	case	_	_
-5	côté	côté	NOUN	_	Gender=Masc|Number=Sing	4	fixed	_	_
-6	de	de	ADP	_	_	4	fixed	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	juste	juste	ADV	_	_	5	advmod	_	_
+4	à	à	ADP	_	_	8	case	_	INMWE=Yes
+5	côté	côté	NOUN	_	Gender=Masc|Number=Sing	0	root	_	MWEPOS=ADV
+6	de	de	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	gare	gare	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	gare	gare	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	prix	prix	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
@@ -314307,12 +314307,12 @@
 8	serez	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	10	aux:pass	_	_
 9	peut-être	peut-être	ADV	_	_	10	advmod	_	_
 10	placé	placer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-11	à	à	ADP	_	_	16	case	_	_
-12	coté	côté	NOUN	_	Gender=Masc|Number=Sing	11	fixed	_	_
-13	de	de	ADP	_	_	11	fixed	_	_
+11	à	à	ADP	_	_	12	case	_	INMWE=Yes
+12	coté	côté	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	MWEPOS=ADV
+13	de	de	ADP	_	_	16	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	grande	grand	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
-16	cheminée	cheminée	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	_
+16	cheminée	cheminée	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
 17	pour	pour	ADP	_	_	18	mark	_	_
 18	passer	passer	VERB	_	VerbForm=Inf	10	advcl	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -314390,10 +314390,10 @@
 15	Castelnuovo	Castelnuovo	PROPN	_	_	11	nmod	_	_
 16	dell'abate	dell'abate	PROPN	_	_	15	flat:name	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	11	punct	_	_
-18	à	à	ADP	_	_	19	case	_	_
-19	côté	côté	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+18	à	à	ADP	_	_	19	case	_	INMWE=Yes
+19	côté	côté	NOUN	_	Gender=Masc|Number=Sing	5	advmod	_	MWEPOS=ADV
 20	de	de	ADP	_	_	21	case	_	_
-21	Montalcino	Montalcino	PROPN	_	_	19	nmod	_	_
+21	Montalcino	Montalcino	PROPN	_	_	19	obl:arg	_	_
 22	non	non	ADV	_	_	23	advmod	_	_
 23	loin	loin	ADV	_	_	11	advmod	_	_
 24	de	de	ADP	_	_	25	case	_	_
@@ -317320,12 +317320,12 @@
 51	qu'	que	PRON	_	PronType=Rel	53	obj	_	SpaceAfter=No
 52	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	53	nsubj	_	_
 53	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	acl:relcl	_	_
-54	à	à	ADP	_	_	55	case	_	_
-55	côté	côté	NOUN	_	Gender=Masc|Number=Sing	53	obl:mod	_	_
+54	à	à	ADP	_	_	55	case	_	INMWE=Yes
+55	côté	côté	NOUN	_	Gender=Masc|Number=Sing	53	advmod	_	MWEPOS=ADV
 56-57	des	_	_	_	_	_	_	_	_
 56	de	de	ADP	_	_	58	case	_	_
 57	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	58	det	_	_
-58	vestiges	vestige	NOUN	_	Gender=Masc|Number=Plur	55	nmod	_	_
+58	vestiges	vestige	NOUN	_	Gender=Masc|Number=Plur	55	obl:arg	_	_
 59	de	de	ADP	_	_	61	case	_	_
 60	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	SpaceAfter=No
 61	église	église	NOUN	_	Gender=Fem|Number=Sing	58	nmod	_	_
@@ -368332,19 +368332,19 @@
 
 # sent_id = fr-ud-train_13158
 # text = C'est justement à côté de cette dernière rue, dans la rue de Lectoure, qu'en 1988, Bubendorff S.A. installe son siège social situé dans l'ancienne usine Société mécanique du Haut-Rhin ce qui permet le doublement de sa capacité de production sur de surface couverte.
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-3	justement	justement	ADV	_	_	13	advmod	_	_
-4	à	à	ADP	_	_	5	case	_	_
-5	côté	côté	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	justement	justement	ADV	_	_	5	advmod	_	_
+4	à	à	ADP	_	_	5	case	_	INMWE=Yes
+5	côté	côté	NOUN	_	Gender=Masc|Number=Sing	0	root	_	MWEPOS=ADV
 6	de	de	ADP	_	_	9	case	_	_
 7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 8	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-9	rue	rue	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	rue	rue	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	rue	rue	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+13	rue	rue	NOUN	_	Gender=Fem|Number=Sing	5	parataxis	_	_
 14	de	de	ADP	_	_	15	case	_	_
 15	Lectoure	Lectoure	PROPN	_	_	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	13	punct	_	_
@@ -368354,7 +368354,7 @@
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	Bubendorff	Bubendorff	PROPN	_	_	23	nsubj	_	_
 22	S.A.	S.A.	X	_	_	21	flat:name	_	_
-23	installe	installer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl:cleft	_	_
+23	installe	installer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl:cleft	_	_
 24	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det	_	_
 25	siège	siège	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
 26	social	social	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
@@ -386191,12 +386191,12 @@
 14	dans	dans	ADP	_	_	16	case	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	café	café	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
-17	à	à	ADP	_	_	18	case	_	_
-18	coté	côté	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+17	à	à	ADP	_	_	18	case	_	INMWE=Yes
+18	coté	côté	NOUN	_	Gender=Masc|Number=Sing	16	advmod	_	MWEPOS=ADV
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	Palais	palais	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	Palais	palais	NOUN	_	Gender=Masc|Number=Sing	18	obl:arg	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	Justice	justice	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 24	de	de	ADP	_	_	25	case	_	_
