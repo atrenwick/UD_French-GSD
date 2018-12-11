@@ -122432,10 +122432,10 @@
 10	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	_
 11	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
 12	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
-13	en	en	ADP	_	_	16	mark	_	_
-14	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	13	fixed	_	_
-15	de	de	ADP	_	_	13	fixed	_	_
-16	vérifier	vérifier	VERB	_	VerbForm=Inf	8	acl	_	SpaceAfter=No
+13	en	en	ADP	_	_	14	case	_	INMWE=Yes
+14	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	5	acl:relcl	_	MWEPOS=ADJ
+15	de	de	ADP	_	_	16	mark	_	_
+16	vérifier	vérifier	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_04388
@@ -168622,10 +168622,10 @@
 17	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	moins	moins	ADV	_	_	20	advmod	_	_
-20	en	en	ADP	_	_	12	acl:relcl	_	_
-21	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	20	fixed	_	_
-22	d'	de	ADP	_	_	20	fixed	_	SpaceAfter=No
-23	exporter	exporter	VERB	_	VerbForm=Inf	20	acl	_	SpaceAfter=No
+20	en	en	ADP	_	_	21	case	_	_
+21	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	12	acl:relcl	_	MWEPOS=ADJ
+22	d'	de	ADP	_	_	23	mark	_	SpaceAfter=No
+23	exporter	exporter	VERB	_	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_06029
@@ -281240,10 +281240,10 @@
 26	souhaitait	souhaiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	acl:relcl	_	_
 27	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	compromis	compromis	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
-29	en	en	ADP	_	_	30	case	_	_
-30	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
+29	en	en	ADP	_	_	30	case	_	INMWE=Yes
+30	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	28	amod	_	MWEPOS=ADJ
 31	de	de	ADP	_	_	32	mark	_	_
-32	garantir	garantir	VERB	_	VerbForm=Inf	30	acl	_	_
+32	garantir	garantir	VERB	_	VerbForm=Inf	30	xcomp	_	_
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	présence	présence	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
 35-36	des	_	_	_	_	_	_	_	_
@@ -311206,21 +311206,21 @@
 32	se	se	PRON	_	Person=3|PronType=Prs	33	expl	_	_
 33	montra	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	_
 34	évasif	évasif	ADJ	_	Gender=Masc|Number=Sing	33	xcomp	_	SpaceAfter=No
-35	,	,	PUNCT	_	_	33	punct	_	_
-36	soit	soit	SCONJ	_	_	42	cc	_	_
+35	,	,	PUNCT	_	_	44	punct	_	_
+36	soit	soit	SCONJ	_	_	44	cc	_	_
 37	qu'	que	SCONJ	_	_	42	mark	_	SpaceAfter=No
 38	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
 39	n'	ne	ADV	_	Polarity=Neg	42	advmod	_	SpaceAfter=No
 40	ait	avoir	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
 41	plus	plus	ADV	_	_	42	advmod	_	_
-42	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	advcl	_	_
-43	en	en	ADP	_	_	44	case	_	_
-44	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	42	obl	_	_
+42	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	cop	_	_
+43	en	en	ADP	_	_	44	case	_	INMWE=Yes
+44	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	33	conj	_	MWEPOS=ADJ
 45	ni	ni	CCONJ	_	_	46	cc	_	_
 46	désireux	désireux	ADJ	_	Gender=Masc|Number=Sing	44	conj	_	_
 47	de	de	ADP	_	_	49	mark	_	_
 48	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	49	obj	_	_
-49	faire	faire	VERB	_	VerbForm=Inf	46	xcomp	_	SpaceAfter=No
+49	faire	faire	VERB	_	VerbForm=Inf	44	xcomp	_	SpaceAfter=No
 50	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_11162
@@ -315396,13 +315396,13 @@
 34	infanterie	infanterie	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
 35	romaine	romain	ADJ	_	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	34	punct	_	_
-37	qui	qui	PRON	_	PronType=Rel	39	nsubj	_	_
+37	qui	qui	PRON	_	PronType=Rel	41	nsubj	_	_
 38	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
-39	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	acl:relcl	_	_
-40	en	en	ADP	_	_	41	case	_	_
-41	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	39	obl	_	_
+39	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	cop	_	_
+40	en	en	ADP	_	_	41	case	_	INMWE=Yes
+41	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	34	acl:relcl	_	MWEPOS=ADJ
 42	de	de	ADP	_	_	43	mark	_	_
-43	surmonter	surmonter	VERB	_	VerbForm=Inf	41	acl	_	_
+43	surmonter	surmonter	VERB	_	VerbForm=Inf	41	xcomp	_	_
 44	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
 45	mauvaises	mauvais	ADJ	_	Gender=Fem|Number=Plur	46	amod	_	_
 46	performances	performance	NOUN	_	Gender=Fem|Number=Plur	43	obj	_	_
@@ -333963,10 +333963,10 @@
 33	,	,	PUNCT	_	_	35	punct	_	_
 34	seule	seul	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
 35	personne	personne	NOUN	_	Gender=Fem|Number=Sing	27	appos	_	_
-36	en	en	ADP	_	_	37	case	_	_
-37	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
+36	en	en	ADP	_	_	37	case	_	INMWE=Yes
+37	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	35	amod	_	MWEPOS=ADJ
 38	de	de	ADP	_	_	39	mark	_	_
-39	fournir	fournir	VERB	_	VerbForm=Inf	37	acl	_	_
+39	fournir	fournir	VERB	_	VerbForm=Inf	37	xcomp	_	_
 40	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
 41	informations	information	NOUN	_	Gender=Fem|Number=Plur	39	obj	_	_
 42	cruciales	crucial	ADJ	_	Gender=Fem|Number=Plur	41	amod	_	SpaceAfter=No
@@ -338387,21 +338387,21 @@
 # sent_id = fr-ud-train_12122
 # text = Le peuple seul est en mesure, par sa mobilisation et sa détermination, de renverser les régimes dictatoriaux et autoritaires.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	peuple	peuple	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	seul	seul	ADJ	_	Gender=Masc|Number=Sing	2	advmod	_	_
-4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	en	en	ADP	_	_	16	mark	_	_
-6	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	5	fixed	_	SpaceAfter=No
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	en	en	ADP	_	_	6	case	_	INMWE=Yes
+6	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	0	root	_	MWEPOS=ADJ|SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	par	par	ADP	_	_	10	case	_	_
 9	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
-10	mobilisation	mobilisation	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	_
+10	mobilisation	mobilisation	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
 13	détermination	détermination	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	10	punct	_	_
-15	de	de	ADP	_	_	5	fixed	_	_
-16	renverser	renverser	VERB	_	VerbForm=Inf	4	advcl	_	_
+15	de	de	ADP	_	_	16	mark	_	_
+16	renverser	renverser	VERB	_	VerbForm=Inf	6	xcomp	_	_
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	régimes	régime	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
 19	dictatoriaux	dictatorial	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	_
@@ -366366,13 +366366,13 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	cliniquement	cliniquement	ADV	_	_	4	advmod	_	_
 4	prouvé	prouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	qu'	que	SCONJ	_	_	7	mark	_	SpaceAfter=No
+5	qu'	que	SCONJ	_	_	9	mark	_	SpaceAfter=No
 6	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-7	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
-8	en	en	ADP	_	_	9	case	_	_
-9	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	en	en	ADP	_	_	9	case	_	INMWE=Yes
+9	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	4	ccomp	_	MWEPOS=ADJ
 10	de	de	ADP	_	_	11	mark	_	_
-11	traiter	traiter	VERB	_	VerbForm=Inf	9	acl	_	_
+11	traiter	traiter	VERB	_	VerbForm=Inf	9	xcomp	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	trichomonase	trichomonase	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
