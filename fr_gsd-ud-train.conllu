@@ -128,8 +128,8 @@
 5	transport	transport	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	car	car	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-8	Grand	Grand	ADJ	_	_	9	amod	_	_
-9	Tourisme	Tourisme	PROPN	_	_	7	nmod	_	_
+8	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+9	Tourisme	tourisme	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	13	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
@@ -4600,7 +4600,7 @@
 34	échauffement	échauffement	NOUN	_	Gender=Masc|Number=Sing	32	obj	_	_
 35	par	par	ADP	_	_	36	case	_	_
 36	effet	effet	NOUN	_	Gender=Masc|Number=Sing	32	obl:mod	_	_
-37	Joule	Joule	PROPN	_	_	36	compound	_	_
+37	Joule	Joule	PROPN	_	_	36	nmod	_	_
 38	s'	si	SCONJ	_	_	41	mark	_	SpaceAfter=No
 39	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj:pass	_	_
 40	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux:pass	_	_
@@ -5418,7 +5418,7 @@
 16	de	de	ADP	_	_	18	case	_	_
 17	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
 18	action	action	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
-19	AXA	AXA	PROPN	_	_	18	compound	_	_
+19	AXA	AXA	PROPN	_	_	18	nmod	_	_
 20	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
 21	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	aux	_	_
 22	fixé	fixer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
@@ -7273,8 +7273,8 @@
 16	que	que	SCONJ	_	_	28	mark	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Dr.	docteur	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
-19	Michael	Michael	PROPN	_	_	18	flat:name	_	_
-20	DeBakey	DeBakey	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+19	Michael	Michael	PROPN	_	_	18	appos	_	_
+20	DeBakey	DeBakey	PROPN	_	_	19	flat:name	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	18	punct	_	_
 22	pionnier	pionnier	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	_
 23	de	de	ADP	_	_	25	case	_	_
@@ -26844,7 +26844,7 @@
 
 # sent_id = fr-ud-train_00945
 # text = Mme Merkel a remercié, à cette occasion, l'Algérie pour son soutien à la candidature de l'Allemagne pour un siège permanent au sein du Conseil de sécurité.
-1	Mme	Mme	PROPN	_	_	4	nsubj	_	_
+1	Mme	madame	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 2	Merkel	Merkel	PROPN	_	_	1	flat:name	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	remercié	remercier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -29308,7 +29308,7 @@
 8	Commission	commission	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Communauté	Communauté	PROPN	_	_	8	nmod	_	_
+11	Communauté	communauté	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 12	économique	économique	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	8	punct	_	_
@@ -29316,10 +29316,10 @@
 16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 18	successivement	successivement	ADV	_	_	19	advmod	_	_
-19	Administrateur	Administrateur	PROPN	_	_	8	acl:relcl	_	_
+19	Administrateur	administrateur	NOUN	_	Gender=Masc|Number=Sing	8	acl:relcl	_	_
 20	à	à	ADP	_	_	22	case	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	Direction	Direction	PROPN	_	_	19	nmod	_	_
+22	Direction	direction	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 23	générale	général	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -38914,8 +38914,8 @@
 9	évêque	évêque	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	Marseille	Marseille	PROPN	_	_	9	nmod	_	_
-12	Mgr	Mgr	PROPN	_	_	13	compound	_	_
-13	Place	Place	PROPN	_	_	9	nmod	_	_
+12	Mgr	Mgr	PROPN	_	_	9	appos	_	_
+13	Place	Place	PROPN	_	_	12	flat:name	_	_
 14	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	_
@@ -40533,7 +40533,7 @@
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
-23	Make	Make	PROPN	_	_	18	nmod	_	_
+23	Make	Make	PROPN	_	_	18	appos	_	_
 24	Me	Me	PROPN	_	_	23	flat:name	_	_
 25	Bad	Bad	PROPN	_	_	23	flat:name	_	SpaceAfter=No
 26	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
@@ -43534,8 +43534,8 @@
 19	Saint-Bruno-de-Montarville	Saint-Bruno-de-Montarville	PROPN	_	_	17	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	Mgr	Monseigneur	NOUN	_	Gender=Masc|Number=Sing	14	appos	_	_
-22	Gilles	Gilles	PROPN	_	_	21	appos	_	_
-23	Gervais	Gervais	PROPN	_	_	21	appos	_	SpaceAfter=No
+22	Gilles	Gilles	PROPN	_	_	21	flat:name	_	_
+23	Gervais	Gervais	PROPN	_	_	21	flat:name	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	21	punct	_	_
 25	interviennent	intervenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 26	rapidement	rapidement	ADV	_	_	25	advmod	_	_
@@ -44005,7 +44005,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	témoignage	témoignage	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
-4	Mme	monsieur	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+4	Mme	madame	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	Gaubert	Gaubert	PROPN	_	_	4	appos	_	_
 6	s'	se	PRON	_	Person=3|PronType=Prs	8	expl	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -59816,7 +59816,7 @@
 24	traversant	traverser	VERB	_	Tense=Pres|VerbForm=Part	23	acl	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	lieu-dit	lieu-dit	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
-27	Loriveau	Loriveau	PROPN	_	_	26	acl	_	SpaceAfter=No
+27	Loriveau	Loriveau	PROPN	_	_	26	appos	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_02126
@@ -79010,8 +79010,8 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	tournée	tournée	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
 9-10	du	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	11	case	_	_
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 12	Chelem	Chelem	PROPN	_	_	8	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
@@ -89141,7 +89141,7 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	communiste	communiste	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-11	Chris	Chris	PROPN	_	_	10	nmod	_	_
+11	Chris	Chris	PROPN	_	_	10	appos	_	_
 12	Hani	Hani	PROPN	_	_	11	flat:name	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
 14	militant	militer	VERB	_	Tense=Pres|VerbForm=Part	10	acl	_	_
@@ -100284,7 +100284,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Maghreb	Maghreb	PROPN	_	_	3	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	1	punct	_	_
-10	Mme	Mme	PROPN	_	_	12	nsubj	_	_
+10	Mme	madame	PROPN	_	_	12	nsubj	_	_
 11	Alliot-Marie	Alliot-Marie	PROPN	_	_	10	flat:name	_	_
 12	dira	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 13	que	que	SCONJ	_	_	23	mark	_	_
@@ -158136,14 +158136,14 @@
 24	,	,	PUNCT	_	_	16	punct	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	Secrétaire	Secrétaire	PROPN	_	_	16	nmod	_	_
+27	Secrétaire	secrétaire	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 28	d'	de	ADP	_	_	29	case	_	SpaceAfter=No
 29	État	État	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
 30-31	aux	_	_	_	_	_	_	_	_
 30	à	à	ADP	_	_	32	case	_	_
 31	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	Affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	27	nmod	_	_
-33	étrangères	étrangères	PROPN	_	_	32	nmod	_	_
+33	étrangères	étranger	ADJ	_	Gender=Fem|Number=Plur	32	amod	_	_
 34	d'	de	ADP	_	_	35	case	_	SpaceAfter=No
 35	alors	alors	ADV	_	_	27	advmod	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	27	punct	_	_
@@ -161796,12 +161796,12 @@
 19	sur	sur	ADP	_	_	21	case	_	_
 20	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	_
 21	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-22	dans	dans	ADP	_	_	24	case	_	_
-23	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	The	The	DET	_	_	26	det	_	INTITLE=YES
-25	Amazing	Amazing	ADJ	_	_	26	amod	_	INTITLE=YES
-26	Spider-Man	Spider-Man	PROPN	_	_	21	nmod	_	SpaceAfter=No|TITLE=YES
-27	"	"	PUNCT	_	_	24	punct	_	_
+22	dans	dans	ADP	_	_	26	case	_	_
+23	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+24	The	the	DET	_	Definite=Def	26	det	_	Foreign=en|INTITLE=YES
+25	Amazing	amazing	ADJ	_	_	26	amod	_	Foreign=en|INTITLE=YES
+26	Spider-Man	Spider-Man	PROPN	_	_	21	nmod	_	Foreign=en|TITLE=YES|SpaceAfter=No
+27	"	"	PUNCT	_	_	26	punct	_	_
 28	mais	mais	CCONJ	_	_	31	cc	_	_
 29	surtout	surtout	ADV	_	_	28	advmod	_	_
 30	certains	certain	DET	_	Gender=Masc|Number=Plur	31	det	_	_
@@ -167072,7 +167072,7 @@
 8	,	,	PUNCT	_	_	1	punct	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Dr.	docteur	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
-11	CLAVERANNE	CLAVERANNE	PROPN	_	_	10	flat:name	_	_
+11	CLAVERANNE	CLAVERANNE	PROPN	_	_	10	appos	_	_
 12	délivre	délivrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	avec	avec	ADP	_	_	14	case	_	_
 14	talent	talent	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
@@ -174269,7 +174269,7 @@
 
 # sent_id = fr-ud-train_06228
 # text = Juste à coté du centre-ville, cet hôtel fera pour vous un endroit idéal aussi bien pour un week end que pour passer l'été.
-1	Juste	juste	ADV	_	_	6	advmod	_	_
+1	Juste	juste	ADV	_	_	3	advmod	_	_
 2	à	à	ADP	_	_	3	case	_	INMWE=Yes
 3	coté	côté	NOUN	_	Gender=Masc|Number=Sing	10	advmod	_	MWEPOS=ADV
 4-5	du	_	_	_	_	_	_	_	_
@@ -182640,9 +182640,9 @@
 23	accord	accord	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 24	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
 25	association	association	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
-26	Maroc	Maroc	PROPN	_	_	25	compound	_	SpaceAfter=No
+26	Maroc	Maroc	PROPN	_	_	25	appos	_	SpaceAfter=No
 27	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
-28	Union	Union	NOUN	_	Gender=Fem|Number=Sing	25	compound	_	_
+28	Union	union	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	_
 29	européenne	européen	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	20	punct	_	_
 31	à	à	ADP	_	_	33	case	_	_
@@ -189229,7 +189229,7 @@
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	région	région	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
-16	Centre	Centre	PROPN	_	_	15	nmod	_	SpaceAfter=No
+16	Centre	Centre	PROPN	_	_	15	appos	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_06754
@@ -192937,9 +192937,9 @@
 # text = Le couple à côté de nous s'est vu proposer le dessert sans avoir eu le plat de résistance... L'ambiance qui règne dans ce restaurant me pousse vraiment à le déconseiller !
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	couple	couple	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-3	à	à	ADP	_	_	5	case	_	INMWE=Yes
+3	à	à	ADP	_	_	4	case	_	INMWE=Yes
 4	côté	côté	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV
-5	de	de	ADP	_	_	3	fixed	_	_
+5	de	de	ADP	_	_	6	case	_	_
 6	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	4	obl:arg	_	_
 7	s'	se	PRON	_	Person=3|PronType=Prs	9	expl	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
@@ -199296,8 +199296,8 @@
 4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	général	général	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-7	de	de	PROPN	_	_	6	case	_	_
-8	Gaulle	Gaulle	PROPN	_	_	7	nmod	_	_
+7	de	de	PROPN	_	_	6	appos	_	_
+8	Gaulle	Gaulle	PROPN	_	_	7	flat:name	_	_
 9-10	au	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -204662,8 +204662,8 @@
 # sent_id = fr-ud-train_07307
 # text = M. Jacques Delors, reprenant son éternelle antienne sur le rôle de l'Europe, se dit « meurtri par l'intervention du FMI en Grèce » (NO n° 2373) alors que Bruxelles aurait dû parvenir à coordonner, selon lui, les politiques économiques des Etats membres.
 1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
-2	Jacques	Jacques	PROPN	_	_	1	appos	_	_
-3	Delors	Delors	PROPN	_	_	1	appos	_	SpaceAfter=No
+2	Jacques	Jacques	PROPN	_	_	1	flat:name	_	_
+3	Delors	Delors	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	reprenant	reprendre	VERB	_	Tense=Pres|VerbForm=Part	1	acl	_	_
 6	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
@@ -219822,7 +219822,7 @@
 55	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	lieu-dit	lieu-dit	NOUN	_	Gender=Masc|Number=Sing	37	obl:mod	_	_
 57	La	La	PROPN	_	_	58	det	_	_
-58	Bloss	Bloss	PROPN	_	_	56	acl	_	SpaceAfter=No
+58	Bloss	Bloss	PROPN	_	_	56	appos	_	SpaceAfter=No
 59	,	,	PUNCT	_	_	37	punct	_	_
 60	sur	sur	ADP	_	_	62	case	_	_
 61	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
@@ -220857,7 +220857,7 @@
 26	curateur	curateur	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 27	et	et	CCONJ	_	_	28	cc	_	_
 28	antiquaire	antiquaire	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	_
-29	Irvin	Irvin	PROPN	_	_	24	nmod	_	_
+29	Irvin	Irvin	PROPN	_	_	24	appos	_	_
 30	Ungar	Ungar	PROPN	_	_	29	flat:name	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -221514,7 +221514,7 @@
 35	reconnaissance	reconnaissance	NOUN	_	Gender=Fem|Number=Sing	33	conj	_	_
 36	au-delà	au-delà	ADV	_	_	32	advmod	_	_
 37-38	des	_	_	_	_	_	_	_	_
-37	de	de	ADP	_	_	32	case	_	_
+37	de	de	ADP	_	_	39	case	_	_
 38	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
 39	frontières	frontière	NOUN	_	Gender=Fem|Number=Plur	36	obl:arg	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	3	punct	_	_
@@ -223234,7 +223234,7 @@
 53	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
 54	parc	parc	NOUN	_	Gender=Masc|Number=Sing	51	nmod	_	SpaceAfter=No
 55	...	...	PUNCT	_	_	54	punct	_	_
-56	Victor	Victor	PROPN	_	_	54	nmod	_	_
+56	Victor	Victor	PROPN	_	_	54	appos	_	_
 57	Petit	Petit	PROPN	_	_	56	nmod	_	SpaceAfter=No
 58	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -229318,7 +229318,7 @@
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Mantaro	Mantaro	PROPN	_	_	22	nmod	_	_
 27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-28	Région	Région	PROPN	_	_	22	nmod	_	_
+28	Région	rGender=Fem|Number=Singégion	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 29	de	de	ADP	_	_	30	case	_	_
 30	Junín	Junín	PROPN	_	_	28	nmod	_	SpaceAfter=No
 31	)	)	PUNCT	_	_	28	punct	_	SpaceAfter=No
@@ -238913,7 +238913,7 @@
 
 # sent_id = fr-ud-train_08523
 # text = Mme Merkel rendra visite mardi à M. Juncker, le Premier ministre luxembourgeois, qui est également chef de file des ministres des Finances de la zone euro.
-1	Mme	monsieur	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+1	Mme	madame	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 2	Merkel	Merkel	PROPN	_	_	1	appos	_	_
 3	rendra	rendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	visite	visite	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
@@ -253203,25 +253203,25 @@
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	juste	juste	ADV	_	_	5	advmod	_	_
-4	à	à	ADP	_	_	8	case	_	INMWE=Yes
+4	à	à	ADP	_	_	5	case	_	INMWE=Yes
 5	côté	côté	NOUN	_	Gender=Masc|Number=Sing	0	root	_	MWEPOS=ADV
 6	de	de	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	gare	gare	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	13	punct	_	_
+9	,	,	PUNCT	_	_	5	punct	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	prix	prix	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
-13	bas	bas	ADJ	_	Gender=Masc|Number=Plur	8	conj	_	_
+13	bas	bas	ADJ	_	Gender=Masc|Number=Plur	5	conj	_	_
 14	et	et	CCONJ	_	_	17	cc	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
-17	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+17	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	rendez-vous	rendez-vous	NOUN	_	Gender=Masc|Number=Sing	17	obl:arg	_	_
-21	!	!	PUNCT	_	_	8	punct	_	_
+21	!	!	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_09030
 # text = C'est le règne de l'impunité puisqu'on a le pouvoir... » Il eût été plus inspiré de mentionner les vacances du chef de l'Etat de décembre 2009, tous frais payés par... Mohammed VI, « à la résidence royale de Jnane Lekbir », comme le précisait Libération.
@@ -263370,7 +263370,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	suivi	suivi	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
 5	de	de	ADP	_	_	6	case	_	_
-6	Madame	monsieur	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+6	Madame	madame	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 7	Flipo	Flipo	PROPN	_	_	6	appos	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	SpaceAfter=No
@@ -273970,7 +273970,7 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	analogie	analogie	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	9	punct	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
 17	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 19	Dieu	Dieu	PROPN	_	_	15	acl:relcl	_	SpaceAfter=No
@@ -275881,9 +275881,9 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	en	en	ADP	_	_	6	case	_	_
 6	plus	plus	ADV	_	_	3	advmod	_	_
-7	de	de	ADP	_	_	3	case	_	_
+7	de	de	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	version	version	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+9	version	version	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	_
 10	instrumentale	instrumental	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -279453,10 +279453,10 @@
 16	de	de	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	général	général	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-19	de	de	ADP	_	_	18	flat:name	_	_
-20	Lattre	Lattre	PROPN	_	_	18	appos	_	_
-21	de	de	ADP	_	_	18	flat:name	_	_
-22	Tassigny	Tassigny	PROPN	_	_	18	appos	_	SpaceAfter=No
+19	de	de	ADP	_	_	18	appos	_	_
+20	Lattre	Lattre	PROPN	_	_	19	flat:name	_	_
+21	de	de	ADP	_	_	19	flat:name	_	_
+22	Tassigny	Tassigny	PROPN	_	_	19	flat:name	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	12	punct	_	_
 24	à	à	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -288955,7 +288955,7 @@
 41	,	,	PUNCT	_	_	43	punct	_	_
 42	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
 43	rapporté	rapporter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-44	Mme	monsieur	NOUN	_	Gender=Fem|Number=Sing	43	nsubj	_	_
+44	Mme	madame	NOUN	_	Gender=Fem|Number=Sing	43	nsubj	_	_
 45	Byrs	Byrs	PROPN	_	_	44	appos	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	43	punct	_	_
 
@@ -301028,7 +301028,7 @@
 15	de	de	ADP	_	_	16	case	_	_
 16	Mr	Mr	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 17	&	&	SYM	_	_	18	cc	_	_
-18	Mme	monsieur	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+18	Mme	madame	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
 19	Abadie	Abadie	PROPN	_	_	16	appos	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -304158,8 +304158,8 @@
 12	Coopération	coopération	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	2	punct	_	_
 14	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	_
-15	Alain	Alain	PROPN	_	_	14	appos	_	_
-16	Joyandet	Joyandet	PROPN	_	_	14	appos	_	SpaceAfter=No
+15	Alain	Alain	PROPN	_	_	14	flat:name	_	_
+16	Joyandet	Joyandet	PROPN	_	_	14	flat:name	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
 19	exhorté	exhorter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -314392,7 +314392,7 @@
 16	dell'abate	dell'abate	PROPN	_	_	15	flat:name	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	11	punct	_	_
 18	à	à	ADP	_	_	19	case	_	INMWE=Yes
-19	côté	côté	NOUN	_	Gender=Masc|Number=Sing	5	advmod	_	MWEPOS=ADV
+19	côté	côté	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV
 20	de	de	ADP	_	_	21	case	_	_
 21	Montalcino	Montalcino	PROPN	_	_	19	obl:arg	_	_
 22	non	non	ADV	_	_	23	advmod	_	_
@@ -315902,7 +315902,7 @@
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	poète	poète	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 25	persan	persan	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
-26	Saadi	Saadi	PROPN	_	_	24	nmod	_	_
+26	Saadi	Saadi	PROPN	_	_	24	appos	_	_
 27	de	de	PROPN	_	_	28	case	_	_
 28	Shiraz	Shiraz	PROPN	_	_	26	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	26	punct	_	_
@@ -323406,7 +323406,7 @@
 28	,	,	PUNCT	_	_	20	punct	_	_
 29	en	en	ADP	_	_	30	case	_	_
 30	plus	plus	ADV	_	_	20	advmod	_	_
-31	de	de	ADP	_	_	20	case	_	_
+31	de	de	ADP	_	_	32	mark	_	_
 32	pouvoir	pouvoir	VERB	_	VerbForm=Inf	30	acl	_	_
 33	compter	compter	VERB	_	VerbForm=Inf	32	xcomp	_	_
 34	sur	sur	ADP	_	_	36	case	_	_
@@ -336808,7 +336808,7 @@
 7	)	)	PUNCT	_	_	6	punct	_	_
 8	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
 9	comte	comte	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-10	de	de	ADP	_	_	11	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
 11	Mâcon	Mâcon	PROPN	_	_	9	nmod	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	1004	1004	NUM	_	_	9	nmod	_	_
@@ -338414,7 +338414,7 @@
 # text = Bravo à Mme Pierrefixe et toute son équipe.
 1	Bravo	bravo	INTJ	_	_	0	root	_	_
 2	à	à	ADP	_	_	3	case	_	_
-3	Mme	Mme	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+3	Mme	madame	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
 4	Pierrefixe	Pierrefixe	PROPN	_	_	3	flat:name	_	_
 5	et	et	CCONJ	_	_	8	cc	_	_
 6	toute	tout	DET	_	Gender=Fem|Number=Sing	8	det	_	_
@@ -338708,7 +338708,7 @@
 10	Guyet	Guyet	PROPN	_	_	9	flat:name	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	dite	dire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
-13	Madame	monsieur	NOUN	_	Gender=Fem|Number=Sing	12	xcomp	_	_
+13	Madame	madame	NOUN	_	Gender=Fem|Number=Sing	12	xcomp	_	_
 14	de	de	ADP	_	_	13	flat:name	_	_
 15	Chamillard	Chamillard	PROPN	_	_	13	flat:name	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	12	punct	_	_
@@ -364819,7 +364819,7 @@
 20	réputation	réputation	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	«	«	PUNCT	_	_	23	punct	_	_
-23	Madame	monsieur	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	Madame	madame	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 24	Propre	Propre	PROPN	_	_	23	appos	_	_
 25	»	»	PUNCT	_	_	23	punct	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	18	punct	_	_
@@ -371513,7 +371513,7 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	mer	mer	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
-16	Adriatique	Adriatique	PROPN	_	_	15	compound	_	_
+16	Adriatique	Adriatique	PROPN	_	_	15	flat:name	_	_
 17	et	et	CCONJ	_	_	21	cc	_	_
 18	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
 19	profondeur	profondeur	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
@@ -377036,7 +377036,7 @@
 15	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
 16	Claude	Claude	PROPN	_	_	5	advcl:cleft	_	_
 17	Gosselin	Gosselin	PROPN	_	_	16	flat:name	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	5	punct	_	_
+18	,	,	PUNCT	_	_	17	punct	_	_
 19	directeur	directeur	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
 20	général	général	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
 21	et	et	CCONJ	_	_	22	cc	_	_
@@ -377044,10 +377044,10 @@
 23-24	du	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	Centre	Centre	PROPN	_	_	19	nmod	_	_
+25	Centre	centre	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 26	International	International	ADJ	_	_	25	amod	_	_
 27	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
-28	Art	Art	PROPN	_	_	25	nmod	_	_
+28	Art	art	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 29	Contemporain	Contemporain	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
 30	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
 31	CIAC	CIAC	X	_	_	25	appos	_	SpaceAfter=No
@@ -388155,7 +388155,7 @@
 14	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_13852
-# text = Le grand-père maternel de l'écrivain Michel Tournier qu'il décrit dans le roman Paraclet était pharmacien de Bligny sur Ouche (Tournier, par Jacques Poirier, Ed.
+# text = Le grand-père maternel de l'écrivain Michel Tournier qu'il décrit dans le roman Paraclet était pharmacien de Bligny sur Ouche (Tournier, par Jacques Poirier, Ed. Echelle de Jacob, 2005).
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	grand-père	grand-père	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
 3	maternel	maternel	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
@@ -388178,14 +388178,20 @@
 20	sur	sur	ADP	_	_	21	case	_	_
 21	Ouche	Ouche	PROPN	_	_	19	nmod	_	_
 22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
-23	Tournier	Tournier	PROPN	_	_	14	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	_	_	26	punct	_	_
+23	Tournier	Tournier	PROPN	_	_	17	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
 25	par	par	ADP	_	_	26	case	_	_
 26	Jacques	Jacques	PROPN	_	_	23	nmod	_	_
 27	Poirier	Poirier	PROPN	_	_	26	flat:name	_	SpaceAfter=No
-28	,	,	PUNCT	_	_	29	punct	_	_
-29	Ed	Ed	X	_	_	26	appos	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	17	punct	_	_
+28	,	,	PUNCT	_	_	23	punct	_	_
+29	Ed.	édition	NOUN	_	_	23	nmod	_	_
+30	Echelle	échelle	NOUN	_	_	29	appos	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	Jacob	Jacob	PROPN	_	_	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	23	punct	_	_
+34	2005	2005	NUM	_	_	23	punct	_	SpaceAfter=No
+35	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-train_13853
 # text = Son succès a valeur de test.
@@ -401688,9 +401694,9 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	général	général	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	_
 8	José	José	PROPN	_	_	7	appos	_	_
-9	de	de	ADP	_	_	10	case	_	_
-10	San	San	PROPN	_	_	7	nmod	_	_
-11	Martín	Martín	PROPN	_	_	10	flat:name	_	SpaceAfter=No
+9	de	de	ADP	_	_	8	flat:name	_	_
+10	San	San	PROPN	_	_	8	flat:name	_	_
+11	Martín	Martín	PROPN	_	_	8	flat:name	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	7	punct	_	_
 13	héros	héros	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
 14-15	des	_	_	_	_	_	_	_	_
