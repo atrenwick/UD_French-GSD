@@ -39773,7 +39773,7 @@
 # text = Il a été relaxé.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
 4	relaxé	relaxer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -54602,7 +54602,7 @@
 1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	malheureusement	malheureusement	ADV	_	_	5	advmod	_	_
-4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
 5	déçu	décevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -75347,7 +75347,7 @@
 18	à	à	ADP	_	_	19	case	_	_
 19	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	22	obl:arg	_	_
 20	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
-21	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux	_	_
+21	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux:pass	_	_
 22	accolée	accoler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
 23-24	au	_	_	_	_	_	_	_	_
 23	à	à	ADP	_	_	25	case	_	_
@@ -91099,7 +91099,7 @@
 17	à	à	ADP	_	_	19	case	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
-20	que	que	SCONJ	_	_	14	mark	_	SpaceAfter=No
+20	que	que	SCONJ	_	_	14	orphan	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_03239
@@ -182438,7 +182438,7 @@
 4	Porphyre	Porphyre	PROPN	_	_	2	nmod	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 6	aussi	aussi	ADV	_	_	8	advmod	_	_
-7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux	_	_
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
 8	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	scala	scala	NOUN	_	Gender=Fem|Number=Sing	8	xcomp	_	_
 10	praedicamentalis	praedicamentalis	ADJ	_	_	9	amod	_	_
@@ -201401,10 +201401,10 @@
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	doute	doute	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
-20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
 21	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-22	quand	quand	SCONJ	_	_	21	mark	_	_
-23	à	à	ADP	_	_	25	case	_	_
+22	quand	quand	SCONJ	_	_	25	case	_	MWEPOS=ADP|Correct=quant
+23	à	à	ADP	_	_	22	fixed	_	_
 24	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
 25	authenticité	authenticité	NOUN	_	Gender=Fem|Number=Sing	21	obl:mod	_	_
 26	de	de	ADP	_	_	28	case	_	_
@@ -246721,7 +246721,7 @@
 # text = Nous avons été parfaitement conseillés et avons trouvé une solution performante et adaptée à notre (petit) budget !
 1	Nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
-3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
 4	parfaitement	parfaitement	ADV	_	_	5	advmod	_	_
 5	conseillés	conseiller	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 6	et	et	CCONJ	_	_	8	cc	_	_
@@ -278988,7 +278988,7 @@
 13	et	et	CCONJ	_	_	18	cc	_	_
 14	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
 15	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
-16	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux	_	_
+16	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
 17	très	très	ADV	_	_	18	advmod	_	_
 18	déçus	décevoir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
 19	:	:	PUNCT	_	_	18	punct	_	_
@@ -288413,7 +288413,7 @@
 17	où	où	PRON	_	PronType=Rel	22	advmod	_	_
 18	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
 19	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
-20	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux	_	_
+20	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux:pass	_	_
 21	immédiatement	immédiatement	ADV	_	_	22	advmod	_	_
 22	arrêtés	arrêter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
@@ -372082,7 +372082,7 @@
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	suite	suite	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
-25	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	aux	_	_
+25	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	aux:pass	_	_
 26	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	34	case	_	_
@@ -402900,7 +402900,7 @@
 12	franchises	franchise	NOUN	_	Gender=Fem|Number=Plur	9	obl:arg	_	_
 13	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	_
 14	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
-15	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux	_	_
+15	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux:pass	_	_
 16	données	donner	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
