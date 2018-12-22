@@ -28847,12 +28847,12 @@
 # sent_id = fr-ud-train_01013
 # text = Il est d'autant plus à craindre qu'il existe un persécuteur désigné, c'est-à-dire un individu précis, jugé comme étant responsable des persécutions que le sujet pense endurer ;
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	autant	autant	ADV	_	_	3	fixed	_	_
 5	plus	plus	ADV	_	_	3	fixed	_	_
 6	à	à	ADP	_	_	7	mark	_	_
-7	craindre	craindre	VERB	_	VerbForm=Inf	0	root	_	_
+7	craindre	craindre	VERB	_	VerbForm=Inf	2	ccomp	_	_
 8	qu'	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	existe	exister	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
@@ -28878,7 +28878,7 @@
 29	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
 30	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
 31	endurer	endurer	VERB	_	VerbForm=Inf	30	xcomp	_	_
-32	;	;	PUNCT	_	_	7	punct	_	_
+32	;	;	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_01014
 # text = En 1589 furent institués trois patriciens, désignés par le sénat, chargé de surveiller l'artillerie, l'usine de poudre (à canon), les munitions et leur distribution.
@@ -34464,12 +34464,12 @@
 21	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
 22	crue	crue	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
 23	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
-24	plus	plus	ADV	_	_	26	advmod	_	_
-25	que	que	ADP	_	_	26	mark	_	_
-26	cinquantennale	cinquantennale	ADJ	_	Gender=Fem|Number=Sing	19	ccomp	_	_
+24	plus	plus	ADV	_	_	19	ccomp	_	_
+25	que	que	SCONJ	_	_	26	mark	_	_
+26	cinquantennale	cinquantennale	ADJ	_	Gender=Fem|Number=Sing	24	ccomp	_	_
 27	et	et	CCONJ	_	_	29	cc	_	_
 28	donc	donc	ADV	_	_	27	advmod	_	_
-29	exceptionnelle	exceptionnel	ADJ	_	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+29	exceptionnelle	exceptionnel	ADJ	_	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = fr-ud-train_01212
