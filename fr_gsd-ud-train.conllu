@@ -3137,8 +3137,8 @@
 
 # sent_id = fr-ud-train_00111
 # text = Par exemple, une des nombreuses possibilités est la mise en place d'un potager communautaire.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	11	punct	_	_
 4	une	un	PRON	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 5-6	des	_	_	_	_	_	_	_	_
@@ -3346,8 +3346,8 @@
 # text = Le Nigeria par exemple exporte pratiquement la totalité de sa production qui est de 2,5 millions de barils de brut par jour.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Nigeria	Nigeria	PROPN	_	_	5	nsubj	_	_
-3	par	par	ADP	_	_	4	case	_	_
-4	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+3	par	par	ADP	_	_	4	case	_	INMWE=Yes
+4	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV
 5	exporte	exporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	pratiquement	pratiquement	ADV	_	_	5	advmod	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -19814,7 +19814,7 @@
 2	iguanes	iguane	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	par	par	ADP	_	_	5	case	_	INMWE=Yes
-5	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	MWEPOS=ADV|SpaceAfter=No
+5	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
 8	tendront	tendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -32213,8 +32213,8 @@
 
 # sent_id = fr-ud-train_01129
 # text = Par exemple, une marche empruntant les trois premières notes du motif en croix se reproduit huit fois de suite à partir de la mesure 47.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	17	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	marche	marche	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
@@ -35878,8 +35878,8 @@
 
 # sent_id = fr-ud-train_01265
 # text = Par exemple, pour indiquer « 326 », il suffit de placer le stylet dans l'encoche « 6 » de la tirette la plus à droite et de descendre, puis de faire de même dans la tirette immédiatement à gauche avec l'encoche « 2 », puis répéter le processus avec l'encoche « 3 » juste à côté.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	pour	pour	ADP	_	_	5	mark	_	_
 5	indiquer	indiquer	VERB	_	VerbForm=Inf	11	advcl	_	_
@@ -39120,8 +39120,8 @@
 
 # sent_id = fr-ud-train_01383
 # text = Par exemple l'existence d'une base n'y est plus assurée, et on ne peut pas nécessairement y développer de théorie de la dimension, même dans un module engendré par un nombre fini d'éléments.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	12	advmod	_	MWEPOS=ADV
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	existence	existence	NOUN	_	Gender=Fem|Number=Sing	12	nsubj:pass	_	_
 5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
@@ -40205,8 +40205,8 @@
 13	2000	2000	NUM	_	_	12	nmod	_	_
 14	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
 15	dont	dont	PRON	_	PronType=Rel	19	nmod	_	_
-16	par	par	ADP	_	_	17	case	_	_
-17	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+16	par	par	ADP	_	_	17	case	_	INMWE=Yes
+17	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	19	advmod	_	MWEPOS=ADV
 18	«	«	PUNCT	_	_	19	punct	_	_
 19	Science	Science	NOUN	_	Number=Sing	6	appos	_	Foreign=en
 20	Commons	Commons	NOUN	_	Number=Plur	19	flat:name	_	Foreign=en
@@ -51791,8 +51791,8 @@
 15	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	accident	accident	NOUN	_	Gender=Masc|Number=Sing	13	obl:arg	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	12	punct	_	_
-18	par	par	ADP	_	_	19	case	_	_
-19	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+18	par	par	ADP	_	_	19	case	_	INMWE=Yes
+19	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	12	advmod	_	MWEPOS=ADV
 20	en	en	ADP	_	_	21	case	_	_
 21	cas	cas	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 22	de	de	ADP	_	_	23	case	_	_
@@ -55357,8 +55357,8 @@
 
 # sent_id = fr-ud-train_01969
 # text = Par exemple, un arc de cercle est une partie de la circonférence du cercle ou d'une parabole.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	10	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	10	punct	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	arc	arc	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -59655,8 +59655,8 @@
 5	Nature	Nature	PROPN	_	_	4	flat:name	_	_
 6	Environnement	Environnement	PROPN	_	_	4	flat:name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-8	par	par	ADP	_	_	9	case	_	_
-9	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+8	par	par	ADP	_	_	9	case	_	INMWE=Yes
+9	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV
 10	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:caus	_	_
 11	remarquer	remarquer	VERB	_	VerbForm=Inf	0	root	_	_
 12-13	au	_	_	_	_	_	_	_	_
@@ -66434,8 +66434,8 @@
 7	faibles	faible	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	avec	avec	ADP	_	_	13	case	_	_
-10	par	par	ADP	_	_	11	case	_	_
-11	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+10	par	par	ADP	_	_	11	case	_	INMWE=Yes
+11	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	13	advmod	_	MWEPOS=ADV
 12	2000	2000	NUM	_	_	13	nummod	_	_
 13	litres	litre	NOUN	_	Gender=Masc|Number=Plur	7	obl:mod	_	_
 14	de	de	ADP	_	_	15	case	_	_
@@ -75814,8 +75814,8 @@
 22	comportement	comportement	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
 23	erroné	erroné	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
 24	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
-25	par	par	ADP	_	_	26	case	_	_
-26	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+25	par	par	ADP	_	_	26	case	_	INMWE=Yes
+26	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	28	advmod	_	MWEPOS=ADV
 27	:	:	PUNCT	_	_	26	punct	_	_
 28	passage	passage	NOUN	_	Gender=Masc|Number=Sing	22	appos	_	_
 29-30	au	_	_	_	_	_	_	_	_
@@ -84965,8 +84965,8 @@
 26	Seconde	second	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 27	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
 28	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
-29	par	par	ADP	_	_	30	case	_	_
-30	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	23	obl:mod	_	_
+29	par	par	ADP	_	_	30	case	_	INMWE=Yes
+30	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	23	advmod	_	MWEPOS=ADV
 31	vers	vers	ADP	_	_	33	case	_	_
 32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	Ministère	ministère	NOUN	_	Gender=Masc|Number=Sing	23	obl	_	_
@@ -95859,8 +95859,8 @@
 
 # sent_id = fr-ud-train_03407
 # text = Par exemple, si vous souhaitez donner un peu plus d'aisance à la cuisine en la prolongeant de quelques mètres, une fondation sur pieux, bien arrimée à la structure existante, fera sans doute l'affaire.
-1	Par	par	ADP	_	_	35	advmod	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	35	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	si	si	SCONJ	_	_	6	mark	_	_
 5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_
@@ -105275,8 +105275,8 @@
 12	sollicitation	sollicitation	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	_
 13	en	en	ADP	_	_	14	case	_	_
 14	traction	traction	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-15	par	par	ADP	_	_	16	case	_	_
-16	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	par	par	ADP	_	_	16	case	_	INMWE=Yes
+16	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	12	advmod	_	MWEPOS=ADV|SpaceAfter=No
 17	,	,	PUNCT	_	_	2	punct	_	_
 18	et	et	CCONJ	_	_	20	cc	_	_
 19	donc	donc	ADV	_	_	20	advmod	_	_
@@ -107174,8 +107174,8 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	supervision	supervision	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
-12	par	par	ADP	_	_	13	case	_	_
-13	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+12	par	par	ADP	_	_	13	case	_	INMWE=Yes
+13	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	14	advmod	_	MWEPOS=ADV
 14	nagios	nagios	PROPN	_	_	8	appos	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	5	punct	_	_
@@ -159645,8 +159645,8 @@
 
 # sent_id = fr-ud-train_05705
 # text = Par exemple, le Conseil communal du 15 juin 1821 décide de « refaire la toiture de la chapelle d'Autreppe en ardoises ».
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	12	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	12	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -170747,8 +170747,8 @@
 32	,	,	PUNCT	_	_	31	punct	_	_
 33	à	à	ADP	_	_	34	case	_	_
 34	Rouen	Rouen	PROPN	_	_	31	obl:mod	_	_
-35	par	par	ADP	_	_	36	case	_	_
-36	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	31	obl:mod	_	_
+35	par	par	ADP	_	_	36	case	_	INMWE=Yes
+36	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	31	advmod	_	MWEPOS=ADV
 37	;	;	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_06107
@@ -171014,8 +171014,8 @@
 35	climatiques	climatique	ADJ	_	Gender=Fem|Number=Plur	34	amod	_	_
 36	extrêmes	extrême	ADJ	_	Gender=Fem|Number=Plur	34	amod	_	_
 37	(	(	PUNCT	_	_	41	punct	_	SpaceAfter=No
-38	par	par	ADP	_	_	39	case	_	_
-39	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
+38	par	par	ADP	_	_	39	case	_	INMWE=Yes
+39	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	41	advmod	_	MWEPOS=ADV
 40	:	:	PUNCT	_	_	39	punct	_	_
 41	démarreur	démarreur	NOUN	_	Gender=Masc|Number=Sing	26	appos	_	_
 42	de	de	ADP	_	_	43	case	_	_
@@ -172409,8 +172409,8 @@
 29	sur	sur	ADP	_	_	30	case	_	_
 30	certains	certain	PRON	_	Gender=Masc|Number=Plur	23	conj	_	_
 31	comme	comme	SCONJ	_	_	36	cc	_	_
-32	par	par	ADP	_	_	33	case	_	_
-33	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
+32	par	par	ADP	_	_	33	case	_	INMWE=Yes
+33	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	31	advmod	_	MWEPOS=ADV
 34	sur	sur	ADP	_	_	36	case	_	_
 35	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
 36	immobilier	immobilier	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	SpaceAfter=No
@@ -175950,8 +175950,8 @@
 13	être	être	AUX	_	VerbForm=Inf	14	aux:pass	_	_
 14	remorqué	remorquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	xcomp	_	_
 15	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
-16	par	par	ADP	_	_	17	case	_	_
-17	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+16	par	par	ADP	_	_	17	case	_	INMWE=Yes
+17	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	20	advmod	_	MWEPOS=ADV
 18	par	par	ADP	_	_	20	case	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	tracteur	tracteur	NOUN	_	Gender=Masc|Number=Sing	14	obl:agent	_	_
@@ -176157,8 +176157,8 @@
 10	y	y	ADV	_	_	12	advmod	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
-13	par	par	ADP	_	_	14	case	_	_
-14	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+13	par	par	ADP	_	_	14	case	_	INMWE=Yes
+14	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	12	advmod	_	MWEPOS=ADV
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 16	nouvel	nouveau	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 17	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
@@ -177216,8 +177216,8 @@
 25	Legend	Legend	PROPN	_	_	22	nmod	_	_
 26	of	of	ADP	_	_	27	case	_	_
 27	Zelda	Zelda	PROPN	_	_	25	nmod	_	_
-28	par	par	ADP	_	_	29	case	_	_
-29	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	SpaceAfter=No
+28	par	par	ADP	_	_	29	case	_	INMWE=Yes
+29	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
 30	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_06345
@@ -181235,8 +181235,8 @@
 15	à	à	ADP	_	_	16	case	_	_
 16	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	17	obl:arg	_	_
 17	participeront	participer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	10	acl:relcl	_	_
-18	par	par	ADP	_	_	19	case	_	_
-19	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
+18	par	par	ADP	_	_	19	case	_	INMWE=Yes
+19	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	17	advmod	_	MWEPOS=ADV
 20	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	membres	membre	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
 22	de	de	ADP	_	_	24	case	_	_
@@ -188089,8 +188089,8 @@
 20	de	de	ADP	_	_	21	case	_	_
 21	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	18	obl:arg	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
-23	par	par	ADP	_	_	24	case	_	_
-24	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	par	par	ADP	_	_	24	case	_	INMWE=Yes
+24	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	21	advmod	_	MWEPOS=ADV|SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	«	«	PUNCT	_	_	28	punct	_	_
@@ -198274,8 +198274,8 @@
 37	et	et	CCONJ	_	_	39	cc	_	_
 38	de	de	ADP	_	_	39	case	_	_
 39	Wikipédia	Wikipédia	PROPN	_	_	35	conj	_	_
-40	par	par	ADP	_	_	41	case	_	_
-41	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
+40	par	par	ADP	_	_	41	case	_	INMWE=Yes
+41	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	32	advmod	_	MWEPOS=ADV|SpaceAfter=No
 42	)	)	PUNCT	_	_	32	punct	_	SpaceAfter=No
 43	.	.	PUNCT	_	_	14	punct	_	_
 
@@ -205137,8 +205137,8 @@
 
 # sent_id = fr-ud-train_07324
 # text = Par exemple : un armet, une bombe, un bonnet, un bandeau, un béret, un bob, une cagoule, un casque, une casquette, une cervelière, un chapeau, une couronne (de fleurs), un foulard, une perruque.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	5	advmod	_	MWEPOS=ADV
 3	:	:	PUNCT	_	_	2	punct	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	armet	armet	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -206250,8 +206250,8 @@
 22	principes	principe	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	41	punct	_	_
 24	avec	avec	ADP	_	_	28	case	_	_
-25	par	par	ADP	_	_	26	case	_	_
-26	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+25	par	par	ADP	_	_	26	case	_	INMWE=Yes
+26	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	28	advmod	_	MWEPOS=ADV
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	neutralisation	neutralisation	NOUN	_	Gender=Fem|Number=Sing	41	obl:mod	_	_
 29-30	du	_	_	_	_	_	_	_	_
@@ -206376,8 +206376,8 @@
 19	difficultés	difficulté	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	6	punct	_	_
 21	comme	comme	ADP	_	_	25	case	_	_
-22	par	par	ADP	_	_	23	case	_	_
-23	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+22	par	par	ADP	_	_	23	case	_	INMWE=Yes
+23	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	21	advmod	_	MWEPOS=ADV
 24	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
 25	sauts	saut	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
@@ -213489,8 +213489,8 @@
 
 # sent_id = fr-ud-train_07621
 # text = Par exemple au sabre, positionner son arme à gauche (en quarte par exemple), permettra de se défendre d'une attaque visant la partie gauche (ligne du dedans) du corps de l'escrimeur, mais aussi d'attaquer l'adversaire sur sa partie droite.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	_
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	19	advmod	_	MWEPOS=ADV
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -213504,8 +213504,8 @@
 12	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 13	en	en	ADP	_	_	14	case	_	_
 14	quarte	quarte	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
-15	par	par	ADP	_	_	16	case	_	_
-16	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+15	par	par	ADP	_	_	16	case	_	INMWE=Yes
+16	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	14	advmod	_	MWEPOS=ADV|SpaceAfter=No
 17	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	permettra	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -214836,8 +214836,8 @@
 25	permettre	permettre	VERB	_	VerbForm=Inf	24	xcomp	_	_
 26	de	de	ADP	_	_	27	mark	_	_
 27	comprendre	comprendre	VERB	_	VerbForm=Inf	25	xcomp	_	_
-28	par	par	ADP	_	_	29	case	_	_
-29	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	27	obl:mod	_	_
+28	par	par	ADP	_	_	29	case	_	INMWE=Yes
+29	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	27	advmod	_	MWEPOS=ADV
 30	qu'	que	SCONJ	_	_	40	mark	_	SpaceAfter=No
 31	après	après	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
@@ -215758,8 +215758,8 @@
 31	)	)	PUNCT	_	_	27	punct	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	22	punct	_	_
 33	selon	selon	ADP	_	_	36	case	_	_
-34	par	par	ADP	_	_	35	case	_	_
-35	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
+34	par	par	ADP	_	_	35	case	_	INMWE=Yes
+35	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	36	advmod	_	MWEPOS=ADV
 36	Dieter	Dieter	PROPN	_	_	22	nmod	_	_
 37	Hägermann	Hägermann	PROPN	_	_	36	flat:name	_	_
 38	(	(	PUNCT	_	_	39	punct	_	SpaceAfter=No
@@ -217144,8 +217144,8 @@
 
 # sent_id = fr-ud-train_07745
 # text = Par exemple les pare-brise sont faits par une compagnie de la région de la Beauce.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV
 3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	pare-brise	pare-brise	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
@@ -219436,8 +219436,8 @@
 
 # sent_id = fr-ud-train_07833
 # text = Par exemple : Afrique du Sud, Royaume-Uni, Argentine, Australie (en majeure partie), Brésil, Canada, États-Unis (la plupart des États depuis la jurisprudence de 1993 faite par l'affaire Johnson v. Calvert), Grèce, Iran, Israël, Roumanie, Russie, l'Ukraine.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	4	advmod	_	MWEPOS=ADV
 3	:	:	PUNCT	_	_	4	punct	_	_
 4	Afrique	Afrique	PROPN	_	_	0	root	_	_
 5-6	du	_	_	_	_	_	_	_	_
@@ -223407,8 +223407,8 @@
 38	particularité	particularité	NOUN	_	Gender=Fem|Number=Sing	27	obl:arg	_	_
 39	propre	propre	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
 40	(	(	PUNCT	_	_	43	punct	_	SpaceAfter=No
-41	par	par	ADP	_	_	42	case	_	_
-42	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
+41	par	par	ADP	_	_	42	case	_	INMWE=Yes
+42	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	43	advmod	_	MWEPOS=ADV
 43	sychizoïdie	sychizoïdie	NOUN	_	Gender=Fem|Number=Sing	38	appos	_	_
 44	pour	pour	ADP	_	_	46	case	_	_
 45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
@@ -228407,8 +228407,8 @@
 29	whuffie	whuffie	NOUN	_	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
 30	--	--	PUNCT	_	_	19	punct	_	SpaceAfter=No
 31	comme	comme	ADV	_	_	33	advmod	_	_
-32	par	par	ADP	_	_	33	case	_	_
-33	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	39	obl:mod	_	SpaceAfter=No
+32	par	par	ADP	_	_	33	case	_	INMWE=Yes
+33	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	39	advmod	_	MWEPOS=ADV|SpaceAfter=No
 34	,	,	PUNCT	_	_	39	punct	_	_
 35	comment	comment	ADV	_	_	39	advmod	_	_
 36	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
@@ -236818,8 +236818,8 @@
 39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	cas	cas	NOUN	_	Gender=Masc|Number=Sing	21	advcl	_	SpaceAfter=No
 41	,	,	PUNCT	_	_	40	punct	_	_
-42	par	par	ADP	_	_	43	case	_	_
-43	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
+42	par	par	ADP	_	_	43	case	_	INMWE=Yes
+43	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	40	advmod	_	MWEPOS=ADV|SpaceAfter=No
 44	,	,	PUNCT	_	_	43	punct	_	_
 45-46	du	_	_	_	_	_	_	_	_
 45	de	de	ADP	_	_	48	case	_	_
@@ -238804,8 +238804,8 @@
 9	complexes	complexe	ADJ	_	Gender=Masc|Number=Plur	4	xcomp	_	_
 10	et	et	CCONJ	_	_	11	cc	_	_
 11	impliquer	impliquer	VERB	_	VerbForm=Inf	9	conj	_	_
-12	par	par	ADP	_	_	13	case	_	_
-13	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
+12	par	par	ADP	_	_	13	case	_	INMWE=Yes
+13	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV
 14	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	plages	plage	NOUN	_	Gender=Fem|Number=Plur	11	obl	_	_
 16	temporelles	temporel	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
@@ -243992,8 +243992,8 @@
 37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	FIDH	FIDH	PROPN	_	_	34	conj	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	44	punct	_	_
-40	par	par	ADP	_	_	41	case	_	_
-41	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	44	nmod	_	_
+40	par	par	ADP	_	_	41	case	_	INMWE=Yes
+41	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	44	advmod	_	MWEPOS=ADV
 42	sur	sur	ADP	_	_	44	case	_	_
 43	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
 44	dossiers	dossier	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	_
@@ -249959,8 +249959,8 @@
 10	pays	pays	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
 11	étrangers	étranger	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	26	punct	_	_
-13	par	par	ADP	_	_	14	case	_	_
-14	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	26	obl:mod	_	SpaceAfter=No
+13	par	par	ADP	_	_	14	case	_	INMWE=Yes
+14	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	26	advmod	_	MWEPOS=ADV|SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	tiare	tiare	NOUN	_	Gender=Fem|Number=Sing	26	nsubj:pass	_	_
@@ -258986,8 +258986,8 @@
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	certains	certain	PRON	_	Gender=Masc|Number=Plur	12	nsubj	_	_
 12	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-13	par	par	ADP	_	_	14	case	_	_
-14	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
+13	par	par	ADP	_	_	14	case	_	INMWE=Yes
+14	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	15	advmod	_	MWEPOS=ADV
 15	offrir	offrir	VERB	_	VerbForm=Inf	12	xcomp	_	_
 16	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	Lexique	lexique	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
@@ -270967,8 +270967,8 @@
 
 # sent_id = fr-ud-train_09672
 # text = Par exemple, c'est à Béthanie que Saint Luc place la dernière apparition du Christ à ses apôtres : Eduxit autem eos foras in Bethaniam, et, elevatis manibus suis, benedixit eis ;
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -272899,8 +272899,8 @@
 33	en	en	ADP	_	_	34	case	_	_
 34	suspension	suspension	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
 35	,	,	PUNCT	_	_	28	punct	_	_
-36	par	par	ADP	_	_	37	case	_	_
-37	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+36	par	par	ADP	_	_	37	case	_	INMWE=Yes
+37	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	28	advmod	_	MWEPOS=ADV|SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	_
 39	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 40	d'	de	ADP	_	_	41	mark	_	SpaceAfter=No
@@ -273763,8 +273763,8 @@
 15	non	non	ADV	_	_	16	advmod	_	_
 16	linéaire	linéaire	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 17	(	(	PUNCT	_	_	22	punct	_	SpaceAfter=No
-18	par	par	ADP	_	_	19	case	_	_
-19	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+18	par	par	ADP	_	_	19	case	_	INMWE=Yes
+19	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	22	advmod	_	MWEPOS=ADV
 20	A5	A5	X	_	_	22	compound	_	SpaceAfter=No
 21	/	/	PUNCT	_	_	22	punct	_	SpaceAfter=No
 22	1	1	NUM	_	_	12	appos	_	_
@@ -280930,8 +280930,8 @@
 
 # sent_id = fr-ud-train_10027
 # text = Par exemple, S55 signifie Shōwa 55.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	5	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	S55	S55	X	_	_	5	nsubj	_	_
 5	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -283118,8 +283118,8 @@
 
 # sent_id = fr-ud-train_10109
 # text = Par exemple, les pages d'index d'un livre reprennent (parfois) les termes significatifs apparaissant dans le livre, et les relient aux pages du livre où ces termes (ou leurs synonymes) apparaissent.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	11	punct	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	pages	page	NOUN	_	Gender=Fem|Number=Plur	11	nsubj	_	_
@@ -286803,8 +286803,8 @@
 4	Français	Français	PROPN	_	_	2	appos	_	_
 5	Evidian	Evidian	PROPN	_	_	4	flat:name	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
-7	par	par	ADP	_	_	8	case	_	_
-8	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
+7	par	par	ADP	_	_	8	case	_	INMWE=Yes
+8	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	10	advmod	_	MWEPOS=ADV
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	spécialiste	spécialiste	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 11-12	des	_	_	_	_	_	_	_	_
@@ -291955,8 +291955,8 @@
 36	communistes	communiste	ADJ	_	Gender=Fem|Number=Plur	35	amod	_	SpaceAfter=No
 37	,	,	PUNCT	_	_	21	punct	_	_
 38	comme	comme	ADP	_	_	42	case	_	_
-39	par	par	ADP	_	_	40	case	_	_
-40	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	_
+39	par	par	ADP	_	_	40	case	_	INMWE=Yes
+40	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	42	advmod	_	MWEPOS=ADV
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	fichier	fichier	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 43	Tulard	Tulard	PROPN	_	_	42	appos	_	_
@@ -294924,8 +294924,8 @@
 
 # sent_id = fr-ud-train_10561
 # text = Par exemple, le 10 février 1956 on relevait −21,4 °C alors que la température minimum moyenne est de l'ordre de −1 °C.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	9	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	10	10	NUM	_	_	9	obl:mod	_	_
@@ -304603,8 +304603,8 @@
 23	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	17	appos	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	Ratisbonne	Ratisbonne	PROPN	_	_	23	nmod	_	_
-26	par	par	ADP	_	_	27	case	_	_
-27	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	par	par	ADP	_	_	27	case	_	INMWE=Yes
+27	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	23	advmod	_	MWEPOS=ADV|SpaceAfter=No
 28	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -316794,8 +316794,8 @@
 2	locuteur	locuteur	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	vaudois	vaudois	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	par	par	ADP	_	_	6	case	_	_
-6	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	SpaceAfter=No
+5	par	par	ADP	_	_	6	case	_	INMWE=Yes
+6	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 9	très	très	ADV	_	_	10	advmod	_	_
@@ -316995,8 +316995,8 @@
 
 # sent_id = fr-ud-train_11357
 # text = Par exemple le récit de Caïn et Abel : en effet, le meurtre d'Abel a des conséquences pour la terre entière, pour tous les habitants qui peinent désormais à en tirer leur nourriture.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	4	advmod	_	MWEPOS=ADV
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	récit	récit	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	6	case	_	_
@@ -318043,8 +318043,8 @@
 1	En	en	ADP	_	_	2	case	_	_
 2	France	France	PROPN	_	_	9	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	par	par	ADP	_	_	5	case	_	_
-5	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	SpaceAfter=No
+4	par	par	ADP	_	_	5	case	_	INMWE=Yes
+5	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	9	advmod	_	MWEPOS=ADV|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 8	y	y	PRON	_	_	9	iobj	_	_
@@ -320992,8 +320992,8 @@
 
 # sent_id = fr-ud-train_11492
 # text = Par exemple, le capitaine du vaisseau spatial ne remarquera pas la station spatiale, à laquelle il n'est plus censé faire attention.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	capitaine	capitaine	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -322354,8 +322354,8 @@
 20	et	et	CCONJ	_	_	22	cc	_	_
 21	de	de	ADP	_	_	22	mark	_	_
 22	différencier	différencier	VERB	_	VerbForm=Inf	16	conj	_	_
-23	par	par	ADP	_	_	24	case	_	_
-24	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	22	obl:mod	_	_
+23	par	par	ADP	_	_	24	case	_	INMWE=Yes
+24	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	22	advmod	_	MWEPOS=ADV
 25	entre	entre	ADP	_	_	26	case	_	_
 26	pergélisol	pergélisol	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
 27	continu	continu	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
@@ -327112,8 +327112,8 @@
 8	lentilles	lentille	NOUN	_	Gender=Fem|Number=Plur	5	appos	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	eau	eau	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-11	par	par	ADP	_	_	12	case	_	_
-12	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	par	par	ADP	_	_	12	case	_	INMWE=Yes
+12	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
 13	)	)	PUNCT	_	_	8	punct	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs	15	expl:pass	_	_
 15	développent	développer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -334139,8 +334139,8 @@
 # text = J'instruis par exemple un dossier, pour un monsieur qui a 62 ans et qui n'a pas assez de sa retraite pour vivre.
 1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
 2	instruis	instruire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	par	par	ADP	_	_	2	advmod	_	_
-4	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	_
+3	par	par	ADP	_	_	4	case	_	INMWE=Yes
+4	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	dossier	dossier	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
@@ -338642,8 +338642,8 @@
 
 # sent_id = fr-ud-train_12132
 # text = Par exemple, elle pourrait en venir à favoriser le langage populaire par rapport au discours public, et elle pourrait fréquemment se montrer vide de sens : si une personne a un niveau de whuffie élevé, est-ce pour ses talents de guitariste ou de garagiste ?
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	5	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -347643,8 +347643,8 @@
 # text = Elle peut par exemple menacer un groupe bancaire de lui retirer sa licence s'il refuse d'échanger des données à sa demande, explique l'économiste Gabriel Zucman.
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
-3	par	par	ADP	_	_	4	case	_	_
-4	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
+3	par	par	ADP	_	_	4	case	_	INMWE=Yes
+4	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	5	advmod	_	MWEPOS=ADV
 5	menacer	menacer	VERB	_	VerbForm=Inf	2	xcomp	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
@@ -352146,8 +352146,8 @@
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	catalyseur	catalyseur	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	par	par	ADP	_	_	5	case	_	_
-5	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
+4	par	par	ADP	_	_	5	case	_	INMWE=Yes
+5	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	3	advmod	_	MWEPOS=ADV
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	conversion	conversion	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 8-9	du	_	_	_	_	_	_	_	_
@@ -363986,8 +363986,8 @@
 2	gamme	gamme	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	Sony	Sony	PROPN	_	_	2	appos	_	_
 4	Xperia	Xperia	PROPN	_	_	3	flat:name	_	_
-5	par	par	ADP	_	_	7	advmod	_	_
-6	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	_
+5	par	par	ADP	_	_	6	case	_	INMWE=Yes
+6	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV
 7	bénéficie	bénéficier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	à	à	ADP	_	_	13	cc	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	fixed	_	_
@@ -365330,8 +365330,8 @@
 20	Paris	Paris	PROPN	_	_	18	nmod	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	2008	2008	NUM	_	_	11	nmod	_	_
-23	par	par	ADP	_	_	24	case	_	_
-24	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+23	par	par	ADP	_	_	24	case	_	INMWE=Yes
+24	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV|SpaceAfter=No
 25	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_13047
@@ -366270,8 +366270,8 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ROT13	ROT13	PROPN	_	_	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
-4	par	par	ADP	_	_	5	case	_	_
-5	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	SpaceAfter=No
+4	par	par	ADP	_	_	5	case	_	INMWE=Yes
+5	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -366668,8 +366668,8 @@
 
 # sent_id = fr-ud-train_13095
 # text = Par exemple, sur 165 patients traités pour une borréliose de Lyme en phase 2 ou 3, et malgré 3 mois ou plus de traitements antibiotiques (dont au minimum deux semaines au ceftriaxone), 32 ont fait une rechute ou abritaient encore des borrélies dans leur organisme.
-1	Par	par	ADP	_	_	2	case	_	_
-2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	42	obl:mod	_	SpaceAfter=No
+1	Par	par	ADP	_	_	2	case	_	INMWE=Yes
+2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	42	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	42	punct	_	_
 4	sur	sur	ADP	_	_	6	case	_	_
 5	165	165	NUM	_	_	6	nummod	_	_
@@ -380412,8 +380412,8 @@
 2	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	là	là	ADV	_	_	2	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	par	par	ADP	_	_	6	case	_	_
-6	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	SpaceAfter=No
+5	par	par	ADP	_	_	6	case	_	INMWE=Yes
+6	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV|SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
@@ -388044,8 +388044,8 @@
 5	grande	grand	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 6	diffusion	diffusion	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
-8	par	par	ADP	_	_	9	case	_	_
-9	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
+8	par	par	ADP	_	_	9	case	_	INMWE=Yes
+9	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	10	advmod	_	MWEPOS=ADV
 10	donnée	donner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	par	par	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
