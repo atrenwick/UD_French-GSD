@@ -29998,7 +29998,7 @@
 19	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	20	det	_	_
 20	évêchés	évêché	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
 21	appartenaient	appartenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
-22	tous	tout	PRON	_	Gender=Masc|Number=Plur	21	obj	_	_
+22	tous	tout	PRON	_	Gender=Masc|Number=Plur	21	obl:mod	_	_
 23	à	à	ADP	_	_	26	case	_	_
 24	d'	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	26	det	_	SpaceAfter=No
 25	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
@@ -271899,7 +271899,7 @@
 3	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	savons	savoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	tous	tout	PRON	_	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+6	tous	tout	PRON	_	Gender=Masc|Number=Plur	5	obl:mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	11	nsubj	_	SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
@@ -281878,26 +281878,27 @@
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_10060
-# text = Toutes ses nymphes sont et belles, mais la déesse les surpasse toutes en taille et en beauté.
+# text = Toutes ses nymphes sont grandes et belles, mais la déesse les surpasse toutes en taille et en beauté.
 1	Toutes	tout	DET	_	Gender=Fem|Number=Plur	3	det	_	_
 2	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det	_	_
-3	nymphes	nymphe	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
-4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-5	et	et	CCONJ	_	_	6	cc	_	_
-6	belles	beau	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
-8	mais	mais	CCONJ	_	_	12	cc	_	_
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	déesse	déesse	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
-11	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	12	obj	_	_
-12	surpasse	surpasser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
-13	toutes	tout	PRON	_	Gender=Fem|Number=Plur	12	dislocated	_	_
-14	en	en	ADP	_	_	15	case	_	_
-15	taille	taille	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
-16	et	et	CCONJ	_	_	18	cc	_	_
-17	en	en	ADP	_	_	18	case	_	_
-18	beauté	beauté	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	6	punct	_	_
+3	nymphes	nymphe	NOUN	_	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	grandes	grand	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+6	et	et	CCONJ	_	_	7	cc	_	_
+7	belles	beau	ADJ	_	Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	mais	mais	CCONJ	_	_	13	cc	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	déesse	déesse	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+13	surpasse	surpasser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	toutes	tout	PRON	_	Gender=Fem|Number=Plur	13	obl:mod	_	_
+15	en	en	ADP	_	_	16	case	_	_
+16	taille	taille	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+17	et	et	CCONJ	_	_	19	cc	_	_
+18	en	en	ADP	_	_	19	case	_	_
+19	beauté	beauté	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_10061
 # text = Tous ses produits sont de qualité et d'une fraicheur exemplaires.
@@ -319688,9 +319689,9 @@
 6	districts	district	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
 7	coutumiers	coutumier	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
 8	convergeant	converger	VERB	_	Tense=Pres|VerbForm=Part	6	acl	_	_
-9	tous	tout	PRON	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+9	tous	tout	PRON	_	Gender=Masc|Number=Plur	8	obl:mod	_	_
 10	vers	vers	ADP	_	_	11	case	_	_
-11	Wé	Wé	PROPN	_	_	8	obl	_	_
+11	Wé	Wé	PROPN	_	_	8	obl:arg	_	_
 12	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 13	seul	seul	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 14	territoire	territoire	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	_
@@ -395939,7 +395940,7 @@
 17	de	de	ADP	_	_	19	mark	_	_
 18	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	19	obj	_	_
 19	prendre	prendre	VERB	_	VerbForm=Inf	15	xcomp	_	_
-20	tous	tout	PRON	_	Gender=Masc|Number=Plur	19	dislocated	_	_
+20	tous	tout	PRON	_	Gender=Masc|Number=Plur	19	obl:mod	_	_
 21	en	en	ADP	_	_	22	case	_	_
 22	photo	photo	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
 23	devant	devant	ADP	_	_	25	case	_	_
@@ -405738,9 +405739,9 @@
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	enseigné	enseigner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
 15	en	en	ADP	_	_	16	case	_	_
-16	parallèle	parallèle	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+16	parallèle	parallèle	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	_
 17	pour	pour	ADP	_	_	18	case	_	_
-18	tous	tout	PRON	_	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	tous	tout	PRON	_	Gender=Masc|Number=Plur	14	obl:mod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_14484
