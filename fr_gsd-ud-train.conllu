@@ -124176,32 +124176,28 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	joue	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	alors	alors	ADV	_	_	2	advmod	_	_
-4	à	à	ADP	_	_	9	advmod	_	_
+4	à	à	ADP	_	_	8	advmod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	fixed	_	_
 6	fois	fois	NOUN	_	Gender=Fem|Number=Sing	4	fixed	_	_
-7-8	du	_	_	_	_	_	_	_	_
-7	de	de	ADP	_	_	9	case	_	_
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	trombone	trombone	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	_
-10	et	et	CCONJ	_	_	13	cc	_	_
-11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	13	case	_	_
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	piano	piano	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	2	punct	_	_
-15	et	et	CCONJ	_	_	16	cc	_	_
-16	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-17	à	à	ADP	_	_	19	mark	_	_
-18	s'	se	PRON	_	Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
-19	intéresser	intéresser	VERB	_	VerbForm=Inf	16	xcomp	_	_
-20	à	à	ADP	_	_	22	case	_	_
-21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	composition	composition	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	_
-23	et	et	CCONJ	_	_	26	cc	_	_
-24	à	à	ADP	_	_	26	case	_	_
-25	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
-26	arrangement	arrangement	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
-27	.	.	PUNCT	_	_	2	punct	_	_
+7	du	du	DET	_	Gender=Masc|Number=Sing	8	det	_	_
+8	trombone	trombone	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	_
+9	et	et	CCONJ	_	_	11	cc	_	_
+10	du	du	DET	_	Gender=Masc|Number=Sing	11	det	_	_
+11	piano	piano	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	2	punct	_	_
+13	et	et	CCONJ	_	_	14	cc	_	_
+14	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+15	à	à	ADP	_	_	17	mark	_	_
+16	s'	se	PRON	_	Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
+17	intéresser	intéresser	VERB	_	VerbForm=Inf	14	xcomp	_	_
+18	à	à	ADP	_	_	20	case	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	composition	composition	NOUN	_	Gender=Fem|Number=Sing	17	obl:arg	_	_
+21	et	et	CCONJ	_	_	24	cc	_	_
+22	à	à	ADP	_	_	24	case	_	_
+23	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	arrangement	arrangement	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_04453
 # text = Le climat est essentiellement froid, et sur la cordillera occidental le thermomètre atteint des températures polaires.
@@ -382882,11 +382878,9 @@
 57	train	train	NOUN	_	Gender=Masc|Number=Sing	55	amod	_	MWEPOS=ADJ
 58	de	de	ADP	_	_	59	mark	_	_
 59	jouer	jouer	VERB	_	VerbForm=Inf	57	xcomp	_	_
-60-61	du	_	_	_	_	_	_	_	_
-60	de	de	DET	_	_	62	det	_	_
-61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	goeswith	_	_
-62	piano	piano	NOUN	_	Gender=Masc|Number=Sing	59	obl:arg	_	SpaceAfter=No
-63	.	.	PUNCT	_	_	13	punct	_	_
+60	du	du	DET	_	Gender=Masc|Number=Sing	61	det	_	_
+61	piano	piano	NOUN	_	Gender=Masc|Number=Sing	59	obl:arg	_	SpaceAfter=No
+62	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-train_13662
 # text = Face aux Scandinaves, la division offensive devrait être composée de joueurs évoluant dans les meilleurs clubs européens : Rafael Van der Vaart (Real Madrid), Wesley Sneijder (Inter Milan) et Dirk Kuyt (Liverpool) en soutien de l'avant de pointe Robin van Persie (Arsenal)...
