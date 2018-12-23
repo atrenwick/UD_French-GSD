@@ -11637,8 +11637,8 @@
 8	,	,	PUNCT	_	_	17	punct	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	club	club	NOUN	_	Gender=Masc|Number=Sing	17	nsubj:pass	_	_
-11	en	en	ADP	_	_	12	case	_	_
-12	tête	tête	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+11	en	en	ADP	_	_	12	case	_	INMWE=Yes
+12	tête	tête	NOUN	_	Gender=Fem|Number=Sing	10	advmod	_	MWEPOS=ADV
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -16466,8 +16466,8 @@
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	PSD	PSD	PROPN	_	_	12	nsubj	_	_
 12	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	en	en	ADP	_	_	14	case	_	_
-14	tête	tête	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+13	en	en	ADP	_	_	14	case	_	INMWE=Yes
+14	tête	tête	NOUN	_	Gender=Fem|Number=Sing	12	advmod	_	MWEPOS=ADV
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
@@ -104163,8 +104163,8 @@
 18	Stanichev	Stanichev	PROPN	_	_	17	flat:name	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-21	en	en	ADP	_	_	22	case	_	_
-22	tête	tête	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+21	en	en	ADP	_	_	22	case	_	INMWE=Yes
+22	tête	tête	NOUN	_	Gender=Fem|Number=Sing	20	advmod	_	MWEPOS=ADV
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
@@ -145783,8 +145783,8 @@
 9	Ivanchuk	Ivanchuk	PROPN	_	_	38	nsubj	_	_
 10	Vassily	Vassily	PROPN	_	_	9	flat:name	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
-12	en	en	ADP	_	_	13	case	_	_
-13	tête	tête	NOUN	_	Gender=Fem|Number=Sing	38	obl:mod	_	_
+12	en	en	ADP	_	_	13	case	_	INMWE=Yes
+13	tête	tête	NOUN	_	Gender=Fem|Number=Sing	38	advmod	_	MWEPOS=ADV
 14	avec	avec	ADP	_	_	16	case	_	_
 15	10	10	NUM	_	_	16	nummod	_	_
 16	points	point	NOUN	_	Gender=Masc|Number=Plur	38	obl:mod	_	_
@@ -175274,8 +175274,8 @@
 # text = Leur dîner en tête à tête dans un restaurant huppé de Londres ne s'est cependant pas déroulé comme prévu.
 1	Leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	dîner	dîner	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
-3	en	en	ADP	_	_	4	case	_	_
-4	tête	tête	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+3	en	en	ADP	_	_	4	case	_	INMWE=Yes
+4	tête	tête	NOUN	_	Gender=Fem|Number=Sing	2	advmod	_	MWEPOS=ADV
 5	à	à	ADP	_	_	4	fixed	_	_
 6	tête	tête	NOUN	_	Gender=Fem|Number=Sing	4	fixed	_	_
 7	dans	dans	ADP	_	_	9	case	_	_
@@ -259173,8 +259173,8 @@
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	casque	casque	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	_
-33	en	en	ADP	_	_	34	case	_	_
-34	tête	tête	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+33	en	en	ADP	_	_	34	case	_	INMWE=Yes
+34	tête	tête	NOUN	_	Gender=Fem|Number=Sing	32	advmod	_	MWEPOS=ADV|SpaceAfter=No
 35	,	,	PUNCT	_	_	37	punct	_	_
 36	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
 37	écu	écu	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	_
@@ -305623,8 +305623,8 @@
 # text = L'équipe en tête de chaque poule se voit qualifiée pour la finale.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
-3	en	en	ADP	_	_	4	case	_	_
-4	tête	tête	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+3	en	en	ADP	_	_	4	case	_	INMWE=Yes
+4	tête	tête	NOUN	_	Gender=Fem|Number=Sing	2	advmod	_	MWEPOS=ADV
 5	de	de	ADP	_	_	7	case	_	_
 6	chaque	chaque	DET	_	Gender=Fem|Number=Sing	7	det	_	_
 7	poule	poule	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -305886,8 +305886,8 @@
 18	arbre	arbre	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
 19	à	à	ADP	_	_	20	case	_	_
 20	cames	came	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
-21	en	en	ADP	_	_	22	case	_	_
-22	tête	tête	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	en	en	ADP	_	_	22	case	_	INMWE=Yes
+22	tête	tête	NOUN	_	Gender=Fem|Number=Sing	18	advmod	_	MWEPOS=ADV
 23	»	»	PUNCT	_	_	18	punct	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	9	punct	_	_
 25	mais	mais	CCONJ	_	_	29	cc	_	_
@@ -344960,8 +344960,8 @@
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	arriva	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-11	en	en	ADP	_	_	12	case	_	_
-12	tête	tête	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+11	en	en	ADP	_	_	12	case	_	INMWE=Yes
+12	tête	tête	NOUN	_	Gender=Fem|Number=Sing	10	advmod	_	MWEPOS=ADV
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
@@ -391342,8 +391342,8 @@
 
 # sent_id = fr-ud-train_13971
 # text = En tête du classement, Orléans et Le Mans s'imposent face à Strasbourg (99-71) et à Rouen (85-64).
-1	En	en	ADP	_	_	2	case	_	_
-2	tête	tête	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	tête	tête	NOUN	_	Gender=Fem|Number=Sing	7	advmod	_	MWEPOS=ADV
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -402247,8 +402247,8 @@
 
 # sent_id = fr-ud-train_14362
 # text = En tête, une vingtaine d'écoliers, accompagnés par quelques enseignants, portaient des fleurs qu'ils ont ensuite déposées à l'endroit où un groupe de 23 enfants a été percuté par le fourgon à la sortie d'un rond-point, à quelques centaines de mètres de l'établissement.
-1	En	en	ADP	_	_	2	case	_	_
-2	tête	tête	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	tête	tête	NOUN	_	Gender=Fem|Number=Sing	14	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	14	punct	_	_
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	vingtaine	vingtaine	NUM	_	_	14	nsubj	_	_
