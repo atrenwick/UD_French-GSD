@@ -60801,9 +60801,9 @@
 21	utile	utile	ADJ	_	Gender=Masc|Number=Sing	20	xcomp	_	_
 22	de	de	ADP	_	_	23	mark	_	_
 23	répondre	répondre	VERB	_	VerbForm=Inf	21	ccomp	_	_
-24	pour	pour	ADP	_	_	23	advmod	_	_
-25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	fixed	_	SpaceAfter=No
-26	instant	instant	NOUN	_	Gender=Masc|Number=Sing	24	fixed	_	SpaceAfter=No
+24	pour	pour	ADP	_	_	26	case	_	INMWE=Yes
+25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	INMWE=Yes|SpaceAfter=No
+26	instant	instant	NOUN	_	Gender=Masc|Number=Sing	23	advmod	_	MWEPOS=ADV|SpaceAfter=No
 27	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_02165
@@ -106034,9 +106034,9 @@
 11	morts	mort	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	restent	rester	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	pour	pour	ADP	_	_	13	advmod	_	_
-15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	fixed	_	SpaceAfter=No
-16	instant	instant	NOUN	_	Gender=Masc|Number=Sing	14	fixed	_	_
+14	pour	pour	ADP	_	_	16	case	_	INMWE=Yes
+15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	INMWE=Yes|SpaceAfter=No
+16	instant	instant	NOUN	_	_	13	advmod	_	MWEPOS=ADV
 17	inconnues	inconnu	ADJ	_	Gender=Fem|Number=Plur	13	xcomp	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -371017,9 +371017,9 @@
 
 # sent_id = fr-ud-train_13248
 # text = Pour l'instant, tous les dirigeants des grands maroquiniers ou joailliers assurent ne pas avoir constaté de ralentissement dans le rythme de vente.
-1	Pour	pour	ADP	_	_	3	case	_	_
-2	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
-3	instant	instant	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	SpaceAfter=No
+1	Pour	pour	ADP	_	_	3	case	_	INMWE=Yes
+2	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes|SpaceAfter=No
+3	instant	instant	NOUN	_	Gender=Masc|Number=Sing	14	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	,	,	PUNCT	_	_	14	punct	_	_
 5	tous	tout	DET	_	Gender=Masc|Number=Plur	7	det	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
