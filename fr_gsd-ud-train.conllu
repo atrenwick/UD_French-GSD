@@ -351637,9 +351637,9 @@
 32	»	»	PUNCT	_	_	31	punct	_	_
 33	d'	de	ADP	_	_	34	case	_	SpaceAfter=No
 34-35	au	_	_	_	_	_	_	_	_
-34	à	à	ADP	_	_	31	nmod	_	_
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	fixed	_	_
-36	revoir	revoir	VERB	_	VerbForm=Inf	34	fixed	_	SpaceAfter=No
+34	à	à	ADP	_	_	31	case	_	INMWE=Yes
+35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	INMWE=Yes
+36	revoir	revoir	VERB	_	VerbForm=Inf	31	nmod	_	MWEPOS=NOUN|SpaceAfter=No
 37	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = fr-ud-train_12587
