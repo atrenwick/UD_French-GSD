@@ -177459,9 +177459,9 @@
 19	politique	politique	ADJ	_	Gender=Fem|Number=Sing	17	conj	_	_
 20	et	et	CCONJ	_	_	24	cc	_	_
 21-22	au	_	_	_	_	_	_	_	_
-21	à	à	ADP	_	_	23	case	_	_
-22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	final	final	NOUN	_	Gender=Masc|Number=Sing	24	obl:mod	_	_
+21	à	à	ADP	_	_	23	case	_	INMWE=Yes
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	INMWE=Yes
+23	final	final	NOUN	_	Gender=Masc|Number=Sing	24	advmod	_	MWEPOS=ADV
 24	religieuse	religieux	ADJ	_	Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -229382,9 +229382,9 @@
 # sent_id = fr-ud-train_08184
 # text = Au final, cela reste une bonne adresse, surtout pour les couples !
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	6	advmod	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
-3	final	final	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+1	à	à	ADP	_	_	3	case	_	INMWE=Yes
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	final	final	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	cela	cela	PRON	_	Number=Sing|PronType=Dem	6	nsubj	_	_
 6	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -372700,9 +372700,9 @@
 5	sauver	sauver	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7-8	au	_	_	_	_	_	_	_	_
-7	à	à	ADP	_	_	5	advmod	_	_
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	fixed	_	_
-9	final	final	NOUN	_	Gender=Masc|Number=Sing	7	fixed	_	SpaceAfter=No
+7	à	à	ADP	_	_	9	case	_	INMWE=Yes
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	INMWE=Yes
+9	final	final	NOUN	_	Gender=Masc|Number=Sing	5	advmod	_	MWEPOS=ADV|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	45.000	45.000	NUM	_	_	12	nummod	_	_
 12	tonnes	tonne	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
