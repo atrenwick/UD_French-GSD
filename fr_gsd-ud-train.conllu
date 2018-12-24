@@ -5053,8 +5053,8 @@
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	âges	âge	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
-7	à	à	ADP	_	_	8	mark	_	_
-8	savoir	savoir	VERB	_	VerbForm=Inf	10	acl	_	_
+7	à	à	ADP	_	_	8	mark	_	INMWE=Yes
+8	savoir	savoir	VERB	_	VerbForm=Inf	10	advmod	_	MWEPOS=ADV
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	répartition	répartition	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
 11	par	par	ADP	_	_	12	case	_	_
@@ -134451,9 +134451,9 @@
 7	conclusion	conclusion	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
 8	clef	clef	NOUN	_	Gender=Fem|Number=Sing	7	compound	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	20	punct	_	_
-10	à	à	ADP	_	_	11	mark	_	_
-11	savoir	savoir	VERB	_	VerbForm=Inf	20	cc	_	_
-12	que	que	SCONJ	_	_	11	fixed	_	_
+10	à	à	ADP	_	_	11	mark	_	INMWE=Yes
+11	savoir	savoir	VERB	_	VerbForm=Inf	20	advmod	_	MWEPOS=ADV
+12	que	que	SCONJ	_	_	20	mark	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 15	national	national	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
@@ -134461,7 +134461,7 @@
 17	transition	transition	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 18	libyen	libyen	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
-20	responsable	responsable	ADJ	_	Gender=Fem|Number=Sing	7	conj	_	_
+20	responsable	responsable	ADJ	_	Gender=Fem|Number=Sing	7	advcl	_	_
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
@@ -141847,10 +141847,10 @@
 34	de	de	ADP	_	_	36	case	_	_
 35	21	21	NUM	_	_	36	nummod	_	_
 36	ans	an	NOUN	_	Gender=Masc|Number=Plur	33	obl:arg	_	_
-37	à	à	ADP	_	_	38	mark	_	_
-38	savoir	savoir	VERB	_	VerbForm=Inf	36	acl	_	_
+37	à	à	ADP	_	_	38	mark	_	INMWE=Yes
+38	savoir	savoir	VERB	_	VerbForm=Inf	40	advmod	_	MWEPOS=ADV
 39	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
-40	espoirs	espoir	NOUN	_	Gender=Masc|Number=Plur	38	obj	_	SpaceAfter=No
+40	espoirs	espoir	NOUN	_	Gender=Masc|Number=Plur	33	appos	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-train_05080
@@ -280088,10 +280088,10 @@
 17	de	de	ADP	_	_	18	case	_	_
 18	néoténie	néoténie	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
-20	à	à	ADP	_	_	21	mark	_	_
-21	savoir	savoir	VERB	_	VerbForm=Inf	23	acl	_	_
+20	à	à	ADP	_	_	21	mark	_	INMWE=Yes
+21	savoir	savoir	VERB	_	VerbForm=Inf	23	advmod	_	MWEPOS=ADV
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	maintien	maintien	NOUN	_	Gender=Masc|Number=Sing	18	appos	_	_
+23	maintien	maintien	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	caractéristiques	caractéristique	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
 26	juvéniles	juvénile	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
@@ -298434,8 +298434,8 @@
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	dromaeosauridés	dromaeosauridé	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	3	punct	_	_
-26	à	à	ADP	_	_	27	mark	_	_
-27	savoir	savoir	VERB	_	VerbForm=Inf	30	acl	_	_
+26	à	à	ADP	_	_	27	mark	_	INMWE=Yes
+27	savoir	savoir	VERB	_	VerbForm=Inf	30	advmod	_	MWEPOS=ADV
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 29	grosse	gros	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
 30	griffe	griffe	NOUN	_	Gender=Fem|Number=Sing	20	appos	_	_
@@ -310510,10 +310510,10 @@
 9	portée	portée	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 10	principale	principal	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
-12	à	à	ADP	_	_	13	mark	_	_
-13	savoir	savoir	VERB	_	VerbForm=Inf	9	acl	_	_
+12	à	à	ADP	_	_	13	mark	_	INMWE=Yes
+13	savoir	savoir	VERB	_	VerbForm=Inf	15	advmod	_	MWEPOS=ADV
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	longueur	longueur	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+15	longueur	longueur	NOUN	_	Gender=Fem|Number=Sing	9	appos	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	travée	travée	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
@@ -346820,8 +346820,8 @@
 11	âges	âge	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
 12	relatifs	relatif	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
-14	à	à	ADP	_	_	15	mark	_	_
-15	savoir	savoir	VERB	_	VerbForm=Inf	17	acl	_	_
+14	à	à	ADP	_	_	15	mark	_	INMWE=Yes
+15	savoir	savoir	VERB	_	VerbForm=Inf	17	advmod	_	MWEPOS=ADV
 16	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	_
 17	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	_
 18	chronologique	chronologique	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
