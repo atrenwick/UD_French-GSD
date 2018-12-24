@@ -267390,9 +267390,9 @@
 
 # sent_id = fr-ud-train_09546
 # text = A vrai dire, l'intérêt de Gourcuff pour l'OL n'est pas une surprise tant son nom a circulé cet été du côté de Gerland, tant le montant de sa clause de sortie fixée à 26,5 millions d'euros a aussi fait débat au sortir d'une Coupe du monde cauchemardesque, et vu le contexte économique actuel.
-1	A	à	ADP	_	_	16	advmod	_	_
-2	vrai	vrai	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
-3	dire	dire	VERB	_	VerbForm=Inf	1	fixed	_	SpaceAfter=No
+1	A	à	ADP	_	_	3	mark	_	INMWE=Yes
+2	vrai	vrai	NOUN	_	Gender=Masc|Number=Sing	3	advmod	_	INMWE=Yes
+3	dire	dire	VERB	_	VerbForm=Inf	16	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	intérêt	intérêt	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -339078,9 +339078,9 @@
 
 # sent_id = fr-ud-train_12149
 # text = À vrai dire, peu se soucient des colonies à l'intérieur du territoire français, et l'on ne manqua pas de se demander sérieusement « À quoi bon les colonies ?
-1	À	à	ADP	_	_	3	mark	_	_
-2	vrai	vrai	ADV	_	_	3	advmod	_	_
-3	dire	dire	VERB	_	VerbForm=Inf	7	obl:mod	_	SpaceAfter=No
+1	À	à	ADP	_	_	3	mark	_	INMWE=Yes
+2	vrai	vrai	ADV	_	_	3	advmod	_	INMWE=Yes
+3	dire	dire	VERB	_	VerbForm=Inf	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	peu	peu	PRON	_	_	7	nsubj	_	_
 6	se	se	PRON	_	Person=3|PronType=Prs	7	expl	_	_
