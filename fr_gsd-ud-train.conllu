@@ -38339,10 +38339,10 @@
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	36	obj	_	_
 39	CDU	CDU	PROPN	_	_	38	appos	_	_
-40	à	à	ADP	_	_	43	case	_	_
-41	compter	compter	VERB	_	VerbForm=Inf	40	fixed	_	_
-42	de	de	ADP	_	_	40	fixed	_	_
-43	1947	1947	NUM	_	_	36	obl:mod	_	SpaceAfter=No
+40	à	à	ADP	_	_	41	mark	_	INMWE=Yes
+41	compter	compter	VERB	_	VerbForm=Inf	36	advmod	_	MWEPOS=ADV
+42	de	de	ADP	_	_	43	case	_	_
+43	1947	1947	NUM	_	_	41	obl:arg	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_01359
@@ -87273,11 +87273,11 @@
 
 # sent_id = fr-ud-train_03095
 # text = À compter de l'année 2009, les centres d'examen situés en Chine et au Japon organiseront deux sessions dans l'année (une en juillet et une comme auparavant en décembre), pour les niveaux 1 et 2 du test.
-1	À	à	ADP	_	_	5	case	_	_
-2	compter	compter	VERB	_	VerbForm=Inf	1	fixed	_	_
-3	de	de	ADP	_	_	1	fixed	_	_
+1	À	à	ADP	_	_	2	mark	_	INMWE=Yes
+2	compter	compter	VERB	_	VerbForm=Inf	19	advmod	_	MWEPOS=ADV
+3	de	de	ADP	_	_	5	case	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
-5	année	année	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
+5	année	année	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	_
 6	2009	2009	NUM	_	_	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
@@ -112372,11 +112372,11 @@
 14	en	en	ADP	_	_	15	case	_	_
 15	France	France	PROPN	_	_	6	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	6	punct	_	_
-17	à	à	ADP	_	_	21	case	_	_
-18	compter	compter	VERB	_	VerbForm=Inf	17	fixed	_	_
-19	de	de	ADP	_	_	17	fixed	_	_
+17	à	à	ADP	_	_	18	mark	_	INMWE=Yes
+18	compter	compter	VERB	_	VerbForm=Inf	6	advmod	_	MWEPOS=ADV
+19	de	de	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	rentrée	rentrée	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+21	rentrée	rentrée	NOUN	_	Gender=Fem|Number=Sing	18	obl:arg	_	_
 22	2011	2011	NUM	_	_	21	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -265018,11 +265018,11 @@
 81	qui	qui	PRON	_	PronType=Rel	93	nsubj	_	_
 82	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	93	cop	_	SpaceAfter=No
 83	,	,	PUNCT	_	_	82	punct	_	_
-84	à	à	ADP	_	_	88	case	_	_
-85	compter	compter	VERB	_	VerbForm=Inf	84	fixed	_	_
-86	de	de	ADP	_	_	84	fixed	_	_
+84	à	à	ADP	_	_	85	mark	_	INMWE=Yes
+85	compter	compter	VERB	_	VerbForm=Inf	93	advmod	_	MWEPOS=ADV
+86	de	de	ADP	_	_	88	case	_	_
 87	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	88	det	_	_
-88	saison	saison	NOUN	_	Gender=Fem|Number=Sing	93	obl:mod	_	_
+88	saison	saison	NOUN	_	Gender=Fem|Number=Sing	85	obl:arg	_	_
 89	2009-2010	2009-2010	NUM	_	_	88	nmod	_	SpaceAfter=No
 90	,	,	PUNCT	_	_	88	punct	_	_
 91	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	93	det	_	_
