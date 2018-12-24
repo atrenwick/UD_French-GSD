@@ -45736,9 +45736,9 @@
 8	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 9	accusèrent	accuser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	_
 10-11	au	_	_	_	_	_	_	_	_
-10	à	à	ADP	_	_	9	advmod	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	fixed	_	_
-12	juste	juste	ADV	_	_	10	fixed	_	SpaceAfter=No
+10	à	à	ADP	_	_	12	case	_	INMWE=Yes
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	INMWE=Yes
+12	juste	juste	ADV	_	_	9	advmod	_	MWEPOS=ADV|SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_01618
@@ -201297,9 +201297,9 @@
 9	Zidor	Zidor	PROPN	_	_	7	obl:arg	_	_
 10	:	:	PUNCT	_	_	7	punct	_	_
 11-12	Au	_	_	_	_	_	_	_	_
-11	à	à	ADP	_	_	18	advmod	_	_
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	fixed	_	_
-13	juste	juste	ADV	_	_	11	fixed	_	_
+11	à	à	ADP	_	_	13	case	_	INMWE=Yes
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	INMWE=Yes
+13	juste	juste	ADV	_	_	18	advmod	_	MWEPOS=ADV
 14	quèque	quèque	X	_	_	18	obj	_	_
 15	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	18	nsubj:caus	_	_
 16	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	18	iobj:agent	_	_
