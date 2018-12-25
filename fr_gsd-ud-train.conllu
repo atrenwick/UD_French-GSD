@@ -16744,8 +16744,8 @@
 36	en	en	ADP	_	_	37	case	_	INMWE=Yes
 37	train	train	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	MWEPOS=ADJ
 38	d'	de	ADP	_	_	40	mark	_	SpaceAfter=No
-39	être	être	AUX	_	VerbForm=Inf	40	aux	_	_
-40	terminé	terminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	SpaceAfter=No
+39	être	être	AUX	_	VerbForm=Inf	40	aux:pass	_	_
+40	terminé	terminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	xcomp	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_00585
@@ -19062,7 +19062,7 @@
 # text = Le succès en fut énorme.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	succès	succès	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-3	en	en	ADP	_	_	5	nmod	_	_
+3	en	en	ADP	_	_	2	nmod	_	_
 4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
 5	énorme	énorme	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -20671,7 +20671,7 @@
 35	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
 36	que	que	SCONJ	_	_	44	mark	_	_
 37	si	si	ADV	_	_	38	advmod	_	_
-38	peu	peu	ADV	_	_	44	nsubj	_	_
+38	peu	peu	ADV	_	_	44	nsubj:pass	_	_
 39	de	de	ADP	_	_	40	case	_	_
 40	chose	chose	NOUN	_	Gender=Fem|Number=Sing	38	obl:arg	_	_
 41	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	44	obl:mod	_	_
@@ -39771,7 +39771,7 @@
 
 # sent_id = fr-ud-train_01406
 # text = Il a été relaxé.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
 4	relaxé	relaxer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -54599,7 +54599,7 @@
 
 # sent_id = fr-ud-train_01938
 # text = J'ai malheureusement été déçu.
-1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+1	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	malheureusement	malheureusement	ADV	_	_	5	advmod	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
@@ -75359,7 +75359,7 @@
 28	XVIIIe	XVIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	29	amod	_	_
 29	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	aile	aile	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
+31	aile	aile	NOUN	_	Gender=Fem|Number=Sing	22	nsubj:pass	_	_
 32	sud	sud	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
 33	de	de	ADP	_	_	34	case	_	_
 34	style	style	NOUN	_	Gender=Masc|Number=Sing	31	nmod	_	_
@@ -96419,7 +96419,7 @@
 # text = Cet ancien couvent de paisibles nonnes fût un temps transformé en quartier général d'infanterie.
 1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	ancien	ancien	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-3	couvent	couvent	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	couvent	couvent	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	paisibles	paisible	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
 6	nonnes	nonne	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
@@ -104779,7 +104779,7 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	chanson	chanson	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-14	Avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	INTITLE|SpaceAfter=No
+14	Avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	INTITLE=true|SpaceAfter=No
 15	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	INTITLE=Yes
 16	prévu	prévoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	appos	_	TITLE=Yes
 17	?	?	PUNCT	_	_	16	punct	_	INTITLE=Yes
@@ -174313,9 +174313,9 @@
 15	polonais	polonais	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 16	Naprzód	Naprzód	X	_	_	6	ccomp	_	TITLE=Yes
 17	psiekrwie	psiekrwie	X	_	_	16	vocative	_	INTITLE=Yes|SpaceAfter=No
-18	,	,	PUNCT	_	_	20	punct	_	INTITLE=Yes|
-19	Cesarz	Cesarz	X	_	_	20	nsubj	_	INTITLE=Yes|
-20	patrzy	patrzy	X	_	_	16	parataxis	_	INTITLE=Yes||SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	INTITLE=Yes
+19	Cesarz	Cesarz	X	_	_	20	nsubj	_	INTITLE=Yes
+20	patrzy	patrzy	X	_	_	16	parataxis	_	INTITLE=Yes|SpaceAfter=No
 21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
 22	En	en	ADP	_	_	23	case	_	_
 23	avant	avant	ADV	_	_	24	advmod	_	_
@@ -182429,7 +182429,7 @@
 # sent_id = fr-ud-train_06509
 # text = L'arbre de Porphyre a aussi été appelé scala praedicamentalis (« échelle de la prédication »).
 1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	arbre	arbre	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+2	arbre	arbre	NOUN	_	Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	Porphyre	Porphyre	PROPN	_	_	2	nmod	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -201396,7 +201396,7 @@
 16	Puiset	Puiset	PROPN	_	_	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	doute	doute	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+19	doute	doute	NOUN	_	Gender=Masc|Number=Sing	21	nsubj:pass	_	_
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
 21	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 22	quand	quand	SCONJ	_	_	25	case	_	Correct=quant|MWEPOS=ADP
@@ -246715,7 +246715,7 @@
 
 # sent_id = fr-ud-train_08789
 # text = Nous avons été parfaitement conseillés et avons trouvé une solution performante et adaptée à notre (petit) budget !
-1	Nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+1	Nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj:pass	_	_
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
 4	parfaitement	parfaitement	ADV	_	_	5	advmod	_	_
@@ -278982,7 +278982,7 @@
 11	juin	juin	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	5	punct	_	_
 13	et	et	CCONJ	_	_	18	cc	_	_
-14	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+14	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	18	nsubj:pass	_	_
 15	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
 16	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
 17	très	très	ADV	_	_	18	advmod	_	_
@@ -288407,7 +288407,7 @@
 15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
 16	origine	origine	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 17	où	où	PRON	_	PronType=Rel	22	advmod	_	_
-18	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+18	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	nsubj:pass	_	_
 19	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 20	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	aux:pass	_	_
 21	immédiatement	immédiatement	ADV	_	_	22	advmod	_	_
@@ -301177,7 +301177,7 @@
 # sent_id = fr-ud-train_10786
 # text = Les assassins sont alors convaincus d'avoir raté leur coup.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	assassins	assassin	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
+2	assassins	assassin	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 4	alors	alors	ADV	_	_	5	advmod	_	_
 5	convaincus	convaincre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
@@ -316395,7 +316395,7 @@
 
 # sent_id = fr-ud-train_11340
 # text = Il est connu pour avoir créé en 1957 un plat d'origine québécoise : la poutine.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
 3	connu	connaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	pour	pour	ADP	_	_	6	mark	_	_
@@ -317880,7 +317880,7 @@
 2	second	second	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	single	single	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	Let	let	VERB	_	_	3	appos	_	TITLE=Yes|SpaceAfter=No
+5	Let	let	VERB	_	_	3	appos	_	SpaceAfter=No|TITLE=Yes
 6	's	's	PRON	_	_	5	obj	_	INTITLE=Yes
 7	Work	work	VERB	_	_	5	xcomp	_	INTITLE=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
@@ -359074,7 +359074,7 @@
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 16	américain	américain	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
-17	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
+17	qui	qui	PRON	_	PronType=Rel	19	nsubj:pass	_	_
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
 19	connu	connaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	_
 20	pour	pour	ADP	_	_	22	mark	_	_
@@ -402898,7 +402898,7 @@
 10	à	à	ADP	_	_	12	case	_	_
 11	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
 12	franchises	franchise	NOUN	_	Gender=Fem|Number=Plur	9	obl:arg	_	_
-13	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	_
+13	qui	qui	PRON	_	PronType=Rel	16	nsubj:pass	_	_
 14	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 15	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux:pass	_	_
 16	données	donner	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
