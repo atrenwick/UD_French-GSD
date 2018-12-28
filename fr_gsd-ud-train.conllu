@@ -89772,11 +89772,11 @@
 8	enrouleurs	enrouleur	NOUN	_	Gender=Masc|Number=Plur	5	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	situés	situer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	part	part	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
-13	et	et	CCONJ	_	_	15	cc	_	_
-14	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
-15	autre	autre	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+11	de	de	ADP	_	_	12	case	_	INMWE=Yes
+12	part	part	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	MWEPOS=ADV
+13	et	et	CCONJ	_	_	15	cc	_	INMWE=Yes
+14	d'	de	ADP	_	_	15	case	_	INMWE=Yes|SpaceAfter=No
+15	autre	autre	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	INMWE=Yes
 16	de	de	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	piste	piste	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
@@ -111266,9 +111266,9 @@
 
 # sent_id = fr-ud-train_03972
 # text = Jusqu'à présent, personne ne sait où ils ont été conduits.
-1	Jusqu'	jusque	ADV	_	_	7	advmod	_	SpaceAfter=No
-2	à	à	ADP	_	_	7	advmod	_	_
-3	présent	présent	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	SpaceAfter=No
+1	Jusqu'	jusque	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	à	à	ADP	_	_	3	case	_	INMWE=Yes
+3	présent	présent	NOUN	_	Gender=Masc|Number=Sing	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	personne	personne	PRON	_	Number=Sing|PronType=Neg	7	nsubj	_	_
 6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	_
@@ -113926,8 +113926,8 @@
 
 # sent_id = fr-ud-train_04082
 # text = A présent, la Boîte de Pandore vient d'être ouverte par un président français de plus en plus inconscient et imbu de sa personne.
-1	A	à	ADP	_	_	2	case	_	_
-2	présent	présent	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	SpaceAfter=No
+1	A	à	ADP	_	_	2	case	_	INMWE=Yes
+2	présent	présent	NOUN	_	Gender=Masc|Number=Sing	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Boîte	boîte	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -185676,8 +185676,8 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ville	ville	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-4	à	à	ADP	_	_	5	case	_	_
-5	présent	présent	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+4	à	à	ADP	_	_	5	case	_	INMWE=Yes
+5	présent	présent	NOUN	_	Gender=Masc|Number=Sing	8	advmod	_	MWEPOS=ADV
 6	sous	sous	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -224553,7 +224553,7 @@
 13	de	de	ADP	_	_	14	case	_	_
 14	large	large	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 15	de	de	ADP	_	_	16	case	_	INMWE=Yes
-16	part	part	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	MWEPOS=NOUN
+16	part	part	NOUN	_	Gender=Fem|Number=Sing	7	advmod	_	MWEPOS=ADV
 17	et	et	CCONJ	_	_	19	cc	_	INMWE=Yes
 18	d'	de	ADP	_	_	19	case	_	INMWE=Yes|SpaceAfter=No
 19	autre	autre	ADJ	_	Gender=Fem|Number=Sing	16	conj	_	INMWE=Yes
@@ -330746,12 +330746,12 @@
 12	Lvov	Lvov	PROPN	_	_	9	obl:arg	_	_
 13	en	en	ADP	_	_	14	case	_	_
 14	Galicie	Galicie	PROPN	_	_	9	obl	_	_
-15	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
-16	à	à	ADP	_	_	17	case	_	_
-17	présent	présent	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+15	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+16	à	à	ADP	_	_	17	case	_	INMWE=Yes
+17	présent	présent	NOUN	_	Gender=Masc|Number=Sing	19	advmod	_	MWEPOS=ADV
 18	en	en	ADP	_	_	19	case	_	_
-19	Ukraine	Ukraine	PROPN	_	_	17	nmod	_	SpaceAfter=No
-20	)	)	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	Ukraine	Ukraine	PROPN	_	_	12	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
 22	où	où	ADV	_	PronType=Rel	24	advmod	_	_
 23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
@@ -356538,8 +356538,8 @@
 11	désaffecté	désaffecter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 12	et	et	CCONJ	_	_	16	cc	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
-14	à	à	ADP	_	_	15	case	_	_
-15	présent	présent	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	_
+14	à	à	ADP	_	_	15	case	_	INMWE=Yes
+15	présent	présent	NOUN	_	Gender=Masc|Number=Sing	16	advmod	_	MWEPOS=ADV
 16	utilisé	utiliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
 17	comme	comme	ADP	_	_	18	case	_	_
 18	grange	grange	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
