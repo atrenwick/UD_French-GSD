@@ -2034,8 +2034,8 @@
 2	en	en	PRON	_	Person=3	5	nmod	_	_
 3	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	aussi	aussi	ADV	_	_	3	advmod	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	obj	_	MWEPOS=ADV
-6	peu	peu	ADV	_	_	5	fixed	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	INMWE=Yes
+6	peu	peu	ADV	_	_	3	obj	_	MWEPOS=ADV
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -34064,10 +34064,10 @@
 10	aurait	avoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 12	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	_
-13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	MWEPOS=ADV
-14	peu	peu	ADV	_	_	13	fixed	_	_
-15	de	de	ADP	_	_	13	fixed	_	_
-16	surgelé	surgelé	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	INMWE=Yes
+14	peu	peu	ADV	_	_	10	obj	_	MWEPOS=ADV
+15	de	de	ADP	_	_	16	case	_	_
+16	surgelé	surgelé	NOUN	_	Gender=Masc|Number=Sing	14	obl:arg	_	_
 17	quand	quand	SCONJ	_	_	10	advmod	_	MWEPOS=ADV
 18	même	même	ADV	_	_	17	fixed	_	SpaceAfter=No
 19	...	...	PUNCT	_	_	1	punct	_	_
@@ -97548,10 +97548,10 @@
 2	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 3	manque	manquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	encore	encore	ADV	_	_	3	advmod	_	_
-5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	MWEPOS=ADV
-6	peu	peu	ADV	_	_	5	fixed	_	_
-7	de	de	ADP	_	_	5	fixed	_	_
-8	vocabulaire	vocabulaire	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	INMWE=Yes
+6	peu	peu	ADV	_	_	3	obj	_	MWEPOS=ADV
+7	de	de	ADP	_	_	8	case	_	_
+8	vocabulaire	vocabulaire	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	_
 9	mais	mais	CCONJ	_	_	26	cc	_	_
 10	quand	quand	SCONJ	_	_	12	mark	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
@@ -345058,12 +345058,12 @@
 
 # sent_id = fr-ud-train_12356
 # text = Avec un peu de chance, on pouvait ainsi découvrir ainsi les chars silencieux qui se rendaient au "rassemblement", entourés de ses anges-gardiens-constructeurs.
-1	Avec	avec	ADP	_	_	5	case	_	_
-2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	MWEPOS=ADV
-3	peu	peu	ADV	_	_	2	fixed	_	_
-4	de	de	ADP	_	_	2	fixed	_	_
-5	chance	chance	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
+1	Avec	avec	ADP	_	_	3	case	_	_
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	peu	peu	ADV	_	_	8	obl:mod	_	MWEPOS=ADV
+4	de	de	ADP	_	_	5	case	_	_
+5	chance	chance	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
 8	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	ainsi	ainsi	ADV	_	_	8	advmod	_	_
@@ -364656,14 +364656,14 @@
 35	gardera	garder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	31	acl:relcl	_	_
 36	d'	de	ADP	_	_	37	case	_	SpaceAfter=No
 37	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	35	obl:arg	_	_
-38	qu'	que	ADV	_	_	43	advmod	_	SpaceAfter=No
-39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	MWEPOS=ADV
-40	peu	peu	ADV	_	_	39	fixed	_	_
-41	«	«	PUNCT	_	_	43	punct	_	_
-42	d'	de	ADP	_	_	39	fixed	_	SpaceAfter=No
-43	amertume	amertume	NOUN	_	Gender=Fem|Number=Sing	35	obj	_	_
-44	marine	marin	ADJ	_	Gender=Fem|Number=Sing	43	amod	_	_
-45	»	»	PUNCT	_	_	43	punct	_	SpaceAfter=No
+38	qu'	que	ADV	_	_	40	advmod	_	SpaceAfter=No
+39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	INMWE=Yes
+40	peu	peu	ADV	_	_	35	obj	_	MWEPOS=ADV
+41	«	«	PUNCT	_	_	40	punct	_	_
+42	d'	de	ADP	_	_	43	case	_	SpaceAfter=No
+43	amertume	amertume	NOUN	_	Gender=Fem|Number=Sing	40	obl:arg	_	_
+44	marine	marin	ADJ	_	Gender=Fem|Number=Sing	40	amod	_	_
+45	»	»	PUNCT	_	_	40	punct	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_13028
@@ -406397,9 +406397,9 @@
 
 # sent_id = fr-ud-train_14504
 # text = Pour un peu, l'on se croirait revenu dans les années 50-60, au plus fort des mouvements de libération nationale en Afrique et dans le monde.
-1	Pour	pour	ADP	_	_	8	advmod	_	MWEPOS=ADV
-2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
-3	peu	peu	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	Pour	pour	ADP	_	_	3	case	_	INMWE=Yes
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	peu	peu	ADV	_	_	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	8	nsubj	_	MWEPOS=PRON|SpaceAfter=No
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	fixed	_	_
