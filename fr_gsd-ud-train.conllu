@@ -115098,8 +115098,8 @@
 1	Son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	nom	nom	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	apparaît	apparaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	aussi	aussi	ADV	_	_	8	cc	_	_
-5	bien	bien	ADV	_	_	4	fixed	_	_
+4	aussi	aussi	ADV	_	_	5	advmod	_	INMWE=Yes
+5	bien	bien	ADV	_	_	8	cc	_	MWEPOS=ADV
 6	dans	dans	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	AV	AV	NOUN	_	_	3	obl:mod	_	_
@@ -127610,8 +127610,8 @@
 22	et	et	CCONJ	_	_	24	cc	_	_
 23	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	24	det	_	_
 24	qualités	qualité	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	_
-25	aussi	aussi	ADV	_	_	27	advmod	_	_
-26	bien	bien	ADV	_	_	25	fixed	_	_
+25	aussi	aussi	ADV	_	_	26	advmod	_	INMWE=Yes
+26	bien	bien	ADV	_	_	27	advmod	_	MWEPOS=ADV
 27	olfactives	olfactif	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
 28	que	que	SCONJ	_	_	29	mark	_	_
 29	gustatives	gustatif	ADJ	_	Gender=Fem|Number=Plur	27	advcl	_	_
@@ -141866,8 +141866,8 @@
 9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	performances	performance	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	_
 11	reproductives	reproductif	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
-12	aussi	aussi	ADV	_	_	16	cc	_	_
-13	bien	bien	ADV	_	_	12	fixed	_	_
+12	aussi	aussi	ADV	_	_	13	advmod	_	INMWE=Yes
+13	bien	bien	ADV	_	_	16	cc	_	MWEPOS=ADV
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
@@ -174281,8 +174281,8 @@
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
 15	idéal	idéal	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
-16	aussi	aussi	ADV	_	_	20	cc	_	_
-17	bien	bien	ADV	_	_	16	fixed	_	_
+16	aussi	aussi	ADV	_	_	17	advmod	_	INMWE=Yes
+17	bien	bien	ADV	_	_	20	cc	_	MWEPOS=ADV
 18	pour	pour	ADP	_	_	20	case	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	week	weekend	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
@@ -195365,9 +195365,9 @@
 25	soirée	soirée	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
 26	médiocre	médiocre	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
 27	mais	mais	CCONJ	_	_	30	cc	_	_
-28	aussi	aussi	ADV	_	_	30	advmod	_	_
-29	bien	bien	ADV	_	_	30	advmod	_	_
-30	entammer	entamer	VERB	_	VerbForm=Inf	23	conj	_	_
+28	aussi	aussi	ADV	_	_	29	advmod	_	INMWE=Yes
+29	bien	bien	ADV	_	_	30	advmod	_	MWEPOS=ADV
+30	entammer	entamer	VERB	_	VerbForm=Inf	23	conj	_	Correct=entamer
 31	votre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det	_	_
 32	portefeuille	portefeuille	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	16	punct	_	_
@@ -222176,8 +222176,8 @@
 3	et	et	CCONJ	_	_	5	cc	_	_
 4	grande	grand	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 5	efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
-6	aussi	aussi	ADV	_	_	9	cc	_	_
-7	bien	bien	ADV	_	_	6	fixed	_	_
+6	aussi	aussi	ADV	_	_	7	advmod	_	INMWE=Yes
+7	bien	bien	ADV	_	_	9	cc	_	MWEPOS=ADV
 8	pour	pour	ADP	_	_	9	mark	_	_
 9	vendre	vendre	VERB	_	VerbForm=Inf	5	acl	_	_
 10	que	que	SCONJ	_	_	12	cc	_	_
@@ -224392,13 +224392,13 @@
 5	que	que	SCONJ	_	_	10	mark	_	_
 6	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
 7	avions	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	10	aux	_	_
-8	aussi	aussi	ADV	_	_	10	advmod	_	_
-9	bien	bien	ADV	_	_	8	fixed	_	_
+8	aussi	aussi	ADV	_	_	9	advmod	_	INMWE=Yes
+9	bien	bien	ADV	_	_	10	advmod	_	MWEPOS=ADV
 10	mangé	manger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
 11	et	et	CCONJ	_	_	15	cc	_	_
 12	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
-13	aussi	aussi	ADV	_	_	15	advmod	_	_
-14	bien	bien	ADV	_	_	13	fixed	_	_
+13	aussi	aussi	ADV	_	_	14	advmod	_	INMWE=Yes
+14	bien	bien	ADV	_	_	15	advmod	_	MWEPOS=ADV
 15	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
 
 # sent_id = fr-ud-train_08008
@@ -236879,8 +236879,8 @@
 24	,	,	PUNCT	_	_	17	punct	_	_
 25	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 26	embrasse	embrasser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
-27	aussi	aussi	ADV	_	_	26	advmod	_	_
-28	bien	bien	ADV	_	_	27	fixed	_	_
+27	aussi	aussi	ADV	_	_	28	advmod	_	INMWE=Yes
+28	bien	bien	ADV	_	_	26	advmod	_	MWEPOS=ADV
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
 30	signes	signe	NOUN	_	Gender=Masc|Number=Plur	26	conj	_	_
 31	linguistiques	linguistique	ADJ	_	Gender=Masc|Number=Plur	30	amod	_	SpaceAfter=No
@@ -246023,8 +246023,8 @@
 3	rectifier	rectifier	VERB	_	VerbForm=Inf	1	acl	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	erreur	erreur	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
-6	aussi	aussi	ADV	_	_	10	cc	_	_
-7	bien	bien	ADV	_	_	6	fixed	_	_
+6	aussi	aussi	ADV	_	_	7	advmod	_	INMWE=Yes
+7	bien	bien	ADV	_	_	10	cc	_	MWEPOS=ADV
 8	pour	pour	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	CMPA	CMPA	PROPN	_	_	3	obl	_	_
@@ -251877,8 +251877,8 @@
 7	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	_
 8	marche	marcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
-10	aussi	aussi	ADV	_	_	8	advmod	_	_
-11	bien	bien	ADV	_	_	10	fixed	_	_
+10	aussi	aussi	ADV	_	_	11	advmod	_	INMWE=Yes
+11	bien	bien	ADV	_	_	8	advmod	_	MWEPOS=ADV
 12	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 13	même	même	ADV	_	_	21	advmod	_	_
 14	si	si	SCONJ	_	_	21	mark	_	_
@@ -264117,8 +264117,8 @@
 5	festival	festival	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	musique	musique	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-8	aussi	aussi	ADV	_	_	10	advmod	_	_
-9	bien	bien	ADV	_	_	8	fixed	_	_
+8	aussi	aussi	ADV	_	_	9	advmod	_	INMWE=Yes
+9	bien	bien	ADV	_	_	10	advmod	_	MWEPOS=ADV
 10	rock	rock	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	reggae	reggae	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
@@ -343124,8 +343124,8 @@
 5	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det	_	_
 6	revendications	revendication	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 7	englobent	englober	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
-8	aussi	aussi	ADV	_	_	11	cc	_	_
-9	bien	bien	ADV	_	_	8	fixed	_	_
+8	aussi	aussi	ADV	_	_	9	advmod	_	INMWE=Yes
+9	bien	bien	ADV	_	_	11	cc	_	MWEPOS=ADV
 10	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	veuves	veuve	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
 12-13	des	_	_	_	_	_	_	_	_
@@ -353348,8 +353348,8 @@
 12	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	solutions	solution	NOUN	_	Gender=Fem|Number=Plur	7	obl:mod	_	_
 14	adaptées	adapter	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
-15	aussi	aussi	ADV	_	_	19	cc	_	_
-16	bien	bien	ADV	_	_	15	fixed	_	_
+15	aussi	aussi	ADV	_	_	16	advmod	_	INMWE=Yes
+16	bien	bien	ADV	_	_	19	cc	_	MWEPOS=ADV
 17-18	aux	_	_	_	_	_	_	_	_
 17	à	à	ADP	_	_	19	case	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
@@ -397582,8 +397582,8 @@
 9	approches	approche	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 10	sonores	sonore	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
 11	issues	issu	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
-12	aussi	aussi	ADV	_	_	11	advmod	_	_
-13	bien	bien	ADV	_	_	12	fixed	_	_
+12	aussi	aussi	ADV	_	_	13	advmod	_	INMWE=Yes
+13	bien	bien	ADV	_	_	11	advmod	_	MWEPOS=ADV
 14	de	de	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	musique	musique	NOUN	_	Gender=Fem|Number=Sing	11	obl:arg	_	_
