@@ -48010,8 +48010,8 @@
 56	et	et	CCONJ	_	_	57	cc	_	_
 57	Aspic	Aspic	PROPN	_	_	55	conj	_	_
 58	et	et	CCONJ	_	_	62	cc	_	_
-59	bien	bien	ADV	_	_	62	advmod	_	MWEPOS=ADV
-60	sûr	sûr	ADV	_	_	59	fixed	_	_
+59	bien	bien	ADV	_	_	60	advmod	_	INMWE=Yes
+60	sûr	sûr	ADV	_	_	62	advmod	_	MWEPOS=ADV
 61	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	62	det	_	_
 62	contrôleurs	contrôleur	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	_
 63	aériens	aérien	ADJ	_	Gender=Masc|Number=Plur	62	amod	_	_
@@ -58845,8 +58845,8 @@
 15	vente	vente	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
 16	en	en	PRON	_	Person=3	15	nmod	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
-18	bien	bien	ADV	_	_	20	advmod	_	MWEPOS=ADV
-19	sûr	sûr	ADV	_	_	18	fixed	_	_
+18	bien	bien	ADV	_	_	19	advmod	_	INMWE=Yes
+19	sûr	sûr	ADV	_	_	20	advmod	_	MWEPOS=ADV
 20	interdite	interdire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -73919,8 +73919,8 @@
 # sent_id = fr-ud-train_02627
 # text = « Bien sûr, les autorités françaises sont prêtes à engager le contact à tout moment, la seule difficulté que nous ayons, c'est que comme d'habitude dans ce genre d'affaire, ce sont les preneurs d'otages qui sont les maîtres du temps », a expliqué l'amiral Edouard Guillaud sur la radio privée Europe 1.
 1	«	«	PUNCT	_	_	9	punct	_	_
-2	Bien	bien	ADV	_	_	9	advmod	_	MWEPOS=ADV
-3	sûr	sûr	ADV	_	_	2	fixed	_	SpaceAfter=No
+2	Bien	bien	ADV	_	_	3	advmod	_	INMWE=Yes
+3	sûr	sûr	ADV	_	_	9	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	autorités	autorité	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
@@ -99810,8 +99810,8 @@
 6	zij	zij	PROPN	_	_	5	flat:name	_	_
 7	y	y	ADV	_	_	11	advmod	_	_
 8	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
-9	bien	bien	ADV	_	_	11	advmod	_	MWEPOS=ADV
-10	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	9	fixed	_	_
+9	bien	bien	ADV	_	_	10	advmod	_	INMWE=Yes
+10	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV
 11	utilisées	utiliser	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -106794,8 +106794,8 @@
 11	vitamines	vitamine	NOUN	_	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	4	punct	_	_
 13	et	et	CCONJ	_	_	17	cc	_	_
-14	bien	bien	ADV	_	_	17	advmod	_	MWEPOS=ADV
-15	sûr	sûr	ADV	_	_	14	fixed	_	_
+14	bien	bien	ADV	_	_	15	advmod	_	INMWE=Yes
+15	sûr	sûr	ADV	_	_	17	advmod	_	MWEPOS=ADV
 16	en	en	ADP	_	_	17	mark	_	_
 17	corrigeant	corriger	VERB	_	Tense=Pres|VerbForm=Part	4	conj	_	_
 18	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
@@ -117126,8 +117126,8 @@
 # text = C'est bien sûr grâce à sa mère, (dont elle a hérité le caractère passionné et la vivacité d'esprit) qu'Etty lisait et parlait le russe, et, comme sa mère, elle vivait grâce aux leçons particulières de russe qu'elle donnait et qui lui permettaient de continuer ses études.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-3	bien	bien	ADV	_	_	8	advmod	_	MWEPOS=ADV
-4	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	3	fixed	_	_
+3	bien	bien	ADV	_	_	4	advmod	_	INMWE=Yes
+4	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	8	advmod	_	MWEPOS=ADV
 5	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	8	case	_	MWEPOS=ADP
 6	à	à	ADP	_	_	5	fixed	_	_
 7	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
@@ -133466,8 +133466,8 @@
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	inconvénients	inconvénient	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-4	bien	bien	ADV	_	_	7	advmod	_	MWEPOS=ADV
-5	sûr	sûr	ADV	_	_	4	fixed	_	_
+4	bien	bien	ADV	_	_	5	advmod	_	INMWE=Yes
+5	sûr	sûr	ADV	_	_	7	advmod	_	MWEPOS=ADV
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	absence	absence	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
@@ -156724,8 +156724,8 @@
 57	prudente	prudent	ADJ	_	Gender=Fem|Number=Sing	56	amod	_	_
 58	et	et	CCONJ	_	_	64	cc	_	SpaceAfter=No
 59	,	,	PUNCT	_	_	64	punct	_	_
-60	bien	bien	ADV	_	_	64	advmod	_	MWEPOS=ADV
-61	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	60	fixed	_	SpaceAfter=No
+60	bien	bien	ADV	_	_	61	advmod	_	INMWE=Yes
+61	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	64	advmod	_	MWEPOS=ADV|SpaceAfter=No
 62	,	,	PUNCT	_	_	64	punct	_	_
 63	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
 64	sous-sol	sous-sol	NOUN	_	Gender=Masc|Number=Sing	30	conj	_	_
@@ -196511,8 +196511,8 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-8	bien	bien	ADV	_	_	4	advmod	_	MWEPOS=ADV
-9	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	8	fixed	_	SpaceAfter=No
+8	bien	bien	ADV	_	_	9	advmod	_	INMWE=Yes
+9	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	4	advmod	_	MWEPOS=ADV|SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	_
 11	mais	mais	CCONJ	_	_	16	cc	_	_
 12	aussi	aussi	ADV	_	_	11	advmod	_	_
@@ -208692,8 +208692,8 @@
 8	tempérament	tempérament	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
 9	commercial	commercial	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
-11	bien	bien	ADV	_	_	14	advmod	_	MWEPOS=ADV
-12	sûr	sûr	ADV	_	_	11	fixed	_	_
+11	bien	bien	ADV	_	_	12	advmod	_	INMWE=Yes
+12	sûr	sûr	ADV	_	_	14	advmod	_	MWEPOS=ADV
 13	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 15	importants	important	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
@@ -223221,8 +223221,8 @@
 45	fossés	fossé	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
 46	,	,	PUNCT	_	_	21	punct	_	_
 47	est	et	CCONJ	_	_	51	cc	_	_
-48	bien	bien	ADV	_	_	51	advmod	_	MWEPOS=ADV
-49	sûr	sûr	ADV	_	_	48	fixed	_	_
+48	bien	bien	ADV	_	_	49	advmod	_	INMWE=Yes
+49	sûr	sûr	ADV	_	_	51	advmod	_	MWEPOS=ADV
 50	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	51	det	_	_
 51	bois	bois	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	_
 52-53	du	_	_	_	_	_	_	_	_
@@ -254203,8 +254203,8 @@
 17	boy	boy	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
 18	n'	ne	ADV	_	Polarity=Neg	23	advmod	_	SpaceAfter=No
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
-20	bien	bien	ADV	_	_	23	advmod	_	MWEPOS=ADV
-21	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	20	fixed	_	_
+20	bien	bien	ADV	_	_	21	advmod	_	INMWE=Yes
+21	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	23	advmod	_	MWEPOS=ADV
 22	pas	pas	ADV	_	Polarity=Neg	23	advmod	_	_
 23	oublié	oublier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	9	punct	_	_
@@ -296537,8 +296537,8 @@
 46	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
 47	cloches	cloche	NOUN	_	Gender=Fem|Number=Plur	38	conj	_	_
 48	et	et	CCONJ	_	_	52	cc	_	_
-49	bien	bien	ADV	_	_	48	advmod	_	MWEPOS=ADV
-50	sûr	sûr	ADV	_	_	49	fixed	_	_
+49	bien	bien	ADV	_	_	50	advmod	_	INMWE=Yes
+50	sûr	sûr	ADV	_	_	48	advmod	_	MWEPOS=ADV
 51	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
 52	Vierge	Vierge	PROPN	_	_	38	conj	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	16	punct	_	_
@@ -300831,8 +300831,8 @@
 # sent_id = fr-ud-train_10773
 # text = « Bien sûr, on sait plus ou moins ce que notre rencontre musicale va donner, mais nous laissons une grande place à l'improvisation, ça donne un autre caractère au spectacle », affirme Didier Lockwood, qui en fera de même lors de la soirée d'ouverture avec Marie-Claude Pietragalla.
 1	«	«	PUNCT	_	_	6	punct	_	_
-2	Bien	bien	ADV	_	_	6	advmod	_	MWEPOS=ADV
-3	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	2	fixed	_	SpaceAfter=No
+2	Bien	bien	ADV	_	_	3	advmod	_	INMWE=Yes
+3	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 6	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	ccomp	_	_
@@ -311129,8 +311129,8 @@
 
 # sent_id = fr-ud-train_11158
 # text = Bien sûr, telle politique peut être bénéfique et telle autre mauvaise.
-1	Bien	bien	ADV	_	_	6	advmod	_	MWEPOS=ADV
-2	sûr	sûr	ADV	_	_	1	fixed	_	SpaceAfter=No
+1	Bien	bien	ADV	_	_	2	advmod	_	INMWE=Yes
+2	sûr	sûr	ADV	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	telle	tel	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	politique	politique	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -347608,8 +347608,8 @@
 
 # sent_id = fr-ud-train_12448
 # text = Bien sûr, si c'est un match en 5 sets, et que tu frôles vraiment la victoire, c'est dur à digérer.
-1	Bien	bien	ADV	_	_	23	advmod	_	MWEPOS=ADV
-2	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+1	Bien	bien	ADV	_	_	2	advmod	_	INMWE=Yes
+2	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	23	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	23	punct	_	_
 4	si	si	SCONJ	_	_	8	mark	_	_
 5	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
