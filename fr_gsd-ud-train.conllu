@@ -60286,9 +60286,9 @@
 
 # sent_id = fr-ud-train_02146
 # text = D'ici 2020, elle devrait être en correspondance avec la ligne E du RER.
-1	D'	de	ADP	_	_	2	case	_	SpaceAfter=No
-2	ici	ici	ADV	_	_	6	advmod	_	_
-3	2020	2020	NUM	_	_	2	obl	_	SpaceAfter=No
+1	D'	de	ADP	_	_	2	case	_	INMWE=Yes|SpaceAfter=No
+2	ici	ici	ADV	_	_	3	case	_	MWEPOS=ADP
+3	2020	2020	NUM	_	_	6	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -148838,8 +148838,8 @@
 7	finir	finir	VERB	_	VerbForm=Inf	5	xcomp	_	_
 8	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	9	det	_	_
 9	négociations	négociation	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
-10	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
-11	ici	ici	ADV	_	_	10	fixed	_	_
+10	d'	de	ADP	_	_	11	case	_	INMWE=Yes|SpaceAfter=No
+11	ici	ici	ADV	_	_	13	case	_	MWEPOS=ADP
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	fin	fin	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	_
 14	de	de	ADP	_	_	16	case	_	_
@@ -223908,10 +223908,10 @@
 12	hôtels	hôtel	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
 13	en	en	ADP	_	_	14	case	_	_
 14	Inde	Inde	PROPN	_	_	10	obl	_	_
-15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
-16	ici	ici	ADV	_	_	10	advmod	_	_
+15	d'	de	ADP	_	_	16	case	_	INMWE=Yes|SpaceAfter=No
+16	ici	ici	ADV	_	_	18	case	_	MWEPOS=ADP
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	fin	fin	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	_
+18	fin	fin	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
 19	2012	2012	NUM	_	_	18	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	10	punct	_	_
 21	portant	porter	VERB	_	Tense=Pres|VerbForm=Part	10	advcl	_	_
@@ -310846,9 +310846,9 @@
 20	qui	qui	PRON	_	PronType=Rel	22	nsubj:pass	_	_
 21	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	aux:pass	_	_
 22	testé	tester	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
-23	d'	de	ADP	_	_	22	advmod	_	SpaceAfter=No
-24	ici	ici	ADV	_	_	23	fixed	_	_
-25	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+23	d'	de	ADP	_	_	24	case	_	INMWE=Yes|SpaceAfter=No
+24	ici	ici	ADV	_	_	25	case	_	MWEPOS=ADP
+25	octobre	octobre	NOUN	_	Gender=Masc|Number=Sing	22	obl:mod	_	_
 26	2011	2011	NUM	_	_	25	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	9	punct	_	_
 
