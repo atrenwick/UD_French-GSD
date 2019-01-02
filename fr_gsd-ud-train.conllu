@@ -57594,7 +57594,7 @@
 3	être	être	AUX	_	VerbForm=Inf	4	aux	_	_
 4	livré	livrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
 5	soit	soit	SCONJ	_	_	6	cc	_	_
-6	conditionné	conditionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+6	conditionné	conditionner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
 7	en	en	ADP	_	_	8	case	_	_
 8	sacs	sac	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
 9	de	de	ADP	_	_	11	case	_	_
@@ -98642,7 +98642,7 @@
 14	attestent	attester	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	s'	se	PRON	_	Person=3|PronType=Prs	17	obj	_	SpaceAfter=No
 16	être	être	AUX	_	VerbForm=Inf	17	aux	_	_
-17	libérés	libérer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	ccomp	_	_
+17	libérés	libérer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	xcomp	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	domination	domination	NOUN	_	Gender=Fem|Number=Sing	17	obl:arg	_	_
@@ -109386,7 +109386,7 @@
 2	se	se	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	alors	alors	ADV	_	_	3	advmod	_	_
-5	chargé	charger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+5	chargé	charger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	surveillance	surveillance	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
@@ -142786,14 +142786,14 @@
 # sent_id = fr-ud-train_05109
 # text = Autrement dit, la capitale occupée est complètement coupée du monde.
 1	Autrement	autrement	ADV	_	_	2	advmod	_	_
-2	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+2	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	parataxis	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	capitale	capitale	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 6	occupée	occupé	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 8	complètement	complètement	ADV	_	_	9	advmod	_	_
-9	coupée	couper	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+9	coupée	couper	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10-11	du	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -145690,13 +145690,13 @@
 29	nom	nom	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	_
 30-31	du	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	34	mark	_	_
-31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 32	«	«	PUNCT	_	_	33	punct	_	_
-33	laisser	laisser	VERB	_	VerbForm=Inf	29	nmod	_	MWEPOS=NOUN
-34	faire	faire	VERB	_	VerbForm=Inf	33	ccomp	_	INMWE=Yes|SpaceAfter=No
-35	,	,	PUNCT	_	_	36	punct	_	INMWE=Yes
-36	laisser	laisser	VERB	_	VerbForm=Inf	33	conj	_	MWEPOS=NOUN
-37	passer	passer	VERB	_	VerbForm=Inf	36	ccomp	_	INMWE=Yes
+33	laisser	laisser	VERB	_	VerbForm=Inf	29	nmod	_	TITLE=Yes
+34	faire	faire	VERB	_	VerbForm=Inf	33	xcomp	_	INTITLE=Yes|SpaceAfter=No
+35	,	,	PUNCT	_	_	36	punct	_	INTITLE=Yes
+36	laisser	laisser	VERB	_	VerbForm=Inf	33	conj	_	INTITLE=Yes
+37	passer	passer	VERB	_	VerbForm=Inf	36	ccomp	_	INTITLE=Yes
 38	»	»	PUNCT	_	_	33	punct	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	29	punct	_	_
 40	c'est-à-dire	c'est-à-dire	ADV	_	_	43	advmod	_	_
@@ -158863,7 +158863,7 @@
 7	en	en	ADP	_	_	9	mark	_	_
 8	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 9	envoyant	envoyer	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	_
-10	conquérir	conquérir	VERB	_	VerbForm=Inf	9	ccomp	_	_
+10	conquérir	conquérir	VERB	_	VerbForm=Inf	9	xcomp	_	_
 11	pacifiquement	pacifiquement	ADV	_	_	10	advmod	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Seigneurie	seigneurie	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
@@ -212935,7 +212935,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	mythomane	mythomane	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
-7	finit	finir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	finit	finir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 8	toujours	toujours	ADV	_	_	7	advmod	_	_
 9	par	par	ADP	_	_	10	mark	_	_
 10	croire	croire	VERB	_	VerbForm=Inf	7	xcomp	_	_
@@ -237046,7 +237046,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
-6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 7	plus	plus	ADV	_	_	6	advmod	_	_
 8	vingt	vingt	NUM	_	_	9	nummod	_	_
 9	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
@@ -271802,7 +271802,7 @@
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
 14	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
-15	équipé	équiper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+15	équipé	équiper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
 16	notre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	_
 17	camping	camping	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
 18	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
@@ -271813,11 +271813,11 @@
 23	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
 24	saison	saison	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 25	et	et	CCONJ	_	_	26	cc	_	_
-26	croyez	croire	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	conj	_	_
+26	croyez	croire	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	30	parataxis	_	_
 27	moi	soi	PRON	_	Number=Sing|Person=1	26	obj	_	_
 28	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	30	nsubj	_	_
 29	n'	ne	ADV	_	Polarity=Neg	30	advmod	_	SpaceAfter=No
-30	avons	avoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	ccomp	_	_
+30	avons	avoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	conj	_	_
 31	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	32	det	_	_
 32	préjugé	préjugé	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
 33	bien	bien	ADV	_	_	36	advmod	_	_
@@ -308572,7 +308572,7 @@
 8	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 9	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	10	obj	_	_
 10	emmènent	emmener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
-11	voir	voir	VERB	_	VerbForm=Inf	10	ccomp	_	_
+11	voir	voir	VERB	_	VerbForm=Inf	10	xcomp	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	préfet	préfet	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
 14	Bonusmalus	Bonusmalus	PROPN	_	_	13	appos	_	SpaceAfter=No
@@ -345008,7 +345008,7 @@
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	intérieurement	intérieurement	ADV	_	_	28	advmod	_	_
 28	affaibli	affaibli	ADJ	_	Gender=Masc|Number=Sing	25	advcl	_	_
-29	reprendre	reprendre	VERB	_	VerbForm=Inf	25	ccomp	_	_
+29	reprendre	reprendre	VERB	_	VerbForm=Inf	25	xcomp	_	_
 30	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 31	lignes	ligne	NOUN	_	Gender=Fem|Number=Plur	29	obj	_	_
 32	traditionnelles	traditionnel	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	_
@@ -357460,7 +357460,7 @@
 4	souvient	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
 6	avoir	avoir	AUX	_	VerbForm=Inf	7	aux	_	_
-7	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+7	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
 8	porter	porter	VERB	_	VerbForm=Inf	7	ccomp	_	_
 9	quoi	quoi	PRON	_	_	8	obj	_	_
 10	que	que	PRON	_	_	9	acl:relcl	_	_
