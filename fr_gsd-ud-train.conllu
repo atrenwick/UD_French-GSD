@@ -7191,11 +7191,11 @@
 21	support	support	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
 22	existait	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
 23	couramment	couramment	ADV	_	_	22	advmod	_	_
-24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
-25	y	y	PRON	_	_	26	expl	_	_
-26	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	INMWE=Yes
+25	y	y	PRON	_	_	26	expl	_	INMWE=Yes
+26	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	case	_	MWEPOS=ADP
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	vingtaine	vingtaine	NUM	_	_	26	obj	_	_
+28	vingtaine	vingtaine	NUM	_	_	22	obl:mod	_	_
 29	d'	de	ADP	_	_	30	case	_	SpaceAfter=No
 30	années	année	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	_
 31	seulement	seulement	ADV	_	_	26	advmod	_	SpaceAfter=No
@@ -73331,12 +73331,12 @@
 3	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	prévoir	prévoir	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-7	y	y	PRON	_	_	8	expl	_	_
-8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	INMWE=Yes
+7	y	y	PRON	_	_	8	expl	_	INMWE=Yes
+8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	case	_	MWEPOS=ADP
 9	seulement	seulement	ADV	_	_	8	advmod	_	_
 10	quelques	quelque	DET	_	Gender=Fem|Number=Plur	11	det	_	_
-11	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+11	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	4	punct	_	_
 13	que	que	SCONJ	_	_	25	mark	_	_
 14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
@@ -87706,10 +87706,10 @@
 
 # sent_id = fr-ud-train_03109
 # text = Il y a plus d'un demi-siècle, Nguyễn Quảng Tuân, né le 11 juin 1925, encore élève à l'époque au Lycée du Protectorat (connu sous le nom de Trường Bưởi), a eu ses poèmes publiés dans les journaux tels que Tia sáng (Éclair) et Thời sự Chủ nhật (Actualités du Dimanche).
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	_	3	expl	_	_
-3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	advcl	_	_
-4	plus	plus	ADV	_	_	3	obj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	INMWE=Yes
+2	y	y	PRON	_	_	3	expl	_	INMWE=Yes
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	case	_	MWEPOS=ADP
+4	plus	plus	ADV	_	_	41	obl:mod	_	_
 5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 6	un	un	NUM	_	_	7	nummod	_	_
 7	demi-siècle	demi-siècle	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	SpaceAfter=No
@@ -138702,11 +138702,11 @@
 
 # sent_id = fr-ud-train_04971
 # text = Il y a 485 ans, le lieu était encombré de tentes, d'arquebuses et de soldats, car c'était le campement de la troupe de Hernán Cortés qui se préparait à la conquête de Mexico.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	_	3	expl	_	_
-3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	INMWE=Yes
+2	y	y	PRON	_	_	3	expl	_	INMWE=Yes
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	case	_	MWEPOS=ADP
 4	485	485	NUM	_	_	5	nummod	_	_
-5	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+5	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
@@ -177930,11 +177930,11 @@
 4	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
 5	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
 6	cours	cours	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-8	y	y	PRON	_	_	9	expl	_	_
-9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	INMWE=Yes
+8	y	y	PRON	_	_	9	expl	_	INMWE=Yes
+9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	case	_	MWEPOS=ADP
 10	quelques	quelque	DET	_	Gender=Fem|Number=Plur	11	det	_	_
-11	années	année	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+11	années	année	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 14	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -179975,13 +179975,13 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	prophétie	prophétie	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
 6	formulée	formuler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
-8	y	y	PRON	_	_	9	expl	_	_
-9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	INMWE=Yes
+8	y	y	PRON	_	_	9	expl	_	INMWE=Yes
+9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	case	_	MWEPOS=ADP
 10	de	de	ADP	_	_	11	case	_	_
 11	cela	cela	PRON	_	Number=Sing|PronType=Dem	9	obl:arg	_	_
 12	40	40	NUM	_	_	13	nummod	_	_
-13	ans	an	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	_
+13	ans	an	NOUN	_	Gender=Masc|Number=Plur	6	obl:mod	_	_
 14	par	par	ADP	_	_	15	case	_	_
 15	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing	6	obl:agent	_	_
 16	de	de	ADP	_	_	18	case	_	_
@@ -221865,11 +221865,11 @@
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	séisme	séisme	NOUN	_	Gender=Masc|Number=Sing	14	obl:agent	_	_
 18	survenu	survenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
-19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
-20	y	y	PRON	_	_	21	expl	_	_
-21	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	INMWE=Yes
+20	y	y	PRON	_	_	21	expl	_	INMWE=Yes
+21	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	case	_	MWEPOS=ADP
 22	quelques	quelque	DET	_	Gender=Masc|Number=Plur	23	det	_	_
-23	temps	temps	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
+23	temps	temps	NOUN	_	Gender=Masc|Number=Plur	18	obl:mod	_	_
 24-25	au	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -230145,11 +230145,11 @@
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	ciclisme	cyclisme	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
-14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
-15	y	y	PRON	_	_	16	expl	_	_
-16	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	INMWE=Yes
+15	y	y	PRON	_	_	16	expl	_	INMWE=Yes
+16	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	case	_	MWEPOS=ADP
 17	six	six	NUM	_	_	18	nummod	_	_
-18	ans	an	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+18	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_08209
@@ -247608,11 +247608,11 @@
 21	en	en	ADP	_	_	22	case	_	_
 22	1948	1948	NUM	_	_	16	obl	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
-24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
-25	y	y	PRON	_	_	26	expl	_	_
-26	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	INMWE=Yes
+25	y	y	PRON	_	_	26	expl	_	INMWE=Yes
+26	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	case	_	MWEPOS=ADP
 27	soixante-et-un	soixante-et-un	NUM	_	_	28	nummod	_	_
-28	ans	an	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
+28	ans	an	NOUN	_	Gender=Masc|Number=Plur	16	obl:mod	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_08826
@@ -250887,11 +250887,11 @@
 5	dans	dans	ADP	_	_	7	case	_	_
 6	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	établissement	établissement	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
-8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-9	y	y	PRON	_	_	10	expl	_	_
-10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	INMWE=Yes
+9	y	y	PRON	_	_	10	expl	_	INMWE=Yes
+10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	case	_	MWEPOS=ADP
 11	quelques	quelque	DET	_	Gender=Masc|Number=Plur	12	det	_	_
-12	mois	mois	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+12	mois	mois	NOUN	_	Gender=Masc|Number=Plur	4	obl:mod	_	_
 13	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
 14	5	5	NUM	_	_	15	nummod	_	_
 15	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	4	dep	_	SpaceAfter=No
@@ -254120,11 +254120,11 @@
 
 # sent_id = fr-ud-train_09062
 # text = Il y a un an, tous les yeux étaient tournés vers Copenhague, censée être la conférence de la dernière chance, pour définir une stratégie internationale de lutte contre le changement climatique.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	_	3	expl	_	_
-3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	INMWE=Yes
+2	y	y	PRON	_	_	3	expl	_	INMWE=Yes
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	case	_	MWEPOS=ADP
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	an	an	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	an	an	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
 7	tous	tout	DET	_	Gender=Masc|Number=Plur	9	det	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
@@ -360860,13 +360860,13 @@
 
 # sent_id = fr-ud-train_12908
 # text = Il y a deux ou trois siècles, le Jaunay était un petit fleuve qui se jetait directement en mer, au droit de son parcours terrestre, vers l'endroit de la côte connu sous le nom de Roche-Biron, au nord de Brétignolles-sur-Mer.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	y	y	PRON	_	_	3	expl	_	_
-3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	INMWE=Yes
+2	y	y	PRON	_	_	3	expl	_	INMWE=Yes
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	case	_	MWEPOS=ADP
 4	deux	deux	NUM	_	_	7	nummod	_	_
 5	ou	ou	CCONJ	_	_	6	cc	_	_
 6	trois	trois	NUM	_	_	4	conj	_	_
-7	siècles	siècle	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+7	siècles	siècle	NOUN	_	Gender=Masc|Number=Plur	14	obl:mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Jaunay	Jaunay	PROPN	_	_	14	nsubj	_	_
@@ -376059,12 +376059,12 @@
 11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
 12	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
 13	activité	activité	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
-14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
-15	y	y	PRON	_	_	16	expl	_	_
-16	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	INMWE=Yes
+15	y	y	PRON	_	_	16	expl	_	INMWE=Yes
+16	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	case	_	MWEPOS=ADP
 17	encore	encore	ADV	_	_	16	advmod	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_13427
@@ -384467,11 +384467,11 @@
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 14	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	aux	_	_
 15	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
-16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
-17	y	y	PRON	_	_	18	expl	_	_
-18	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	INMWE=Yes
+17	y	y	PRON	_	_	18	expl	_	INMWE=Yes
+18	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	case	_	MWEPOS=ADP
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+20	semaine	semaine	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_13723
