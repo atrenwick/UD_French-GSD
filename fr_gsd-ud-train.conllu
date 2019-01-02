@@ -2460,8 +2460,8 @@
 32	)	)	PUNCT	_	_	31	punct	_	_
 33	adoptée	adopter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
 34	par	par	ADP	_	_	36	case	_	_
-35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	33	obl:agent	_	_
+35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	INMWE=Yes
+36	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	33	obl:agent	_	MWEPOS=NOUN
 37-38	des	_	_	_	_	_	_	_	_
 37	de	de	ADP	_	_	39	case	_	_
 38	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
@@ -3632,8 +3632,8 @@
 
 # sent_id = fr-ud-train_00127
 # text = La plupart de ces officiers étaient irakiens et égyptiens.
-1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	INMWE=Yes
+2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	MWEPOS=NOUN
 3	de	de	ADP	_	_	5	case	_	_
 4	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
 5	officiers	officier	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
@@ -19082,8 +19082,8 @@
 10	choses	chose	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	estime	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
-13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	INMWE=Yes
+14	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	MWEPOS=NOUN
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
@@ -19868,8 +19868,8 @@
 11	mais	mais	CCONJ	_	_	13	cc	_	_
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	présente	présenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	INMWE=Yes
+15	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	MWEPOS=NOUN
 16	de	de	ADP	_	_	18	case	_	_
 17	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	det	_	_
 18	concerts	concert	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
@@ -21838,8 +21838,8 @@
 2	statistiques	statistique	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	démontrent	démontrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	que	que	SCONJ	_	_	12	mark	_	_
-5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	INMWE=Yes
+6	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	MWEPOS=NOUN
 7-8	des	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
@@ -46460,8 +46460,8 @@
 # sent_id = fr-ud-train_01641
 # text = Dans la plupart des cas, ces récompenses ne pouvaient être obtenues qu'en gagnant au concours de dessins.
 1	Dans	dans	ADP	_	_	3	case	_	_
-2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	MWEPOS=NOUN
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
@@ -48921,8 +48921,8 @@
 15	jugé	juger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 16	irrécupérable	irrécupérable	ADJ	_	Gender=Masc|Number=Sing	15	xcomp	_	_
 17	par	par	ADP	_	_	19	case	_	_
-18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	15	obl:agent	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	INMWE=Yes
+19	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	15	obl:agent	_	MWEPOS=NOUN
 20-21	des	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
@@ -49998,8 +49998,8 @@
 43	,	,	PUNCT	_	_	34	punct	_	_
 44	entraînant	entraîner	VERB	_	Tense=Pres|VerbForm=Part	34	acl	_	_
 45	dans	dans	ADP	_	_	47	case	_	_
-46	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
-47	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	44	obl:mod	_	_
+46	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	INMWE=Yes
+47	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	44	obl:mod	_	MWEPOS=NOUN
 48-49	des	_	_	_	_	_	_	_	_
 48	de	de	ADP	_	_	50	case	_	_
 49	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
@@ -56200,8 +56200,8 @@
 
 # sent_id = fr-ud-train_01999
 # text = La plupart des compétitions internationales sont organisées par l'IARU (International Amateur Radio Union, Union internationale des radioamateurs).
-1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	INMWE=Yes
+2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	MWEPOS=NOUN
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -59674,8 +59674,8 @@
 23	à	à	ADP	_	_	24	case	_	INMWE=Yes
 24	tort	tort	NOUN	_	Gender=Masc|Number=Sing	22	advmod	_	MWEPOS=ADV
 25	par	par	ADP	_	_	27	case	_	_
-26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	22	obl:agent	_	_
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	INMWE=Yes
+27	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	22	obl:agent	_	MWEPOS=NOUN
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
@@ -68758,8 +68758,8 @@
 10	Yougoslavie	Yougoslavie	PROPN	_	_	11	nsubj	_	_
 11	représentait	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
 12	pour	pour	ADP	_	_	14	case	_	_
-13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	INMWE=Yes
+14	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	MWEPOS=NOUN
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
@@ -69346,8 +69346,8 @@
 6	pattes	patte	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
 7	et	et	CCONJ	_	_	13	cc	_	_
 8	pour	pour	ADP	_	_	10	case	_	_
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	INMWE=Yes
+10	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	MWEPOS=NOUN|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	plumage	plumage	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
@@ -69680,12 +69680,12 @@
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	fermées	fermé	ADJ	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-8	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	7	fixed	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	INMWE=Yes
+8	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	MWEPOS=NOUN
 9-10	des	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	7	fixed	_	_
+9	de	de	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-11	boutiques	boutique	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+11	boutiques	boutique	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
 12	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	conj	_	_
 13	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 14	aussi	aussi	ADV	_	_	12	advmod	_	SpaceAfter=No
@@ -80579,8 +80579,8 @@
 4	force	forcer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	à	à	ADP	_	_	6	mark	_	_
 6	révéler	révéler	VERB	_	VerbForm=Inf	4	xcomp	_	_
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	INMWE=Yes
+8	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	MWEPOS=NOUN
 9	de	de	ADP	_	_	11	case	_	_
 10	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det	_	_
 11	contacts	contact	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
@@ -89503,8 +89503,8 @@
 # text = Elle crée la plupart des costumes de la poupée Bleuette, illustre le journal La Semaine de Suzette (Gautier-Languereau), publie chez Nathan des panneaux pour les écoles.
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	crée	créer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	INMWE=Yes
+4	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	MWEPOS=NOUN
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
@@ -110023,8 +110023,8 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	monde	monde	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
-17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	INMWE=Yes
+18	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	MWEPOS=NOUN
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -118671,8 +118671,8 @@
 13	se	se	PRON	_	Person=3|PronType=Prs	14	expl:pass	_	_
 14	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	INMWE=Yes
+17	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	MWEPOS=NOUN
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -125173,8 +125173,8 @@
 11	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	dont	dont	PRON	_	PronType=Rel	18	nmod	_	_
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	INMWE=Yes
+15	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	MWEPOS=NOUN
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
@@ -126980,8 +126980,8 @@
 12	certains	certain	DET	_	Gender=Masc|Number=Plur	13	det	_	_
 13	malades	malade	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	21	punct	_	_
-15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	INMWE=Yes
+16	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	MWEPOS=NOUN
 17-18	des	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
@@ -134781,8 +134781,8 @@
 
 # sent_id = fr-ud-train_04824
 # text = La plupart des serveurs étaient partis et seuls restaient quelques éléments logés sous la tente au pied des falaises surplombant l'ancienne position.
-1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	INMWE=Yes
+2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	MWEPOS=NOUN
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -141170,8 +141170,8 @@
 27	plantes	plante	NOUN	_	Gender=Fem|Number=Plur	23	dep	_	_
 28	vertes	vert	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
 29	et	et	CCONJ	_	_	31	cc	_	_
-30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	_
+30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	INMWE=Yes
+31	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	MWEPOS=NOUN
 32-33	des	_	_	_	_	_	_	_	_
 32	de	de	ADP	_	_	34	case	_	_
 33	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
@@ -161646,8 +161646,8 @@
 9	également	également	ADV	_	_	6	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	_
 11	mais	mais	CCONJ	_	_	20	cc	_	_
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	INMWE=Yes
+13	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	MWEPOS=NOUN
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
@@ -162337,12 +162337,12 @@
 1	Malgré	malgré	ADP	_	_	2	case	_	_
 2	tout	tout	PRON	_	Gender=Masc|Number=Sing	9	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-5	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	4	fixed	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	INMWE=Yes
+5	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	MWEPOS=NOUN
 6-7	des	_	_	_	_	_	_	_	_
-6	de	de	ADP	_	_	4	fixed	_	_
+6	de	de	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-8	candidats	candidat	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	candidats	candidat	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
 9	postulaient	postuler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 10	hier	hier	ADV	_	_	9	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
@@ -162850,8 +162850,8 @@
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj:caus	_	_
 2	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:caus	_	_
 3	sauter	sauter	VERB	_	VerbForm=Inf	0	root	_	_
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	INMWE=Yes
+5	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	MWEPOS=NOUN
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
@@ -163282,7 +163282,7 @@
 31	mener	mener	VERB	_	VerbForm=Inf	28	advcl	_	_
 32	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
 33	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
-34	à	à	ADP	_	_	35	case	_	INMWE+Yes
+34	à	à	ADP	_	_	35	case	_	INMWE+Yes=true
 35	terme	terme	NOUN	_	Gender=Masc|Number=Sing	31	obl:arg	_	MWEPOS=ADV|SpaceAfter=No
 36	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -168457,8 +168457,8 @@
 23	autre	autre	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	4	punct	_	_
 25	mais	mais	CCONJ	_	_	33	cc	_	_
-26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	INMWE=Yes
+27	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	MWEPOS=NOUN
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
@@ -172467,8 +172467,8 @@
 51	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
 52	socialistes	socialiste	NOUN	_	Gender=Masc|Number=Plur	49	obl:agent	_	_
 53	pour	pour	ADP	_	_	55	case	_	_
-54	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	_
-55	plupart	plupart	PRON	_	Gender=Fem|Number=Sing	56	obl	_	_
+54	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	55	det	_	INMWE=Yes
+55	plupart	plupart	PRON	_	Gender=Fem|Number=Sing	56	obl	_	MWEPOS=NOUN
 56	favorables	favorable	ADJ	_	Gender=Masc|Number=Plur	52	amod	_	_
 57-58	au	_	_	_	_	_	_	_	_
 57	à	à	ADP	_	_	59	case	_	_
@@ -175381,8 +175381,8 @@
 4	trente-quatre	trente-quatre	NUM	_	_	5	nummod	_	_
 5	colonnes	colonne	NOUN	_	Gender=Fem|Number=Plur	1	obl:arg	_	_
 6	dont	dont	PRON	_	PronType=Rel	8	nmod	_	_
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	INMWE=Yes
+8	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	MWEPOS=NOUN
 9	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	gardé	garder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
 11	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
@@ -193633,8 +193633,8 @@
 9	entre	entre	ADP	_	_	10	case	_	_
 10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
 11	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	INMWE=Yes
+13	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	MWEPOS=NOUN
 14	de	de	ADP	_	_	16	case	_	_
 15	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det	_	_
 16	joueurs	joueur	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
@@ -200205,8 +200205,8 @@
 25	,	,	PUNCT	_	_	21	punct	_	_
 26	alors	alors	ADV	_	_	34	mark	_	MWEPOS=SCONJ
 27	que	que	SCONJ	_	_	26	fixed	_	_
-28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	34	nsubj	_	_
+28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	INMWE=Yes
+29	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	34	nsubj	_	MWEPOS=NOUN
 30-31	des	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
 31	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
@@ -203316,8 +203316,8 @@
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	comme	comme	ADP	_	_	15	case	_	_
 13	pour	pour	ADP	_	_	15	case	_	_
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	INMWE=Yes
+15	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	MWEPOS=NOUN
 16-17	des	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -203873,8 +203873,8 @@
 
 # sent_id = fr-ud-train_07276
 # text = La plupart des espèces sont très territoriales et solitaires.
-1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	INMWE=Yes
+2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	MWEPOS=NOUN
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -206610,8 +206610,8 @@
 
 # sent_id = fr-ud-train_07379
 # text = La plupart des fabricants de consoles de jeux vidéo dans le monde sont du même avis.
-1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	INMWE=Yes
+2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	MWEPOS=NOUN
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -218940,8 +218940,8 @@
 7	abondante	abondant	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	comme	comme	ADP	_	_	11	case	_	_
-10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	INMWE=Yes
+11	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	MWEPOS=NOUN
 12-13	des	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
@@ -219377,8 +219377,8 @@
 
 # sent_id = fr-ud-train_07831
 # text = La plupart du temps, ces poissons sont déjà morts.
-1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	INMWE=Yes
+2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	MWEPOS=NOUN
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -219458,8 +219458,8 @@
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	États-Unis	États-Unis	PROPN	_	_	4	conj	_	_
 25	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
-26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	24	appos	_	_
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	INMWE=Yes
+27	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	24	appos	_	MWEPOS=NOUN
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
@@ -222790,8 +222790,8 @@
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	règle	règle	NOUN	_	Gender=Fem|Number=Sing	12	advcl	_	_
 24	dans	dans	ADP	_	_	26	case	_	_
-25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
+25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	INMWE=Yes
+26	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	MWEPOS=NOUN
 27-28	des	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	29	case	_	_
 28	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
@@ -228553,8 +228553,8 @@
 31	roues	roue	NOUN	_	Gender=Fem|Number=Plur	28	obj	_	_
 32	motrices	moteur	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	_
 33	pour	pour	ADP	_	_	35	case	_	_
-34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	INMWE=Yes
+35	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	28	obl	_	MWEPOS=NOUN|SpaceAfter=No
 36	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_08152
@@ -245079,8 +245079,8 @@
 30	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
 31	embarras	embarras	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
 32	de	de	ADP	_	_	34	case	_	_
-33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	INMWE=Yes
+34	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	MWEPOS=NOUN
 35	de	de	ADP	_	_	37	case	_	_
 36	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	37	det	_	_
 37	biographes	biographe	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	_
@@ -249857,8 +249857,8 @@
 
 # sent_id = fr-ud-train_08903
 # text = La plupart des recherches sur le sujet sont le fait d'Éric Palmer, biologiste français spécialisé dans la reproduction du cheval, qui a entre autres introduit l'échographie animale et fait naître le premier poulain par fécondation in vitro.
-1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	INMWE=Yes
+2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	MWEPOS=NOUN
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -249943,8 +249943,8 @@
 
 # sent_id = fr-ud-train_08905
 # text = La plupart de ses tiares sont des cadeaux de pays étrangers, par exemple, une tiare faite de diamants et d'aigues-marines a été donnée par le peuple du Brésil.
-1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	INMWE=Yes
+2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	MWEPOS=NOUN
 3	de	de	ADP	_	_	5	case	_	_
 4	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det	_	_
 5	tiares	tiare	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
@@ -268582,8 +268582,8 @@
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	dues	devoir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	conj	_	_
-17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	INMWE=Yes
+18	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	MWEPOS=NOUN
 19-20	du	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -279163,8 +279163,8 @@
 4	très	très	ADV	_	_	5	advmod	_	_
 5	important	important	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 6	dans	dans	ADP	_	_	8	case	_	_
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	INMWE=Yes
+8	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	MWEPOS=NOUN
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
@@ -285460,8 +285460,8 @@
 26	douce	doux	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
 28	pour	pour	ADP	_	_	30	case	_	_
-29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	INMWE=Yes
+30	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	MWEPOS=NOUN
 31	de	de	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	famille	famille	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
@@ -289540,8 +289540,8 @@
 
 # sent_id = fr-ud-train_10360
 # text = La plupart des travaux concernent des situations liées aux pays du Sud, malgré le développement récent de recherches sur les pays industrialisés.
-1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	INMWE=Yes
+2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	MWEPOS=NOUN
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -290032,8 +290032,8 @@
 6	membres	membre	NOUN	_	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
 7	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
 8	pour	pour	ADP	_	_	10	case	_	_
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	INMWE=Yes
+10	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	MWEPOS=NOUN
 11	condamnés	condamner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 12	à	à	ADP	_	_	13	case	_	_
 13	mort	mort	NOUN	_	Gender=Fem|Number=Sing	11	obl:arg	_	_
@@ -291427,8 +291427,8 @@
 2	Columbus	Columbus	PROPN	_	_	1	flat:name	_	_
 3	réalise	réaliser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	INMWE=Yes
+6	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	MWEPOS=NOUN
 7-8	des	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
@@ -296513,8 +296513,8 @@
 23	Château	château	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	16	punct	_	_
 25	remployant	remployer	VERB	_	Tense=Pres|VerbForm=Part	16	advcl	_	_
-26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	INMWE=Yes
+27	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	MWEPOS=NOUN
 28-29	des	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
@@ -327202,8 +327202,8 @@
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	présents	présent	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 4	dans	dans	ADP	_	_	6	case	_	_
-5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	INMWE=Yes
+6	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	MWEPOS=NOUN
 7-8	des	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
@@ -333658,8 +333658,8 @@
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	vie	vie	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
 18	dans	dans	ADP	_	_	20	case	_	_
-19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	INMWE=Yes
+20	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	MWEPOS=NOUN
 21-22	des	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
@@ -349730,8 +349730,8 @@
 # sent_id = fr-ud-train_12525
 # text = Comme la plupart des régimes similaires, le régime du 4 août adopta un programme fortement nationaliste.
 1	Comme	comme	ADP	_	_	3	case	_	_
-2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	MWEPOS=NOUN
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
@@ -354094,8 +354094,8 @@
 6	organisés	organisé	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	19	punct	_	_
 8	pour	pour	ADP	_	_	10	case	_	_
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	INMWE=Yes
+10	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	MWEPOS=NOUN
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
@@ -385534,8 +385534,8 @@
 5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
 6	découverts	découvrir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	INMWE=Yes
+9	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	MWEPOS=NOUN
 10	se	se	PRON	_	Person=3|PronType=Prs	11	expl:pass	_	_
 11	trouvant	trouver	VERB	_	Tense=Pres|VerbForm=Part	6	advcl	_	_
 12	dans	dans	ADP	_	_	14	case	_	_
@@ -388399,8 +388399,8 @@
 2	mettra	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	_	_	4	case	_	_
 4	scène	scène	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
-5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	INMWE=Yes
+6	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	MWEPOS=NOUN
 7	de	de	ADP	_	_	9	case	_	_
 8	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	_
 9	spectacles	spectacle	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
@@ -394305,8 +394305,8 @@
 43	XVIIIe	XVIIIe	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	44	amod	_	_
 44	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	12	punct	_	_
-46	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
-47	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	55	nsubj	_	_
+46	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	INMWE=Yes
+47	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	55	nsubj	_	MWEPOS=NOUN
 48-49	des	_	_	_	_	_	_	_	_
 48	de	de	ADP	_	_	50	case	_	_
 49	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
@@ -399182,8 +399182,8 @@
 # text = Contrairement à la plupart des gestionnaires des équipes d'expansion, le directeur général des Islanders, Bill Torrey n'a pas fait de nombreuses tractations pour obtenir de grands joueurs durant ces premières années.
 1	Contrairement	contrairement	ADV	_	_	4	advmod	_	_
 2	à	à	ADP	_	_	4	case	_	_
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	INMWE=Yes
+4	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	MWEPOS=NOUN
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
@@ -406337,8 +406337,8 @@
 37	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
 38	hostilité	hostilité	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	_
 39	de	de	ADP	_	_	41	case	_	_
-40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	_
+40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	INMWE=Yes
+41	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	MWEPOS=NOUN
 42-43	des	_	_	_	_	_	_	_	_
 42	de	de	ADP	_	_	44	case	_	_
 43	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
@@ -407112,8 +407112,8 @@
 
 # sent_id = fr-ud-train_14536
 # text = La plupart des pièces de Labiche ont été publiées de façon séparée et en recueils.
-1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	INMWE=Yes
+2	plupart	plupart	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	MWEPOS=NOUN
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
