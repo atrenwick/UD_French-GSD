@@ -105864,8 +105864,8 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	confession	confession	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
-14	à	à	ADP	_	_	15	case	_	_
-15	peine	peine	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	_
+14	à	à	ADP	_	_	15	case	_	INMWE=Yes
+15	peine	peine	NOUN	_	Gender=Fem|Number=Sing	16	advmod	_	MWEPOS=ADV
 16	camouflé	camoufler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	9	punct	_	_
 18	pour	pour	ADP	_	_	19	mark	_	_
@@ -142434,8 +142434,8 @@
 
 # sent_id = fr-ud-train_05097
 # text = A peine libéré, il s'enrôle dans les armées de Charles-Quint et est gravement blessé à la bataille de Pavie en 1525.
-1	A	à	ADP	_	_	2	case	_	_
-2	peine	peine	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
+1	A	à	ADP	_	_	2	case	_	INMWE=Yes
+2	peine	peine	NOUN	_	Gender=Fem|Number=Sing	3	advmod	_	MWEPOS=ADV
 3	libéré	libérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -153850,8 +153850,8 @@
 11	tous	tout	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
 12	deux	deux	PRON	_	Number=Plur	13	nsubj	_	_
 13	baragouinent	baragouiner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-14	à	à	ADP	_	_	15	case	_	_
-15	peine	peine	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
+14	à	à	ADP	_	_	15	case	_	INMWE=Yes
+15	peine	peine	NOUN	_	Gender=Fem|Number=Sing	13	advmod	_	MWEPOS=ADV
 16	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	anglais	anglais	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
 18	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
@@ -192488,12 +192488,12 @@
 23	1848	1848	NUM	_	_	22	nmod	_	SpaceAfter=No
 24	--	--	PUNCT	_	_	26	punct	_	SpaceAfter=No
 25	4	4	NUM	_	_	26	nummod	_	_
-26	jours	jour	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
-27	à	à	ADP	_	_	28	case	_	_
-28	peine	peine	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+26	jours	jour	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
+27	à	à	ADP	_	_	28	case	_	INMWE=Yes
+28	peine	peine	NOUN	_	Gender=Fem|Number=Sing	26	advmod	_	MWEPOS=ADV
 29	après	après	ADP	_	_	31	case	_	_
 30	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
-31	abdication	abdication	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+31	abdication	abdication	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
 32-33	du	_	_	_	_	_	_	_	_
 32	de	de	ADP	_	_	34	case	_	_
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -240764,8 +240764,8 @@
 27	typiquement	typiquement	ADV	_	_	28	advmod	_	_
 28	germaniques	germanique	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	_
 29	et	et	CCONJ	_	_	32	cc	_	_
-30	à	à	ADP	_	_	31	case	_	_
-31	peine	peine	NOUN	_	Gender=Fem|Number=Sing	32	obl:mod	_	_
+30	à	à	ADP	_	_	31	case	_	INMWE=Yes
+31	peine	peine	NOUN	_	Gender=Fem|Number=Sing	32	advmod	_	MWEPOS=ADV
 32	francisés	franciser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	28	conj	_	_
 33	(	(	PUNCT	_	_	34	punct	_	SpaceAfter=No
 34	Audinghen	Audinghen	PROPN	_	_	18	appos	_	SpaceAfter=No
@@ -357756,8 +357756,8 @@
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
 15	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
-16	à	à	ADP	_	_	17	case	_	_
-17	peine	peine	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
+16	à	à	ADP	_	_	17	case	_	INMWE=Yes
+17	peine	peine	NOUN	_	Gender=Fem|Number=Sing	15	advmod	_	MWEPOS=ADV
 18	d'	de	ADP	_	_	20	mark	_	SpaceAfter=No
 19	être	être	AUX	_	VerbForm=Inf	20	aux:pass	_	_
 20	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	xcomp	_	SpaceAfter=No
@@ -398678,12 +398678,12 @@
 23	points	point	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
 24	mérités	mériter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
 25	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
-26	à	à	ADP	_	_	27	case	_	_
-27	peine	peine	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
-28	1,67	1,67	NUM	_	_	24	obl:mod	_	_
+26	à	à	ADP	_	_	27	case	_	INMWE=Yes
+27	peine	peine	NOUN	_	Gender=Fem|Number=Sing	28	advmod	_	MWEPOS=ADV
+28	1,67	1,67	NUM	_	_	21	nmod	_	_
 29	en	en	ADP	_	_	31	case	_	_
 30	81	81	NUM	_	_	31	nummod	_	_
-31	manches	manche	NOUN	_	Gender=Fem|Number=Plur	24	obl	_	_
+31	manches	manche	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
 32	lancées	lancer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	acl	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	19	punct	_	_
 34	avec	avec	ADP	_	_	36	case	_	_
@@ -404838,8 +404838,8 @@
 22	année	année	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 23	1999	1999	NUM	_	_	22	nmod	_	_
 24	et	et	CCONJ	_	_	27	cc	_	_
-25	à	à	ADP	_	_	26	case	_	_
-26	peine	peine	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
+25	à	à	ADP	_	_	26	case	_	INMWE=Yes
+26	peine	peine	NOUN	_	Gender=Fem|Number=Sing	27	advmod	_	MWEPOS=ADV
 27	plus	plus	ADV	_	_	13	conj	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	2	2	NUM	_	_	30	nummod	_	_
