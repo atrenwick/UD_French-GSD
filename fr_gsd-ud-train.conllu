@@ -60969,9 +60969,9 @@
 # sent_id = fr-ud-train_02171
 # text = Mais par dessus tout, il nous a vraiment encouragé à découvrir ce pays et ses habitants.
 1	Mais	mais	CCONJ	_	_	10	cc	_	_
-2	par	par	ADP	_	_	10	advmod	_	_
-3	dessus	dessus	ADV	_	_	2	fixed	_	_
-4	tout	tout	PRON	_	Gender=Masc|Number=Sing	2	fixed	_	SpaceAfter=No
+2	par	par	ADP	_	_	3	case	_	INMWE=Yes
+3	dessus	dessus	ADV	_	_	4	case	_	MWEPOS=ADP
+4	tout	tout	PRON	_	Gender=Masc|Number=Sing	10	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 7	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	10	obj	_	_
@@ -76707,8 +76707,8 @@
 32	considère	considérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
 33	comme	comme	ADP	_	_	34	expl	_	_
 34	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	xcomp	_	_
-35	d'	de	ADP	_	_	36	case	_	SpaceAfter=No
-36	avance	avance	NOUN	_	Gender=Fem|Number=Sing	34	obl:mod	_	SpaceAfter=No
+35	d'	de	ADP	_	_	36	case	_	INMWE=Yes|SpaceAfter=No
+36	avance	avance	NOUN	_	Gender=Fem|Number=Sing	34	advmod	_	MWEPOS=ADV|SpaceAfter=No
 37	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_02725
@@ -80396,9 +80396,9 @@
 # sent_id = fr-ud-train_02857
 # text = Au demeurant, il n'a pas de prise sur les affaires diplomatiques de son pays, gérées depuis l'Elysée par Jean-David Levitte et Claudé Guéant.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	7	advmod	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
-3	demeurant	demeurer	VERB	_	Tense=Pres|VerbForm=Part	1	fixed	_	SpaceAfter=No
+1	à	à	ADP	_	_	3	case	_	INMWE=Yes
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	demeurant	demeurer	VERB	_	Tense=Pres|VerbForm=Part	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 6	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
@@ -103808,9 +103808,9 @@
 16	et	et	CCONJ	_	_	24	cc	_	_
 17	rien	rien	PRON	_	Number=Sing	24	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	24	punct	_	_
-19	pour	pour	ADP	_	_	24	advmod	_	_
-20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	fixed	_	SpaceAfter=No
-21	heure	heure	NOUN	_	Gender=Fem|Number=Sing	19	fixed	_	SpaceAfter=No
+19	pour	pour	ADP	_	_	21	case	_	INMWE=Yes
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	INMWE=Yes|SpaceAfter=No
+21	heure	heure	NOUN	_	Gender=Fem|Number=Sing	24	advmod	_	MWEPOS=ADV|SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	_
 23	ne	ne	ADV	_	Polarity=Neg	24	advmod	_	_
 24	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
@@ -173370,8 +173370,8 @@
 6	élection	élection	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
 8	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	d'	de	ADP	_	_	8	advmod	_	SpaceAfter=No
-10	avance	avance	NOUN	_	Gender=Fem|Number=Sing	9	fixed	_	_
+9	d'	de	ADP	_	_	10	case	_	INMWE=Yes|SpaceAfter=No
+10	avance	avance	NOUN	_	Gender=Fem|Number=Sing	8	advmod	_	MWEPOS=ADV
 11	»	»	PUNCT	_	_	8	punct	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -212588,8 +212588,8 @@
 50	Gadret	Gadret	PROPN	_	_	49	flat:name	_	_
 51	qui	qui	PRON	_	PronType=Rel	52	nsubj	_	_
 52	accepte	accepter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	acl:relcl	_	_
-53	d'	de	ADP	_	_	54	case	_	SpaceAfter=No
-54	avance	avance	NOUN	_	Gender=Fem|Number=Sing	52	obl:mod	_	_
+53	d'	de	ADP	_	_	54	case	_	INMWE=Yes|SpaceAfter=No
+54	avance	avance	NOUN	_	Gender=Fem|Number=Sing	52	advmod	_	MWEPOS=ADV
 55	de	de	ADP	_	_	56	mark	_	_
 56	jouer	jouer	VERB	_	VerbForm=Inf	52	xcomp	_	_
 57	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
@@ -315118,8 +315118,8 @@
 14	Marshall	Marshall	PROPN	_	_	13	appos	_	_
 15	et	et	CCONJ	_	_	16	cc	_	_
 16	mesure	mesurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-17	jusqu'	jusque	ADV	_	_	19	advmod	_	SpaceAfter=No
-18	à	à	ADP	_	_	17	fixed	_	_
+17	jusqu'	jusque	ADV	_	_	20	advmod	_	SpaceAfter=No
+18	à	à	ADP	_	_	20	case	_	_
 19	13	13	NUM	_	_	20	nummod	_	_
 20	cm	cm	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
