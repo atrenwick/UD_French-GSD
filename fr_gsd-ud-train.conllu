@@ -70209,15 +70209,15 @@
 
 # sent_id = fr-ud-train_02495
 # text = C'est pourquoi les créations ne sont pas exemptent de son catalogue et la formation souhaite promouvoir tous les styles de musique et en particulier la musique militaire traditionnelle.
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pourquoi	pourquoi	ADV	_	_	9	advmod	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	INMWE=Yes|SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	INMWE=Yes
+3	pourquoi	pourquoi	ADV	_	_	9	advmod	_	MWEPOS=ADV
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	créations	création	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
 6	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	_
 7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
-9	exemptent	exempt	ADJ	_	Gender=Fem|Number=Plur	2	advcl	_	_
+9	exemptent	exempt	ADJ	_	Gender=Fem|Number=Plur	2	advcl	_	Correct=exemptes
 10	de	de	ADP	_	_	12	case	_	_
 11	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
 12	catalogue	catalogue	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
@@ -135083,12 +135083,12 @@
 
 # sent_id = fr-ud-train_04834
 # text = C'est pourquoi il sera appelé « Siegfried », c'est-à-dire « Le joyeux vainqueur ».
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pourquoi	pourquoi	SCONJ	_	_	6	mark	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	INMWE=Yes|SpaceAfter=No
+2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	INMWE=Yes
+3	pourquoi	pourquoi	ADV	_	_	6	advmod	_	MWEPOS=ADV
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 5	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
-6	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+6	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	«	«	PUNCT	_	_	8	punct	_	_
 8	Siegfried	Siegfried	PROPN	_	_	6	xcomp	_	_
 9	»	»	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -258173,12 +258173,12 @@
 
 # sent_id = fr-ud-train_09204
 # text = C'est pourquoi nous avons choisi de dévoiler ces techniques trop souvent méconnues qui contribuent à illustrer nos livres en noir ou en couleurs.
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pourquoi	pourquoi	ADV	_	_	6	mark	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	INMWE=Yes|SpaceAfter=No
+2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	INMWE=Yes
+3	pourquoi	pourquoi	ADV	_	_	6	advmod	_	MWEPOS=ADV
 4	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
 5	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
-6	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
+6	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	de	de	ADP	_	_	8	mark	_	_
 8	dévoiler	dévoiler	VERB	_	VerbForm=Inf	6	xcomp	_	_
 9	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
@@ -317983,9 +317983,9 @@
 
 # sent_id = fr-ud-train_11390
 # text = C'est pourquoi les riches bourgeois, par opposition à l'aristocratie fortunée, ont pu faire un don important à la République Sérénissime, achetant ainsi des lettres de noblesse pour avoir leur nom inscrits dans le Libro d'Oro (le « Livre d'or ").
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
-3	pourquoi	pourquoi	ADV	_	_	2	advmod	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	INMWE=Yes|SpaceAfter=No
+2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	INMWE=Yes
+3	pourquoi	pourquoi	ADV	_	_	16	advmod	_	MWEPOS=ADV
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 5	riches	riche	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
 6	bourgeois	bourgeois	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No
@@ -318809,9 +318809,9 @@
 
 # sent_id = fr-ud-train_11420
 # text = C'est pourquoi on a essayé de les définir comme sous-espèces ».
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	pourquoi	pourquoi	ADV	_	_	0	root	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	INMWE=Yes|SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	INMWE=Yes
+3	pourquoi	pourquoi	ADV	_	_	6	advmod	_	MWEPOS=ADV
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	essayé	essayer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
@@ -357185,9 +357185,9 @@
 
 # sent_id = fr-ud-train_12782
 # text = C'est pourquoi les linebackers sont de taille moyenne (entre 1,82 m et 1,93 m) pour un poids moyen de 110 kg environ.
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	nsubj	_	SpaceAfter=No
-2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pourquoi	pourquoi	ADV	_	_	8	advmod	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	INMWE=Yes|SpaceAfter=No
+2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	INMWE=Yes
+3	pourquoi	pourquoi	ADV	_	_	8	advmod	_	MWEPOS=ADV
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	linebackers	linebacker	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -375840,9 +375840,9 @@
 
 # sent_id = fr-ud-train_13419
 # text = C'est pourquoi le positionnement d'une marque s'appuie sur les besoins, les attentes fondamentales, conscientes ou non des consommateurs définis par le marketing mix (Marketing mix).
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	pourquoi	pourquoi	ADV	_	_	0	root	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	INMWE=Yes|SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	INMWE=Yes
+3	pourquoi	pourquoi	ADV	_	_	10	advmod	_	MWEPOS=ADV
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	positionnement	positionnement	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
