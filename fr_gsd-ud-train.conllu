@@ -48771,7 +48771,7 @@
 3	six	six	NUM	_	_	4	nummod	_	_
 4	années	année	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 5	après	après	ADP	_	_	6	case	_	_
-6	Charlotte	Charlotte	PROPN	_	_	4	nmod	_	SpaceAfter=No
+6	Charlotte	Charlotte	PROPN	_	_	2	obl:mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	84	84	NUM	_	_	10	nummod	_	_
@@ -70217,7 +70217,7 @@
 6	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	_
 7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
-9	exemptent	exempt	ADJ	_	Gender=Fem|Number=Plur	2	advcl	_	Correct=exemptes
+9	exemptent	exempt	ADJ	_	Gender=Fem|Number=Plur	0	root	_	Correct=exemptes
 10	de	de	ADP	_	_	12	case	_	_
 11	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
 12	catalogue	catalogue	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
@@ -318814,7 +318814,7 @@
 3	pourquoi	pourquoi	ADV	_	_	6	advmod	_	MWEPOS=ADV
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-6	essayé	essayer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+6	essayé	essayer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	de	de	ADP	_	_	9	mark	_	_
 8	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	9	obj	_	_
 9	définir	définir	VERB	_	VerbForm=Inf	6	xcomp	_	_
@@ -357192,7 +357192,7 @@
 5	linebackers	linebacker	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	de	de	ADP	_	_	8	case	_	_
-8	taille	taille	NOUN	_	Gender=Fem|Number=Sing	2	ccomp	_	_
+8	taille	taille	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 9	moyenne	moyen	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
 10	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 11	entre	entre	ADP	_	_	13	case	_	_
@@ -375849,7 +375849,7 @@
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	marque	marque	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
 9	s'	se	PRON	_	Person=3|PronType=Prs	10	expl:pass	_	SpaceAfter=No
-10	appuie	appuyer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+10	appuie	appuyer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	sur	sur	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	besoins	besoin	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
