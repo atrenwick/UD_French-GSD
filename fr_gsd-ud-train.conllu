@@ -25927,8 +25927,8 @@
 
 # sent_id = fr-ud-train_00913
 # text = En tout 10 pays seront représentés.
-1	En	en	ADP	_	_	2	case	_	_
-2	tout	tout	ADV	_	_	6	advmod	_	_
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	tout	tout	ADV	_	_	6	advmod	_	MWEPOS=ADV
 3	10	10	NUM	_	_	4	nummod	_	_
 4	pays	pays	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 5	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
@@ -67199,8 +67199,8 @@
 8	que	que	SCONJ	_	_	15	mark	_	_
 9	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	nsubj	_	SpaceAfter=No
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
-11	en	en	ADP	_	_	12	case	_	_
-12	fait	fait	NOUN	_	Gender=Masc|Number=Sing	15	advmod	_	_
+11	en	en	ADP	_	_	12	case	_	INMWE=Yes
+12	fait	fait	NOUN	_	Gender=Masc|Number=Sing	15	advmod	_	MWEPOS=ADV
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	grand	grand	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 15	vase	vase	NOUN	_	Gender=Masc|Number=Sing	7	ccomp	_	_
@@ -77918,8 +77918,8 @@
 6	que	que	SCONJ	_	_	12	mark	_	_
 7	Bacchus	Bacchus	PROPN	_	_	12	nsubj	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-9	en	en	ADP	_	_	10	case	_	_
-10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	12	advmod	_	_
+9	en	en	ADP	_	_	10	case	_	INMWE=Yes
+10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	12	advmod	_	MWEPOS=ADV
 11	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	objet	objet	NOUN	_	Gender=Masc|Number=Sing	5	ccomp	_	_
 13	de	de	ADP	_	_	15	case	_	_
@@ -123375,8 +123375,8 @@
 # text = Elle joue en tout onze pièces.
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	joue	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	en	en	ADP	_	_	4	case	_	_
-4	tout	tout	ADV	_	_	2	advmod	_	_
+3	en	en	ADP	_	_	4	case	_	INMWE=Yes
+4	tout	tout	ADV	_	_	2	advmod	_	MWEPOS=ADV
 5	onze	onze	NUM	_	_	6	nummod	_	_
 6	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -145997,8 +145997,8 @@
 26	de	de	ADP	_	_	27	case	_	_
 27	Vigata	Vigata	PROPN	_	_	22	nmod	_	_
 28	(	(	PUNCT	_	_	31	punct	_	SpaceAfter=No
-29	en	en	ADP	_	_	30	case	_	_
-30	fait	fait	NOUN	_	Gender=Masc|Number=Sing	31	advmod	_	_
+29	en	en	ADP	_	_	30	case	_	INMWE=Yes
+30	fait	fait	NOUN	_	Gender=Masc|Number=Sing	31	advmod	_	MWEPOS=ADV
 31	Porto	Porto	PROPN	_	_	27	appos	_	_
 32	Empedocle	Empedocle	PROPN	_	_	31	flat:name	_	SpaceAfter=No
 33	)	)	PUNCT	_	_	31	punct	_	SpaceAfter=No
@@ -252993,8 +252993,8 @@
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	centre	centre	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
-18	en	en	ADP	_	_	19	case	_	_
-19	fait	fait	NOUN	_	Gender=Masc|Number=Sing	22	advmod	_	_
+18	en	en	ADP	_	_	19	case	_	INMWE=Yes
+19	fait	fait	NOUN	_	Gender=Masc|Number=Sing	22	advmod	_	MWEPOS=ADV
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	double	double	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
 22	portail	portail	NOUN	_	Gender=Masc|Number=Sing	9	advcl	_	SpaceAfter=No
@@ -306842,8 +306842,8 @@
 13	GIEC	GIEC	PROPN	_	_	20	nsubj	_	_
 14	n'	ne	ADV	_	Polarity=Neg	20	advmod	_	SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
-16	en	en	ADP	_	_	17	case	_	_
-17	fait	fait	NOUN	_	Gender=Masc|Number=Sing	20	advmod	_	_
+16	en	en	ADP	_	_	17	case	_	INMWE=Yes
+17	fait	fait	NOUN	_	Gender=Masc|Number=Sing	20	advmod	_	MWEPOS=ADV
 18	qu'	que	SCONJ	_	_	20	expl	_	SpaceAfter=No
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	10	ccomp	_	_
@@ -337624,8 +337624,8 @@
 
 # sent_id = fr-ud-train_12100
 # text = En tout, 42.866 entreprises nouvelles ont vu le jour le mois dernier.
-1	En	en	ADP	_	_	8	advmod	_	_
-2	tout	tout	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	tout	tout	NOUN	_	Gender=Masc|Number=Sing	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	42.866	42.866	NUM	_	_	5	nummod	_	_
 5	entreprises	entreprise	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
@@ -346898,8 +346898,8 @@
 
 # sent_id = fr-ud-train_12421
 # text = En fait c'est bien le Maroc qui est et qui reste le grand perdant.
-1	En	en	ADP	_	_	2	case	_	_
-2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	advmod	_	_
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	advmod	_	MWEPOS=ADV
 3	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	bien	bien	ADV	_	_	7	advmod	_	_
@@ -353807,8 +353807,8 @@
 
 # sent_id = fr-ud-train_12654
 # text = En tout, sept empreintes digitales non identifiées sont retrouvées sur les lieux.
-1	En	en	ADP	_	_	10	advmod	_	_
-2	tout	tout	PRON	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	tout	tout	NOUN	_	Gender=Masc|Number=Sing	10	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	10	punct	_	_
 4	sept	sept	NUM	_	_	5	nummod	_	_
 5	empreintes	empreinte	NOUN	_	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
@@ -385020,8 +385020,8 @@
 
 # sent_id = fr-ud-train_13738
 # text = En fait, il est dans notre intérêt de choisir quelqu'un qui a le profil approprié.
-1	En	en	ADP	_	_	2	case	_	_
-2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	8	advmod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	8	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
