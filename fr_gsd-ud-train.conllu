@@ -170846,8 +170846,8 @@
 18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 19	y	y	PRON	_	_	20	expl	_	_
 20	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-21	pas	pas	ADV	_	_	20	obj	_	_
-22	mal	mal	ADV	_	_	21	fixed	_	_
+21	pas	pas	ADV	_	_	22	advmod	_	INMWE=Yes
+22	mal	mal	ADV	_	_	20	obj	_	MWEPOS=ADV
 23	de	de	ADP	_	_	24	case	_	_
 24	bruit	bruit	NOUN	_	Gender=Masc|Number=Sing	21	obl:arg	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	20	punct	_	_
@@ -263049,8 +263049,8 @@
 6	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 7	se	se	PRON	_	Person=3|PronType=Prs	8	expl	_	_
 8	fichent	ficher	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-9	pas	pas	ADV	_	_	8	advmod	_	_
-10	mal	mal	ADV	_	_	9	fixed	_	_
+9	pas	pas	ADV	_	_	10	advmod	_	INMWE=Yes
+10	mal	mal	ADV	_	_	8	advmod	_	MWEPOS=ADV
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
