@@ -35816,8 +35816,8 @@
 # text = L'entrée en bas du gouffre est vraiment surprenante.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	entrée	entrée	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
-3	en	en	ADP	_	_	4	case	_	_
-4	bas	bas	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+3	en	en	ADP	_	_	4	case	_	INMWE=Yes
+4	bas	bas	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV
 5-6	du	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -69523,9 +69523,9 @@
 22	'	'	PUNCT	_	_	24	punct	_	SpaceAfter=No
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	secousse	secousse	NOUN	_	Gender=Fem|Number=Sing	18	appos	_	_
-25	d'	de	ADP	_	_	26	case	_	SpaceAfter=No
-26	en	en	ADP	_	_	24	nmod	_	_
-27	bas	bas	NOUN	_	Gender=Masc|Number=Sing	26	fixed	_	SpaceAfter=No
+25	d'	de	ADP	_	_	27	case	_	SpaceAfter=No
+26	en	en	ADP	_	_	27	case	_	INMWE=Yes
+27	bas	bas	NOUN	_	Gender=Masc|Number=Sing	24	advmod	_	MWEPOS=ADV|SpaceAfter=No
 28	'	'	PUNCT	_	_	24	punct	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	32	punct	_	_
 30	dans	dans	ADP	_	_	32	case	_	_
@@ -148699,8 +148699,8 @@
 
 # sent_id = fr-ud-train_05322
 # text = En bas, les deux branches de laurier sont unies par un ruban bleu, avec au-dessus, un autre ruban or sur lequel figure la devise "DIOS, UNIÓN, LIBERTAD" qui concretise la croyance en un Pouvoir Supérieur qui gouverne tout, l'unité et l'armonie qu'exige la marche de la famille salvadorienne vers un destin meilleur et l'esprit de liberté indomptable du peuple, qui a préféré une lutte inégale et la mort à l'invasion étrangère.
-1	En	en	ADP	_	_	2	case	_	_
-2	bas	bas	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	case	_	INMWE=Yes
+2	bas	bas	NOUN	_	Gender=Masc|Number=Sing	10	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 5	deux	deux	NUM	_	_	6	nummod	_	_
@@ -161033,8 +161033,8 @@
 7	sagesse	sagesse	NOUN	_	Gender=Fem|Number=Sing	4	xcomp	_	_
 8	venue	venir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
 9	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
-10	en	en	ADP	_	_	11	case	_	_
-11	haut	haut	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	_
+10	en	en	ADP	_	_	11	case	_	INMWE=Yes
+11	haut	haut	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	MWEPOS=ADV
 12	donnée	donner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
 13-14	aux	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
@@ -172147,8 +172147,8 @@
 14	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	aux:pass	_	_
 15	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
 16	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
-17	en	en	ADP	_	_	18	case	_	_
-18	haut	haut	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
+17	en	en	ADP	_	_	18	case	_	INMWE=Yes
+18	haut	haut	NOUN	_	Gender=Masc|Number=Sing	15	advmod	_	MWEPOS=ADV
 19	»	»	PUNCT	_	_	4	punct	_	_
 20	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 21	Jésus	Jésus	PROPN	_	_	20	nsubj	_	_
@@ -186650,8 +186650,8 @@
 9	ou	ou	CCONJ	_	_	11	cc	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	haut	haut	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
-12	en	en	ADP	_	_	13	case	_	_
-13	bas	bas	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+12	en	en	ADP	_	_	13	case	_	INMWE=Yes
+13	bas	bas	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV
 14	en	en	ADP	_	_	16	mark	_	_
 15	s'	se	PRON	_	Person=3|PronType=Prs	16	expl	_	SpaceAfter=No
 16	accroupissant	accroupir	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	SpaceAfter=No
@@ -262266,8 +262266,8 @@
 8	se	se	PRON	_	Person=3|PronType=Prs	9	expl:pass	_	_
 9	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	tout	tout	ADV	_	_	12	advmod	_	_
-11	en	en	ADP	_	_	12	case	_	_
-12	haut	haut	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+11	en	en	ADP	_	_	12	case	_	INMWE=Yes
+12	haut	haut	NOUN	_	Gender=Masc|Number=Sing	9	advmod	_	MWEPOS=ADV
 13	de	de	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	côte	côte	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
@@ -331863,8 +331863,8 @@
 35	d'	de	ADP	_	_	36	case	_	SpaceAfter=No
 36	immatriculation	immatriculation	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
 37	migre	migrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
-38	en	en	ADP	_	_	39	case	_	_
-39	haut	haut	NOUN	_	Gender=Masc|Number=Sing	37	obl	_	_
+38	en	en	ADP	_	_	39	case	_	INMWE=Yes
+39	haut	haut	NOUN	_	Gender=Masc|Number=Sing	37	advmod	_	MWEPOS=ADV
 40	à	à	ADP	_	_	41	case	_	_
 41	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	39	conj	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	1	punct	_	_
@@ -407734,8 +407734,8 @@
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	monde	monde	NOUN	_	Gender=Masc|Number=Sing	33	conj	_	_
 38	d'	de	ADP	_	_	40	case	_	SpaceAfter=No
-39	en	en	ADP	_	_	40	case	_	_
-40	haut	haut	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
+39	en	en	ADP	_	_	40	case	_	INMWE=Yes
+40	haut	haut	NOUN	_	Gender=Masc|Number=Sing	37	advmod	_	MWEPOS=ADV
 41	»	»	PUNCT	_	_	33	punct	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	9	punct	_	_
 
