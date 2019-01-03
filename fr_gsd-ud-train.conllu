@@ -11192,7 +11192,7 @@
 18	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
 19	expression	expression	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 20	Schuon	Schuon	PROPN	_	_	22	nsubj	_	_
-21	y	y	PRON	_	_	22	obl	_	_
+21	y	y	PRON	_	_	22	advmod	_	_
 22	aborde	aborder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
 24	grandes	grand	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
@@ -23807,7 +23807,7 @@
 26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	5	punct	_	_
 28	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	30	nsubj	_	_
-29	y	y	PRON	_	_	30	expl	_	_
+29	y	y	PRON	_	_	30	iobj	_	_
 30	retournera	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	parataxis	_	_
 31	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	33	nsubj	_	SpaceAfter=No
 32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
@@ -84332,7 +84332,7 @@
 19	,	,	PUNCT	_	_	14	punct	_	_
 20	mais	mais	CCONJ	_	_	23	cc	_	_
 21	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	SpaceAfter=No
-22	y	y	PRON	_	_	23	expl	_	_
+22	y	y	PRON	_	_	23	iobj	_	_
 23	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_
 24	surtout	surtout	ADV	_	_	23	advmod	_	_
 25	pour	pour	ADP	_	_	27	case	_	_
@@ -88534,7 +88534,7 @@
 3	du	du	DET	_	Gender=Masc|Number=Sing	2	fixed	_	_
 4	mal	mal	NOUN	_	Gender=Masc|Number=Sing	2	fixed	_	_
 5	à	à	ADP	_	_	7	mark	_	_
-6	y	y	PRON	_	_	7	obj	_	_
+6	y	y	PRON	_	_	7	iobj	_	_
 7	croire	croire	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 8	...	...	PUNCT	_	_	2	punct	_	_
 9	J'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
@@ -153733,7 +153733,7 @@
 2	pourtant	pourtant	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	à	à	ADP	_	_	6	mark	_	_
-5	y	y	PRON	_	_	6	obj	_	_
+5	y	y	PRON	_	_	6	iobj	_	_
 6	regarder	regarder	VERB	_	VerbForm=Inf	13	advcl	_	_
 7	de	de	ADP	_	_	9	case	_	_
 8	plus	plus	ADV	_	_	9	advmod	_	_
@@ -169666,11 +169666,11 @@
 2	revendre	revendre	VERB	_	VerbForm=Inf	0	root	_	_
 3	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
 4	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	advmod	_	_
-6	y	y	PRON	_	_	5	fixed	_	_
-7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	fixed	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	INMWE=Yes
+6	y	y	PRON	_	_	7	expl	_	INMWE=Yes
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	case	_	MWEPOS=ADP
 8	6	6	NUM	_	_	9	nummod	_	_
-9	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	_
+9	ans	an	NOUN	_	Gender=Masc|Number=Plur	2	obl:mod	_	_
 10	et	et	CCONJ	_	_	13	cc	_	_
 11	aujourd'hui	aujourd'hui	ADV	_	_	13	advmod	_	_
 12	en	en	PRON	_	Person=3	15	nmod	_	_
@@ -177925,7 +177925,7 @@
 # sent_id = fr-ud-train_06368
 # text = Pour y avoir fait mon cours il y a quelques années, je peux dire que la qualité de l'enseignement que j'y ai reçu a été d'un grand professionnalisme et m'a permis d'acquérir les compétences nécessaires pour obtenir un emploi rapidement et une carrière remplie d'opportunités des plus enrichissantes.
 1	Pour	pour	ADP	_	_	4	case	_	_
-2	y	y	PRON	_	_	4	nsubj	_	_
+2	y	y	PRON	_	_	4	advmod	_	_
 3	avoir	avoir	AUX	_	VerbForm=Inf	4	aux	_	_
 4	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
 5	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
@@ -256626,11 +256626,11 @@
 2	que	que	PRON	_	PronType=Rel	4	obj	_	_
 3	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 4	recherchions	rechercher	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
-5	y	y	PRON	_	_	0	root	_	_
-6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
-7	:	:	PUNCT	_	_	5	punct	_	_
+5	y	y	PRON	_	_	iobj	5	_	_
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	:	:	PUNCT	_	_	6	punct	_	_
 8	du	du	DET	_	Gender=Masc|Number=Sing	9	det	_	_
-9	calme	calme	NOUN	_	Gender=Masc|Number=Sing	5	dep	_	SpaceAfter=No
+9	calme	calme	NOUN	_	Gender=Masc|Number=Sing	6	parataxis	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	du	du	DET	_	Gender=Masc|Number=Sing	12	det	_	_
 12	vert	vert	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
@@ -256657,7 +256657,7 @@
 32	gérantes	gérant	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	_
 33	visiblement	visiblement	ADV	_	_	34	advmod	_	_
 34	nouvelles	nouveau	ADJ	_	Gender=Fem|Number=Plur	32	amod	_	SpaceAfter=No
-35	.	.	PUNCT	_	_	5	punct	_	_
+35	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_09149
 # text = L'art de masse vise-t-il à endormir les consciences ?
@@ -315436,7 +315436,7 @@
 24	,	,	PUNCT	_	_	2	punct	_	_
 25	puis	puis	SCONJ	_	_	28	cc	_	_
 26	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
-27	y	y	PRON	_	_	28	expl	_	_
+27	y	y	PRON	_	_	28	iobj	_	_
 28	ajoute	ajouter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 29	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
 30	accélération	accélération	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
@@ -319826,7 +319826,7 @@
 2	considérait	considérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	qu'	que	SCONJ	_	_	6	mark	_	SpaceAfter=No
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-5	y	y	PRON	_	_	6	expl	_	_
+5	y	y	PRON	_	_	6	advmod	_	_
 6	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -370815,7 +370815,7 @@
 2	plus	plus	ADV	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
-5	y	y	PRON	_	_	6	expl	_	_
+5	y	y	PRON	_	_	6	advmod	_	_
 6	répare	réparer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	bijoux	bijou	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
@@ -378011,7 +378011,7 @@
 26	avertis	averti	ADJ	_	Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	30	punct	_	_
 28	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	30	nsubj	_	_
-29	y	y	PRON	_	_	30	expl	_	_
+29	y	y	PRON	_	_	30	advmod	_	_
 30	trouverez	trouver	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	4	parataxis	_	_
 31	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	discours	discours	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
