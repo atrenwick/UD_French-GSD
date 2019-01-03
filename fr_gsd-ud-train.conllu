@@ -61931,7 +61931,7 @@
 33-34	au	_	_	_	_	_	_	_	_
 33	à	à	ADP	_	_	35	case	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	fond	fond	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
+35	fond	fond	NOUN	_	Gender=Masc|Number=Sing	39	obl:mod	_	_
 36	tout	tout	DET	_	Gender=Masc|Number=Sing	38	det	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	monde	monde	NOUN	_	Gender=Masc|Number=Sing	39	nsubj	_	_
@@ -393578,21 +393578,21 @@
 # sent_id = fr-ud-train_14050
 # text = Butt-Head est à la Highland Highschool, au fond de la classe avec Beavis, qu'il martyrise parfois même en plein cours, allant même jusqu'à lui jeter un crayon dans l'œil.
 1	Butt-Head	Butt-Head	PROPN	_	_	15	nsubj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Highland	Highland	PROPN	_	_	15	obl:mod	_	_
+5	Highland	Highland	PROPN	_	_	2	obl:arg	_	_
 6	Highschool	Highschool	PROPN	_	_	5	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	15	punct	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	fond	fond	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
+10	fond	fond	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	classe	classe	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 14	avec	avec	ADP	_	_	15	case	_	_
-15	Beavis	Beavis	PROPN	_	_	0	root	_	SpaceAfter=No
+15	Beavis	Beavis	PROPN	_	_	2	obl:mod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	qu'	que	PRON	_	PronType=Rel	19	obj	_	SpaceAfter=No
 18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
@@ -393614,7 +393614,7 @@
 34	dans	dans	ADP	_	_	36	case	_	_
 35	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
 36	œil	œil	NOUN	_	Gender=Masc|Number=Sing	31	obl:arg	_	SpaceAfter=No
-37	.	.	PUNCT	_	_	15	punct	_	_
+37	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_14051
 # text = Rue Tabaga & Couvre Feu est une association qui souhaite diversifier et développer la culture en milieu rural, en organisant notamment de nombreux concerts en Loire-Atlantique.
