@@ -9916,11 +9916,11 @@
 15	si	si	SCONJ	_	_	19	mark	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	vitrine	vitrine	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
-18	ne	ne	ADV	_	Polarity=Neg	19	advmod	_	_
-19	paie	payer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
-20	pas	pas	ADV	_	Polarity=Neg	19	advmod	_	_
-21	de	de	ADP	_	_	22	case	_	_
-22	mine	mine	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	SpaceAfter=No
+18	ne	ne	ADV	_	Polarity=Neg	19	advmod	_	INMWE=Yes
+19	paie	payer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	MWEPOS=VERB
+20	pas	pas	ADV	_	Polarity=Neg	19	advmod	_	INMWE=Yes
+21	de	de	ADP	_	_	22	case	_	INMWE=Yes
+22	mine	mine	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	INMWE=Yes|SpaceAfter=No
 23	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-train_00340
@@ -373874,11 +373874,11 @@
 3	simple	simple	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
-6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	_
-7	paye	payer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
-8	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
-9	de	de	ADP	_	_	7	advmod	_	_
-10	mine	mine	NOUN	_	Gender=Fem|Number=Sing	9	fixed	_	SpaceAfter=No
+6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	INMWE=Yes
+7	paye	payer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	MWEPOS=VERB
+8	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	INMWE=Yes
+9	de	de	ADP	_	_	7	advmod	_	INMWE=Yes
+10	mine	mine	NOUN	_	Gender=Fem|Number=Sing	9	fixed	_	INMWE=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	2	punct	_	_
 12	mais	mais	CCONJ	_	_	14	cc	_	_
 13	vraiment	vraiment	ADV	_	_	14	advmod	_	_
