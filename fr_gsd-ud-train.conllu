@@ -25836,9 +25836,9 @@
 14	bien	bien	ADV	_	_	12	conj	_	INMWE=Yes
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
-17	haut	haut	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
-18	de	de	ADP	_	_	19	case	_	_
-19	gamme	gamme	NOUN	_	Gender=Fem|Number=Sing	17	obl:arg	_	SpaceAfter=No
+17	haut	haut	NOUN	_	Gender=Masc|Number=Sing	16	amod	_	MWEPOS=ADJ
+18	de	de	ADP	_	_	19	case	_	INMWE=Yes
+19	gamme	gamme	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	INMWE=Yes|SpaceAfter=No
 20	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_00909
@@ -48037,9 +48037,9 @@
 5	outils	outil	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-8	haut	haut	NOUN	_	Gender=Masc|Number=Sing	5	amod	_	_
-9	de	de	ADP	_	_	8	fixed	_	_
-10	gamme	gamme	NOUN	_	Gender=Fem|Number=Sing	8	fixed	_	SpaceAfter=No
+8	haut	haut	NOUN	_	Gender=Masc|Number=Sing	5	amod	_	MWEPOS=ADJ
+9	de	de	ADP	_	_	10	case	_	INMWE=Yes
+10	gamme	gamme	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	INMWE=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	n'	ne	ADV	_	Polarity=Neg	13	advmod	_	SpaceAfter=No
 13	hésitez	hésiter	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -63798,8 +63798,8 @@
 7	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	professionnalisme	professionnalisme	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-10	hors	hors	ADP	_	_	9	amod	_	MWEPOS=ADJ
-11	pair	pair	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	SpaceAfter=No
+10	hors	hors	ADP	_	_	11	case	_	INMWE=Yes
+11	pair	pair	NOUN	_	Gender=Masc|Number=Sing	9	amod	_	MWEPOS=ADJ|SpaceAfter=No
 12	...	...	PUNCT	_	_	2	punct	_	_
 13	!	!	PUNCT	_	_	2	punct	_	_
 
@@ -114632,9 +114632,9 @@
 # text = Les scanners haut de gamme de Heidelberger Druckmaschinen, c'est-à-dire le Topaz, Tango, Nexscan et Chromagraph (3300 et 3400), dont des milliers sont encore en service, peuvent être utilisés même sur les systèmes d'exploitation récents.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	scanners	scanner	NOUN	_	Gender=Masc|Number=Plur	33	nsubj	_	_
-3	haut	haut	NOUN	_	_	2	amod	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	gamme	gamme	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+3	haut	haut	NOUN	_	_	2	amod	_	MWEPOS=ADJ
+4	de	de	ADP	_	_	5	case	_	INMWE=Yes
+5	gamme	gamme	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	INMWE=Yes
 6	de	de	ADP	_	_	7	case	_	_
 7	Heidelberger	Heidelberger	PROPN	_	_	2	nmod	_	_
 8	Druckmaschinen	Druckmaschinen	PROPN	_	_	7	flat:name	_	SpaceAfter=No
@@ -123701,9 +123701,9 @@
 2	à	à	ADP	_	_	1	fixed	_	INMWE=Yes
 3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	modèles	modèle	NOUN	_	Gender=Masc|Number=Plur	17	obl:mod	_	_
-5	haut	haut	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
-6	de	de	ADP	_	_	7	case	_	_
-7	gamme	gamme	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	SpaceAfter=No
+5	haut	haut	NOUN	_	Gender=Masc|Number=Sing	4	amod	_	MWEPOS=ADJ
+6	de	de	ADP	_	_	7	case	_	INMWE=Yes
+7	gamme	gamme	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	INMWE=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	17	punct	_	_
 9	Visa	Visa	PROPN	_	_	4	appos	_	_
 10	Premier	Premier	PROPN	_	_	9	flat:name	_	_
@@ -190340,9 +190340,9 @@
 3	cartes	carte	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
 4	graphiques	graphique	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 5	«	«	PUNCT	_	_	6	punct	_	_
-6	haut	haut	NOUN	_	Gender=Masc|Number=Sing	3	appos	_	_
-7	de	de	ADP	_	_	8	case	_	_
-8	gamme	gamme	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+6	haut	haut	NOUN	_	Gender=Masc|Number=Sing	3	amod	_	MWEPOS=ADJ
+7	de	de	ADP	_	_	8	case	_	INMWE=Yes
+8	gamme	gamme	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	INMWE=Yes
 9	»	»	PUNCT	_	_	6	punct	_	_
 10	utilisent	utiliser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	souvent	souvent	ADV	_	_	10	advmod	_	_
