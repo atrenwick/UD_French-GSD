@@ -46410,8 +46410,8 @@
 # sent_id = fr-ud-train_01639
 # text = Il a été ainsi qu'Arboleda a été jugé par la Cour et Villamizar est passé à des ordres du juge 53 pénitenciers du Circuit de Bogota.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	cop	_	_
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
 4	ainsi	ainsi	ADV	_	_	0	root	_	_
 5	qu'	que	SCONJ	_	_	9	mark	_	SpaceAfter=No
 6	Arboleda	Arboleda	PROPN	_	_	9	nsubj	_	_
@@ -47401,7 +47401,7 @@
 57	de	de	ADP	_	_	58	case	_	_
 58	Parzan	Parzan	PROPN	_	_	55	conj	_	SpaceAfter=No
 59	,	,	PUNCT	_	_	63	punct	_	_
-60	ainsi	ainsi	ADV	_	_	63	advmod	_	MWEPOS=CCONJ
+60	ainsi	ainsi	ADV	_	_	63	cc	_	MWEPOS=CCONJ
 61	que	que	SCONJ	_	_	60	fixed	_	_
 62	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	63	det	_	_
 63	installations	installation	NOUN	_	Gender=Fem|Number=Plur	53	conj	_	_
@@ -175840,7 +175840,7 @@
 17	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
 18	islam	islam	NOUN	_	Gender=Masc|Number=Sing	13	obl:arg	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	13	punct	_	_
-20	ainsi	ainsi	ADV	_	_	23	mark	_	MWEPOS=CCONJ
+20	ainsi	ainsi	ADV	_	_	23	mark	_	MWEPOS=SCONJ
 21	que	que	SCONJ	_	_	20	fixed	_	_
 22	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
 23	prétendent	prétendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
@@ -273627,7 +273627,7 @@
 25	Business	Business	PROPN	_	_	24	flat:name	_	_
 26	School	School	PROPN	_	_	24	flat:name	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
-28	Gouvernement	Gouvernement	NOUN	_	Gender=Masc|Number=Sing	12	conj	_	_
+28	Gouvernement	Gouvernement	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
 29	d'	de	ADP	_	_	30	case	_	SpaceAfter=No
 30	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
 31	:	:	PUNCT	_	_	28	punct	_	_
@@ -273647,7 +273647,7 @@
 45	Corporate	corporate	ADJ	_	_	48	amod	_	_
 46	and	and	CCONJ	_	_	47	cc	_	_
 47	Organizational	organizational	ADJ	_	_	45	conj	_	_
-48	Identities	identity	NOUN	_	Number=Plur	12	conj	_	_
+48	Identities	identity	NOUN	_	Number=Plur	9	conj	_	_
 49	(	(	PUNCT	_	_	50	punct	_	SpaceAfter=No
 50	2002	2002	NUM	_	_	48	nmod	_	SpaceAfter=No
 51	)	)	PUNCT	_	_	50	punct	_	SpaceAfter=No
@@ -273657,12 +273657,12 @@
 55	Soenen	Soenen	PROPN	_	_	54	flat:name	_	_
 56	ainsi	ainsi	ADV	_	_	58	cc	_	MWEPOS=CCONJ
 57	que	que	SCONJ	_	_	56	fixed	_	_
-58	Peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
-59	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	58	nsubj	_	_
-60	former	former	VERB	_	VerbForm=Inf	58	xcomp	_	_
-61	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	62	det	_	_
-62	dirigeants	dirigeant	NOUN	_	Gender=Masc|Number=Plur	60	obj	_	_
-63	?	?	PUNCT	_	_	58	punct	_	_
+58	Peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	TITLE=Yes|SpaceAfter=No
+59	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	58	nsubj	_	INTITLE=Yes
+60	former	former	VERB	_	VerbForm=Inf	58	xcomp	_	INTITLE=Yes
+61	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	62	det	_	INTITLE=Yes
+62	dirigeants	dirigeant	NOUN	_	Gender=Masc|Number=Plur	60	obj	_	INTITLE=Yes
+63	?	?	PUNCT	_	_	58	punct	_	INTITLE=Yes
 
 # sent_id = fr-ud-train_09759
 # text = Un titre supplémentaire a été ajouté.
@@ -309412,10 +309412,10 @@
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 17	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 18	église	église	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-19	ainsi	ainsi	ADV	_	_	11	advmod	_	_
-20	qu'	que	SCONJ	_	_	22	mark	_	SpaceAfter=No
+19	ainsi	ainsi	ADV	_	_	22	mark	_	MWEPOS=SCONJ
+20	qu'	que	SCONJ	_	_	19	fixed	_	SpaceAfter=No
 21	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
-22	résulte	résulter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+22	résulte	résulter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
 23	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	lettre	lettre	NOUN	_	Gender=Fem|Number=Sing	22	obl:arg	_	_
