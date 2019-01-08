@@ -1741,8 +1741,8 @@
 
 # sent_id = fr-ud-train_00068
 # text = Tout en regrettant que le Conseil de sécurité "n'assume toujours pas ses responsabilités face à la tragédie syrienne", avec notamment le refus de la Russie et de la Chine de voter des sanctions contre Damas, il a exclu toute initiative française en dehors du cadre légal des Nations unies.
-1	Tout	tout	ADV	_	_	3	advmod	_	_
-2	en	en	ADP	_	_	3	mark	_	_
+1	Tout	tout	ADV	_	_	3	mark	_	MWEPOS=ADP
+2	en	en	ADP	_	_	1	fixed	_	_
 3	regrettant	regretter	VERB	_	Tense=Pres|VerbForm=Part	43	advcl	_	_
 4	que	que	SCONJ	_	_	11	mark	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -3192,8 +3192,8 @@
 
 # sent_id = fr-ud-train_00114
 # text = Tout en exprimant sa « profonde préoccupation face à la nette détérioration de la situation au Sahara occidental », le Parlement européen « condamne fermement, les violents incidents qui se sont produits dans le camp de Gdeim Izik lors de son démantèlement, ainsi que dans la ville d'El Ayoun ».
-1	Tout	tout	ADV	_	_	3	advmod	_	_
-2	en	en	ADP	_	_	3	mark	_	_
+1	Tout	tout	ADV	_	_	3	mark	_	MWEPOS=ADP
+2	en	en	ADP	_	_	1	fixed	_	_
 3	exprimant	exprimer	VERB	_	Tense=Pres|VerbForm=Part	26	advcl	_	_
 4	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
 5	«	«	PUNCT	_	_	7	punct	_	_
@@ -10255,8 +10255,8 @@
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	projet	projet	NOUN	_	Gender=Masc|Number=Sing	18	obl:arg	_	_
 22	Manhattan	Manhattan	PROPN	_	_	21	appos	_	_
-23	tout	tout	ADV	_	_	25	advmod	_	_
-24	en	en	ADP	_	_	25	mark	_	_
+23	tout	tout	ADV	_	_	25	mark	_	MWEPOS=ADP
+24	en	en	ADP	_	_	23	fixed	_	_
 25	menant	mener	VERB	_	Tense=Pres|VerbForm=Part	18	advcl	_	_
 26	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	action	action	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
@@ -27018,8 +27018,8 @@
 40	taux	taux	NOUN	_	Gender=Masc|Number=Sing	38	obj	_	_
 41	de	de	ADP	_	_	42	case	_	_
 42	recouvrement	recouvrement	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
-43	tout	tout	ADV	_	_	45	advmod	_	_
-44	en	en	ADP	_	_	45	mark	_	_
+43	tout	tout	ADV	_	_	45	mark	_	MWEPOS=ADP
+44	en	en	ADP	_	_	43	fixed	_	_
 45	réduisant	réduire	VERB	_	Tense=Pres|VerbForm=Part	38	advcl	_	_
 46	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
 47	coûts	coût	NOUN	_	Gender=Masc|Number=Plur	45	obj	_	SpaceAfter=No
@@ -33737,7 +33737,7 @@
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	INMWE=Yes
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	INMWE=Yes
-18	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advmod	_	MWEPOS=ADV
+18	vu	vu	NOUN	_	Gender=Masc|Number=Sing	10	advmod	_	MWEPOS=ADV
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
 20	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
@@ -43000,8 +43000,8 @@
 70	Maistre	Maistre	PROPN	_	_	68	flat:name	_	_
 71	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	72	aux	_	_
 72	associé	associer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	65	acl:relcl	_	_
-73	tout	tout	ADV	_	_	75	advmod	_	_
-74	en	en	ADP	_	_	75	mark	_	_
+73	tout	tout	ADV	_	_	75	mark	_	MWEPOS=ADP
+74	en	en	ADP	_	_	73	fixed	_	_
 75	restant	rester	VERB	_	Tense=Pres|VerbForm=Part	72	advcl	_	_
 76	toutefois	toutefois	ADV	_	_	75	advmod	_	_
 77	silencieux	silencieux	ADJ	_	Gender=Masc|Number=Sing	75	xcomp	_	_
@@ -51076,7 +51076,7 @@
 22-23	au	_	_	_	_	_	_	_	_
 22	à	à	ADP	_	_	24	case	_	INMWE=Yes
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	INMWE=Yes
-24	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	obl:mod	_	MWEPOS=ADV
+24	vu	vu	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	MWEPOS=ADV
 25-26	des	_	_	_	_	_	_	_	_
 25	de	de	ADP	_	_	27	case	_	_
 26	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
@@ -87089,8 +87089,8 @@
 18	par	par	ADP	_	_	20	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	narratrice	narrateur	NOUN	_	Gender=Fem|Number=Sing	17	obl:agent	_	_
-21	tout	tout	ADV	_	_	23	advmod	_	_
-22	en	en	ADP	_	_	23	mark	_	_
+21	tout	tout	ADV	_	_	23	mark	_	MWEPOS=ADP
+22	en	en	ADP	_	_	21	fixed	_	_
 23	réclamant	réclamer	VERB	_	Tense=Pres|VerbForm=Part	6	advcl	_	_
 24	pour	pour	ADP	_	_	26	case	_	_
 25	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
@@ -95355,8 +95355,8 @@
 12	effectuait	effectuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	action	action	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
-15	tout	tout	ADV	_	_	17	advmod	_	_
-16	en	en	ADP	_	_	17	mark	_	_
+15	tout	tout	ADV	_	_	17	mark	_	MWEPOS=ADP
+16	en	en	ADP	_	_	15	fixed	_	_
 17	indiquant	indiquer	VERB	_	Tense=Pres|VerbForm=Part	12	advcl	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
@@ -117105,8 +117105,8 @@
 2	souhaitent	souhaiter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
 4	tenue	tenue	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
-5	tout	tout	ADV	_	_	7	advmod	_	_
-6	en	en	ADP	_	_	7	mark	_	_
+5	tout	tout	ADV	_	_	7	mark	_	MWEPOS=ADP
+6	en	en	ADP	_	_	5	fixed	_	_
 7	admettant	admettre	VERB	_	Tense=Pres|VerbForm=Part	2	advcl	_	_
 8	que	que	SCONJ	_	_	17	mark	_	_
 9	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
@@ -133046,7 +133046,7 @@
 45-46	au	_	_	_	_	_	_	_	_
 45	à	à	ADP	_	_	47	case	_	_
 46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
-47	vu	vu	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	advmod	_	MWEPOS=ADV
+47	vu	vu	NOUN	_	Gender=Masc|Number=Sing	31	advmod	_	MWEPOS=ADV
 48	de	de	ADP	_	_	50	case	_	_
 49	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	50	det	_	_
 50	participation	participation	NOUN	_	Gender=Fem|Number=Sing	47	obl:arg	_	_
@@ -182766,8 +182766,8 @@
 14	presque	presque	ADV	_	_	15	advmod	_	_
 15	immédiatement	immédiatement	ADV	_	_	13	advmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	13	punct	_	_
-17	tout	tout	ADV	_	_	19	advmod	_	_
-18	en	en	ADP	_	_	19	mark	_	_
+17	tout	tout	ADV	_	_	19	mark	_	MWEPOS=ADP
+18	en	en	ADP	_	_	17	fixed	_	_
 19	gardant	garder	VERB	_	Tense=Pres|VerbForm=Part	13	advcl	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 21	certaine	certain	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
@@ -186656,8 +186656,8 @@
 15	s'	se	PRON	_	Person=3|PronType=Prs	16	expl	_	SpaceAfter=No
 16	accroupissant	accroupir	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
-18	tout	tout	ADV	_	_	20	advmod	_	_
-19	en	en	ADP	_	_	20	mark	_	_
+18	tout	tout	ADV	_	_	20	mark	_	MWEPOS=ADP
+19	en	en	ADP	_	_	18	fixed	_	_
 20	maintenant	maintenir	VERB	_	Tense=Pres|VerbForm=Part	16	conj	_	_
 21	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	_
 22	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
@@ -188795,8 +188795,8 @@
 # sent_id = fr-ud-train_06740
 # text = "Eh bien ?"
 1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	Eh	eh	INTJ	_	_	0	root	_	_
-3	bien	bien	ADV	_	_	2	advmod	_	_
+2	Eh	eh	INTJ	_	_	0	root	_	MWEPOS=INTJ
+3	bien	bien	ADV	_	_	2	fixed	_	_
 4	?	?	PUNCT	_	_	2	punct	_	SpaceAfter=No
 5	"	"	PUNCT	_	_	2	punct	_	_
 
@@ -241201,14 +241201,14 @@
 15	quatre	quatre	NUM	_	_	16	nummod	_	_
 16	ans	an	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	13	punct	_	_
-18	rejoignant	rejoindre	VERB	_	Tense=Pres|VerbForm=Part	2	acl	_	_
+18	rejoignant	rejoindre	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	_
 19	par	par	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	suite	suite	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
 22	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det	_	_
 23	club	club	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
-24	de	de	ADP	_	_	25	case	_	_
-25	toujours	toujours	ADV	_	_	23	advmod	_	SpaceAfter=No
+24	de	de	ADP	_	_	23	advmod	_	MWEPOS=ADV
+25	toujours	toujours	ADV	_	_	24	fixed	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_08605
@@ -288957,8 +288957,8 @@
 
 # sent_id = fr-ud-train_10341
 # text = Tout en tentant d'alléger le déficit au prix de sacrifices inouïs, le pays devra rembourser une dette alourdie par les intérêts chaque fois plus importants à mesure que les agences de notation dégradent la note du pays.
-1	Tout	tout	ADV	_	_	3	advmod	_	_
-2	en	en	ADP	_	_	3	mark	_	_
+1	Tout	tout	ADV	_	_	3	mark	_	MWEPOS=ADP
+2	en	en	ADP	_	_	1	fixed	_	_
 3	tentant	tenter	VERB	_	Tense=Pres|VerbForm=Part	17	advcl	_	_
 4	d'	de	ADP	_	_	5	mark	_	SpaceAfter=No
 5	alléger	alléger	VERB	_	VerbForm=Inf	3	xcomp	_	_
@@ -306110,8 +306110,8 @@
 26	fils	fils	NOUN	_	Gender=Masc|Number=Plur	23	conj	_	_
 27	très	très	ADV	_	_	28	advmod	_	_
 28	professionnels	professionnel	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
-29	tout	tout	ADV	_	_	31	advmod	_	_
-30	en	en	ADP	_	_	31	mark	_	_
+29	tout	tout	ADV	_	_	31	mark	_	MWEPOS=ADP
+30	en	en	ADP	_	_	29	fixed	_	_
 31	gardant	garder	VERB	_	Tense=Pres|VerbForm=Part	23	acl	_	_
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	esprit	esprit	NOUN	_	Gender=Masc|Number=Sing	31	obj	_	_
@@ -342110,8 +342110,8 @@
 4	où	où	ADV	_	PronType=Rel	6	advmod	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 6	enseignait	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
-7	tout	tout	ADV	_	_	9	advmod	_	_
-8	en	en	ADP	_	_	9	mark	_	_
+7	tout	tout	ADV	_	_	9	mark	_	MWEPOS=ADP
+8	en	en	ADP	_	_	7	fixed	_	_
 9	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	6	advcl	_	_
 10	de	de	ADP	_	_	12	det	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	fixed	_	_
@@ -348792,8 +348792,8 @@
 23	chez	chez	ADP	_	_	25	case	_	_
 24	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
 25	autre	autre	ADJ	_	Gender=Fem|Number=Sing	21	conj	_	_
-26	tout	tout	ADV	_	_	28	advmod	_	_
-27	en	en	ADP	_	_	28	mark	_	_
+26	tout	tout	ADV	_	_	28	mark	_	MWEPOS=ADP
+27	en	en	ADP	_	_	26	fixed	_	_
 28	gardant	garder	VERB	_	Tense=Pres|VerbForm=Part	14	advcl	_	_
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
 30	points	point	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
@@ -349573,8 +349573,8 @@
 25	21,6	21,6	NUM	_	_	26	nummod	_	SpaceAfter=No
 26	%	%	SYM	_	_	22	appos	_	SpaceAfter=No
 27	)	)	PUNCT	_	_	26	punct	_	_
-28	tout	tout	ADV	_	_	32	advmod	_	_
-29	en	en	ADP	_	_	32	mark	_	_
+28	tout	tout	ADV	_	_	32	mark	_	MWEPOS=ADP
+29	en	en	ADP	_	_	28	fixed	_	_
 30	étant	être	AUX	_	Tense=Pres|VerbForm=Part	32	cop	_	_
 31	toutefois	toutefois	ADV	_	_	32	advmod	_	_
 32	inférieur	inférieur	ADJ	_	Gender=Masc|Number=Sing	19	advcl	_	_
@@ -352756,8 +352756,8 @@
 9	abord	abord	NOUN	_	Gender=Masc|Number=Sing	7	advmod	_	MWEPOS=ADV
 10	comme	comme	ADP	_	_	11	case	_	_
 11	ingénieur	ingénieur	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
-12	tout	tout	ADV	_	_	14	advmod	_	_
-13	en	en	ADP	_	_	14	mark	_	_
+12	tout	tout	ADV	_	_	14	mark	_	MWEPOS=ADP
+13	en	en	ADP	_	_	12	fixed	_	_
 14	continuant	continuer	VERB	_	Tense=Pres|VerbForm=Part	7	advcl	_	_
 15	de	de	ADP	_	_	16	mark	_	_
 16	pratiquer	pratiquer	VERB	_	VerbForm=Inf	14	xcomp	_	_
@@ -368883,8 +368883,8 @@
 5	internationale	international	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	2004	2004	NUM	_	_	2	obl	_	_
-8	tout	tout	ADV	_	_	10	advmod	_	_
-9	en	en	ADP	_	_	10	mark	_	_
+8	tout	tout	ADV	_	_	10	mark	_	MWEPOS=ADP
+9	en	en	ADP	_	_	8	fixed	_	_
 10	continuant	continuer	VERB	_	Tense=Pres|VerbForm=Part	2	advcl	_	_
 11	à	à	ADP	_	_	12	mark	_	_
 12	jouer	jouer	VERB	_	VerbForm=Inf	10	xcomp	_	_
@@ -370960,7 +370960,7 @@
 1-2	Au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advmod	_	MWEPOS=ADV
+3	vu	vu	NOUN	_	Gender=Masc|Number=Sing	11	advmod	_	MWEPOS=ADV
 4	de	de	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	situation	situation	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
@@ -379985,8 +379985,8 @@
 32	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
 33	spectacles	spectacle	NOUN	_	Gender=Masc|Number=Plur	30	obl:arg	_	_
 34	érudits	érudit	ADJ	_	Gender=Masc|Number=Plur	33	amod	_	_
-35	tout	tout	ADV	_	_	37	advmod	_	_
-36	en	en	ADP	_	_	37	mark	_	_
+35	tout	tout	ADV	_	_	37	mark	_	MWEPOS=ADP
+36	en	en	ADP	_	_	35	fixed	_	_
 37	dégustant	déguster	VERB	_	Tense=Pres|VerbForm=Part	12	advcl	_	_
 38	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	café	café	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No
@@ -407163,8 +407163,8 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	12000	12000	NUM	_	_	5	nummod	_	_
 5	kilomètres	kilomètre	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-6	tout	tout	ADV	_	_	8	advmod	_	_
-7	en	en	ADP	_	_	8	mark	_	_
+6	tout	tout	ADV	_	_	8	mark	_	MWEPOS=ADP
+7	en	en	ADP	_	_	6	fixed	_	_
 8	restant	rester	VERB	_	Tense=Pres|VerbForm=Part	2	acl	_	_
 9	à	à	ADP	_	_	10	case	_	_
 10	Paris	Paris	PROPN	_	_	8	obl:arg	_	SpaceAfter=No
