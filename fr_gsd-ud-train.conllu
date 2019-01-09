@@ -453,7 +453,7 @@
 21	que	que	SCONJ	_	_	24	case	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 23	30e	30e	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
-24	Escadre	escadre	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	_
+24	Escadre	escadre	NOUN	_	Gender=Fem|Number=Sing	20	obl:arg	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	Chasse	chasse	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 27	à	à	ADP	_	_	28	case	_	_
@@ -69040,7 +69040,7 @@
 13	même	même	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	INMWE=Yes
 14	temps	temps	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV
 15	que	que	SCONJ	_	_	16	case	_	_
-16	Nicolas	Nicolas	PROPN	_	_	14	obl:mod	_	_
+16	Nicolas	Nicolas	PROPN	_	_	14	obl:arg	_	_
 17	Seube	Seube	PROPN	_	_	16	flat:name	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 19	deviendra	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	acl:relcl	_	_
@@ -273223,7 +273223,7 @@
 25	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	advmod	_	MWEPOS=ADV
 26	que	que	SCONJ	_	_	28	case	_	_
 27	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
-28	monastères	monastère	NOUN	_	Gender=Masc|Number=Plur	25	obl:mod	_	SpaceAfter=No
+28	monastères	monastère	NOUN	_	Gender=Masc|Number=Plur	25	obl:arg	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 31	abbayes	abbaye	NOUN	_	Gender=Fem|Number=Plur	28	conj	_	SpaceAfter=No
@@ -304373,9 +304373,9 @@
 5	Fondation	fondation	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6	en	en	ADP	_	_	8	case	_	INMWE=Yes
 7	même	même	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	INMWE=Yes
-8	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	MWEPOS=ADV
+8	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	advmod	_	MWEPOS=ADV
 9	que	que	SCONJ	_	_	10	case	_	_
-10	Lok	Lok	PROPN	_	_	8	obl:mod	_	SpaceAfter=No
+10	Lok	Lok	PROPN	_	_	8	obl:arg	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_10901
@@ -317865,7 +317865,7 @@
 3	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	en	en	ADP	_	_	6	case	_	INMWE=Yes
 5	même	même	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	INMWE=Yes
-6	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	MWEPOS=ADV
+6	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	advmod	_	MWEPOS=ADV
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	reportage	reportage	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 9	photographique	photographique	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
@@ -322793,10 +322793,10 @@
 6	reconstruite	reconstruire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 7	en	en	ADP	_	_	9	case	_	INMWE=Yes
 8	même	même	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	INMWE=Yes
-9	temps	temps	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	MWEPOS=ADV
+9	temps	temps	NOUN	_	Gender=Masc|Number=Sing	4	advmod	_	MWEPOS=ADV
 10	que	que	SCONJ	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	château	château	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	SpaceAfter=No
+12	château	château	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	17	nsubj	_	_
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
@@ -351415,10 +351415,10 @@
 6	lundi	lundi	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
 7	en	en	ADP	_	_	9	case	_	INMWE=Yes
 8	même	même	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	INMWE=Yes
-9	temps	temps	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	MWEPOS=ADV
+9	temps	temps	NOUN	_	Gender=Masc|Number=Sing	4	advmod	_	MWEPOS=ADV
 10	que	que	SCONJ	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	bouquet	bouquet	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+12	bouquet	bouquet	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
 13	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
 14	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
 15	diffuse	diffuser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
@@ -370462,10 +370462,10 @@
 15	ville	ville	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
 16	en	en	ADP	_	_	18	case	_	INMWE=Yes
 17	même	même	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	INMWE=Yes
-18	temps	temps	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	MWEPOS=ADV
+18	temps	temps	NOUN	_	Gender=Masc|Number=Sing	12	advmod	_	MWEPOS=ADV
 19	qu'	que	SCONJ	_	_	21	mark	_	SpaceAfter=No
 20	en	en	ADP	_	_	21	case	_	_
-21	retrait	retrait	NOUN	_	Gender=Masc|Number=Sing	18	advcl	_	SpaceAfter=No
+21	retrait	retrait	NOUN	_	Gender=Masc|Number=Sing	18	obl:arg	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_13233
@@ -396423,10 +396423,10 @@
 15	diffusé	diffuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
 16	en	en	ADP	_	_	18	case	_	INMWE=Yes
 17	même	même	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	INMWE=Yes
-18	temps	temps	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	MWEPOS=ADV
+18	temps	temps	NOUN	_	Gender=Masc|Number=Sing	15	advmod	_	MWEPOS=ADV
 19	que	que	SCONJ	_	_	21	case	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	Cosby	Cosby	PROPN	_	_	18	obl:mod	_	_
+21	Cosby	Cosby	PROPN	_	_	18	obl:arg	_	_
 22	Show	Show	PROPN	_	_	21	flat:name	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	14	punct	_	_
 24	obtient	obtenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
