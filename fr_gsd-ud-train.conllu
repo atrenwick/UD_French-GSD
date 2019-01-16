@@ -136789,8 +136789,8 @@
 5	Lampe	Lampe	PROPN	_	_	2	nmod	_	_
 6	Spectrale	Spectrale	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
-8	quelque	quelque	DET	_	Number=Sing	9	det	_	_
-9	peu	peu	ADV	_	_	10	advmod	_	_
+8	quelque	quelque	DET	_	Number=Sing	10	advmod	_	MWEPOS=ADV
+9	peu	peu	ADV	_	_	8	fixed	_	_
 10	différents	différent	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 11	:	:	PUNCT	_	_	10	punct	_	_
 
@@ -257073,8 +257073,8 @@
 # text = Il est quelque peu caricaturé comme un obèse criant dans un haut-parleur lors d'une manifestation.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
-3	quelque	quelque	DET	_	Number=Sing	4	det	_	_
-4	peu	peu	ADV	_	_	5	advmod	_	_
+3	quelque	quelque	DET	_	Number=Sing	5	advmod	_	MWEPOS=ADV
+4	peu	peu	ADV	_	_	3	fixed	_	_
 5	caricaturé	caricaturer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	comme	comme	ADP	_	_	8	case	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -318888,11 +318888,11 @@
 19	,	,	PUNCT	_	_	5	punct	_	_
 20	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	idée	idée	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
-22	étant	être	AUX	_	Tense=Pres|VerbForm=Part	26	cop	_	_
+22	étant	être	AUX	_	Tense=Pres|VerbForm=Part	5	advcl	_	_
 23	d'	de	ADP	_	_	26	mark	_	SpaceAfter=No
 24	être	être	AUX	_	VerbForm=Inf	26	cop	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	première	premier	ADJ	_	Gender=Fem|Number=Sing	5	advcl	_	_
+26	première	premier	ADJ	_	Gender=Fem|Number=Sing	22	ccomp	_	_
 27	ou	ou	CCONJ	_	_	29	cc	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
 29	une	un	PRON	_	Gender=Fem|Number=Sing	26	conj	_	_
@@ -328351,8 +328351,8 @@
 7	C.	C.	PROPN	_	_	2	appos	_	_
 8	Hammann	Hammann	PROPN	_	_	7	flat:name	_	_
 9	régressait	régresser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-10	quelque	quelque	DET	_	Number=Sing	11	det	_	_
-11	peu	peu	ADV	_	_	9	advmod	_	_
+10	quelque	quelque	DET	_	Number=Sing	9	advmod	_	MWEPOS=ADV
+11	peu	peu	ADV	_	_	10	fixed	_	_
 12	par	par	ADP	_	_	13	case	_	_
 13	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
 14	à	à	ADP	_	_	15	case	_	_
@@ -337269,8 +337269,8 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	valet	valet	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	quelque	quelque	DET	_	Number=Sing	5	det	_	_
-5	peu	peu	ADV	_	_	6	advmod	_	_
+4	quelque	quelque	DET	_	Number=Sing	6	advmod	_	MWEPOS=ADV
+5	peu	peu	ADV	_	_	4	fixed	_	_
 6	inquiet	inquiet	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
 8	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -395098,8 +395098,8 @@
 23	(	(	PUNCT	_	_	27	punct	_	SpaceAfter=No
 24	y	y	PRON	_	_	25	iobj	_	INMWE=Yes
 25	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	case	_	MWEPOS=ADP
-26	comme	comme	SCONJ	_	_	27	mark	_	_
-27	membres	membre	NOUN	_	Gender=Masc|Number=Plur	16	advcl	_	_
+26	comme	comme	SCONJ	_	_	27	case	_	_
+27	membres	membre	NOUN	_	Gender=Masc|Number=Plur	16	obl:mod	_	_
 28-29	du	_	_	_	_	_	_	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
