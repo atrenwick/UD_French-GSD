@@ -23,8 +23,8 @@
 # sent_id = fr-ud-train_00002
 # text = L'œuvre est située dans la galerie des batailles, dans le château de Versailles.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
 4	située	situer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -20212,7 +20212,7 @@
 9	affiche	afficher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 10	512	512	NUM	_	_	13	nummod	_	_
 11	×	×	SYM	_	_	12	case	_	_
-12	342	342	NUM	_	_	10	nmmod	_	_
+12	342	342	NUM	_	_	10	nmod	_	_
 13	pixels	pixel	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -34757,19 +34757,19 @@
 
 # sent_id = fr-ud-train_01224
 # text = Homer le maudit : Les Simpson se promènent dans le quartier ethnique.
-1	Homer	Homer	PROPN	_	_	3	nsubj	_	_
-2	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
-3	maudit	maudire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+1	Homer	Homer	PROPN	_	_	0	root	_	_
+2	le	le	DET	_	Gender=Masc|Number=Sing	3	det	_	_
+3	maudit	maudit	ADJ	_	Gender=Masc|Number=Sing	1	appos	_	_
 4	:	:	PUNCT	_	_	3	punct	_	_
 5	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	Simpson	Simpson	PROPN	_	_	8	nsubj	_	_
 7	se	se	PRON	_	Person=3|PronType=Prs	8	expl	_	_
-8	promènent	promener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+8	promènent	promener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 9	dans	dans	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	_
 12	ethnique	ethnique	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	3	punct	_	_
+13	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-train_01225
 # text = Karen Elson se produit sur scène avec une troupe de cabaret de New York, The Citizen's Band.
@@ -35980,7 +35980,7 @@
 8	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	abbé	abbé	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
 10	Toussaint	Toussaint	PROPN	_	_	9	appos	_	_
-11	de	de	PROPN	_	_	12	case	_	_
+11	de	de	ADP	_	_	12	case	_	_
 12	Forbin-Janson	Forbin-Janson	PROPN	_	_	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	SpaceAfter=No
@@ -38253,12 +38253,12 @@
 
 # sent_id = fr-ud-train_01356
 # text = The Darrell Porter Story, publié en 1984, faisant de lui l'un des premiers athlètes à aborder ouvertement la question de l'addiction dans le baseball professionnel.
-1	The	The	PROPN	_	_	6	nsubj	_	_
+1	The	The	PROPN	_	_	0	root	_	_
 2	Darrell	Darrell	PROPN	_	_	1	flat:name	_	_
 3	Porter	Porter	PROPN	_	_	1	flat:name	_	_
 4	Story	Story	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
-6	publié	publier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	publié	publier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 7	en	en	ADP	_	_	8	case	_	_
 8	1984	1984	NUM	_	_	6	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -38284,7 +38284,7 @@
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	baseball	baseball	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
 30	professionnel	professionnel	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
-31	.	.	PUNCT	_	_	6	punct	_	_
+31	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-train_01357
 # text = Il touche environ 100 000 sesterces par an.
@@ -41190,7 +41190,7 @@
 # sent_id = fr-ud-train_01460
 # text = Comme lors des campagnes précédentes, il avance le long de la rive ouest de la Chikuma.
 1	Comme	comme	SCONJ	_	_	2	mark	_	_
-2	lors	lors	ADV	_	_	9	advmod	_	_
+2	lors	lors	ADV	_	_	9	advcl	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
@@ -41469,7 +41469,7 @@
 
 # sent_id = fr-ud-train_01471
 # text = Il en est de même pour l'épisode où les résistants sabotent la voie ferrée du côté de Chavannes-sur-Reyssouze et font le coup de feu avec l'ennemi.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	en	en	PRON	_	Person=3	3	expl	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	3	advmod	_	MWEPOS=ADV
@@ -42481,22 +42481,22 @@
 
 # sent_id = fr-ud-train_01507
 # text = Coupe de la Ligue : La victoire en finale vient confirmer la formidable efficacité marseillaise.
-1	Coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
+1	Coupe	coupe	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Ligue	Ligue	PROPN	_	_	1	nmod	_	_
-5	:	:	PUNCT	_	_	10	punct	_	_
+5	:	:	PUNCT	_	_	1	punct	_	_
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
 8	en	en	ADP	_	_	9	case	_	_
 9	finale	finale	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
-10	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 11	confirmer	confirmer	VERB	_	VerbForm=Inf	10	xcomp	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	formidable	formidable	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 14	efficacité	efficacité	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
 15	marseillaise	marseillais	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
-16	.	.	PUNCT	_	_	10	punct	_	_
+16	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-train_01508
 # text = Les journalistes effectueront ce trajet, accompagnés d'un officier de police.
@@ -43311,7 +43311,7 @@
 5	grille	grille	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	explosé	exploser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-8	depuis	depuis	ADV	_	_	13	mark	_	_
+8	depuis	depuis	ADP	_	_	13	mark	_	_
 9	que	que	SCONJ	_	_	13	mark	_	_
 10	TPS	TPS	PROPN	_	_	13	nsubj	_	_
 11	s'	se	PRON	_	Person=3|PronType=Prs	13	expl	_	SpaceAfter=No
@@ -44152,8 +44152,8 @@
 11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 12	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 13	fois	fois	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
-14	d'	de	ADP	_	_	15	mark	_	SpaceAfter=No
-15	affilée	affiler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	nmod	_	_
+14	d'	de	ADP	_	_	15	mark	_	INMWE=Yes|SpaceAfter=No
+15	affilée	affiler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	advmod	_	MWEPOS=ADV
 16	après	après	ADP	_	_	18	case	_	_
 17	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
 18	blessure	blessure	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
@@ -44638,7 +44638,7 @@
 23	rejeter	rejeter	VERB	_	VerbForm=Inf	21	xcomp	_	_
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	femme	femme	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
-26	après	après	ADP	_	_	29	case	_	_
+26	après	après	ADP	_	_	29	mark	_	_
 27	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	29	obj	_	SpaceAfter=No
 28	avoir	avoir	AUX	_	VerbForm=Inf	29	aux	_	_
 29	rencontrée	rencontrer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	_	_
@@ -51678,7 +51678,7 @@
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
 11	en	en	ADP	_	_	12	case	_	_
-12	partie	partir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+12	partie	partir	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	succès	succès	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
@@ -57767,8 +57767,8 @@
 9	etc	etc	X	_	_	6	advmod	_	SpaceAfter=No
 10	...	...	PUNCT	_	_	9	punct	_	_
 11	finissent	finir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	par	par	ADP	_	_	14	case	_	_
-13	être	être	AUX	_	VerbForm=Inf	14	aux	_	_
+12	par	par	ADP	_	_	14	mark	_	_
+13	être	être	AUX	_	VerbForm=Inf	14	aux:pass	_	_
 14	manipulé	manipuler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	_
 15	soit	soit	CCONJ	_	_	18	cc	_	_
 16	de	de	ADP	_	_	18	case	_	_
@@ -76705,7 +76705,7 @@
 30	qu'	que	PRON	_	PronType=Rel	32	obj	_	SpaceAfter=No
 31	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
 32	considère	considérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
-33	comme	comme	ADP	_	_	34	expl	_	_
+33	comme	comme	ADP	_	_	34	mark	_	_
 34	perdu	perdre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	xcomp	_	_
 35	d'	de	ADP	_	_	36	case	_	INMWE=Yes|SpaceAfter=No
 36	avance	avance	NOUN	_	Gender=Fem|Number=Sing	34	advmod	_	MWEPOS=ADV|SpaceAfter=No
@@ -105712,7 +105712,7 @@
 12	,	,	PUNCT	_	_	6	punct	_	_
 13	terminant	terminer	VERB	_	Tense=Pres|VerbForm=Part	6	advcl	_	_
 14	septième	septième	ADJ	_	Gender=Masc|Number=Sing	13	xcomp	_	_
-15	après	après	ADP	_	_	17	case	_	_
+15	après	après	ADP	_	_	17	mark	_	_
 16	être	être	AUX	_	VerbForm=Inf	17	aux	_	_
 17	parti	partir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
 18	de	de	ADP	_	_	21	case	_	_
@@ -135434,7 +135434,7 @@
 14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	extrémité	extrémité	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
 16	proximale	proximal	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
-17	sans	sans	ADP	_	_	19	case	_	_
+17	sans	sans	ADP	_	_	19	mark	_	_
 18	être	être	AUX	_	VerbForm=Inf	19	aux:pass	_	_
 19	déformées	déformer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	10	punct	_	_
@@ -138880,7 +138880,7 @@
 11	Séville	Séville	PROPN	_	_	10	obj	_	_
 12	puis	puis	ADV	_	_	13	cc	_	_
 13	Chelsea	Chelsea	PROPN	_	_	11	conj	_	_
-14	après	après	ADP	_	_	16	case	_	_
+14	après	après	ADP	_	_	16	mark	_	_
 15	avoir	avoir	AUX	_	VerbForm=Inf	16	aux	_	_
 16	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
 17	contre	contre	ADP	_	_	19	case	_	_
@@ -148997,7 +148997,7 @@
 16	de	de	ADP	_	_	18	case	_	_
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	internautes	internaute	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
-19	en	en	ADP	_	_	21	expl	_	_
+19	en	en	PRON	_	_	22	nmod	_	_
 20	ayant	avoir	AUX	_	Tense=Pres|VerbForm=Part	21	aux	_	_
 21	formulé	formuler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
 22	cinq	cinq	NUM	_	_	21	obj	_	SpaceAfter=No
@@ -150231,7 +150231,7 @@
 19	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
 20	A	a	DET	_	Number=Sing	21	det	_	_
 21	Time	time	NOUN	_	_	16	appos	_	_
-22	for	for	ADP	_	_	23	case	_	_
+22	for	for	ADP	_	_	23	mark	_	_
 23	Dying	die	VERB	_	_	21	nmod	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	21	punct	_	_
 25	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
@@ -156586,14 +156586,14 @@
 14	s'	se	PRON	_	Person=3|PronType=Prs	15	expl	_	SpaceAfter=No
 15	approche	approcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	_	15	obl:arg	_	MWEPOS+ADV=true
+16	à	à	ADP	_	_	15	obl:arg	_	MWEPOS=ADV
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	_
 18	plus	plus	ADV	_	_	16	fixed	_	_
 19	près	près	ADV	_	_	16	fixed	_	_
 20-21	des	_	_	_	_	_	_	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
-22	Saxons	Saxons	PROPN	_	_	19	obl:arg	_	SpaceAfter=No
+22	Saxons	Saxons	PROPN	_	_	16	obl:arg	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_05595
@@ -177924,7 +177924,7 @@
 
 # sent_id = fr-ud-train_06368
 # text = Pour y avoir fait mon cours il y a quelques années, je peux dire que la qualité de l'enseignement que j'y ai reçu a été d'un grand professionnalisme et m'a permis d'acquérir les compétences nécessaires pour obtenir un emploi rapidement et une carrière remplie d'opportunités des plus enrichissantes.
-1	Pour	pour	ADP	_	_	4	case	_	_
+1	Pour	pour	ADP	_	_	4	mark	_	_
 2	y	y	PRON	_	_	4	advmod	_	_
 3	avoir	avoir	AUX	_	VerbForm=Inf	4	aux	_	_
 4	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
@@ -178841,8 +178841,8 @@
 10	,	,	PUNCT	_	_	6	punct	_	_
 11	en	en	ADP	_	_	14	case	_	_
 12	«	«	PUNCT	_	_	14	punct	_	_
-13	ready	ready	ADJ	_	_	14	advcl	_	Foreign=en
-14	made	make	VERB	_	_	6	acl	_	Foreign=en
+13	ready	ready	ADJ	_	_	14	advmod	_	Foreign=en|INTITLE=Yes
+14	made	make	VERB	_	_	6	acl	_	Foreign=en|TITLE=Yes
 15	»	»	PUNCT	_	_	14	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	2	punct	_	_
 17	comme	comme	ADP	_	_	19	case	_	_
@@ -184495,7 +184495,7 @@
 8	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	_
 9	trésors	trésor	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	2	punct	_	_
-11	après	après	ADP	_	_	14	case	_	_
+11	après	après	ADP	_	_	14	mark	_	_
 12	avoir	avoir	AUX	_	VerbForm=Inf	14	aux	_	_
 13	néanmoins	néanmoins	ADV	_	_	14	advmod	_	_
 14	pénétré	pénétrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
@@ -199455,9 +199455,9 @@
 15	jour	jour	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 16	pour	pour	ADP	_	_	17	case	_	_
 17	jour	jour	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-18	après	après	ADP	_	_	20	case	_	_
+18	après	après	ADP	_	_	20	mark	_	_
 19	avoir	avoir	AUX	_	VerbForm=Inf	20	aux	_	_
-20	touché	toucher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+20	touché	toucher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 22	plus	plus	ADV	_	_	23	advmod	_	_
 23	bas	bas	ADJ	_	Gender=Masc|Number=Sing	20	obj	_	_
@@ -254479,7 +254479,7 @@
 # text = L'UNFP en sera durablement affaiblie et son dirigeant assassiné à Paris, en octobre 1965, avec la complicité de hauts fonctionnaires de la police française.
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	UNFP	UNFP	PROPN	_	_	6	nsubj	_	_
-3	en	en	ADP	_	_	6	case	_	_
+3	en	en	PRON	_	_	6	obl:mod	_	_
 4	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
 5	durablement	durablement	ADV	_	_	6	advmod	_	_
 6	affaiblie	affaiblir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -262426,7 +262426,7 @@
 38	Lotharingie	Lotharingie	PROPN	_	_	36	nmod	_	_
 39	pour	pour	ADP	_	_	40	mark	_	_
 40	finir	finir	VERB	_	VerbForm=Inf	22	advcl	_	_
-41	par	par	ADP	_	_	43	case	_	_
+41	par	par	ADP	_	_	43	mark	_	_
 42	être	être	AUX	_	VerbForm=Inf	43	aux:pass	_	_
 43	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	xcomp	_	_
 44	et	et	CCONJ	_	_	45	cc	_	_
@@ -282031,7 +282031,7 @@
 
 # sent_id = fr-ud-train_10068
 # text = Après avoir réalisé des films comme Appolo 13 ou le Da Vinci Code, il désire désormais se pencher lui aussi sur le genre super héroïque.
-1	Après	après	ADP	_	_	3	case	_	_
+1	Après	après	ADP	_	_	3	mark	_	_
 2	avoir	avoir	AUX	_	VerbForm=Inf	3	aux	_	_
 3	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
 4	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
@@ -296165,19 +296165,19 @@
 1	Toutes	tout	DET	_	Gender=Fem|Number=Plur	3	det	_	_
 2	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
-4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	de	de	ADP	_	_	6	case	_	_
-6	David	David	PROPN	_	_	0	root	_	_
+6	David	David	PROPN	_	_	4	obl:arg	_	_
 7	Bowie	Bowie	PROPN	_	_	6	flat:name	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	Reeves	Reeves	PROPN	_	_	6	conj	_	_
 10	Gabrels	Gabrels	PROPN	_	_	9	flat:name	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	6	punct	_	_
 12	sauf	sauf	ADP	_	_	16	case	_	_
-13	What	what	PRON	_	_	16	nsubj	_	SpaceAfter=No
-14	's	be	AUX	_	_	16	aux	_	_
-15	Really	really	ADV	_	_	16	advmod	_	_
-16	Happening	happen	VERB	_	_	3	nmod	_	_
+13	What	what	PRON	_	_	16	nsubj	_	INTITLE=Yes|SpaceAfter=No
+14	's	be	AUX	_	_	16	aux	_	INTITLE=Yes
+15	Really	really	ADV	_	_	16	advmod	_	INTITLE=Yes
+16	Happening	happen	VERB	_	_	3	obl:mod	_	TITLE=Yes
 17	?	?	PUNCT	_	_	16	punct	_	_
 
 # sent_id = fr-ud-train_10611
@@ -324746,8 +324746,8 @@
 
 # sent_id = fr-ud-train_11629
 # text = En schématisant, les phéromones sexuelles permettent la reconnaissance du partenaire et l'induction d'un état d'excitation sexuelle, par des connexions entre les récepteurs olfactifs et les neurones à gonadolibérine de l'hypothalamus, qui contrôlent les hormones sexuelles.
-1	En	en	ADP	_	_	2	case	_	_
-2	schématisant	schématiser	VERB	_	Tense=Pres|VerbForm=Part	7	obl:mod	_	SpaceAfter=No
+1	En	en	ADP	_	_	2	mark	_	_
+2	schématisant	schématiser	VERB	_	Tense=Pres|VerbForm=Part	7	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
 5	phéromones	phéromone	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
@@ -351627,7 +351627,7 @@
 22	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	19	punct	_	_
 24	non	non	ADV	_	Polarity=Neg	27	advmod	_	_
-25	sans	sans	ADP	_	_	27	case	_	_
+25	sans	sans	ADP	_	_	27	mark	_	_
 26	avoir	avoir	AUX	_	VerbForm=Inf	27	aux	_	_
 27	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	_
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -353154,8 +353154,8 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	monde	monde	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
-16	d'	de	ADP	_	_	17	mark	_	SpaceAfter=No
-17	affilée	affiler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	nmod	_	SpaceAfter=No
+16	d'	de	ADP	_	_	17	mark	_	INMWE=Yes|SpaceAfter=No
+17	affilée	affiler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	advmod	_	MWEPOS=ADV|SpaceAfter=No
 18	,	,	PUNCT	_	_	7	punct	_	_
 19	en	en	ADP	_	_	20	case	_	INMWE=Yes
 20	plus	plus	ADV	_	_	7	advmod	_	MWEPOS=ADV
@@ -363574,7 +363574,7 @@
 9	se	se	PRON	_	Person=3|PronType=Prs	10	expl:pass	_	_
 10	marie	marier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 11	parfaitement	parfaitement	ADV	_	_	10	advmod	_	_
-12	avec	avec	ADP	_	_	10	case	_	SpaceAfter=No
+12	avec	avec	ADP	_	_	10	obl:arg	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_13000
@@ -368974,7 +368974,7 @@
 6	dans	dans	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	tournage	tournage	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
-9	de	de	ADP	_	_	12	case	_	_
+9	de	de	ADP	_	_	11	case	_	_
 10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	Paradise	Paradise	NOUN	_	_	8	nmod	_	TITLE=Yes
 12	Lost	Lost	VERB	_	_	11	acl	_	INTITLE=Yes|SpaceAfter=No
@@ -377112,7 +377112,7 @@
 13	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	autoroute	autoroute	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
 15	A4	A4	X	_	_	14	appos	_	_
-16	après	après	ADP	_	_	19	case	_	_
+16	après	après	ADP	_	_	19	mark	_	_
 17	avoir	avoir	AUX	_	VerbForm=Inf	19	aux	_	_
 18	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	aux:pass	_	_
 19	fauché	faucher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
@@ -382810,7 +382810,7 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	Arn	Arn	PROPN	_	_	12	nmod	_	_
-16	en	en	ADP	_	_	17	expl	_	_
+16	en	en	PRON	_	_	18	nmod	_	_
 17	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 18	une	un	PRON	_	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
@@ -394918,7 +394918,7 @@
 
 # sent_id = fr-ud-train_14097
 # text = En sortant de chez lui, je savais que je n'y retournerais pas.
-1	En	en	ADP	_	_	2	case	_	_
+1	En	en	ADP	_	_	2	mark	_	_
 2	sortant	sortir	VERB	_	Tense=Pres|VerbForm=Part	8	advcl	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	chez	chez	ADP	_	_	5	case	_	_
@@ -399136,10 +399136,10 @@
 6	déclaré	déclarer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	en	en	ADP	_	_	12	case	_	_
 8	«	«	PUNCT	_	_	12	punct	_	_
-9	moi	soi	PRON	_	Number=Sing|Person=1	12	nsubj	_	_
-10	y'	y	PRON	_	_	12	iobj	_	SpaceAfter=No
-11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-12	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	obl	_	_
+9	moi	soi	PRON	_	Number=Sing|Person=1	12	nsubj	_	INTITLE=Yes
+10	y'	y	PRON	_	_	12	iobj	_	INTITLE=Yes|SpaceAfter=No
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	INTITLE=Yes
+12	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	obl:mod	_	TITLE=Yes
 13	»	»	PUNCT	_	_	12	punct	_	_
 14	:	:	PUNCT	_	_	6	punct	_	_
 15	«	«	PUNCT	_	_	17	punct	_	_
