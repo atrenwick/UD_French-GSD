@@ -18353,9 +18353,9 @@
 # sent_id = fr-ud-train_00638
 # text = Au total, ses écrits remportèrent quatre fois le prix de l'Académie des inscriptions et belles-lettres, deux fois celui de l'Académie de Soissons, et trois fois de l'Académie d'Amiens.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	case	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	total	total	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	SpaceAfter=No
+1	à	à	ADP	_	_	3	case	_	INMWE=Yes
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	total	total	NOUN	_	Gender=Masc|Number=Sing	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det	_	_
 6	écrits	écrit	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
@@ -62999,9 +62999,9 @@
 2	150	150	NUM	_	_	3	nummod	_	_
 3	parties	partie	NOUN	_	Gender=Fem|Number=Plur	12	obl:mod	_	_
 4-5	au	_	_	_	_	_	_	_	_
-4	à	à	ADP	_	_	6	case	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	total	total	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+4	à	à	ADP	_	_	6	case	_	INMWE=Yes
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	INMWE=Yes
+6	total	total	NOUN	_	Gender=Masc|Number=Sing	3	advmod	_	MWEPOS=ADV
 7	dans	dans	ADP	_	_	9	case	_	_
 8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	saison	saison	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
@@ -127205,9 +127205,9 @@
 # sent_id = fr-ud-train_04561
 # text = Au total l'on aboutit à un faible rendement du système tant au plan interne et qu'externe, au regard des moyens importants qui y sont investis.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	case	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	total	total	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+1	à	à	ADP	_	_	3	case	_	INMWE=Yes
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	total	total	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV
 4	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	6	nsubj	_	MWEPOS=PRON|SpaceAfter=No
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	fixed	_	_
 6	aboutit	aboutir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -173328,9 +173328,9 @@
 1	56	56	NUM	_	_	2	nummod	_	_
 2	aéronefs	aéronef	NOUN	_	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
 3-4	au	_	_	_	_	_	_	_	_
-3	à	à	ADP	_	_	5	case	_	_
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	total	total	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+3	à	à	ADP	_	_	5	case	_	INMWE=Yes
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	INMWE=Yes
+5	total	total	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=Yes
 6	furent	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
 7	perdus	perdre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -226738,9 +226738,9 @@
 # sent_id = fr-ud-train_08093
 # text = Au total, sur la période 2011-2014, la Grèce pourrait voir sa dette publique allégée d'au moins 26 milliards d'euros, soit 12% du PIB, a déclaré le premier ministre grec Georges Papandréou.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	case	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	total	total	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	SpaceAfter=No
+1	à	à	ADP	_	_	3	case	_	INMWE=Yes
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	total	total	NOUN	_	Gender=Masc|Number=Sing	12	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	sur	sur	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -259100,9 +259100,9 @@
 5	autres	autre	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
 6	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 7-8	au	_	_	_	_	_	_	_	_
-7	à	à	ADP	_	_	9	case	_	_
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	total	total	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+7	à	à	ADP	_	_	9	case	_	INMWE=Yes
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	INMWE=Yes
+9	total	total	NOUN	_	Gender=Masc|Number=Sing	12	advmod	_	MWEPOS=ADV|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	11	11	NUM	_	_	12	nummod	_	_
 12	matches	match	NOUN	_	Gender=Masc|Number=Plur	3	parataxis	_	_
@@ -289478,9 +289478,9 @@
 # sent_id = fr-ud-train_10357
 # text = Au total quelque trente institutions financières avaient déposé des plaintes pour réclamer 22 milliards de dollars au titre de la restitution de leurs investissements dans des produits dérivés.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	9	advmod	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
-3	total	total	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	_
+1	à	à	ADP	_	_	3	case	_	INMWE=Yes
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	total	total	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV
 4	quelque	quelque	DET	_	Gender=Fem|Number=Sing	6	det	_	_
 5	trente	trente	NUM	_	_	6	nummod	_	_
 6	institutions	institution	NOUN	_	Gender=Fem|Number=Plur	9	nsubj	_	_
@@ -335218,9 +335218,9 @@
 # sent_id = fr-ud-train_12010
 # text = Au total, 24 câbles, réunis en 3 groupes de 4 sur chaque côté du pont.
 1-2	Au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	case	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	total	total	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+1	à	à	ADP	_	_	3	case	_	INMWE=Yes
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	INMWE=Yes
+3	total	total	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	24	24	NUM	_	_	6	nummod	_	_
 6	câbles	câble	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
@@ -335957,9 +335957,9 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5-6	au	_	_	_	_	_	_	_	_
-5	à	à	ADP	_	_	7	case	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	total	total	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+5	à	à	ADP	_	_	7	case	_	INMWE=Yes
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	INMWE=Yes
+7	total	total	NOUN	_	Gender=Masc|Number=Sing	4	advmod	_	MWEPOS=ADV
 8	52	52	NUM	_	_	9	nummod	_	_
 9	mois	mois	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
 10	consécutifs	consécutif	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
