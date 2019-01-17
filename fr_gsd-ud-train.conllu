@@ -17157,23 +17157,23 @@
 17	3,5	3,5	NUM	_	_	18	nummod	_	SpaceAfter=No
 18	%	%	SYM	_	_	15	obl:arg	_	_
 19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
-20	2005	2005	NUM	_	_	12	nmod	_	_
+20	2005	2005	NUM	_	_	12	parataxis	_	_
 21	:	:	PUNCT	_	_	20	punct	_	_
-22	+	+	SYM	_	_	20	appos	_	_
+22	+	+	SYM	_	_	24	advmod	_	_
 23	3,6	3,6	NUM	_	_	24	nummod	_	SpaceAfter=No
-24	%	%	SYM	_	_	22	nmod	_	SpaceAfter=No
+24	%	%	SYM	_	_	20	parataxis	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	2006	2006	NUM	_	_	20	conj	_	_
 27	:	:	PUNCT	_	_	26	punct	_	_
-28	+	+	SYM	_	_	26	appos	_	_
+28	+	+	SYM	_	_	30	advmod	_	_
 29	4,0	4,0	NUM	_	_	30	nummod	_	SpaceAfter=No
-30	%	%	SYM	_	_	28	nmod	_	SpaceAfter=No
+30	%	%	SYM	_	_	26	parataxis	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	_
 32	2007	2007	NUM	_	_	26	conj	_	_
 33	:	:	PUNCT	_	_	32	punct	_	_
-34	+	+	SYM	_	_	32	appos	_	_
+34	+	+	SYM	_	_	36	advmod	_	_
 35	3,6	3,6	NUM	_	_	36	nummod	_	SpaceAfter=No
-36	%	%	SYM	_	_	34	nmod	_	SpaceAfter=No
+36	%	%	SYM	_	_	32	parataxis	_	SpaceAfter=No
 37	)	)	PUNCT	_	_	20	punct	_	_
 38	et	et	CCONJ	_	_	40	cc	_	_
 39	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
@@ -17527,7 +17527,7 @@
 4	chiffre	chiffre	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
 5	de	de	ADP	_	_	8	case	_	_
 6	10	10	NUM	_	_	7	nummod	_	_
-7	milliards	milliard	NUM	_	Gender=Masc|Number=Plur	8	nmod	_	_
+7	milliards	milliard	NUM	_	Gender=Masc|Number=Plur	8	nummod	_	_
 8	€	€	SYM	_	_	4	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -20212,7 +20212,7 @@
 9	affiche	afficher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 10	512	512	NUM	_	_	13	nummod	_	_
 11	×	×	SYM	_	_	12	case	_	_
-12	342	342	NUM	_	_	10	nummod	_	_
+12	342	342	NUM	_	_	10	nmmod	_	_
 13	pixels	pixel	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -40260,7 +40260,7 @@
 # sent_id = fr-ud-train_01427
 # text = De fait, l'album présentait une critique acerbe de la société serbe à l'aube du nouveau millénaire ;
 1	De	de	ADP	_	_	2	case	_	INMWE=Yes
-2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=Yes|SpaceAfter=No
+2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	album	album	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -41156,7 +41156,7 @@
 
 # sent_id = fr-ud-train_01458
 # text = Mais alors quel est le problème ?
-1	Mais	mais	CCONJ	_	_	3	advmod	_	_
+1	Mais	mais	CCONJ	_	_	3	cc	_	_
 2	alors	alors	ADV	_	_	3	advmod	_	_
 3	quel	quel	PRON	_	Gender=Masc|Number=Sing	0	root	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -51943,10 +51943,10 @@
 14	généraliste	généraliste	ADJ	_	Gender=Fem|Number=Sing	12	conj	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	Bac	bac	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-17	+2	+2	X	_	_	16	appos	_	_
+17	+2	+2	X	_	_	16	nmod	_	_
 18	à	à	ADP	_	_	19	case	_	_
 19	bac	bac	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-20	+5	+5	X	_	_	19	appos	_	SpaceAfter=No
+20	+5	+5	X	_	_	19	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_01839
@@ -125732,8 +125732,8 @@
 
 # sent_id = fr-ud-train_04504
 # text = Et pourtant l'UE paye des milliers d'Euros par an au gouvernement marocain pour permettre aux navires européens de pêcher dans les eaux du Sahara Occidental.
-1	Et	et	CCONJ	_	_	5	advmod	_	MWEPOS=ADV
-2	pourtant	pourtant	ADV	_	_	1	fixed	_	_
+1	Et	et	CCONJ	_	_	5	cc	_	_
+2	pourtant	pourtant	ADV	_	_	5	advmod	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	UE	UE	PROPN	_	_	5	nsubj	_	_
 5	paye	payer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -133178,7 +133178,7 @@
 
 # sent_id = fr-ud-train_04772
 # text = Et comme l'humour et l'absurde furent également de la partie, on comprend mieux pourquoi les visages des spectateurs étaient aussi rayonnants à la sortie du théâtre.
-1	Et	et	CCONJ	_	_	15	advmod	_	_
+1	Et	et	CCONJ	_	_	15	cc	_	_
 2	comme	comme	SCONJ	_	_	12	mark	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	humour	humour	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -153729,9 +153729,9 @@
 
 # sent_id = fr-ud-train_05489
 # text = Et pourtant, à y regarder de plus près, on se rend compte que le monde, dont les théories législatives et légales ont atteint la perfection, ne se porte pas aussi bien que ne le laissent penser ces textes.
-1	Et	et	CCONJ	_	_	13	advmod	_	MWEPOS=ADV
-2	pourtant	pourtant	ADV	_	_	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
+1	Et	et	CCONJ	_	_	13	cc	_	_
+2	pourtant	pourtant	ADV	_	_	13	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
 4	à	à	ADP	_	_	6	mark	_	_
 5	y	y	PRON	_	_	6	iobj	_	_
 6	regarder	regarder	VERB	_	VerbForm=Inf	13	advcl	_	_
@@ -229104,7 +229104,7 @@
 
 # sent_id = fr-ud-train_08172
 # text = Et dans tout ça, qu'est-ce qu'on fait pour Berthe ?
-1	Et	et	CCONJ	_	_	6	advmod	_	_
+1	Et	et	CCONJ	_	_	6	cc	_	_
 2	dans	dans	ADP	_	_	4	case	_	_
 3	tout	tout	DET	_	Gender=Masc|Number=Sing	4	det	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obl:mod	_	SpaceAfter=No
@@ -316734,7 +316734,7 @@
 
 # sent_id = fr-ud-train_11351
 # text = Et c'est là que le bât blesse : est-ce que l'homme politique, le maire ou le décideur de tout poil ont une formation suffisante leur permettant de parler sainement et sans parti pris d'un problème pour lequel ils n'ont pas été formés ?
-1	Et	et	CCONJ	_	_	4	mark	_	_
+1	Et	et	CCONJ	_	_	4	cc	_	_
 2	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	là	là	ADV	_	_	0	root	_	_
