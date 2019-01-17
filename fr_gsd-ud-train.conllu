@@ -23456,15 +23456,15 @@
 15	de	de	ADP	_	_	17	case	_	_
 16	20	20	NUM	_	_	17	nummod	_	SpaceAfter=No
 17	%	%	SYM	_	_	14	obl:mod	_	_
-18	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
-19	de	de	ADP	_	_	23	case	_	_
-20	118	118	NUM	_	_	20	appos	_	_
+18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
+19	de	de	ADP	_	_	20	case	_	_
+20	118	118	NUM	_	_	17	appos	_	_
 21	à	à	ADP	_	_	23	case	_	_
 22	142	142	NUM	_	_	23	nummod	_	_
 23	euros	euro	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
 24	pour	pour	ADP	_	_	26	case	_	_
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	foyer	foyer	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+26	foyer	foyer	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
 27	de	de	ADP	_	_	29	case	_	_
 28	4	4	NUM	_	_	29	nummod	_	_
 29	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	_
@@ -23475,7 +23475,7 @@
 33	à	à	ADP	_	_	35	case	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	gaz	gaz	NOUN	_	Gender=Masc|Number=Sing	32	obl:mod	_	SpaceAfter=No
-36	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
 37	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-train_00825
@@ -74913,8 +74913,8 @@
 # text = Il assume dès lors différents ministères, jusqu'à ce qu'en 1850 il soit nommé président du conseil des ministres, un poste qu'il occupera de nouveau de 1851 à 1852.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	assume	assumer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	dès	dès	ADP	_	_	4	case	_	INMWE=Yes
-4	lors	lors	ADV	_	_	2	advmod	_	MWEPOS=ADV
+3	dès	dès	ADP	_	_	2	advmod	_	MWEPOS=ADV
+4	lors	lors	ADV	_	_	3	fixed	_	_
 5	différents	différent	DET	_	Gender=Masc|Number=Plur	6	det	_	_
 6	ministères	ministère	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
@@ -77488,8 +77488,8 @@
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	Maximilien	Maximilien	PROPN	_	_	12	nsubj	_	_
 12	perd	perdre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-13	dès	dès	ADP	_	_	14	case	_	INMWE=Yes
-14	lors	lors	ADV	_	_	12	advmod	_	MWEPOS=ADV
+13	dès	dès	ADP	_	_	12	advmod	_	MWEPOS=ADV
+14	lors	lors	ADV	_	_	13	fixed	_	_
 15	toute	tout	DET	_	Gender=Fem|Number=Sing	16	det	_	_
 16	influence	influence	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
 17	sur	sur	ADP	_	_	19	case	_	_
@@ -100003,8 +100003,8 @@
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	ne	ne	ADV	_	Polarity=Neg	12	advmod	_	_
 12	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-13	dès	dès	ADP	_	_	14	case	_	INMWE=Yes
-14	lors	lors	ADV	_	_	12	advmod	_	MWEPOS=ADV|SpaceAfter=No
+13	dès	dès	ADP	_	_	12	advmod	_	MWEPOS=ADV
+14	lors	lors	ADV	_	_	13	fixed	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	3	punct	_	_
 16	et	et	CCONJ	_	_	19	cc	_	_
 17	en	en	ADP	_	_	19	case	_	_
@@ -105517,8 +105517,8 @@
 2	en	en	PRON	_	Person=3	9	nmod	_	_
 3	revendiquent	revendiquer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	dès	dès	ADP	_	_	6	case	_	INMWE=Yes
-6	lors	lors	ADV	_	_	3	advmod	_	MWEPOS=ADV|SpaceAfter=No
+5	dès	dès	ADP	_	_	3	advmod	_	MWEPOS=ADV
+6	lors	lors	ADV	_	_	5	fixed	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	possession	possession	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
@@ -122154,8 +122154,8 @@
 
 # sent_id = fr-ud-train_04377
 # text = Dès lors, la réussite dans la société devient un critère de promotion au sein de l'institution.
-1	Dès	dès	ADP	_	_	2	case	_	INMWE=Yes
-2	lors	lors	ADV	_	_	9	advmod	_	MWEPOS=ADV|SpaceAfter=No
+1	Dès	dès	ADP	_	_	9	advmod	_	MWEPOS=ADV
+2	lors	lors	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	réussite	réussite	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -150548,8 +150548,8 @@
 12	,	,	PUNCT	_	_	5	punct	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	assume	assumer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
-15	dès	dès	ADP	_	_	16	case	_	INMWE=Yes
-16	lors	lors	ADV	_	_	14	advmod	_	MWEPOS=ADV
+15	dès	dès	ADP	_	_	14	advmod	_	MWEPOS=ADV
+16	lors	lors	ADV	_	_	15	fixed	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	fonction	fonction	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
 19-20	aux	_	_	_	_	_	_	_	_
@@ -200371,8 +200371,8 @@
 
 # sent_id = fr-ud-train_07148
 # text = Dès lors, il apparaît régulièrement dans le groupe et joue en tant que latéral gauche pendant les journées qui suivent.
-1	Dès	dès	ADP	_	_	2	case	_	INMWE=Yes
-2	lors	lors	ADV	_	_	5	advmod	_	MWEPOS=ADV|SpaceAfter=No
+1	Dès	dès	ADP	_	_	5	advmod	_	MWEPOS=ADV
+2	lors	lors	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	apparaît	apparaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -232729,8 +232729,8 @@
 
 # sent_id = fr-ud-train_08303
 # text = Dès lors, les groupes religieux crient au blasphème et appellent au Boycott, le risque est trop grand pour Pepsi et le groupe met fin au contrat de 5 000 000 $.
-1	Dès	dès	ADP	_	_	2	case	_	INMWE=Yes
-2	lors	lors	ADV	_	_	7	advmod	_	MWEPOS=ADV|SpaceAfter=No
+1	Dès	dès	ADP	_	_	7	advmod	_	MWEPOS=ADV
+2	lors	lors	ADV	_	_	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	groupes	groupe	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
@@ -256532,8 +256532,8 @@
 
 # sent_id = fr-ud-train_09145
 # text = Dès lors que la relation entre la période et la luminosité des céphéides est correctement calibrée, il devient possible de l'utiliser pour mesurer la distance de toutes les céphéides classiques identifiées.
-1	Dès	dès	ADP	_	_	2	case	_	INMWE=Yes
-2	lors	lors	ADV	_	_	20	advmod	_	MWEPOS=ADV
+1	Dès	dès	ADP	_	_	20	advmod	_	MWEPOS=ADV
+2	lors	lors	ADV	_	_	1	fixed	_	_
 3	que	que	SCONJ	_	_	17	mark	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	relation	relation	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
@@ -265913,8 +265913,8 @@
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	Hortefeux	Hortefeux	PROPN	_	_	14	nsubj:pass	_	_
 11	étant	être	AUX	_	Tense=Pres|VerbForm=Part	14	aux:pass	_	_
-12	dès	dès	ADP	_	_	13	case	_	INMWE=Yes
-13	lors	lors	ADV	_	_	14	advmod	_	MWEPOS=ADV
+12	dès	dès	ADP	_	_	14	advmod	_	MWEPOS=ADV
+13	lors	lors	ADV	_	_	12	fixed	_	_
 14	considéré	considérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
 15	comme	comme	ADP	_	_	17	case	_	_
 16	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	_
@@ -275146,8 +275146,8 @@
 20	ou	ou	CCONJ	_	_	22	cc	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	blues	blues	NOUN	_	Gender=Masc|Number=Sing	19	conj	_	_
-23	dès	dès	ADP	_	_	24	case	_	INMWE=Yes
-24	lors	lors	ADV	_	_	8	advmod	_	MWEPOS=ADV
+23	dès	dès	ADP	_	_	8	advmod	_	MWEPOS=ADV
+24	lors	lors	ADV	_	_	23	fixed	_	_
 25	qu'	que	SCONJ	_	_	27	mark	_	SpaceAfter=No
 26	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
 27	emménage	emménager	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
@@ -349266,8 +349266,8 @@
 28	à	à	ADP	_	_	29	case	_	_
 29	Paris	Paris	PROPN	_	_	27	obl:arg	_	_
 30	étant	être	AUX	_	Tense=Pres|VerbForm=Part	33	aux:pass	_	_
-31	dès	dès	ADP	_	_	32	case	_	INMWE=Yes
-32	lors	lors	ADV	_	_	33	advmod	_	MWEPOS=ADV
+31	dès	dès	ADP	_	_	33	advmod	_	MWEPOS=ADV
+32	lors	lors	ADV	_	_	31	fixed	_	_
 33	desservie	desservir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
 34	en	en	ADP	_	_	35	case	_	_
 35	partage	partage	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
