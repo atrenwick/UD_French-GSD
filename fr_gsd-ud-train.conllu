@@ -23281,7 +23281,7 @@
 15	de	de	ADP	_	_	17	case	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	noyaux	noyau	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
-18	radio	radio	ADJ	_	_	17	amod	_	_
+18	radio	radio	ADJ	_	_	17	amod	_	MWEPOS=ADJ
 19	actifs	actif	ADJ	_	Gender=Masc|Number=Plur	18	goeswith	_	_
 20	puis	puis	ADV	_	_	26	cc	_	_
 21	en	en	ADP	_	_	22	case	_	_
@@ -55344,11 +55344,11 @@
 8	fasse	faire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	advmod	_	MWEPOS=ADV
 10	peu	peu	ADV	_	_	9	fixed	_	_
-11	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	8	obj:lvc	_	_
 12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	14	case	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	ménage	ménage	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+14	ménage	ménage	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	rue	rue	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
@@ -73837,7 +73837,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	restaurant	restaurant	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
-7	week	weekend	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+7	week	weekend	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	MWEPOS=NOUN
 8	end	end	NOUN	_	Gender=Fem|Number=Sing	7	goeswith	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -117124,10 +117124,10 @@
 
 # sent_id = fr-ud-train_04198
 # text = C'est bien sûr grâce à sa mère, (dont elle a hérité le caractère passionné et la vivacité d'esprit) qu'Etty lisait et parlait le russe, et, comme sa mère, elle vivait grâce aux leçons particulières de russe qu'elle donnait et qui lui permettaient de continuer ses études.
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 3	bien	bien	ADV	_	_	4	advmod	_	INMWE=Yes
-4	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	8	advmod	_	MWEPOS=ADV
+4	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	5	advmod	_	MWEPOS=ADV
 5	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	0	root	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
@@ -128745,13 +128745,13 @@
 
 # sent_id = fr-ud-train_04613
 # text = Peut être était-ce un loup ?
-1	Peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advmod	_	_
+1	Peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advmod	_	MWEPOS=ADV
 2	être	être	VERB	_	VerbForm=Inf	1	goeswith	_	_
-3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	SpaceAfter=No
-4	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	0	root	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	SpaceAfter=No
+4	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	loup	loup	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-7	?	?	PUNCT	_	_	4	punct	_	_
+6	loup	loup	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_04614
 # text = Le théâtre a abonnés et attire quelque spectateurs par an.
@@ -144840,7 +144840,7 @@
 19	dans	dans	ADP	_	_	21	case	_	_
 20	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
 21	forêt	forêt	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	_
-22	mal	mal	ADV	_	_	21	acl	_	_
+22	mal	mal	ADV	_	_	21	amod	_	MWEPOS=ADJ
 23	famée	famé	ADJ	_	Gender=Fem|Number=Sing	22	goeswith	_	_
 24	et	et	CCONJ	_	_	25	cc	_	_
 25	déserte	désert	ADJ	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
@@ -150213,7 +150213,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	tente	tenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	come	come	VERB	_	_	2	obj	_	_
+4	come	come	VERB	_	_	2	obj	_	MWEPOS=NOUN
 5	back	back	ADV	_	_	4	goeswith	_	_
 6	en	en	ADP	_	_	7	mark	_	_
 7	produisant	produire	VERB	_	Tense=Pres|VerbForm=Part	2	advcl	_	_
@@ -161936,7 +161936,7 @@
 26	ou	ou	CCONJ	_	_	29	cc	_	_
 27	éventuellement	éventuellement	ADV	_	_	29	advmod	_	_
 28	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	29	det	_	_
-29	allume	allume	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+29	allume	allume	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	MWEPOS=NOUN
 30	barbecues	barbecue	NOUN	_	Gender=Masc|Number=Plur	29	goeswith	_	_
 31	liquides	liquide	ADJ	_	Gender=Masc|Number=Plur	29	amod	_	_
 32	spécialement	spécialement	ADV	_	_	33	advmod	_	_
@@ -169391,7 +169391,7 @@
 24-25	au	_	_	_	_	_	_	_	_
 24	à	à	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	rendez	rendez	NOUN	_	Gender=Masc|Number=Sing	23	obl:arg	_	_
+26	rendez	rendez	NOUN	_	Gender=Masc|Number=Sing	23	obl:arg	_	MWEPOS=NOUN
 27	vous	vous	PRON	_	_	26	goeswith	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -174285,7 +174285,7 @@
 17	bien	bien	ADV	_	_	20	advmod	_	MWEPOS=ADV
 18	pour	pour	ADP	_	_	20	case	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	week	weekend	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+20	week	weekend	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	MWEPOS=NOUN
 21	end	end	NOUN	_	Gender=Fem|Number=Sing	20	goeswith	_	_
 22	que	que	SCONJ	_	_	24	mark	_	_
 23	pour	pour	ADP	_	_	24	mark	_	_
@@ -210235,9 +210235,9 @@
 6	dans	dans	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	structures	structure	NOUN	_	Gender=Fem|Number=Plur	5	obl:arg	_	_
-9	et	et	CCONJ	_	_	11	cc	_	_
-10	infra	infra	X	_	_	11	goeswith	_	_
-11	structure	structure	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+9	et	et	CCONJ	_	_	10	cc	_	_
+10	infra	infra	PART	_	_	8	conj	_	MWEPOS=NOUN
+11	structure	structure	NOUN	_	Gender=Fem|Number=Sing	10	goeswith	_	_
 12	que	que	PRON	_	PronType=Rel	14	obj	_	_
 13	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 14	posséder	posséder	VERB	_	VerbForm=Inf	13	xcomp	_	_
@@ -211226,7 +211226,7 @@
 10	avec	avec	ADP	_	_	12	case	_	_
 11	mes	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det	_	_
 12	potes	pote	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
-13	la	la	ADV	_	_	3	advmod	_	Correct=là-bas
+13	la	la	ADV	_	_	3	advmod	_	Correct=là-bas|MWEPOS=ADV
 14	bas	bas	ADJ	_	Gender=Masc|Number=Plur	13	goeswith	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	3	punct	_	_
 16	nickel	nickel	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
@@ -243067,7 +243067,7 @@
 # sent_id = fr-ud-train_08668
 # text = Etant moi même copropriétaire, je suis très satisfaite des services du cabinet Ariane Immobilier en qualité de syndic de notre résidence.
 1	Etant	être	AUX	_	Tense=Pres|VerbForm=Part	4	cop	_	_
-2	moi	moi	PRON	_	Gender=Fem|Number=Sing|Person=1|Reflex=Yes	4	nsubj	_	_
+2	moi	moi	PRON	_	Gender=Fem|Number=Sing|Person=1|Reflex=Yes	4	obl:mod	_	MWEPOS=PRON
 3	même	même	ADV	_	_	2	goeswith	_	_
 4	copropriétaire	copropriétaire	NOUN	_	Gender=Masc|Number=Sing	9	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
@@ -285950,7 +285950,7 @@
 20	par	par	ADP	_	_	22	case	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	19	obl:agent	_	_
-23	hip	hip	NOUN	_	Gender=Masc|Number=Sing	22	compound	_	_
+23	hip	hip	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	MWEPOS=NOUN
 24	hop	hop	NOUN	_	_	23	goeswith	_	_
 25	français	français	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
 26	et	et	CCONJ	_	_	33	cc	_	_
@@ -326234,7 +326234,7 @@
 
 # sent_id = fr-ud-train_11681
 # text = Peut être une personne qu'elle connaissait avant ses pertes de mémoires ?
-1	Peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advmod	_	_
+1	Peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advmod	_	MWEPOS=ADV
 2	être	être	VERB	_	VerbForm=Inf	1	goeswith	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	personne	personne	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -340193,11 +340193,11 @@
 10	,	,	PUNCT	_	_	5	punct	_	_
 11	beaucoup	beaucoup	ADV	_	_	12	advmod	_	_
 12	plus	plus	ADV	_	_	16	advmod	_	_
-13	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	_
+13	grâce	grâce	ADV	_	_	5	advmod	_	_
 14-15	aux	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	effets	effet	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+16	effets	effet	NOUN	_	Gender=Masc|Number=Plur	13	obl:arg	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	habitude	habitude	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
@@ -340219,7 +340219,7 @@
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	etc.	etc.	X	_	_	16	conj	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	16	punct	_	_
-37	que	que	SCONJ	_	_	41	cc	_	_
+37	que	que	SCONJ	_	_	38	cc	_	_
 38	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	13	conj	_	_
 39	à	à	ADP	_	_	41	case	_	_
 40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
@@ -361528,16 +361528,16 @@
 
 # sent_id = fr-ud-train_12931
 # text = Et si Europcar a signé, on le sait, c'est en grande partie grâce au champion de France.
-1	Et	et	CCONJ	_	_	19	cc	_	_
+1	Et	et	CCONJ	_	_	16	cc	_	_
 2	si	si	SCONJ	_	_	5	mark	_	_
 3	Europcar	Europcar	PROPN	_	_	5	nsubj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	signé	signer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	19	punct	_	_
+5	signé	signer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	16	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 8	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 9	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	19	punct	_	_
+10	,	,	PUNCT	_	_	16	punct	_	_
 11	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	19	nsubj	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 13	en	en	ADP	_	_	15	case	_	_
@@ -366023,9 +366023,9 @@
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	RAS	ras	NOUN	_	Gender=Masc|Number=Sing	0	root	_	MWEPOS=NOUN
-5	LE	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	goeswith	_	_
-6	BOL	bol	NOUN	_	Gender=Masc|Number=Sing	4	goeswith	_	_
+4	RAS	ras	ADV	_	Gender=Masc|Number=Sing	0	root	_	MWEPOS=NOUN
+5	LE	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	INMWE=Yes
+6	BOL	bol	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	INMWE=Yes
 7	général	général	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 8	!	!	PUNCT	_	_	4	punct	_	_
 
@@ -407464,7 +407464,7 @@
 15	,	,	PUNCT	_	_	7	punct	_	_
 16	lui-même	lui-même	PRON	_	Gender=Masc|Number=Sing|Person=3|Reflex=Yes	18	obl:mod	_	_
 17	«	«	PUNCT	_	_	18	punct	_	_
-18	redout	redouter	VERB	_	Tense=Pres|VerbForm=Part	7	advcl	_	SpaceAfter=No
+18	redout	redouter	VERB	_	Tense=Pres|VerbForm=Part	7	advcl	_	MWEPOS=VERB|SpaceAfter=No
 19	[	[	PUNCT	_	_	20	punct	_	SpaceAfter=No
 20	ant	ant	X	_	_	18	goeswith	_	SpaceAfter=No
 21	]	]	PUNCT	_	_	20	punct	_	_
