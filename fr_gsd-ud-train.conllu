@@ -7905,9 +7905,9 @@
 
 # sent_id = fr-ud-train_00270
 # text = Faute de pétrole, l'Indonésie s'est retiré de l'OPEP en 2008.
-1	Faute	faute	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
+1	Faute	faute	ADV	_	_	9	advmod	_	_
 2	de	de	ADP	_	_	3	case	_	_
-3	pétrole	pétrole	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+3	pétrole	pétrole	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	Indonésie	Indonésie	PROPN	_	_	9	nsubj	_	_
@@ -113567,16 +113567,16 @@
 26	fidèlement	fidèlement	ADV	_	_	27	advmod	_	_
 27	pastiché	pasticher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
 28	dans	dans	ADP	_	_	30	case	_	_
-29	Y	y	PRON	_	_	30	expl	_	_
-30	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	obl:arg	_	SpaceAfter=No
-31	-t	t	PART	_	_	32	expl	_	SpaceAfter=No
-32	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	expl	_	_
-33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
-34	pilote	pilote	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
-35	dans	dans	ADP	_	_	37	case	_	_
-36	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
-37	avion	avion	NOUN	_	Gender=Masc|Number=Sing	30	obl:mod	_	_
-38	?	?	PUNCT	_	_	27	punct	_	_
+29	Y	y	PRON	_	_	30	expl	_	INTITLE=Yes
+30	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	obl:arg	_	SpaceAfter=No|TITLE=Yes
+31	-t	t	PART	_	_	32	expl	_	SpaceAfter=No|INTITLE=Yes
+32	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	expl	_	INTITLE=Yes
+33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	INTITLE=Yes
+34	pilote	pilote	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	INTITLE=Yes
+35	dans	dans	ADP	_	_	37	case	_	INTITLE=Yes
+36	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No|INTITLE=Yes
+37	avion	avion	NOUN	_	Gender=Masc|Number=Sing	30	obl:mod	_	INTITLE=Yes
+38	?	?	PUNCT	_	_	30	punct	_	INTITLE=Yes
 
 # sent_id = fr-ud-train_04065
 # text = Le 17 mai 1796, Louis de Frotté, général des chouans de Normandie, s'était rendu à Parigné pour tenir un conseil militaire avec Aimé Picquet du Boisguy.
@@ -128488,10 +128488,10 @@
 6	années	année	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
 7	1990	1990	NUM	_	_	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
-9	faute	faute	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
+9	faute	faute	ADV	_	_	19	advmod	_	_
 10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	championnat	championnat	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	championnat	championnat	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
 13	domestique	domestique	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 14	compétitif	compétitif	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	9	punct	_	_
@@ -153959,7 +153959,7 @@
 30	lutte	lutte	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
 31	menée	mener	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
 32	depuis	depuis	ADP	_	_	33	case	_	_
-33	prés	près	NOUN	_	Gender=Masc|Number=Plur	31	obl:mod	_	Correct=près
+33	prés	près	ADV	_	_	31	obl:mod	_	Correct=près
 34	de	de	ADP	_	_	36	case	_	_
 35	quarante	quarante	NUM	_	_	36	nummod	_	_
 36	ans	an	NOUN	_	Gender=Masc|Number=Plur	33	obl:arg	_	_
@@ -232378,10 +232378,10 @@
 # text = C'est faute d'une réforme administrative dans ce sens que l'Espagne de Philippe II a perdu toute sa richesse conquise en Amérique au profit de ses rivaux européens et que l'Empire austro-hongrois s'est écroulé en quelques mois.
 1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	nsubj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	faute	faute	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	faute	faute	ADV	_	_	0	root	_	_
 4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	réforme	réforme	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	réforme	réforme	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
 7	administrative	administratif	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
@@ -251952,7 +251952,7 @@
 19	proximité	proximité	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	_
 20	de	de	ADP	_	_	22	case	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	grille	grille	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	_
+22	grille	grille	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 23	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
 24	honneur	honneur	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	8	punct	_	_
@@ -253394,7 +253394,7 @@
 43	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	40	obl:arg	_	MWEPOS=ADV
 44	d'	de	ADP	_	_	46	case	_	SpaceAfter=No
 45	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
-46	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	43	obl:arg	_	_
+46	moyenne	moyenne	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	_
 47	de	de	ADP	_	_	49	case	_	_
 48	500	500	NUM	_	_	49	nummod	_	_
 49	mètres	mètre	NOUN	_	Gender=Masc|Number=Plur	46	nmod	_	SpaceAfter=No
@@ -284799,13 +284799,13 @@
 5	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	desserts	dessert	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
-8	faute	faute	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	_
+8	faute	faute	ADV	_	_	5	advmod	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	_
 11	ni	ni	CCONJ	_	_	13	cc	_	_
 12	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	cafés	café	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
-14	faute	faute	NOUN	_	Gender=Fem|Number=Sing	13	advmod	_	_
+14	faute	faute	ADV	_	_	13	advmod	_	_
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -354551,9 +354551,9 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	parti	parti	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 4	éclate	éclater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	faute	faute	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+5	faute	faute	ADV	_	_	4	advmod	_	_
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
-7	entente	entente	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+7	entente	entente	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
 8	sur	sur	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	choix	choix	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
@@ -369412,8 +369412,8 @@
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	armes	arme	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
-15	en	en	ADP	_	_	16	case	_	_
-16	raison	raison	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+15	en	en	ADP	_	_	16	case	_	INMWE=Yes
+16	raison	raison	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	MWEPOS=ADV
 17	de	de	ADP	_	_	20	case	_	_
 18	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det	_	_
 19	forte	fort	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
@@ -369924,7 +369924,7 @@
 3	plus	plus	ADV	_	_	8	obj	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	15	15	NUM	_	_	6	nummod	_	_
-6	hrs	hrs	X	_	_	3	obl:arg	_	_
+6	hrs	hrs	NOUN	_	_	3	obl:arg	_	_
 7	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
 8	samedi	samedi	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 9	de	de	ADP	_	_	10	case	_	_
