@@ -236381,7 +236381,7 @@
 17	secteur	secteur	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	Fastiv	Fastiv	PROPN	_	_	17	nmod	_	_
-20	début	début	NOUN	_	_	8	obl:mod	_	_
+20	début	début	NOUN	_	_	4	obl:mod	_	_
 21	novembre	novembre	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	4	punct	_	_
 23	mais	mais	CCONJ	_	_	28	cc	_	_
@@ -238249,7 +238249,7 @@
 16	de	de	ADP	_	_	17	case	_	_
 17	serveurs	serveur	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
 18	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
-19	anglais	anglais	ADJ	_	Gender=Masc|Number=Sing	20	obl:mod	_	_
+19	anglais	anglais	ADJ	_	Gender=Masc|Number=Sing	20	nmod	_	_
 20	server	server	PROPN	_	_	21	nmod	_	_
 21	farm	farm	PROPN	_	_	15	appos	_	_
 22	ou	ou	CCONJ	_	_	23	cc	_	_
@@ -246400,7 +246400,7 @@
 22	in	in	ADP	_	_	25	case	_	Foreign=en
 23	New	new	ADJ	_	_	25	amod	_	Foreign=en
 24	South	south	PROPN	_	_	25	nmod	_	Foreign=en
-25	Wales	Wales	PROPN	_	_	21	obl:mod	_	Foreign=en|SpaceAfter=No
+25	Wales	Wales	PROPN	_	_	21	nmod	_	Foreign=en|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	Batavia	Batavia	PROPN	_	_	25	conj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
@@ -259942,7 +259942,7 @@
 18	avec	avec	ADP	_	_	24	case	_	_
 19	à	à	ADP	_	_	21	case	_	_
 20	chaque	chaque	DET	_	Number=Sing	21	det	_	_
-21	fois	fois	NOUN	_	Gender=Fem|Number=Sing	24	obl:mod	_	_
+21	fois	fois	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
 22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 23	grande	grand	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
 24	satisfaction	satisfaction	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	SpaceAfter=No
@@ -273101,7 +273101,7 @@
 15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 16	2.1.5	2.1.5	NUM	_	_	9	dep	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
-18	p	p	NOUN	_	_	16	obl:mod	_	_
+18	p	p	NOUN	_	_	16	nmod	_	_
 19	112	112	NUM	_	_	18	nmod	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	9	punct	_	_
@@ -296164,8 +296164,8 @@
 # text = Toutes les chansons sont de David Bowie et Reeves Gabrels, sauf What's Really Happening ?
 1	Toutes	tout	DET	_	Gender=Fem|Number=Plur	3	det	_	_
 2	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
-3	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
-4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	chansons	chanson	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	David	David	PROPN	_	_	4	obl:arg	_	_
 7	Bowie	Bowie	PROPN	_	_	6	flat:name	_	_
@@ -296177,8 +296177,8 @@
 13	What	what	PRON	_	_	16	nsubj	_	INTITLE=Yes|SpaceAfter=No
 14	's	be	AUX	_	_	16	aux	_	INTITLE=Yes
 15	Really	really	ADV	_	_	16	advmod	_	INTITLE=Yes
-16	Happening	happen	VERB	_	_	3	obl:mod	_	TITLE=Yes
-17	?	?	PUNCT	_	_	16	punct	_	_
+16	Happening	happen	VERB	_	_	4	obl:mod	_	TITLE=Yes
+17	?	?	PUNCT	_	_	16	punct	_	INTITLE=Yes
 
 # sent_id = fr-ud-train_10611
 # text = Il s'inspire de plusieurs genres comme le gospel, le R'n'B, la soul et la pop des années 60-70.
@@ -314793,7 +314793,7 @@
 10	à	à	ADP	_	_	11	case	_	_
 11	plus	plus	ADV	_	_	9	obl:mod	_	_
 12	de	de	ADP	_	_	13	case	_	_
-13	exemplaires	exemplaire	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	_
+13	exemplaires	exemplaire	NOUN	_	Gender=Masc|Number=Plur	11	obl:arg	_	_
 14	chacun	chacun	PRON	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -379615,7 +379615,7 @@
 10	une	un	PRON	_	Gender=Fem|Number=Sing	7	acl:relcl	_	_
 11	inédite	inédit	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 12	de	de	ADP	_	_	13	case	_	_
-13	Snodgrass	Snodgrass	PROPN	_	_	10	obl:mod	_	_
+13	Snodgrass	Snodgrass	PROPN	_	_	10	nmod	_	_
 14	Spiderman	Spiderman	PROPN	_	_	13	flat:name	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	10	punct	_	_
 16	Wolfman	Wolfman	PROPN	_	_	10	appos	_	SpaceAfter=No
