@@ -17889,7 +17889,7 @@
 63	de	de	ADP	_8234	_	65	case	_	_
 64	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	65	det	_	_
 65	5	5	NUM	_	_	62	nmod	_	_
-66	+5	+5	NUM	_	_	65	nummod	_	_
+66	+5	+5	NUM	_	_	65	nmod	_	_
 67	tenue	tenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	52	acl	_	_
 68	à	à	ADP	_	_	69	case	_	_
 69	Tunis	Tunis	PROPN	_	_	67	obl:mod	_	SpaceAfter=No
@@ -91070,10 +91070,10 @@
 20	5-6	5-6	NUM	_	_	21	nummod	_	_
 21	place	place	NOUN	_	Gender=Fem|Number=Sing	17	obl:arg	_	_
 22	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-23	+4	+4	NUM	_	_	25	nummod	_	SpaceAfter=No
-24	-2	-2	NUM	_	_	25	nummod	_	_
-25	=	=	SYM	_	_	21	appos	_	_
-26	7	7	NUM	_	_	25	nummod	_	SpaceAfter=No
+23	+4	+4	NUM	_	_	25	nsubj	_	SpaceAfter=No
+24	-2	-2	NUM	_	_	23	nmmod	_	_
+25	=	=	SYM	_	_	21	parataxis	_	_
+26	7	7	NUM	_	_	25	obj	_	SpaceAfter=No
 27	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -118232,22 +118232,22 @@
 6	excès	excès	NOUN	_	Gender=Masc|Number=Sing	3	obl:agent	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	masse	masse	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-9	de	de	ADP	_	_	10	case	_	_
+9	de	de	ADP	_	_	13	case	_	_
 10	35 443 677	35 443 677	NUM	_	_	13	nummod	_	_
 11	±	±	SYM	_	_	12	case	_	_
-12	2 036	2 036	NUM	_	_	10	nummod	_	_
-13	eV/c2	eV/c2	X	_	_	6	nmod	_	_
+12	2 036	2 036	NUM	_	_	10	nmod	_	_
+13	eV/c2	eV/c2	SYM	_	_	6	nmod	_	_
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	énergie	énergie	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	liaison	liaison	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 19	nucléaire	nucléaire	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
-20	de	de	ADP	_	_	21	case	_	_
+20	de	de	ADP	_	_	24	case	_	_
 21	1 766 691 409	1 766 691 409	NUM	_	_	24	nummod	_	_
 22	±	±	SYM	_	_	23	case	_	_
-23	2 061	2 061	NUM	_	_	21	nummod	_	_
-24	eV	eV	X	_	_	16	nmod	_	SpaceAfter=No
+23	2 061	2 061	NUM	_	_	21	nmod	_	_
+24	eV	eV	SYM	_	_	16	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_04235
@@ -130934,9 +130934,9 @@
 58	kif	kif	NOUN	_	Gender=Masc|Number=Sing	56	nmod	_	_
 59	traité	traiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	58	acl	_	_
 60	et	et	CCONJ	_	_	68	cc	_	_
-61	quatre	quatre	NUM	_	_	68	nummod	_	_
-62	vingt	vingt	NUM	_	_	61	nummod	_	_
-63	sept	sept	NUM	_	_	61	nummod	_	_
+61	quatre	quatre	NUM	_	_	62	nummod	_	_
+62	vingt	vingt	NUM	_	_	68	nummod	_	_
+63	sept	sept	NUM	_	_	62	nmod	_	_
 64	(	(	PUNCT	_	_	65	punct	_	SpaceAfter=No
 65	87	87	NUM	_	_	61	appos	_	SpaceAfter=No
 66	)	)	PUNCT	_	_	65	punct	_	_
@@ -170160,8 +170160,8 @@
 19	Bouddha	Bouddha	PROPN	_	_	16	nmod	_	_
 20	éclaire	éclairer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
 21	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-22	trois	trois	NUM	_	_	24	nummod	_	_
-23	mille	mille	NUM	_	_	22	nummod	_	_
+22	trois	trois	NUM	_	_	23	nummod	_	_
+23	mille	mille	NUM	_	_	24	nummod	_	_
 24	mondes	monde	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
 25	;	;	PUNCT	_	_	9	punct	_	_
 
@@ -188846,10 +188846,10 @@
 12	dix	dix	NUM	_	_	13	nummod	_	_
 13	nulles	nulle	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
 14	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
-15	+1	+1	NUM	_	_	17	nummod	_	SpaceAfter=No
-16	-1	-1	NUM	_	_	17	nummod	_	_
-17	=	=	SYM	_	_	13	appos	_	_
-18	10	10	NUM	_	_	17	nummod	_	SpaceAfter=No
+15	+1	+1	NUM	_	_	17	nsubj	_	SpaceAfter=No
+16	-1	-1	NUM	_	_	17	nmod	_	_
+17	=	=	SYM	_	_	13	parataxis	_	_
+18	10	10	NUM	_	_	17	obj	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	17	punct	_	_
 20	et	et	CCONJ	_	_	31	cc	_	_
 21	à	à	ADP	_	_	22	case	_	_
@@ -215090,8 +215090,8 @@
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	_
 35	de	de	ADP	_	_	37	case	_	_
-36	Cent	Cent	PROPN	_	_	37	nummod	_	_
-37	Ans	Ans	PROPN	_	_	34	nmod	_	SpaceAfter=No
+36	Cent	Cent	NUM	_	_	37	nummod	_	_
+37	Ans	Ans	NOUN	_	Gender=Masc|Number=Plur	34	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	_	_	22	punct	_	_
 
 # sent_id = fr-ud-train_07675
@@ -227877,12 +227877,12 @@
 8	Paul	Paul	PROPN	_	_	7	flat:name	_	_
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	12	12	NUM	_	_	6	nmod	_	_
-11	rue	rue	NOUN	_	Gender=Fem|Number=Sing	10	advmod	_	_
-12	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	_
+11	rue	rue	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+12	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 13	Joseph	Joseph	PROPN	_	_	12	flat:name	_	SpaceAfter=No
 14	--	--	PUNCT	_	_	11	punct	_	SpaceAfter=No
-15	75002	75002	NUM	_	_	10	nummod	_	_
-16	Paris	Paris	PROPN	_	_	10	appos	_	SpaceAfter=No
+15	75002	75002	NUM	_	_	10	nmod	_	_
+16	Paris	Paris	PROPN	_	_	10	nmod	_	SpaceAfter=No
 17	)	)	PUNCT	_	_	10	punct	_	_
 18	:	:	PUNCT	_	_	19	punct	_	_
 19	Session	session	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -233593,8 +233593,8 @@
 1	Avec	avec	ADP	_	_	2	case	_	_
 2	plus	plus	ADV	_	_	13	obl:mod	_	_
 3	de	de	ADP	_	_	6	case	_	_
-4	cent	cent	NUM	_	_	6	nummod	_	_
-5	mille	mille	NUM	_	_	4	nummod	_	_
+4	cent	cent	NUM	_	_	5	nummod	_	_
+5	mille	mille	NUM	_	_	6	nummod	_	_
 6	sauts	saut	NOUN	_	Gender=Masc|Number=Plur	2	obl:arg	_	_
 7	par	par	ADP	_	_	8	case	_	_
 8	an	an	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
@@ -299603,8 +299603,8 @@
 # sent_id = fr-ud-train_10733
 # text = « Six mille vols devraient être assurés aujourd'hui contre 22'000 en temps normal », a précisé l'organisation dans un communiqué.
 1	«	«	PUNCT	_	_	5	punct	_	_
-2	Six	Six	NUM	_	_	4	nummod	_	_
-3	mille	mille	NUM	_	_	2	nummod	_	_
+2	Six	Six	NUM	_	_	3	nummod	_	_
+3	mille	mille	NUM	_	_	4	nummod	_	_
 4	vols	vol	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 5	devraient	devoir	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
 6	être	être	AUX	_	VerbForm=Inf	7	aux:pass	_	_
@@ -301351,8 +301351,8 @@
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
 20	de	de	ADP	_	_	22	case	_	_
-21	Sept	Sept	PROPN	_	_	22	nummod	_	_
-22	Ans	Ans	PROPN	_	_	19	nmod	_	SpaceAfter=No
+21	Sept	Sept	NUM	_	_	22	nummod	_	_
+22	Ans	Ans	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_10793
@@ -318296,9 +318296,9 @@
 38	de	de	ADP	_	_	43	case	_	_
 39	400	400	NUM	_	_	42	nummod	_	_
 40	à	à	ADP	_	_	41	case	_	_
-41	500	500	NUM	_	_	39	nummod	_	_
-42	millions	million	NOUN	_	Gender=Masc|Number=Plur	37	nmod	_	_
-43	USD	USD	NOUN	_	Gender=Masc|Number=Plur	42	nmod	_	_
+41	500	500	NUM	_	_	39	nmod	_	_
+42	millions	million	NOUN	_	Gender=Masc|Number=Plur	43	nummod	_	_
+43	USD	USD	NOUN	_	Gender=Masc|Number=Plur	37	nmod	_	_
 44	et	et	CCONJ	_	_	54	cc	_	_
 45	si	si	SCONJ	_	_	48	mark	_	_
 46	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	48	nsubj	_	MWEPOS=PRON|SpaceAfter=No
@@ -344008,11 +344008,11 @@
 14	pas	pas	ADV	_	_	15	advmod	_	_
 15	moins	moins	ADV	_	_	13	obl	_	_
 16	que	que	SCONJ	_	_	23	case	_	_
-17	six	six	NUM	_	_	23	nummod	_	_
-18	cent	cent	NUM	_	_	17	nummod	_	_
-19	treize	treize	NUM	_	_	18	nummod	_	_
+17	six	six	NUM	_	_	28	nummod	_	_
+18	cent	cent	NUM	_	_	23	nummod	_	_
+19	treize	treize	NUM	_	_	18	nmod	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
-21	613	613	NUM	_	_	17	appos	_	SpaceAfter=No
+21	613	613	NUM	_	_	18	appos	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	21	punct	_	_
 23	commandements	commandement	NOUN	_	Gender=Masc|Number=Plur	15	obl:mod	_	_
 24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
@@ -393179,7 +393179,7 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	n°	°	SYM	_	_	9	nmod	_	_
-13	1682	1682	NUM	_	_	12	nummod	_	_
+13	1682	1682	NUM	_	_	12	nmod	_	_
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -403453,8 +403453,8 @@
 15	production	production	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 16	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
 17	emploie	employer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
-18	deux	deux	NUM	_	_	20	nummod	_	_
-19	cent	cent	NUM	_	_	18	nummod	_	_
+18	deux	deux	NUM	_	_	19	nummod	_	_
+19	cent	cent	NUM	_	_	20	nummod	_	_
 20	salariés	salarié	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	4	punct	_	_
 
