@@ -16467,7 +16467,7 @@
 11	PSD	PSD	PROPN	_	_	12	nsubj	_	_
 12	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	en	en	ADP	_	_	14	case	_	INMWE=Yes
-14	tête	tête	NOUN	_	Gender=Fem|Number=Sing	12	advmod	_	MWEPOS=ADV
+14	tête	tête	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	MWEPOS=ADV
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
@@ -24389,9 +24389,9 @@
 # sent_id = fr-ud-train_00858
 # text = Lorsqu'ils n'y sont pas, leur plumage est plus variable, allant d'une petite tache dorée sans bande noire à un plumage presque de saison nuptiale.
 1	Lorsqu'	lorsque	SCONJ	_	_	5	mark	_	SpaceAfter=No
-2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
-4	y	y	PRON	_	_	5	advmod	_	_
+4	y	y	PRON	_	_	5	obl:arg	_	_
 5	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 6	pas	pas	ADV	_	_	5	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
@@ -65257,7 +65257,7 @@
 25	beau	beau	ADJ	_	Gender=Masc|Number=Sing	2	parataxis	_	_
 26	et	et	CCONJ	_	_	29	cc	_	_
 27	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
-28	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
+28	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
 30-31	des	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	33	case	_	_
@@ -91071,7 +91071,7 @@
 21	place	place	NOUN	_	Gender=Fem|Number=Sing	17	obl:arg	_	_
 22	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 23	+4	+4	NUM	_	_	25	nsubj	_	SpaceAfter=No
-24	-2	-2	NUM	_	_	23	nmmod	_	_
+24	-2	-2	NUM	_	_	23	nmod	_	_
 25	=	=	SYM	_	_	21	parataxis	_	_
 26	7	7	NUM	_	_	25	obj	_	SpaceAfter=No
 27	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
@@ -104164,7 +104164,7 @@
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	arrivé	arriver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 21	en	en	ADP	_	_	22	case	_	INMWE=Yes
-22	tête	tête	NOUN	_	Gender=Fem|Number=Sing	20	advmod	_	MWEPOS=ADV
+22	tête	tête	NOUN	_	Gender=Fem|Number=Sing	20	obl:arg	_	MWEPOS=ADV
 23-24	des	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
@@ -106991,8 +106991,8 @@
 50	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	pays	pays	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	_
 52	en	en	PRON	_	Person=3	54	iobj	_	_
-53	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	cop	_	_
-54	privée	privé	ADJ	_	Gender=Fem|Number=Sing	37	ccomp	_	SpaceAfter=No
+53	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	aux:pass	_	_
+54	privée	privé	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	37	ccomp	_	SpaceAfter=No
 55	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = fr-ud-train_03811
@@ -134654,7 +134654,7 @@
 
 # sent_id = fr-ud-train_04819
 # text = Il en est de même pour le master recherche.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	en	en	PRON	_	Person=3	3	expl	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	3	advmod	_	MWEPOS=ADV
@@ -138467,7 +138467,7 @@
 # sent_id = fr-ud-train_04962
 # text = D'autres seront mieux à même de faire passer le message.
 1	D'	un	DET	_	Definite=Ind|PronType=Art	2	det	_	SpaceAfter=No
-2	autres	autre	PRON	_	Number=Plur	4	nsubj	_	_
+2	autres	autre	PRON	_	Number=Plur	5	nsubj	_	_
 3	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	5	cop	_	_
 4	mieux	mieux	ADJ	_	Gender=Masc|Number=Plur	5	advmod	_	_
 5	à	à	ADP	_	_	0	root	_	MWEPOS=ADJ
@@ -145778,7 +145778,7 @@
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	Ivanchuk	Ivanchuk	PROPN	_	_	13	nsubj	_	_
 10	Vassily	Vassily	PROPN	_	_	9	flat:name	_	_
-11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	en	en	ADP	_	_	13	case	_	INMWE=Yes
 13	tête	tête	NOUN	_	Gender=Fem|Number=Sing	0	root	_	MWEPOS=ADV
 14	avec	avec	ADP	_	_	16	case	_	_
@@ -175271,7 +175271,7 @@
 1	Leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	dîner	dîner	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
 3	en	en	ADP	_	_	4	case	_	_
-4	tête	tête	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	MWEPOS=NOUN
+4	tête	tête	NOUN	_	Gender=Fem|Number=Sing	2	advmod	_	MWEPOS=NOUN
 5	à	à	ADP	_	_	6	case	_	INMWE=Yes
 6	tête	tête	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	INMWE=Yes
 7	dans	dans	ADP	_	_	9	case	_	_
@@ -242714,7 +242714,7 @@
 # text = Avec une facture globale de 529 millions d'euros, les parts françaises dans le marché maghrébin des équipements militaires sont très en deçà des parts sous d'autres cieux.
 1	Avec	avec	ADP	_	_	3	case	_	_
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	facture	facture	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+3	facture	facture	NOUN	_	Gender=Fem|Number=Sing	25	obl:mod	_	_
 4	globale	global	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 5	de	de	ADP	_	_	7	case	_	_
 6	529	529	NUM	_	_	7	nummod	_	_
@@ -242723,7 +242723,7 @@
 9	euros	euro	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-12	parts	part	NOUN	_	Gender=Fem|Number=Plur	28	nsubj	_	_
+12	parts	part	NOUN	_	Gender=Fem|Number=Plur	25	nsubj	_	_
 13	françaises	français	ADJ	_	Gender=Fem|Number=Plur	12	amod	_	_
 14	dans	dans	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -242735,8 +242735,8 @@
 20	équipements	équipement	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 21	militaires	militaire	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
 22	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
-23	très	très	ADV	_	_	28	advmod	_	_
-24	en	en	ADP	_	_	28	case	_	_
+23	très	très	ADV	_	_	25	advmod	_	_
+24	en	en	ADP	_	_	25	case	_	_
 25	deçà	deçà	ADV	_	_	0	root	_	_
 26-27	des	_	_	_	_	_	_	_	_
 26	de	de	ADP	_	_	28	case	_	_
@@ -295470,7 +295470,7 @@
 # sent_id = fr-ud-train_10585
 # text = Ce pôle en est aux études de faisabilité.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
-2	pôle	pôle	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+2	pôle	pôle	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	en	en	PRON	_	Person=3	4	expl	_	_
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5-6	aux	_	_	_	_	_	_	_	_
@@ -299794,7 +299794,7 @@
 # sent_id = fr-ud-train_10739
 # text = La torpille, sortie en 1967 en version Mod O, en est actuellement à sa version Mod 5.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	torpille	torpille	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+2	torpille	torpille	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	sortie	sortir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 5	en	en	ADP	_	_	6	case	_	_
@@ -299803,7 +299803,7 @@
 8	version	version	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 9	Mod	Mod	PROPN	_	_	8	appos	_	_
 10	O	O	NUM	_	_	9	nmod	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	17	punct	_	_
+11	,	,	PUNCT	_	_	13	punct	_	_
 12	en	en	PRON	_	Person=3	13	expl	_	_
 13	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	actuellement	actuellement	ADV	_	_	13	advmod	_	_
@@ -331757,7 +331757,7 @@
 # sent_id = fr-ud-train_11868
 # text = Le bureau du ministre des Affaires étrangères est en face du bâtiment du parlement.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	bureau	bureau	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+2	bureau	bureau	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -331778,7 +331778,7 @@
 16	de	de	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	parlement	parlement	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	12	punct	_	_
+19	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_11869
 # text = Antoine Claude Ponthus-Cinier a laissé de nombreuses toiles représentant des paysages français, avec un grand nombre d'œuvres concernant sa région natale.
@@ -344008,7 +344008,7 @@
 14	pas	pas	ADV	_	_	15	advmod	_	_
 15	moins	moins	ADV	_	_	13	obl	_	_
 16	que	que	SCONJ	_	_	23	case	_	_
-17	six	six	NUM	_	_	28	nummod	_	_
+17	six	six	NUM	_	_	18	nummod	_	_
 18	cent	cent	NUM	_	_	23	nummod	_	_
 19	treize	treize	NUM	_	_	18	nmod	_	_
 20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
@@ -344957,7 +344957,7 @@
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	arriva	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	en	en	ADP	_	_	12	case	_	INMWE=Yes
-12	tête	tête	NOUN	_	Gender=Fem|Number=Sing	10	advmod	_	MWEPOS=ADV
+12	tête	tête	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	MWEPOS=ADV
 13-14	des	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
@@ -348011,8 +348011,8 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	compagnie	compagnie	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
-5	publicly-traded	publicly-traded	ADJ	_	_	0	root	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	publicly-traded	publicly-traded	VERB	_	_	0	root	_	_
 6	depuis	depuis	ADP	_	_	7	case	_	_
 7	1992	1992	NUM	_	_	5	obl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
@@ -352478,7 +352478,7 @@
 
 # sent_id = fr-ud-train_12611
 # text = Fils d'un milliardaire excentrique, Sing est un jeune homme arrogant et capricieux qui vit dans un luxueux palace d'Hawaii où il est ultra-choyé par son personnel.
-1	Fils	fils	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+1	Fils	fils	NOUN	_	Gender=Masc|Number=Sing	11	advcl	_	_
 2	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	milliardaire	milliardaire	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
@@ -352502,8 +352502,8 @@
 22	Hawaii	Hawaii	PROPN	_	_	20	nmod	_	_
 23	où	où	ADV	_	PronType=Rel	26	advmod	_	_
 24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj:pass	_	_
-25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
-26	ultra-choyé	ultra-choyé	ADJ	_	Gender=Masc|Number=Sing	20	acl:relcl	_	_
+25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+26	ultra-choyé	ultra-choyé	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	_
 27	par	par	ADP	_	_	29	case	_	_
 28	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det	_	_
 29	personnel	personnel	NOUN	_	Gender=Masc|Number=Sing	26	obl:agent	_	SpaceAfter=No
@@ -385893,7 +385893,7 @@
 # sent_id = fr-ud-train_13769
 # text = Voilà où nous en sommes.
 1	Voilà	voilà	VERB	_	_	0	root	_	_
-2	où	où	ADV	_	_	4	advmod	_	_
+2	où	où	ADV	_	_	5	obl:arg	_	_
 3	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
 4	en	en	PRON	_	Person=3	5	expl	_	_
 5	sommes	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
@@ -393577,13 +393577,13 @@
 
 # sent_id = fr-ud-train_14050
 # text = Butt-Head est à la Highland Highschool, au fond de la classe avec Beavis, qu'il martyrise parfois même en plein cours, allant même jusqu'à lui jeter un crayon dans l'œil.
-1	Butt-Head	Butt-Head	PROPN	_	_	15	nsubj	_	_
+1	Butt-Head	Butt-Head	PROPN	_	_	2	nsubj	_	_
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	5	case	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Highland	Highland	PROPN	_	_	2	obl:arg	_	_
 6	Highschool	Highschool	PROPN	_	_	5	flat:name	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	15	punct	_	_
+7	,	,	PUNCT	_	_	2	punct	_	_
 8-9	au	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
