@@ -31798,7 +31798,7 @@
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
 30	rééligible	rééligible	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	_
 31	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	fois	fois	NOUN	_	Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+32	fois	fois	NOUN	_	Gender=Fem|Number=Sing	30	obl:mod	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = fr-ud-train_01113
@@ -35860,7 +35860,7 @@
 14	allez	aller	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	conj	_	_
 15	y	y	PRON	_	_	14	advmod	_	_
 16	une	une	NUM	_	_	17	nummod	_	_
-17	fois	fois	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	fois	fois	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	24	punct	_	_
 19	13	13	NUM	_	_	20	nummod	_	_
 20	euros	euro	NOUN	_	Gender=Masc|Number=Plur	24	nsubj	_	_
@@ -68439,11 +68439,11 @@
 2	y	y	PRON	_	_	3	advmod	_	_
 3	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	au	_	_	_	_	_	_	_	_
-4	à	à	ADP	_	_	7	advmod	_	MWEPOS=ADV
+4	à	à	ADP	_	_	8	advmod	_	MWEPOS=ADV
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	fixed	_	_
 6	moins	moins	ADV	_	_	4	fixed	_	_
 7	une	une	NUM	_	_	8	nummod	_	_
-8	fois	fois	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+8	fois	fois	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
 9	tous	tout	DET	_	Gender=Masc|Number=Plur	12	det	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 11	15	15	NUM	_	_	12	nummod	_	_
@@ -133826,7 +133826,7 @@
 10	se	se	PRON	_	Person=3|PronType=Prs	11	expl:pass	_	_
 11	rencontre	rencontrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	fois	fois	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+13	fois	fois	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	afin	afin	ADV	_	_	11	advmod	_	_
 16	d'	de	ADP	_	_	17	mark	_	SpaceAfter=No
@@ -153716,7 +153716,7 @@
 13	"	"	PUNCT	_	_	9	punct	_	_
 14	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	22	punct	_	_
-16	plus	plus	ADV	_	_	22	obl:mod	_	_
+16	plus	plus	ADV	_	_	22	advmod	_	_
 17	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
 18	une	une	NUM	_	_	19	nummod	_	_
 19	fois	fois	NOUN	_	Gender=Fem|Number=Sing	16	obl:arg	_	SpaceAfter=No
@@ -160085,7 +160085,7 @@
 # text = Encore une fois, bravo à ce site d'annonces de voitures d'occasions que je recommande.
 1	Encore	encore	ADV	_	_	3	advmod	_	_
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	fois	fois	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+3	fois	fois	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	bravo	bravo	INTJ	_	_	0	root	_	_
 6	à	à	ADP	_	_	8	case	_	_
@@ -181834,8 +181834,8 @@
 51	de	de	ADP	_	_	52	mark	_	_
 52	soutenir	soutenir	VERB	_	VerbForm=Inf	50	xcomp	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	52	punct	_	_
-54	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	60	mark	_	_
-55	fois	fois	NOUN	_	Gender=Fem|Number=Sing	54	fixed	_	_
+54	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	55	det	_	INMWE=Yes
+55	fois	fois	NOUN	_	Gender=Fem|Number=Sing	60	marked	_	MWEPOS=ADP
 56	qu'	que	SCONJ	_	_	54	fixed	_	SpaceAfter=No
 57	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	60	nsubj	_	_
 58	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	60	obj	_	SpaceAfter=No
@@ -259426,9 +259426,9 @@
 12	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
 13	colonie	colonie	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	_
-15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	fois	fois	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
-17	sauvés	sauver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	SpaceAfter=No
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	INMWE=Yes
+16	fois	fois	NOUN	_	Gender=Fem|Number=Sing	17	mark	_	MWEPOS=ADP
+17	sauvés	sauver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	advcl	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	16	punct	_	_
 19	intégrèrent	intégrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
@@ -340456,9 +340456,9 @@
 18	longtemps	longtemps	ADV	_	_	17	advmod	_	_
 19	et	et	CCONJ	_	_	26	cc	_	_
 20	que	que	PRON	_	PronType=Rel	26	obj	_	_
-21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	fois	fois	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	_
-23	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	INMWE=Yes
+22	fois	fois	NOUN	_	Gender=Fem|Number=Sing	23	mark	_	MWEPOS=ADP
+23	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	advcl	_	_
 24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	26	nsubj	_	_
 25	ne	ne	ADV	_	Polarity=Neg	26	advmod	_	_
 26	lâche	lâcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
@@ -342451,7 +342451,7 @@
 4	y	y	PRON	_	_	5	advmod	_	_
 5	manger	manger	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6-7	au	_	_	_	_	_	_	_	_
-6	à	à	ADP	_	_	9	advmod	_	MWEPOS=ADV
+6	à	à	ADP	_	_	10	advmod	_	MWEPOS=ADV
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	fixed	_	_
 8	moins	moins	ADV	_	_	6	fixed	_	_
 9	une	une	NUM	_	_	10	nummod	_	_
@@ -382958,8 +382958,8 @@
 2	ensuite	ensuite	ADV	_	_	1	advmod	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	courant	courant	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
-5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	fois	fois	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	INMWE=Yes
+6	fois	fois	NOUN	_	Gender=Fem|Number=Sing	9	mark	_	MWEPOS=ADP
 7	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	opération	opération	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 9	terminée	terminer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	advcl	_	SpaceAfter=No
