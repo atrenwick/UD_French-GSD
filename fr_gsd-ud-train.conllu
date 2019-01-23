@@ -5807,12 +5807,12 @@
 6	à	à	ADP	_	_	7	case	_	_
 7	merveille	merveille	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
-9	et	et	CCONJ	_	_	14	cc	_	_
-10	pour	pour	ADP	_	_	9	fixed	_	_
-11	cause	cause	NOUN	_	Gender=Fem|Number=Sing	9	fixed	_	SpaceAfter=No
+9	et	et	CCONJ	_	_	11	advmod	_	_
+10	pour	pour	ADP	_	_	11	case	_	INMWE=Yes
+11	cause	cause	NOUN	_	Gender=Fem|Number=Sing	5	parataxis	_	MWEPOS=ADV|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	Daniel	Daniel	PROPN	_	_	14	nsubj	_	_
-14	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
 15	totalement	totalement	ADV	_	_	14	advmod	_	_
 16	sous	sous	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -195888,10 +195888,10 @@
 
 # sent_id = fr-ud-train_06990
 # text = Et pour cause : les Français, grands consommateurs d'eau en bouteille (plus de 100 litres par personne et par an), modèrent leur consommation.
-1	Et	et	CCONJ	_	_	26	cc	_	_
-2	pour	pour	ADP	_	_	3	case	_	_
-3	cause	cause	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	_
-4	:	:	PUNCT	_	_	26	punct	_	_
+1	Et	et	CCONJ	_	_	3	cc	_	_
+2	pour	pour	ADP	_	_	3	case	_	INMWE=Yes
+3	cause	cause	NOUN	_	Gender=Fem|Number=Sing	0	root	_	MWEPOS=ADV
+4	:	:	PUNCT	_	_	3	punct	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	Français	français	NOUN	_	Gender=Masc|Number=Plur	26	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
@@ -195913,10 +195913,10 @@
 23	an	an	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
-26	modèrent	modérer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	modèrent	modérer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
 27	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det	_	_
 28	consommation	consommation	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
-29	.	.	PUNCT	_	_	26	punct	_	_
+29	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_06991
 # text = Vittoria se précipite pour rejoindre son époux, mais la nouvelle de sa mort l'atteint avant qu'elle n'arrive.
