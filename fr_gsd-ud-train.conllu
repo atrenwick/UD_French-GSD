@@ -25928,7 +25928,7 @@
 # sent_id = fr-ud-train_00913
 # text = En tout 10 pays seront représentés.
 1	En	en	ADP	_	_	2	case	_	INMWE=Yes
-2	tout	tout	ADV	_	_	6	advmod	_	MWEPOS=ADV
+2	tout	tout	NOUN	_	Gender=Masc|Number=Sing	6	advmod	_	MWEPOS=ADV
 3	10	10	NUM	_	_	4	nummod	_	_
 4	pays	pays	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:pass	_	_
 5	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	aux:pass	_	_
@@ -35677,7 +35677,7 @@
 24	fois	fois	NOUN	_	Gender=Fem|Number=Plur	25	obl:mod	_	_
 25	répété	répéter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
 26	en	en	ADP	_	_	27	case	_	_
-27	crescendo	crescendo	ADV	_	_	25	advmod	_	SpaceAfter=No
+27	crescendo	crescendo	NOUN	_	Gender=Masc|Number=Sing	25	obl:mod	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_01258
@@ -115291,12 +115291,12 @@
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	démocrates	démocrate	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	_
 8	en	en	ADP	_	_	9	case	_	INMWE=Yes
-9	général	général	ADV	_	_	7	advmod	_	MWEPOS=ADV
+9	général	général	ADJ	_	Gender=Masc|Number=Sing	7	advmod	_	MWEPOS=ADV
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	FFS	FFS	PROPN	_	_	7	conj	_	_
 13	en	en	ADP	_	_	14	case	_	INMWE=Yes
-14	particulier	particulier	ADV	_	_	12	advmod	_	MWEPOS=ADV|SpaceAfter=No
+14	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	12	advmod	_	MWEPOS=ADV|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_04132
@@ -123376,7 +123376,7 @@
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	joue	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	_	_	4	case	_	INMWE=Yes
-4	tout	tout	ADV	_	_	2	advmod	_	MWEPOS=ADV
+4	tout	tout	NOUN	_	Gender=Masc|Number=Sing	2	advmod	_	MWEPOS=ADV
 5	onze	onze	NUM	_	_	6	nummod	_	_
 6	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -275273,7 +275273,7 @@
 10	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
 11	assurance	assurance	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 12	vie	vie	NOUN	_	Gender=Fem|Number=Sing	11	compound	_	_
-13	en	en	ADP	_	_	16	case	_	MWEPOS=ADP
+13	en	en	ADP	_	_	17	case	_	MWEPOS=ADP
 14	tant	tant	ADV	_	_	13	fixed	_	_
 15	que	que	SCONJ	_	_	13	fixed	_	_
 16	non	non	ADV	_	Polarity=Neg	17	advmod	_	_
@@ -401638,10 +401638,10 @@
 6	et	et	CCONJ	_	_	8	cc	_	_
 7	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
 8	aspect	aspect	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
-9	de	de	ADP	_	_	10	case	_	_
-10	moins	moins	ADV	_	_	13	advmod	_	_
-11	en	en	ADP	_	_	12	case	_	_
-12	moins	moins	ADV	_	_	13	advmod	_	_
+9	de	de	ADP	_	_	10	case	_	INMWE=Yes
+10	moins	moins	ADV	_	_	13	advmod	_	MWEPOS=ADV
+11	en	en	ADP	_	_	12	case	_	INMWE=Yes
+12	moins	moins	ADV	_	_	10	advmod	_	INMWE=Yes
 13	engageant	engageant	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	5	punct	_	_
 15	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	16	det	_	_
