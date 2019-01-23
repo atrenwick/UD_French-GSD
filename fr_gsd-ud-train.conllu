@@ -14070,8 +14070,8 @@
 17	UE	UE	PROPN	_	_	14	conj	_	SpaceAfter=No
 18	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	4	punct	_	_
-20	tout	tout	ADV	_	_	23	advmod	_	_
-21	en	en	ADP	_	_	23	mark	_	_
+20	tout	tout	ADV	_	_	23	mark	_	MWEPOS=ADP
+21	en	en	ADP	_	_	20	fixed	_	_
 22	se	se	PRON	_	Person=3|PronType=Prs	23	expl	_	_
 23	félicitant	féliciter	VERB	_	Tense=Pres|VerbForm=Part	4	advcl	_	_
 24	de	de	ADP	_	_	26	case	_	_
@@ -17341,8 +17341,8 @@
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	problème	problème	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
 17	mais	mais	CCONJ	_	_	22	cc	_	_
-18	tout	tout	ADV	_	_	22	advmod	_	_
-19	en	en	ADP	_	_	22	mark	_	_
+18	tout	tout	ADV	_	_	22	mark	_	MWEPOS=ADP
+19	en	en	ADP	_	_	18	fixed	_	_
 20	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	22	obj:agent	_	_
 21	faisant	faire	AUX	_	Tense=Pres|VerbForm=Part	22	aux:caus	_	_
 22	payer	payer	VERB	_	VerbForm=Inf	14	conj	_	_
@@ -55442,7 +55442,7 @@
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
 13	placé	placer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 14	en	en	ADP	_	_	15	case	_	_
-15	porte-à-faux	porte-à-faux	ADV	_	_	13	advmod	_	_
+15	porte-à-faux	porte-à-faux	NOUN	_	Gender=Masc|Number=Sing	13	obl:arg	_	_
 16	avant	avant	ADV	_	_	15	advmod	_	_
 17	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	13	advcl	_	_
 18-19	du	_	_	_	_	_	_	_	_
@@ -93533,8 +93533,8 @@
 26	à	à	ADP	_	_	27	case	_	_
 27	Fontainemelon	Fontainemelon	PROPN	_	_	20	obl:mod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	20	punct	_	_
-29	tout	tout	ADV	_	_	31	advmod	_	_
-30	en	en	ADP	_	_	31	mark	_	_
+29	tout	tout	ADV	_	_	31	mark	_	MWEPOS=ADP
+30	en	en	ADP	_	_	29	fixed	_	_
 31	écrivant	écrire	VERB	_	Tense=Pres|VerbForm=Part	20	advcl	_	_
 32	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
 33	poèmes	poème	NOUN	_	Gender=Masc|Number=Plur	31	obj	_	_
@@ -137055,10 +137055,10 @@
 
 # sent_id = fr-ud-train_04910
 # text = De loin en loin on a un choc important.
-1	De	de	ADP	_	_	2	case	_	_
-2	loin	loin	ADV	_	_	6	advmod	_	_
-3	en	en	ADP	_	_	4	case	_	_
-4	loin	loin	ADV	_	_	2	advmod	_	_
+1	De	de	ADP	_	_	2	case	_	INMWE=Yes
+2	loin	loin	ADV	_	_	6	advmod	_	MWEPOS=ADV
+3	en	en	ADP	_	_	4	case	_	INMWE=Yes
+4	loin	loin	ADV	_	_	2	advmod	_	INMWE=Yes
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -171080,7 +171080,7 @@
 4	change	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	toutefois	toutefois	ADV	_	_	4	advmod	_	_
 6	en	en	ADP	_	_	7	case	_	_
-7	rien	rien	ADV	_	_	4	advmod	_	_
+7	rien	rien	PRON	_	_	4	obl:mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	nom	nom	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
@@ -255993,8 +255993,8 @@
 16	autorisations	autorisation	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
 17	dérogatoires	dérogatoire	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	3	punct	_	_
-19	tout	tout	ADV	_	_	22	advmod	_	_
-20	en	en	ADP	_	_	22	mark	_	_
+19	tout	tout	ADV	_	_	22	mark	_	MWEPOS=ADP
+20	en	en	ADP	_	_	19	fixed	_	_
 21	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	22	obj	_	SpaceAfter=No
 22	assouplissant	assouplir	VERB	_	Tense=Pres|VerbForm=Part	3	advcl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
@@ -268160,7 +268160,7 @@
 11	Henk	Henk	PROPN	_	_	14	nsubj	_	_
 12	Kuijpers	Kuijpers	PROPN	_	_	11	flat:name	_	_
 13	se	se	PRON	_	Person=3|PronType=Prs	14	expl	_	_
-14	rend	rendre	VERB	_	Mood=Subj|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	advcl	_	Correct=rende
+14	rend	rendre	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	advcl	_	Correct=rende
 15	chez	chez	ADP	_	_	17	case	_	_
 16	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 17	éditeur	éditeur	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
@@ -312591,8 +312591,8 @@
 38	adoucira	adoucir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	36	acl:relcl	_	_
 39	votre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	40	det	_	_
 40	peau	peau	NOUN	_	Gender=Fem|Number=Sing	38	obj	_	_
-41	tout	tout	ADV	_	_	44	advmod	_	_
-42	en	en	ADP	_	_	44	mark	_	_
+41	tout	tout	ADV	_	_	44	mark	_	MWEPOS=ADP
+42	en	en	ADP	_	_	41	fixed	_	_
 43	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	44	obj	_	SpaceAfter=No
 44	hydratant	hydrater	VERB	_	Tense=Pres|VerbForm=Part	38	advcl	_	SpaceAfter=No
 45	.	.	PUNCT	_	_	1	punct	_	_
@@ -333940,8 +333940,8 @@
 15	enquêtera	enquêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 16	en	en	ADP	_	_	17	case	_	_
 17	interne	interne	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
-18	tout	tout	ADV	_	_	21	advmod	_	_
-19	en	en	ADP	_	_	21	mark	_	_
+18	tout	tout	ADV	_	_	21	mark	_	MWEPOS=ADP
+19	en	en	ADP	_	_	18	fixed	_	_
 20	se	se	PRON	_	Person=3|PronType=Prs	21	obj	_	_
 21	lançant	lancer	VERB	_	Tense=Pres|VerbForm=Part	15	advcl	_	_
 22	sur	sur	ADP	_	_	24	case	_	_
@@ -362083,8 +362083,8 @@
 29	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
 30	étranger	étranger	NOUN	_	Gender=Masc|Number=Sing	27	obl:arg	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	16	punct	_	_
-32	tout	tout	ADV	_	_	35	advmod	_	_
-33	en	en	ADP	_	_	35	mark	_	_
+32	tout	tout	ADV	_	_	35	mark	_	MWEPOS=ADP
+33	en	en	ADP	_	_	32	fixed	_	_
 34	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	35	obj	_	_
 35	étendant	étendre	VERB	_	Tense=Pres|VerbForm=Part	16	advcl	_	_
 36	à	à	ADP	_	_	39	case	_	_
@@ -403514,8 +403514,8 @@
 11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 12	aménagement	aménagement	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
 13	paysager	paysager	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
-14	tout	tout	ADV	_	_	17	advmod	_	_
-15	en	en	ADP	_	_	17	mark	_	_
+14	tout	tout	ADV	_	_	17	mark	_	MWEPOS=ADP
+15	en	en	ADP	_	_	14	fixed	_	_
 16	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	17	iobj	_	_
 17	offrant	offrir	VERB	_	Tense=Pres|VerbForm=Part	2	advcl	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
