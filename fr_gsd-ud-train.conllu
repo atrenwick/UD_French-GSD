@@ -60419,9 +60419,9 @@
 5	total	total	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	autrement	autrement	ADV	_	_	8	advmod	_	_
-8	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+8	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	distance	distance	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10	distance	distance	NOUN	_	Gender=Fem|Number=Sing	2	appos	_	_
 11	entre	entre	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	feuille	feuille	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
@@ -77797,8 +77797,8 @@
 
 # sent_id = fr-ud-train_02769
 # text = Autrement dit, les deux électrons partagés viennent du même atome.
-1	Autrement	autrement	ADV	_	_	8	advmod	_	_
-2	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	fixed	_	SpaceAfter=No
+1	Autrement	autrement	ADV	_	_	2	advmod	_	_
+2	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 5	deux	deux	NUM	_	_	6	nummod	_	_
@@ -142786,7 +142786,7 @@
 # sent_id = fr-ud-train_05109
 # text = Autrement dit, la capitale occupée est complètement coupée du monde.
 1	Autrement	autrement	ADV	_	_	2	advmod	_	_
-2	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	parataxis	_	SpaceAfter=No
+2	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	capitale	capitale	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -142798,7 +142798,7 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	monde	monde	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	2	punct	_	_
+13	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_05110
 # text = Septime Sévère lors de sa campagne orientale de 195 lui infligea de sévères défaites et pris le titre dAdiabenicus, « vainqueur de l'Adiabène ».
@@ -168597,8 +168597,8 @@
 
 # sent_id = fr-ud-train_06028
 # text = Autrement dit, la hausse du yen survient au moment où les entreprises japonaises sont le moins en mesure d'exporter.
-1	Autrement	autrement	ADV	_	_	9	advmod	_	_
-2	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	fixed	_	SpaceAfter=No
+1	Autrement	autrement	ADV	_	_	2	advmod	_	_
+2	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	9	punct	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	hausse	hausse	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -193273,7 +193273,7 @@
 14	brasiliensis	brasiliensis	PROPN	_	_	13	flat:name	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	13	punct	_	_
 16	autrement	autrement	ADV	_	_	17	advmod	_	_
-17	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+17	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
 18	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	arbre	arbre	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
 20	à	à	ADP	_	_	21	case	_	_
