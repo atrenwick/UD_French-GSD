@@ -91570,8 +91570,8 @@
 6	maître	maître	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
 7	et	et	CCONJ	_	_	8	cc	_	_
 8	fournit	fournir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-9	non	non	ADV	_	_	10	advmod	_	_
-10	seulement	seulement	ADV	_	_	12	advmod	_	_
+9	non	non	ADV	_	_	10	advmod	_	INMWE=Yes
+10	seulement	seulement	ADV	_	_	12	advmod	_	MWEPOS=ADV
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	pierre	pierre	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
 13	à	à	ADP	_	_	14	mark	_	_
@@ -100491,8 +100491,8 @@
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
 23	ouvert	ouvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-24	non	non	ADV	_	_	25	advmod	_	_
-25	seulement	seulement	ADV	_	_	23	advmod	_	_
+24	non	non	ADV	_	_	25	advmod	_	INMWE=Yes
+25	seulement	seulement	ADV	_	_	23	advmod	_	MWEPOS=ADV
 26-27	aux	_	_	_	_	_	_	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
@@ -104364,8 +104364,8 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
 5	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
-6	non	non	ADV	_	Polarity=Neg	7	advmod	_	_
-7	seulement	seulement	ADV	_	_	5	advmod	_	_
+6	non	non	ADV	_	Polarity=Neg	7	advmod	_	INMWE=Yes
+7	seulement	seulement	ADV	_	_	5	advmod	_	MWEPOS=ADV
 8	affronter	affronter	VERB	_	VerbForm=Inf	5	xcomp	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	environnement	environnement	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
@@ -195356,8 +195356,8 @@
 16	supercherie	supercherie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 17	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
 18	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
-19	non	non	ADV	_	Polarity=Neg	20	advmod	_	_
-20	seulement	seulement	ADV	_	_	18	advmod	_	_
+19	non	non	ADV	_	Polarity=Neg	20	advmod	_	INMWE=Yes
+20	seulement	seulement	ADV	_	_	18	advmod	_	MWEPOS=ADV
 21	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	23	obj:agent	_	_
 22	faire	faire	AUX	_	VerbForm=Inf	23	aux:caus	_	_
 23	passer	passer	VERB	_	VerbForm=Inf	18	xcomp	_	_
@@ -287620,8 +287620,8 @@
 10	130	130	NUM	_	_	11	nummod	_	_
 11	catégories	catégorie	NOUN	_	Gender=Fem|Number=Plur	8	obl:arg	_	_
 12	couvrant	couvrir	VERB	_	Tense=Pres|VerbForm=Part	11	acl	_	_
-13	non	non	ADV	_	_	14	advmod	_	_
-14	seulement	seulement	ADV	_	_	12	advmod	_	_
+13	non	non	ADV	_	_	14	advmod	_	INMWE=Yes
+14	seulement	seulement	ADV	_	_	12	advmod	_	MWEPOS=ADV
 15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	films	film	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
 17	pornographiques	pornographique	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
@@ -301226,7 +301226,7 @@
 33	sur	sur	ADP	_	_	35	case	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	magazine	magazine	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
-36	Tel	tel	ADJ	_	Gender=Masc|Number=Sing	35	appos	_	TITLE=Yes
+36	Tel	tel	ADJ	_	Gender=Masc|Number=Sing	35	appos	_	MWEPOS=ADJ|TITLE=Yes
 37	quel	quel	ADJ	_	Gender=Masc|Number=Sing	36	fixed	_	INTITLE=Yes|SpaceAfter=No
 38	,	,	PUNCT	_	_	41	punct	_	_
 39	d'	de	ADP	_	_	41	mark	_	SpaceAfter=No
@@ -311131,7 +311131,7 @@
 # text = Bien sûr, telle politique peut être bénéfique et telle autre mauvaise.
 1	Bien	bien	ADV	_	_	2	advmod	_	INMWE=Yes
 2	sûr	sûr	ADV	_	_	6	advmod	_	MWEPOS=ADV|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	_
+3	,	,	PUNCT	_	_	6	punct	_	_
 4	telle	tel	DET	_	Gender=Fem|Number=Sing	5	det	_	_
 5	politique	politique	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 6	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -312572,8 +312572,8 @@
 19	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
 20	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	21	iobj	_	_
 21	procurera	procurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	acl:relcl	_	_
-22	non	non	ADV	_	_	23	advmod	_	_
-23	seulement	seulement	ADV	_	_	25	advmod	_	_
+22	non	non	ADV	_	_	23	advmod	_	INMWE=Yes
+23	seulement	seulement	ADV	_	_	25	advmod	_	MWEPOS=ADV
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	sensation	sensation	NOUN	_	Gender=Fem|Number=Sing	21	obj	_	_
 26	de	de	ADP	_	_	27	case	_	_
@@ -315592,7 +315592,7 @@
 # sent_id = fr-ud-train_11314
 # text = Si jamais vous lui posez la question, il en rigolera.
 1	Si	si	SCONJ	_	_	5	mark	_	_
-2	jamais	jamais	ADV	_	_	1	fixed	_	_
+2	jamais	jamais	ADV	_	_	5	advmod	_	_
 3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	5	nsubj	_	_
 4	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
 5	posez	poser	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	_	_
@@ -338069,8 +338069,8 @@
 2	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	soucis	souci	NOUN	_	Gender=Masc|Number=Plur	4	obl:mod	_	_
 4	figurent	figurer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	non	non	ADV	_	_	6	advmod	_	_
-6	seulement	seulement	ADV	_	_	8	advmod	_	_
+5	non	non	ADV	_	_	6	advmod	_	INMWE=Yes
+6	seulement	seulement	ADV	_	_	8	advmod	_	MWEPOS=ADV
 7	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	problèmes	problème	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
 9	urgents	urgent	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
@@ -360123,8 +360123,8 @@
 10	à	à	ADP	_	_	12	case	_	_
 11	long	long	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
 12	terme	terme	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
-13	non	non	ADV	_	_	14	advmod	_	_
-14	seulement	seulement	ADV	_	_	17	advmod	_	_
+13	non	non	ADV	_	_	14	advmod	_	INMWE=Yes
+14	seulement	seulement	ADV	_	_	17	advmod	_	MWEPOS=ADV
 15	sur	sur	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	biotope	biotope	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
@@ -364094,8 +364094,8 @@
 27	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
 28	brésilien	brésilien	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	35	punct	_	_
-30	non	non	ADV	_	_	35	advmod	_	_
-31	seulement	seulement	ADV	_	_	30	fixed	_	_
+30	non	non	ADV	_	_	35	advmod	_	INMWE=Yes
+31	seulement	seulement	ADV	_	_	30	fixed	_	MWEPOS=ADV
 32	car	car	CCONJ	_	_	35	cc	_	_
 33	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	35	nsubj	_	SpaceAfter=No
 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
@@ -399831,8 +399831,8 @@
 
 # sent_id = fr-ud-train_14276
 # text = Non seulement Marie Feodorovna accepta cette idée, mais elle unit ses forces à celles de Catherine Nelidova pour tenter de modérer le tempérament de plus en plus névrosé de Paul.
-1	Non	non	ADV	_	_	2	advmod	_	_
-2	seulement	seulement	ADV	_	_	5	advmod	_	_
+1	Non	non	ADV	_	_	2	advmod	_	INMWE=Yes
+2	seulement	seulement	ADV	_	_	5	advmod	_	MWEPOS=ADV
 3	Marie	Marie	PROPN	_	_	5	nsubj	_	_
 4	Feodorovna	Feodorovna	PROPN	_	_	3	flat:name	_	_
 5	accepta	accepter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -402964,8 +402964,8 @@
 16	reggae	reggae	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	6	punct	_	_
 18	car	car	CCONJ	_	_	25	cc	_	_
-19	non	non	ADV	_	Polarity=Neg	20	advmod	_	_
-20	seulement	seulement	ADV	_	_	25	advmod	_	_
+19	non	non	ADV	_	Polarity=Neg	20	advmod	_	INMWE=Yes
+20	seulement	seulement	ADV	_	_	25	advmod	_	MWEPOS=ADV
 21	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	25	nsubj	_	_
 22	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	cop	_	_
 23	selon	selon	ADP	_	_	24	case	_	_
@@ -405605,8 +405605,8 @@
 9	quartier	quartier	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
 10	calme	calme	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	5	punct	_	_
-12	non	non	ADV	_	_	13	advmod	_	_
-13	seulement	seulement	ADV	_	_	15	advmod	_	_
+12	non	non	ADV	_	_	13	advmod	_	INMWE=Yes
+13	seulement	seulement	ADV	_	_	15	advmod	_	MWEPOS=ADV
 14	à	à	ADP	_	_	17	case	_	_
 15	1/4	1/4	NUM	_	_	5	obl:mod	_	_
 16	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
