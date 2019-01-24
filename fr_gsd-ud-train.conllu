@@ -92651,9 +92651,9 @@
 21	décoration	décoration	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
 22	soignée	soigné	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
-24	petits	petit	ADJ	_	Gender=Masc|Number=Plur	18	conj	_	_
-25	déjeuners	déjeuner	NOUN	_	Gender=Masc|Number=Plur	24	fixed	_	_
-26	pleins	plein	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
+24	petits	petit	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	INMWE=Yes
+25	déjeuners	déjeuner	NOUN	_	Gender=Masc|Number=Plur	18	conj	_	MWEPOS=NOUN
+26	pleins	plein	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	_
 27	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
 28	attention	attention	NOUN	_	Gender=Fem|Number=Sing	26	obl:arg	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	1	punct	_	_
@@ -308197,12 +308197,12 @@
 9	d'	de	ADP	_	_	10	mark	_	SpaceAfter=No
 10	avoir	avoir	VERB	_	VerbForm=Inf	8	ccomp	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	petit	petit	ADJ	_	Gender=Masc|Number=Sing	10	obj	_	_
-13	déjeuner	déjeuner	NOUN	_	Gender=Masc|Number=Sing	12	fixed	_	_
+12	petit	petit	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	INMWE=Yes
+13	déjeuner	déjeuner	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	MWEPOS=NOUN
 14	de	de	ADP	_	_	17	case	_	_
 15	si	si	ADV	_	_	16	advmod	_	_
 16	mauvaise	mauvais	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
-17	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	SpaceAfter=No
+17	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_11049
