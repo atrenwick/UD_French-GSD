@@ -34464,12 +34464,12 @@
 21	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
 22	crue	crue	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
 23	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
-24	plus	plus	ADV	_	_	19	ccomp	_	_
-25	que	que	SCONJ	_	_	26	mark	_	_
-26	cinquantennale	cinquantennale	ADJ	_	Gender=Fem|Number=Sing	24	ccomp	_	_
+24	plus	plus	ADV	_	_	26	advmod	_	MWEPOS=ADV
+25	que	que	SCONJ	_	_	24	fixed	_	_
+26	cinquantennale	cinquantennale	ADJ	_	Gender=Fem|Number=Sing	19	ccomp	_	_
 27	et	et	CCONJ	_	_	29	cc	_	_
 28	donc	donc	ADV	_	_	29	advmod	_	_
-29	exceptionnelle	exceptionnel	ADJ	_	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+29	exceptionnelle	exceptionnel	ADJ	_	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = fr-ud-train_01212
@@ -58122,9 +58122,9 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	prix	prix	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
-12	plus	plus	ADV	_	_	7	conj	_	_
-13	que	que	SCONJ	_	_	14	mark	_	_
-14	correct	correct	ADJ	_	Gender=Masc|Number=Sing	12	ccomp	_	SpaceAfter=No
+12	plus	plus	ADV	_	_	14	advmod	_	MWEPOS=ADV
+13	que	que	SCONJ	_	_	12	fixed	_	_
+14	correct	correct	ADJ	_	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_02060
@@ -104389,10 +104389,10 @@
 27	de	de	ADP	_	_	29	case	_	_
 28	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
 29	compagnies	compagnie	NOUN	_	Gender=Fem|Number=Plur	26	nmod	_	_
-30	«	«	PUNCT	_	_	31	punct	_	_
-31	low	low	ADJ	_	_	29	compound	_	_
-32	cost	cost	NOUN	_	_	31	fixed	_	_
-33	»	»	PUNCT	_	_	31	punct	_	_
+30	«	«	PUNCT	_	_	32	punct	_	_
+31	low	low	ADJ	_	_	32	amod	_	INMWE=Yes
+32	cost	cost	NOUN	_	_	29	amod	_	MWEPOS=ADJ
+33	»	»	PUNCT	_	_	32	punct	_	_
 34	sur	sur	ADP	_	_	36	case	_	_
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	moyen-courrier	moyen-courrier	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
@@ -120627,8 +120627,8 @@
 20	surgelée	surgelé	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
 21	Métro	Métro	PROPN	_	_	16	appos	_	_
 22	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
-23	faite	fait	ADJ	_	Gender=Fem|Number=Sing	13	ccomp	_	_
-24	maison	maison	NOUN	_	Gender=Fem|Number=Sing	23	fixed	_	SpaceAfter=No
+23	faite	fait	ADJ	_	Gender=Fem|Number=Sing	13	ccomp	_	MWEPOS=ADJ
+24	maison	maison	NOUN	_	Gender=Fem|Number=Sing	23	obl:arg	_	INMWE=Yes|SpaceAfter=No
 25	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_04323
@@ -126932,10 +126932,10 @@
 48	n'	ne	ADV	_	Polarity=Neg	54	advmod	_	SpaceAfter=No
 49	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	cop	_	_
 50	pas	pas	ADV	_	Polarity=Neg	54	advmod	_	_
-51	de	un	DET	_	Definite=Ind|PronType=Art	50	fixed	_	_
+51	de	un	DET	_	Definite=Ind|PronType=Art	54	case	_	INMWE=Yes
 52	très	très	ADV	_	_	53	advmod	_	_
-53	bon	bon	ADJ	_	Gender=Masc|Number=Sing	54	amod	_	_
-54	augure	augure	NOUN	_	Gender=Masc|Number=Sing	45	ccomp	_	_
+53	bon	bon	ADJ	_	Gender=Masc|Number=Sing	54	amod	_	INMWE=Yes
+54	augure	augure	NOUN	_	Gender=Masc|Number=Sing	45	ccomp	_	MWEPOS=ADJ
 55	»	»	PUNCT	_	_	45	punct	_	SpaceAfter=No
 56	,	,	PUNCT	_	_	45	punct	_	_
 57	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	60	aux	_	SpaceAfter=No
@@ -153843,7 +153843,7 @@
 4	malgré	malgré	ADP	_	_	6	case	_	_
 5	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
 6	communication	communication	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
-7	plus	plus	ADV	_	_	9	advmod	_	_
+7	plus	plus	ADV	_	_	9	advmod	_	MWEPOS=ADV
 8	que	que	SCONJ	_	_	7	fixed	_	_
 9	limitée	limité	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
 10	-	-	PUNCT	_	_	13	punct	_	SpaceAfter=No
@@ -175074,7 +175074,7 @@
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	quantité	quantité	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
-8	plus	plus	ADV	_	_	10	advmod	_	_
+8	plus	plus	ADV	_	_	10	advmod	_	MWEPOS=ADV
 9	que	que	SCONJ	_	_	8	fixed	_	_
 10	respectable	respectable	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 11	et	et	CCONJ	_	_	13	cc	_	_
@@ -186927,8 +186927,8 @@
 14	jamais	jamais	ADV	_	Polarity=Neg	12	advmod	_	SpaceAfter=No
 15	........	........	PUNCT	_	_	2	punct	_	_
 16	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	cliente	client	NOUN	_	Gender=Fem|Number=Sing	2	dep	_	_
-18	plus	plus	ADV	_	_	20	advmod	_	_
+17	cliente	client	NOUN	_	Gender=Fem|Number=Sing	2	parataxis	_	_
+18	plus	plus	ADV	_	_	20	advmod	_	MWEPOS=ADV
 19	que	que	SCONJ	_	_	18	fixed	_	_
 20	mécontente	mécontent	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 
@@ -216849,7 +216849,7 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	soins	soin	NOUN	_	Gender=Masc|Number=Plur	10	obl:arg	_	_
-14	plus	plus	ADV	_	_	16	advmod	_	_
+14	plus	plus	ADV	_	_	16	advmod	_	MWEPOS=ADV
 15	qu'	que	SCONJ	_	_	14	fixed	_	SpaceAfter=No
 16	hospitaliers	hosptialier	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	_
 17	de	de	ADP	_	_	19	case	_	_
@@ -338736,7 +338736,7 @@
 8	mauritanienne	mauritanien	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
-11	plus	plus	ADV	_	_	13	advmod	_	_
+11	plus	plus	ADV	_	_	13	advmod	_	MWEPOS=ADV
 12	qu'	que	SCONJ	_	_	11	fixed	_	SpaceAfter=No
 13	assez	assez	ADV	_	_	10	obj	_	_
 14	de	de	ADP	_	_	15	case	_	_
@@ -378022,7 +378022,7 @@
 37	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 38	grande	grand	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
 39	réactivité	réactivité	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
-40	plus	plus	ADV	_	_	42	advmod	_	_
+40	plus	plus	ADV	_	_	42	advmod	_	MWEPOS=ADV
 41	qu'	que	SCONJ	_	_	40	fixed	_	SpaceAfter=No
 42	appréciable	appréciable	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
 43	dans	dans	ADP	_	_	45	case	_	_
