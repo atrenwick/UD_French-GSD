@@ -52938,7 +52938,7 @@
 21	que	que	SCONJ	_	_	25	mark	_	_
 22	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det	_	_
 23	formation	formation	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
-24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
 25	terminée	terminer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -108677,11 +108677,11 @@
 17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	étés	été	NOUN	_	Gender=Masc|Number=Plur	20	nsubj	_	_
 19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
-20	tempérés	tempérer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+20	tempérés	tempéré	ADJ	_	Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	24	punct	_	_
 22	avec	avec	ADP	_	_	24	case	_	_
 23	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
-24	températures	température	NOUN	_	Gender=Fem|Number=Plur	20	conj	_	_
+24	températures	température	NOUN	_	Gender=Fem|Number=Plur	20	obl:mod	_	_
 25	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
 26	ne	ne	ADV	_	Polarity=Neg	27	advmod	_	_
 27	dépassent	dépasser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
@@ -130547,12 +130547,12 @@
 
 # sent_id = fr-ud-train_04678
 # text = Comme je suis, qui contient neuf nouveaux morceaux, est aussi le titre du premier single extrait de cet album.
-1	Comme	comme	SCONJ	_	_	14	nsubj	_	TITLE=Yes
-2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	1	nsubj	_	INTITLE=Yes
-3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	cop	_	INTITLE=Yes|SpaceAfter=No
+1	Comme	comme	SCONJ	_	_	3	orphan	_	INTITLE=Yes
+2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	orphan	_	INTITLE=Yes
+3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	nsubj	_	TITLE=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	14	punct	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
-6	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+6	contient	contenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
 7	neuf	neuf	NUM	_	_	9	nummod	_	_
 8	nouveaux	nouveau	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
 9	morceaux	morceau	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
@@ -174311,8 +174311,8 @@
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
 14	en	en	ADP	_	_	15	case	_	_
 15	polonais	polonais	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
-16	Naprzód	Naprzód	X	_	_	6	ccomp	_	TITLE=Yes
-17	psiekrwie	psiekrwie	X	_	_	16	vocative	_	INTITLE=Yes|SpaceAfter=No
+16	Naprzód	Naprzód	ADV	_	_	6	ccomp	_	TITLE=Yes
+17	psiekrwie	psiekrwie	NOUN	_	_	16	vocative	_	INTITLE=Yes|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	INTITLE=Yes
 19	Cesarz	Cesarz	X	_	_	20	nsubj	_	INTITLE=Yes
 20	patrzy	patrzy	X	_	_	16	parataxis	_	INTITLE=Yes|SpaceAfter=No
@@ -179790,7 +179790,7 @@
 3	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
-6	pressés	presser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	pressés	pressé	ADJ	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
 9	stressés	stresser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
@@ -205323,8 +205323,8 @@
 # sent_id = fr-ud-train_07331
 # text = Quelques jours passés au Jardin d'Homps, c'est tout simplement se retrouver au paradis.
 1	Quelques	quelque	DET	_	Gender=Masc|Number=Plur	2	det	_	_
-2	jours	jour	NOUN	_	Gender=Masc|Number=Plur	15	nsubj	_	_
-3	passés	passer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+2	jours	jour	NOUN	_	Gender=Masc|Number=Plur	3	nsubj:pass	_	_
+3	passés	passer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	dislocated	_	_
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -205333,16 +205333,16 @@
 8	Homps	Homps	PROPN	_	_	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
 10	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	expl	_	SpaceAfter=No
-11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+11	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	cop	_	_
 12	tout	tout	ADV	_	_	13	advmod	_	_
-13	simplement	simplement	ADV	_	_	15	advmod	_	_
+13	simplement	simplement	ADV	_	_	11	advmod	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs	15	expl:pass	_	_
-15	retrouver	retrouver	VERB	_	VerbForm=Inf	0	root	_	_
+15	retrouver	retrouver	VERB	_	VerbForm=Inf	11	ccomp	_	_
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	paradis	paradis	NOUN	_	Gender=Masc|Number=Sing	15	obl:arg	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	15	punct	_	_
+19	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = fr-ud-train_07332
 # text = Papilio chiansiades est un papillon d'une envergure de 52 mm à 55 mm, de couleur noire, aux antérieures marquées d'une tache blanche et aux postérieures dentelées de queues atrophiées avec un semi de taches roses en position anale.
@@ -340701,7 +340701,7 @@
 8	seront	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
 9	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
 10	en	en	ADP	_	_	11	case	_	INMWE=Yes
-11	mesure	mesurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	MWEPOS=ADJ
+11	mesure	mesurer	NOUN	_	Gender=Fem|Number=Sing	5	acl:relcl	_	MWEPOS=ADJ
 12	de	de	ADP	_	_	13	mark	_	_
 13	recevoir	recevoir	VERB	_	VerbForm=Inf	11	xcomp	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -347192,7 +347192,7 @@
 19	«	«	PUNCT	_	_	20	punct	_	_
 20	Eiffel	Eiffel	PROPN	_	_	18	appos	_	_
 21	»	»	PUNCT	_	_	20	punct	_	_
-22	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+22	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 23	ainsi	ainsi	ADV	_	_	24	advmod	_	_
 24	ressorti	ressortir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	parataxis	_	_
 25	;	;	PUNCT	_	_	12	punct	_	_
@@ -368108,7 +368108,7 @@
 5	Paris	Paris	PROPN	_	_	3	nmod	_	_
 6	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
 7	s'	se	PRON	_	Person=3|PronType=Prs	9	expl	_	SpaceAfter=No
-8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	auto-légitimée	auto-légitimée	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
 10	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	aux:pass	_	_
 11	convoqués	convoquer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
@@ -401294,7 +401294,7 @@
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	7,2	7,2	NUM	_	_	17	nummod	_	_
-17	kb	kb	X	_	_	0	root	_	SpaceAfter=No
+17	kb	kb	SYM	_	_	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-train_14331
