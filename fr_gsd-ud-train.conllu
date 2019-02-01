@@ -159714,14 +159714,14 @@
 31	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_05707
-# text = En d'autres termes, les 4/5 de la population du département des Ardennes sont concentrés dans sa partie septentrionale.
+# text = En d'autres termes, les 4/5e de la population du département des Ardennes sont concentrés dans sa partie septentrionale.
 1	En	en	ADP	_	_	4	case	_	_
 2	d'	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	4	det	_	SpaceAfter=No
 3	autres	autre	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
 4	termes	terme	NOUN	_	Gender=Masc|Number=Plur	18	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	4/5	4/5	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
+7	4/5e	4/5e	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	population	population	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
@@ -204158,7 +204158,7 @@
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_07288
-# text = Elle put prolonger la vie du 15 Karmapa pendant 9 années.
+# text = Elle put prolonger la vie du 15e Karmapa pendant 9 années.
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	put	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	prolonger	prolonger	VERB	_	VerbForm=Inf	2	xcomp	_	_
@@ -204167,7 +204167,7 @@
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	9	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-8	15	15	NUM	_	_	9	amod	_	_
+8	15e	15e	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
 9	Karmapa	Karmapa	PROPN	_	_	5	nmod	_	_
 10	pendant	pendant	ADP	_	_	12	case	_	_
 11	9	9	NUM	_	_	12	nummod	_	_
@@ -216817,14 +216817,14 @@
 40	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_07733
-# text = En d'autres termes, les x k valeurs sont calculées en utilisant les x  { k-1 } calculées précédemment.
+# text = En d'autres termes, les x k valeurs sont calculées en utilisant les x { k-1 } calculées précédemment.
 1	En	en	ADP	_	_	4	case	_	_
 2	d'	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	4	det	_	SpaceAfter=No
 3	autres	autre	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
 4	termes	terme	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	11	punct	_	_
 6	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
-7	x	x	SYM	_	_	9	amod	_	_
+7	x	x	SYM	_	_	9	nmod	_	_
 8	k	k	SYM	_	_	7	nmod	_	_
 9	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
@@ -331045,7 +331045,7 @@
 7	de	de	ADP	_	_	8	case	_	_
 8	musique	musique	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 9	riot	riot	NOUN	_	_	8	nmod	_	_
-10	grrrl	grrrl	X	_	_	9	amod	_	_
+10	grrrl	grrrl	NOUN	_	_	9	nmod	_	_
 11	américain	américain	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	6	punct	_	_
 13	formé	former	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
