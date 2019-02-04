@@ -143488,9 +143488,9 @@
 
 # sent_id = fr-ud-train_05138
 # text = Une fois qu'un donneur compatible avec le malade a été trouvé, le processus de la transplantation peut commencer.
-1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	19	obl:mod	_	_
-3	qu'	que	SCONJ	_	_	12	mark	_	SpaceAfter=No
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	mark	_	MWEPOS=SCONJ
+2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
+3	qu'	que	SCONJ	_	_	1	fixed	_	SpaceAfter=No
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	donneur	donneur	NOUN	_	Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 6	compatible	compatible	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
@@ -143499,7 +143499,7 @@
 9	malade	malade	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 11	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	aux:pass	_	_
-12	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	SpaceAfter=No
+12	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	2	punct	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	processus	processus	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
@@ -181841,9 +181841,9 @@
 51	de	de	ADP	_	_	52	mark	_	_
 52	soutenir	soutenir	VERB	_	VerbForm=Inf	50	xcomp	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	52	punct	_	_
-54	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	55	det	_	INMWE=Yes
-55	fois	fois	NOUN	_	Gender=Fem|Number=Sing	60	mark	_	MWEPOS=ADP
-56	qu'	que	SCONJ	_	_	60	mark	_	SpaceAfter=No
+54	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	60	mark	_	MWEPOS=SCONJ
+55	fois	fois	NOUN	_	Gender=Fem|Number=Sing	54	fixed	_	MWEPOS=ADP
+56	qu'	que	SCONJ	_	_	54	fixed	_	SpaceAfter=No
 57	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	60	nsubj	_	_
 58	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	60	obj	_	SpaceAfter=No
 59	eut	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	60	aux	_	_
@@ -310861,9 +310861,9 @@
 
 # sent_id = fr-ud-train_11149
 # text = Une fois que la zone du corps (où le tatouage sera appliqué) est nettoyée avec de l'alcool, une série de décalques est placée sur la peau et le papier est alors détaché.
-1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	28	obl:mod	_	_
-3	que	que	SCONJ	_	_	17	mark	_	_
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	mark	_	MWEPOS=SCONJ
+2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
+3	que	que	SCONJ	_	_	1	fixed	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	zone	zone	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
 6-7	du	_	_	_	_	_	_	_	_
@@ -310878,7 +310878,7 @@
 14	appliqué	appliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	14	punct	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:pass	_	_
-17	nettoyée	nettoyer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+17	nettoyée	nettoyer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	advcl	_	_
 18	avec	avec	ADP	_	_	21	case	_	_
 19	de	de	ADP	_	_	21	det	_	MWEPOS=DET
 20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	fixed	_	SpaceAfter=No
