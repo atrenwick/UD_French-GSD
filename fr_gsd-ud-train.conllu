@@ -59833,11 +59833,11 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	jeunes	jeune	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 10	pousses	pousse	NOUN	_	Gender=Fem|Number=Plur	5	conj	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
-13	qu'	que	SCONJ	_	_	15	mark	_	SpaceAfter=No
+11	de	de	ADP	_	_	15	mark	_	MWEPOS=SCONJ
+12	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	11	fixed	_	_
+13	qu'	que	SCONJ	_	_	11	fixed	_	SpaceAfter=No
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-15	entre	entrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+15	entre	entrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 16	souvent	souvent	ADV	_	_	15	advmod	_	_
 17	en	en	ADP	_	_	18	case	_	_
 18	conflit	conflit	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
@@ -70590,16 +70590,16 @@
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	faits	faire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-18	de	de	ADP	_	_	20	case	_	_
-19	telle	tel	DET	_	Gender=Fem|Number=Sing	20	det	_	_
-20	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	17	obl:arg	_	_
-21	que	que	SCONJ	_	_	27	mark	_	_
+18	de	de	ADP	_	_	27	mark	_	MWEPOS=SCONJ
+19	telle	tel	DET	_	Gender=Fem|Number=Sing	18	fixed	_	_
+20	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	18	fixed	_	_
+21	que	que	SCONJ	_	_	18	fixed	_	_
 22	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
-23	opérateurs	opérateur	NOUN	_	Gender=Masc|Number=Plur	27	nsubj	_	_
+23	opérateurs	opérateur	NOUN	_	Gender=Masc|Number=Plur	27	nsubj:pass	_	_
 24	économiques	économique	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
 25	honnêtes	honnête	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
-26	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
-27	exclus	exclure	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	20	ccomp	_	SpaceAfter=No
+26	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+27	exclus	exclure	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	advcl	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = fr-ud-train_02509
@@ -76873,13 +76873,13 @@
 16	de	de	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	fuselage	fuselage	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-19	de	de	ADP	_	_	21	case	_	_
-20	telle	tel	DET	_	Gender=Fem|Number=Sing	21	det	_	_
-21	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
-22	que	que	SCONJ	_	_	25	mark	_	_
+19	de	de	ADP	_	_	25	case	_	MWEPOS=SCONJ
+20	telle	tel	DET	_	Gender=Fem|Number=Sing	19	fixed	_	_
+21	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	19	fixed	_	_
+22	que	que	SCONJ	_	_	19	fixed	_	_
 23	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det	_	_
 24	échappement	échappement	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	_
-25	sortait	sortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	acl	_	_
+25	sortait	sortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	advcl	_	_
 26	sous	sous	ADP	_	_	29	case	_	_
 27-28	du	_	_	_	_	_	_	_	_
 27	de	de	ADP	_	_	28	reparandum	_	_
@@ -372121,7 +372121,7 @@
 16	en	en	ADP	_	_	17	mark	_	_
 17	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	10	advcl	_	_
 18	en	en	ADP	_	_	19	case	_	INMWE=Yes
-19	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	17	obl:arg	_	MWEPOS=ADV
+19	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	17	obj:lvc	_	MWEPOS=ADV
 20	que	que	SCONJ	_	_	23	mark	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
@@ -398196,7 +398196,7 @@
 26	de	de	ADP	_	_	27	mark	_	_
 27	faire	faire	VERB	_	VerbForm=Inf	24	xcomp	_	_
 28	en	en	ADP	_	_	29	case	_	INMWE=Yes
-29	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	27	obl	_	MWEPOS=ADV
+29	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	27	obj:lvc	_	MWEPOS=ADV
 30	que	que	SCONJ	_	_	35	mark	_	_
 31	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	troupes	troupe	NOUN	_	Gender=Fem|Number=Plur	35	nsubj	_	_
