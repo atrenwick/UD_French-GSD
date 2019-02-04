@@ -4564,7 +4564,7 @@
 
 # sent_id = fr-ud-train_00160
 # text = En-dessous de cette température, le matériau est à l'état "supraconducteur", au-dessus, il transite à l'état "normal" et devient brutalement résistif ce qui génère un échauffement par effet Joule s'il est parcouru par un courant.
-1	En-dessous	en-dessous	ADP	_	_	11	advmod	_	_
+1	En-dessous	en-dessous	ADV	_	_	11	advmod	_	_
 2	de	de	ADP	_	_	4	case	_	_
 3	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	température	température	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	SpaceAfter=No
@@ -8249,8 +8249,8 @@
 20	violentes	violent	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
 21	éruptions	éruption	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
 22	nasales	nasal	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
-23	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
-24	où	où	ADV	_	_	26	case	_	MWEPOS=ADP
+23	d'	de	ADP	_	_	26	case	_	MWEPOS=ADP|SpaceAfter=No
+24	où	où	ADV	_	_	23	fixed	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	scène	scène	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
 27	avec	avec	ADP	_	_	29	case	_	_
@@ -8479,8 +8479,8 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	septième	septième	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	4	punct	_	_
-15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
-16	où	où	ADV	_	_	18	case	_	MWEPOS=ADP
+15	d'	de	ADP	_	_	18	case	_	MWEPOS=ADP|SpaceAfter=No
+16	où	où	ADV	_	_	15	fixed	_	_
 17	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
 18	nom	nom	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
 19	«	«	PUNCT	_	_	20	punct	_	_
@@ -68847,8 +68847,8 @@
 26	apparence	apparence	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
 27	masculine	masculin	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	24	punct	_	_
-29	d'	de	ADP	_	_	30	case	_	SpaceAfter=No
-30	où	où	ADV	_	_	32	case	_	MWEPOS=ADP
+29	d'	de	ADP	_	_	32	case	_	MWEPOS=ADP|SpaceAfter=No
+30	où	où	ADV	_	_	29	fixed	_	_
 31	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	impossibilité	impossibilité	NOUN	_	Gender=Fem|Number=Sing	24	obl:mod	_	_
 33	de	de	ADP	_	_	34	case	_	_
@@ -81561,8 +81561,8 @@
 15	Marcel	Marcel	PROPN	_	_	13	obl:arg	_	_
 16	Amont	Amont	PROPN	_	_	15	flat:name	_	_
 17	:	:	PUNCT	_	_	11	punct	_	_
-18	D'	de	ADP	_	_	19	case	_	INTITLE=Yes|SpaceAfter=No
-19	où	où	ADV	_	_	20	obl:arg	_	INTITLE=Yes
+18	D'	de	ADP	_	_	20	obl:arg	_	INTITLE=Yes|MWEPOS=ADP|SpaceAfter=No
+19	où	où	ADV	_	_	18	fixed	_	INTITLE=Yes
 20	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	appos	_	TITLE=Yes
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	INTITLE=Yes
 22	vent	vent	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	INTITLE=Yes
@@ -94308,8 +94308,8 @@
 12	transit	transit	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 13	importants	important	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	10	punct	_	_
-15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
-16	où	où	ADV	_	_	20	obl:arg	_	_
+15	d'	de	ADP	_	_	20	obl:arg	_	MWEPOS=ADP|SpaceAfter=No
+16	où	où	ADV	_	_	15	fixed	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	tourbe	tourbe	NOUN	_	Gender=Fem|Number=Sing	20	nsubj:pass	_	_
 19	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
@@ -131506,8 +131506,8 @@
 18	de	de	ADP	_	_	20	mark	_	_
 19	«	«	PUNCT	_	_	20	punct	_	_
 20	voir	voir	VERB	_	VerbForm=Inf	13	conj	_	_
-21	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
-22	où	où	ADV	_	_	23	obl:arg	_	_
+21	d'	de	ADP	_	_	23	obl:arg	_	MWEPOS=ADP|SpaceAfter=No
+22	où	où	ADV	_	_	21	fixed	_	_
 23	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	problème	problème	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
@@ -132067,8 +132067,8 @@
 
 # sent_id = fr-ud-train_04730
 # text = D'où l'existence de significations différentes.
-1	D'	de	ADP	_	_	2	case	_	SpaceAfter=No
-2	où	où	ADV	_	_	4	case	_	MWEPOS=ADP
+1	D'	de	ADP	_	_	4	case	_	MWEPOS=ADP|SpaceAfter=No
+2	où	où	ADV	_	_	1	fixed	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	existence	existence	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 5	de	de	ADP	_	_	6	case	_	_
@@ -157977,8 +157977,8 @@
 
 # sent_id = fr-ud-train_05640
 # text = D'où viennent-ils, quel est leur itinéraire et où écoulent-ils leurs produits ?
-1	D'	de	ADP	_	_	2	case	_	SpaceAfter=No
-2	où	où	ADV	_	_	3	obl:arg	_	_
+1	D'	de	ADP	_	_	3	obl:arg	_	MWEPOS=ADP|SpaceAfter=No
+2	où	où	ADV	_	_	1	fixed	_	_
 3	viennent	venir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -160172,8 +160172,8 @@
 22	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	rivières	rivière	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
 24	)	)	PUNCT	_	_	17	punct	_	_
-25	d'	de	ADP	_	_	26	case	_	SpaceAfter=No
-26	où	où	ADV	_	_	28	case	_	MWEPOS=ADP
+25	d'	de	ADP	_	_	28	case	_	MWEPOS=ADP|SpaceAfter=No
+26	où	où	ADV	_	_	25	fixed	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	nom	nom	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 29	de	de	ADP	_	_	30	case	_	_
@@ -188261,8 +188261,8 @@
 7	garage	garage	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	pour	pour	ADP	_	_	9	mark	_	_
 9	demander	demander	VERB	_	VerbForm=Inf	5	advcl	_	_
-10	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
-11	où	où	ADV	_	_	12	obl:arg	_	_
+10	d'	de	ADP	_	_	12	obl:arg	_	MWEPOS=ADP|SpaceAfter=No
+11	où	où	ADV	_	_	10	fixed	_	_
 12	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	problème	problème	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -223782,8 +223782,8 @@
 26	Marine	marine	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
 27	française	français	ADJ	_	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	32	punct	_	_
-29	d'	de	ADP	_	_	30	case	_	SpaceAfter=No
-30	où	où	ADV	_	_	32	case	_	MWEPOS=ADP
+29	d'	de	ADP	_	_	32	case	_	MWEPOS=ADP|SpaceAfter=No
+30	où	où	ADV	_	_	29	fixed	_	_
 31	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det	_	_
 32	amour	amour	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
 33	pour	pour	ADP	_	_	35	case	_	_
@@ -239521,8 +239521,8 @@
 12	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	impôt	impôt	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	6	punct	_	_
-15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
-16	où	où	ADV	_	_	18	case	_	MWEPOS=ADP
+15	d'	de	ADP	_	_	18	case	_	MWEPOS=ADP|SpaceAfter=No
+16	où	où	ADV	_	_	15	fixed	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
 19	que	que	SCONJ	_	_	27	mark	_	_
@@ -254821,8 +254821,8 @@
 
 # sent_id = fr-ud-train_09089
 # text = D'où la sincère volonté américaine de voir l'ONU et les plans de paix de l'instance onusienne aboutir.
-1	D'	de	ADP	_	_	2	case	_	SpaceAfter=No
-2	où	où	ADV	_	_	5	case	_	MWEPOS=ADP
+1	D'	de	ADP	_	_	5	case	_	MWEPOS=ADP|SpaceAfter=No
+2	où	où	ADV	_	_	1	fixed	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	sincère	sincère	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 5	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -294980,8 +294980,8 @@
 
 # sent_id = fr-ud-train_10563
 # text = D'où provient la motivation d'un animal à copuler ?
-1	D'	de	ADP	_	_	2	case	_	SpaceAfter=No
-2	où	où	ADV	_	_	3	obl:arg	_	_
+1	D'	de	ADP	_	_	3	obl:arg	_	MWEPOS=ADP|SpaceAfter=No
+2	où	où	ADV	_	_	1	fixed	_	_
 3	provient	provenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	motivation	motivation	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -299326,8 +299326,8 @@
 22	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	chaînes	chaîne	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	17	punct	_	_
-25	d'	de	ADP	_	_	26	case	_	SpaceAfter=No
-26	où	où	ADV	_	_	28	case	_	MWEPOS=ADP
+25	d'	de	ADP	_	_	28	case	_	MWEPOS=ADP|SpaceAfter=No
+26	où	où	ADV	_	_	25	fixed	_	_
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	17	obl:mod	_	_
 29-30	du	_	_	_	_	_	_	_	_
@@ -357252,8 +357252,8 @@
 28	,	,	PUNCT	_	_	27	punct	_	_
 29	en	en	ADP	_	_	30	case	_	_
 30	Catalogne	Catalogne	PROPN	_	_	27	nmod	_	_
-31	d'	de	ADP	_	_	32	case	_	SpaceAfter=No
-32	où	où	ADV	_	_	36	advmod	_	_
+31	d'	de	ADP	_	_	36	advmod	_	MWEPOS=ADP|SpaceAfter=No
+32	où	où	ADV	_	_	31	fixed	_	_
 33	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
 34	comptait	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	_
 35	aller	aller	VERB	_	VerbForm=Inf	34	xcomp	_	_
@@ -366016,8 +366016,8 @@
 27	de	de	ADP	_	_	28	case	_	_
 28	Smyrne	Smyrne	PROPN	_	_	22	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	28	punct	_	_
-30	d'	de	ADP	_	_	31	case	_	SpaceAfter=No
-31	où	où	ADV	_	PronType=Rel	33	advmod	_	_
+30	d'	de	ADP	_	_	33	advmod	_	MWEPOS=ADP|SpaceAfter=No
+31	où	où	ADV	_	PronType=Rel	30	fixed	_	_
 32	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det	_	_
 33	appellation	appellation	NOUN	_	Gender=Fem|Number=Sing	28	acl:relcl	_	_
 34	de	de	ADP	_	_	35	case	_	_
@@ -395501,8 +395501,8 @@
 
 # sent_id = fr-ud-train_14117
 # text = D'où une nouvelle énigme de la perspective, s'il n'y avait ni Dieu ni personnage ni bâtiment, qu'y aurait-il ?
-1	D'	de	ADP	_	_	2	case	_	SpaceAfter=No
-2	où	où	ADV	_	_	5	case	_	MWEPOS=ADP
+1	D'	de	ADP	_	_	5	case	_	MWEPOS=ADP|SpaceAfter=No
+2	où	où	ADV	_	_	1	fixed	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 5	énigme	énigme	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
