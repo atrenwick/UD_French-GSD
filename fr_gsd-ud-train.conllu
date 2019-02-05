@@ -24391,7 +24391,7 @@
 1	Lorsqu'	lorsque	SCONJ	_	_	5	mark	_	SpaceAfter=No
 2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
-4	y	y	PRON	_	_	5	obl:arg	_	_
+4	y	y	PRON	_	_	5	iobj	_	_
 5	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 6	pas	pas	ADV	_	_	5	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
@@ -34460,7 +34460,7 @@
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 19	ressort	ressortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-20	que	que	SCONJ	_	_	24	mark	_	_
+20	que	que	SCONJ	_	_	26	mark	_	_
 21	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
 22	crue	crue	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
 23	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	cop	_	_
@@ -41699,7 +41699,7 @@
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 6	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	0	root	_	_
 7	ouverts	ouvrir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	acl	_	_
-8	hors	hors	ADV	_	_	7	advmod	_	MWEPOS=ADP
+8	hors	hors	ADV	_	_	7	advmod	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	France	France	PROPN	_	_	8	obl:arg	_	_
 11	auprès	auprès	ADV	_	_	7	advmod	_	_
@@ -42556,11 +42556,11 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	océans	océan	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
-13	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-14	16.1	16.1	NUM	_	_	16	nummod	_	SpaceAfter=No
-15	°	°	SYM	_	_	16	nmod	_	SpaceAfter=No
-16	C	C	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
-17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+13	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+14	16.1	16.1	NUM	_	_	15	nummod	_	SpaceAfter=No
+15	°	°	SYM	_	_	8	appos	_	SpaceAfter=No
+16	C	C	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_01511
@@ -46416,7 +46416,7 @@
 5	qu'	que	SCONJ	_	_	9	mark	_	SpaceAfter=No
 6	Arboleda	Arboleda	PROPN	_	_	9	nsubj:pass	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-8	été	aux:pass	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	parataxis	_	_
+8	été	être	AUX	_	Gender=Masc|Ngg4umber=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
 9	jugé	juger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
 10	par	par	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -51859,7 +51859,7 @@
 47	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	48	det	_	_
 48	mort	mort	NOUN	_	Gender=Fem|Number=Sing	42	obl:mod	_	SpaceAfter=No
 49	,	,	PUNCT	_	_	48	punct	_	_
-50	célibataire	célibataire	NOUN	_	Gender=Masc|Number=Sing	42	advcl	_	SpaceAfter=No
+50	célibataire	célibataire	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
 51	,	,	PUNCT	_	_	53	punct	_	_
 52	en	en	ADP	_	_	53	case	_	_
 53	1719	1719	NUM	_	_	48	nmod	_	SpaceAfter=No
@@ -52939,7 +52939,7 @@
 20	et	et	CCONJ	_	_	25	cc	_	_
 21	que	que	SCONJ	_	_	25	mark	_	_
 22	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det	_	_
-23	formation	formation	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+23	formation	formation	NOUN	_	Gender=Fem|Number=Sing	25	nsubj:pass	_	_
 24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux:pass	_	_
 25	terminée	terminer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	7	punct	_	_
@@ -63287,12 +63287,12 @@
 
 # sent_id = fr-ud-train_02251
 # text = Le Grand Prix automobile de Pescara est une épreuve de course automobile créée en 1924 sous le nom de Coppa Acerbo.
-1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	9	nsubj	_	_
-3	Prix	prix	NOUN	_	Gender=Masc|Number=Sing	2	flat:name	_	_
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	Prix	prix	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 4	automobile	automobile	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 5	de	de	ADP	_	_	6	case	_	_
-6	Pescara	Pescara	PROPN	_	_	2	obl:mod	_	_
+6	Pescara	Pescara	PROPN	_	_	3	nmod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	épreuve	épreuve	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -63986,7 +63986,7 @@
 16	blessés	blessé	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	sans-abris	sans-abri	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	5	punct	_	_
+19	.	.	PUNCT	_	_	5g	punct	_	_
 
 # sent_id = fr-ud-train_02278
 # text = Célestin Leroy Gaombalet est né le 1er janvier 1942 à Grimari en Centrafrique.
@@ -65257,7 +65257,7 @@
 23	tout	tout	PRON	_	Gender=Masc|Number=Sing	25	nsubj	_	_
 24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 25	beau	beau	ADJ	_	Gender=Masc|Number=Sing	2	parataxis	_	_
-26	et	et	CCONJ	_	_	29	cc	_	_
+26	et	et	CCONJ	_	_	33	cc	_	_
 27	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 28	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
@@ -65311,7 +65311,7 @@
 37	que	que	SCONJ	_	_	41	mark	_	_
 38	dans	dans	ADP	_	_	41	case	_	_
 39	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	41	det	_	_
-40	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	36	amod	_	_
+40	premiers	premier	ADJ	_	Gender=Masc|Number=Plur	41	amod	_	_
 41	romans	roman	NOUN	_	Gender=Masc|Number=Plur	36	advcl	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	31	punct	_	_
 
@@ -67531,7 +67531,7 @@
 4	blessés	blesser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	d'	un	DET	_	Definite=Ind|PronType=Art	7	det	_	SpaceAfter=No
-7	autres	autre	PRON	_	Number=Plur	8	nsubj	_	_
+7	autres	autre	PRON	_	Number=Plur	8	nsubj:pass	_	_
 8	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 9	prisonniers	prisonnier	NOUN	_	Gender=Masc|Number=Plur	8	xcomp	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
@@ -67551,7 +67551,7 @@
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	avec	avec	ADP	_	_	16	mark	_	_
 13	pour	pour	ADP	_	_	14	case	_	_
-14	objectif	objectif	NOUN	_	Gender=Masc|Number=Sing	16	advcl	_	_
+14	objectif	objectif	NOUN	_	Gender=Masc|Number=Sing	16	obl:mod	_	_
 15	de	de	ADP	_	_	16	mark	_	_
 16	réunir	réunir	VERB	_	VerbForm=Inf	10	advcl	_	_
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -70041,7 +70041,7 @@
 28	601	601	NUM	_	_	26	obl	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	14	punct	_	_
 30	étant	être	AUX	_	Tense=Pres|VerbForm=Part	31	aux	_	INMWE=Yes
-31	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	mark	_	MWEPOS=ADV
+31	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	mark	_	MWEPOS=ADP
 32	que	que	SCONJ	_	_	37	mark	_	_
 33	Grégoire	Grégoire	PROPN	_	_	37	nsubj	_	_
 34	n'	ne	ADV	_	Polarity=Neg	37	advmod	_	SpaceAfter=No
@@ -70101,7 +70101,7 @@
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	monde	monde	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	SpaceAfter=No
+17	monde	monde	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = fr-ud-train_02491
@@ -70742,7 +70742,7 @@
 # sent_id = fr-ud-train_02517
 # text = Comment réussir en amour sans se fatiguer (Do not Make Waves) est un film américain réalisé par Alexander Mackendrick et sorti en 1967.
 1	Comment	comment	ADV	_	_	2	advmod	_	INTITLE=Yes
-2	réussir	réussir	VERB	_	VerbForm=Inf	16	csubj	_	TITLE=Yes
+2	réussir	réussir	VERB	_	VerbForm=Inf	16	nsubj	_	TITLE=Yes
 3	en	en	ADP	_	_	4	case	_	INTITLE=Yes
 4	amour	amour	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	INTITLE=Yes
 5	sans	sans	ADP	_	_	7	mark	_	INTITLE=Yes
@@ -70945,7 +70945,7 @@
 3	bénéficiaires	bénéficiaire	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
 5	domiciliés	domicilier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	advcl	_	_
-6	hors	hors	ADV	_	_	5	advmod	_	MWEPOS=ADP
+6	hors	hors	ADV	_	_	5	advmod	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	France	France	PROPN	_	_	6	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	18	punct	_	_
@@ -72072,7 +72072,7 @@
 1	Merci	merci	INTJ	_	_	0	root	_	_
 2	pour	pour	ADP	_	_	4	case	_	_
 3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-4	events	event	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
+4	events	event	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_
 5	réalisés	réaliser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
 6	pour	pour	ADP	_	_	8	case	_	_
 7	notre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
@@ -72134,11 +72134,11 @@
 # sent_id = fr-ud-train_02559
 # text = Bravo Etienne pour ce beau travail !
 1	Bravo	bravo	INTJ	_	_	0	root	_	_
-2	Etienne	Etienne	PROPN	_	_	1	vocative	_	_
+2	Etienne	Etienne	PROPN	_	_	1	obl:arg	_	_
 3	pour	pour	ADP	_	_	6	case	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 5	beau	beau	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
-6	travail	travail	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+6	travail	travail	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 7	!	!	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-train_02560
@@ -108196,7 +108196,7 @@
 13	lunettes	lunette	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
 14	...	...	PUNCT	_	_	3	punct	_	_
 15	Merci	merci	INTJ	_	_	3	discourse	_	_
-16	Alex	Alex	PROPN	_	_	15	nmod	_	_
+16	Alex	Alex	PROPN	_	_	15	obl:arg	_	_
 
 # sent_id = fr-ud-train_03861
 # text = Un trompe-l'œil, réalisé par l'atelier déco concept Mad'Art A.O. Costa orne le mur aveugle, face à l'église.
@@ -121085,7 +121085,7 @@
 1	Merci	merci	INTJ	_	_	0	root	_	_
 2	pour	pour	ADP	_	_	4	case	_	_
 3	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
-4	stage	stage	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	stage	stage	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	pilotage	pilotage	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 7	sur	sur	ADP	_	_	9	case	_	_
@@ -135476,10 +135476,10 @@
 2	à	à	ADP	_	_	5	case	_	_
 3	tous	tout	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	deux	deux	NUM	_	_	1	nmod	_	_
+5	deux	deux	NUM	_	_	1	obl:arg	_	_
 6	pour	pour	ADP	_	_	8	case	_	_
 7	votre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
-8	disponibilité	disponibilité	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+8	disponibilité	disponibilité	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
 9	et	et	CCONJ	_	_	12	cc	_	_
 10	tous	tout	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
 11	vos	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det	_	_
@@ -160099,7 +160099,7 @@
 5	bravo	bravo	INTJ	_	_	0	root	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
-8	site	site	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	site	site	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	annonces	annonce	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
 11	de	de	ADP	_	_	12	case	_	_
@@ -178128,7 +178128,7 @@
 # text = Merci pour tout ;-)
 1	Merci	merci	INTJ	_	_	0	root	_	_
 2	pour	pour	ADP	_	_	3	case	_	_
-3	tout	tout	PRON	_	Gender=Masc|Number=Sing	1	nmod	_	_
+3	tout	tout	PRON	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 4	;-)	;-)	SYM	_	_	1	parataxis	_	_
 
 # sent_id = fr-ud-train_06374
@@ -203467,7 +203467,7 @@
 26	Ganta	Ganta	PROPN	_	_	27	nsubj	_	_
 27	recherche	rechercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
 28	mais	mais	CCONJ	_	_	68	cc	_	_
-29	qui	qui	PRON	_	_	68	nsubj	_	SpaceAfter=No
+29	qui	qui	PRON	_	_	68	nsubj:pass	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
 31	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	68	advmod	_	_
 32-33	au	_	_	_	_	_	_	_	_
@@ -220459,7 +220459,7 @@
 1	Encore	encore	ADV	_	_	2	advmod	_	_
 2	merci	merci	INTJ	_	_	0	root	_	_
 3	à	à	ADP	_	_	4	case	_	_
-4	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	2	nmod	_	_
+4	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	2	obl:arg	_	_
 5	!	!	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_07863
@@ -233152,7 +233152,7 @@
 2	encore	encore	ADV	_	_	1	advmod	_	_
 3	pour	pour	ADP	_	_	5	case	_	_
 4	votre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
-5	disponibilité	disponibilité	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+5	disponibilité	disponibilité	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
 6	et	et	CCONJ	_	_	8	cc	_	_
 7	votre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
 8	travail	travail	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
@@ -234120,11 +234120,11 @@
 1	Merci	merci	INTJ	_	_	0	root	_	_
 2	à	à	ADP	_	_	4	case	_	_
 3	notre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
-4	guide	guide	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	guide	guide	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 5	Gaetan	Gaetan	PROPN	_	_	4	appos	_	_
 6	pour	pour	ADP	_	_	8	case	_	_
 7	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det	_	_
-8	explications	explication	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	_
+8	explications	explication	NOUN	_	Gender=Fem|Number=Plur	1	obl:arg	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
 11	sourire	sourire	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
@@ -244718,17 +244718,17 @@
 # sent_id = fr-ud-train_08725
 # text = Le port est complètement hors d'usage et les déplacements sont entravés par des routes détruites ou bloquées par des amas de gravats.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	port	port	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
-4	complètement	complètement	ADV	_	_	7	advmod	_	_
-5	hors	hors	ADV	_	_	7	case	_	MWEPOS=ADP
-6	d'	de	ADP	_	_	5	fixed	_	SpaceAfter=No
-7	usage	usage	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	port	port	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	complètement	complètement	ADV	_	_	5	advmod	_	_
+5	hors	hors	ADV	_	_	0	root	_	_
+6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
+7	usage	usage	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
 8	et	et	CCONJ	_	_	12	cc	_	_
 9	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 10	déplacements	déplacement	NOUN	_	Gender=Masc|Number=Plur	12	nsubj:pass	_	_
 11	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
-12	entravés	entraver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	_
+12	entravés	entraver	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
 13	par	par	ADP	_	_	15	case	_	_
 14	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	routes	route	NOUN	_	Gender=Fem|Number=Plur	12	obl:agent	_	_
@@ -244740,7 +244740,7 @@
 21	amas	amas	NOUN	_	Gender=Masc|Number=Plur	18	obl:agent	_	_
 22	de	de	ADP	_	_	23	case	_	_
 23	gravats	gravat	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	_	_	7	punct	_	_
+24	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_08726
 # text = Les premiers laboratoires scientifiques étudiant les oscillations biologiques se mettent en place dans les années 1920.
@@ -252853,10 +252853,10 @@
 4	à	à	ADP	_	_	7	case	_	_
 5	tous	tout	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	deux	deux	NUM	_	_	1	nmod	_	_
+7	deux	deux	NUM	_	_	1	obl:arg	_	_
 8	pour	pour	ADP	_	_	10	case	_	_
 9	votre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
-10	travail	travail	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+10	travail	travail	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
@@ -262208,7 +262208,7 @@
 # text = Dommage pour eux car les plats étaient bon.
 1	Dommage	dommage	INTJ	_	_	0	root	_	_
 2	pour	pour	ADP	_	_	3	case	_	_
-3	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	1	nmod	_	_
+3	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	1	obl:arg	_	_
 4	car	car	CCONJ	_	_	8	cc	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	plats	plat	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
@@ -262853,10 +262853,10 @@
 # sent_id = fr-ud-train_09371
 # text = Bravo Christophe, à vous et votre équipe très dynamique et sympathique.
 1	Bravo	bravo	INTJ	_	_	0	root	_	_
-2	Christophe	Christophe	PROPN	_	_	1	vocative	_	SpaceAfter=No
+2	Christophe	Christophe	PROPN	_	_	1	obl:arg	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	à	à	ADP	_	_	5	case	_	_
-5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	1	nmod	_	_
+5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	1	obl:arg	_	_
 6	et	et	CCONJ	_	_	8	cc	_	_
 7	votre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
 8	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
@@ -265754,7 +265754,7 @@
 2	encore	encore	ADV	_	_	1	advmod	_	_
 3	pour	pour	ADP	_	_	5	case	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
-5	moment	moment	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	moment	moment	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 6	unique	unique	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
 7	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
@@ -280585,7 +280585,7 @@
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	5	case	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	cirque	cirque	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	cirque	cirque	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	_
 6	Romanès	Romanès	PROPN	_	_	5	appos	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -301686,7 +301686,7 @@
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 6	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	Wow	wow	INTJ	_	_	6	obj	_	SpaceAfter=No
+7	Wow	Wow	PROPN	_	_	6	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	à	à	ADP	_	_	10	case	_	_
 10	quoi	quoi	PRON	_	_	12	obl:arg	_	_
@@ -330731,10 +330731,10 @@
 2	encore	encore	ADV	_	_	1	advmod	_	_
 3	à	à	ADP	_	_	5	case	_	_
 4	notre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
-5	propriétaire	propriétaire	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	propriétaire	propriétaire	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 6	pour	pour	ADP	_	_	8	case	_	_
 7	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
-8	gentillesse	gentillesse	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+8	gentillesse	gentillesse	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-train_11838
@@ -338417,7 +338417,7 @@
 # text = Bravo à Mme Pierrefixe et toute son équipe.
 1	Bravo	bravo	INTJ	_	_	0	root	_	_
 2	à	à	ADP	_	_	3	case	_	_
-3	Mme	madame	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+3	Mme	madame	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
 4	Pierrefixe	Pierrefixe	PROPN	_	_	3	flat:name	_	_
 5	et	et	CCONJ	_	_	8	cc	_	_
 6	toute	tout	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
@@ -391718,7 +391718,7 @@
 1	Merci	merci	INTJ	_	_	0	root	_	_
 2	à	à	ADP	_	_	4	case	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	organisme	organisme	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	organisme	organisme	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	formation	formation	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
 7	option	option	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
@@ -395831,7 +395831,7 @@
 # text = Une infirmière hors du commun car en plus de son professionnalisme, une humanité, une gentillesse, une joie de vivre comme on n'en fait plus et qui font du bien aux malades que nous sommes...
 1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	infirmière	infirmier	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-3	hors	hors	ADV	_	_	2	advmod	_	MWEPOS=ADP
+3	hors	hors	ADV	_	_	2	advmod	_	_
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
