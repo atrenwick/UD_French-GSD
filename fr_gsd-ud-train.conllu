@@ -108305,7 +108305,7 @@
 9	en	en	ADP	_	_	10	case	_	_
 10	anglais	anglais	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 11	:	:	PUNCT	_	_	10	punct	_	_
-12	Hudson's	Hudson's	X	_	_	2	appos	_	SpaceAfter=No
+12	Hudson's	Hudson's	X	_	_	2	appos	_	_
 13	Bay	Bay	X	_	_	12	flat:foreign	_	_
 14	Company	Company	X	_	_	12	flat:foreign	_	SpaceAfter=No
 15	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
@@ -117876,7 +117876,7 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	Rich	Rich	PROPN	_	_	9	nmod	_	_
 12	à	à	ADP	_	_	13	case	_	_
-13	Lincoln's	Lincoln's	X	_	_	9	nmod	_	SpaceAfter=No
+13	Lincoln's	Lincoln's	X	_	_	9	nmod	_	_
 14	Inn	Inn	X	_	_	13	flat:foreign	_	_
 15	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 16	puis	puis	ADV	_	_	18	cc	_	_
@@ -263132,7 +263132,7 @@
 3	Go	Go	X	_	_	1	flat:foreign	_	SpaceAfter=No
 4	!	!	PUNCT	_	_	1	punct	_	_
 5	/	/	SYM	_	_	6	cc	_	_
-6	Lights	Lights	X	_	_	1	cc	_	_
+6	Lights	Lights	X	_	_	1	conj	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	30e	30e	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
@@ -290081,7 +290081,7 @@
 24	or	or	X	_	_	22	flat:foreign	_	_
 25	not	not	X	_	_	22	flat:foreign	_	_
 26	to	to	X	_	_	22	flat:foreign	_	_
-27	be	be	X	_	_	22	flat:foreign	_	_
+27	be	be	X	_	_	22	flat:foreign	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_10383
@@ -314656,7 +314656,7 @@
 66	avec	avec	ADP	_	_	68	case	_	_
 67	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	68	det	_	_
 68	making-of	making-of	NOUN	_	Gender=Masc|Number=Sing	56	nmod	_	SpaceAfter=No
-69	,	,	PUNCT	_	_	17	punct	_	_
+69	,	,	PUNCT	_	_	71	punct	_	_
 70	et	et	CCONJ	_	_	71	cc	_	_
 71	The	The	X	_	Definite=Def	4	conj	_	_
 72	Blood	Blood	X	_	_	71	flat:foreign	_	SpaceAfter=No
@@ -319613,7 +319613,7 @@
 27	:	:	PUNCT	_	_	31	punct	_	SpaceAfter=No
 28	--	--	PUNCT	_	_	31	punct	_	SpaceAfter=No
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-30	XV	XV	NUM	_	_	31	amod	_	_
+30	XVe	XVe	NUM	_	_	31	amod	_	_
 31	division	division	NOUN	_	Gender=Fem|Number=Sing	20	parataxis	_	_
 32	écossaise	écossais	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
 33	de	de	ADP	_	_	35	case	_	_
@@ -359459,7 +359459,7 @@
 59	Dream	Dream	X	_	_	56	flat:foreign	_	_
 60	et	et	CCONJ	_	_	61	cc	_	_
 61	Mr	Mr	X	_	_	56	conj	_	_
-62	Nobody	Nobody	X	_	_	61	t:for	_	SpaceAfter=No
+62	Nobody	Nobody	X	_	_	61	flat:foreign	_	SpaceAfter=No
 63	.	.	PUNCT	_	_	18	punct	_	_
 
 # sent_id = fr-ud-train_12856
@@ -383802,7 +383802,7 @@
 21	français	français	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	Help	Help	X	_	_	18	conj	_	_
-24	Me	Me	X	_	_	23	flat:foreign	_	_  SpaceAfter=No
+24	Me	Me	X	_	_	23	flat:foreign	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	Rhonda	Rhonda	PROPN	_	_	23	appos	_	_
 27	en	en	ADP	_	_	28	case	_	_
