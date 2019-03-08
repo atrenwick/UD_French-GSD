@@ -143463,7 +143463,7 @@
 
 # sent_id = fr-ud-train_05138
 # text = Une fois qu'un donneur compatible avec le malade a été trouvé, le processus de la transplantation peut commencer.
-1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	mark	_	INMWE=Yes
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	mark	_	INMWE=Yes
 2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	19	advmod	_	MWEPOS=ADV
 3	qu'	que	SCONJ	_	_	12	mark	_	SpaceAfter=No
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -168012,7 +168012,7 @@
 19	noms	nom	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	Shiva	Shiva	PROPN	_	_	19	nmod	_	SpaceAfter=No
-22	)	)	PUNCT	_	_	4	punct	_	_
+22	)	)	PUNCT	_	_	16	punct	_	_
 23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	chapelet	chapelet	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -180646,15 +180646,15 @@
 
 # sent_id = fr-ud-train_06462
 # text = Célèbre et populaire as lors de la Première Guerre mondiale, il avait dû faire face à la dissolution de la Luftstreitkräfte, conséquence du traité de Versailles, aux restrictions de trafic de l'aviation privée allemande et à une déception amoureuse avec l'actrice Käthe Dorsch.
-1	Célèbre	célèbre	ADJ	_	Gender=Masc|Number=Sing	14	advcl	_	_
+1	Célèbre	célèbre	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 2	et	et	CCONJ	_	_	3	cc	_	_
-3	populaire	populaire	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
-4	as	as	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+3	populaire	populaire	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	_
+4	as	as	NOUN	_	Gender=Masc|Number=Sing	14	acl	_	_
 5	lors	lors	ADV	_	_	4	advmod	_	_
 6	de	de	ADP	_	_	9	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	Première	premier	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
-9	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	1	obl:mod	_	_
+9	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
 10	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	4	punct	_	_
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
@@ -181814,7 +181814,7 @@
 51	de	de	ADP	_	_	52	mark	_	_
 52	soutenir	soutenir	VERB	_	VerbForm=Inf	50	xcomp	_	SpaceAfter=No
 53	,	,	PUNCT	_	_	55	punct	_	_
-54	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	60	mark	_	INMWE=Yes
+54	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	55	mark	_	INMWE=Yes
 55	fois	fois	NOUN	_	Gender=Fem|Number=Sing	52	advmod	_	MWEPOS=ADV
 56	qu'	que	SCONJ	_	_	60	mark	_	SpaceAfter=No
 57	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	60	nsubj	_	_
@@ -216794,8 +216794,8 @@
 4	termes	terme	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
-7	x	x	SYM	_	_	9	nummod	_	_
-8	k	k	SYM	_	_	7	nmod	_	_
+7	x	x	SYM	_	_	9	dep	_	_
+8	k	k	SYM	_	_	7	dep	_	_
 9	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
 11	calculées	calculer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
@@ -284592,7 +284592,7 @@
 
 # sent_id = fr-ud-train_10168
 # text = Avec on se croirait, décidément, dans un film de science-fiction.
-1	Avec	avec	ADP	_	_	4	advmod	_	_
+1	Avec	avec	ADP	_	_	4	case	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	obj	_	_
 4	croirait	croire	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -310818,7 +310818,7 @@
 
 # sent_id = fr-ud-train_11149
 # text = Une fois que la zone du corps (où le tatouage sera appliqué) est nettoyée avec de l'alcool, une série de décalques est placée sur la peau et le papier est alors détaché.
-1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	mark	_	INMWE=Yes
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	mark	_	INMWE=Yes
 2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	28	advmod	_	MWEPOS=ADV
 3	que	que	SCONJ	_	_	14	mark	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
