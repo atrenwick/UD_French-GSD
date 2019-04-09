@@ -1680,7 +1680,7 @@
 24	publié	publier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
 25	vendredi	vendredi	NOUN	_	Gender=Masc|Number=Sing	24	obl	_	_
 26	et	et	CCONJ	_	_	29	cc	_	_
-27	qui	qui	PRON	_	_	29	nsubj	_	_
+27	qui	qui	PRON	_	PronType=Rel	29	nsubj	_	_
 28	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	29	aux	_	_
 29	examiné	examiner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	conj	_	_
 30	mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	29	obl	_	_
@@ -11885,7 +11885,7 @@
 18	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 19	état	état	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 20	liquide	liquide	ADJ	_	Gender=Masc|Number=Sing	19	amod	_	_
-21	qui	qui	PRON	_	_	29	nsubj	_	SpaceAfter=No
+21	qui	qui	PRON	_	PronType=Rel	29	nsubj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	21	punct	_	_
 23	à	à	ADP	_	_	25	case	_	_
 24	4	4	NUM	_	_	25	nummod	_	SpaceAfter=No
@@ -25107,7 +25107,7 @@
 7	dix	dix	NUM	_	_	8	nummod	_	_
 8	ans	an	NOUN	_	Gender=Masc|Number=Plur	5	obl:arg	_	_
 9	et	et	CCONJ	_	_	14	cc	_	_
-10	que	que	PRON	_	_	14	obj	_	_
+10	que	que	PRON	_	PronType=Rel	14	obj	_	_
 11	tout	tout	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	monde	monde	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -28871,7 +28871,7 @@
 24	de	de	ADP	_	_	26	case	_	_
 25	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
 26	persécutions	persécution	NOUN	_	Gender=Fem|Number=Plur	23	obl:arg	_	_
-27	que	que	PRON	_	_	31	obj	_	_
+27	que	que	PRON	_	PronType=Rel	31	obj	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
 30	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
@@ -29495,7 +29495,7 @@
 
 # sent_id = fr-ud-train_01037
 # text = Qu'est-ce qu'ils ont fait comme alternative pour stopper la drogue ?
-1	Qu'	que	PRON	_	_	0	root	_	SpaceAfter=No
+1	Qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
 4	qu'	que	SCONJ	_	_	7	mark	_	SpaceAfter=No
@@ -40295,7 +40295,7 @@
 13	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	idole	idole	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15	»	»	PUNCT	_	_	11	punct	_	_
-16	qu'	que	PRON	_	_	22	obj	_	SpaceAfter=No
+16	qu'	que	PRON	_	PronType=Rel	22	obj	_	SpaceAfter=No
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
 18	accusait	accuser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
@@ -40628,7 +40628,7 @@
 36	génération	génération	NOUN	_	Gender=Fem|Number=Sing	31	obl:mod	_	_
 37	de	de	ADP	_	_	38	case	_	_
 38	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	36	nmod	_	_
-39	qu'	que	PRON	_	_	43	obj	_	SpaceAfter=No
+39	qu'	que	PRON	_	PronType=Rel	43	obj	_	SpaceAfter=No
 40	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	41	nsubj	_	_
 41	cherchait	chercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	acl:relcl	_	_
 42	à	à	ADP	_	_	43	mark	_	_
@@ -44820,7 +44820,7 @@
 54	"	"	PUNCT	_	_	52	punct	_	_
 55	(	(	PUNCT	_	_	59	punct	_	SpaceAfter=No
 56	"	"	PUNCT	_	_	59	punct	_	SpaceAfter=No
-57	qui	qui	PRON	_	_	59	nsubj	_	INTITLE=Yes
+57	qui	qui	PRON	_	PronType=Int	59	nsubj	_	INTITLE=Yes
 58	ne	ne	ADV	_	Polarity=Neg	59	advmod	_	INTITLE=Yes
 59	redoute	redouter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	appos	_	TITLE=YES
 60	rien	rien	PRON	_	Number=Sing	59	obj	_	INTITLE=Yes|SpaceAfter=No
@@ -46954,7 +46954,7 @@
 1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	interdit	interdire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-4	qui	qui	PRON	_	_	3	obj	_	_
+4	qui	qui	PRON	_	PronType=Rel	3	obj	_	_
 5	que	que	PRON	_	PronType=Rel	4	acl:relcl	_	_
 6	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
 7	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -50382,7 +50382,7 @@
 39	en	en	ADP	_	_	40	case	_	_
 40	Burcardo	Burcardo	PROPN	_	_	38	obl	_	_
 41	et	et	CCONJ	_	_	50	cc	_	_
-42	qui	qui	PRON	_	_	50	nsubj	_	SpaceAfter=No
+42	qui	qui	PRON	_	PronType=Rel	50	nsubj	_	SpaceAfter=No
 43	,	,	PUNCT	_	_	42	punct	_	_
 44	à	à	ADP	_	_	45	mark	_	INMWE=Yes
 45	partir	partir	VERB	_	VerbForm=Inf	50	advmod	_	MWEPOS=ADV
@@ -57791,7 +57791,7 @@
 10	en	en	PRON	_	Person=3	11	iobj	_	_
 11	assurer	assurer	VERB	_	VerbForm=Inf	4	conj	_	_
 12	:	:	PUNCT	_	_	16	punct	_	_
-13	qu'	que	PRON	_	_	18	obj	_	SpaceAfter=No
+13	qu'	que	PRON	_	PronType=Int	18	obj	_	SpaceAfter=No
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No
 15	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 16	capable	capable	ADJ	_	Gender=Fem|Number=Sing	2	parataxis	_	_
@@ -63668,7 +63668,7 @@
 
 # sent_id = fr-ud-train_02266
 # text = Qu'est-ce qu'un délinquant ?
-1	Qu'	que	PRON	_	_	0	root	_	SpaceAfter=No
+1	Qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
 4	qu'	que	SCONJ	_	_	6	case	_	SpaceAfter=No
@@ -64282,7 +64282,7 @@
 29	Alice	Alice	PROPN	_	_	24	nmod	_	_
 30	Springs	Springs	PROPN	_	_	29	flat:name	_	_
 31	et	et	CCONJ	_	_	33	cc	_	_
-32	qui	qui	PRON	_	_	33	nsubj	_	_
+32	qui	qui	PRON	_	PronType=Rel	33	nsubj	_	_
 33	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
 34	de	de	ADP	_	_	36	case	_	_
 35	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	36	det	_	_
@@ -66654,7 +66654,7 @@
 10	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
 11	et	et	CCONJ	_	_	13	cc	_	_
 12	pour	pour	ADP	_	_	13	case	_	_
-13	qui	qui	PRON	_	_	7	conj	_	SpaceAfter=No
+13	qui	qui	PRON	_	PronType=Rel	7	conj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	tout	tout	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
@@ -67140,7 +67140,7 @@
 5	arrestation	arrestation	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	mais	mais	CCONJ	_	_	10	cc	_	_
-8	qui	qui	PRON	_	_	10	nsubj	_	_
+8	qui	qui	PRON	_	PronType=Rel	10	nsubj	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	tombée	tomber	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
 11	amoureuse	amoureux	ADJ	_	Gender=Fem|Number=Sing	10	xcomp	_	_
@@ -74955,7 +74955,7 @@
 7	:	:	PUNCT	_	_	6	punct	_	_
 8	Rabbi	Rabbi	PROPN	_	_	12	vocative	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	qui	qui	PRON	_	_	12	nsubj	_	_
+10	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	péché	pécher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
@@ -87628,7 +87628,7 @@
 # sent_id = fr-ud-train_03106
 # text = De qui se moque-t-on ?
 1	De	de	ADP	_	_	2	case	_	_
-2	qui	qui	PRON	_	_	4	obl:arg	_	_
+2	qui	qui	PRON	_	PronType=Int	4	obl:arg	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	expl	_	_
 4	moque	moquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	-t	t	PART	_	_	6	expl	_	SpaceAfter=No
@@ -87654,7 +87654,7 @@
 15	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
 16	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	17	iobj	_	_
 17	dire	dire	VERB	_	VerbForm=Inf	13	xcomp	_	_
-18	qui	qui	PRON	_	_	19	nsubj	_	_
+18	qui	qui	PRON	_	PronType=Int	19	nsubj	_	_
 19	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
 20	derrière	derrière	ADP	_	_	22	case	_	_
 21	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
@@ -94557,7 +94557,7 @@
 36	enchères	enchère	NOUN	_	Gender=Fem|Number=Plur	24	obl:arg	_	_
 37	Schockemöhle	Schockemöhle	PROPN	_	_	36	appos	_	_
 38	et	et	CCONJ	_	_	41	cc	_	_
-39	qui	qui	PRON	_	_	41	nsubj	_	_
+39	qui	qui	PRON	_	PronType=Rel	41	nsubj	_	_
 40	se	se	PRON	_	Person=3|PronType=Prs	41	expl:pass	_	_
 41	classa	classer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	_
 42	dans	dans	ADP	_	_	46	case	_	_
@@ -105046,7 +105046,7 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	blinis	blini	NOUN	_	Gender=Masc|Number=Plur	10	obl:arg	_	_
-14	qu'	que	PRON	_	_	20	obj	_	SpaceAfter=No
+14	qu'	que	PRON	_	PronType=Rel	20	obj	_	SpaceAfter=No
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
 16	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
 17	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
@@ -111220,7 +111220,7 @@
 6	cherché	chercher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
 7	longtemps	longtemps	ADV	_	_	6	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
-9	qu'	que	PRON	_	_	11	obj	_	SpaceAfter=No
+9	qu'	que	PRON	_	PronType=Rel	11	obj	_	SpaceAfter=No
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
 11	sentait	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
 12	dévoré	dévorer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	xcomp	_	_
@@ -112687,7 +112687,7 @@
 7	à	à	ADP	_	_	8	case	_	_
 8	Françoise	Françoise	PROPN	_	_	6	obl:arg	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
-10	qu'	que	PRON	_	_	12	obj	_	SpaceAfter=No
+10	qu'	que	PRON	_	PronType=Rel	12	obj	_	SpaceAfter=No
 11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	surnomme	surnommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
 13	Belote	Belote	PROPN	_	_	12	xcomp	_	_
@@ -113404,7 +113404,7 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	bus	bus	NOUN	_	Gender=Masc|Number=Sing	14	obl:arg	_	_
 18	PCI	PCI	PROPN	_	_	17	appos	_	_
-19	qu'	que	PRON	_	_	21	obj	_	SpaceAfter=No
+19	qu'	que	PRON	_	PronType=Rel	21	obj	_	SpaceAfter=No
 20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 21	estimait	estimer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
 22	trop	trop	ADV	_	_	23	advmod	_	_
@@ -113884,7 +113884,7 @@
 # sent_id = fr-ud-train_04080
 # text = A qui le tour ?
 1	A	à	ADP	_	_	2	case	_	_
-2	qui	qui	PRON	_	_	4	nmod	_	_
+2	qui	qui	PRON	_	PronType=Int	4	nmod	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	tour	tour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	?	?	PUNCT	_	_	4	punct	_	_
@@ -114795,7 +114795,7 @@
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	action	action	NOUN	_	Gender=Fem|Number=Sing	8	obl:arg	_	_
 12	mais	mais	CCONJ	_	_	15	cc	_	_
-13	qui	qui	PRON	_	_	15	nsubj	_	_
+13	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
 14	n'	ne	ADV	_	Polarity=Neg	15	advmod	_	SpaceAfter=No
 15	octroie	octroyer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
 16	ni	ni	CCONJ	_	_	17	cc	_	_
@@ -120933,7 +120933,7 @@
 26	Mahishasuramardini	Mahishasuramardini	PROPN	_	_	24	conj	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	31	punct	_	_
 28	et	et	CCONJ	_	_	31	cc	_	_
-29	qui	qui	PRON	_	_	31	nsubj:pass	_	_
+29	qui	qui	PRON	_	PronType=Rel	31	nsubj:pass	_	_
 30	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux:pass	_	_
 31	appelée	appeler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
 32	en	en	ADP	_	_	33	case	_	_
@@ -124634,7 +124634,7 @@
 # text = Sinon, qu'aurait pu faire la Belgique, avec la Force Publique du Congo telle qu'elle était en 1939 ?
 1	Sinon	sinon	ADV	_	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	qu'	que	PRON	_	_	6	obj	_	SpaceAfter=No
+3	qu'	que	PRON	_	PronType=Int	6	obj	_	SpaceAfter=No
 4	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	faire	faire	VERB	_	VerbForm=Inf	5	xcomp	_	_
@@ -124725,7 +124725,7 @@
 23	Sahara	Sahara	PROPN	_	_	19	nmod	_	_
 24	occidental	occidental	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
 25	et	et	CCONJ	_	_	28	cc	_	_
-26	qu'	que	PRON	_	_	28	obj	_	SpaceAfter=No
+26	qu'	que	PRON	_	PronType=Rel	28	obj	_	SpaceAfter=No
 27	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
 28	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	32	punct	_	_
@@ -124828,11 +124828,11 @@
 13	latin	latin	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	«	«	PUNCT	_	_	17	punct	_	_
-16	qui	qui	PRON	_	_	17	nsubj	_	INTITLE=Yes
+16	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	INTITLE=Yes
 17	vit	vivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	appos	_	TITLE=Yes
 18	dans	dans	ADP	_	_	17	orphan	_	INTITLE=Yes|SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	INTITLE=Yes
-20	qui	qui	PRON	_	_	21	nsubj	_	INTITLE=Yes
+20	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	INTITLE=Yes
 21	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	INTITLE=Yes
 22	»	»	PUNCT	_	_	17	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	17	punct	_	_
@@ -126936,10 +126936,10 @@
 
 # sent_id = fr-ud-train_04548
 # text = Qu'est-ce qui s'est vraiment passé lors de l'accident avec la Spyker ?
-1	Qu'	que	PRON	_	_	0	root	_	SpaceAfter=No
+1	Qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	nsubj	_	_
-4	qui	qui	PRON	_	_	8	nsubj	_	_
+4	qui	qui	PRON	_	PronType=Rel	8	nsubj	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs	8	expl	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	vraiment	vraiment	ADV	_	_	8	advmod	_	_
@@ -127145,7 +127145,7 @@
 23	capitaine	capitaine	NOUN	_	Gender=Masc|Number=Sing	20	obl:agent	_	_
 24	:	:	PUNCT	_	_	20	punct	_	_
 25	«	«	PUNCT	_	_	20	punct	_	_
-26	Qu'	que	PRON	_	_	0	root	_	SpaceAfter=No
+26	Qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
 28	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	26	nsubj	_	_
 29	que	que	SCONJ	_	_	31	mark	_	_
@@ -129382,7 +129382,7 @@
 
 # sent_id = fr-ud-train_04636
 # text = Que se passe-t-il ?
-1	Que	que	PRON	_	_	3	xcomp	_	_
+1	Que	que	PRON	_	PronType=Int	3	xcomp	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	3	expl	_	_
 3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-t	t	PART	_	_	5	expl	_	SpaceAfter=No
@@ -138923,7 +138923,7 @@
 19	5	5	NUM	_	_	20	nummod	_	_
 20	buts	but	NOUN	_	Gender=Masc|Number=Plur	15	obl:arg	_	_
 21	précis	précis	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
-22	qu'	que	PRON	_	_	35	obj	_	SpaceAfter=No
+22	qu'	que	PRON	_	PronType=Rel	35	obj	_	SpaceAfter=No
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	comité	comité	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	_
 25	annuel	annuel	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
@@ -140027,7 +140027,7 @@
 16	question	question	NOUN	_	Gender=Fem|Number=Sing	7	obl:arg	_	_
 17	:	:	PUNCT	_	_	16	punct	_	_
 18	«	«	PUNCT	_	_	7	punct	_	_
-19	Qui	qui	PRON	_	_	21	nsubj	_	_
+19	Qui	qui	PRON	_	PronType=Int	21	nsubj	_	_
 20	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
 21	rendrait	rendre	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 22	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	23	det	_	_
@@ -141382,7 +141382,7 @@
 
 # sent_id = fr-ud-train_05065
 # text = Que devient alors le duo éthique, fondamentalement asymétrique et inégalitaire (le sujet n'a pas de visage) lors de l'irruption du tiers ?
-1	Que	que	PRON	_	_	2	xcomp	_	_
+1	Que	que	PRON	_	PronType=Int	2	xcomp	_	_
 2	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	alors	alors	ADV	_	_	2	advmod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -143374,7 +143374,7 @@
 34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	État	État	NOUN	_	Gender=Masc|Number=Sing	32	obl:arg	_	_
 36	national	national	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
-37	que	que	PRON	_	_	40	obj	_	_
+37	que	que	PRON	_	PronType=Rel	40	obj	_	_
 38	cherche	chercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	_	_
 39	à	à	ADP	_	_	40	mark	_	_
 40	protéger	protéger	VERB	_	VerbForm=Inf	38	xcomp	_	_
@@ -145579,7 +145579,7 @@
 8	quelques	quelque	DET	_	Gender=Masc|Number=Plur	9	det	_	_
 9	jours	jour	NOUN	_	Gender=Masc|Number=Plur	6	obl:arg	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
-11	qu'	que	PRON	_	_	0	root	_	SpaceAfter=No
+11	qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
 13	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
 14	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	15	nsubj	_	_
@@ -149348,7 +149348,7 @@
 # sent_id = fr-ud-train_05342
 # text = Mais qui sait quelle nouvelle surprise les frères Gallagher peuvent encore nous réserver !
 1	Mais	mais	CCONJ	_	_	3	cc	_	_
-2	qui	qui	PRON	_	_	3	nsubj	_	_
+2	qui	qui	PRON	_	PronType=Int	3	nsubj	_	_
 3	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	quelle	quel	DET	_	Gender=Fem|Number=Sing	6	det	_	_
 5	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
@@ -150206,7 +150206,7 @@
 12	James	James	PROPN	_	_	11	flat:name	_	_
 13	vieillissant	vieillir	VERB	_	Tense=Pres|VerbForm=Part	11	acl	_	_
 14	dans	dans	ADP	_	_	16	case	_	_
-15	Qui	qui	PRON	_	_	16	nsubj	_	INTITLE=Yes
+15	Qui	qui	PRON	_	PronType=Int	16	nsubj	_	INTITLE=Yes
 16	tire	tirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	obl:mod	_	TITLE=Yes
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	INTITLE=Yes
 18	premier	premier	ADJ	_	Gender=Masc|Number=Sing	16	obl:mod	_	INTITLE=Yes
@@ -152366,7 +152366,7 @@
 17	collectives	collectif	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
 18	»	»	PUNCT	_	_	16	punct	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
-20	qu'	que	PRON	_	_	22	obj	_	SpaceAfter=No
+20	qu'	que	PRON	_	PronType=Rel	22	obj	_	SpaceAfter=No
 21	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 22	juge	juger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
 23	indissociables	indissociable	ADJ	_	Gender=Fem|Number=Plur	22	xcomp	_	_
@@ -155910,7 +155910,7 @@
 # sent_id = fr-ud-train_05567
 # text = Ce qui n'était pas pour plaire à la majorité de l'assistance, entre autres Abdelaziz Belkhadem, qui a noté que « le discours a changé certes, mais le fait politique n'a pas suivi ».
 1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	0	root	_	_
-2	qui	qui	PRON	_	_	4	nsubj	_	_
+2	qui	qui	PRON	_	PronType=Rel	4	nsubj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
 4	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
 5	pas	pas	ADV	_	_	4	advmod	_	_
@@ -157927,7 +157927,7 @@
 19	et	et	CCONJ	_	_	21	cc	_	_
 20	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 21	tactiques	tactique	NOUN	_	Gender=Fem|Number=Plur	18	conj	_	_
-22	que	que	PRON	_	_	40	obj	_	_
+22	que	que	PRON	_	PronType=Rel	40	obj	_	_
 23	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	techniciens	technicien	NOUN	_	Gender=Masc|Number=Plur	37	nsubj	_	_
 25	de	de	ADP	_	_	27	case	_	_
@@ -161943,7 +161943,7 @@
 8	compter	compter	VERB	_	VerbForm=Inf	5	acl:relcl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
-11	qui	qui	PRON	_	_	12	nsubj	_	_
+11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
 12	mêlent	mêler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 13	discours	discours	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
 14	avec	avec	ADP	_	_	15	case	_	_
@@ -171240,7 +171240,7 @@
 15	légèrement	légèrement	ADV	_	_	16	advmod	_	_
 16	améliorée	améliorer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	_
-18	qu'	que	PRON	_	_	20	obj	_	SpaceAfter=No
+18	qu'	que	PRON	_	PronType=Rel	20	obj	_	SpaceAfter=No
 19	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 20	désigna	désigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
 21	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
@@ -172620,7 +172620,7 @@
 
 # sent_id = fr-ud-train_06172
 # text = Qui en est responsable ?
-1	Qui	qui	PRON	_	_	4	nsubj	_	_
+1	Qui	qui	PRON	_	PronType=Int	4	nsubj	_	_
 2	en	en	PRON	_	Person=3	4	iobj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	responsable	responsable	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -178071,7 +178071,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	tout	tout	DET	_	Gender=Masc|Number=Sing	4	det	_	_
 4	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	0	root	_	_
-5	que	que	PRON	_	_	4	acl:relcl	_	_
+5	que	que	PRON	_	PronType=Rel	4	acl:relcl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	narrateur	narrateur	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 8	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
@@ -181675,11 +181675,11 @@
 13	latin	latin	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	«	«	PUNCT	_	_	17	punct	_	_
-16	qui	qui	PRON	_	_	17	nsubj	_	INTITLE=Yes
+16	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	INTITLE=Yes
 17	vit	vivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	appos	_	TITLE=Yes
 18	dans	dans	ADP	_	_	17	mark	_	INTITLE=Yes|SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	INTITLE=Yes
-20	qui	qui	PRON	_	_	21	nsubj	_	INTITLE=Yes
+20	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	INTITLE=Yes
 21	habite	habiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	INTITLE=Yes
 22	»	»	PUNCT	_	_	17	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	17	punct	_	_
@@ -185753,7 +185753,7 @@
 14	analystes	analyste	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
 15	en	en	ADP	_	_	16	case	_	_
 16	formation	formation	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	_
-17	qui	qui	PRON	_	_	20	nsubj	_	_
+17	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	_
 18	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	20	iobj	_	_
 19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 20	proches	proche	ADJ	_	Gender=Fem|Number=Plur	11	acl:relcl	_	_
@@ -189225,7 +189225,7 @@
 13	Washington	Washington	PROPN	_	_	9	conj	_	_
 14	pour	pour	ADP	_	_	15	mark	_	_
 15	déterminer	déterminer	VERB	_	VerbForm=Inf	6	advcl	_	_
-16	qui	qui	PRON	_	_	17	nsubj	_	_
+16	qui	qui	PRON	_	PronType=Int	17	nsubj	_	_
 17	prendra	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	ccomp	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	direction	direction	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
@@ -190299,7 +190299,7 @@
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	souveraineté	souveraineté	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 25	et	et	CCONJ	_	_	28	cc	_	_
-26	qu'	que	PRON	_	_	28	obj	_	SpaceAfter=No
+26	qu'	que	PRON	_	PronType=Rel	28	obj	_	SpaceAfter=No
 27	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
 28	administre	administrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
 29	comme	comme	SCONJ	_	_	32	mark	_	_
@@ -190586,7 +190586,7 @@
 12	petit	petit	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
 13	cabinet	cabinet	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 14	mais	mais	CCONJ	_	_	17	cc	_	_
-15	qui	qui	PRON	_	_	17	nsubj	_	_
+15	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
 16	n'	ne	ADV	_	Polarity=Neg	17	advmod	_	SpaceAfter=No
 17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 18	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	_
@@ -202073,7 +202073,7 @@
 19	Nations	nation	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	_
 20	unies	uni	ADJ	_	Gender=Fem|Number=Plur	19	amod	_	_
 21	et	et	CCONJ	_	_	24	cc	_	_
-22	qui	qui	PRON	_	_	24	nsubj	_	_
+22	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	_
 23	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 24	permis	permettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
 25	à	à	ADP	_	_	27	case	_	_
@@ -203439,7 +203439,7 @@
 26	Ganta	Ganta	PROPN	_	_	27	nsubj	_	_
 27	recherche	rechercher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
 28	mais	mais	CCONJ	_	_	68	cc	_	_
-29	qui	qui	PRON	_	_	68	nsubj:pass	_	SpaceAfter=No
+29	qui	qui	PRON	_	PronType=Rel	68	nsubj:pass	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
 31	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	68	advmod	_	_
 32-33	au	_	_	_	_	_	_	_	_
@@ -225422,7 +225422,7 @@
 8	et	et	CCONJ	_	_	10	cc	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	sauve	sauver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	MWEPOS=NOUN
-11	qui	qui	PRON	_	_	12	nsubj	_	INMWE=Yes
+11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	INMWE=Yes
 12	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	INMWE=Yes
 13	en	en	ADP	_	_	14	case	_	_
 14	direction	direction	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
@@ -226197,7 +226197,7 @@
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Prado	Prado	PROPN	_	_	20	nmod	_	_
 24	et	et	CCONJ	_	_	26	cc	_	_
-25	qui	qui	PRON	_	_	26	nsubj	_	_
+25	qui	qui	PRON	_	PronType=Rel	26	nsubj	_	_
 26	longe	longer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	parc	parc	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
@@ -229084,7 +229084,7 @@
 3	tout	tout	DET	_	Gender=Masc|Number=Sing	4	det	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	qu'	que	PRON	_	_	0	root	_	SpaceAfter=No
+6	qu'	que	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
 8	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
 9	qu'	que	SCONJ	_	PronType=Rel	11	mark	_	SpaceAfter=No
@@ -231186,7 +231186,7 @@
 
 # sent_id = fr-ud-train_08244
 # text = Qui pourrait embraser toute la région et porter les prix du pétrole à un niveau insupportable pour les économies occidentales.
-1	Qui	qui	PRON	_	_	2	nsubj	_	_
+1	Qui	qui	PRON	_	PronType=Int	2	nsubj	_	_
 2	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	embraser	embraser	VERB	_	VerbForm=Inf	2	xcomp	_	_
 4	toute	tout	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
@@ -235733,7 +235733,7 @@
 36	Pierre	Pierre	PROPN	_	_	26	conj	_	_
 37	Chêne	Chêne	PROPN	_	_	36	flat:name	_	_
 38	dans	dans	ADP	_	_	43	case	_	_
-39	Qui	qui	PRON	_	_	43	nsubj	_	INTITLE=Yes
+39	Qui	qui	PRON	_	PronType=Int	43	nsubj	_	INTITLE=Yes
 40	donc	donc	ADV	_	_	43	advmod	_	INTITLE=Yes
 41	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	cop	_	INTITLE=Yes
 42	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	43	det	_	INTITLE=Yes
@@ -239221,7 +239221,7 @@
 28	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
 29	diverses	divers	ADJ	_	Gender=Fem|Number=Plur	30	amod	_	_
 30	manières	manière	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
-31	qu'	que	PRON	_	_	33	obj	_	SpaceAfter=No
+31	qu'	que	PRON	_	PronType=Rel	33	obj	_	SpaceAfter=No
 32	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 33	qualifie	qualifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	_	_
 34	de	de	ADP	_	_	36	case	_	_
@@ -245913,7 +245913,7 @@
 34	huit	huit	NUM	_	_	35	nummod	_	_
 35	mois	mois	NOUN	_	Gender=Masc|Number=Plur	32	obl:mod	_	_
 36	et	et	CCONJ	_	_	38	cc	_	_
-37	qui	qui	PRON	_	_	38	nsubj	_	_
+37	qui	qui	PRON	_	PronType=Rel	38	nsubj	_	_
 38	donna	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	conj	_	_
 39	naissance	naissance	NOUN	_	Gender=Fem|Number=Sing	38	obj	_	_
 40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
@@ -246041,7 +246041,7 @@
 7	«	«	PUNCT	_	_	8	punct	_	_
 8	Honni	honnir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	parataxis	_	_
 9	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-10	qui	qui	PRON	_	_	13	nsubj	_	_
+10	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
 11	mal	mal	ADV	_	_	13	advmod	_	_
 12	y	y	PRON	_	_	13	obl:mod	_	_
 13	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	csubj	_	_
@@ -247959,7 +247959,7 @@
 
 # sent_id = fr-ud-train_08838
 # text = Que demander de plus ?
-1	Que	que	PRON	_	_	2	obj	_	_
+1	Que	que	PRON	_	PronType=Int	2	obj	_	_
 2	demander	demander	VERB	_	VerbForm=Inf	0	root	_	_
 3	de	de	ADP	_	_	4	case	_	INMWE=Yes
 4	plus	plus	ADV	_	_	2	advmod	_	MWEPOS=ADV
@@ -248112,7 +248112,7 @@
 
 # sent_id = fr-ud-train_08845
 # text = Qui a bâti la grande pyramide ?
-1	Qui	qui	PRON	_	_	3	nsubj	_	_
+1	Qui	qui	PRON	_	PronType=Int	3	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	bâti	bâtir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -258543,7 +258543,7 @@
 
 # sent_id = fr-ud-train_09219
 # text = Qui détient les dettes de l'Europe ?
-1	Qui	qui	PRON	_	_	2	nsubj	_	_
+1	Qui	qui	PRON	_	PronType=Int	2	nsubj	_	_
 2	détient	détenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	dettes	dette	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
@@ -259276,7 +259276,7 @@
 10	caractéristique	caractéristique	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 11	de	de	ADP	_	_	12	case	_	_
 12	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	10	obl:arg	_	_
-13	qu'	que	PRON	_	_	15	obj	_	SpaceAfter=No
+13	qu'	que	PRON	_	PronType=Rel	15	obj	_	SpaceAfter=No
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 15	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -260629,7 +260629,7 @@
 43	granit	granit	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	50	punct	_	_
 45	et	et	CCONJ	_	_	50	cc	_	_
-46	qui	qui	PRON	_	_	50	nsubj	_	_
+46	qui	qui	PRON	_	PronType=Rel	50	nsubj	_	_
 47	apparemment	apparemment	ADV	_	_	50	advmod	_	_
 48	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	50	cop	_	_
 49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
@@ -265167,7 +265167,7 @@
 25	Saint-Paul	Saint-Paul	PROPN	_	_	24	appos	_	_
 26	de	de	ADP	_	_	27	case	_	_
 27	Burlington	Burlington	PROPN	_	_	25	nmod	_	_
-28	qu'	que	PRON	_	_	32	obj	_	SpaceAfter=No
+28	qu'	que	PRON	_	PronType=Rel	32	obj	_	SpaceAfter=No
 29	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 30	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
 31	de	de	ADP	_	_	32	mark	_	_
@@ -267672,7 +267672,7 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	3 100	3 100	NUM	_	_	15	nummod	_	_
 15	m	m	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
-16	qui	qui	PRON	_	_	17	nsubj	_	_
+16	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
 17	franchit	franchir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	détroit	détroit	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
@@ -269705,7 +269705,7 @@
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Fort	Fort	PROPN	_	_	18	obl:arg	_	_
 27	Pontchartrain	Pontchartrain	PROPN	_	_	26	appos	_	_
-28	qu'	que	PRON	_	_	32	obj	_	SpaceAfter=No
+28	qu'	que	PRON	_	PronType=Rel	32	obj	_	SpaceAfter=No
 29	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 30	venait	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	acl:relcl	_	_
 31	d'	de	ADP	_	_	32	mark	_	SpaceAfter=No
@@ -273322,7 +273322,7 @@
 9	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
 10	dire	dire	VERB	_	VerbForm=Inf	6	xcomp	_	_
 11	:	:	PUNCT	_	_	13	punct	_	_
-12	qui	qui	PRON	_	_	13	nsubj	_	_
+12	qui	qui	PRON	_	PronType=Int	13	nsubj	_	_
 13	interdit	interdire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 14-15	aux	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
@@ -274329,7 +274329,7 @@
 12	mites	mite	NOUN	_	Gender=Fem|Number=Plur	10	appos	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	mais	mais	CCONJ	_	_	16	cc	_	_
-15	qui	qui	PRON	_	_	16	nsubj	_	_
+15	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	_
 16	correspondent	correspondre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 17	plus	plus	ADV	_	_	16	advmod	_	_
 18	à	à	ADP	_	_	20	case	_	_
@@ -277388,7 +277388,7 @@
 
 # sent_id = fr-ud-train_09897
 # text = Que reste-t-il de tout cela ?
-1	Que	que	PRON	_	_	2	obj	_	_
+1	Que	que	PRON	_	PronType=Int	2	obj	_	_
 2	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-t	t	PART	_	_	4	expl	_	SpaceAfter=No
 4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
@@ -278111,7 +278111,7 @@
 3	se	se	PRON	_	Person=3|PronType=Prs	4	expl	_	_
 4	plaint	plaindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	qui	qui	PRON	_	_	7	nsubj	_	_
+6	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
 7	quémande	quémander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
 8	auprès	auprès	ADV	_	_	7	advmod	_	_
 9	de	de	ADP	_	_	11	case	_	_
@@ -279640,7 +279640,7 @@
 27	Anton	Anton	PROPN	_	_	24	obl:arg	_	_
 28	Lopakine	Lopakine	PROPN	_	_	27	flat:name	_	_
 29	pour	pour	ADP	_	_	30	case	_	_
-30	qui	qui	PRON	_	_	33	obl	_	_
+30	qui	qui	PRON	_	PronType=Rel	33	obl	_	_
 31	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	_
 32	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 33	éprouvé	éprouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	acl:relcl	_	_
@@ -281760,7 +281760,7 @@
 8	deux	deux	NUM	_	_	9	nummod	_	_
 9	questions	question	NOUN	_	Gender=Fem|Number=Plur	6	obl:arg	_	_
 10	:	:	PUNCT	_	_	15	punct	_	_
-11	Qu'	que	PRON	_	_	15	obj	_	SpaceAfter=No
+11	Qu'	que	PRON	_	PronType=Int	15	obj	_	SpaceAfter=No
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
 13	-t	t	PART	_	_	14	expl	_	SpaceAfter=No
 14	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
@@ -282926,7 +282926,7 @@
 
 # sent_id = fr-ud-train_10102
 # text = Que signifie le mot "valeur" utilisé dans la Lettre de 2007 ?
-1	Que	que	PRON	_	_	2	obj	_	_
+1	Que	que	PRON	_	PronType=Int	2	obj	_	_
 2	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	mot	mot	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -287253,7 +287253,7 @@
 7	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det	_	_
 8	produits	produit	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
-10	qui	qui	PRON	_	_	11	nsubj	_	_
+10	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
 11	savent	savoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
 12	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	13	obj	_	_
 13	conseiller	conseiller	VERB	_	VerbForm=Inf	11	xcomp	_	_
@@ -292673,7 +292673,7 @@
 
 # sent_id = fr-ud-train_10478
 # text = Qui a tué le rouge-gorge ?
-1	Qui	qui	PRON	_	_	3	nsubj	_	_
+1	Qui	qui	PRON	_	PronType=Int	3	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	tué	tuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -304892,7 +304892,7 @@
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	dont	dont	PRON	_	PronType=Rel	16	nmod	_	_
 16	Devine	deviner	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	TITLE=Yes
-17	qui	qui	PRON	_	_	18	nsubj	_	INTITLE=Yes
+17	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	INTITLE=Yes
 18	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	INTITLE=Yes
 19	dîner	dîner	NOUN	_	Gender=Masc|Number=Sing	18	xcomp	_	INTITLE=Yes
 20	?	?	PUNCT	_	_	18	punct	_	INTITLE=Yes
@@ -310317,7 +310317,7 @@
 11	globale	global	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	10	nmod	_	_
-14	qu'	que	PRON	_	_	13	acl:relcl	_	SpaceAfter=No
+14	qu'	que	PRON	_	PronType=Rel	13	acl:relcl	_	SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 16	ou	ou	CCONJ	_	_	17	cc	_	_
 17	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
@@ -313540,7 +313540,7 @@
 
 # sent_id = fr-ud-train_11242
 # text = Que préconise l'association Abbé Pierre dans le but d'aider les plus modestes ?
-1	Que	que	PRON	_	_	2	obj	_	_
+1	Que	que	PRON	_	PronType=Int	2	obj	_	_
 2	préconise	préconiser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	association	association	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
@@ -315007,7 +315007,7 @@
 9	société	société	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
 10	anonyme	anonyme	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	qu'	que	PRON	_	_	9	acl:relcl	_	SpaceAfter=No
+12	qu'	que	PRON	_	PronType=Rel	9	acl:relcl	_	SpaceAfter=No
 13	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 15	toujours	toujours	ADV	_	_	12	advmod	_	_
@@ -315304,7 +315304,7 @@
 15	voie	voie	NOUN	_	Gender=Fem|Number=Sing	13	obl:arg	_	_
 16	maritime	maritime	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	13	punct	_	_
-18	que	que	PRON	_	_	0	root	_	_
+18	que	que	PRON	_	PronType=Int	0	root	_	_
 19	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	puissance	puissance	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
@@ -315531,7 +315531,7 @@
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	abus	abus	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	_
-11	qui	qui	PRON	_	_	12	nsubj	_	_
+11	qui	qui	PRON	_	PronType=Int	12	nsubj	_	_
 12	oserait	oser	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
 14	blâmer	blâmer	VERB	_	VerbForm=Inf	12	xcomp	_	_
@@ -327804,7 +327804,7 @@
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 14	meilleurs	meilleur	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
 15	professeurs	professeur	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	_
-16	que	que	PRON	_	_	22	obj	_	_
+16	que	que	PRON	_	PronType=Rel	22	obj	_	_
 17	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
 18	fortune	fortune	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
 19	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
@@ -330735,7 +330735,7 @@
 43	réputation	réputation	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	49	punct	_	_
 45	mais	mais	CCONJ	_	_	49	cc	_	_
-46	qui	qui	PRON	_	_	49	nsubj:pass	_	_
+46	qui	qui	PRON	_	PronType=Rel	49	nsubj:pass	_	_
 47	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	49	aux:pass	_	_
 48	rapidement	rapidement	ADV	_	_	49	advmod	_	_
 49	interdit	interdire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	conj	_	_
@@ -333780,7 +333780,7 @@
 10	identifier	identifier	VERB	_	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	18	punct	_	_
 12	mais	mais	CCONJ	_	_	18	cc	_	_
-13	que	que	PRON	_	_	18	obj	_	_
+13	que	que	PRON	_	PronType=Rel	18	obj	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	auteurs	auteur	NOUN	_	Gender=Masc|Number=Plur	18	nsubj	_	_
 16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
@@ -334106,7 +334106,7 @@
 13	62	62	NUM	_	_	14	nummod	_	_
 14	ans	an	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
 15	et	et	CCONJ	_	_	18	cc	_	_
-16	qui	qui	PRON	_	_	18	nsubj	_	_
+16	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
 17	n'	ne	ADV	_	Polarity=Neg	18	advmod	_	SpaceAfter=No
 18	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 19	pas	pas	ADV	_	Polarity=Neg	18	advmod	_	_
@@ -340780,7 +340780,7 @@
 
 # sent_id = fr-ud-train_12211
 # text = Que penser d'une doctrine aux effets si peu manifestes ?
-1	Que	que	PRON	_	_	2	obj	_	_
+1	Que	que	PRON	_	PronType=Int	2	obj	_	_
 2	penser	penser	VERB	_	VerbForm=Inf	0	root	_	_
 3	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -345118,7 +345118,7 @@
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 24	puissant	puissant	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	_
 25	attrait	attrait	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
-26	que	que	PRON	_	_	27	xcomp	_	_
+26	que	que	PRON	_	PronType=Rel	27	xcomp	_	_
 27	représente	représenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
 28	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
 29	océan	océan	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	SpaceAfter=No
@@ -345622,7 +345622,7 @@
 9	informatique	informatique	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
 11	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	qui	qui	PRON	_	_	13	obj	_	_
+12	qui	qui	PRON	_	PronType=Int	13	obj	_	_
 13	appeler	appeler	VERB	_	VerbForm=Inf	11	ccomp	_	_
 14	!	!	PUNCT	_	_	11	punct	_	_
 
@@ -357421,7 +357421,7 @@
 7	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
 8	porter	porter	VERB	_	VerbForm=Inf	7	ccomp	_	_
 9	quoi	quoi	PRON	_	_	8	obj	_	_
-10	que	que	PRON	_	_	9	acl:relcl	_	_
+10	que	que	PRON	_	PronType=Rel	9	acl:relcl	_	_
 11	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	10	nsubj	_	_
 12	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
@@ -359260,7 +359260,7 @@
 42	de	de	ADP	_	_	43	case	_	_
 43	TV	TV	X	_	_	37	conj	_	SpaceAfter=No
 44	,	,	PUNCT	_	_	46	punct	_	_
-45	que	que	PRON	_	_	46	obj	_	_
+45	que	que	PRON	_	PronType=Int	46	obj	_	_
 46	demander	demander	VERB	_	VerbForm=Inf	4	parataxis	_	_
 47	de	de	ADP	_	_	48	case	_	INMWE=Yes
 48	plus	plus	ADV	_	_	45	advmod	_	MWEPOS=ADV
@@ -364231,7 +364231,7 @@
 133	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	134	det	_	_
 134	sur-hommes	sur-homme	NOUN	_	Gender=Masc|Number=Plur	131	nmod	_	_
 135	et	et	CCONJ	_	_	138	cc	_	_
-136	qui	qui	PRON	_	_	138	nsubj	_	_
+136	qui	qui	PRON	_	PronType=Rel	138	nsubj	_	_
 137	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	138	aux	_	_
 138	tenté	tenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	129	conj	_	_
 139	de	de	ADP	_	_	140	mark	_	_
@@ -364470,7 +364470,7 @@
 13	cinquante	cinquante	NUM	_	_	14	nummod	_	_
 14	ans	an	NOUN	_	Gender=Masc|Number=Plur	11	obl:arg	_	_
 15	et	et	CCONJ	_	_	17	cc	_	_
-16	qui	qui	PRON	_	_	17	nsubj	_	_
+16	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
 17	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	violation	violation	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
@@ -382956,7 +382956,7 @@
 13	divers	divers	DET	_	Gender=Masc|Number=Plur	14	det	_	_
 14	produits	produit	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 15	intermédiaires	intermédiaire	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
-16	que	que	PRON	_	_	14	acl:relcl	_	_
+16	que	que	PRON	_	PronType=Rel	14	acl:relcl	_	_
 17	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	carburant	carburant	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
@@ -382987,7 +382987,7 @@
 # text = « À qui appartiennent les terres ?
 1	«	«	PUNCT	_	_	4	punct	_	_
 2	À	à	ADP	_	_	3	case	_	_
-3	qui	qui	PRON	_	_	4	obl:arg	_	_
+3	qui	qui	PRON	_	PronType=Int	4	obl:arg	_	_
 4	appartiennent	appartenir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	terres	terre	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
@@ -383939,7 +383939,7 @@
 22	Amérique	Amérique	PROPN	_	_	20	obl:arg	_	_
 23	centrale	central	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
 24	et	et	CCONJ	_	_	28	cc	_	_
-25	qui	qui	PRON	_	_	28	nsubj	_	_
+25	qui	qui	PRON	_	PronType=Rel	28	nsubj	_	_
 26	s'	se	PRON	_	Person=3|PronType=Prs	28	expl:pass	_	SpaceAfter=No
 27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
 28	répandu	répandre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
@@ -384042,7 +384042,7 @@
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	dilemme	dilemme	NOUN	_	Gender=Masc|Number=Sing	21	obl:arg	_	_
 25	:	:	PUNCT	_	_	27	punct	_	_
-26	que	que	PRON	_	_	27	obj	_	_
+26	que	que	PRON	_	PronType=Int	27	obj	_	_
 27	faire	faire	VERB	_	VerbForm=Inf	15	parataxis	_	_
 28	quand	quand	SCONJ	_	_	33	mark	_	_
 29	votre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det	_	_
@@ -389797,7 +389797,7 @@
 9	chômage	chômage	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 10	désespéré	désespérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
-12	que	que	PRON	_	_	17	obj	_	_
+12	que	que	PRON	_	PronType=Rel	17	obj	_	_
 13	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det	_	_
 14	femme	femme	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 15	tente	tenter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
@@ -391649,7 +391649,7 @@
 38	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	39	det	_	_
 39	effets	effet	NOUN	_	Gender=Masc|Number=Plur	37	obj	_	_
 40	importants	important	ADJ	_	Gender=Masc|Number=Plur	39	amod	_	_
-41	que	que	PRON	_	_	46	obj	_	_
+41	que	que	PRON	_	PronType=Rel	46	obj	_	_
 42	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	43	det	_	_
 43	successeurs	successeur	NOUN	_	Gender=Masc|Number=Plur	44	nsubj	_	_
 44	peinent	peiner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	acl:relcl	_	_
@@ -393056,7 +393056,7 @@
 8	de	de	ADP	_	_	9	case	_	_
 9	n'	ne	ADV	_	Polarity=Neg	7	obl:arg	_	MWEPOS=PRON|SpaceAfter=No
 10	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	fixed	_	_
-11	qui	qui	PRON	_	_	9	fixed	_	_
+11	qui	qui	PRON	_	PronType=Rel	9	fixed	_	_
 12	:	:	PUNCT	_	_	14	punct	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Luke	Luke	PROPN	_	_	5	obl:arg	_	SpaceAfter=No
@@ -395467,7 +395467,7 @@
 19	ni	ni	CCONJ	_	_	20	cc	_	_
 20	bâtiment	bâtiment	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	14	punct	_	_
-22	qu'	que	PRON	_	_	24	nsubj	_	SpaceAfter=No
+22	qu'	que	PRON	_	PronType=Int	24	nsubj	_	SpaceAfter=No
 23	y	y	PRON	_	_	24	obl:mod	_	_
 24	aurait	avoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
 25	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	expl	_	_
@@ -399615,7 +399615,7 @@
 26	autres	autre	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
 27	contrées	contrée	NOUN	_	Gender=Fem|Number=Plur	22	conj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	5	punct	_	_
-29	qu'	que	PRON	_	_	30	nsubj	_	SpaceAfter=No
+29	qu'	que	PRON	_	PronType=Int	30	nsubj	_	SpaceAfter=No
 30	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 31	à	à	ADP	_	_	32	case	_	_
 32	vous	vous	PRON	_	Person=2|PronType=Prs	30	obl:arg	_	_
@@ -404408,7 +404408,7 @@
 18	CRLCC	CRLCC	PROPN	_	_	15	obl	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	mais	mais	CCONJ	_	_	22	cc	_	_
-21	qui	qui	PRON	_	_	22	nsubj	_	_
+21	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
 22	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
 23	appel	appel	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	_
 24	à	à	ADP	_	_	26	case	_	_
