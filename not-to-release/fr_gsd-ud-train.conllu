@@ -4752,7 +4752,7 @@
 15	tenter	tenter	VERB	_	VerbForm=Inf	14	xcomp	_	_
 16	de	de	ADP	_	_	17	mark	_	_
 17	répondre	répondre	VERB	_	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	0	punct	_	_
+18	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = fr-ud-train_00166
 # text = La construction personnelle s'effectue par l'intégration de nouvelles informations en fonction de l'expérience de l'individu afin qu'il puisse anticiper les évènements prochains.
@@ -46635,7 +46635,7 @@
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	plat	plat	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 5	terminé	terminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	2	punct	_	_
+6	,	,	PUNCT	_	_	5	punct	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	suite	suite	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
@@ -227850,15 +227850,15 @@
 6	Centre	Centre	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 7	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
 8	Paul	Paul	PROPN	_	_	7	flat:name	_	_
-9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	12	12	NUM	_	_	6	nmod	_	_
-11	rue	rue	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-12	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+9	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	12	12	NUM	_	_	11	nummod	_	_
+11	rue	rue	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+12	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	_
 13	Joseph	Joseph	PROPN	_	_	12	flat:name	_	SpaceAfter=No
-14	--	--	PUNCT	_	_	15	punct	_	SpaceAfter=No
-15	75002	75002	NUM	_	_	10	nmod	_	_
-16	Paris	Paris	PROPN	_	_	10	nmod	_	SpaceAfter=No
-17	)	)	PUNCT	_	_	10	punct	_	_
+14	--	--	PUNCT	_	_	11	punct	_	SpaceAfter=No
+15	75002	75002	NUM	_	_	16	nmod	_	_
+16	Paris	Paris	PROPN	_	_	11	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	11	punct	_	_
 18	:	:	PUNCT	_	_	6	punct	_	_
 19	Session	session	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 20	sur	sur	ADP	_	_	22	case	_	_
@@ -284592,7 +284592,7 @@
 
 # sent_id = fr-ud-train_10168
 # text = Avec on se croirait, décidément, dans un film de science-fiction.
-1	Avec	avec	ADP	_	_	4	advmod	_	_
+1	Avec	avec	ADP	_	_	4	case	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	obj	_	_
 4	croirait	croire	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -372111,7 +372111,7 @@
 13	sans	sans	ADP	_	_	14	case	_	_
 14	eau	eau	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 15	chaude	chaud	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	41	punct	_	_
+16	,	,	PUNCT	_	_	12	punct	_	_
 17	appel	appel	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
@@ -372136,8 +372136,8 @@
 38	personne	personne	PRON	_	Number=Sing|PronType=Neg	41	nsubj	_	_
 39	ne	ne	ADV	_	Polarity=Neg	41	advmod	_	_
 40	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	41	iobj	_	_
-41	répond	répondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
-42	.	.	PUNCT	_	_	9	punct	_	_
+41	répond	répondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_13289
 # text = Pas de statut de protection particulier au niveau national.
@@ -378847,7 +378847,7 @@
 25	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 26	théologiens	théologien	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	_
 27	protestants	protestant	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
-28	,	,	PUNCT	_	_	33	punct	_	_
+28	,	,	PUNCT	_	_	32	punct	_	_
 29	en	en	ADP	_	_	30	case	_	INMWE=Yes
 30	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	32	advmod	_	MWEPOS=ADV
 31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
@@ -379000,15 +379000,15 @@
 8	Centre	centre	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 9	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
 10	Paul	Paul	PROPN	_	_	9	flat:name	_	_
-11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	12	12	NUM	_	_	8	nmod	_	_
-13	rue	rue	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
-14	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	12	12	NUM	_	_	13	nummod	_	_
+13	rue	rue	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+14	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
 15	Joseph	Joseph	PROPN	_	_	14	flat:name	_	SpaceAfter=No
-16	--	--	PUNCT	_	_	12	punct	_	SpaceAfter=No
-17	75002	75002	NUM	_	_	12	nmod	_	_
-18	Paris	Paris	PROPN	_	_	12	nmod	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
+16	--	--	PUNCT	_	_	13	punct	_	SpaceAfter=No
+17	75002	75002	NUM	_	_	18	nmod	_	_
+18	Paris	Paris	PROPN	_	_	13	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	8	punct	_	_
 21	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 22	de	de	ADP	_	_	23	case	_	_
