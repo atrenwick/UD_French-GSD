@@ -46634,7 +46634,7 @@
 2	fois	fois	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	MWEPOS=ADV
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	plat	plat	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
-5	terminé	terminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
+5	terminé	terminer	VERB	_	Gender=Masc|Number=Sing|Tse=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	suite	suite	NOUN	_	Gender=Fem|Number=Sing	10	nsubj:pass	_	_
@@ -165899,7 +165899,7 @@
 
 # sent_id = fr-ud-train_05928
 # text = Cela est probablement dû au fait que l'opération fut lancée en plein jour, plutôt qu'au cours de la nuit.
-1	Cela	cela	PRON	_	Number=Sing|PronType=Dem	4	nsubj:pass	_	_
+1	Cela	cela	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	probablement	probablement	ADV	_	_	4	advmod	_	_
 4	dû	devoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -227850,15 +227850,15 @@
 6	Centre	Centre	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
 7	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
 8	Paul	Paul	PROPN	_	_	7	flat:name	_	_
-9	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-10	12	12	NUM	_	_	11	nummod	_	_
-11	rue	rue	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-12	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	12	12	NUM	_	_	6	nmod	_	_
+11	rue	rue	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+12	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
 13	Joseph	Joseph	PROPN	_	_	12	flat:name	_	SpaceAfter=No
-14	--	--	PUNCT	_	_	11	punct	_	SpaceAfter=No
-15	75002	75002	NUM	_	_	16	nmod	_	_
-16	Paris	Paris	PROPN	_	_	11	nmod	_	SpaceAfter=No
-17	)	)	PUNCT	_	_	11	punct	_	_
+14	--	--	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	75002	75002	NUM	_	_	10	nmod	_	_
+16	Paris	Paris	PROPN	_	_	10	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	10	punct	_	_
 18	:	:	PUNCT	_	_	6	punct	_	_
 19	Session	session	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 20	sur	sur	ADP	_	_	22	case	_	_
@@ -284592,7 +284592,7 @@
 
 # sent_id = fr-ud-train_10168
 # text = Avec on se croirait, décidément, dans un film de science-fiction.
-1	Avec	avec	ADP	_	_	4	case	_	_
+1	Avec	avec	ADP	_	_	4	advmod	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	obj	_	_
 4	croirait	croire	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -298242,7 +298242,7 @@
 # text = Mais sa popularité, parmi les maîtres spirituels indiens dans les années 1970, était également due au fait, plus original, qu'il ne prônait pas seulement les pratiques méditatives et les rituels religieux, mais la pratique du sport et de la musique comme compléments à la réalisation de soi.
 1	Mais	mais	CCONJ	_	_	17	cc	_	_
 2	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det	_	_
-3	popularité	popularité	NOUN	_	Gender=Fem|Number=Sing	17	nsubj:pass	_	SpaceAfter=No
+3	popularité	popularité	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	parmi	parmi	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
@@ -306371,7 +306371,7 @@
 # sent_id = fr-ud-train_10981
 # text = Ces extinctions sont dues aux interférences destructives des rayons diffractés, causées par la présence d'opérations de symétrie contenant des composantes translatoires dans le groupe d'espace du cristal.
 1	Ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
-2	extinctions	extinction	NOUN	_	Gender=Fem|Number=Plur	4	nsubj:pass	_	_
+2	extinctions	extinction	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	dues	devoir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 5-6	aux	_	_	_	_	_	_	_	_
@@ -340975,7 +340975,7 @@
 1	Deux	Deux	NUM	_	_	2	nummod	_	_
 2	tourneurs	tourneur	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
 3	dont	dont	PRON	_	PronType=Rel	4	nmod	_	_
-4	un	un	PRON	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	un	un	PRON	_	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 5	spécialisé	spécialiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	robinetterie	robinetterie	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
@@ -344263,7 +344263,7 @@
 # sent_id = fr-ud-train_12333
 # text = Cet ordre n'est pas dû au hasard : il est fait pour tester la soumission et le dressage du cheval avec la première épreuve, sa force et son endurance avec le cross, puis son état de fraîcheur avec le saut d'obstacles, appelé plus couramment dans ce contexte l'hippique.
 1	Cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
-2	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+2	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
@@ -372101,7 +372101,7 @@
 3	deux	deux	NUM	_	_	4	nummod	_	_
 4	mois	mois	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 5	après	après	ADV	_	_	4	advmod	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	2	punct	_	_
+6	,	,	PUNCT	_	_	9	punct	_	_
 7	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 8	en	en	PRON	_	_	9	expl	_	_
 9	sommes	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
@@ -372111,7 +372111,7 @@
 13	sans	sans	ADP	_	_	14	case	_	_
 14	eau	eau	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 15	chaude	chaud	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
-16	,	,	PUNCT	_	_	12	punct	_	_
+16	,	,	PUNCT	_	_	9	punct	_	_
 17	appel	appel	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
@@ -379000,15 +379000,15 @@
 8	Centre	centre	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 9	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
 10	Paul	Paul	PROPN	_	_	9	flat:name	_	_
-11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
-12	12	12	NUM	_	_	13	nummod	_	_
-13	rue	rue	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-14	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	13	appos	_	_
+11	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	12	12	NUM	_	_	8	nmod	_	_
+13	rue	rue	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+14	Saint	saint	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 15	Joseph	Joseph	PROPN	_	_	14	flat:name	_	SpaceAfter=No
-16	--	--	PUNCT	_	_	13	punct	_	SpaceAfter=No
-17	75002	75002	NUM	_	_	18	nmod	_	_
-18	Paris	Paris	PROPN	_	_	13	nmod	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	--	--	PUNCT	_	_	12	punct	_	SpaceAfter=No
+17	75002	75002	NUM	_	_	12	nmod	_	_
+18	Paris	Paris	PROPN	_	_	12	nmod	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	12	punct	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	8	punct	_	_
 21	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 22	de	de	ADP	_	_	23	case	_	_
