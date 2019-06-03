@@ -17654,7 +17654,7 @@
 # text = Passé ce délai, le texte devient applicable.
 1	Passé	passer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
 2	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
-3	délai	délai	NOUN	_	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+3	délai	délai	NOUN	_	Gender=Masc|Number=Sing	1	nsubj:pass	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	texte	texte	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -31807,11 +31807,11 @@
 
 # sent_id = fr-ud-train_01114
 # text = CM : L'Europe impose donc l'étourdissement sauf pour les abattages rituels halal et casher qui ont obtenu des dérogations.
-1	CM	CM	SYM	_	_	5	advmod	_	_
-2	:	:	PUNCT	_	_	1	punct	_	_
+1	CM	CM	SYM	_	_	0	root	_	_
+2	:	:	PUNCT	_	_	5	punct	_	_
 3	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	Europe	Europe	PROPN	_	_	5	nsubj	_	_
-5	impose	imposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	impose	imposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
 6	donc	donc	ADV	_	_	5	advmod	_	_
 7	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	étourdissement	étourdissement	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
@@ -37807,7 +37807,7 @@
 20	TRF	TRF	PROPN	_	_	17	nmod	_	_
 21	et	et	CCONJ	_	_	23	cc	_	_
 22	3	3	NUM	_	_	23	nummod	_	_
-23	sièges	siège	NOUN	_	Gender=Masc|Number=Plur	13	conj	_	_
+23	sièges	siège	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	_
 24	à	à	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	CAPN	CAPN	PROPN	_	_	23	orphan	_	_
@@ -82275,7 +82275,7 @@
 3	août	août	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	deux	deux	NUM	_	_	6	nummod	_	_
-6	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	14	obl:mod	_	_
+6	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
 7	après	après	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	appel	appel	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -85520,7 +85520,7 @@
 # sent_id = fr-ud-train_03030
 # text = Deux semaines plus tard il fait partie de l'équipe qui s'incline 12-0 contre l'équipe d'Angleterre amateure.
 1	Deux	Deux	NUM	_	_	2	nummod	_	_
-2	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	6	obl:mod	_	_
+2	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	_
 3	plus	plus	ADV	_	_	4	advmod	_	_
 4	tard	tard	ADV	_	_	2	advmod	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -118618,7 +118618,7 @@
 22	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	impacts	impact	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
 24	économiques	économique	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	_
-25	importants	important	NOUN	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	importants	important	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_04250
@@ -125070,7 +125070,7 @@
 16	pseudonyme	pseudonyme	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
 17	signifiant	signifier	VERB	_	Tense=Pres|VerbForm=Part	13	acl	_	_
 18	Inch'Allah	Inch'Allah	X	_	_	17	obj	_	_
-19	Réussir	réussir	VERB	_	VerbForm=Inf	18	dep	_	_
+19	Réussir	réussir	VERB	_	VerbForm=Inf	18	appos	_	_
 20	Ou	ou	CCONJ	_	_	21	cc	_	_
 21	Nada	Nada	X	_	_	18	conj	_	SpaceAfter=No
 22	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
@@ -140778,7 +140778,7 @@
 11	accepta	accepter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	chatons	chaton	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
-14	que	que	ADV	_	_	16	advmod	_	_
+14	que	que	ADV	_	_	32	advmod	_	_
 15	trois	trois	NUM	_	_	16	nummod	_	_
 16	générations	génération	NOUN	_	Gender=Fem|Number=Plur	32	obl:mod	_	_
 17	après	après	ADP	_	_	32	mark	_	_
@@ -153152,7 +153152,7 @@
 # text = Seulement six mois plus tard, en juillet 1968, cette décision fut annulée, donnant naissance à la BFC Wainwright, une entité à part entière.
 1	Seulement	seulement	ADV	_	_	2	advmod	_	_
 2	six	six	NUM	_	_	3	nummod	_	_
-3	mois	mois	NOUN	_	Gender=Masc|Number=Plur	14	obl:mod	_	_
+3	mois	mois	NOUN	_	Gender=Masc|Number=Plur	5	obl:mod	_	_
 4	plus	plus	ADV	_	_	5	advmod	_	_
 5	tard	tard	ADV	_	_	3	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
@@ -192650,7 +192650,7 @@
 # sent_id = fr-ud-train_06873
 # text = Trois mois plus tard, le 8 septembre 1957, une version abrégée, basée sur la révision de 1828, est retransmise par la BBC sous la direction de John Pritchard, avec une distribution entièrement renouvelée où la jeune Joan Sutherland tient brillamment le rôle-titre.
 1	Trois	Trois	NUM	_	_	2	nummod	_	_
-2	mois	mois	NOUN	_	Gender=Masc|Number=Plur	23	obl:mod	_	_
+2	mois	mois	NOUN	_	Gender=Masc|Number=Plur	4	obl:mod	_	_
 3	plus	plus	ADV	_	_	4	advmod	_	_
 4	tard	tard	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -279475,14 +279475,14 @@
 11	de	de	ADP	_	_	12	case	_	_
 12	productions	production	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
 13	Marseillaise	marseillais	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
-14	13	13	NUM	_	_	13	nmod	_	_
-15	production	production	NOUN	_	_	13	nmod	_	_
+14	13	13	NUM	_	_	13	flat:name	_	_
+15	production	production	NOUN	_	_	13	flat:name	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
 17	13	13	NUM	_	_	15	conj	_	_
 18-19	au	_	_	_	_	_	_	_	_
-18	à	à	ADP	_	_	20	case	_	_
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	sud	sud	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+18	à	à	ADP	_	_	17	flat:name	_	_
+19	le	le	DET	_	_	17	flat:name	_	_
+20	sud	sud	NOUN	_	_	17	flat:name	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_09974
@@ -322786,7 +322786,7 @@
 6	vue	vue	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
 7	et	et	CCONJ	_	_	15	cc	_	_
 8	dix	dix	NUM	_	_	9	nummod	_	_
-9	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	15	obl:mod	_	_
+9	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	11	obl:mod	_	_
 10	plus	plus	ADV	_	_	11	advmod	_	_
 11	tard	tard	ADV	_	_	9	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
@@ -335874,12 +335874,12 @@
 1	Prix	prix	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	attribué	attribuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
 3	depuis	depuis	ADV	_	_	2	advmod	_	_
-4	:	:	PUNCT	_	_	6	punct	_	_
-5	1987	1987	NUM	_	_	6	nmod	_	_
-6	Institution	institution	NOUN	_	Gender=Fem|Number=Sing	1	appos	_	_
-7	partenaire	partenaire	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+4	:	:	PUNCT	_	_	5	punct	_	_
+5	1987	1987	NUM	_	_	1	appos	_	_
+6	Institution	institution	NOUN	_	_	5	flat:name	_	_
+7	partenaire	partenaire	ADJ	_	_	5	flat:name	_	_
 8	:	:	PUNCT	_	_	9	punct	_	_
-9	Musée	musée	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
+9	Musée	musée	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
@@ -339065,11 +339065,11 @@
 26	demander	demander	VERB	_	VerbForm=Inf	22	xcomp	_	_
 27	sérieusement	sérieusement	ADV	_	_	26	advmod	_	_
 28	«	«	PUNCT	_	_	29	punct	_	_
-29	À	à	ADP	_	_	26	ccomp	_	MWEPOS=ADV
+29	À	à	ADP	_	_	33	orphan	_	MWEPOS=ADV
 30	quoi	quoi	PRON	_	_	29	fixed	_	_
 31	bon	bon	ADJ	_	Gender=Masc|Number=Sing	29	fixed	_	_
 32	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
-33	colonies	colonie	NOUN	_	Gender=Fem|Number=Plur	29	nsubj	_	_
+33	colonies	colonie	NOUN	_	Gender=Fem|Number=Plur	26	ccomp	_	_
 34	?	?	PUNCT	_	_	29	punct	_	_
 
 # sent_id = fr-ud-train_12150
@@ -355560,10 +355560,10 @@
 35	contrôle	contrôle	NOUN	_	Gender=Masc|Number=Sing	32	obl:arg	_	_
 36	de	de	ADP	_	_	37	orphan	_	_
 37	son	son	DET	_	Number=Sing|Poss=Yes|PronType=Prs	35	nmod	_	_
-38	ou	ou	CCONJ	_	_	35	nmod	_	_
+38	ou	ou	CCONJ	_	_	41	cc	_	_
 39	de	de	ADP	_	_	41	case	_	_
 40	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	41	det	_	_
-41	cavaliers	cavalier	NOUN	_	Gender=Masc|Number=Plur	37	orphan	_	SpaceAfter=No
+41	cavaliers	cavalier	NOUN	_	Gender=Masc|Number=Plur	37	oprhan	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_12718
@@ -385149,7 +385149,7 @@
 14	où	où	ADV	_	PronType=Rel	17	advmod	_	_
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
-17	maître	maître	ADJ	_	Gender=Masc|Number=Sing	13	acl:relcl	_	_
+17	maître	maître	NOUN	_	Gender=Masc|Number=Sing	13	acl:relcl	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	chapelle	chapelle	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
 20	à	à	ADP	_	_	22	case	_	_
