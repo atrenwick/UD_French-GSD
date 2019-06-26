@@ -82275,7 +82275,7 @@
 3	août	août	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	deux	deux	NUM	_	_	6	nummod	_	_
-6	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+6	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	14	obl:mod	_	_
 7	après	après	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	appel	appel	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -85520,7 +85520,7 @@
 # sent_id = fr-ud-train_03030
 # text = Deux semaines plus tard il fait partie de l'équipe qui s'incline 12-0 contre l'équipe d'Angleterre amateure.
 1	Deux	Deux	NUM	_	_	2	nummod	_	_
-2	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	4	obl:mod	_	_
+2	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	6	obl:mod	_	_
 3	plus	plus	ADV	_	_	4	advmod	_	_
 4	tard	tard	ADV	_	_	2	advmod	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -153152,7 +153152,7 @@
 # text = Seulement six mois plus tard, en juillet 1968, cette décision fut annulée, donnant naissance à la BFC Wainwright, une entité à part entière.
 1	Seulement	seulement	ADV	_	_	2	advmod	_	_
 2	six	six	NUM	_	_	3	nummod	_	_
-3	mois	mois	NOUN	_	Gender=Masc|Number=Plur	5	obl:mod	_	_
+3	mois	mois	NOUN	_	Gender=Masc|Number=Plur	14	obl:mod	_	_
 4	plus	plus	ADV	_	_	5	advmod	_	_
 5	tard	tard	ADV	_	_	3	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
@@ -192650,7 +192650,7 @@
 # sent_id = fr-ud-train_06873
 # text = Trois mois plus tard, le 8 septembre 1957, une version abrégée, basée sur la révision de 1828, est retransmise par la BBC sous la direction de John Pritchard, avec une distribution entièrement renouvelée où la jeune Joan Sutherland tient brillamment le rôle-titre.
 1	Trois	Trois	NUM	_	_	2	nummod	_	_
-2	mois	mois	NOUN	_	Gender=Masc|Number=Plur	4	obl:mod	_	_
+2	mois	mois	NOUN	_	Gender=Masc|Number=Plur	23	obl:mod	_	_
 3	plus	plus	ADV	_	_	4	advmod	_	_
 4	tard	tard	ADV	_	_	2	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
@@ -322786,7 +322786,7 @@
 6	vue	vue	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
 7	et	et	CCONJ	_	_	15	cc	_	_
 8	dix	dix	NUM	_	_	9	nummod	_	_
-9	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	11	obl:mod	_	_
+9	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	15	obl:mod	_	_
 10	plus	plus	ADV	_	_	11	advmod	_	_
 11	tard	tard	ADV	_	_	9	advmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
@@ -339070,7 +339070,7 @@
 31	bon	bon	ADJ	_	Gender=Masc|Number=Sing	29	fixed	_	_
 32	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
 33	colonies	colonie	NOUN	_	Gender=Fem|Number=Plur	26	ccomp	_	_
-34	?	?	PUNCT	_	_	29	punct	_	_
+34	?	?	PUNCT	_	_	33	punct	_	_
 
 # sent_id = fr-ud-train_12150
 # text = Pour le Metropolitan Opera de New York il fait ses débuts dans le Deuxième homme d'armes de Die Zauberlöte ;
@@ -355563,7 +355563,7 @@
 38	ou	ou	CCONJ	_	_	41	cc	_	_
 39	de	de	ADP	_	_	41	case	_	_
 40	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	41	det	_	_
-41	cavaliers	cavalier	NOUN	_	Gender=Masc|Number=Plur	37	oprhan	_	SpaceAfter=No
+41	cavaliers	cavalier	NOUN	_	Gender=Masc|Number=Plur	37	orphan	_	SpaceAfter=No
 42	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_12718
