@@ -20209,7 +20209,7 @@
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	affiche	afficher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 10	512	512	NUM	_	_	13	nummod	_	_
-11	×	×	SYM	_	_	12	case	_	_
+11	×	×	SYM	_	_	12	case	_	EXTPOS=ADP|Type=Trans
 12	342	342	NUM	_	_	10	nmod	_	_
 13	pixels	pixel	NOUN	_	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	7	punct	_	_
@@ -21093,7 +21093,7 @@
 16	héliosynchrone	héliosynchrone	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
 17	de	de	ADP	_	_	21	case	_	_
 18	681	681	NUM	_	_	21	nummod	_	_
-19	x	x	SYM	_	_	20	case	_	_
+19	x	x	SYM	_	_	20	case	_	EXTPOS=ADP|Type=Trans
 20	561	561	NUM	_	_	18	nmod	_	_
 21	km	km	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
@@ -27973,7 +27973,7 @@
 1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	Espace	espace	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	éthique	éthique	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
-4	/	/	SYM	_	_	5	case	_	SpaceAfter=No
+4	/	/	SYM	_	_	5	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 5	AP-HP	AP-HP	PROPN	_	_	2	appos	_	_
 6	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
@@ -47067,26 +47067,26 @@
 10	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nsubj	_	_
 11	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	:	:	PUNCT	_	_	13	punct	_	_
-13	dda	dda	SYM	_	_	5	conj	_	SpaceAfter=No
+13	dda	dda	SYM	_	_	5	conj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	ddha	ddha	SYM	_	_	13	conj	_	SpaceAfter=No
+15	ddha	ddha	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	nna	nna	SYM	_	_	13	conj	_	SpaceAfter=No
+17	nna	nna	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	ta	ta	SYM	_	_	13	conj	_	SpaceAfter=No
+19	ta	ta	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	tha	tha	SYM	_	_	13	conj	_	SpaceAfter=No
+21	tha	tha	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	da	da	SYM	_	_	13	conj	_	SpaceAfter=No
+23	da	da	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	dha	dha	SYM	_	_	13	conj	_	SpaceAfter=No
+25	dha	dha	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 26	,	,	PUNCT	_	_	27	punct	_	_
-27	na	na	SYM	_	_	13	conj	_	SpaceAfter=No
+27	na	na	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 28	,	,	PUNCT	_	_	29	punct	_	_
-29	pa	pa	SYM	_	_	13	conj	_	SpaceAfter=No
+29	pa	pa	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	and	and	CCONJ	_	_	32	cc	_	Foreign=en
-32	pha	pha	SYM	_	_	13	conj	_	SpaceAfter=No
+32	pha	pha	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 33	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_01665
@@ -59325,7 +59325,7 @@
 7	meilleur	meilleur	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 8	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 9	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
-10	/	/	SYM	_	_	11	case	_	SpaceAfter=No
+10	/	/	SYM	_	_	11	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 11	prix	prix	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -68445,7 +68445,7 @@
 13	et	et	CCONJ	_	_	15	cc	_	_
 14	jamais	jamais	ADV	_	Polarity=Neg	15	advmod	_	_
 15	déçu	décevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
-16	:)	:)	SYM	_	_	3	parataxis	_	_
+16	:)	:)	SYM	_	_	3	parataxis	_	EXTPOS=ADV|Type=Trans
 
 # sent_id = fr-ud-train_02432
 # text = Le 2 septembre 2012, il est limogé pour insuffisance des résultats.
@@ -70804,7 +70804,7 @@
 6	oméga	oméga	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	notée	noter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
-9	Ω	Ω	SYM	_	_	8	xcomp	_	SpaceAfter=No
+9	Ω	Ω	SYM	_	_	8	xcomp	_	EXTPOS=PROPN|SpaceAfter=No|Type=Trans
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -75957,11 +75957,11 @@
 # sent_id = fr-ud-train_02698
 # text = BB = but-sur-balles, K = retraits sur des prises
 1	BB	BB	X	_	_	2	nsubj	_	_
-2	=	=	SYM	_	_	0	root	_	_
+2	=	=	SYM	_	_	0	root	_	EXTPOS=VERB|Type=Trans
 3	but-sur-balles	but-sur-balles	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	K	K	X	_	_	6	nsubj	_	_
-6	=	=	SYM	_	_	2	conj	_	_
+6	=	=	SYM	_	_	2	conj	_	EXTPOS=VERB|Type=Trans
 7	retraits	retrait	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
 8	sur	sur	ADP	_	_	10	case	_	_
 9	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
@@ -85278,7 +85278,7 @@
 3	sorti	sortir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	PMP	PMP	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
-6	/	/	SYM	_	_	7	case	_	SpaceAfter=No
+6	/	/	SYM	_	_	7	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 7	lecteur	lecteur	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
 8	multimédia	multimédia	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 9	portable	portable	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
@@ -89818,7 +89818,7 @@
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	équation	équation	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 15	y	y	PRON	_	_	16	nsubj	_	_
-16	=	=	SYM	_	_	14	acl	_	_
+16	=	=	SYM	_	_	14	acl	_	EXTPOS=VERB|Type=Trans
 17	0	0	NUM	_	_	16	obj	_	_
 18	:	:	PUNCT	_	_	21	punct	_	_
 19	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj:pass	_	_
@@ -91063,7 +91063,7 @@
 22	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
 23	+4	+4	NUM	_	_	25	nsubj	_	SpaceAfter=No
 24	-2	-2	NUM	_	_	23	nmod	_	_
-25	=	=	SYM	_	_	21	parataxis	_	_
+25	=	=	SYM	_	_	21	parataxis	_	EXTPOS=VERB|Type=Trans
 26	7	7	NUM	_	_	25	obj	_	SpaceAfter=No
 27	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	17	punct	_	_
@@ -94719,7 +94719,7 @@
 18	flammes	flamme	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	14	punct	_	_
 20	27,9	27,9	NUM	_	_	23	nummod	_	_
-21	x	x	SYM	_	_	22	case	_	_
+21	x	x	SYM	_	_	22	case	_	EXTPOS=ADP|Type=Trans
 22	16,7	16,7	NUM	_	_	20	nmod	_	_
 23	cm	cm	NOUN	_	Gender=Masc|Number=Plur	1	appos	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	1	punct	_	_
@@ -101653,7 +101653,7 @@
 8	dimensions	dimension	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
 9	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
 10	unité	unité	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-11	=	=	SYM	_	_	6	parataxis	_	_
+11	=	=	SYM	_	_	6	parataxis	_	EXTPOS=VERB|Type=Trans
 12	1	1	NUM	_	_	11	obj	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
@@ -103104,9 +103104,9 @@
 21	C	C	NOUN	_	_	20	nmod	_	_
 22	:	:	PUNCT	_	_	23	punct	_	_
 23	2NaN3	2NaN3	SYM	_	_	24	nsubj	_	EXTPOS=PROPN|Type=Trans
-24	=	=	SYM	_	_	10	parataxis	_	_
+24	=	=	SYM	_	_	10	parataxis	_	EXTPOS=VERB|Type=Trans
 25	2Na	2Na	SYM	_	_	24	obj	_	EXTPOS=PROPN|Type=Trans
-26	+	+	SYM	_	_	27	case	_	_
+26	+	+	SYM	_	_	27	case	_	EXTPOS=ADP|Type=Trans
 27	3N2	3N2	X	_	_	25	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -107147,7 +107147,7 @@
 9	énergie	énergie	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10	solaire	solaire	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
 11	heureux	heureux	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
-12	;)	;)	SYM	_	_	7	parataxis	_	_
+12	;)	;)	SYM	_	_	7	parataxis	_	EXTPOS=ADV|Type=Trans
 
 # sent_id = fr-ud-train_03817
 # text = Il est bien souvent utilisé avec des logiciels de supervision (par exemple nagios), mais il ne fait pas de supervision en tant que tel.
@@ -115146,7 +115146,7 @@
 # sent_id = fr-ud-train_04126
 # text = SB = Buts volés ;
 1	SB	SB	X	_	_	2	nsubj	_	_
-2	=	=	SYM	_	_	0	root	_	_
+2	=	=	SYM	_	_	0	root	_	EXTPOS=VERB|Type=Trans
 3	Buts	Buts	PROPN	_	_	2	obj	_	_
 4	volés	voler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
 5	;	;	PUNCT	_	_	2	punct	_	_
@@ -115639,7 +115639,7 @@
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	sidéroblastose	sidéroblastose	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
 12	médullaire	médullaire	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
-13	>	>	SYM	_	_	15	case	_	_
+13	>	>	SYM	_	_	15	case	_	EXTPOS=ADP|Type=Trans
 14	15	15	NUM	_	_	15	nummod	_	SpaceAfter=No
 15	%	%	SYM	_	_	11	nmod	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 16	.	.	PUNCT	_	_	3	punct	_	_
@@ -118220,7 +118220,7 @@
 8	masse	masse	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 9	de	de	ADP	_	_	13	case	_	_
 10	35 443 677	35 443 677	NUM	_	_	13	nummod	_	_
-11	±	±	SYM	_	_	12	case	_	_
+11	±	±	SYM	_	_	12	case	_	EXTPOS=ADP|Type=Trans
 12	2 036	2 036	NUM	_	_	10	nmod	_	_
 13	eV/c2	eV/c2	SYM	_	_	6	nmod	_	EXTPOS=NOUN|Type=Trans
 14	et	et	CCONJ	_	_	16	cc	_	_
@@ -118231,7 +118231,7 @@
 19	nucléaire	nucléaire	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 20	de	de	ADP	_	_	24	case	_	_
 21	1 766 691 409	1 766 691 409	NUM	_	_	24	nummod	_	_
-22	±	±	SYM	_	_	23	case	_	_
+22	±	±	SYM	_	_	23	case	_	EXTPOS=ADP|Type=Trans
 23	2 061	2 061	NUM	_	_	21	nmod	_	_
 24	eV	eV	SYM	_	_	16	nmod	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 25	.	.	PUNCT	_	_	3	punct	_	_
@@ -128744,20 +128744,18 @@
 7	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_04614
-# text = Le théâtre a 34 000 abonnés et attire quelque 900 000 spectateurs par an.
+# text = Le théâtre a abonnés et attire quelque spectateurs par an.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	théâtre	théâtre	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	34 000	34 000	NUM	_	_	5	nummod	_	_
-5	abonnés	abonné	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
-6	et	et	CCONJ	_	_	7	cc	_	_
-7	attire	attirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-8	quelque	quelque	ADV	_	_	9	advmod	_	_
-9	900 000	900 000	NUM	_	_	10	nummod	_	_
-10	spectateurs	spectateur	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
-11	par	par	ADP	_	_	12	case	_	_
-12	an	an	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	3	punct	_	_
+4	abonnés	abonné	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	et	et	CCONJ	_	_	6	cc	_	_
+6	attire	attirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	quelque	quelque	DET	_	Gender=Masc|Number=Sing	8	det	_	_
+8	spectateurs	spectateur	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+9	par	par	ADP	_	_	10	case	_	_
+10	an	an	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_04615
 # text = À la fin du Moyen Âge, alors que l'armure des chevaliers était devenue très efficace, leurs montures constituaient leur point faible et devinrent les cibles des attaques ennemies.
@@ -145772,20 +145770,20 @@
 17	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
-20	=	=	SYM	_	_	13	parataxis	_	_
+20	=	=	SYM	_	_	13	parataxis	_	EXTPOS=VERB|Type=Trans
 21	3	3	NUM	_	_	22	nummod	_	_
 22	points	point	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	nulle	nulle	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
-26	=	=	SYM	_	_	20	conj	_	_
+26	=	=	SYM	_	_	20	conj	_	EXTPOS=VERB|Type=Trans
 27	1	1	NUM	_	_	28	nummod	_	_
 28	point	point	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	33	punct	_	_
 30	et	et	CCONJ	_	_	33	cc	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	perte	perte	NOUN	_	Gender=Fem|Number=Sing	33	nsubj	_	_
-33	=	=	SYM	_	_	20	conj	_	_
+33	=	=	SYM	_	_	20	conj	_	EXTPOS=VERB|Type=Trans
 34	0	0	NUM	_	_	35	nummod	_	_
 35	point	point	NOUN	_	Gender=Masc|Number=Sing	33	obj	_	SpaceAfter=No
 36	)	)	PUNCT	_	_	20	punct	_	_
@@ -152760,7 +152758,7 @@
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	relais	relais	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
 39	4	4	NUM	_	_	42	nummod	_	_
-40	x	x	SYM	_	_	41	case	_	_
+40	x	x	SYM	_	_	41	case	_	EXTPOS=ADP|Type=Trans
 41	400	400	NUM	_	_	39	nmod	_	_
 42	m	m	NOUN	_	Gender=Masc|Number=Plur	38	appos	_	_
 43-44	aux	_	_	_	_	_	_	_	_
@@ -158895,7 +158893,7 @@
 13	graphes	graphe	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 14	sur	sur	ADP	_	_	17	case	_	_
 15	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	17	det	_	_
-16	m	m	SYM	_	_	17	amod	_	_
+16	m	m	SYM	_	_	17	nummod	_	EXTPOS=NUM|Type=Trans
 17	sommets	sommet	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
 18	à	à	ADP	_	_	19	case	_	_
 19	isomorphisme	isomorphisme	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
@@ -158911,7 +158909,7 @@
 28	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 29	coloriages	coloriage	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
 30	de	de	ADP	_	_	31	case	_	_
-31	X	X	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
+31	X	X	SYM	_	_	29	nmod	_	EXTPOS=PROPN|Type=Trans
 32	sous	sous	ADP	_	_	34	case	_	_
 33	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
 34	action	action	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	_
@@ -158921,8 +158919,8 @@
 37	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
 38	symétrique	symétrique	ADJ	_	Gender=Masc|Number=Sing	37	amod	_	_
 39	G	G	NOUN	_	Gender=Masc|Number=Sing	37	appos	_	_
-40	=	=	SYM	_	_	39	amod	_	_
-41	S	S	NOUN	_	Gender=Masc|Number=Sing	40	obl:arg	_	SpaceAfter=No
+40	=	=	SYM	_	_	39	flat=name	_	_
+41	S	S	NOUN	_	Gender=Masc|Number=Sing	39	flat:name	_	SpaceAfter=No
 42	,	,	PUNCT	_	_	44	punct	_	_
 43	qui	qui	PRON	_	PronType=Rel	44	nsubj	_	_
 44	permute	permuter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
@@ -160640,7 +160638,7 @@
 7	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	1	1	NUM	_	_	6	nmod	_	SpaceAfter=No
-10	/	/	SYM	_	_	11	case	_	SpaceAfter=No
+10	/	/	SYM	_	_	11	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 11	4	4	NUM	_	_	9	nmod	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	finale	finale	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
@@ -172012,7 +172010,7 @@
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 12	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 13	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	:)	:)	SYM	_	_	13	parataxis	_	_
+14	:)	:)	SYM	_	_	13	parataxis	_	EXTPOS=ADV|Type=Trans
 
 # sent_id = fr-ud-train_06152
 # text = Elle a, en commun avec d'autres Églises, un Service protestant de mission (le Défap), qui entretient le lien de solidarité et de mission commune avec d'autres Églises, notamment l'Église réformée de France et des Églises réformées africaines et océaniennes, principalement issues de l'ancienne Société des missions évangéliques de Paris.
@@ -177335,7 +177333,7 @@
 21	4	4	NUM	_	_	23	nummod	_	_
 22	M	M	SYM	_	Gender=Masc|Number=Sing	23	advmod	_	EXTPOS=ADV|Type=Trans
 23	€	€	SYM	_	_	19	nmod	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
-24	/	/	SYM	_	_	25	case	_	SpaceAfter=No
+24	/	/	SYM	_	_	25	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 25	an	an	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 26	)	)	PUNCT	_	_	23	punct	_	_
 27	pendant	pendant	ADP	_	_	31	mark	_	_
@@ -177349,7 +177347,7 @@
 35	7	7	NUM	_	_	37	nummod	_	_
 36	M	M	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	_
 37	€	€	SYM	_	_	33	nmod	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
-38	/	/	SYM	_	_	39	case	_	SpaceAfter=No
+38	/	/	SYM	_	_	39	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 39	an	an	NOUN	_	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
 40	)	)	PUNCT	_	_	37	punct	_	_
 41	jusqu'	jusque	ADV	_	_	43	advmod	_	SpaceAfter=No
@@ -178104,7 +178102,7 @@
 1	Merci	merci	INTJ	_	_	0	root	_	_
 2	pour	pour	ADP	_	_	3	case	_	_
 3	tout	tout	PRON	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
-4	;-)	;-)	SYM	_	_	1	parataxis	_	_
+4	;-)	;-)	SYM	_	_	1	parataxis	_	EXTPOS=ADV|Type=Trans
 
 # sent_id = fr-ud-train_06374
 # text = Il atteint la 18e place du classement Oricon.
@@ -184150,7 +184148,7 @@
 8	née	naître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
 9	Dihlmann	Dihlmann	PROPN	_	_	8	xcomp	_	_
 10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-11	†	†	SYM	_	_	9	conj	_	_
+11	†	†	SYM	_	_	7	nmod	_	EXTPOS=NOUN|Type=Trans
 12	1941	1941	NUM	_	_	11	nmod	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
@@ -188830,7 +188828,7 @@
 14	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 15	+1	+1	NUM	_	_	17	nsubj	_	SpaceAfter=No
 16	-1	-1	NUM	_	_	15	nmod	_	_
-17	=	=	SYM	_	_	13	parataxis	_	_
+17	=	=	SYM	_	_	13	parataxis	_	EXTPOS=VERB|Type=Trans
 18	10	10	NUM	_	_	17	obj	_	SpaceAfter=No
 19	)	)	PUNCT	_	_	17	punct	_	_
 20	et	et	CCONJ	_	_	31	cc	_	_
@@ -196892,7 +196890,7 @@
 1	Bon	bon	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 2	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
-4	/	/	SYM	_	_	5	case	_	SpaceAfter=No
+4	/	/	SYM	_	_	5	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 5	prix	prix	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	_
 7	excepté	excepté	ADP	_	_	10	case	_	_
@@ -211489,7 +211487,7 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
-4	/	/	SYM	_	_	5	case	_	SpaceAfter=No
+4	/	/	SYM	_	_	5	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 5	prix	prix	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	imbattable	imbattable	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -216796,17 +216794,17 @@
 4	termes	terme	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
-7	x	x	SYM	_	_	9	amod	_	EXTPOS=ADJ|Type=Trans
-8	k	k	SYM	_	_	7	amod	_	EXTPOS=ADJ|Type=Trans
+7	x	x	SYM	_	_	9	nummod	_	EXTPOS=NUM|Type=Trans
+8	k	k	SYM	_	_	7	nmod	_	EXTPOS=NUM|Type=Trans
 9	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
 11	calculées	calculer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 12	en	en	ADP	_	_	13	mark	_	_
 13	utilisant	utiliser	VERB	_	Tense=Pres|VerbForm=Part	11	advcl	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	x	x	SYM	_	_	13	obj	_	EXTPOS=NOUN|Type=Trans
+15	x	x	SYM	_	_	13	obj	_	EXTPOS=NUM|Type=Trans
 16	{	{	PUNCT	_	_	17	punct	_	_
-17	k-1	k-1	SYM	_	_	15	amod	_	EXTPOS=ADJ|Type=Trans
+17	k-1	k-1	SYM	_	_	15	nmod	_	EXTPOS=NUM|Type=Trans
 18	}	}	PUNCT	_	_	17	punct	_	_
 19	calculées	calculer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
 20	précédemment	précédemment	ADV	_	_	19	advmod	_	SpaceAfter=No
@@ -243084,7 +243082,7 @@
 # sent_id = fr-ud-train_08670
 # text = (www.infomediaire.ma)--La chaîne de TV américaine FoxNews a diffusé, mercredi soir, une émission intitulée "Maroc, les grandes avancées", immortalisant le plébiscite autour de la nouvelle Constitution.
 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	www.infomediaire.ma	www.infomediaire.ma	SYM	_	_	12	parataxis	_	SpaceAfter=No
+2	www.infomediaire.ma	www.infomediaire.ma	SYM	_	_	0	root	_	EXTPOS=PROPN|SpaceAfter=No|Type=Trans
 3	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
 4	--	--	PUNCT	_	_	2	punct	_	SpaceAfter=No
 5	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -243094,7 +243092,7 @@
 9	américaine	américain	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 10	FoxNews	FoxNews	PROPN	_	_	6	appos	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-12	diffusé	diffuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	diffusé	diffuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	mercredi	mercredi	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 15	soir	soir	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
@@ -253083,7 +253081,7 @@
 8	million	million	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
 10	EVP	EVP	NOUN	_	_	8	nmod	_	SpaceAfter=No
-11	/	/	SYM	_	_	12	case	_	SpaceAfter=No
+11	/	/	SYM	_	_	12	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 12	an	an	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 13	avec	avec	ADP	_	_	15	case	_	_
 14	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
@@ -254494,7 +254492,7 @@
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	résolution	résolution	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
 11	19	19	NUM	_	_	10	nmod	_	SpaceAfter=No
-12	/	/	SYM	_	_	13	case	_	SpaceAfter=No
+12	/	/	SYM	_	_	13	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 13	04	04	NUM	_	_	11	nmod	_	_
 14	relative	relatif	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 15	à	à	ADP	_	_	17	case	_	_
@@ -273735,7 +273733,7 @@
 18	par	par	ADP	_	_	19	case	_	INMWE=Yes
 19	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	20	advmod	_	EXTPOS=ADV|Type=MWE
 20	A5	A5	X	_	_	5	appos	_	SpaceAfter=No
-21	/	/	SYM	_	_	22	case	_	SpaceAfter=No
+21	/	/	SYM	_	_	22	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 22	1	1	NUM	_	_	20	nmod	_	_
 23	ou	ou	CCONJ	_	_	24	cc	_	_
 24	E0	E0	X	_	_	20	conj	_	SpaceAfter=No
@@ -305263,7 +305261,7 @@
 15	à	à	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	carte	carte	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
-18	;)	;)	SYM	_	_	5	parataxis	_	_
+18	;)	;)	SYM	_	_	5	parataxis	_	EXTPOS=ADV|Type=Trans
 
 # sent_id = fr-ud-train_10941
 # text = La dalle de chevet, les deux supports du côté nord et un grand support fendu du côté sud sont également en place.
@@ -305941,7 +305939,7 @@
 11	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 12	4,5	4,5	NUM	_	_	13	nummod	_	_
 13	€	€	SYM	_	_	4	parataxis	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
-14	/	/	SYM	_	_	15	case	_	SpaceAfter=No
+14	/	/	SYM	_	_	15	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 15	théière	théière	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 16	contre	contre	ADP	_	_	18	case	_	_
 17	2,5	2,5	NUM	_	_	18	nummod	_	_
@@ -313886,7 +313884,7 @@
 9	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 10	classé	classer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
 11	15	15	NUM	_	_	10	xcomp	_	SpaceAfter=No
-12	/	/	SYM	_	_	13	case	_	SpaceAfter=No
+12	/	/	SYM	_	_	13	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 13	5	5	NUM	_	_	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	10	punct	_	_
 15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
@@ -315632,22 +315630,22 @@
 6	cinq	cinq	NUM	_	_	7	nummod	_	_
 7	crématoires	crématoire	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
 8	appelés	appeler	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
-9	K	K	SYM	_	_	8	xcomp	_	_
+9	K	K	SYM	_	_	8	xcomp	_	EXTPOS=PROPN|Type=Trans
 10	I	I	NUM	_	_	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	K	K	SYM	_	_	9	conj	_	_
+12	K	K	SYM	_	_	9	conj	_	EXTPOS=PROPN|Type=Trans
 13	II	II	NUM	_	_	12	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	K	K	SYM	_	_	9	conj	_	_
+15	K	K	SYM	_	_	9	conj	_	EXTPOS=PROPN|Type=Trans
 16	III	III	NUM	_	_	15	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	K	K	SYM	_	_	9	conj	_	_
+18	K	K	SYM	_	_	9	conj	_	EXTPOS=PROPN|Type=Trans
 19	IV	IV	NUM	_	_	18	nmod	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
-21	K	K	SYM	_	_	9	conj	_	_
+21	K	K	SYM	_	_	9	conj	_	EXTPOS=PROPN|Type=Trans
 22	V	V	NUM	_	_	21	nmod	_	_
 23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	K	K	SYM	_	_	5	parataxis	_	_
+24	K	K	SYM	_	_	5	parataxis	_	EXTPOS=PROPN|Type=Trans
 25	I	I	NUM	_	_	24	nmod	_	_
 26	à	à	ADP	_	_	27	case	_	_
 27	Auschwitz	Auschwitz	PROPN	_	_	24	nmod	_	_
@@ -318240,7 +318238,7 @@
 19	de	de	ADP	_	_	21	case	_	_
 20	45	45	NUM	_	_	21	nummod	_	_
 21	Gthermies	Gthermie	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
-22	/	/	SYM	_	_	23	case	_	SpaceAfter=No
+22	/	/	SYM	_	_	23	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 23	an	an	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 24	(	(	PUNCT	_	_	26	punct	_	SpaceAfter=No
 25	3,5	3,5	NUM	_	_	26	nummod	_	_
@@ -322487,7 +322485,7 @@
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	4	4	NUM	_	_	20	nummod	_	_
 20	m	m	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	_
-21	x	x	SYM	_	_	23	case	_	_
+21	x	x	SYM	_	_	23	case	_	EXTPOS=ADP|Type=Trans
 22	3	3	NUM	_	_	23	nummod	_	_
 23	m	m	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	27	punct	_	_
@@ -328414,12 +328412,12 @@
 
 # sent_id = fr-ud-train_11759
 # text = Débutants, allez voir ailleurs :)
-1	Débutants	débutant	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+1	Débutants	débutant	NOUN	_	Gender=Masc|Number=Plur	3	vocative	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	allez	aller	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	voir	voir	VERB	_	VerbForm=Inf	3	xcomp	_	_
 5	ailleurs	ailleurs	ADV	_	_	4	advmod	_	_
-6	:)	:)	SYM	_	_	4	parataxis	_	_
+6	:)	:)	SYM	_	_	4	parataxis	_	EXTPOS=ADV|Type=Trans
 
 # sent_id = fr-ud-train_11760
 # text = L'A.L.F.A. 12 HP est la seconde voiture automobile créée par le nouveau constructeur italien A.L.F.A.--Alfa Romeo en 1910.
@@ -333833,7 +333831,7 @@
 29	:	:	PUNCT	_	_	30	punct	_	_
 30	16,4	16,4	NUM	_	_	25	obj	_	SpaceAfter=No
 31	--	--	PUNCT	_	_	33	punct	_	SpaceAfter=No
-32	×	×	SYM	_	_	33	case	_	_
+32	×	×	SYM	_	_	33	case	_	EXTPOS=ADP|Type=Trans
 33	12,5	12,5	NUM	_	_	30	nmod	_	SpaceAfter=No
 34	--	--	PUNCT	_	_	33	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	_	3	punct	_	_
@@ -342426,7 +342424,7 @@
 18	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	_
 19	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
 20	regretter	regretter	VERB	_	VerbForm=Inf	17	xcomp	_	_
-21	:)	:)	SYM	_	_	20	parataxis	_	_
+21	:)	:)	SYM	_	_	2	parataxis	_	EXTPOS=ADV|Type=Trans
 
 # sent_id = fr-ud-train_12267
 # text = Le Chili, confronté notamment aux luttes des Mapuches contre l'exploitation forestière, a vu l'entrée en vigueur en 2009, vingt ans après sa promulgation, de la Convention 169.
@@ -343976,7 +343974,7 @@
 22	)	)	PUNCT	_	_	21	punct	_	_
 23	commandements	commandement	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	_
 24	(	(	PUNCT	_	_	25	punct	_	SpaceAfter=No
-25	http://www.cyber-contact.com/613.html	http://www.cyber-contact.com/613.html	SYM	_	_	13	parataxis	_	SpaceAfter=No
+25	http://www.cyber-contact.com/613.html	http://www.cyber-contact.com/613.html	SYM	_	_	13	parataxis	_	EXTPOS=PROPN|SpaceAfter=No|Type=Trans
 26	)	)	PUNCT	_	_	25	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -370242,7 +370240,7 @@
 8	matter	matter	X	_	_	2	flat:foreign	_	Foreign=en
 9	the	the	X	_	_	2	flat:foreign	_	Foreign=en
 10	cost	cost	X	_	_	2	flat:foreign	_	Foreign=en|SpaceAfter=No
-11	/	/	SYM	_	_	13	case	_	SpaceAfter=No
+11	/	/	SYM	_	_	13	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 12	Mégatron	Mégatron	PROPN	_	_	13	nsubj	_	_
 13	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 14	être	être	AUX	_	VerbForm=Inf	15	aux:pass	_	_
@@ -372855,7 +372853,7 @@
 20	de	de	ADP	_	_	22	case	_	_
 21	46,2	46,2	NUM	_	_	22	nummod	_	_
 22	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	19	obl:mod	_	SpaceAfter=No
-23	/	/	SYM	_	_	24	case	_	SpaceAfter=No
+23	/	/	SYM	_	_	24	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 24	km2	km2	NOUN	_	_	22	nmod	_	_
 25	en	en	ADP	_	_	26	case	_	_
 26	1968	1968	NUM	_	_	22	nmod	_	_
@@ -390037,7 +390035,7 @@
 10	élimination	élimination	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 11	en	en	ADP	_	_	12	case	_	_
 12	1	1	NUM	_	_	10	obl:mod	_	SpaceAfter=No
-13	/	/	SYM	_	_	14	case	_	SpaceAfter=No
+13	/	/	SYM	_	_	14	case	_	EXTPOS=ADP|SpaceAfter=No|Type=Trans
 14	8e	8e	ADJ	_	_	12	nmod	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	finale	finale	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
