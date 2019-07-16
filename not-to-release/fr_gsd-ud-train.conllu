@@ -7905,7 +7905,7 @@
 
 # sent_id = fr-ud-train_00270
 # text = Faute de pétrole, l'Indonésie s'est retiré de l'OPEP en 2008.
-1	Faute	faute	ADV	_	_	9	advmod	_	_
+1	Faute	faute	NOUN	_	_	9	advmod	_	EXTPOS=ADV|Type=Trans
 2	de	de	ADP	_	_	3	case	_	_
 3	pétrole	pétrole	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -9372,7 +9372,7 @@
 2	abaisse	abaisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
 4	poids	poids	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
-5	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	2	advmod	_	_
+5	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	2	advmod	_	EXTPOS=ADV|Type=Trans
 6-7	au	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -14759,7 +14759,7 @@
 27	tentative	tentative	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	_
 28	de	de	ADP	_	_	29	case	_	_
 29	sevrage	sevrage	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
-30	suite	suite	ADV	_	Gender=Fem|Number=Sing	27	advmod	_	_
+30	suite	suite	NOUN	_	Gender=Fem|Number=Sing	27	advmod	_	EXTPOS=ADV|Type=Trans
 31	à	à	ADP	_	_	33	case	_	_
 32	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det	_	_
 33	addiction	addiction	NOUN	_	Gender=Fem|Number=Sing	30	obl:arg	_	_
@@ -15024,7 +15024,7 @@
 23	d'	de	ADP	_	_	24	case	_	SpaceAfter=No
 24	Avignon	Avignon	PROPN	_	_	13	nmod	_	_
 25	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
-26	suite	suite	ADV	_	Gender=Fem|Number=Sing	25	advmod	_	_
+26	suite	suite	NOUN	_	Gender=Fem|Number=Sing	25	advmod	_	EXTPOS=ADV|Type=Trans
 27	à	à	ADP	_	_	29	case	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	loi	loi	NOUN	_	Gender=Fem|Number=Sing	26	obl:arg	_	_
@@ -17106,7 +17106,7 @@
 9	Seconde	second	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 10	Guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 11	mondiale	mondial	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
-12	suite	suite	ADV	_	Gender=Fem|Number=Sing	6	advmod	_	_
+12	suite	suite	NOUN	_	Gender=Fem|Number=Sing	6	advmod	_	EXTPOS=ADV|Type=Trans
 13	à	à	ADP	_	_	15	case	_	_
 14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	invention	invention	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
@@ -17228,7 +17228,7 @@
 28	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 29	barbotins	barbotin	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	31	punct	_	_
-31	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	27	advmod	_	_
+31	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	27	advmod	_	EXTPOS=ADV|Type=Trans
 32	à	à	ADP	_	_	34	case	_	_
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	transmission	transmission	NOUN	_	Gender=Fem|Number=Sing	31	obl:arg	_	_
@@ -19648,7 +19648,7 @@
 36	ne	ne	ADV	_	Polarity=Neg	38	advmod	_	_
 37	se	se	PRON	_	Person=3|PronType=Prs	38	obj	_	_
 38	retirent	retirer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	_
-39	suite	suite	ADV	_	Gender=Fem|Number=Sing	38	advmod	_	_
+39	suite	suite	NOUN	_	Gender=Fem|Number=Sing	38	advmod	_	EXTPOS=ADV|Type=Trans
 40-41	aux	_	_	_	_	_	_	_	_
 40	à	à	ADP	_	_	42	case	_	_
 41	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
@@ -20306,7 +20306,7 @@
 
 # sent_id = fr-ud-train_00714
 # text = Grâce à la potasse et à la fourrure, il fait rapidement fortune.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	11	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	11	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	potasse	potasse	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -31194,7 +31194,7 @@
 17	de	de	ADP	_	_	18	case	_	_
 18	Heathrow	Heathrow	PROPN	_	_	14	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	30	punct	_	_
-20	suite	suite	ADV	_	Gender=Fem|Number=Sing	30	advmod	_	_
+20	suite	suite	NOUN	_	Gender=Fem|Number=Sing	30	advmod	_	EXTPOS=ADV|Type=Trans
 21	à	à	ADP	_	_	22	case	_	_
 22	cela	cela	PRON	_	Number=Sing|PronType=Dem	20	obl:arg	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
@@ -36399,7 +36399,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	grand	grand	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
 10	public	public	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	_
-11	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	5	advmod	_	_
+11	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	EXTPOS=ADV|Type=Trans
 12	à	à	ADP	_	_	14	case	_	_
 13	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det	_	_
 14	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	_
@@ -37879,7 +37879,7 @@
 22	derrière	derrière	ADP	_	_	23	case	_	_
 23	Rubens	Rubens	PROPN	_	_	20	obl	_	_
 24	Barrichello	Barrichello	PROPN	_	_	23	flat:name	_	_
-25	suite	suite	ADV	_	Gender=Fem|Number=Sing	20	advmod	_	_
+25	suite	suite	NOUN	_	Gender=Fem|Number=Sing	20	advmod	_	EXTPOS=ADV|Type=Trans
 26	à	à	ADP	_	_	29	case	_	_
 27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 28	petite	petit	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
@@ -44100,7 +44100,7 @@
 9	8	8	NUM	_	_	4	obl	_	_
 10	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 11	1862	1862	NUM	_	_	10	nmod	_	_
-12	suite	suite	ADV	_	Gender=Fem|Number=Sing	4	advmod	_	_
+12	suite	suite	NOUN	_	Gender=Fem|Number=Sing	4	advmod	_	EXTPOS=ADV|Type=Trans
 13	à	à	ADP	_	_	15	case	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	crue	crue	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
@@ -45747,7 +45747,7 @@
 6	quelque	quelque	DET	_	Gender=Masc|Number=Sing	7	det	_	_
 7	temps	temps	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	suite	suite	ADV	_	Gender=Fem|Number=Sing	4	advmod	_	_
+9	suite	suite	NOUN	_	Gender=Fem|Number=Sing	4	advmod	_	EXTPOS=ADV|Type=Trans
 10	à	à	ADP	_	_	12	case	_	_
 11	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	12	det	_	_
 12	années	année	NOUN	_	Gender=Fem|Number=Plur	9	obl:arg	_	_
@@ -47069,24 +47069,24 @@
 12	:	:	PUNCT	_	_	13	punct	_	_
 13	dda	dda	SYM	_	_	5	conj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	ddha	ddha	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+15	ddha	ddha	SYM	_	_	13	conj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	nna	nna	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+17	nna	nna	SYM	_	_	13	conj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	ta	ta	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+19	ta	ta	SYM	_	_	13	conj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 20	,	,	PUNCT	_	_	21	punct	_	_
-21	tha	tha	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+21	tha	tha	SYM	_	_	13	conj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 22	,	,	PUNCT	_	_	23	punct	_	_
-23	da	da	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+23	da	da	SYM	_	_	13	conj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	dha	dha	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+25	dha	dha	SYM	_	_	13	conj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 26	,	,	PUNCT	_	_	27	punct	_	_
-27	na	na	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+27	na	na	SYM	_	_	13	conj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 28	,	,	PUNCT	_	_	29	punct	_	_
-29	pa	pa	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+29	pa	pa	SYM	_	_	13	conj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	and	and	CCONJ	_	_	32	cc	_	Foreign=en
-32	pha	pha	SYM	_	_	13	conj	_		EXTPOS=NOUN|SpaceAfter=No|Type=Trans
+32	pha	pha	SYM	_	_	13	conj	_	EXTPOS=NOUN|SpaceAfter=No|Type=Trans
 33	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_01665
@@ -50570,7 +50570,7 @@
 
 # sent_id = fr-ud-train_01788
 # text = Suite à cette déclaration, le 9 janvier 1991 les autorités soviétiques envoyèrent des troupes armées à Vilnius.
-1	Suite	suite	ADV	_	Gender=Fem|Number=Sing	13	advmod	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	13	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	déclaration	déclaration	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	SpaceAfter=No
@@ -53330,7 +53330,7 @@
 
 # sent_id = fr-ud-train_01891
 # text = Suite à mon séjour dans cet hôtel, j'ai été très agréablement surpris par la qualité des prestations et de l'accueil du personnel.
-1	Suite	suite	ADV	_	Gender=Fem|Number=Sing	14	advmod	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	14	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
 4	séjour	séjour	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
@@ -54478,7 +54478,7 @@
 
 # sent_id = fr-ud-train_01934
 # text = Grâce à une volonté de décentralisation, plusieurs films ont été tournés dans d'autres villes telles que Cali, Medellín, Barranquilla, etc.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	12	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	12	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -59331,7 +59331,7 @@
 
 # sent_id = fr-ud-train_02111
 # text = Grâce à lui tout était simple et détendu, et les photos magnifiques !
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	6	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	6	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	3	case	_	_
 3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	1	obl:arg	_	_
 4	tout	tout	PRON	_	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -62701,7 +62701,7 @@
 
 # sent_id = fr-ud-train_02231
 # text = Grâce au soutien de la population locale, au terrain difficile et à ses compétences militaires, il parvient à défaire plusieurs expéditions chiliennes envoyées contre lui, lors des batailles de Pucará (deux fois), Marcavalle et La Concepción.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	21	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	21	advmod	_	EXTPOS=ADV|Type=Trans
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	4	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -66003,7 +66003,7 @@
 39	Direll	Direll	PROPN	_	_	38	obj	_	_
 40	à	à	ADP	_	_	41	case	_	_
 41	terre	terre	NOUN	_	Gender=Fem|Number=Sing	38	obl:mod	_	_
-42	suite	suite	ADV	_	Gender=Fem|Number=Sing	38	advmod	_	_
+42	suite	suite	NOUN	_	Gender=Fem|Number=Sing	38	advmod	_	EXTPOS=ADV|Type=Trans
 43	à	à	ADP	_	_	45	case	_	_
 44	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	glissade	glissade	NOUN	_	Gender=Fem|Number=Sing	42	obl:arg	_	SpaceAfter=No
@@ -68885,7 +68885,7 @@
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	police	police	NOUN	_	Gender=Fem|Number=Sing	28	obl:agent	_	_
 32	marocaine	marocain	ADJ	_	Gender=Fem|Number=Sing	31	amod	_	_
-33	suite	suite	ADV	_	Gender=Fem|Number=Sing	28	advmod	_	_
+33	suite	suite	NOUN	_	Gender=Fem|Number=Sing	28	advmod	_	EXTPOS=ADV|Type=Trans
 34	à	à	ADP	_	_	36	case	_	_
 35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	plainte	plainte	NOUN	_	Gender=Fem|Number=Sing	33	obl:arg	_	_
@@ -70976,7 +70976,7 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
-20	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	13	advmod	_	_
+20	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	13	advmod	_	EXTPOS=ADV|Type=Trans
 21	à	à	ADP	_	_	23	case	_	_
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	savoir	savoir	VERB	_	VerbForm=Inf	20	obl:arg	_	EXTPOS=NOUN|Type=MWE
@@ -74728,7 +74728,7 @@
 6	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	dessertes	desserte	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
 8	omnibus	omnibus	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
-9	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	5	advmod	_	_
+9	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	EXTPOS=ADV|Type=Trans
 10	à	à	ADP	_	_	12	case	_	_
 11	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	horaires	horaire	NOUN	_	Gender=Masc|Number=Plur	9	obl:arg	_	_
@@ -76023,7 +76023,7 @@
 
 # sent_id = fr-ud-train_02701
 # text = Grâce à l'environnement protégé des grottes, l'équipe du Dr Watson a pu effectuer une datation par le carbone 14 de restes alimentaires pour déterminer l'âge des spécimens et pour analyser leur contenu.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	17	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	17	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	environnement	environnement	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
@@ -79279,7 +79279,7 @@
 
 # sent_id = fr-ud-train_02821
 # text = Grâce à une approche psychologique, il arrive à le ramener de son côté et deviennent associés.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	8	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	8	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	approche	approche	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -85060,7 +85060,7 @@
 2	autorisation	autorisation	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	accordée	accorder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	suite	suite	ADV	_	Gender=Fem|Number=Sing	4	advmod	_	_
+5	suite	suite	NOUN	_	Gender=Fem|Number=Sing	4	advmod	_	EXTPOS=ADV|Type=Trans
 6-7	aux	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
@@ -85181,7 +85181,7 @@
 11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 12	information	information	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	3	advmod	_	_
+14	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	3	advmod	_	EXTPOS=ADV|Type=Trans
 15	à	à	ADP	_	_	17	case	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	diffusion	diffusion	NOUN	_	Gender=Fem|Number=Sing	14	obl:arg	_	_
@@ -88089,7 +88089,7 @@
 2	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Ligue	Ligue	PROPN	_	_	4	nsubj	_	_
 4	vit	vivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	4	advmod	_	_
+5	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	advmod	_	EXTPOS=ADV|Type=Trans
 6-7	aux	_	_	_	_	_	_	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
@@ -88620,7 +88620,7 @@
 3	parfois	parfois	ADV	_	_	4	advmod	_	_
 4	insoutenables	insoutenable	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 5	saisies	saisir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
-6	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	5	advmod	_	_
+6	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	EXTPOS=ADV|Type=Trans
 7	à	à	ADP	_	_	9	case	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	caméra	caméra	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	_
@@ -102916,7 +102916,7 @@
 23	comporte	comporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
 24	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det	_	_
 25	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
-26	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	23	advmod	_	_
+26	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	23	advmod	_	EXTPOS=ADV|Type=Trans
 27	à	à	ADP	_	_	29	case	_	_
 28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	technique	technique	NOUN	_	Gender=Fem|Number=Sing	26	obl:arg	_	_
@@ -103140,7 +103140,7 @@
 18	trois	trois	NUM	_	_	19	nummod	_	_
 19	participations	participation	NOUN	_	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
 20	)	)	PUNCT	_	_	16	punct	_	_
-21	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	5	advmod	_	_
+21	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	EXTPOS=ADV|Type=Trans
 22-23	aux	_	_	_	_	_	_	_	_
 22	à	à	ADP	_	_	24	case	_	_
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
@@ -105127,7 +105127,7 @@
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:pass	_	SpaceAfter=No
 3	impose	imposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	3	advmod	_	_
+4	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	3	advmod	_	EXTPOS=ADV|Type=Trans
 5	à	à	ADP	_	_	7	case	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	bond	bond	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
@@ -107136,7 +107136,7 @@
 
 # sent_id = fr-ud-train_03816
 # text = Grace à vous je suis un producteur d'énergie solaire heureux ;)
-1	Grace	grâce	ADV	_	Gender=Fem|Number=Sing	7	advmod	_	_
+1	Grace	grâce	NOUN	_	Gender=Fem|Number=Sing	7	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	3	case	_	_
 3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	1	obl:arg	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
@@ -107570,7 +107570,7 @@
 14	--	--	PUNCT	_	_	16	punct	_	SpaceAfter=No
 15	vers	vers	ADP	_	_	16	case	_	_
 16	405	405	NUM	_	_	10	obl	_	_
-17	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	10	advmod	_	_
+17	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	10	advmod	_	EXTPOS=ADV|Type=Trans
 18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -107846,7 +107846,7 @@
 22	)	)	PUNCT	_	_	9	punct	_	_
 23	se	se	PRON	_	Person=3|PronType=Prs	24	expl:pass	_	_
 24	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-25	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	24	advmod	_	_
+25	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	24	advmod	_	EXTPOS=ADV|Type=Trans
 26-27	au	_	_	_	_	_	_	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -113291,7 +113291,7 @@
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	_
 32	2-1	2-1	NUM	_	_	31	nmod	_	_
-33	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	21	advmod	_	_
+33	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	21	advmod	_	EXTPOS=ADV|Type=Trans
 34	à	à	ADP	_	_	36	case	_	_
 35	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	doublé	doublé	NOUN	_	Gender=Masc|Number=Sing	33	obl:arg	_	_
@@ -114958,7 +114958,7 @@
 6	ralentir	ralentir	VERB	_	VerbForm=Inf	4	xcomp	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	neutrons	neutron	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
-9	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	6	advmod	_	_
+9	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	6	advmod	_	EXTPOS=ADV|Type=Trans
 10	à	à	ADP	_	_	12	case	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	diffusion	diffusion	NOUN	_	Gender=Fem|Number=Sing	9	obl:arg	_	_
@@ -116959,7 +116959,7 @@
 
 # sent_id = fr-ud-train_04192
 # text = Suite à l'obtention de son diplôme en septembre 2001, Thomas Pesquet travaille en tant qu'analyste de mission chez GMV S.A. à Madrid, Espagne, notamment sur les calculs de trajectoire de la mission Cosmo-Skymed.
-1	Suite	suite	ADV	_	Gender=Fem|Number=Sing	14	advmod	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	14	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	obtention	obtention	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -117150,7 +117150,7 @@
 37	,	,	PUNCT	_	_	36	punct	_	_
 38	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
 39	vivait	vivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
-40	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	39	advmod	_	_
+40	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	39	advmod	_	EXTPOS=ADV|Type=Trans
 41-42	aux	_	_	_	_	_	_	_	_
 41	à	à	ADP	_	_	43	case	_	_
 42	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
@@ -123798,7 +123798,7 @@
 16	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	PIJ	PIJ	PROPN	_	_	13	appos	_	SpaceAfter=No
 18	)	)	PUNCT	_	_	17	punct	_	_
-19	suite	suite	ADV	_	Gender=Fem|Number=Sing	10	advmod	_	_
+19	suite	suite	NOUN	_	Gender=Fem|Number=Sing	10	advmod	_	EXTPOS=ADV|Type=Trans
 20	à	à	ADP	_	_	22	case	_	_
 21	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	_
 22	réaménagement	réaménagement	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	_
@@ -128478,7 +128478,7 @@
 6	années	année	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
 7	1990	1990	NUM	_	_	6	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
-9	faute	faute	ADV	_	_	19	advmod	_	_
+9	faute	faute	NOUN	_	_	19	advmod	_	EXTPOS=ADV|Type=Trans
 10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	championnat	championnat	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
@@ -132749,7 +132749,7 @@
 5	Alpes	Alpes	PROPN	_	_	2	nmod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	observables	observable	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
-8	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	7	advmod	_	_
+8	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	7	advmod	_	EXTPOS=ADV|Type=Trans
 9-10	aux	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
@@ -132824,7 +132824,7 @@
 
 # sent_id = fr-ud-train_04761
 # text = Suite à la conférence de Copenhague sur le climat l'année dernière, les chercheurs et les défenseurs de l'eau ont tenu une réunion spéciale.
-1	Suite	suite	ADV	_	Gender=Fem|Number=Sing	23	advmod	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	23	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	conférence	conférence	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -135091,7 +135091,7 @@
 
 # sent_id = fr-ud-train_04835
 # text = Grâce à la Dvina, la mer Blanche est reliée à la fois à la mer du Nord et à la mer Méditerranée.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	10	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	10	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Dvina	Dvina	PROPN	_	_	1	obl:arg	_	SpaceAfter=No
@@ -144991,7 +144991,7 @@
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	tour	tour	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	_
 22	suivant	suivant	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
-23	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	16	advmod	_	_
+23	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	16	advmod	_	EXTPOS=ADV|Type=Trans
 24	à	à	ADP	_	_	27	case	_	_
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 26	large	large	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
@@ -159730,7 +159730,7 @@
 12	dénonciation	dénonciation	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	_
 13	calomnieuse	calomnieux	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
 14	»	»	PUNCT	_	_	12	punct	_	_
-15	suite	suite	ADV	_	Gender=Fem|Number=Sing	5	advmod	_	_
+15	suite	suite	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	EXTPOS=ADV|Type=Trans
 16	à	à	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	plainte	plainte	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	_
@@ -163522,7 +163522,7 @@
 
 # sent_id = fr-ud-train_05847
 # text = Suite à cet échec, il quitte la direction du congrès opportuniste de Loire-Inférieure.
-1	Suite	suite	ADV	_	Gender=Fem|Number=Sing	7	advmod	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	7	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	échec	échec	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	SpaceAfter=No
@@ -169194,7 +169194,7 @@
 3	gagné	gagner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	plusieurs	plusieurs	DET	_	Gender=Masc|Number=Plur	5	det	_	_
 5	clients	client	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
-6	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	3	advmod	_	_
+6	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	3	advmod	_	EXTPOS=ADV|Type=Trans
 7-8	aux	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
@@ -175092,7 +175092,7 @@
 15	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
 16	en	en	ADP	_	_	17	case	_	_
 17	place	place	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
-18	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	15	advmod	_	_
+18	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	15	advmod	_	EXTPOS=ADV|Type=Trans
 19	à	à	ADP	_	_	21	case	_	_
 20	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	renforts	renfort	NOUN	_	Gender=Masc|Number=Plur	18	obl:arg	_	_
@@ -176750,7 +176750,7 @@
 3	affirmé	affirmer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	que	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
-6	suite	suite	ADV	_	Gender=Fem|Number=Sing	16	advmod	_	_
+6	suite	suite	NOUN	_	Gender=Fem|Number=Sing	16	advmod	_	EXTPOS=ADV|Type=Trans
 7	à	à	ADP	_	_	9	case	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	_
@@ -178203,7 +178203,7 @@
 12	dispose	disposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 13	aujourd'hui	aujourd'hui	ADV	_	_	12	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	12	advmod	_	_
+15	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	12	advmod	_	EXTPOS=ADV|Type=Trans
 16-17	au	_	_	_	_	_	_	_	_
 16	à	à	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -181178,7 +181178,7 @@
 21	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
 22	origine	origine	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	20	punct	_	_
-24	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	12	advmod	_	_
+24	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	12	advmod	_	EXTPOS=ADV|Type=Trans
 25-26	au	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
@@ -187825,7 +187825,7 @@
 30	que	que	PRON	_	PronType=Rel	32	obj	_	_
 31	j'	je	PRON	_	Number=Sing|Person=1|PronType=Prs	32	nsubj	_	SpaceAfter=No
 32	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
-33	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	19	advmod	_	_
+33	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	19	advmod	_	EXTPOS=ADV|Type=Trans
 34	à	à	ADP	_	_	36	case	_	_
 35	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
 36	aide	aide	NOUN	_	Gender=Fem|Number=Sing	33	obl:arg	_	_
@@ -194060,7 +194060,7 @@
 29	qui	qui	PRON	_	PronType=Rel	30	nsubj	_	_
 30	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	24	acl:relcl	_	_
 31	lui-même	lui-même	PRON	_	Gender=Masc|Number=Sing|Person=3|Reflex=Yes	30	obl:mod	_	_
-32	suite	suite	ADV	_	Gender=Fem|Number=Sing	30	advmod	_	_
+32	suite	suite	NOUN	_	Gender=Fem|Number=Sing	30	advmod	_	EXTPOS=ADV|Type=Trans
 33	à	à	ADP	_	_	35	case	_	_
 34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	SIVOM	sivom	NOUN	_	Gender=Masc|Number=Sing	32	obl:arg	_	_
@@ -195432,7 +195432,7 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	chance	chance	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	6	advmod	_	_
+10	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	6	advmod	_	EXTPOS=ADV|Type=Trans
 11-12	au	_	_	_	_	_	_	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -203028,7 +203028,7 @@
 12	séjour	séjour	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	_
 13	rendu	rendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
 14	possible	possible	ADJ	_	Gender=Masc|Number=Sing	13	xcomp	_	_
-15	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	13	advmod	_	_
+15	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	13	advmod	_	EXTPOS=ADV|Type=Trans
 16	à	à	ADP	_	_	18	case	_	_
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	bourse	bourse	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	_
@@ -203441,7 +203441,7 @@
 28	mais	mais	CCONJ	_	_	68	cc	_	_
 29	qui	qui	PRON	_	PronType=Rel	68	nsubj:pass	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
-31	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	68	advmod	_	_
+31	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	68	advmod	_	EXTPOS=ADV|Type=Trans
 32-33	au	_	_	_	_	_	_	_	_
 32	à	à	ADP	_	_	34	case	_	_
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -205086,7 +205086,7 @@
 9	de	de	ADP	_	_	10	case	_	_
 10	reconstruction	reconstruction	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 11	précédentes	précédent	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
-12	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	3	advmod	_	_
+12	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	3	advmod	_	EXTPOS=ADV|Type=Trans
 13-14	aux	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
@@ -208486,7 +208486,7 @@
 18	%	%	SYM	_	_	15	obl:arg	_	EXTPOS=NOUN|Type=Trans
 19	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 20	exactitude	exactitude	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
-21	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	8	advmod	_	_
+21	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	8	advmod	_	EXTPOS=ADV|Type=Trans
 22	à	à	ADP	_	_	24	case	_	_
 23	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 24	marqueurs	marqueur	NOUN	_	Gender=Masc|Number=Plur	21	obl:arg	_	_
@@ -210515,7 +210515,7 @@
 11	de	de	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	langage	langage	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
-14	suite	suite	ADV	_	Gender=Fem|Number=Sing	7	advmod	_	_
+14	suite	suite	NOUN	_	Gender=Fem|Number=Sing	7	advmod	_	EXTPOS=ADV|Type=Trans
 15	à	à	ADP	_	_	17	case	_	_
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	lésion	lésion	NOUN	_	Gender=Fem|Number=Sing	14	obl:arg	_	_
@@ -212210,7 +212210,7 @@
 11	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	année	année	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 13	"	"	PUNCT	_	_	8	punct	_	_
-14	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	6	advmod	_	_
+14	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	6	advmod	_	EXTPOS=ADV|Type=Trans
 15	à	à	ADP	_	_	18	case	_	_
 16	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	det	_	_
 17	bons	bon	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	_
@@ -212591,7 +212591,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
 4	formé	former	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	4	advmod	_	_
+5	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	advmod	_	EXTPOS=ADV|Type=Trans
 6	à	à	ADP	_	_	7	case	_	_
 7	James	James	PROPN	_	_	5	obl:arg	_	_
 8	Stephan	Stephan	PROPN	_	_	7	flat:name	_	_
@@ -215212,7 +215212,7 @@
 1	En	en	ADP	_	_	2	case	_	_
 2	1314	1314	NUM	_	_	16	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	16	advmod	_	_
+4	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	16	advmod	_	EXTPOS=ADV|Type=Trans
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -220860,7 +220860,7 @@
 # sent_id = fr-ud-train_07880
 # text = « Grâce à notre technologie qui nous permet de référencer tous les marchands du Web, nous sommes en bonne voie pour accomplir notre ambition d'être le moteur de recherche de shopping le plus complet du Web », se félicite Bastien Duclaux, Directeur Général et cofondateur de Twenga.
 1	«	«	PUNCT	_	_	19	punct	_	_
-2	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	19	advmod	_	_
+2	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	19	advmod	_	EXTPOS=ADV|Type=Trans
 3	à	à	ADP	_	_	5	case	_	_
 4	notre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
 5	technologie	technologie	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	_
@@ -226643,7 +226643,7 @@
 
 # sent_id = fr-ud-train_08091
 # text = Grâce à sa victoire 80-63 face à la Corée lors du tournoi de qualification olympique en quart de finale, l'équipe de France de basket-ball féminine s'est qualifiée pour les Jeux olympiques.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	31	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	31	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
 4	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -226697,7 +226697,7 @@
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	d'	de	ADP	_	_	14	case	_	INMWE=Yes|SpaceAfter=No
 14	abord	abord	NOUN	_	Gender=Masc|Number=Sing	18	advmod	_	EXTPOS=ADV|Type=MWE
-15	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	9	advmod	_	_
+15	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	9	advmod	_	EXTPOS=ADV|Type=Trans
 16	à	à	ADP	_	_	18	case	_	_
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	réalisation	réalisation	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	_
@@ -227185,7 +227185,7 @@
 18	troupes	troupe	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
 19	gondoriennes	gondorien	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
 20	assiégées	assiéger	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
-21	suite	suite	ADV	_	Gender=Fem|Number=Sing	20	advmod	_	_
+21	suite	suite	NOUN	_	Gender=Fem|Number=Sing	20	advmod	_	EXTPOS=ADV|Type=Trans
 22	à	à	ADP	_	_	24	case	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	folie	folie	NOUN	_	Gender=Fem|Number=Sing	21	obl:arg	_	_
@@ -227801,7 +227801,7 @@
 14	devienne	devenir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
 15	numéro	numéro	NOUN	_	Gender=Masc|Number=Sing	14	xcomp	_	_
 16	un	un	NUM	_	_	15	nmod	_	_
-17	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	14	advmod	_	_
+17	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	14	advmod	_	EXTPOS=ADV|Type=Trans
 18	à	à	ADP	_	_	19	case	_	_
 19	Def	Def	PROPN	_	_	17	obl:arg	_	_
 20	Jam	Jam	PROPN	_	_	19	flat:name	_	_
@@ -230376,7 +230376,7 @@
 16	pour	pour	ADP	_	_	17	mark	_	_
 17	protéger	protéger	VERB	_	VerbForm=Inf	13	advcl	_	_
 18	Candy	Candy	PROPN	_	_	17	obj	_	_
-19	suite	suite	ADV	_	Gender=Fem|Number=Sing	17	advmod	_	_
+19	suite	suite	NOUN	_	Gender=Fem|Number=Sing	17	advmod	_	EXTPOS=ADV|Type=Trans
 20	à	à	ADP	_	_	22	case	_	_
 21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	manigance	manigance	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	_
@@ -235024,7 +235024,7 @@
 2	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	découvert	découvrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	4	advmod	_	_
+5	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	advmod	_	EXTPOS=ADV|Type=Trans
 6	à	à	ADP	_	_	8	case	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	flyer	flyer	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
@@ -241417,7 +241417,7 @@
 16	de	de	ADP	_	_	18	case	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	titre	titre	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
-19	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	9	advmod	_	_
+19	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	9	advmod	_	EXTPOS=ADV|Type=Trans
 20	à	à	ADP	_	_	22	case	_	_
 21	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	_
 22	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	_
@@ -242140,7 +242140,7 @@
 19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	pris	prendre	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 21	visuellement	visuellement	ADV	_	_	20	advmod	_	_
-22	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	20	advmod	_	_
+22	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	20	advmod	_	EXTPOS=ADV|Type=Trans
 23-24	aux	_	_	_	_	_	_	_	_
 23	à	à	ADP	_	_	25	case	_	_
 24	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
@@ -243446,7 +243446,7 @@
 7	score	score	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	à	à	ADP	_	_	10	reparandum	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	reparandum	_	_
-10	suite	suite	ADV	_	Gender=Fem|Number=Sing	5	advmod	_	_
+10	suite	suite	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	EXTPOS=ADV|Type=Trans
 11	à	à	ADP	_	_	13	case	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	perte	perte	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	_
@@ -247251,7 +247251,7 @@
 12	homme	homme	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	surtout	surtout	ADV	_	_	18	advmod	_	_
-15	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	7	advmod	_	_
+15	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	7	advmod	_	EXTPOS=ADV|Type=Trans
 16	à	à	ADP	_	_	18	case	_	_
 17	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	det	_	_
 18	camarades	camarade	NOUN	_	Gender=Masc|Number=Plur	15	obl:arg	_	SpaceAfter=No
@@ -247929,7 +247929,7 @@
 2	dernières	dernier	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
 3	années	année	NOUN	_	Gender=Fem|Number=Plur	17	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	suite	suite	ADV	_	Gender=Fem|Number=Sing	17	advmod	_	_
+5	suite	suite	NOUN	_	Gender=Fem|Number=Sing	17	advmod	_	EXTPOS=ADV|Type=Trans
 6	à	à	ADP	_	_	8	case	_	_
 7	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
@@ -261653,7 +261653,7 @@
 19	qui	qui	PRON	_	PronType=Rel	21	nsubj	_	_
 20	se	se	PRON	_	Person=3|PronType=Prs	21	expl:pass	_	_
 21	développe	développer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
-22	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	21	advmod	_	_
+22	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	21	advmod	_	EXTPOS=ADV|Type=Trans
 23	à	à	ADP	_	_	25	case	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	22	obl:arg	_	_
@@ -263333,7 +263333,7 @@
 
 # sent_id = fr-ud-train_09395
 # text = Suite au suivi de Madame Flipo, j'ai perdu 5 kilos en 2 mois grâce à son programme diététique, qui m'a permis de mettre en place des repas plus équilibrés et correspondant à mes goûts.
-1	Suite	suite	ADV	_	Gender=Fem|Number=Sing	11	advmod	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	11	advmod	_	EXTPOS=ADV|Type=Trans
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	4	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -263350,7 +263350,7 @@
 14	en	en	ADP	_	_	16	case	_	_
 15	2	2	NUM	_	_	16	nummod	_	_
 16	mois	mois	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
-17	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	11	advmod	_	_
+17	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	11	advmod	_	EXTPOS=ADV|Type=Trans
 18	à	à	ADP	_	_	20	case	_	_
 19	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det	_	_
 20	programme	programme	NOUN	_	Gender=Masc|Number=Sing	17	obl:arg	_	_
@@ -269009,7 +269009,7 @@
 12	équipes	équipe	NOUN	_	Gender=Fem|Number=Plur	7	obl:agent	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	connues	connaître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	_
-15	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	14	advmod	_	_
+15	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	14	advmod	_	EXTPOS=ADV|Type=Trans
 16	à	à	ADP	_	_	18	case	_	_
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	classement	classement	NOUN	_	Gender=Masc|Number=Sing	15	obl:arg	_	_
@@ -269157,7 +269157,7 @@
 25	place	place	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
 27	notamment	notamment	ADV	_	_	32	advmod	_	_
-28	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	14	advmod	_	_
+28	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	14	advmod	_	EXTPOS=ADV|Type=Trans
 29	à	à	ADP	_	_	32	case	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 31	première	premier	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	_
@@ -270993,7 +270993,7 @@
 
 # sent_id = fr-ud-train_09674
 # text = Suite à des voyages au Brésil, elle y observe l'importance de l'élément religieux dans la structuration des identités et décide de travailler dans ce domaine.
-1	Suite	suite	ADV	_	Gender=Fem|Number=Sing	11	advmod	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	11	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	voyages	voyage	NOUN	_	Gender=Masc|Number=Plur	1	obl:arg	_	_
@@ -273134,7 +273134,7 @@
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	chaleur	chaleur	NOUN	_	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	_
-33	suite	suite	ADV	_	Gender=Fem|Number=Sing	17	advmod	_	_
+33	suite	suite	NOUN	_	Gender=Fem|Number=Sing	17	advmod	_	EXTPOS=ADV|Type=Trans
 34-35	au	_	_	_	_	_	_	_	_
 34	à	à	ADP	_	_	36	case	_	_
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
@@ -275466,7 +275466,7 @@
 14	en	en	ADP	_	_	15	case	_	_
 15	dégringolade	dégringolade	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	suite	suite	ADV	_	Gender=Fem|Number=Sing	13	advmod	_	_
+17	suite	suite	NOUN	_	Gender=Fem|Number=Sing	13	advmod	_	EXTPOS=ADV|Type=Trans
 18-19	aux	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
@@ -275815,7 +275815,7 @@
 
 # sent_id = fr-ud-train_09841
 # text = Suite à l'abolition des épaulettes dorées, le grade de colonel a été fixé dans la couleur Argent dès 1851.
-1	Suite	suite	ADV	_	Gender=Fem|Number=Sing	16	advmod	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	16	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	abolition	abolition	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -275974,7 +275974,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	seulement	seulement	ADV	_	_	4	advmod	_	_
 4	connu	connaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	4	advmod	_	_
+5	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	advmod	_	EXTPOS=ADV|Type=Trans
 6	à	à	ADP	_	_	8	case	_	_
 7	six	six	NUM	_	_	8	nummod	_	_
 8	vertèbres	vertèbre	NOUN	_	Gender=Fem|Number=Plur	5	obl:arg	_	_
@@ -277501,7 +277501,7 @@
 # text = Puis, suite à l'attaque de Pearl Harbor, sa carrière est suspendue de 1942 à 1945, du fait de l'internement de sa famille, en raison de ses origines.
 1	Puis	puis	ADV	_	_	14	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	suite	suite	ADV	_	Gender=Fem|Number=Sing	14	advmod	_	_
+3	suite	suite	NOUN	_	Gender=Fem|Number=Sing	14	advmod	_	EXTPOS=ADV|Type=Trans
 4	à	à	ADP	_	_	6	case	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	attaque	attaque	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
@@ -278772,7 +278772,7 @@
 5	œil	œil	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	droit	droit	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	suite	suite	ADV	_	Gender=Fem|Number=Sing	3	advmod	_	_
+8	suite	suite	NOUN	_	Gender=Fem|Number=Sing	3	advmod	_	EXTPOS=ADV|Type=Trans
 9	à	à	ADP	_	_	11	case	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	agression	agression	NOUN	_	Gender=Fem|Number=Sing	8	obl:arg	_	_
@@ -279879,7 +279879,7 @@
 7	1er	1er	NUM	_	_	4	obl	_	_
 8	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 9	1949	1949	NUM	_	_	8	nmod	_	_
-10	suite	suite	ADV	_	Gender=Fem|Number=Sing	4	advmod	_	_
+10	suite	suite	NOUN	_	Gender=Fem|Number=Sing	4	advmod	_	EXTPOS=ADV|Type=Trans
 11	à	à	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	fusion	fusion	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	_
@@ -283154,7 +283154,7 @@
 
 # sent_id = fr-ud-train_10111
 # text = Grâce à lui, la structure des terres fictives de la géopolitique a pris de l'ampleur et une importance notable au sein de l'organisation.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	15	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	15	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	3	case	_	_
 3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	1	obl:arg	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -284770,13 +284770,13 @@
 5	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	desserts	dessert	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
-8	faute	faute	ADV	_	_	5	advmod	_	_
+8	faute	faute	NOUN	_	_	5	advmod	_	EXTPOS=ADV|Type=Trans
 9	de	de	ADP	_	_	10	case	_	_
 10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	8	obl:arg	_	_
 11	ni	ni	CCONJ	_	_	13	cc	_	_
 12	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	cafés	café	NOUN	_	Gender=Masc|Number=Plur	7	conj	_	_
-14	faute	faute	ADV	_	_	13	advmod	_	_
+14	faute	faute	NOUN	_	_	13	advmod	_	EXTPOS=ADV|Type=Trans
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -285818,7 +285818,7 @@
 22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
 23	définitivement	définitivement	ADV	_	_	24	advmod	_	_
 24	propulsée	propulser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	advcl:cleft	_	_
-25	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	24	advmod	_	_
+25	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	24	advmod	_	EXTPOS=ADV|Type=Trans
 26	à	à	ADP	_	_	27	case	_	_
 27	Tesis	Tesis	PROPN	_	_	25	obl:arg	_	_
 28	et	et	CCONJ	_	_	29	cc	_	_
@@ -295784,7 +295784,7 @@
 18	en	en	ADP	_	_	20	case	_	_
 19	grande	grand	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 20	partie	partie	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
-21	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	15	advmod	_	_
+21	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	15	advmod	_	EXTPOS=ADV|Type=Trans
 22	à	à	ADP	_	_	23	case	_	_
 23	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	21	obl:arg	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
@@ -302174,7 +302174,7 @@
 7	en	en	ADP	_	_	9	case	_	_
 8	quelques	quelque	DET	_	Gender=Masc|Number=Plur	9	det	_	_
 9	mois	mois	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
-10	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	6	advmod	_	_
+10	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	6	advmod	_	EXTPOS=ADV|Type=Trans
 11	à	à	ADP	_	_	13	case	_	_
 12	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	travailleurs	travailleur	NOUN	_	Gender=Masc|Number=Plur	10	obl:arg	_	_
@@ -302324,7 +302324,7 @@
 8	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:pass	_	_
 9	dépanné	dépanner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
 10	rapidement	rapidement	ADV	_	_	9	advmod	_	_
-11	suite	suite	ADV	_	Gender=Fem|Number=Sing	9	advmod	_	_
+11	suite	suite	NOUN	_	Gender=Fem|Number=Sing	9	advmod	_	EXTPOS=ADV|Type=Trans
 12	à	à	ADP	_	_	14	case	_	_
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	virus	virus	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	_
@@ -302676,7 +302676,7 @@
 1	Elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	célèbre	célèbre	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
-4	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	3	advmod	_	_
+4	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	3	advmod	_	EXTPOS=ADV|Type=Trans
 5	à	à	ADP	_	_	7	case	_	_
 6	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
 7	église	église	NOUN	_	Gender=Fem|Number=Sing	4	obl:arg	_	_
@@ -303170,7 +303170,7 @@
 3	en	en	ADP	_	_	4	case	_	INMWE=Yes
 4	effet	effet	NOUN	_	Gender=Masc|Number=Sing	15	advmod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	15	advmod	_	_
+6	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	15	advmod	_	EXTPOS=ADV|Type=Trans
 7	à	à	ADP	_	_	9	case	_	_
 8	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	_
 9	licences	licence	NOUN	_	Gender=Fem|Number=Plur	6	obl:arg	_	_
@@ -304544,7 +304544,7 @@
 4	ensuite	ensuite	ADV	_	_	3	advmod	_	_
 5	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	probablement	probablement	ADV	_	_	7	advmod	_	_
-7	suite	suite	ADV	_	Gender=Fem|Number=Sing	3	advmod	_	_
+7	suite	suite	NOUN	_	Gender=Fem|Number=Sing	3	advmod	_	EXTPOS=ADV|Type=Trans
 8	à	à	ADP	_	_	10	case	_	_
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	fédération	fédération	NOUN	_	Gender=Fem|Number=Sing	7	obl:arg	_	_
@@ -312945,7 +312945,7 @@
 30	de	de	ADP	_	_	32	case	_	_
 31	157	157	NUM	_	_	32	nummod	_	_
 32	km/h	kilomètre/heure	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
-33	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	20	advmod	_	_
+33	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	20	advmod	_	EXTPOS=ADV|Type=Trans
 34	à	à	ADP	_	_	36	case	_	_
 35	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
 36	vents	vent	NOUN	_	Gender=Masc|Number=Plur	33	obl:arg	_	_
@@ -315345,7 +315345,7 @@
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 23	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	aux:pass	_	_
 24	gagnée	gagner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	parataxis	_	_
-25	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	24	advmod	_	_
+25	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	24	advmod	_	EXTPOS=ADV|Type=Trans
 26	à	à	ADP	_	_	28	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	force	force	NOUN	_	Gender=Fem|Number=Sing	25	obl:arg	_	_
@@ -316643,7 +316643,7 @@
 18	exprimer	exprimer	VERB	_	VerbForm=Inf	16	acl	_	_
 19	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	heure	heure	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
-21	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	18	advmod	_	_
+21	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	18	advmod	_	EXTPOS=ADV|Type=Trans
 22-23	au	_	_	_	_	_	_	_	_
 22	à	à	ADP	_	_	24	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -317591,7 +317591,7 @@
 24	remarquée	remarquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	24	punct	_	_
 26	notamment	notamment	ADV	_	_	27	advmod	_	_
-27	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	5	advmod	_	_
+27	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	EXTPOS=ADV|Type=Trans
 28-29	au	_	_	_	_	_	_	_	_
 28	à	à	ADP	_	_	30	case	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
@@ -320878,7 +320878,7 @@
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	suivante	suivant	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6	:	:	PUNCT	_	_	17	punct	_	_
-7	suite	suite	ADV	_	Gender=Fem|Number=Sing	17	advmod	_	_
+7	suite	suite	NOUN	_	Gender=Fem|Number=Sing	17	advmod	_	EXTPOS=ADV|Type=Trans
 8	à	à	ADP	_	_	10	case	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	accident	accident	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	SpaceAfter=No
@@ -329768,7 +329768,7 @@
 8	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
 9	très	très	ADV	_	_	10	advmod	_	_
 10	attrayant	attrayant	ADJ	_	Gender=Masc|Number=Sing	6	xcomp	_	_
-11	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	10	advmod	_	_
+11	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	10	advmod	_	EXTPOS=ADV|Type=Trans
 12	à	à	ADP	_	_	14	case	_	_
 13	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	chambres	chambre	NOUN	_	Gender=Fem|Number=Plur	11	obl:arg	_	_
@@ -329997,7 +329997,7 @@
 22	de	de	ADP	_	_	23	case	_	_
 23	Lille	Lille	PROPN	_	_	21	nmod	_	_
 24	et	et	CCONJ	_	_	35	cc	_	_
-25	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	35	advmod	_	_
+25	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	35	advmod	_	EXTPOS=ADV|Type=Trans
 26	à	à	ADP	_	_	28	case	_	_
 27	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det	_	_
 28	gare	gare	NOUN	_	Gender=Fem|Number=Sing	25	obl:arg	_	_
@@ -330505,7 +330505,7 @@
 4	à	à	ADP	_	_	6	mark	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	6	expl:pass	_	_
 6	spécialiser	spécialiser	VERB	_	VerbForm=Inf	3	xcomp	_	_
-7	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	3	advmod	_	_
+7	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	3	advmod	_	EXTPOS=ADV|Type=Trans
 8-9	aux	_	_	_	_	_	_	_	_
 8	à	à	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
@@ -331068,7 +331068,7 @@
 # text = Cependant, grâce à ses relations secrètes avec le domaine de Kubota, il a pu se soustraire à la punition du nouveau gouvernement Meiji.
 1	Cependant	cependant	ADV	_	_	16	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	16	advmod	_	_
+3	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	16	advmod	_	EXTPOS=ADV|Type=Trans
 4	à	à	ADP	_	_	6	case	_	_
 5	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det	_	_
 6	relations	relation	NOUN	_	Gender=Fem|Number=Plur	3	obl:arg	_	_
@@ -335503,7 +335503,7 @@
 
 # sent_id = fr-ud-train_12022
 # text = Grâce à lui, les médecins britanniques puis ceux des forces alliées parvinrent ainsi à sauver des milliers de vies.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	14	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	14	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	3	case	_	_
 3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	1	obl:arg	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
@@ -338963,7 +338963,7 @@
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	devint	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
 19	célèbre	célèbre	ADJ	_	Gender=Fem|Number=Sing	18	xcomp	_	_
-20	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	18	advmod	_	_
+20	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	18	advmod	_	EXTPOS=ADV|Type=Trans
 21	à	à	ADP	_	_	23	case	_	_
 22	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	23	det	_	_
 23	sources	source	NOUN	_	Gender=Fem|Number=Plur	20	obl:arg	_	_
@@ -339004,7 +339004,7 @@
 2	étanchéité	étanchéité	NOUN	_	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
 3	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux:pass	_	_
 4	obtenue	obtenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	4	advmod	_	_
+5	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	4	advmod	_	EXTPOS=ADV|Type=Trans
 6	à	à	ADP	_	_	8	case	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	enduit	enduit	NOUN	_	Gender=Masc|Number=Sing	5	obl:arg	_	_
@@ -340151,7 +340151,7 @@
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	beaucoup	beaucoup	ADV	_	_	12	advmod	_	_
 12	plus	plus	ADV	_	_	16	advmod	_	_
-13	grâce	grâce	ADV	_	_	5	advmod	_	_
+13	grâce	grâce	NOUN	_	_	5	advmod	_	EXTPOS=ADV|Type=Trans
 14-15	aux	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
 15	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
@@ -340268,7 +340268,7 @@
 
 # sent_id = fr-ud-train_12194
 # text = Suite à la parution du livre Place Beauvau--La face cachée de la police, l'Inspection Générale de la Police Nationale IGPN a enquêté sur des allégations de « mauvais traitements » au cours de la garde à vue de deux islamistes arrêtés en 1995 et condamnés à perpétuité pour les attentats commis à Paris ;
-1	Suite	suite	ADV	_	Gender=Fem|Number=Sing	27	advmod	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	27	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	parution	parution	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -343295,7 +343295,7 @@
 10	onzième	onzième	ADJ	_	Gender=Masc|Number=Sing	9	xcomp	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	24	punct	_	_
 12	mais	mais	CCONJ	_	_	24	cc	_	_
-13	suite	suite	ADV	_	Gender=Fem|Number=Sing	24	advmod	_	_
+13	suite	suite	NOUN	_	Gender=Fem|Number=Sing	24	advmod	_	EXTPOS=ADV|Type=Trans
 14	à	à	ADP	_	_	16	case	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	réforme	réforme	NOUN	_	Gender=Fem|Number=Sing	13	obl:arg	_	_
@@ -343735,7 +343735,7 @@
 
 # sent_id = fr-ud-train_12311
 # text = Suite à une décision du Congrès de Vienne, en 1815, la commune de Glovelier a été attribuée au canton de Berne.
-1	Suite	suite	ADV	_	Gender=Fem|Number=Sing	20	advmod	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	20	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	décision	décision	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -344208,7 +344208,7 @@
 
 # sent_id = fr-ud-train_12331
 # text = Grâce à ce titre de champion d'Italie, le Milan AC est directement qualifié pour les phases de poules de la compétition.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	15	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	15	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
 4	titre	titre	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
@@ -348607,7 +348607,7 @@
 
 # sent_id = fr-ud-train_12486
 # text = Grâce à Claude Vanony, Dominique Walter participera à son Olympia (Paris) le 15 janvier 2012 avec ses chansons Vosgiennes.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	8	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	8	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	3	case	_	_
 3	Claude	Claude	PROPN	_	_	1	obl:arg	_	_
 4	Vanony	Vanony	PROPN	_	_	3	flat:name	_	SpaceAfter=No
@@ -349735,7 +349735,7 @@
 5	s'	se	PRON	_	Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
 6	y	y	PRON	_	_	7	obl:mod	_	_
 7	installèrent	installer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-8	suite	suite	ADV	_	Gender=Fem|Number=Sing	7	advmod	_	_
+8	suite	suite	NOUN	_	Gender=Fem|Number=Sing	7	advmod	_	EXTPOS=ADV|Type=Trans
 9-10	aux	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
@@ -354509,7 +354509,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	parti	parti	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 4	éclate	éclater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	faute	faute	ADV	_	_	4	advmod	_	_
+5	faute	faute	NOUN	_	_	4	advmod	_	EXTPOS=ADV|Type=Trans
 6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 7	entente	entente	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
 8	sur	sur	ADP	_	_	10	case	_	_
@@ -360890,7 +360890,7 @@
 15	de	de	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	monde	monde	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-18	suite	suite	ADV	_	Gender=Fem|Number=Sing	5	advmod	_	_
+18	suite	suite	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	EXTPOS=ADV|Type=Trans
 19	à	à	ADP	_	_	21	case	_	_
 20	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 21	blessures	blessure	NOUN	_	Gender=Fem|Number=Plur	18	obl:arg	_	SpaceAfter=No
@@ -364001,7 +364001,7 @@
 19	extérieur	extérieur	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
 21	principalement	principalement	ADV	_	_	22	advmod	_	_
-22	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	10	advmod	_	_
+22	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	10	advmod	_	EXTPOS=ADV|Type=Trans
 23-24	au	_	_	_	_	_	_	_	_
 23	à	à	ADP	_	_	25	case	_	_
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -367450,7 +367450,7 @@
 16	pays	pays	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	notamment	notamment	ADV	_	_	22	advmod	_	_
-19	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	2	advmod	_	_
+19	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	2	advmod	_	EXTPOS=ADV|Type=Trans
 20	à	à	ADP	_	_	22	case	_	_
 21	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	22	det	_	_
 22	geysers	geyser	NOUN	_	Gender=Masc|Number=Plur	19	obl:arg	_	_
@@ -367890,7 +367890,7 @@
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 13	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux:pass	_	_
 14	blessés	blesser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-15	suite	suite	ADV	_	Gender=Fem|Number=Sing	14	advmod	_	_
+15	suite	suite	NOUN	_	Gender=Fem|Number=Sing	14	advmod	_	EXTPOS=ADV|Type=Trans
 16	à	à	ADP	_	_	18	case	_	_
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	immolation	immolation	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	_
@@ -368575,7 +368575,7 @@
 
 # sent_id = fr-ud-train_13165
 # text = Suite à cette interaction, le psychanalyste peut être conduit à reprendre temporairement sa propre analyse.
-1	Suite	suite	ADV	_	Gender=Fem|Number=Sing	8	advmod	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	8	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	interaction	interaction	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	SpaceAfter=No
@@ -389290,7 +389290,7 @@
 5	organisation	organisation	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 6	sans	sans	ADP	_	_	7	case	_	_
 7	faille	faille	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-8	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	3	advmod	_	_
+8	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	3	advmod	_	EXTPOS=ADV|Type=Trans
 9	à	à	ADP	_	_	12	case	_	_
 10	de	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 11	vrais	vrai	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
@@ -390271,7 +390271,7 @@
 17	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	usines	usine	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
 19	construites	construire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
-20	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	19	advmod	_	_
+20	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	19	advmod	_	EXTPOS=ADV|Type=Trans
 21-22	au	_	_	_	_	_	_	_	_
 21	à	à	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
@@ -390332,7 +390332,7 @@
 
 # sent_id = fr-ud-train_13936
 # text = Grâce à l'énergie produite par ses réacteurs nucléaires, l'eau est chauffée jusqu'à évaporation et la vapeur d'eau condensée est récupérée en refroidissant.
-1	Grâce	grâce	ADV	_	Gender=Fem|Number=Sing	14	advmod	_	_
+1	Grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	14	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	énergie	énergie	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -394166,7 +394166,7 @@
 
 # sent_id = fr-ud-train_14076
 # text = Suite à une réunion du Directoire et du Conseil des ministres le 15 novembre 1919 à Kamianets-Podilskyï, il fut décidé qu'Andry Makarenko et Fedir Shvets seraient chargé des affaires publiques.
-1	Suite	suite	ADV	_	Gender=Fem|Number=Sing	24	advmod	_	_
+1	Suite	suite	NOUN	_	Gender=Fem|Number=Sing	24	advmod	_	EXTPOS=ADV|Type=Trans
 2	à	à	ADP	_	_	4	case	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	réunion	réunion	NOUN	_	Gender=Fem|Number=Sing	1	obl:arg	_	_
@@ -395192,7 +395192,7 @@
 32	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
 33	année	année	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
-35	suite	suite	ADV	_	Gender=Fem|Number=Sing	11	advmod	_	_
+35	suite	suite	NOUN	_	Gender=Fem|Number=Sing	11	advmod	_	EXTPOS=ADV|Type=Trans
 36-37	au	_	_	_	_	_	_	_	_
 36	à	à	ADP	_	_	39	case	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
@@ -395984,7 +395984,7 @@
 19	taux	taux	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 20	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
 21	intérêt	intérêt	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
-22	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	9	advmod	_	_
+22	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	9	advmod	_	EXTPOS=ADV|Type=Trans
 23	à	à	ADP	_	_	25	case	_	_
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	approche	approche	NOUN	_	Gender=Fem|Number=Sing	22	obl:arg	_	_
@@ -397185,7 +397185,7 @@
 18	achever	achever	VERB	_	VerbForm=Inf	17	xcomp	_	_
 19	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det	_	_
 20	travail	travail	NOUN	_	Gender=Masc|Number=Sing	18	obj	_	_
-21	grâce	grâce	ADV	_	Gender=Fem|Number=Sing	18	advmod	_	_
+21	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	18	advmod	_	EXTPOS=ADV|Type=Trans
 22	à	à	ADP	_	_	23	case	_	_
 23	Bobaljević	Bobaljević	PROPN	_	_	21	obl:arg	_	_
 24	Marin	Marin	PROPN	_	_	23	flat:name	_	SpaceAfter=No
@@ -401456,7 +401456,7 @@
 21	gauchisme	gauchisme	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
 22	»	»	PUNCT	_	_	21	punct	_	_
 23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
-24	suite	suite	ADV	_	Gender=Fem|Number=Sing	8	advmod	_	_
+24	suite	suite	NOUN	_	Gender=Fem|Number=Sing	8	advmod	_	EXTPOS=ADV|Type=Trans
 25	à	à	ADP	_	_	27	case	_	_
 26	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	adhésion	adhésion	NOUN	_	Gender=Fem|Number=Sing	24	obl:arg	_	_
@@ -405813,7 +405813,7 @@
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	Champions	Champions	PROPN	_	_	8	nmod	_	_
 12	2004-2005	2004-2005	NUM	_	_	8	nmod	_	_
-13	suite	suite	ADV	_	Gender=Fem|Number=Sing	5	advmod	_	_
+13	suite	suite	NOUN	_	Gender=Fem|Number=Sing	5	advmod	_	EXTPOS=ADV|Type=Trans
 14	à	à	ADP	_	_	17	case	_	_
 15	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	_
 16	dix-septième	dix-septième	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
@@ -406253,7 +406253,7 @@
 1	En	en	ADP	_	_	2	case	_	_
 2	1981	1981	NUM	_	_	18	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	suite	suite	ADV	_	Gender=Fem|Number=Sing	18	advmod	_	_
+4	suite	suite	NOUN	_	Gender=Fem|Number=Sing	18	advmod	_	EXTPOS=ADV|Type=Trans
 5	notamment	notamment	ADV	_	_	4	advmod	_	_
 6	à	à	ADP	_	_	9	case	_	_
 7	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det	_	_
