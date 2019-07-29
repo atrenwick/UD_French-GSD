@@ -10508,7 +10508,7 @@
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 8	également	également	ADV	_	_	9	advmod	_	_
 9	intervenue	intervenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-10	étant	être	AUX	_	Tense=Pres|VerbForm=Part	11	aux	_	INMWE=Yes
+10	étant	être	AUX	_	Tense=Pres|VerbForm=Part	11	aux:pass	_	INMWE=Yes
 11	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	case	_	EXTPOS=ADP|Type=MWE
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	nature	nature	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
@@ -61057,7 +61057,7 @@
 # sent_id = fr-ud-train_02173
 # text = « Étant donné l'avancée du projet, il me semble impossible que l'on n'obtienne pas l'autorisation », lâche le maire gersois, Yvon Montané.
 1	«	«	PUNCT	_	_	12	punct	_	_
-2	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	3	aux	_	INMWE=Yes
+2	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	3	aux:pass	_	INMWE=Yes
 3	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	case	_	EXTPOS=ADP|Type=MWE
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	avancée	avancée	NOUN	_	Gender=Fem|Number=Sing	12	obl:mod	_	_
@@ -67101,7 +67101,7 @@
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	valeur	valeur	NOUN	_	Gender=Fem|Number=Sing	14	acl:relcl	_	_
 19	résiduelle	résiduel	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
-20	étant	être	AUX	_	Tense=Pres|VerbForm=Part	21	aux	_	INMWE=Yes
+20	étant	être	AUX	_	Tense=Pres|VerbForm=Part	21	aux:pass	_	INMWE=Yes
 21	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	mark	_	EXTPOS=ADP|Type=MWE
 22	qu'	que	SCONJ	_	_	25	mark	_	SpaceAfter=No
 23	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
@@ -70032,7 +70032,7 @@
 27	en	en	ADP	_	_	28	case	_	_
 28	601	601	NUM	_	_	26	obl	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	37	punct	_	_
-30	étant	être	AUX	_	Tense=Pres|VerbForm=Part	31	aux	_	INMWE=Yes
+30	étant	être	AUX	_	Tense=Pres|VerbForm=Part	31	aux:pass	_	INMWE=Yes
 31	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	mark	_	EXTPOS=ADP|Type=MWE
 32	que	que	SCONJ	_	_	37	mark	_	_
 33	Grégoire	Grégoire	PROPN	_	_	37	nsubj	_	_
@@ -123826,7 +123826,7 @@
 7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 8	deux	deux	NUM	_	_	9	nummod	_	_
 9	places	place	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
-10	étant	être	AUX	_	Tense=Pres|VerbForm=Part	11	aux	_	INMWE=Yes
+10	étant	être	AUX	_	Tense=Pres|VerbForm=Part	11	aux:pass	_	INMWE=Yes
 11	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	case	_	EXTPOS=ADP|Type=MWE
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	tremplin	tremplin	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
@@ -128531,7 +128531,7 @@
 
 # sent_id = fr-ud-train_04607
 # text = Étant donné l'ampleur du débat, la revue la "Nouvelle critique" accepte de publier, parmi quelques contributions d'instituteurs communistes membres du mouvement Freinet, une longue lettre signée P. Cahen (il s'agit de Pauline Cahen).
-1	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	2	aux	_	INMWE=Yes
+1	Étant	être	AUX	_	Tense=Pres|VerbForm=Part	2	aux:pass	_	INMWE=Yes
 2	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	case	_	EXTPOS=ADP|Type=MWE
 3	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
 4	ampleur	ampleur	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	_
