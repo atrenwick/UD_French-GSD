@@ -13069,7 +13069,7 @@
 10	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
 11	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 12	Le	Le	DET	_	_	13	det	_	INTITLE=Yes
-13	Pont	Pont	PROPN	_	_	10	xcomp	_	EXTPOS=PROPN|Type=Title
+13	Pont	pont	NOUN	_	Gender=Masc|Number=Sing	10	xcomp	_	EXTPOS=PROPN|Type=Title
 14	Bourlard	Bourlard	PROPN	_	_	13	nmod	_	INTITLE=Yes|SpaceAfter=No
 15	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
@@ -20592,7 +20592,7 @@
 17	Joseph	Joseph	PROPN	_	_	15	nmod	_	_
 18	Hussenot	Hussenot	PROPN	_	_	17	flat:name	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	_
-20	L'	L'	DET	_	_	21	det	_	SpaceAfter=No
+20	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	extase	extase	NOUN	_	Gender=Fem|Number=Sing	15	appos	_	_
 22-23	des	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	24	case	_	_
@@ -41057,7 +41057,7 @@
 36	,	,	PUNCT	_	_	40	punct	_	_
 37	ni	ni	CCONJ	_	_	40	cc	_	_
 38	à	à	ADP	_	_	40	case	_	_
-39	l'	l'	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
+39	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
 40	enfer	enfer	NOUN	_	Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -57414,10 +57414,10 @@
 22	de	de	ADP	_	_	23	case	_	_
 23	journaux	journal	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
 24	comme	comme	ADP	_	_	26	case	_	_
-25	L'	L'	DET	_	_	26	det	_	SpaceAfter=No
+25	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	auto	auto	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
 27	ou	ou	CCONJ	_	_	29	cc	_	_
-28	Le	Le	DET	_	_	29	det	_	_
+28	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	vélo	vélo	NOUN	_	Gender=Masc|Number=Sing	26	conj	_	_
 30	en	en	ADP	_	_	31	case	_	_
 31	France	France	PROPN	_	_	29	nmod	_	SpaceAfter=No
@@ -95906,7 +95906,7 @@
 12	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
 13	littéralement	littéralement	ADV	_	_	16	advmod	_	_
 14	:	:	PUNCT	_	_	13	punct	_	_
-15	L'	L'	DET	_	_	16	det	_	SpaceAfter=No
+15	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	évenement	évènement	NOUN	_	Gender=Masc|Number=Sing	11	appos	_	_
 17-18	du	_	_	_	_	_	_	_	_
 17	de	de	ADP	_	_	19	case	_	_
@@ -127244,8 +127244,8 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	revue	revue	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
-9	L'	L'	DET	_	_	10	det	_	SpaceAfter=No
-10	Action	Action	PROPN	_	_	8	appos	_	_
+9	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	Action	action	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
 11	nationale	nationale	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	5	punct	_	_
 13	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
@@ -134922,7 +134922,7 @@
 
 # sent_id = fr-ud-train_04830
 # text = L'un des deux ne dit pas la vérité.
-1	L'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	un	un	PRON	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -156551,7 +156551,7 @@
 
 # sent_id = fr-ud-train_05594
 # text = L'un reste au bas de la pente alors que le second s'approche au plus près des Saxons.
-1	L'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	un	un	PRON	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4-5	au	_	_	_	_	_	_	_	_
@@ -169813,7 +169813,7 @@
 
 # sent_id = fr-ud-train_06074
 # text = L'un des sites de cam-girls les plus réputés inclut JenniCam.com.
-1	L'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	un	un	PRON	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -181744,8 +181744,8 @@
 2	premier	premier	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 3	livre	livre	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:pass	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
-5	L'	L'	DET	_	_	6	det	_	SpaceAfter=No
-6	Affaire	Affaire	PROPN	_	_	3	appos	_	_
+5	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	Affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	_
 7	Dreyfus	Dreyfus	PROPN	_	_	6	appos	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
 9	publié	publier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -196249,7 +196249,7 @@
 24	association	association	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
 25	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
 26	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	INTITLE=Yes
-27	Amis	Amis	PROPN	_	_	24	appos	_	EXTPOS=PROPN|Type=Title
+27	Amis	ami	NOUN	_	Gender=Masc|Number=Plur	24	appos	_	EXTPOS=PROPN|Type=Title
 28	de	de	ADP	_	_	29	case	_	INTITLE=Yes
 29	Saint-Gilles	Saint-Gilles	PROPN	_	_	27	nmod	_	INTITLE=Yes|SpaceAfter=No
 30	"	"	PUNCT	_	_	27	punct	_	_
@@ -218096,7 +218096,7 @@
 6	illustre	illustrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 8	«	«	PUNCT	_	_	9	punct	_	_
-9	Volonté	Volonté	PROPN	_	_	6	obj	_	SpaceAfter=No
+9	Volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 10	--	--	PUNCT	_	_	11	punct	_	SpaceAfter=No
 11	Thelema	Thelema	PROPN	_	_	9	appos	_	_
 12	»	»	PUNCT	_	_	9	punct	_	_
@@ -218106,18 +218106,18 @@
 16	clés	clé	NOUN	_	Gender=Fem|Number=Plur	6	obl:arg	_	_
 17	comme	comme	ADP	_	_	23	case	_	_
 18	«	«	PUNCT	_	_	23	punct	_	INTITLE=Yes
-19	L'	L'	DET	_	_	20	det	_	INTITLE=Yes|SpaceAfter=No
-20	Amour	Amour	PROPN	_	_	23	nsubj	_	INTITLE=Yes
+19	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	INTITLE=Yes|SpaceAfter=No
+20	Amour	amour	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	INTITLE=Yes
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	INTITLE=Yes
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	INTITLE=Yes
-23	Loi	Loi	PROPN	_	_	16	nmod	_	EXTPOS=PROPN|SpaceAfter=No|Type=Title
+23	Loi	loi	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	EXTPOS=PROPN|SpaceAfter=No|Type=Title
 24	,	,	PUNCT	_	_	26	punct	_	INTITLE=Yes
 25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	INTITLE=Yes|SpaceAfter=No
-26	Amour	Amour	PROPN	_	_	23	parataxis	_	INTITLE=Yes
+26	Amour	amour	NOUN	_	Gender=Masc|Number=Sing	23	parataxis	_	INTITLE=Yes
 27	soumis	soumettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	INTITLE=Yes
 28	à	à	ADP	_	_	30	case	_	INTITLE=Yes
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	INTITLE=Yes
-30	Volonté	Volonté	PROPN	_	_	27	obl:arg	_	INTITLE=Yes
+30	Volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	27	obl:arg	_	INTITLE=Yes
 31	»	»	PUNCT	_	_	23	punct	_	INTITLE=Yes
 32	;	;	PUNCT	_	_	6	punct	_	_
 
@@ -229180,7 +229180,7 @@
 22	et	et	CCONJ	_	_	24	cc	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	quatrième	quatrième	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
-25	L'	L'	DET	_	_	26	det	_	SpaceAfter=No
+25	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 26	exode	exode	NOUN	_	Gender=Masc|Number=Sing	24	appos	_	_
 27	de	de	ADP	_	_	29	case	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -233156,7 +233156,7 @@
 23	Le	Le	DET	_	_	24	det	_	_
 24	Cid	Cid	PROPN	_	_	22	obj	_	_
 25	à	à	ADP	_	_	27	case	_	_
-26	L'	L'	DET	_	_	27	det	_	SpaceAfter=No
+26	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	Odéon	Odéon	PROPN	_	_	22	obl:mod	_	SpaceAfter=No
 28	)	)	PUNCT	_	_	22	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	12	punct	_	_
@@ -251391,7 +251391,7 @@
 
 # sent_id = fr-ud-train_08962
 # text = L'une des raisons de cette croyance répandue considérant que le cheval de guerre médiéval ne pouvait être qu'un énorme cheval de trait est l'hypothèse, encore soutenue par de nombreuses personnes, selon laquelle l'armure médiévale est extrêmement lourde.
-1	L'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	une	un	PRON	_	Gender=Fem|Number=Sing	28	nsubj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -256767,7 +256767,7 @@
 
 # sent_id = fr-ud-train_09154
 # text = L'un d'entre eux se fait remarquer en 63...
-1	L'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	un	un	PRON	_	Gender=Masc|Number=Sing	8	nsubj:caus	_	_
 3	d'	de	ADP	_	_	5	case	_	EXTPOS=ADP|SpaceAfter=No|Type=MWE
 4	entre	entre	ADP	_	_	3	fixed	_	_
@@ -282079,7 +282079,7 @@
 23	exposition	exposition	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	_
 24	intitulée	intituler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	_
 25	«	«	PUNCT	_	_	27	punct	_	_
-26	L'	L'	DET	_	_	27	det	_	SpaceAfter=No
+26	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	imaginaire	imaginaire	NOUN	_	Gender=Masc|Number=Sing	24	xcomp	_	_
 28	»	»	PUNCT	_	_	27	punct	_	SpaceAfter=No
 29	,	,	PUNCT	_	_	31	punct	_	_
@@ -313805,7 +313805,7 @@
 20	Making	Making	VERB	_	_	17	obl:agent	_	EXTPOS=PROPN|Type=Title
 21	The	The	DET	_	_	22	det	_	INTITLE=Yes
 22	Band	Band	PROPN	_	_	20	obj	_	INTITLE=Yes
-23	3	3	NUM	_	_	22	nmod	_	INTITLE=Yes|SpaceAfter=No
+23	3	3	NUM	_	_	20	nmod	_	INTITLE=Yes|SpaceAfter=No
 24	"	"	PUNCT	_	_	20	punct	_	_
 25	se	se	PRON	_	Person=3|PronType=Prs	27	obj	_	_
 26	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:caus	_	_
@@ -313823,10 +313823,10 @@
 38	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl	_	_
 39	par	par	ADP	_	_	41	case	_	_
 40	"	"	PUNCT	_	_	41	punct	_	SpaceAfter=No
-41	Making	Making	PROPN	_	_	38	obl:agent	_	EXTPOS=PROPN|Type=Title
+41	Making	Making	VERB	_	_	38	obl:agent	_	EXTPOS=PROPN|Type=Title
 42	The	The	DET	_	_	43	det	_	INTITLE=Yes
 43	Band	Band	PROPN	_	_	41	obj	_	INTITLE=Yes
-44	4	4	NUM	_	_	43	nmod	_	INTITLE=Yes|SpaceAfter=No
+44	4	4	NUM	_	_	41	nmod	_	INTITLE=Yes|SpaceAfter=No
 45	"	"	PUNCT	_	_	41	punct	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	27	punct	_	_
 
@@ -336977,7 +336977,7 @@
 
 # sent_id = fr-ud-train_12082
 # text = L'une des réponses se trouve dans de la Loi marocaine.
-1	L'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	une	un	PRON	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	5	case	_	_
@@ -347342,7 +347342,7 @@
 1	Francesco	Francesco	PROPN	_	_	30	nsubj	_	_
 2	Albani	Albani	PROPN	_	_	1	flat:name	_	_
 3	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
-4	L'	l'	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	Albane	Albane	PROPN	_	_	3	obj	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
@@ -361441,8 +361441,8 @@
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	article	article	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
-6	L'	L'	DET	_	_	7	det	_	SpaceAfter=No
-7	Illustration	Illustration	PROPN	_	_	2	obl:mod	_	_
+6	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	Illustration	illustration	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	_
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	26	26	NUM	_	_	7	nmod	_	_
 10	août	août	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
@@ -365901,7 +365901,7 @@
 30	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
 31	Sherlock	Sherlock	PROPN	_	_	28	nmod	_	EXTPOS=PROPN|Type=Title
 32	Holmes	Holmes	PROPN	_	_	31	flat:name	_	INTITLE=Yes
-33	2	2	NUM	_	_	31	flat:name	_	INTITLE=Yes
+33	2	2	NUM	_	_	31	nmod	_	INTITLE=Yes
 34	:	:	PUNCT	_	_	35	punct	_	INTITLE=Yes
 35	Jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	31	parataxis	_	INTITLE=Yes
 36	d'	de	ADP	_	_	37	case	_	INTITLE=Yes|SpaceAfter=No
@@ -372565,7 +372565,7 @@
 3	pouvons	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	_
 5	vivre	vivre	VERB	_	VerbForm=Inf	3	xcomp	_	_
-6	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	un	un	PRON	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
 8	sans	sans	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
@@ -389603,8 +389603,8 @@
 23	inclure	inclure	VERB	_	VerbForm=Inf	21	acl	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	séquence	séquence	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
-26	L'	L'	DET	_	_	27	det	_	SpaceAfter=No
-27	Apprenti	Apprenti	PROPN	_	_	25	appos	_	_
+26	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	Apprenti	apprenti	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
 28	sorcier	sorcier	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
 29-30	au	_	_	_	_	_	_	_	_
 29	à	à	ADP	_	_	32	case	_	_
@@ -392919,8 +392919,8 @@
 48	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	49	det	_	INTITLE=Yes
 49	femme	femme	NOUN	_	Gender=Fem|Number=Sing	46	conj	_	INTITLE=Yes
 50	et	et	CCONJ	_	_	52	cc	_	_
-51	L'	L'	DET	_	_	52	det	_	INTITLE=Yes|SpaceAfter=No
-52	Oiseau	Oiseau	NOUN	_	Gender=Masc|Number=Sing	42	conj	_	EXTPOS=PROPN|Type=Title
+51	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	INTITLE=Yes|SpaceAfter=No
+52	Oiseau	oiseau	NOUN	_	Gender=Masc|Number=Sing	42	conj	_	EXTPOS=PROPN|Type=Title
 53	d'	de	ADP	_	_	54	case	_	INTITLE=Yes|SpaceAfter=No
 54	Ourdi	Ourdi	PROPN	_	_	52	nmod	_	INTITLE=Yes
 55-56	des	_	_	_	_	_	_	_	_
@@ -392975,9 +392975,9 @@
 102	Perrault	Perrault	PROPN	_	_	101	flat:name	_	SpaceAfter=No
 103	,	,	PUNCT	_	_	105	punct	_	_
 104	dont	dont	PRON	_	PronType=Rel	105	nmod	_	_
-105	Cendrillon	Cendrillon	PROPN	_	_	99	appos	_	EXTPOS=PROPN|Type=Title
-106	et	et	CCONJ	_	_	107	cc	_	INTITLE=Yes
-107	Barbe-Bleue	Barbe-Bleue	PROPN	_	_	105	conj	_	INTITLE=Yes|SpaceAfter=No
+105	Cendrillon	Cendrillon	PROPN	_	_	99	appos	_	_
+106	et	et	CCONJ	_	_	107	cc	_	_
+107	Barbe-Bleue	Barbe-Bleue	PROPN	_	_	105	conj	_	SpaceAfter=No
 108	)	)	PUNCT	_	_	15	punct	_	SpaceAfter=No
 109	.	.	PUNCT	_	_	8	punct	_	_
 
