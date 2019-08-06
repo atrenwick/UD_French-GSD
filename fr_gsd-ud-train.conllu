@@ -59704,7 +59704,7 @@
 56	mention	mention	NOUN	_	Gender=Fem|Number=Sing	54	obj	_	_
 57	«	«	PUNCT	_	_	60	punct	_	_
 58	100	100	NUM	_	_	59	nummod	_	INTITLE=Yes|SpaceAfter=No
-59	%	%	SYM	_	_	60	obl:mod	_	EXTPOS=NOUN|INTITLE=Yes|Type=Trans
+59	%	%	SYM	_	_	60	obl:mod	_	INTITLE=Yes
 60	recyclable	recyclable	ADJ	_	Gender=Masc|Number=Sing	56	appos	_	EXTPOS=PROPN|Type=Title
 61	»	»	PUNCT	_	_	60	punct	_	_
 62	qui	qui	PRON	_	PronType=Rel	64	nsubj	_	_
@@ -216795,14 +216795,14 @@
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 7	x	x	NUM	_	_	9	nummod	_	_
-8	k	k	SYM	_	_	7	nmod	_	_
+8	k	k	SYM	_	_	7	nmod	_	EXTPOS=NUM|Type=Trans
 9	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	11	nsubj:pass	_	_
 10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
 11	calculées	calculer	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 12	en	en	ADP	_	_	13	mark	_	_
 13	utilisant	utiliser	VERB	_	Tense=Pres|VerbForm=Part	11	advcl	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	x	x	SYM	_	_	13	obj	_	EXTPOS=NUM|Type=Trans
+15	x	x	NUM	_	_	13	obj	_	_
 16	{	{	PUNCT	_	_	17	punct	_	_
 17	k-1	k-1	SYM	_	_	15	nmod	_	EXTPOS=NUM|Type=Trans
 18	}	}	PUNCT	_	_	17	punct	_	_
@@ -263444,7 +263444,7 @@
 18	atteignant	atteindre	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	_
 19	respectivement	respectivement	ADV	_	_	18	advmod	_	_
 20	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
-21	quatre	quatre	NUM	_	_	24	amod	_	_
+21	quatre	quatre	NUM	_	_	24	nummod	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	cinquième	cinquième	ADJ	_	Gender=Fem|Number=Sing	21	conj	_	_
 24	places	place	NOUN	_	Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
@@ -313805,7 +313805,7 @@
 20	Making	Making	VERB	_	_	17	obl:agent	_	EXTPOS=PROPN|Type=Title
 21	The	The	DET	_	_	22	det	_	INTITLE=Yes
 22	Band	Band	PROPN	_	_	20	obj	_	INTITLE=Yes
-23	3	3	NUM	_	_	20	nmod	_	INTITLE=Yes|SpaceAfter=No
+23	3	3	NUM	_	_	20	nmod	_	SpaceAfter=No
 24	"	"	PUNCT	_	_	20	punct	_	_
 25	se	se	PRON	_	Person=3|PronType=Prs	27	obj	_	_
 26	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux:caus	_	_
@@ -313826,7 +313826,7 @@
 41	Making	Making	VERB	_	_	38	obl:agent	_	EXTPOS=PROPN|Type=Title
 42	The	The	DET	_	_	43	det	_	INTITLE=Yes
 43	Band	Band	PROPN	_	_	41	obj	_	INTITLE=Yes
-44	4	4	NUM	_	_	41	nmod	_	INTITLE=Yes|SpaceAfter=No
+44	4	4	NUM	_	_	41	nmod	_	SpaceAfter=No
 45	"	"	PUNCT	_	_	41	punct	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	27	punct	_	_
 
@@ -335453,12 +335453,12 @@
 45	en	en	ADP	_	_	46	case	_	_
 46	revanche	revanche	NOUN	_	Gender=Fem|Number=Sing	40	obl	_	_
 47	(	(	PUNCT	_	_	48	punct	_	SpaceAfter=No
-48	art.	art.	NOUN	_	Gender=Masc|Number=Sing	40	obl	_	_
+48	art.	art.	NOUN	_	Gender=Masc|Number=Sing	40	obl:mod	_	_
 49	24	24	NUM	_	_	48	nmod	_	SpaceAfter=No
 50	,	,	PUNCT	_	_	53	punct	_	_
-51	v.	v.	X	_	_	53	case	_	_
-52	cep.	cep.	X	_	_	53	case	_	_
-53	art	art	NOUN	_	Gender=Masc|Number=Sing	48	conj	_	_
+51	v.	v.	ADP	_	_	53	case	_	_
+52	cep.	cep.	ADV	_	_	53	advmod	_	_
+53	art	art	NOUN	_	Gender=Masc|Number=Sing	48	nmod	_	_
 54	30	30	NUM	_	_	53	nmod	_	_
 55	infra	infra	ADV	_	_	53	advmod	_	SpaceAfter=No
 56	)	)	PUNCT	_	_	48	punct	_	SpaceAfter=No
