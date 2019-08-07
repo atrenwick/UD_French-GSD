@@ -423,7 +423,7 @@
 26	:	:	PUNCT	_	_	28	punct	_	_
 27	Dieu	Dieu	PROPN	_	_	28	nsubj	_	_
 28	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	parataxis	_	SpaceAfter=No
-29	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	expl	_	_
+29	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	expl:subj	_	_
 30	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_00019
@@ -1107,7 +1107,7 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	dessin	dessin	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
 7	pour	pour	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	débutants	débutant	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
@@ -1942,7 +1942,7 @@
 # sent_id = fr-ud-train_00074
 # text = Il en fut comme de tout ce qu'il avait fait jusqu'alors : les uns s'en édifièrent, les autres s'en scandalisèrent.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	en	en	PRON	_	Person=3	3	expl	_	_
+2	en	en	PRON	_	Person=3	3	expl:comp	_	_
 3	fut	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	comme	comme	SCONJ	_	_	7	mark	_	_
 5	de	de	ADP	_	_	7	case	_	_
@@ -3840,7 +3840,7 @@
 # text = Tant qu'il reste encore des entrées dans le tableau d'origine, on répète l'opération de suppression d'une valeur x dans le coin supérieur gauche, de glissement de taquins, et d'insertion de la valeur -x dans la cellule libérée.
 1	Tant	tant	ADV	_	_	4	mark	_	EXTPOS=SCONJ|Type=MWE
 2	qu'	que	SCONJ	_	_	1	fixed	_	SpaceAfter=No
-3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 4	reste	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
 5	encore	encore	ADV	_	_	4	advmod	_	_
 6	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
@@ -10352,7 +10352,7 @@
 11	deux	deux	NUM	_	_	12	nummod	_	_
 12	dates	date	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	_
 13	doivent	devoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-14	-elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	expl	_	_
+14	-elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	13	expl:subj	_	_
 15	être	être	AUX	_	VerbForm=Inf	17	aux	_	_
 16	nécessairement	nécessairement	ADV	_	_	17	advmod	_	_
 17	rapprochées	rapprocher	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	xcomp	_	_
@@ -12577,7 +12577,7 @@
 23	si	si	SCONJ	_	_	27	mark	_	_
 24	l'	l'	PART	_	_	27	nsubj	_	EXTPOS=PRON|SpaceAfter=No|Type=MWE
 25	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	24	fixed	_	_
-26	en	en	PRON	_	Person=3	27	expl	_	_
+26	en	en	PRON	_	Person=3	27	expl:comp	_	_
 27	croit	croire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
 28	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	29	det	_	_
 29	dires	dire	NOUN	_	Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No
@@ -14287,7 +14287,7 @@
 3	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 4	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-6	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl	_	_
+6	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	expl:subj	_	_
 7	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
 8	cosigné	cosigner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
@@ -19535,7 +19535,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
 2	paraît	paraître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	4	mark	_	_
-4	oui	oui	ADV	_	_	2	csubj:expl	_	SpaceAfter=No
+4	oui	oui	ADV	_	_	2	csubj:agent	_	SpaceAfter=No
 5	...	...	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_00684
@@ -23245,7 +23245,7 @@
 4	encore	encore	ADV	_	_	5	advmod	_	_
 5	attendre	attendre	VERB	_	VerbForm=Inf	2	ccomp	_	_
 6	pour	pour	ADP	_	_	8	mark	_	_
-7	en	en	PRON	_	Person=3	8	expl	_	_
+7	en	en	PRON	_	Person=3	8	expl:comp	_	_
 8	savoir	savoir	VERB	_	VerbForm=Inf	5	advcl	_	_
 9	plus	plus	ADV	_	_	8	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
@@ -30405,7 +30405,7 @@
 57	Amérique	Amérique	PROPN	_	_	53	obl	_	SpaceAfter=No
 58	,	,	PUNCT	_	_	53	punct	_	_
 59	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	parataxis	_	SpaceAfter=No
-60	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	59	expl	_	_
+60	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	59	expl:subj	_	_
 61	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
 62	âme	âme	NOUN	_	Gender=Fem|Number=Sing	59	obj	_	_
 63	(	(	PUNCT	_	_	64	punct	_	SpaceAfter=No
@@ -31282,9 +31282,9 @@
 # text = Le plus cool, c'est que la piste est vraiment adhérente : rien à voir avec les pistes de kart en béton que j'ai vues partout !
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	plus	plus	ADV	_	_	3	advmod	_	_
-3	cool	cool	ADJ	_	Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	cool	cool	ADJ	_	Gender=Masc|Number=Sing	6	dislocated	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	expl	_	SpaceAfter=No
+5	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	que	que	SCONJ	_	_	12	mark	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -31655,7 +31655,7 @@
 36	dramatique	dramatique	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
 37	et	et	CCONJ	_	_	40	cc	_	_
 38	s'	se	PRON	_	Person=3|PronType=Prs	40	expl:comp	_	SpaceAfter=No
-39	en	en	PRON	_	Person=3	40	expl	_	_
+39	en	en	PRON	_	Person=3	40	expl:comp	_	_
 40	tint	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	conj	_	_
 41	à	à	ADP	_	_	43	case	_	_
 42	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	43	det	_	_
@@ -32505,7 +32505,7 @@
 28	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
 29	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	aux	_	_
 30	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
-31	y	y	PRON	_	_	32	expl	_	_
+31	y	y	PRON	_	_	32	expl:comp	_	_
 32	avoir	avoir	VERB	_	VerbForm=Inf	30	xcomp	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -41466,7 +41466,7 @@
 # sent_id = fr-ud-train_01471
 # text = Il en est de même pour l'épisode où les résistants sabotent la voie ferrée du côté de Chavannes-sur-Reyssouze et font le coup de feu avec l'ennemi.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	en	en	PRON	_	Person=3	3	expl	_	_
+2	en	en	PRON	_	Person=3	3	expl:comp	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	3	advmod	_	EXTPOS=ADV|Type=MWE
 5	même	même	ADV	_	_	4	fixed	_	_
@@ -46558,7 +46558,7 @@
 11	etc.	etc.	X	_	_	5	conj	_	SpaceAfter=No
 12	)	)	PUNCT	_	_	5	punct	_	_
 13	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-14	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
+14	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	_
 15	démontrer	démontrer	VERB	_	VerbForm=Inf	13	xcomp	_	_
 16	que	que	SCONJ	_	_	22	mark	_	_
 17	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
@@ -52887,7 +52887,7 @@
 15	Le	Le	DET	_	_	16	det	_	_
 16	Québec	Québec	PROPN	_	_	20	nsubj	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No
-18	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl	_	_
+18	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	colonie	colonie	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	_
 21	?	?	PUNCT	_	_	12	punct	_	_
@@ -54162,7 +54162,7 @@
 # text = Lyon s'en sortait bien à la mi-temps avec un score de parité, et Nancy pouvait nourrir quelques regrets : les lorrains avaient peut-être laissé passer leur chance.
 1	Lyon	Lyon	PROPN	_	_	4	nsubj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	SpaceAfter=No
-3	en	en	PRON	_	Person=3	4	expl	_	_
+3	en	en	PRON	_	Person=3	4	expl:comp	_	_
 4	sortait	sortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	bien	bien	ADV	_	_	4	advmod	_	_
 6	à	à	ADP	_	_	8	case	_	_
@@ -58128,7 +58128,7 @@
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	soviétiques	soviétique	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
 3	envisagent	envisager	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	expl	_	_
+4	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	expl:subj	_	_
 5	de	de	ADP	_	_	6	mark	_	_
 6	déstabiliser	déstabiliser	VERB	_	VerbForm=Inf	3	xcomp	_	_
 7	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
@@ -59443,7 +59443,7 @@
 16	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	20	iobj	_	SpaceAfter=No
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
 18	-t	t	PART	_	_	19	dep	_	SpaceAfter=No
-19	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl	_	_
+19	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
 20	mis	mettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 21	dans	dans	ADP	_	_	23	case	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -59865,7 +59865,7 @@
 1	Ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	grand-mère	grand-mère	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
-4	en	en	PRON	_	Person=3	5	expl	_	_
+4	en	en	PRON	_	Person=3	5	expl:comp	_	_
 5	reviendrait	revenir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	advmod	_	_
 7	!	!	PUNCT	_	_	5	punct	_	_
@@ -62050,7 +62050,7 @@
 # text = Onomacrite agit-il comme un des nombreux pseudépigraphes de l'antiquité, c'est-à-dire de bonne foi, même si nous avons toujours tendance à soupçonner le procédé qui nous choque, ou comme un mystificateur et un plagiaire désireux de tromper son monde ?
 1	Onomacrite	Onomacrite	PROPN	_	_	2	nsubj	_	_
 2	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-3	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+3	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
 4	comme	comme	ADP	_	_	5	case	_	_
 5	un	un	PRON	_	Gender=Masc|Number=Sing	2	obl:mod	_	_
 6-7	des	_	_	_	_	_	_	_	_
@@ -76541,7 +76541,7 @@
 14	1905	1905	NUM	_	_	11	obl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	2	punct	_	_
 16	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No
-17	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
+17	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	expl:subj	_	_
 18	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	influence	influence	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
@@ -76703,7 +76703,7 @@
 # sent_id = fr-ud-train_02725
 # text = Pourquoi en serait-il autrement cette fois-ci ?
 1	Pourquoi	pourquoi	ADV	_	_	3	advmod	_	_
-2	en	en	PRON	_	Person=3	3	expl	_	_
+2	en	en	PRON	_	Person=3	3	expl:comp	_	_
 3	serait	être	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 5	autrement	autrement	ADV	_	_	3	advmod	_	_
@@ -77083,7 +77083,7 @@
 3	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
 5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
-6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
 7	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
 8	disparu	disparaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	avec	avec	ADP	_	_	11	case	_	_
@@ -79828,7 +79828,7 @@
 34	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
 35	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
 36	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	SpaceAfter=No
-37	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	expl	_	_
+37	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	38	expl:subj	_	_
 38	sujette	sujet	ADJ	_	Gender=Fem|Number=Sing	13	parataxis	_	_
 39	à	à	ADP	_	_	40	case	_	_
 40	caution	caution	NOUN	_	Gender=Fem|Number=Sing	38	obl:arg	_	SpaceAfter=No
@@ -90600,7 +90600,7 @@
 3	caricatures	caricature	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
 4	volées	voler	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
-6	-elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	expl	_	_
+6	-elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	7	expl:subj	_	_
 7	parvenues	parvenir	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 8	jusqu'	jusque	ADV	_	_	11	advmod	_	SpaceAfter=No
 9-10	aux	_	_	_	_	_	_	_	_
@@ -94481,7 +94481,7 @@
 # text = Clara s'en va mourir est un téléfilm français réalisé par Virginie Wagon, diffusé le 5 octobre 2012 sur Arte.
 1	Clara	Clara	PROPN	_	_	4	nsubj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	SpaceAfter=No
-3	en	en	PRON	_	Person=3	4	expl	_	_
+3	en	en	PRON	_	Person=3	4	expl:comp	_	_
 4	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	csubj	_	_
 5	mourir	mourir	VERB	_	VerbForm=Inf	4	xcomp	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -100732,7 +100732,7 @@
 # sent_id = fr-ud-train_03592
 # text = Où en est-on concernant la polémique sur les concerts de « Notre-Dame de Paris » ?
 1	Où	où	ADV	_	PronType=Rel	3	obl:arg	_	_
-2	en	en	PRON	_	Person=3	3	expl	_	_
+2	en	en	PRON	_	Person=3	3	expl:comp	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 5	concernant	concernant	ADP	_	_	7	case	_	_
@@ -102075,7 +102075,7 @@
 9	forfait	forfait	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 10	lunettes	lunette	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	expl	_	_
+12	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	appos	_	_
 13	qui	qui	PRON	_	PronType=Rel	14	nsubj	_	_
 14	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 15	très	très	ADV	_	_	16	advmod	_	_
@@ -105217,7 +105217,7 @@
 3	coloniaux	colonial	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 4	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
 5	auront	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	12	aux	_	SpaceAfter=No
-6	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	expl	_	SpaceAfter=No
+6	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	expl:subj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	dans	dans	ADP	_	_	10	case	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
@@ -105606,7 +105606,7 @@
 
 # sent_id = fr-ud-train_03761
 # text = Il existe en effet 59 jeunes de moins de 20 ans pour cent personnes de plus de 60 ans, alors que pour la France l'indice de jeunesse, qui est égal à la division de la part des moins de 20 ans par la part des plus de 60 ans, est de 1,06.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
 2	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	_	_	2	advmod	_	EXTPOS=ADV|Type=MWE
 4	effet	effet	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	_
@@ -112369,10 +112369,10 @@
 
 # sent_id = fr-ud-train_04018
 # text = Nous aussi, on avoue.
-1	Nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+1	Nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	dislocated	_	_
 2	aussi	aussi	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
-4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	expl	_	_
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 5	avoue	avouer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -112455,9 +112455,9 @@
 # text = « La réalité, c'est qu'ils n'ont pas aligné trois passes de suite, ils n'ont pas tiré au but.
 1	«	«	PUNCT	_	_	6	punct	_	_
 2	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	6	dislocated	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	expl	_	SpaceAfter=No
+5	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	qu'	que	SCONJ	_	_	12	mark	_	SpaceAfter=No
 8	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
@@ -113554,10 +113554,10 @@
 26	fidèlement	fidèlement	ADV	_	_	27	advmod	_	_
 27	pastiché	pasticher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
 28	dans	dans	ADP	_	_	30	case	_	_
-29	Y	y	PRON	_	_	30	expl	_	INTITLE=Yes
+29	Y	y	PRON	_	_	30	expl:comp	_	INTITLE=Yes
 30	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	obl:arg	_	EXTPOS=PROPN|SpaceAfter=No|Type=Title
 31	-t	t	PART	_	_	32	dep	_	INTITLE=Yes|SpaceAfter=No
-32	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	expl	_	INTITLE=Yes
+32	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	expl:subj	_	INTITLE=Yes
 33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	INTITLE=Yes
 34	pilote	pilote	NOUN	_	Gender=Masc|Number=Sing	30	nsubj	_	INTITLE=Yes
 35	dans	dans	ADP	_	_	37	case	_	INTITLE=Yes
@@ -117978,9 +117978,9 @@
 2	Jioseppe	Jioseppe	PROPN	_	_	8	nsubj	_	_
 3	Campi	Campi	PROPN	_	_	2	flat:name	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	SpaceAfter=No
-5	y	y	PRON	_	_	8	expl	_	_
+5	y	y	PRON	_	_	8	expl:comp	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
-7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
 8	pris	prendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	pour	pour	ADP	_	_	10	mark	_	_
 10	donner	donner	VERB	_	VerbForm=Inf	8	advcl	_	_
@@ -122478,7 +122478,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Maroc	Maroc	PROPN	_	_	6	nsubj	_	_
 4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	SpaceAfter=No
-5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 6	rompu	rompre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det	_	_
 8	relations	relation	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
@@ -124097,7 +124097,7 @@
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	CA	CA	PROPN	_	_	21	nsubj	_	_
 19	Peñarol	Peñarol	PROPN	_	_	18	flat:name	_	_
-20	en	en	PRON	_	Person=3	21	expl	_	_
+20	en	en	PRON	_	Person=3	21	expl:comp	_	_
 21	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 22	à	à	ADP	_	_	25	case	_	_
 23	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det	_	_
@@ -129660,7 +129660,7 @@
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	client	client	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
 24	mécontent	mécontent	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
-25	en	en	PRON	_	Person=3	26	expl	_	_
+25	en	en	PRON	_	Person=3	26	expl:comp	_	_
 26	vaut	valoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
 27	100	100	NUM	_	_	26	obj	_	_
 28	de	de	ADP	_	_	29	mark	_	_
@@ -131190,7 +131190,7 @@
 16	Adrienne	Adrienne	PROPN	_	_	14	nmod	_	_
 17	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	21	iobj:agent	_	_
-19	en	en	PRON	_	Person=3	21	expl	_	_
+19	en	en	PRON	_	Person=3	21	expl:comp	_	_
 20	faire	faire	AUX	_	VerbForm=Inf	21	aux:caus	_	_
 21	voir	voir	VERB	_	VerbForm=Inf	17	xcomp	_	_
 22	de	de	ADP	_	_	25	case	_	_
@@ -131339,7 +131339,7 @@
 # text = Je ne m'attendais pas à être aussi surpris.
 1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	4	advmod	_	_
-3	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	4	expl	_	SpaceAfter=No
+3	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs	4	expl:comp	_	SpaceAfter=No
 4	attendais	attendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
 6	à	à	ADP	_	_	9	mark	_	_
@@ -134643,7 +134643,7 @@
 # sent_id = fr-ud-train_04819
 # text = Il en est de même pour le master recherche.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	en	en	PRON	_	Person=3	3	expl	_	_
+2	en	en	PRON	_	Person=3	3	expl:comp	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	3	advmod	_	EXTPOS=ADV|Type=MWE
 5	même	même	ADV	_	_	4	fixed	_	_
@@ -135329,7 +135329,7 @@
 9	mystère	mystère	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
 10	et	et	CCONJ	_	_	13	cc	_	_
 11	s'	se	PRON	_	Person=3|PronType=Prs	13	expl:comp	_	SpaceAfter=No
-12	en	en	PRON	_	Person=3	13	expl	_	_
+12	en	en	PRON	_	Person=3	13	expl:comp	_	_
 13	tenir	tenir	VERB	_	VerbForm=Inf	7	conj	_	_
 14	à	à	ADP	_	_	15	case	_	_
 15	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	obl:arg	_	_
@@ -136645,7 +136645,7 @@
 1	Peut-être	peut-être	ADV	_	_	5	advmod	_	_
 2	Hendrix	Hendrix	PROPN	_	_	5	nsubj	_	_
 3	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
-4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 5	remplacé	remplacer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	Bleeding	Bleeding	PROPN	_	_	5	obj	_	_
 7	Heart	Heart	PROPN	_	_	6	flat:name	_	_
@@ -140884,7 +140884,7 @@
 16	leur	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	_
 17	défense	défense	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	9	expl	_	_
+19	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	9	parataxis	_	_
 20	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	_
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
 22	malheureusement	malheureusement	ADV	_	_	24	advmod	_	_
@@ -141952,7 +141952,7 @@
 3	évolution	évolution	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 4	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	_
 5	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
-6	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+6	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
 7	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
 8	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	arbre	arbre	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -144662,7 +144662,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Kapo	Kapo	PROPN	_	_	2	appos	_	_
 6	s'	se	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	SpaceAfter=No
-7	en	en	PRON	_	Person=3	8	expl	_	_
+7	en	en	PRON	_	Person=3	8	expl:comp	_	_
 8	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
 9	brusquement	brusquement	ADV	_	_	8	advmod	_	_
 10	à	à	ADP	_	_	11	case	_	_
@@ -144681,7 +144681,7 @@
 22	Kapo	Kapo	PROPN	_	_	17	conj	_	_
 23	qu'	que	PRON	_	PronType=Rel	26	iobj	_	SpaceAfter=No
 24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
-25	en	en	PRON	_	Person=3	26	expl	_	_
+25	en	en	PRON	_	Person=3	26	expl:comp	_	_
 26	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	32	punct	_	_
 28	pour	pour	ADP	_	_	32	mark	_	_
@@ -148189,7 +148189,7 @@
 # text = Elles s'en remirent au pape et à l'empereur pour trancher.
 1	Elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	SpaceAfter=No
-3	en	en	PRON	_	Person=3	4	expl	_	_
+3	en	en	PRON	_	Person=3	4	expl:comp	_	_
 4	remirent	remettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
@@ -151965,7 +151965,7 @@
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	UE	UE	PROPN	_	_	3	nsubj	_	_
 3	entend	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+4	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 5	porter	porter	VERB	_	VerbForm=Inf	3	xcomp	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	affaire	affaire	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
@@ -152145,7 +152145,7 @@
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
 9	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	SpaceAfter=No
-10	en	en	PRON	_	Person=3	11	expl	_	_
+10	en	en	PRON	_	Person=3	11	expl:comp	_	_
 11	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	advcl	_	_
 12	jamais	jamais	ADV	_	Polarity=Neg	11	advmod	_	_
 13	assez	assez	ADV	_	_	11	obj	_	_
@@ -153811,7 +153811,7 @@
 1	Ran	Ran	PROPN	_	_	2	nsubj	_	_
 2	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-t	t	PART	_	_	4	dep	_	SpaceAfter=No
-4	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	_
 5	épousé	épouser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	xcomp	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	docteur	docteur	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
@@ -154806,7 +154806,7 @@
 10	car	car	CCONJ	_	_	14	cc	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
 12	n'	ne	ADV	_	Polarity=Neg	14	advmod	_	SpaceAfter=No
-13	y	y	PRON	_	_	14	expl	_	_
+13	y	y	PRON	_	_	14	expl:comp	_	_
 14	connais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
 15	rien	rien	PRON	_	Number=Sing|Polarity=Neg	14	obj	_	_
 16	en	en	ADP	_	_	17	case	_	_
@@ -156372,7 +156372,7 @@
 18	air	air	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
 19	pressé	presser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
 20	d'	de	ADP	_	_	22	mark	_	SpaceAfter=No
-21	en	en	PRON	_	Person=3	22	expl	_	_
+21	en	en	PRON	_	Person=3	22	expl:comp	_	_
 22	finir	finir	VERB	_	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -158952,7 +158952,7 @@
 # sent_id = fr-ud-train_05675
 # text = Mais cela il ne peut le réaliser que s'il entame un dialogue critique avec la population.
 1	Mais	mais	CCONJ	_	_	5	cc	_	_
-2	cela	cela	PRON	_	Number=Sing|PronType=Dem	7	expl	_	_
+2	cela	cela	PRON	_	Number=Sing|PronType=Dem	7	dislocated	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	ne	ne	ADV	_	Polarity=Neg	5	advmod	_	_
 5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -162896,7 +162896,7 @@
 5	standard	standard	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 6	continuera	continuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	-t	t	PART	_	_	8	dep	_	SpaceAfter=No
-8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 9	à	à	ADP	_	_	11	mark	_	_
 10	s'	se	PRON	_	Person=3|PronType=Prs	11	expl:pass	_	SpaceAfter=No
 11	appliquer	appliquer	VERB	_	VerbForm=Inf	6	xcomp	_	_
@@ -164352,7 +164352,7 @@
 1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	dislocated	_	_
 2	qui	qui	PRON	_	PronType=Rel	3	nsubj	_	_
 3	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
-4	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	expl:subj	_	SpaceAfter=No
+4	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	d'	de	ADP	_	_	7	mark	_	SpaceAfter=No
 7	avoir	avoir	VERB	_	VerbForm=Inf	5	ccomp	_	_
@@ -171858,7 +171858,7 @@
 10	général	général	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	s'	se	PRON	_	Person=3|PronType=Prs	14	expl:comp	_	SpaceAfter=No
-13	y	y	PRON	_	_	14	expl	_	_
+13	y	y	PRON	_	_	14	expl:comp	_	_
 14	prendre	prendre	VERB	_	VerbForm=Inf	7	ccomp	_	_
 15	2	2	NUM	_	_	16	nummod	_	_
 16	semaines	semaine	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	_
@@ -180113,7 +180113,7 @@
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	animal	animal	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 4	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+5	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 6	pour	pour	ADP	_	_	7	mark	_	_
 7	savoir	savoir	VERB	_	VerbForm=Inf	4	advcl	_	_
 8	qu'	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
@@ -186787,7 +186787,7 @@
 1	Si	si	SCONJ	_	_	5	mark	_	_
 2	l'	l'	PART	_	_	5	nsubj	_	EXTPOS=PRON|SpaceAfter=No|Type=MWE
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	fixed	_	_
-4	en	en	PRON	_	Person=3	5	expl	_	_
+4	en	en	PRON	_	Person=3	5	expl:comp	_	_
 5	croit	croire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
 6	Gerry	Gerry	PROPN	_	_	5	obj	_	_
 7	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	flat:name	_	SpaceAfter=No
@@ -188552,7 +188552,7 @@
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	Allemagne	Allemagne	PROPN	_	_	6	nsubj	_	_
 4	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
-5	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+5	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 6	envahi	envahir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Belgique	Belgique	PROPN	_	_	6	obj	_	_
@@ -191656,7 +191656,7 @@
 8	Paris	Paris	PROPN	_	_	9	nsubj	_	INTITLE=Yes
 9	brûle	brûler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	appos	_	EXTPOS=PROPN|SpaceAfter=No|Type=Title
 10	-t	t	PART	_	_	11	dep	_	INTITLE=Yes|SpaceAfter=No
-11	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl	_	INTITLE=Yes
+11	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	INTITLE=Yes
 12	?	?	PUNCT	_	_	9	punct	_	INTITLE=Yes
 
 # sent_id = fr-ud-train_06843
@@ -193629,7 +193629,7 @@
 25	)	)	PUNCT	_	_	20	punct	_	_
 26	pour	pour	ADP	_	_	29	mark	_	_
 27	s'	se	PRON	_	Person=3|PronType=Prs	29	expl:comp	_	SpaceAfter=No
-28	en	en	PRON	_	Person=3	29	expl	_	_
+28	en	en	PRON	_	Person=3	29	expl:comp	_	_
 29	sortir	sortir	VERB	_	VerbForm=Inf	16	acl	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	et	et	CCONJ	_	_	32	cc	_	_
@@ -196154,7 +196154,7 @@
 28	d'	de	ADP	_	_	29	case	_	SpaceAfter=No
 29	Europe	Europe	PROPN	_	_	26	nmod	_	_
 30	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
-31	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	32	expl	_	_
+31	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	32	expl:subj	_	_
 32	Francs-maçons	franc-maçon	NOUN	_	Gender=Masc|Number=Plur	20	advcl	_	_
 33	?	?	PUNCT	_	_	20	punct	_	_
 
@@ -201617,7 +201617,7 @@
 6	Hussey	Hussey	PROPN	_	_	7	nsubj	_	_
 7	exerce	exercer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	-t	t	PART	_	_	9	dep	_	SpaceAfter=No
-9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+9	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 10	encore	encore	ADV	_	_	7	advmod	_	_
 11	?	?	PUNCT	_	_	7	punct	_	_
 
@@ -205582,7 +205582,7 @@
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	nuit	nuit	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	expl	_	_
+10	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	parataxis	_	_
 11	qui	qui	PRON	_	PronType=Rel	15	nsubj	_	_
 12	n'	ne	ADV	_	Polarity=Neg	15	advmod	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
@@ -205856,7 +205856,7 @@
 # sent_id = fr-ud-train_07350
 # text = Je m'assiérai sur la montagne de l'assemblée, A l'extrémité du septentrion ;
 1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	3	expl	_	SpaceAfter=No
+2	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs	3	expl:comp	_	SpaceAfter=No
 3	assiérai	asseoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	sur	sur	ADP	_	_	6	case	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -206071,7 +206071,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	nom	nom	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 10	définit	définir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-11	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+11	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	expl:subj	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	personne	personne	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
 14	?	?	PUNCT	_	_	10	punct	_	_
@@ -208776,7 +208776,7 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	peste	peste	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
-6	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+6	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	expl:subj	_	_
 7	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	_
 8	dont	dont	PRON	_	PronType=Rel	9	iobj	_	_
 9	parle	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
@@ -210282,7 +210282,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	Bernard	Bernard	PROPN	_	_	11	nsubj	_	_
 8	Pivot	Pivot	PROPN	_	_	7	flat:name	_	_
-9	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	11	expl	_	_
+9	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	11	obj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	découverts	découvrir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 12	pour	pour	ADP	_	_	15	case	_	_
@@ -220359,7 +220359,7 @@
 43	ordonne	ordonner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
 44	de	de	ADP	_	_	47	mark	_	_
 45	s'	se	PRON	_	Person=3|PronType=Prs	47	expl:comp	_	SpaceAfter=No
-46	en	en	PRON	_	Person=3	47	expl	_	_
+46	en	en	PRON	_	Person=3	47	expl:comp	_	_
 47	aller	aller	VERB	_	VerbForm=Inf	43	xcomp	_	SpaceAfter=No
 48	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -229583,7 +229583,7 @@
 21	--	--	PUNCT	_	_	12	punct	_	SpaceAfter=No
 22	décide	décider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 23	d'	de	ADP	_	_	25	mark	_	SpaceAfter=No
-24	en	en	PRON	_	Person=3	25	expl	_	_
+24	en	en	PRON	_	Person=3	25	expl:comp	_	_
 25	finir	finir	VERB	_	VerbForm=Inf	22	xcomp	_	_
 26	avec	avec	ADP	_	_	27	case	_	_
 27	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	25	obl:arg	_	SpaceAfter=No
@@ -232403,7 +232403,7 @@
 3	lecteur	lecteur	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	-t	t	PART	_	_	6	dep	_	SpaceAfter=No
-6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+6	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	perception	perception	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
 9	de	de	ADP	_	_	11	case	_	_
@@ -232693,7 +232693,7 @@
 5	quel	quel	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
 6	point	point	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
 7	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	8	nsubj	_	_
-8	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	csubj:expl	_	_
+8	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	csubj:agent	_	_
 9	faire	faire	VERB	_	VerbForm=Inf	8	xcomp	_	_
 10	attention	attention	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 11-12	aux	_	_	_	_	_	_	_	_
@@ -248749,7 +248749,7 @@
 # sent_id = fr-ud-train_08867
 # text = Il en est ainsi dans les sociétés étouffée par les convenances et Pamuk s'y connaît en matière de dénonciation des tares de la société turque.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	en	en	PRON	_	Person=3	3	expl	_	_
+2	en	en	PRON	_	Person=3	3	expl:comp	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ainsi	ainsi	ADV	_	_	3	advmod	_	_
 5	dans	dans	ADP	_	_	7	case	_	_
@@ -254709,7 +254709,7 @@
 # text = Puis s'en retourna l'Empereur en Flandres et le roy d'Angleterre en Angleterre.
 1	Puis	puis	ADV	_	_	4	cc	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	SpaceAfter=No
-3	en	en	PRON	_	Person=3	4	expl	_	_
+3	en	en	PRON	_	Person=3	4	expl:comp	_	_
 4	retourna	retourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	Empereur	empereur	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -254764,7 +254764,7 @@
 2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 3	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs	6	expl:comp	_	SpaceAfter=No
-5	en	en	PRON	_	Person=3	6	expl	_	_
+5	en	en	PRON	_	Person=3	6	expl:comp	_	_
 6	sortent	sortir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
 8	si	si	ADV	_	_	9	advmod	_	_
@@ -256640,7 +256640,7 @@
 4	masse	masse	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	vise	viser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	-t	t	PART	_	_	7	dep	_	SpaceAfter=No
-7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+7	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	expl:subj	_	_
 8	à	à	ADP	_	_	9	mark	_	_
 9	endormir	endormir	VERB	_	VerbForm=Inf	5	ccomp	_	_
 10	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
@@ -258984,7 +258984,7 @@
 
 # sent_id = fr-ud-train_09237
 # text = Il ne sera traité dans la suite de l'article que d'une description simplifiée.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	4	advmod	_	_
 3	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	aux	_	_
 4	traité	traiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -274482,7 +274482,7 @@
 19	Gironde	Gironde	PROPN	_	_	16	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	2	punct	_	_
 21	n'	ne	ADV	_	Polarity=Neg	23	advmod	_	SpaceAfter=No
-22	en	en	PRON	_	Person=3	23	expl	_	_
+22	en	en	PRON	_	Person=3	23	expl:comp	_	_
 23	croyait	croire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 24	pas	pas	ADV	_	Polarity=Neg	23	advmod	_	_
 25	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	26	det	_	_
@@ -283220,7 +283220,7 @@
 5	chaîne	chaîne	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	expl	_	SpaceAfter=No
+8	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	de	de	ADP	_	_	11	mark	_	_
 11	souffrir	souffrir	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
@@ -283848,7 +283848,7 @@
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	Angleterre	Angleterre	PROPN	_	_	9	nsubj	_	_
 7	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
-8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+8	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
 9	dénoncé	dénoncer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	garantie	garantie	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
@@ -289025,7 +289025,7 @@
 6	nos	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det	_	_
 7	produits	produit	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 8	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+9	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
 10	résoudre	résoudre	VERB	_	VerbForm=Inf	8	xcomp	_	_
 11	plus	plus	ADV	_	_	12	advmod	_	_
 12	économiquement	économiquement	ADV	_	_	10	advmod	_	_
@@ -289601,11 +289601,11 @@
 # sent_id = fr-ud-train_10363
 # text = Ma fiancée et moi, nous n'avons aucun point de comparaison, mais nous pouvons affirmer avec confiance que vous auriez des difficultés à trouver une meilleure façon de découvrir Paris.
 1	Ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
-2	fiancée	fiancée	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+2	fiancée	fiancée	NOUN	_	Gender=Fem|Number=Sing	8	dislocated	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	moi	soi	PRON	_	Number=Sing|Person=1	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	8	expl	_	_
+6	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 7	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 8	avons	avoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	10	det	_	_
@@ -290146,7 +290146,7 @@
 38	pourquoi	pourquoi	ADV	_	_	42	advmod	_	_
 39	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	42	obj	_	SpaceAfter=No
 40	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	42	aux	_	SpaceAfter=No
-41	-tu	tu	PRON	_	Number=Sing|Person=2|PronType=Prs	42	expl	_	_
+41	-tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	42	expl:subj	_	_
 42	abandonnée	abandonner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	35	parataxis	_	_
 43	?	?	PUNCT	_	_	16	punct	_	_
 
@@ -291171,7 +291171,7 @@
 7	où	où	ADV	_	PronType=Rel	11	advmod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Résistance	résistance	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
-10	en	en	PRON	_	Person=3	11	expl	_	_
+10	en	en	PRON	_	Person=3	11	expl:comp	_	_
 11	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
 12	encore	encore	ADV	_	_	11	advmod	_	_
 13	à	à	ADP	_	_	15	case	_	_
@@ -292841,7 +292841,7 @@
 2	prière	prière	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
 3	silencieuse	silencieux	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	SpaceAfter=No
-5	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+5	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	_
 6	faite	faire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	pour	pour	ADP	_	_	10	case	_	_
 8	tout	tout	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
@@ -295438,7 +295438,7 @@
 # text = Ce pôle en est aux études de faisabilité.
 1	Ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	pôle	pôle	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-3	en	en	PRON	_	Person=3	4	expl	_	_
+3	en	en	PRON	_	Person=3	4	expl:comp	_	_
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5-6	aux	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	7	case	_	_
@@ -299769,7 +299769,7 @@
 9	Mod	Mod	PROPN	_	_	8	appos	_	_
 10	O	O	NUM	_	_	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	2	punct	_	_
-12	en	en	PRON	_	Person=3	13	expl	_	_
+12	en	en	PRON	_	Person=3	13	expl:comp	_	_
 13	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	actuellement	actuellement	ADV	_	_	13	advmod	_	_
 15	à	à	ADP	_	_	17	case	_	_
@@ -316458,7 +316458,7 @@
 # text = Désireux d'en finir avec l'affaire Mallet, il s'adressa au Cardinal de Fleury, premier ministre de Louis XV, encouragé par le fait qu'il connaissait personnellement l'aumônier du Cardinal, originaire de Cabasse.
 1	Désireux	désireux	ADJ	_	Gender=Masc|Number=Sing	12	advcl	_	_
 2	d'	de	ADP	_	_	4	mark	_	SpaceAfter=No
-3	en	en	PRON	_	Person=3	4	expl	_	_
+3	en	en	PRON	_	Person=3	4	expl:comp	_	_
 4	finir	finir	VERB	_	VerbForm=Inf	1	xcomp	_	_
 5	avec	avec	ADP	_	_	7	case	_	_
 6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
@@ -319204,7 +319204,7 @@
 18	triste	triste	ADJ	_	Gender=Masc|Number=Sing	13	ccomp	_	_
 19	d'	de	ADP	_	_	21	mark	_	SpaceAfter=No
 20	avoir	avoir	AUX	_	VerbForm=Inf	21	aux	_	_
-21	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	csubj:expl	_	_
+21	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	csubj:agent	_	_
 22	et	et	CCONJ	_	_	23	cc	_	_
 23	goûté	goûter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	_
 24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -320277,7 +320277,7 @@
 5	Fexhe	Fexhe	PROPN	_	_	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	10	expl:subj	_	SpaceAfter=No
-8	en	en	PRON	_	Person=3	10	expl	_	_
+8	en	en	PRON	_	Person=3	10	expl:comp	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	terminé	terminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	de	de	ADP	_	_	13	case	_	_
@@ -321786,7 +321786,7 @@
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Etats-Unis	Etats-Unis	PROPN	_	_	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	8	expl	_	SpaceAfter=No
+4	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	8	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	_
 7	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
@@ -324083,7 +324083,7 @@
 
 # sent_id = fr-ud-train_11605
 # text = On retiendra plus particulièrement The Cranberries, The Tossers, Dropkick Murphys, Bridget Regan du groupe Flogging Molly et surtout (The Pogues).
-1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	expl	_	_
+1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	retiendra	retenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	plus	plus	ADV	_	_	4	advmod	_	_
 4	particulièrement	particulièrement	ADV	_	_	2	advmod	_	_
@@ -324633,7 +324633,7 @@
 19	,	,	PUNCT	_	_	23	punct	_	_
 20	ne	ne	ADV	_	Polarity=Neg	23	advmod	_	_
 21	t'	te	PRON	_	Number=Sing|Person=2|PronType=Prs	23	obj	_	SpaceAfter=No
-22	en	en	PRON	_	Person=3	23	expl	_	_
+22	en	en	PRON	_	Person=3	23	expl:comp	_	_
 23	fais	faire	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	conj	_	_
 24	pas	pas	ADV	_	Polarity=Neg	23	advmod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
@@ -328699,7 +328699,7 @@
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	États-Unis	États-Unis	PROPN	_	_	8	conj	_	_
 13	d'	de	ADP	_	_	14	mark	_	SpaceAfter=No
-14	imposer	imposer	VERB	_	VerbForm=Inf	8	csubj:expl	_	_
+14	imposer	imposer	VERB	_	VerbForm=Inf	8	csubj:agent	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	président	président	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
 17	à	à	ADP	_	_	19	case	_	_
@@ -330831,7 +330831,7 @@
 34	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
 35	ennemis	ennemi	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	_
 36	qui	qui	PRON	_	PronType=Rel	38	nsubj	_	_
-37	en	en	PRON	_	Person=3	38	expl	_	_
+37	en	en	PRON	_	Person=3	38	expl:comp	_	_
 38	voulaient	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	35	acl:relcl	_	_
 39	à	à	ADP	_	_	41	case	_	_
 40	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	41	det	_	_
@@ -332528,7 +332528,7 @@
 # sent_id = fr-ud-train_11903
 # text = Il en a toujours été ainsi !
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-2	en	en	PRON	_	Person=3	5	expl	_	_
+2	en	en	PRON	_	Person=3	5	expl:comp	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	toujours	toujours	ADV	_	_	5	advmod	_	_
 5	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -332611,7 +332611,7 @@
 # sent_id = fr-ud-train_11906
 # text = Il en est à sa version 8 en commercialisation et est disponible en français pour Mac et Windows.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	en	en	PRON	_	Person=3	3	expl	_	_
+2	en	en	PRON	_	Person=3	3	expl:comp	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
@@ -338601,7 +338601,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	elle	elle	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	en	en	PRON	_	Person=3	7	expl	_	_
+6	en	en	PRON	_	Person=3	7	expl:comp	_	_
 7	venir	venir	VERB	_	VerbForm=Inf	5	xcomp	_	_
 8	à	à	ADP	_	_	9	mark	_	_
 9	favoriser	favoriser	VERB	_	VerbForm=Inf	7	xcomp	_	_
@@ -339722,7 +339722,7 @@
 44	Potier	Potier	PROPN	_	_	43	flat:name	_	SpaceAfter=No
 45	,	,	PUNCT	_	_	48	punct	_	_
 46	et	et	CCONJ	_	_	48	cc	_	_
-47	en	en	PRON	_	Person=3	48	expl	_	_
+47	en	en	PRON	_	Person=3	48	expl:comp	_	_
 48	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
 49-50	au	_	_	_	_	_	_	_	_
 49	à	à	ADP	_	_	51	case	_	_
@@ -341009,7 +341009,7 @@
 # sent_id = fr-ud-train_12221
 # text = Laganne en est à l'un de ces miraculeux moments ou la généralisation abstractive engendre à tous coups son homologue contradictoirement ambigu qu'est la signifiance structurée... ».
 1	Laganne	Laganne	PROPN	_	_	3	nsubj	_	_
-2	en	en	PRON	_	Person=3	3	expl	_	_
+2	en	en	PRON	_	Person=3	3	expl:comp	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	6	case	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
@@ -341837,24 +341837,24 @@
 
 # sent_id = fr-ud-train_12247
 # text = C'est maintenant aux 4 cristaux de lumières de choisir leurs 4 chevaliers afin d'empêcher la progression de ce Nuage de Ténèbres.
-1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	expl:subj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	maintenant	maintenant	ADV	_	_	2	advmod	_	_
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	expl:subj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	maintenant	maintenant	ADV	_	_	7	advmod	_	_
 4-5	aux	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	7	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 6	4	4	NUM	_	_	7	nummod	_	_
-7	cristaux	cristal	NOUN	_	Gender=Masc|Number=Plur	2	obl:arg	_	_
+7	cristaux	cristal	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	lumières	lumière	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
 10	de	de	ADP	_	_	11	mark	_	_
-11	choisir	choisir	VERB	_	VerbForm=Inf	2	csubj:expl	_	_
+11	choisir	choisir	VERB	_	VerbForm=Inf	7	csubj:agent	_	_
 12	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det	_	_
 13	4	4	NUM	_	_	14	nummod	_	_
 14	chevaliers	chevalier	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
 15	afin	afin	ADV	_	_	7	advmod	_	_
 16	d'	de	ADP	_	_	17	mark	_	SpaceAfter=No
-17	empêcher	empêcher	VERB	_	VerbForm=Inf	2	advcl	_	_
+17	empêcher	empêcher	VERB	_	VerbForm=Inf	7	advcl	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	progression	progression	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
 20	de	de	ADP	_	_	22	case	_	_
@@ -341862,7 +341862,7 @@
 22	Nuage	Nuage	PROPN	_	_	19	nmod	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	Ténèbres	Ténèbres	PROPN	_	_	22	nmod	_	SpaceAfter=No
-25	.	.	PUNCT	_	_	2	punct	_	_
+25	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_12248
 # text = Bien que Metaxas soit opposé à l'invasion de l'Asie Mineure dans le cadre de la Grande Idée, son vocabulaire à propos des minorités grecques des pays adjacents et dans ses réponses aux menaces de ses voisins était fortement nationaliste.
@@ -349837,7 +349837,7 @@
 1	Ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	chiffres	chiffre	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
-4	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	expl	_	_
+4	-ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	expl:subj	_	_
 5	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 6	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -350042,7 +350042,7 @@
 6	terrain	terrain	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
 7	:	:	PUNCT	_	_	10	punct	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
-9	en	en	PRON	_	Person=3	10	expl	_	_
+9	en	en	PRON	_	Person=3	10	expl:comp	_	_
 10	revient	revenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 11	bientôt	bientôt	ADV	_	_	10	advmod	_	_
 12	à	à	ADP	_	_	14	case	_	_
@@ -355960,7 +355960,7 @@
 7	centrale	centrale	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
 8	électrique	électrique	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
 9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-10	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	expl	_	_
+10	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	expl:subj	_	_
 11	définitivement	définitivement	ADV	_	_	12	advmod	_	_
 12	enterrés	enterré	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
 13	?	?	PUNCT	_	_	12	punct	_	_
@@ -360390,7 +360390,7 @@
 2	bombe	bombe	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	éclatera	éclater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-t	t	PART	_	_	5	dep	_	SpaceAfter=No
-5	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 6	ou	ou	CCONJ	_	_	7	cc	_	_
 7	non	non	ADV	_	_	3	conj	_	_
 8	?	?	PUNCT	_	_	3	punct	_	_
@@ -367293,7 +367293,7 @@
 15	financières	financier	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	2	punct	_	_
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	SpaceAfter=No
-18	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl	_	_
+18	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
 19	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	auteur	auteur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 21	de	de	ADP	_	_	23	case	_	_
@@ -372103,7 +372103,7 @@
 5	après	après	ADV	_	_	4	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
-8	en	en	PRON	_	_	9	expl	_	_
+8	en	en	PRON	_	_	9	expl:comp	_	_
 9	sommes	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 10	à	à	ADP	_	_	12	case	_	_
 11	4	4	NUM	_	_	12	nummod	_	_
@@ -375298,11 +375298,11 @@
 5	de	de	ADP	_	_	6	case	_	_
 6	noël	noël	PROPN	_	_	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
-8	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	10	expl	_	_
+8	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
 9	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	voulu	vouloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	mon	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
-12	amie	amie	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+12	amie	amie	NOUN	_	Gender=Fem|Number=Sing	10	dislocated	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
 14	moi	soi	PRON	_	Number=Sing|Person=1	12	conj	_	_
 15	aller	aller	VERB	_	VerbForm=Inf	10	xcomp	_	_
@@ -379020,7 +379020,7 @@
 28	marxisme	marxisme	NOUN	_	Gender=Masc|Number=Sing	29	nsubj	_	_
 29	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	parataxis	_	SpaceAfter=No
 30	-t	t	PART	_	_	31	dep	_	SpaceAfter=No
-31	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	expl	_	_
+31	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	expl:subj	_	_
 32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	avenir	avenir	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	_
 34	?	?	PUNCT	_	_	21	punct	_	_
@@ -380790,7 +380790,7 @@
 29	mouvementiste	mouvementiste	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	25	punct	_	_
 31	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	SpaceAfter=No
-32	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	expl	_	_
+32	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	expl:subj	_	_
 33	contribué	contribuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 34	à	à	ADP	_	_	36	case	_	_
 35	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
@@ -385850,7 +385850,7 @@
 1	Voilà	voilà	VERB	_	_	0	root	_	_
 2	où	où	ADV	_	PronType=Rel	5	obl:arg	_	_
 3	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
-4	en	en	PRON	_	Person=3	5	expl	_	_
+4	en	en	PRON	_	Person=3	5	expl:comp	_	_
 5	sommes	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -387561,7 +387561,7 @@
 22	,	,	PUNCT	_	_	13	punct	_	_
 23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 24	n'	ne	ADV	_	Polarity=Neg	26	advmod	_	SpaceAfter=No
-25	en	en	PRON	_	Person=3	26	expl	_	_
+25	en	en	PRON	_	Person=3	26	expl:comp	_	_
 26	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 27	pas	pas	ADV	_	Polarity=Neg	26	advmod	_	_
 28	de	de	ADP	_	_	26	advmod	_	EXTPOS=ADV|Type=MWE
@@ -390740,7 +390740,7 @@
 # text = Il s'en est suivi des apparitions à l'écran avec des réalisateurs tels que Georges Lautner, Claude Vital, Diane Kurys, Gérard Bitton et Michel Munz.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	SpaceAfter=No
-3	en	en	PRON	_	Person=3	5	expl	_	_
+3	en	en	PRON	_	Person=3	5	expl:comp	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	suivi	suivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
@@ -394078,7 +394078,7 @@
 3	car	car	CCONJ	_	_	5	cc	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 5	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
-6	y	y	PRON	_	_	7	expl	_	_
+6	y	y	PRON	_	_	7	expl:comp	_	_
 7	avoir	avoir	VERB	_	VerbForm=Inf	5	xcomp	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	beau	beau	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
@@ -395470,7 +395470,7 @@
 22	qu'	que	PRON	_	PronType=Int	24	nsubj	_	SpaceAfter=No
 23	y	y	PRON	_	_	24	obl:mod	_	_
 24	aurait	avoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	SpaceAfter=No
-25	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	expl	_	_
+25	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	expl:subj	_	_
 26	?	?	PUNCT	_	_	24	punct	_	_
 
 # sent_id = fr-ud-train_14118
@@ -396538,12 +396538,12 @@
 10	même	même	ADV	_	_	9	fixed	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	puis	puis	ADV	_	_	14	cc	_	_
-13	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	14	expl:subj	_	SpaceAfter=No
-14	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+13	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	17	expl:subj	_	SpaceAfter=No
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	17	case	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	tour	tour	NOUN	_	Gender=Masc|Number=Sing	14	obl:arg	_	_
+17	tour	tour	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
 18-19	des	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	21	case	_	_
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
@@ -396551,7 +396551,7 @@
 21	London	London	PROPN	_	_	17	nmod	_	_
 22	Towers	Towers	PROPN	_	_	21	flat:name	_	_
 23	d'	de	ADP	_	_	24	mark	_	SpaceAfter=No
-24	annoncer	annoncer	VERB	_	VerbForm=Inf	14	xcomp	_	_
+24	annoncer	annoncer	VERB	_	VerbForm=Inf	17	csubj:agent	_	_
 25	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det	_	_
 26	retrait	retrait	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	_
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
@@ -399097,7 +399097,7 @@
 13	»	»	PUNCT	_	_	12	punct	_	_
 14	:	:	PUNCT	_	_	17	punct	_	_
 15	«	«	PUNCT	_	_	17	punct	_	_
-16	Y'	y	PRON	_	_	17	expl	_	SpaceAfter=No
+16	Y'	y	PRON	_	_	17	expl:comp	_	SpaceAfter=No
 17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
 18	bon	bon	ADJ	_	Gender=Masc|Number=Sing	17	obj	_	_
 19	»	»	PUNCT	_	_	17	punct	_	SpaceAfter=No
