@@ -145672,7 +145672,7 @@
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	nom	nom	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	_
 30-31	du	_	_	_	_	_	_	_	_
-30	de	de	ADP	_	_	34	mark	_	_
+30	de	de	ADP	_	_	33	case	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 32	«	«	PUNCT	_	_	33	punct	_	_
 33	laisser	laisser	VERB	_	VerbForm=Inf	29	nmod	_	EXTPOS=PROPN|Type=Title
@@ -174291,22 +174291,22 @@
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
 14	en	en	ADP	_	_	15	case	_	_
 15	polonais	polonais	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-16	Naprzód	Naprzód	ADV	_	_	6	ccomp	_	EXTPOS=PROPN|Type=Title
-17	psiekrwie	psiekrwie	NOUN	_	_	16	vocative	_	INTITLE=Yes|SpaceAfter=No
-18	,	,	PUNCT	_	_	20	punct	_	INTITLE=Yes
-19	Cesarz	Cesarz	X	_	_	20	nsubj	_	INTITLE=Yes
-20	patrzy	patrzy	X	_	_	16	parataxis	_	INTITLE=Yes|SpaceAfter=No
-21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
-22	En	en	ADP	_	_	23	case	_	INTITLE=Yes
-23	avant	avant	ADV	_	_	16	appos	_	EXTPOS=PROPN|Type=Title
-24	fils	fils	NOUN	_	Gender=Masc|Number=Plur	23	vocative	_	INTITLE=Yes
-25	de	de	ADP	_	_	26	case	_	INTITLE=Yes
-26	chiens	chien	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	INTITLE=Yes|SpaceAfter=No
+16	Naprzód	Naprzód	X	_	_	6	ccomp	_	Foreign=pl
+17	psiekrwie	psiekrwie	X	_	_	16	flat:foreign	_	Foreign=pl|SpaceAfter=No
+18	,	,	PUNCT	_	_	16	punct	_	_
+19	Cesarz	Cesarz	X	_	_	16	flat:foreign	_	Foreign=pl
+20	patrzy	patrzy	X	_	_	16	flat:foreign	_	Foreign=pl|SpaceAfter=No
+21	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+22	En	en	ADP	_	_	23	case	_	_
+23	avant	avant	ADV	_	_	16	appos	_	_
+24	fils	fils	NOUN	_	Gender=Masc|Number=Plur	23	vocative	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	chiens	chien	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	31	punct	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
-29	Empereur	Empereur	PROPN	_	_	31	nsubj	_	_
+29	Empereur	empereur	NOUN	_	Gender=Masc|Number=Sing	31	nsubj	_	_
 30	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	31	iobj	_	_
-31	regarde	regarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+31	regarde	regarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	parataxis	_	_
 32	!	!	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_06230
@@ -308162,8 +308162,8 @@
 9	d'	de	ADP	_	_	10	mark	_	SpaceAfter=No
 10	avoir	avoir	VERB	_	VerbForm=Inf	8	ccomp	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	petit	petit	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	INMWE=Yes
-13	déjeuner	déjeuner	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	EXTPOS=NOUN|Type=MWE
+12	petit	petit	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	déjeuner	déjeuner	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
 14	de	de	ADP	_	_	17	case	_	_
 15	si	si	ADV	_	_	16	advmod	_	_
 16	mauvaise	mauvais	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
