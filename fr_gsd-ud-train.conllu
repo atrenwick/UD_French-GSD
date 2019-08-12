@@ -10332,8 +10332,8 @@
 14	pour	pour	ADP	_	_	16	case	_	_
 15	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det	_	_
 16	documents	document	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
-17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-18	plus	plus	ADV	_	_	19	advmod	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	advmod	_	EXTPOS=ADV|Type=MWE
+18	plus	plus	ADV	_	_	17	fixed	_	_
 19	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -12345,8 +12345,8 @@
 # text = L'heure la plus dangereuse, le moment où la nuit est la plus noire, c'est 1h.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	heure	heure	NOUN	_	Gender=Fem|Number=Sing	19	dislocated	_	_
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	dangereuse	dangereux	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -12420,8 +12420,8 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
 5	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-7	plus	plus	ADV	_	_	8	advmod	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	advmod	_	EXTPOS=ADV|Type=MWE
+7	plus	plus	ADV	_	_	6	fixed	_	_
 8	connue	connaître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	Paysandisia	Paysandisia	PROPN	_	_	5	appos	_	_
@@ -12488,8 +12488,8 @@
 2	ressources	ressource	NOUN	_	Gender=Fem|Number=Plur	13	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	notamment	notamment	ADV	_	_	7	advmod	_	_
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-6	plus	plus	ADV	_	_	7	advmod	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	advmod	_	EXTPOS=ADV|Type=MWE
+6	plus	plus	ADV	_	_	5	fixed	_	_
 7	récentes	récent	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	ne	ne	ADV	_	Polarity=Neg	13	advmod	_	_
@@ -18057,8 +18057,8 @@
 3	de	de	ADP	_	_	4	case	_	_
 4	bioluminescence	bioluminescence	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	terrestre	terrestre	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
-6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-7	plus	plus	ADV	_	_	8	advmod	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	advmod	_	EXTPOS=ADV|Type=MWE
+7	plus	plus	ADV	_	_	6	fixed	_	_
 8	connues	connaître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
 9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
@@ -23446,8 +23446,8 @@
 7	bénéficient	bénéficier	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	foyers	foyer	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
-10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-11	plus	plus	ADV	_	_	12	advmod	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	advmod	_	EXTPOS=ADV|Type=MWE
+11	plus	plus	ADV	_	_	10	fixed	_	_
 12	modestes	modeste	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
 13	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux:pass	_	_
 14	augmenté	augmenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -26991,8 +26991,8 @@
 15	identifiant	identifier	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	_
 16	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	agences	agence	NOUN	_	Gender=Fem|Number=Plur	15	obj	_	_
-18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-19	plus	plus	ADV	_	_	20	advmod	_	_
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	advmod	_	EXTPOS=ADV|Type=MWE
+19	plus	plus	ADV	_	_	18	fixed	_	_
 20	efficaces	efficace	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
@@ -36381,8 +36381,8 @@
 7	à	à	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	jours	jour	NOUN	_	Gender=Masc|Number=Plur	2	obl:mod	_	_
-10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-11	plus	plus	ADV	_	_	12	advmod	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	advmod	_	EXTPOS=ADV|Type=MWE
+11	plus	plus	ADV	_	_	10	fixed	_	_
 12	critiques	critique	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -42138,8 +42138,8 @@
 # text = Sa partie la plus ancienne, le donjon carré, a été construite par les templiers dont la commanderie était commise à la garde du gué de l'Alagnon, au lieu dénommé « La Nau ».
 1	Sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
 2	partie	partie	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:pass	_	_
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	ancienne	ancien	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -44675,8 +44675,8 @@
 18	religion	religion	NOUN	_	Gender=Fem|Number=Sing	12	acl:relcl	_	_
 19	sans	sans	ADP	_	_	20	case	_	_
 20	conteste	conteste	NOUN	_	Gender=Fem|Number=Sing	23	obl:mod	_	_
-21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-22	plus	plus	ADV	_	_	23	advmod	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	advmod	_	EXTPOS=ADV|Type=MWE
+22	plus	plus	ADV	_	_	21	fixed	_	_
 23	dynamique	dynamique	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	12	punct	_	_
 25	n'	ne	ADV	_	Polarity=Neg	30	advmod	_	SpaceAfter=No
@@ -50471,8 +50471,8 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	huitième	huitième	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 5	ville	ville	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-7	plus	plus	ADV	_	_	8	advmod	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	advmod	_	EXTPOS=ADV|Type=MWE
+7	plus	plus	ADV	_	_	6	fixed	_	_
 8	peuplée	peupler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	Bulgarie	Bulgarie	PROPN	_	_	5	nmod	_	SpaceAfter=No
@@ -54228,8 +54228,8 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	édifices	édifice	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-9	plus	plus	ADV	_	_	10	advmod	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	advmod	_	EXTPOS=ADV|Type=MWE
+9	plus	plus	ADV	_	_	8	fixed	_	_
 10	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
@@ -60421,8 +60421,8 @@
 11	entre	entre	ADP	_	_	13	case	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	feuille	feuille	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-15	plus	plus	ADV	_	_	16	advmod	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	advmod	_	EXTPOS=ADV|Type=MWE
+15	plus	plus	ADV	_	_	14	fixed	_	_
 16	éloignée	éloigné	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
 17	et	et	CCONJ	_	_	19	cc	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -66399,8 +66399,8 @@
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 12	huit	huit	NUM	_	_	13	nummod	_	_
 13	trimestres	trimestre	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
-14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-15	plus	plus	ADV	_	_	16	advmod	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	advmod	_	EXTPOS=ADV|Type=MWE
+15	plus	plus	ADV	_	_	14	fixed	_	_
 16	récents	récent	ADJ	_	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -84060,8 +84060,8 @@
 44	de	de	ADP	_	_	46	case	_	_
 45	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	46	det	_	_
 46	ouvrages	ouvrage	NOUN	_	Gender=Masc|Number=Plur	43	nmod	_	_
-47	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	49	det	_	_
-48	plus	plus	ADV	_	_	49	advmod	_	_
+47	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	49	advmod	_	EXTPOS=ADV|Type=MWE
+48	plus	plus	ADV	_	_	47	fixed	_	_
 49	connus	connu	ADJ	_	Gender=Masc|Number=Plur	46	amod	_	SpaceAfter=No
 50	,	,	PUNCT	_	_	43	punct	_	_
 51	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	53	aux:pass	_	_
@@ -93070,8 +93070,8 @@
 6	par	par	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	partisans	partisan	NOUN	_	Gender=Masc|Number=Plur	3	obl:agent	_	_
-9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-10	plus	plus	ADV	_	_	11	advmod	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	advmod	_	EXTPOS=ADV|Type=MWE
+10	plus	plus	ADV	_	_	9	fixed	_	_
 11	déterminés	déterminer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -101675,8 +101675,8 @@
 12	de	de	ADP	_	_	14	case	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	ballets	ballet	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
-15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
-16	plus	plus	ADV	_	_	17	advmod	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	advmod	_	EXTPOS=ADV|Type=MWE
+16	plus	plus	ADV	_	_	15	fixed	_	_
 17	prestigieux	prestigieux	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
 18-19	du	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	20	case	_	_
@@ -112883,8 +112883,8 @@
 # text = Les cheminées les plus hautes font 15 mètres de haut.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	cheminées	cheminée	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	hautes	haut	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 6	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	15	15	NUM	_	_	8	nummod	_	_
@@ -121807,8 +121807,8 @@
 # text = Les tenues les plus modernes se composent de vêtements proches du corps (chemise et pantalon) ignifugés, et d'une veste de protection textile (parfois encore en cuir) et d'un surpantalon particulièrement résistants.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	tenues	tenue	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	_
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	modernes	moderne	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 6	se	se	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
 7	composent	composer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -129994,8 +129994,8 @@
 30	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	destination	destination	NOUN	_	Gender=Fem|Number=Sing	11	ccomp	_	_
-33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-34	plus	plus	ADV	_	_	35	advmod	_	_
+33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	advmod	_	EXTPOS=ADV|Type=MWE
+34	plus	plus	ADV	_	_	33	fixed	_	_
 35	vendue	vendu	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	_
 36	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
 37	385 521	385 521	NUM	_	_	38	nummod	_	_
@@ -130087,8 +130087,8 @@
 # text = L'édition la plus complète de Bite Me est celle de décembre 2007 qui inclut un guide des épisodes de toutes les saisons de Buffy.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	édition	édition	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	complète	complet	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	Bite	Bite	PROPN	_	_	2	nmod	_	_
@@ -135395,8 +135395,8 @@
 21	étant	être	AUX	_	Tense=Pres|VerbForm=Part	23	cop	_	_
 22	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	étoiles	étoile	NOUN	_	Gender=Fem|Number=Plur	13	advcl	_	_
-24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
-25	plus	plus	ADV	_	_	26	advmod	_	_
+24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	advmod	_	EXTPOS=ADV|Type=MWE
+25	plus	plus	ADV	_	_	24	fixed	_	_
 26	massives	massif	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
 27	connues	connaître	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	_
 28	à	à	ADP	_	_	30	case	_	_
@@ -142029,8 +142029,8 @@
 19	de	de	ADP	_	_	21	case	_	_
 20	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	intérêts	intérêt	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
-22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
-23	plus	plus	ADV	_	_	24	advmod	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	advmod	_	EXTPOS=ADV|Type=MWE
+23	plus	plus	ADV	_	_	22	fixed	_	_
 24	important	important	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
 25	pour	pour	ADP	_	_	27	case	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
@@ -145672,7 +145672,7 @@
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	nom	nom	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	_
 30-31	du	_	_	_	_	_	_	_	_
-30	de	de	ADP	_	_	33	case	_	_
+30	de	de	ADP	_	_	34	mark	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 32	«	«	PUNCT	_	_	33	punct	_	_
 33	laisser	laisser	VERB	_	VerbForm=Inf	29	nmod	_	EXTPOS=PROPN|Type=Title
@@ -146344,8 +146344,8 @@
 7	de	de	ADP	_	_	9	case	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
 9	équipes	équipe	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
-10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
-11	plus	plus	ADV	_	_	12	advmod	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	advmod	_	EXTPOS=ADV|Type=MWE
+11	plus	plus	ADV	_	_	10	fixed	_	_
 12	faibles	faible	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -146605,8 +146605,8 @@
 # text = La complication la plus fréquente est le saignement local.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	complication	complication	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	fréquente	fréquent	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -150032,16 +150032,16 @@
 73	tous	tout	ADJ	_	Gender=Masc|Number=Plur	75	amod	_	_
 74	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	75	det	_	_
 75	genres	genre	NOUN	_	Gender=Masc|Number=Plur	71	nmod	_	_
-76	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	78	det	_	_
-77	plus	plus	ADV	_	_	78	advmod	_	_
+76	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	78	advmod	_	EXTPOS=ADV|Type=MWE
+77	plus	plus	ADV	_	_	76	fixed	_	_
 78	douteux	douteux	ADJ	_	Gender=Masc|Number=Plur	75	amod	_	SpaceAfter=No
 79	,	,	PUNCT	_	_	83	punct	_	_
 80	de	de	ADP	_	_	83	case	_	_
 81	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	83	amod	_	_
 82	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	83	det	_	_
 83	disciplines	discipline	NOUN	_	Gender=Fem|Number=Plur	75	conj	_	_
-84	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	86	det	_	_
-85	plus	plus	ADV	_	_	86	advmod	_	_
+84	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	86	advmod	_	EXTPOS=ADV|Type=MWE
+85	plus	plus	ADV	_	_	84	fixed	_	_
 86	déviantes	déviant	ADJ	_	Gender=Fem|Number=Plur	83	amod	_	SpaceAfter=No
 87	,	,	PUNCT	_	_	83	punct	_	_
 88	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	57	obl:mod	_	_
@@ -150318,8 +150318,8 @@
 16	million	million	NOUN	_	_	14	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	21	punct	_	_
 18	soit	soit	ADV	_	_	21	advmod	_	_
-19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-20	plus	plus	ADV	_	_	21	advmod	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	advmod	_	EXTPOS=ADV|Type=MWE
+20	plus	plus	ADV	_	_	19	fixed	_	_
 21	élevée	élevé	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 22	depuis	depuis	ADP	_	_	24	case	_	_
 23	400.000	400.000	NUM	_	_	24	nummod	_	_
@@ -160739,8 +160739,8 @@
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	route	route	NOUN	_	Gender=Fem|Number=Sing	8	xcomp	_	_
-18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-19	plus	plus	ADV	_	_	20	advmod	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	advmod	_	EXTPOS=ADV|Type=MWE
+19	plus	plus	ADV	_	_	18	fixed	_	_
 20	courte	court	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 21	et	et	CCONJ	_	_	24	cc	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
@@ -161139,8 +161139,8 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	gare	gare	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
 3	ferroviaire	ferroviaire	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-5	plus	plus	ADV	_	_	6	advmod	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	advmod	_	EXTPOS=ADV|Type=MWE
+5	plus	plus	ADV	_	_	4	fixed	_	_
 6	proche	proche	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
 8	aujourd'hui	aujourd'hui	ADV	_	_	23	advmod	_	_
@@ -169821,8 +169821,8 @@
 5	sites	site	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 6	de	de	ADP	_	_	7	case	_	_
 7	cam-girls	cam-girl	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-9	plus	plus	ADV	_	_	10	advmod	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	advmod	_	EXTPOS=ADV|Type=MWE
+9	plus	plus	ADV	_	_	8	fixed	_	_
 10	réputés	réputer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
 11	inclut	inclure	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	JenniCam.com	JenniCam.com	SYM	_	_	11	obj	_	EXTPOS=PROPN|SpaceAfter=No|Type=Trans
@@ -174291,22 +174291,22 @@
 13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
 14	en	en	ADP	_	_	15	case	_	_
 15	polonais	polonais	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
-16	Naprzód	Naprzód	X	_	_	6	ccomp	_	Foreign=pl
-17	psiekrwie	psiekrwie	X	_	_	16	flat:foreign	_	Foreign=pl|SpaceAfter=No
-18	,	,	PUNCT	_	_	16	punct	_	_
-19	Cesarz	Cesarz	X	_	_	16	flat:foreign	_	Foreign=pl
-20	patrzy	patrzy	X	_	_	16	flat:foreign	_	Foreign=pl|SpaceAfter=No
-21	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
-22	En	en	ADP	_	_	23	case	_	_
-23	avant	avant	ADV	_	_	16	appos	_	_
-24	fils	fils	NOUN	_	Gender=Masc|Number=Plur	23	vocative	_	_
-25	de	de	ADP	_	_	26	case	_	_
-26	chiens	chien	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+16	Naprzód	Naprzód	ADV	_	_	6	ccomp	_	EXTPOS=PROPN|Type=Title
+17	psiekrwie	psiekrwie	NOUN	_	_	16	vocative	_	INTITLE=Yes|SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	INTITLE=Yes
+19	Cesarz	Cesarz	X	_	_	20	nsubj	_	INTITLE=Yes
+20	patrzy	patrzy	X	_	_	16	parataxis	_	INTITLE=Yes|SpaceAfter=No
+21	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	En	en	ADP	_	_	23	case	_	INTITLE=Yes
+23	avant	avant	ADV	_	_	16	appos	_	EXTPOS=PROPN|Type=Title
+24	fils	fils	NOUN	_	Gender=Masc|Number=Plur	23	vocative	_	INTITLE=Yes
+25	de	de	ADP	_	_	26	case	_	INTITLE=Yes
+26	chiens	chien	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	INTITLE=Yes|SpaceAfter=No
 27	,	,	PUNCT	_	_	31	punct	_	_
 28	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
-29	Empereur	empereur	NOUN	_	Gender=Masc|Number=Sing	31	nsubj	_	_
+29	Empereur	Empereur	PROPN	_	_	31	nsubj	_	_
 30	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	31	iobj	_	_
-31	regarde	regarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	parataxis	_	_
+31	regarde	regarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
 32	!	!	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_06230
@@ -185561,8 +185561,8 @@
 9	dans	dans	ADP	_	_	11	case	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	domaines	domaine	NOUN	_	Gender=Masc|Number=Plur	8	obl:arg	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-13	plus	plus	ADV	_	_	14	advmod	_	_
+12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	advmod	_	EXTPOS=ADV|Type=MWE
+13	plus	plus	ADV	_	_	12	fixed	_	_
 14	divers	divers	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -190522,8 +190522,8 @@
 17	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	mentions	mention	NOUN	_	Gender=Fem|Number=Plur	23	nsubj	_	_
 19	écrites	écrire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
-20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
-21	plus	plus	ADV	_	_	22	advmod	_	_
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	advmod	_	EXTPOS=ADV|Type=MWE
+21	plus	plus	ADV	_	_	20	fixed	_	_
 22	anciennes	ancien	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
 23	citent	citer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -191780,8 +191780,8 @@
 8	de	de	ADP	_	_	10	case	_	_
 9	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	zones	zone	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-12	plus	plus	ADV	_	_	13	advmod	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	advmod	_	EXTPOS=ADV|Type=MWE
+12	plus	plus	ADV	_	_	11	fixed	_	_
 13	arides	aride	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 14-15	au	_	_	_	_	_	_	_	_
 14	à	à	ADP	_	_	16	case	_	_
@@ -192569,8 +192569,8 @@
 4	à	à	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	mots	mot	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
-7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-8	plus	plus	ADV	_	_	9	advmod	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	advmod	_	EXTPOS=ADV|Type=MWE
+8	plus	plus	ADV	_	_	7	fixed	_	_
 9	usuels	usuel	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	à	à	ADP	_	_	13	case	_	_
@@ -193475,8 +193475,8 @@
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	vidéos	vidéo	NOUN	_	Gender=Fem|Number=Plur	7	conj	_	_
-14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-15	plus	plus	ADV	_	_	16	advmod	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	advmod	_	EXTPOS=ADV|Type=MWE
+15	plus	plus	ADV	_	_	14	fixed	_	_
 16	regardées	regarder	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
 17	sur	sur	ADP	_	_	19	case	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -198198,8 +198198,8 @@
 10	être	être	AUX	_	VerbForm=Inf	12	cop	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	caractéristique	caractéristique	NOUN	_	Gender=Fem|Number=Sing	9	xcomp	_	_
-13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-14	plus	plus	ADV	_	_	15	advmod	_	_
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	advmod	_	EXTPOS=ADV|Type=MWE
+14	plus	plus	ADV	_	_	13	fixed	_	_
 15	utilisée	utiliser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
 16	dans	dans	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -199221,8 +199221,8 @@
 22	de	de	ADP	_	_	24	case	_	_
 23	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 24	images	image	NOUN	_	Gender=Fem|Number=Plur	21	nmod	_	_
-25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
-26	plus	plus	ADV	_	_	27	advmod	_	_
+25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	advmod	_	EXTPOS=ADV|Type=MWE
+26	plus	plus	ADV	_	_	25	fixed	_	_
 27	connues	connu	ADJ	_	Gender=Fem|Number=Plur	24	amod	_	_
 28	de	de	ADP	_	_	30	case	_	_
 29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
@@ -200669,8 +200669,8 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	grande	grand	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	ville	ville	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-5	plus	plus	ADV	_	_	6	advmod	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	advmod	_	EXTPOS=ADV|Type=MWE
+5	plus	plus	ADV	_	_	4	fixed	_	_
 6	proche	proche	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 8	Douai	Douai	PROPN	_	_	0	root	_	SpaceAfter=No
@@ -205640,8 +205640,8 @@
 6	bien	bien	ADV	_	_	8	advmod	_	_
 7	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	moins	moins	ADV	_	_	11	advmod	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	EXTPOS=ADV|Type=MWE
+10	moins	moins	ADV	_	_	9	fixed	_	_
 11	cher	cher	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
 12	et	et	CCONJ	_	_	15	cc	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	advmod	_	EXTPOS=ADV|Type=MWE
@@ -208938,8 +208938,8 @@
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 9	plus	plus	ADV	_	_	10	advmod	_	_
 10	hôtels	hôtel	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-12	plus	plus	ADV	_	_	13	advmod	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	advmod	_	EXTPOS=ADV|Type=MWE
+12	plus	plus	ADV	_	_	11	fixed	_	_
 13	connus	connaître	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
 14	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 15	Europe	Europe	PROPN	_	_	13	obl:mod	_	_
@@ -209968,8 +209968,8 @@
 19	usages	usage	NOUN	_	Gender=Masc|Number=Plur	17	obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	24	punct	_	_
 21	même	même	ADV	_	_	24	advmod	_	_
-22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
-23	plus	plus	ADV	_	_	24	advmod	_	_
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	advmod	_	EXTPOS=ADV|Type=MWE
+23	plus	plus	ADV	_	_	22	fixed	_	_
 24	contraires	contraire	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	nos	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	27	det	_	_
@@ -211759,8 +211759,8 @@
 # text = Les éléments les plus représentatifs sont aujourd'hui exposés au Metropolitan Museum of Art de New York, tandis que les vestiges estimés alors à l'époque des premières fouilles comme ayant peu de valeur (débris de poteries ou céramiques, offrandes alimentaires embaumées etc.) sont toujours dans la tombe et laissés entassés dans une des annexes de la tombe comme au jour de leur découverte.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	représentatifs	représentatif	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 7	aujourd'hui	aujourd'hui	ADV	_	_	8	advmod	_	_
@@ -212860,8 +212860,8 @@
 14	ml	ml	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	version	version	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
-17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-18	plus	plus	ADV	_	_	19	advmod	_	_
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	advmod	_	EXTPOS=ADV|Type=MWE
+18	plus	plus	ADV	_	_	17	fixed	_	_
 19	exportée	exporter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
 20	dont	dont	PRON	_	PronType=Rel	22	nmod	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -222988,8 +222988,8 @@
 # text = Les Français les plus pauvres consacrent 48% de leur revenu à leur logement.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Français	français	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	pauvres	pauvre	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 6	consacrent	consacrer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	48	48	NUM	_	_	8	nummod	_	SpaceAfter=No
@@ -225974,8 +225974,8 @@
 1	Selon	selon	ADP	_	_	3	case	_	_
 2	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	statistiques	statistique	NOUN	_	Gender=Fem|Number=Plur	14	obl:mod	_	_
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-5	plus	plus	ADV	_	_	6	advmod	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	advmod	_	EXTPOS=ADV|Type=MWE
+5	plus	plus	ADV	_	_	4	fixed	_	_
 6	récentes	récent	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	1.800	1.800	NUM	_	_	9	nummod	_	_
@@ -230419,8 +230419,8 @@
 2	exerce	exercer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	métiers	métier	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-6	plus	plus	ADV	_	_	7	advmod	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	advmod	_	EXTPOS=ADV|Type=MWE
+6	plus	plus	ADV	_	_	5	fixed	_	_
 7	divers	divers	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
 8	avant	avant	ADV	_	_	2	advmod	_	_
 9	d'	de	ADP	_	_	10	mark	_	SpaceAfter=No
@@ -232318,8 +232318,8 @@
 24	de	de	ADP	_	_	26	case	_	_
 25	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 26	producteurs	producteur	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
-27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
-28	plus	plus	ADV	_	_	29	advmod	_	_
+27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	advmod	_	EXTPOS=ADV|Type=MWE
+28	plus	plus	ADV	_	_	27	fixed	_	_
 29	important	important	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
 30	de	de	ADP	_	_	32	case	_	_
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
@@ -233002,8 +233002,8 @@
 # text = Les modérateurs les plus courants sont en graphite, en eau normale ou en eau lourde.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	modérateurs	modérateur	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	courants	courant	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	en	en	ADP	_	_	8	case	_	_
@@ -234174,8 +234174,8 @@
 13	de	de	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	lacs	lac	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
-16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-17	plus	plus	ADV	_	_	18	advmod	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	advmod	_	EXTPOS=ADV|Type=MWE
+17	plus	plus	ADV	_	_	16	fixed	_	_
 18	vierges	vierge	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
 19	et	et	CCONJ	_	_	20	cc	_	_
 20	étendus	étendu	ADJ	_	Gender=Masc|Number=Plur	18	conj	_	_
@@ -236137,8 +236137,8 @@
 13	et	et	CCONJ	_	_	20	cc	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	postes	poste	NOUN	_	Gender=Masc|Number=Plur	20	nsubj:pass	_	_
-16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-17	plus	plus	ADV	_	_	18	advmod	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	advmod	_	EXTPOS=ADV|Type=MWE
+17	plus	plus	ADV	_	_	16	fixed	_	_
 18	élevés	élevé	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
 19	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
 20	détenus	détenir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	conj	_	_
@@ -245037,8 +245037,8 @@
 15	par	par	ADP	_	_	17	case	_	_
 16	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det	_	_
 17	amis	ami	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
-18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
-19	plus	plus	ADV	_	_	20	advmod	_	_
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	advmod	_	EXTPOS=ADV|Type=MWE
+19	plus	plus	ADV	_	_	18	fixed	_	_
 20	proches	proche	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
 21	eux-mêmes	eux-mêmes	PRON	_	Gender=Masc|Number=Plur|Person=3|Reflex=Yes	17	nmod	_	_
 22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
@@ -249230,8 +249230,8 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	services	service	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
-9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-10	plus	plus	ADV	_	_	11	advmod	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	advmod	_	EXTPOS=ADV|Type=MWE
+10	plus	plus	ADV	_	_	9	fixed	_	_
 11	puissants	puissant	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 12-13	du	_	_	_	_	_	_	_	_
 12	de	de	ADP	_	_	14	case	_	_
@@ -252401,8 +252401,8 @@
 # text = Les animaux les plus touchés sont les renards, les cerfs, les blaireaux et les ânes.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	animaux	animal	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	touchés	touché	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
@@ -258803,8 +258803,8 @@
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	zone	zone	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 4	éruptive	éruptif	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
-5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	plus	plus	ADV	_	_	7	advmod	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	advmod	_	EXTPOS=ADV|Type=MWE
+6	plus	plus	ADV	_	_	5	fixed	_	_
 7	importante	important	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -260052,8 +260052,8 @@
 6	sur	sur	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	auteurs	auteur	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
-9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-10	plus	plus	ADV	_	_	11	advmod	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	advmod	_	EXTPOS=ADV|Type=MWE
+10	plus	plus	ADV	_	_	9	fixed	_	_
 11	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
@@ -260127,8 +260127,8 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	pratiquants	pratiquant	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
-6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-7	plus	plus	ADV	_	_	8	advmod	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	advmod	_	EXTPOS=ADV|Type=MWE
+7	plus	plus	ADV	_	_	6	fixed	_	_
 8	connus	connu	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
 9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 10	Terry	Terry	PROPN	_	_	0	root	_	_
@@ -260600,8 +260600,8 @@
 16	dans	dans	ADP	_	_	18	case	_	_
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	partie	partie	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	_
-19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-20	plus	plus	ADV	_	_	21	advmod	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	advmod	_	EXTPOS=ADV|Type=MWE
+20	plus	plus	ADV	_	_	19	fixed	_	_
 21	haute	haut	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
@@ -271223,8 +271223,8 @@
 # text = La façon la plus évidente d'ajouter une notion de localisation spatiale dans un ensemble de données, est d'ajouter des attributs de position pour chacun des objets.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	façon	façon	NOUN	_	Gender=Fem|Number=Sing	19	nsubj	_	_
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	évidente	évident	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 6	d'	de	ADP	_	_	7	mark	_	SpaceAfter=No
 7	ajouter	ajouter	VERB	_	VerbForm=Inf	2	acl	_	_
@@ -271956,8 +271956,8 @@
 28	:	:	PUNCT	_	_	30	punct	_	_
 29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	vitesse	vitesse	NOUN	_	Gender=Fem|Number=Sing	26	appos	_	_
-31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-32	plus	plus	ADV	_	_	33	advmod	_	_
+31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	advmod	_	EXTPOS=ADV|Type=MWE
+32	plus	plus	ADV	_	_	31	fixed	_	_
 33	rapide	rapide	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	_
 34	que	que	PRON	_	PronType=Rel	38	obj	_	_
 35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
@@ -273268,8 +273268,8 @@
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	deux	deux	NUM	_	_	3	nummod	_	_
 3	éléments	élément	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-5	plus	plus	ADV	_	_	6	advmod	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	advmod	_	EXTPOS=ADV|Type=MWE
+5	plus	plus	ADV	_	_	4	fixed	_	_
 6	remarquables	remarquable	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 8	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
@@ -277874,8 +277874,8 @@
 31	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	phase	phase	NOUN	_	Gender=Fem|Number=Sing	28	appos	_	_
-34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-35	plus	plus	ADV	_	_	36	advmod	_	_
+34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	advmod	_	EXTPOS=ADV|Type=MWE
+35	plus	plus	ADV	_	_	34	fixed	_	_
 36	liquide	liquide	ADJ	_	Gender=Fem|Number=Sing	33	amod	_	SpaceAfter=No
 37	)	)	PUNCT	_	_	33	punct	_	_
 38	en	en	ADP	_	_	39	case	_	_
@@ -280640,8 +280640,8 @@
 2	constituent	constituer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	néoplasies	néoplasie	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	_
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-6	plus	plus	ADV	_	_	7	advmod	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	advmod	_	EXTPOS=ADV|Type=MWE
+6	plus	plus	ADV	_	_	5	fixed	_	_
 7	fréquentes	fréquent	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
 8	chez	chez	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -285778,8 +285778,8 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	«	«	PUNCT	_	_	20	punct	_	_
 20	menace	menace	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	_
-21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-22	plus	plus	ADV	_	_	23	advmod	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	advmod	_	EXTPOS=ADV|Type=MWE
+22	plus	plus	ADV	_	_	21	fixed	_	_
 23	sérieuse	sérieux	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	_
 24	à	à	ADP	_	_	26	case	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -287165,8 +287165,8 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	sites	site	NOUN	_	Gender=Masc|Number=Plur	11	nsubj	_	_
-7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
-8	plus	plus	ADV	_	_	9	advmod	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	advmod	_	EXTPOS=ADV|Type=MWE
+8	plus	plus	ADV	_	_	7	fixed	_	_
 9	importants	important	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
 10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 11	Khotan	Khotan	PROPN	_	_	0	root	_	SpaceAfter=No
@@ -291000,8 +291000,8 @@
 16	garder	garder	VERB	_	VerbForm=Inf	14	xcomp	_	_
 17	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	affaires	affaire	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
-19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
-20	plus	plus	ADV	_	_	21	advmod	_	_
+19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	advmod	_	EXTPOS=ADV|Type=MWE
+20	plus	plus	ADV	_	_	19	fixed	_	_
 21	avantageuses	avantageux	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
 22	entre	entre	ADP	_	_	24	case	_	_
 23	leurs	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	24	det	_	_
@@ -298935,8 +298935,8 @@
 24	de	de	ADP	_	_	26	case	_	_
 25	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
 26	pistes	piste	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	_
-27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
-28	plus	plus	ADV	_	_	29	advmod	_	_
+27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	advmod	_	EXTPOS=ADV|Type=MWE
+28	plus	plus	ADV	_	_	27	fixed	_	_
 29	difficiles	difficile	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	_
 30-31	des	_	_	_	_	_	_	_	_
 30	de	de	ADP	_	_	32	case	_	_
@@ -299466,8 +299466,8 @@
 # text = La température la plus froide a été enregistrée à Merrill Field le 3 février 1947 et était de −38,9 °C.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	température	température	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	froide	froid	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux:pass	_	_
@@ -300570,8 +300570,8 @@
 29	de	de	ADP	_	_	31	case	_	_
 30	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
 31	familles	famille	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	_
-32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	det	_	_
-33	plus	plus	ADV	_	_	34	advmod	_	_
+32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	34	advmod	_	EXTPOS=ADV|Type=MWE
+33	plus	plus	ADV	_	_	32	fixed	_	_
 34	influentes	influent	ADJ	_	Gender=Fem|Number=Plur	31	amod	_	_
 35	dans	dans	ADP	_	_	37	case	_	_
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
@@ -308162,12 +308162,12 @@
 9	d'	de	ADP	_	_	10	mark	_	SpaceAfter=No
 10	avoir	avoir	VERB	_	VerbForm=Inf	8	ccomp	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	petit	petit	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
-13	déjeuner	déjeuner	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+12	petit	petit	ADJ	_	Gender=Masc|Number=Sing	10	obj	_	EXTPOS=NOUN|Type=MWE
+13	déjeuner	déjeuner	NOUN	_	Gender=Masc|Number=Sing	12	fixed	_	_
 14	de	de	ADP	_	_	17	case	_	_
 15	si	si	ADV	_	_	16	advmod	_	_
 16	mauvaise	mauvais	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
-17	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_11049
@@ -308865,8 +308865,8 @@
 14	de	de	ADP	_	_	16	case	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
-17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
-18	plus	plus	ADV	_	_	19	advmod	_	_
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	advmod	_	EXTPOS=ADV|Type=MWE
+18	plus	plus	ADV	_	_	17	fixed	_	_
 19	connus	connaître	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	acl	_	_
 20	en	en	ADP	_	_	21	case	_	_
 21	France	France	PROPN	_	_	19	obl	_	SpaceAfter=No
@@ -311352,8 +311352,8 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	voyage	voyage	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
-8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-9	plus	plus	ADV	_	_	10	advmod	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	advmod	_	EXTPOS=ADV|Type=MWE
+9	plus	plus	ADV	_	_	8	fixed	_	_
 10	représentative	représentatif	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	s'	se	PRON	_	Person=3|PronType=Prs	13	expl:pass	_	SpaceAfter=No
@@ -313481,8 +313481,8 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	japonais	japonais	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
-13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-14	plus	plus	ADV	_	_	15	advmod	_	_
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	advmod	_	EXTPOS=ADV|Type=MWE
+14	plus	plus	ADV	_	_	13	fixed	_	_
 15	gouteux	goûteux	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
 16	et	et	CCONJ	_	_	17	cc	_	_
 17	traditionnel	traditionnel	ADJ	_	Gender=Masc|Number=Sing	15	conj	_	_
@@ -322583,8 +322583,8 @@
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	ville	ville	NOUN	_	Gender=Fem|Number=Sing	19	appos	_	_
 22	égyptienne	égyptien	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
-23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-24	plus	plus	ADV	_	_	25	advmod	_	_
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	advmod	_	EXTPOS=ADV|Type=MWE
+24	plus	plus	ADV	_	_	23	fixed	_	_
 25	proche	proche	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
 26	de	de	ADP	_	_	28	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -341509,8 +341509,8 @@
 13	pour	pour	ADP	_	_	15	case	_	_
 14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	pèlerins	pèlerin	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
-16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
-17	plus	plus	ADV	_	_	18	advmod	_	_
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	advmod	_	EXTPOS=ADV|Type=MWE
+17	plus	plus	ADV	_	_	16	fixed	_	_
 18	désintéressés	désintéressé	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -343680,8 +343680,8 @@
 35	par	par	ADP	_	_	37	case	_	_
 36	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
 37	érudition	érudition	NOUN	_	Gender=Fem|Number=Sing	34	obl:agent	_	_
-38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-39	plus	plus	ADV	_	_	40	advmod	_	_
+38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	advmod	_	EXTPOS=ADV|Type=MWE
+39	plus	plus	ADV	_	_	38	fixed	_	_
 40	froide	froid	ADJ	_	Gender=Fem|Number=Sing	37	amod	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -347735,8 +347735,8 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	fractions	fraction	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
-9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-10	plus	plus	ADV	_	_	11	advmod	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	advmod	_	EXTPOS=ADV|Type=MWE
+10	plus	plus	ADV	_	_	9	fixed	_	_
 11	importantes	important	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
@@ -350183,8 +350183,8 @@
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	cuisine	cuisine	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
 13	libanaise	libanais	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
-14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-15	plus	plus	ADV	_	_	16	advmod	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	advmod	_	EXTPOS=ADV|Type=MWE
+15	plus	plus	ADV	_	_	14	fixed	_	_
 16	populaires	populaire	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
 17	à	à	ADP	_	_	20	case	_	EXTPOS=ADP|Type=MWE
 18	travers	travers	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
@@ -352252,8 +352252,8 @@
 12	et	et	CCONJ	_	_	14	cc	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
 14	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
-15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
-16	plus	plus	ADV	_	_	17	advmod	_	_
+15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	advmod	_	EXTPOS=ADV|Type=MWE
+16	plus	plus	ADV	_	_	15	fixed	_	_
 17	importants	important	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -363012,8 +363012,8 @@
 17	de	de	ADP	_	_	19	case	_	_
 18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	cols	col	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	_
-20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
-21	plus	plus	ADV	_	_	22	advmod	_	_
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	advmod	_	EXTPOS=ADV|Type=MWE
+21	plus	plus	ADV	_	_	20	fixed	_	_
 22	parcourus	parcourir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	Savoie	Savoie	PROPN	_	_	19	nmod	_	SpaceAfter=No
@@ -367441,8 +367441,8 @@
 8	géothermiques	géothermique	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	touristiques	touristique	ADJ	_	Gender=Masc|Number=Plur	8	conj	_	_
-11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-12	plus	plus	ADV	_	_	13	advmod	_	_
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	advmod	_	EXTPOS=ADV|Type=MWE
+12	plus	plus	ADV	_	_	11	fixed	_	_
 13	importants	important	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	16	case	_	_
@@ -368045,8 +368045,8 @@
 9	constitue	constituer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	charge	charge	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-13	plus	plus	ADV	_	_	14	advmod	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	advmod	_	EXTPOS=ADV|Type=MWE
+13	plus	plus	ADV	_	_	12	fixed	_	_
 14	importante	important	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 15	à	à	ADP	_	_	16	mark	_	_
 16	gérer	gérer	VERB	_	VerbForm=Inf	11	acl	_	_
@@ -370412,8 +370412,8 @@
 7	de	de	ADP	_	_	9	case	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	part	part	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
-10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-11	plus	plus	ADV	_	_	12	advmod	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	advmod	_	EXTPOS=ADV|Type=MWE
+11	plus	plus	ADV	_	_	10	fixed	_	_
 12	animée	animer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -371055,8 +371055,8 @@
 5	crise	crise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 6	nucléaire	nucléaire	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-9	plus	plus	ADV	_	_	10	advmod	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	advmod	_	EXTPOS=ADV|Type=MWE
+9	plus	plus	ADV	_	_	8	fixed	_	_
 10	grave	grave	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
 11	dans	dans	ADP	_	_	13	case	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -372055,8 +372055,8 @@
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	deux	deux	NUM	_	_	3	nummod	_	_
 3	ingénieurs	ingénieur	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
-5	plus	plus	ADV	_	_	6	advmod	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	advmod	_	EXTPOS=ADV|Type=MWE
+5	plus	plus	ADV	_	_	4	fixed	_	_
 6	rusés	rusé	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 7	s'	se	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	SpaceAfter=No
 8	empressent	empresser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -381758,8 +381758,8 @@
 3	contexte	contexte	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	activités	activité	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-7	plus	plus	ADV	_	_	8	advmod	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	advmod	_	EXTPOS=ADV|Type=MWE
+7	plus	plus	ADV	_	_	6	fixed	_	_
 8	variées	varié	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
@@ -382343,8 +382343,8 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	symboles	symbole	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
-9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-10	plus	plus	ADV	_	_	11	advmod	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	advmod	_	EXTPOS=ADV|Type=MWE
+10	plus	plus	ADV	_	_	9	fixed	_	_
 11	forts	fort	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
@@ -384365,8 +384365,8 @@
 # text = Les douleurs les plus caractéristiques sont les dysménorrhées (règles douloureuses).
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	douleurs	douleur	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	_
-3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-4	plus	plus	ADV	_	_	5	advmod	_	_
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	advmod	_	EXTPOS=ADV|Type=MWE
+4	plus	plus	ADV	_	_	3	fixed	_	_
 5	caractéristiques	caractéristique	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
@@ -386114,8 +386114,8 @@
 18	de	de	ADP	_	_	20	case	_	_
 19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	solutions	solution	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
-21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
-22	plus	plus	ADV	_	_	23	advmod	_	_
+21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	advmod	_	EXTPOS=ADV|Type=MWE
+22	plus	plus	ADV	_	_	21	fixed	_	_
 23	efficaces	efficace	ADJ	_	Gender=Fem|Number=Plur	20	amod	_	_
 24	contre	contre	ADP	_	_	26	case	_	_
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
@@ -398543,8 +398543,8 @@
 31	de	de	ADP	_	_	33	case	_	_
 32	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
 33	endroits	endroit	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
-34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	det	_	_
-35	plus	plus	ADV	_	_	36	advmod	_	_
+34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	36	advmod	_	EXTPOS=ADV|Type=MWE
+35	plus	plus	ADV	_	_	34	fixed	_	_
 36	sûrs	sûr	ADJ	_	Gender=Masc|Number=Plur	33	amod	_	_
 37	de	de	ADP	_	_	39	case	_	_
 38	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	39	det	_	_
@@ -401997,8 +401997,8 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	maux	mal	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
-9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
-10	plus	plus	ADV	_	_	11	advmod	_	_
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	advmod	_	EXTPOS=ADV|Type=MWE
+10	plus	plus	ADV	_	_	9	fixed	_	_
 11	persistants	persistant	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
@@ -403751,8 +403751,8 @@
 2	zones	zone	NOUN	_	Gender=Fem|Number=Plur	14	nsubj	_	_
 3	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
 4	habitat	habitat	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-6	plus	plus	ADV	_	_	7	advmod	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	advmod	_	EXTPOS=ADV|Type=MWE
+6	plus	plus	ADV	_	_	5	fixed	_	_
 7	élevées	élevé	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
 8	et	et	CCONJ	_	_	10	cc	_	_
 9	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
@@ -404729,8 +404729,8 @@
 26	de	de	ADP	_	_	28	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	manière	manière	NOUN	_	Gender=Fem|Number=Sing	25	obl:mod	_	_
-29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-30	plus	plus	ADV	_	_	31	advmod	_	_
+29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	advmod	_	EXTPOS=ADV|Type=MWE
+30	plus	plus	ADV	_	_	29	fixed	_	_
 31	efficace	efficace	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
 32	possible	possible	ADJ	_	Gender=Fem|Number=Sing	28	amod	_	_
 33	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
@@ -406646,8 +406646,8 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	personnages	personnage	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
-8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-9	plus	plus	ADV	_	_	10	advmod	_	_
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	advmod	_	EXTPOS=ADV|Type=MWE
+9	plus	plus	ADV	_	_	8	fixed	_	_
 10	importants	important	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
 11-12	du	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	13	case	_	_
@@ -407563,8 +407563,8 @@
 32	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
 33	50	50	NUM	_	_	34	nummod	_	_
 34	joueurs	joueur	NOUN	_	Gender=Masc|Number=Plur	30	nmod	_	_
-35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	det	_	_
-36	plus	plus	ADV	_	_	37	advmod	_	_
+35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	37	advmod	_	EXTPOS=ADV|Type=MWE
+36	plus	plus	ADV	_	_	35	fixed	_	_
 37	prolifiques	prolifique	ADJ	_	Gender=Masc|Number=Plur	34	amod	_	_
 38	de	de	ADP	_	_	40	case	_	_
 39	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
