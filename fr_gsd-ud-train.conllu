@@ -58376,9 +58376,9 @@
 26	et	et	CCONJ	_	_	29	cc	_	_
 27	de	de	ADP	_	_	29	case	_	_
 28	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	29	det	_	_
-29	chargée	charger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
-30	de	de	ADP	_	_	31	case	_	_
-31	mission	mission	NOUN	_	Gender=Fem|Number=Sing	29	obl:arg	_	_
+29	chargée	charger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	EXTPOS=NOUN|Type=MWE
+30	de	de	ADP	_	_	29	fixed	_	_
+31	mission	mission	NOUN	_	Gender=Fem|Number=Sing	29	fixed	_	_
 32	pour	pour	ADP	_	_	34	case	_	_
 33	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
 34	métiers	métier	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
@@ -173874,12 +173874,12 @@
 # text = Il est chargé de formation dans le domaine du patrimoine écrit auprès de l'École nationale des chartes, de l'ENSSIB, du Centre d'études supérieures de la Renaissance et du Centre de formation aux carrières des bibliothèques Mediadix.
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	chargé	chargé	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	formation	formation	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+3	chargé	charger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	EXTPOS=NOUN|Type=MWE
+4	de	de	ADP	_	_	3	fixed	_	_
+5	formation	formation	NOUN	_	Gender=Fem|Number=Sing	3	fixed	_	_
 6	dans	dans	ADP	_	_	8	case	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	domaine	domaine	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
+8	domaine	domaine	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -283220,7 +283220,7 @@
 5	chaîne	chaîne	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod	_	SpaceAfter=No
+8	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl:mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	de	de	ADP	_	_	11	mark	_	_
 11	souffrir	souffrir	VERB	_	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
@@ -321786,7 +321786,7 @@
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	Etats-Unis	Etats-Unis	PROPN	_	_	8	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	8	nmod	_	SpaceAfter=No
+4	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	8	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	_
 7	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
@@ -325751,9 +325751,9 @@
 # text = Il est chargé de cours à l'université de Nice Sophia-Antipolis et préside l'INSO (Institut néo-socratique).
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-3	chargé	chargé	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-4	de	de	ADP	_	_	5	case	_	_
-5	cours	cours	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+3	chargé	charger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	EXTPOS=NOUN|Type=MWE
+4	de	de	ADP	_	_	3	fixed	_	_
+5	cours	cours	NOUN	_	Gender=Masc|Number=Sing	3	fixed	_	_
 6	à	à	ADP	_	_	8	case	_	_
 7	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	université	université	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
