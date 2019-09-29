@@ -128744,18 +128744,20 @@
 7	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_04614
-# text = Le théâtre a abonnés et attire quelque spectateurs par an.
+# text = Le théâtre a 34 000 abonnés et attire quelque 900 000 spectateurs par an.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	théâtre	théâtre	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	abonnés	abonné	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
-5	et	et	CCONJ	_	_	6	cc	_	_
-6	attire	attirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-7	quelque	quelque	DET	_	Gender=Masc|Number=Sing	8	det	_	_
-8	spectateurs	spectateur	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
-9	par	par	ADP	_	_	10	case	_	_
-10	an	an	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	3	punct	_	_
+4	34 000	34 000	NUM	_	_	5	nummod	_	_
+5	abonnés	abonné	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+6	et	et	CCONJ	_	_	7	cc	_	_
+7	attire	attirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	quelque	quelque	ADV	_	_	9	advmod	_	_
+9	900 000	900 000	NUM	_	_	10	nummod	_	_
+10	spectateurs	spectateur	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+11	par	par	ADP	_	_	12	case	_	_
+12	an	an	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_04615
 # text = À la fin du Moyen Âge, alors que l'armure des chevaliers était devenue très efficace, leurs montures constituaient leur point faible et devinrent les cibles des attaques ennemies.
