@@ -76909,7 +76909,7 @@
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_02732
-# text = John Fisher entame une très longue carrière dans la marine britannique, qui lui vaudra le titre de 1 Lord de la Mer en 1905, après avoir obtenu le titre de Troisième Lord de la Mer en 1892, puis le Deuxième Lord de la Mer en 1902.
+# text = John Fisher entame une très longue carrière dans la marine britannique, qui lui vaudra le titre de 1er Lord de la Mer en 1905, après avoir obtenu le titre de Troisième Lord de la Mer en 1892, puis le Deuxième Lord de la Mer en 1902.
 1	John	John	PROPN	_	_	3	nsubj	_	_
 2	Fisher	Fisher	PROPN	_	_	1	flat:name	_	_
 3	entame	entamer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -76928,7 +76928,7 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	titre	titre	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
 18	de	de	ADP	_	_	20	case	_	_
-19	1	1	NUM	_	_	20	amod	_	_
+19	1er	1er	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
 20	Lord	Lord	PROPN	_	_	17	nmod	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -201188,7 +201188,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_07182
-# text = L'abbé Pierre a rencontré au cours de sa vie les papes Pie, Pie, Jean et à plusieurs reprises Jean-Paul ;
+# text = L'abbé Pierre a rencontré au cours de sa vie les papes Pie XI, Pie XII, Jean XXIII et à plusieurs reprises Jean-Paul II ;
 1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	abbé	abbé	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	Pierre	Pierre	PROPN	_	_	2	appos	_	_
@@ -201203,17 +201203,21 @@
 11	vie	vie	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
 12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	papes	pape	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
-14	Pie	Pie	PROPN	_	_	13	appos	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	_
-16	Pie	Pie	PROPN	_	_	14	conj	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	Jean	Jean	PROPN	_	_	14	conj	_	_
-19	et	et	CCONJ	_	_	23	cc	_	_
-20	à	à	ADP	_	_	22	case	_	_
-21	plusieurs	plusieurs	DET	_	Gender=Fem|Number=Plur	22	det	_	_
-22	reprises	reprise	NOUN	_	Gender=Fem|Number=Plur	23	orphan	_	_
-23	Jean-Paul	Jean-Paul	PROPN	_	_	5	conj	_	_
-24	;	;	PUNCT	_	_	5	punct	_	_
+14	Pie	Pie	PROPN	_	_	13	appos	_	_
+15	XI	XI	NUM	_	_	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	Pie	Pie	PROPN	_	_	14	conj	_	_
+18	XII	XII	NUM	_	_	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Jean	Jean	PROPN	_	_	14	conj	_	_
+21	XXIII	XXIII	NUM	_	_	20	nmod	_	_
+22	et	et	CCONJ	_	_	26	cc	_	_
+23	à	à	ADP	_	_	25	case	_	_
+24	plusieurs	plusieurs	DET	_	Gender=Fem|Number=Plur	25	det	_	_
+25	reprises	reprise	NOUN	_	Gender=Fem|Number=Plur	26	orphan	_	_
+26	Jean-Paul	Jean-Paul	PROPN	_	_	5	conj	_	_
+27	II	II	NUM	_	_	26	nmod	_	_
+28	;	;	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_07183
 # text = Džajići (en cyrillique : Џајићи) est un village de Bosnie-Herzégovine.
