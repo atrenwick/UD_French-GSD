@@ -72194,10 +72194,10 @@
 
 # sent_id = fr-ud-train_02562
 # text = J'étais une aventurière est un film français réalisé par Raymond Bernard et sorti en 1938.
-1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
-2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_
-3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	aventurière	aventurier	NOUN	_	Gender=Fem|Number=Sing	7	csubj	_	_
+1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	INTITLE=Yes|SpaceAfter=No
+2	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	INTITLE=Yes
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	INTITLE=Yes
+4	aventurière	aventurier	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	EXTPOS=PROPN|Type=Title
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	film	film	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
@@ -132766,7 +132766,7 @@
 19	faibles	faible	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
 20	à	à	ADP	_	_	22	cc	_	_
 21	très	très	ADV	_	_	22	advmod	_	_
-22	faibles	faible	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+22	faibles	faible	ADJ	_	Gender=Masc|Number=Plur	19	conj	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	19	punct	_	_
 
 # sent_id = fr-ud-train_04759
@@ -174761,11 +174761,11 @@
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	abréviations	abréviation	NOUN	_	Gender=Fem|Number=Plur	17	appos	_	_
 29	pour	pour	ADP	_	_	30	case	_	_
-30	Verbum	verbum	NOUN	_	Gender=Masc|Number=Plur	28	nmod	_	_
-31	Domini	dominus	NOUN	_	_	30	flat	_	_
-32	nostris	noster	DET	_	_	30	flat	_	_
-33	Lucerna	Lucerna	PROPN	_	_	30	flat	_	_
-34	Pedibus	pes	NOUN	_	_	30	flat	_	SpaceAfter=No
+30	Verbum	Verbum	X	_	Gender=Masc|Number=Plur	28	nmod	_	EXTPOS=PROPN|Foreign=la|Type=Title
+31	Domini	Domini	X	_	_	30	flat:foreign	_	Foreign=la|INTITLE=Yes
+32	nostris	nostris	X	_	_	30	flat:foreign	_	Foreign=la|INTITLE=Yes
+33	Lucerna	Lucerna	X	_	_	30	flat:foreign	_	Foreign=la|INTITLE=Yes
+34	Pedibus	Pedibus	X	_	_	30	flat:foreign	_	Foreign=la|INTITLE=Yes|SpaceAfter=No
 35	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_06247
@@ -337575,7 +337575,7 @@
 25	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 26	représentants	représentant	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
 27	qui	qui	PRON	_	PronType=Rel	28	nsubj	_	_
-28	accueille	accueillir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+28	accueille	accueillir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl:cleft	_	_
 29	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
 30	membres	membre	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	_
 31	de	de	ADP	_	_	33	case	_	_
@@ -347576,7 +347576,7 @@
 5	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	match	match	NOUN	_	Gender=Masc|Number=Sing	23	ccomp	_	_
+8	match	match	NOUN	_	Gender=Masc|Number=Sing	23	advcl	_	_
 9	en	en	ADP	_	_	11	case	_	_
 10	5	5	NUM	_	_	11	nummod	_	_
 11	sets	set	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
