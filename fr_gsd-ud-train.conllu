@@ -122648,9 +122648,9 @@
 62	Augustine	Augustine	X	_	Foreign=Yes	60	flat:foreign	_	Foreign=en|SpaceAfter=No
 63	/	/	X	_	Foreign=Yes	60	flat:foreign	_	Foreign=en|SpaceAfter=No
 64	Wind	Wind	X	_	Foreign=Yes	60	flat:foreign	_	Foreign=en|SpaceAfter=No
-65	/	/	SYM	_	Foreign=Yes	60	flat:foreign	_	Foreign=en|SpaceAfter=No
+65	/	/	X	_	Foreign=Yes	60	flat:foreign	_	Foreign=en|SpaceAfter=No
 66	Seduction	Seduction	X	_	Foreign=Yes	60	flat:foreign	_	Foreign=en|SpaceAfter=No
-67	/	/	SYM	_	Foreign=Yes	60	flat:foreign	_	Foreign=en|SpaceAfter=No
+67	/	/	X	_	Foreign=Yes	60	flat:foreign	_	Foreign=en|SpaceAfter=No
 68	Kiss	Kiss	X	_	Foreign=Yes	60	flat:foreign	_	Foreign=en|SpaceAfter=No
 69	"	"	PUNCT	_	_	60	punct	_	SpaceAfter=No
 70	.	.	PUNCT	_	_	6	punct	_	_
@@ -301580,15 +301580,15 @@
 27	Natural	Natural	X	_	Foreign=Yes	21	flat:foreign	_	Foreign=en
 28	Knowledge	Knowledge	X	_	Foreign=Yes	21	flat:foreign	_	Foreign=en
 29	(	(	PUNCT	_	_	30	punct	_	SpaceAfter=No
-30	1919	1919	NUM	_	Foreign=Yes	21	flat:foreign	_	Foreign=en|SpaceAfter=No
+30	1919	1919	NUM	_	Foreign=Yes	21	nmod	_	Foreign=en|SpaceAfter=No
 31	)	)	PUNCT	_	_	30	punct	_	SpaceAfter=No
 32	,	,	PUNCT	_	_	21	punct	_	_
-33	The	The	X	_	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	21	flat:foreign	_	Foreign=en
-34	Concept	Concept	X	_	Foreign=Yes|Gender=Masc|Number=Sing	21	flat:foreign	_	Foreign=en
-35	of	of	X	_	Foreign=Yes	21	flat:foreign	_	Foreign=en
-36	Nature	Nature	X	_	Foreign=Yes|Gender=Fem|Number=Sing	21	flat:foreign	_	Foreign=en
+33	The	The	X	_	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	21	parataxis	_	Foreign=en
+34	Concept	Concept	X	_	Foreign=Yes|Gender=Masc|Number=Sing	33	flat:foreign	_	Foreign=en
+35	of	of	X	_	Foreign=Yes	33	flat:foreign	_	Foreign=en
+36	Nature	Nature	X	_	Foreign=Yes|Gender=Fem|Number=Sing	33	flat:foreign	_	Foreign=en
 37	(	(	PUNCT	_	_	38	punct	_	SpaceAfter=No
-38	1920	1920	NUM	_	Foreign=Yes	21	flat:foreign	_	Foreign=en|SpaceAfter=No
+38	1920	1920	NUM	_	Foreign=Yes	33	nmod	_	Foreign=en|SpaceAfter=No
 39	)	)	PUNCT	_	_	38	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	_	7	punct	_	_
 
