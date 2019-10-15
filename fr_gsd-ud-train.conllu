@@ -29031,7 +29031,7 @@
 10	,	,	PUNCT	_	_	3	punct	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	ville	ville	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
-13	s'	se	PRON	_	Person=3|PronType=Prs	14	expl:pass	_	SpaceAfter=No
+13	s'	se	PRON	_	Person=3|PronType=Prs	14	expl:comp	_	SpaceAfter=No
 14	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 15	Tolboukhine	Tolboukhine	PROPN	_	_	14	xcomp	_	_
 16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
@@ -42765,9 +42765,9 @@
 3	civiques	civique	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	_
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 5	failli	faillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	s'	se	PRON	_	Person=3|PronType=Prs	7	expl:pass	_	SpaceAfter=No
+6	s'	se	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	SpaceAfter=No
 7	appeler	appeler	VERB	_	VerbForm=Inf	5	xcomp	_	_
-8	sections	section	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+8	sections	section	NOUN	_	Gender=Fem|Number=Plur	7	xcomp	_	_
 9	spéciales	spécial	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
@@ -114610,7 +114610,7 @@
 16	de	de	ADP	_	_	17	case	_	_
 17	Salzbourg	Salzbourg	PROPN	_	_	15	nmod	_	_
 18	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	_
-19	s'	se	PRON	_	Person=3|PronType=Prs	20	expl:pass	_	SpaceAfter=No
+19	s'	se	PRON	_	Person=3|PronType=Prs	20	expl:comp	_	SpaceAfter=No
 20	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
 21	Flachgau	Flachgau	PROPN	_	_	20	xcomp	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	6	punct	_	_
@@ -220704,7 +220704,7 @@
 5	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	logiciel	logiciel	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
-8	s'	se	PRON	_	Person=3|PronType=Prs	9	expl:pass	_	SpaceAfter=No
+8	s'	se	PRON	_	Person=3|PronType=Prs	9	expl:comp	_	SpaceAfter=No
 9	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 10	Yonowat	Yonowat	PROPN	_	_	9	xcomp	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
@@ -223018,7 +223018,7 @@
 # sent_id = fr-ud-train_07959
 # text = Elle s'appelait lors de ses débuts de jeune première cul-de-sac de la Dame.
 1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:pass	_	SpaceAfter=No
+2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	SpaceAfter=No
 3	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	lors	lors	ADV	_	_	3	advmod	_	_
 5	de	de	ADP	_	_	7	case	_	_
@@ -267077,7 +267077,7 @@
 # text = Le village s'appelait auparavant Rillette.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	village	village	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-3	s'	se	PRON	_	Person=3|PronType=Prs	4	expl:pass	_	SpaceAfter=No
+3	s'	se	PRON	_	Person=3|PronType=Prs	4	expl:comp	_	SpaceAfter=No
 4	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	auparavant	auparavant	ADV	_	_	4	advmod	_	_
 6	Rillette	Rillette	PROPN	_	_	4	xcomp	_	SpaceAfter=No
@@ -326712,9 +326712,9 @@
 # sent_id = fr-ud-train_11701
 # text = Gionges s'appelait Saint-Ferjeux avant la Révolution française.
 1	Gionges	Gionges	PROPN	_	_	3	nsubj	_	_
-2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:pass	_	SpaceAfter=No
+2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	SpaceAfter=No
 3	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	Saint-Ferjeux	Saint-Ferjeux	PROPN	_	_	3	obj	_	_
+4	Saint-Ferjeux	Saint-Ferjeux	PROPN	_	_	3	xcomp	_	_
 5	avant	avant	ADP	_	_	7	case	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Révolution	révolution	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
@@ -349986,11 +349986,11 @@
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	SFIO	SFIO	X	_	_	13	nmod	_	_
 18	749 647	749 647	NUM	_	_	19	nummod	_	_
-19	voix	voix	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+19	voix	voix	NOUN	_	Gender=Fem|Number=Sing	13	orphan	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	soit	soit	ADV	_	_	23	advmod	_	_
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	total	total	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+23	total	total	NOUN	_	Gender=Masc|Number=Sing	8	parataxis	_	_
 24	de	de	ADP	_	_	26	case	_	_
 25	3 394 416	3 394 416	NUM	_	_	26	nummod	_	_
 26	suffrages	suffrage	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
@@ -361202,7 +361202,7 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	nouvelle	nouveau	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
 3	commune	commune	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
-4	s'	se	PRON	_	Person=3|PronType=Prs	5	expl:pass	_	SpaceAfter=No
+4	s'	se	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	SpaceAfter=No
 5	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	Marcilly-Ogny	Marcilly-Ogny	PROPN	_	_	5	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
