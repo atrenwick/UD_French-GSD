@@ -14636,7 +14636,7 @@
 # sent_id = fr-ud-train_00508
 # text = M. Carmille exposant qu'on pouvait réunir les éléments de plusieurs divisions, le maréchal a demandé « combien ?
 1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
-2	Carmille	Carmille	PROPN	_	_	1	appos	_	_
+2	Carmille	Carmille	PROPN	_	_	1	flat:name	_	_
 3	exposant	exposer	VERB	_	Tense=Pres|VerbForm=Part	17	advcl	_	_
 4	qu'	que	SCONJ	_	_	6	mark	_	SpaceAfter=No
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
@@ -43922,7 +43922,7 @@
 26	"	"	PUNCT	_	_	25	punct	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
-29	Maliki	Maliki	PROPN	_	_	28	appos	_	SpaceAfter=No
+29	Maliki	Maliki	PROPN	_	_	28	flat:name	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = fr-ud-train_01556
@@ -44002,7 +44002,7 @@
 2	témoignage	témoignage	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	Mme	madame	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-5	Gaubert	Gaubert	PROPN	_	_	4	appos	_	_
+5	Gaubert	Gaubert	PROPN	_	_	4	flat:name	_	_
 6	s'	se	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	avéré	avérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -79662,7 +79662,7 @@
 7	concours	concours	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
 8	entre	entre	ADP	_	_	9	case	_	_
 9	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-10	Blanc	Blanc	PROPN	_	_	9	appos	_	_
+10	Blanc	Blanc	PROPN	_	_	9	flat:name	_	_
 11	et	et	CCONJ	_	_	12	cc	_	_
 12	Pépinot	Pépinot	PROPN	_	_	9	conj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
@@ -83675,7 +83675,7 @@
 11	véhicule	véhicule	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 12	de	de	ADP	_	_	13	case	_	_
 13	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-14	Lemieux	Lemieux	PROPN	_	_	13	appos	_	_
+14	Lemieux	Lemieux	PROPN	_	_	13	flat:name	_	_
 15	et	et	CCONJ	_	_	18	cc	_	_
 16	y	y	PRON	_	_	18	obl:mod	_	_
 17	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
@@ -91304,10 +91304,10 @@
 4	attire	attirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	attention	attention	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
-7	de	de	ADP	_	_	10	case	_	_
-8	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+10	ministre	ministre	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
 11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 12	État	État	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
@@ -121204,7 +121204,7 @@
 6	victoires	victoire	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-9	Georjon	Georjon	PROPN	_	_	8	appos	_	_
+9	Georjon	Georjon	PROPN	_	_	8	flat:name	_	_
 10	pour	pour	ADP	_	_	13	case	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 12	meilleur	meilleur	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
@@ -134282,7 +134282,7 @@
 16	mascarade	mascarade	NOUN	_	Gender=Fem|Number=Sing	10	xcomp	_	_
 17	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
 18	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
-19	Alphonse	Alphonse	PROPN	_	_	18	appos	_	_
+19	Alphonse	Alphonse	PROPN	_	_	18	flat:name	_	_
 20	et	et	CCONJ	_	_	22	cc	_	_
 21	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	_
 22	père	père	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
@@ -144955,7 +144955,7 @@
 6	découverte	découvrir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
 7	par	par	ADP	_	_	8	case	_	_
 8	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	6	obl:agent	_	_
-9	Obeid	Obeid	PROPN	_	_	8	appos	_	_
+9	Obeid	Obeid	PROPN	_	_	8	flat:name	_	_
 10	en	en	ADP	_	_	11	case	_	_
 11	1892	1892	NUM	_	_	6	obl	_	_
 12	lors	lors	ADV	_	_	6	advmod	_	_
@@ -173110,7 +173110,7 @@
 32	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:tense	_	_
 33	indiqué	indiquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 34	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
-35	Lambert	Lambert	PROPN	_	_	34	appos	_	SpaceAfter=No
+35	Lambert	Lambert	PROPN	_	_	34	flat:name	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	33	punct	_	_
 
 # sent_id = fr-ud-train_06192
@@ -179694,7 +179694,7 @@
 13	Portugal	Portugal	PROPN	_	_	8	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	1	punct	_	_
 15	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
-16	Padoan	Padoan	PROPN	_	_	15	appos	_	_
+16	Padoan	Padoan	PROPN	_	_	15	flat:name	_	_
 17	répond	répondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 18	qu'	que	SCONJ	_	_	23	mark	_	SpaceAfter=No
 19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
@@ -188652,7 +188652,7 @@
 35	origine	origine	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
 36	de	de	ADP	_	_	37	case	_	_
 37	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
-38	Lengagne	Lengagne	PROPN	_	_	37	appos	_	SpaceAfter=No
+38	Lengagne	Lengagne	PROPN	_	_	37	flat:name	_	SpaceAfter=No
 39	,	,	PUNCT	_	_	33	punct	_	_
 40	sous-entend	sous-entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	parataxis	_	_
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
@@ -202329,7 +202329,7 @@
 3	Liban	Liban	PROPN	_	_	8	obl:mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
-6	Morin	Morin	PROPN	_	_	5	appos	_	_
+6	Morin	Morin	PROPN	_	_	5	flat:name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	rappelé	rappeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
@@ -216453,7 +216453,7 @@
 # sent_id = fr-ud-train_07722
 # text = M. Saint-Clair passe alors aux aveux, expliquant qu'il a mené une double vie.
 1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
-2	Saint-Clair	Saint-Clair	PROPN	_	_	1	appos	_	_
+2	Saint-Clair	Saint-Clair	PROPN	_	_	1	flat:name	_	_
 3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	alors	alors	ADV	_	_	3	advmod	_	_
 5-6	aux	_	_	_	_	_	_	_	_
@@ -234276,7 +234276,7 @@
 # text = Mais M. Ouattara souhaiterait voir traduit devant la Cour pénale internationale (CPI) son prédécesseur qui a "refusé le verdict des urnes alors que les élections étaient transparentes et supervisées par les Nations unies."
 1	Mais	mais	CCONJ	_	_	4	cc	_	_
 2	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-3	Ouattara	Ouattara	PROPN	_	_	2	appos	_	_
+3	Ouattara	Ouattara	PROPN	_	_	2	flat:name	_	_
 4	souhaiterait	souhaiter	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	voir	voir	VERB	_	VerbForm=Inf	4	xcomp	_	_
 6	traduit	traduire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
@@ -238887,13 +238887,13 @@
 # sent_id = fr-ud-train_08523
 # text = Mme Merkel rendra visite mardi à M. Juncker, le Premier ministre luxembourgeois, qui est également chef de file des ministres des Finances de la zone euro.
 1	Mme	madame	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
-2	Merkel	Merkel	PROPN	_	_	1	appos	_	_
+2	Merkel	Merkel	PROPN	_	_	1	flat:name	_	_
 3	rendra	rendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	visite	visite	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
 5	mardi	mardi	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
 6	à	à	ADP	_	_	7	case	_	_
 7	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	3	obl:arg	_	_
-8	Juncker	Juncker	PROPN	_	_	7	appos	_	SpaceAfter=No
+8	Juncker	Juncker	PROPN	_	_	7	flat:name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 11	Premier	premier	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
@@ -250111,7 +250111,7 @@
 32	,	,	PUNCT	_	_	10	punct	_	_
 33	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 34	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
-35	Parant	Parant	PROPN	_	_	34	appos	_	_
+35	Parant	Parant	PROPN	_	_	34	flat:name	_	_
 36	dans	dans	ADP	_	_	38	case	_	_
 37	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	communiqué	communiqué	NOUN	_	Gender=Masc|Number=Sing	33	obl:mod	_	SpaceAfter=No
@@ -254546,7 +254546,7 @@
 # sent_id = fr-ud-train_09078
 # text = M. Bourgi a sa propre explication : il a vu "trop de choses ignobles" et veut désormais "une France propre".
 1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
-2	Bourgi	Bourgi	PROPN	_	_	1	appos	_	_
+2	Bourgi	Bourgi	PROPN	_	_	1	flat:name	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
 5	propre	propre	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
@@ -282962,7 +282962,7 @@
 # sent_id = fr-ud-train_10104
 # text = M. Lavallée n'a pas spécifié en quoi consistait cet événement.
 1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-2	Lavallée	Lavallée	PROPN	_	_	1	appos	_	_
+2	Lavallée	Lavallée	PROPN	_	_	1	flat:name	_	_
 3	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 5	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
@@ -288926,7 +288926,7 @@
 42	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux:tense	_	_
 43	rapporté	rapporter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 44	Mme	madame	NOUN	_	Gender=Fem|Number=Sing	43	nsubj	_	_
-45	Byrs	Byrs	PROPN	_	_	44	appos	_	SpaceAfter=No
+45	Byrs	Byrs	PROPN	_	_	44	flat:name	_	SpaceAfter=No
 46	.	.	PUNCT	_	_	43	punct	_	_
 
 # sent_id = fr-ud-train_10341
@@ -289215,7 +289215,7 @@
 # sent_id = fr-ud-train_10350
 # text = M. Berlusconi n'a pas nié avoir aidé Ruby en expliquant : "ma vie d'entrepreneur m'a enseigné combien il peut être difficile pour un jeune de s'affirmer, c'est pour cela que quand je le peux je cherche à venir en aide à qui en a besoin".
 1	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-2	Berlusconi	Berlusconi	PROPN	_	_	1	appos	_	_
+2	Berlusconi	Berlusconi	PROPN	_	_	1	flat:name	_	_
 3	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 5	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
@@ -300993,7 +300993,7 @@
 16	Mr	monsieur	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
 17	&	&	SYM	_	_	18	cc	_	EXTPOS=CCONJ|Type=Trans
 18	Mme	madame	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
-19	Abadie	Abadie	PROPN	_	_	16	appos	_	SpaceAfter=No
+19	Abadie	Abadie	PROPN	_	_	16	flat:name	_	SpaceAfter=No
 20	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = fr-ud-train_10780
@@ -301672,7 +301672,7 @@
 # text = « M. Fantoche n'a rien à réparer ».
 1	«	«	PUNCT	_	_	5	punct	_	_
 2	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
-3	Fantoche	Fantoche	PROPN	_	_	2	appos	_	_
+3	Fantoche	Fantoche	PROPN	_	_	2	flat:name	_	_
 4	n'	ne	ADV	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	rien	rien	PRON	_	Number=Sing	5	obj	_	_
@@ -331903,7 +331903,7 @@
 15	par	par	ADP	_	_	16	case	_	_
 16	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	14	obl:arg	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	pasteur	pasteur	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	_
+18	pasteur	pasteur	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
 19	Pelletier	Pelletier	PROPN	_	_	18	appos	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
 21	que	que	PRON	_	PronType=Rel	24	obj	_	_
@@ -347775,7 +347775,7 @@
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 8	déclaré	déclarer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
-10	Bertrand	Bertrand	PROPN	_	_	9	appos	_	SpaceAfter=No
+10	Bertrand	Bertrand	PROPN	_	_	9	flat:name	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_12459
@@ -359587,7 +359587,7 @@
 4	accueil	accueil	NOUN	_	Gender=Masc|Number=Sing	11	obl:mod	_	_
 5	par	par	ADP	_	_	6	case	_	_
 6	M.	monsieur	NOUN	_	_	4	nmod	_	_
-7	Kei	Kei	PROPN	_	_	6	appos	_	SpaceAfter=No
+7	Kei	Kei	PROPN	_	_	6	flat:name	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 10	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
