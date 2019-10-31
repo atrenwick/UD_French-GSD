@@ -173479,21 +173479,24 @@
 95	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_06202
-# text = Louis-Charles Malassez (--1909) était un scientifique français né à Nevers.
-1	Louis-Charles	Louis-Charles	PROPN	_	_	9	nsubj	_	_
+# text = Louis-Charles Malassez (21 septembre 1842--1909) était un scientifique français né à Nevers.
+1	Louis-Charles	Louis-Charles	PROPN	_	_	12	nsubj	_	_
 2	Malassez	Malassez	PROPN	_	_	1	flat:name	_	_
-3	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
-4	--	--	PUNCT	_	_	5	punct	_	SpaceAfter=No
-5	1909	1909	NUM	_	_	1	nmod	_	SpaceAfter=No
-6	)	)	PUNCT	_	_	5	punct	_	_
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	scientifique	scientifique	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-10	français	français	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
-11	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
-12	à	à	ADP	_	_	13	case	_	_
-13	Nevers	Nevers	PROPN	_	_	11	obl:arg	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	9	punct	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	21	21	NUM	_	_	1	nmod	_	_
+5	septembre	septembre	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+6	1842	1842	NUM	_	_	5	nmod	_	SpaceAfter=No
+7	--	--	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	1909	1909	NUM	_	_	4	nmod	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	4	punct	_	_
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	scientifique	scientifique	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+13	français	français	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	né	naître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+15	à	à	ADP	_	_	16	case	_	_
+16	Nevers	Nevers	PROPN	_	_	14	obl:arg	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-train_06203
 # text = Avec des millions de sans-emploi, l'agitation politique et le mécontentement ont beaucoup augmenté dans les classes travailleuses.
