@@ -123569,7 +123569,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_04433
-# text = L'action de Delattre aboutit à la création du futur musée Lavigerie, qui compte pièces en 1881.
+# text = L'action de Delattre aboutit à la création du futur musée Lavigerie, qui compte 6 347 pièces en 1881.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	action	action	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
@@ -123587,10 +123587,11 @@
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	_
 16	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
-17	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
-18	en	en	ADP	_	_	19	case	_	_
-19	1881	1881	NUM	_	_	16	obl	_	SpaceAfter=No
-20	.	.	PUNCT	_	_	5	punct	_	_
+17	6 347	6 347	NUM	_	_	18	nummod	_	_
+18	pièces	pièce	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+19	en	en	ADP	_	_	20	case	_	_
+20	1881	1881	NUM	_	_	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_04434
 # text = Il sert, en 1741, à l'armée de Flandre commandée par le maréchal de Saxe, qui couvre les sièges de Menin, d'Ypres et de Furnes, et occupe le camp de Courtrai pendant le reste de la campagne, malgré la grande supériorité des ennemis.
@@ -155303,7 +155304,7 @@
 8	sec	sec	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	entre	entre	ADP	_	_	11	case	_	_
-11	800.000	800.000	NUM	_	_	14	nmod	_	_
+11	800.000	800.000	NUM	_	_	14	nummod	_	_
 12	et	et	CCONJ	_	_	13	cc	_	_
 13	900.000	900.000	NUM	_	_	11	conj	_	_
 14	m3	m3	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
@@ -257469,7 +257470,7 @@
 1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
 2	y	y	PRON	_	_	3	expl:comp	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	différentes	différent	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+4	différentes	différent	DET	_	Gender=Fem|Number=Plur	5	det	_	_
 5	causes	cause	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
 6	parmi	parmi	ADP	_	_	7	case	_	_
 7	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	3	obl	_	_
@@ -304900,7 +304901,7 @@
 16	Devine	deviner	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	EXTPOS=PROPN|Type=Title
 17	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	INTITLE=Yes
 18	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	INTITLE=Yes
-19	dîner	dîner	NOUN	_	Gender=Masc|Number=Sing	18	xcomp	_	INTITLE=Yes
+19	dîner	dîner	VERB	_	VerbForm=Inf	18	xcomp	_	INTITLE=Yes
 20	?	?	PUNCT	_	_	18	punct	_	INTITLE=Yes
 
 # sent_id = fr-ud-train_10925
