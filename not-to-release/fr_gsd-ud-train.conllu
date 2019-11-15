@@ -81882,7 +81882,7 @@
 
 # sent_id = fr-ud-train_02908
 # text = Melanie "Mel" Barker (Danielle McCormack) : Ainée des enfants, est plutôt rebelle et un peu étrange, en effet elle râle souvent et est assez rancunière.
-1	Melanie	Melanie	PROPN	_	_	17	obl:mod	_	_
+1	Melanie	Melanie	PROPN	_	_	17	nsubj	_	_
 2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	Mel	Mel	PROPN	_	_	1	appos	_	SpaceAfter=No
 4	"	"	PUNCT	_	_	3	punct	_	_
@@ -101246,7 +101246,7 @@
 34	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_03606
-# text = est une entreprise américaine qui fait partie de l'indice NASDAQ-100
+# text = [[Discovery Holding Company]] est une entreprise américaine qui fait partie de l'indice NASDAQ-100
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -110933,7 +110933,7 @@
 29	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_03960
-# text = était une ville du Japon situé dans le district de Funai, dans la préfecture de Kyoto.
+# text = [[Sonobe — (園部町, Sonobe chō?)]] était une ville du Japon situé dans le district de Funai, dans la préfecture de Kyoto.
 1	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	ville	ville	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -166410,7 +166410,7 @@
 9	2007	2007	NUM	_	_	7	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	ratio	ratio	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+12	ratio	ratio	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	85	85	NUM	_	_	16	nummod	_	SpaceAfter=No
@@ -180542,7 +180542,7 @@
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_06456
-# text = était la quatrième des soixante-neuf stations du Nakasendō.
+# text = [[Ōmiya-shuku (大宮宿, Ōmiya-shuku) ]] était la quatrième des soixante-neuf stations du Nakasendō.
 1	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	quatrième	quatrième	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -208176,7 +208176,7 @@
 # text = Sous le signe de Rome (Nel segno di Roma) est un peplum italo-franco-germano-yougoslave réalisé par Guido Brignone en 1958.
 1	Sous	sous	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	signe	signe	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
+3	signe	signe	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	Rome	Rome	PROPN	_	_	3	nmod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -407599,7 +407599,7 @@
 # sent_id = fr-ud-train_14552
 # text = La population est alors indigène et fait partie des Nearchi, peuple établi sur une partie de la Crau et des Alpilles.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	population	population	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+2	population	population	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	alors	alors	ADV	_	_	5	advmod	_	_
 5	indigène	indigène	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
