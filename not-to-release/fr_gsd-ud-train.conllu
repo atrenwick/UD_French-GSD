@@ -5583,14 +5583,14 @@
 40	,	,	PUNCT	_	_	41	punct	_	_
 41	Youth	Youth	PROPN	_	_	28	conj	_	_
 42	Brigade	Brigade	PROPN	_	_	41	flat:name	_	SpaceAfter=No
-43	/	/	SYM	_	_	41	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Trans
-44	Swinging	Swinging	PROPN	_	_	41	appos	_	_
+43	/	/	SYM	_	_	44	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Trans
+44	Swinging	Swinging	PROPN	_	_	41	conj	_	_
 45	Utters	Utters	PROPN	_	_	44	flat:name	_	_
 46	et	et	CCONJ	_	_	47	cc	_	_
 47	Alkaline	Alkaline	PROPN	_	_	28	conj	_	_
 48	Trio	Trio	PROPN	_	_	47	flat:name	_	SpaceAfter=No
-49	/	/	SYM	_	_	47	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Trans
-50	One	One	PROPN	_	_	47	appos	_	_
+49	/	/	SYM	_	_	50	cc	_	EXTPOS=CCONJ|SpaceAfter=No|Type=Trans
+50	One	One	PROPN	_	_	47	conj	_	_
 51	Man	Man	PROPN	_	_	50	flat:name	_	_
 52	Army	Army	PROPN	_	_	50	flat:name	_	_
 53	et	et	CCONJ	_	_	56	cc	_	_
@@ -38423,7 +38423,7 @@
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
 14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
-15	donc	donc	CCONJ	_	_	14	cc	_	_
+15	donc	donc	ADV	_	_	14	advmod	_	_
 16	trouver	trouver	VERB	_	VerbForm=Inf	14	xcomp	_	_
 17	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	mats	mat	NOUN	_	Gender=Masc|Number=Plur	16	obj	_	_
@@ -248389,7 +248389,7 @@
 47	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
 48	réflexions	réflexion	NOUN	_	Gender=Fem|Number=Plur	45	nmod	_	_
 49	hkl	hkl	X	_	_	48	appos	_	_
-50	et	et	CCONJ	_	_	49	cc	_	_
+50	et	et	CCONJ	_	_	52	cc	_	_
 51	-	-	PUNCT	_	_	52	punct	_	SpaceAfter=No
 52	h	h	X	_	_	49	conj	_	SpaceAfter=No
 53	-	-	PUNCT	_	_	54	punct	_	SpaceAfter=No
@@ -359367,7 +359367,7 @@
 39	,	,	PUNCT	_	_	41	punct	_	_
 40	plus	plus	ADV	_	_	41	advmod	_	_
 41	appliqué	appliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	acl	_	_
-42	qu'	que	SCONJ	_	_	41	cc	_	SpaceAfter=No
+42	qu'	que	SCONJ	_	_	43	cc	_	SpaceAfter=No
 43	inspiré	inspirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	conj	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	4	punct	_	_
 
