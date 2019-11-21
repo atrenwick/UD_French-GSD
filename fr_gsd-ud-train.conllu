@@ -36063,7 +36063,7 @@
 31	Mes	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	32	det	_	_
 32	souliers	soulier	NOUN	_	Gender=Masc|Number=Plur	34	nsubj	_	_
 33	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
-34	rouges	rouge	ADJ	_	Gender=Masc|Number=Plur	28	acl:relcl	_	SpaceAfter=No
+34	rouges	rouge	ADJ	_	Gender=Masc|Number=Plur	28	parataxis	_	SpaceAfter=No
 35	)	)	PUNCT	_	_	34	punct	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -99578,7 +99578,7 @@
 8	Lauri	Lauri	PROPN	_	_	7	appos	_	_
 9	Viita	Viita	PROPN	_	_	8	flat:name	_	_
 10	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
-11	dont	dont	PRON	_	PronType=Rel	17	nmod	_	_
+11	dont	dont	PRON	_	PronType=Rel	13	nmod	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	musée	musée	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
 14	dédié	dédier	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
@@ -224206,7 +224206,7 @@
 10	ambient	ambient	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
 11	jusque	jusque	ADV	_	_	12	advmod	_	_
 12	2000	2000	NUM	_	_	3	obl	_	_
-13	ou	où	ADV	_	Typo=Yes	15	advmod	_	CorrectForm=où
+13	ou	où	ADV	_	PronType=Rel|Typo=Yes	15	advmod	_	CorrectForm=où
 14	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
 15	décideront	décider	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	12	acl:relcl	_	_
 16	de	de	ADP	_	_	17	mark	_	_
@@ -250968,7 +250968,7 @@
 11	WCW	WCW	PROPN	_	_	4	obl	_	_
 12	Main	Main	PROPN	_	_	11	flat:name	_	_
 13	Event	Event	PROPN	_	_	11	flat:name	_	_
-14	ou	où	ADV	_	Typo=Yes	16	advmod	_	CorrectForm=où
+14	ou	où	ADV	_	PronType=Rel|Typo=Yes	16	advmod	_	CorrectForm=où
 15	Steamboat	Steamboat	PROPN	_	_	16	nsubj	_	_
 16	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	_
 17	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
@@ -290764,7 +290764,7 @@
 23	hôpitaux	hôpital	NOUN	_	Gender=Masc|Number=Plur	20	obl:arg	_	_
 24	de	de	ADP	_	_	25	case	_	_
 25	province	province	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	_
-26	oà	où	ADV	_	Typo=Yes	29	advmod	_	CorrectForm=où
+26	oà	où	ADV	_	PronType=Rel|Typo=Yes	29	advmod	_	CorrectForm=où
 27	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	29	nsubj	_	SpaceAfter=No
 28	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	aux:tense	_	_
 29	failli	faillir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
@@ -297315,7 +297315,7 @@
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	vacance	vacance	NOUN	_	Gender=Fem|Number=Sing	34	nsubj:pass	_	_
 33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux:pass	_	_
-34	déclaré	déclarer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	acl:relcl	_	_
+34	déclaré	déclarer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
 35	et	et	CCONJ	_	_	37	cc	_	_
 36	après	après	ADP	_	_	37	case	_	_
 37	avis	avis	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
