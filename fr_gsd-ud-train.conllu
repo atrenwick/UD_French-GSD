@@ -81882,7 +81882,7 @@
 
 # sent_id = fr-ud-train_02908
 # text = Melanie "Mel" Barker (Danielle McCormack) : Ainée des enfants, est plutôt rebelle et un peu étrange, en effet elle râle souvent et est assez rancunière.
-1	Melanie	Melanie	PROPN	_	_	17	obl:mod	_	_
+1	Melanie	Melanie	PROPN	_	_	17	nsubj	_	_
 2	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 3	Mel	Mel	PROPN	_	_	1	appos	_	SpaceAfter=No
 4	"	"	PUNCT	_	_	3	punct	_	_
@@ -101246,18 +101246,21 @@
 34	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_03606
-# text = est une entreprise américaine qui fait partie de l'indice NASDAQ-100
-1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-4	américaine	américain	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
-5	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
-6	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
-7	partie	partie	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
-8	de	de	ADP	_	_	10	case	_	_
-9	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
-10	indice	indice	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
-11	NASDAQ-100	NASDAQ-100	NUM	_	_	10	appos	_	_
+# text = Discovery Holding Company est une entreprise américaine qui fait partie de l'indice NASDAQ-100
+1	Discovery	Discovery	X	_	Foreign=Yes	6	nsubj	_	Foreign=en
+2	Holding	Holding	X	_	Foreign=Yes	1	flat:foreign	_	Foreign=en
+3	Company	Company	X	_	Foreign=Yes	1	flat:foreign	_	Foreign=en
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	entreprise	entreprise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	américaine	américain	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
+9	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	partie	partie	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	indice	indice	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14	NASDAQ-100	NASDAQ-100	NUM	_	_	13	appos	_	_
 
 # sent_id = fr-ud-train_03607
 # text = L'information sur le refus de ravitailler les avions iraniens dans certains pays européens et aux Emirats arabes unis, dans la foulée de sanctions prises contre le programme nucléaire de Téhéran, est "fausse", a affirmé mardi le ministère iranien des Affaires étrangères.
@@ -110933,27 +110936,36 @@
 29	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = fr-ud-train_03960
-# text = était une ville du Japon situé dans le district de Funai, dans la préfecture de Kyoto.
-1	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
-2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	ville	ville	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-4-5	du	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	6	case	_	_
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Japon	Japon	PROPN	_	_	3	nmod	_	_
-7	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
-8	dans	dans	ADP	_	_	10	case	_	_
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	district	district	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	_
-11	de	de	ADP	_	_	12	case	_	_
-12	Funai	Funai	PROPN	_	_	10	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	_	_	16	punct	_	_
-14	dans	dans	ADP	_	_	16	case	_	_
-15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	préfecture	préfecture	NOUN	_	Gender=Fem|Number=Sing	7	obl:arg	_	_
-17	de	de	ADP	_	_	18	case	_	_
-18	Kyoto	Kyoto	PROPN	_	_	16	nmod	_	SpaceAfter=No
-19	.	.	PUNCT	_	_	3	punct	_	_
+# text = Sonobe — (園部町, Sonobe chō?) était une ville du Japon situé dans le district de Funai, dans la préfecture de Kyoto.
+1	Sonobe	Sonobe	PROPN	_	_	12	nsubj	_	_
+2	—	—	PUNCT	_	_	1	punct	_	_
+3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	園部町	園部町	X	_	Foreign=Yes	1	appos	_	Foreign=ja|SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	Sonobe	Sonobe	X	_	Foreign=Yes	4	appos	_	Foreign=Yes
+7	chō	chō	X	_	Foreign=Yes	6	flat:foreign	_	Foreign=Yes=ja|SpaceAfter=No
+8	?	?	PUNCT	_	_	4	punct	_	SpaceAfter=No
+9	)	)	PUNCT	_	_	4	punct	_	_
+10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	ville	ville	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+13-14	du	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Japon	Japon	PROPN	_	_	12	nmod	_	_
+16	situé	situer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+17	dans	dans	ADP	_	_	19	case	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	district	district	NOUN	_	Gender=Masc|Number=Sing	16	obl:arg	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	Funai	Funai	PROPN	_	_	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	dans	dans	ADP	_	_	25	case	_	_
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	préfecture	préfecture	NOUN	_	Gender=Fem|Number=Sing	16	obl:arg	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	Kyoto	Kyoto	PROPN	_	_	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = fr-ud-train_03961
 # text = Un Bloc Primaire Numérique est, en télécommunication, un mode de transmission faisant partie de la hiérarchie numérique plésiochrone (Plesiochronous Digital Hierarchy--PDH).
@@ -165488,7 +165500,7 @@
 4	serbe	serbe	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
 5	cyrillique	cyrillique	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
 6	:	:	PUNCT	_	_	7	punct	_	_
-7	Близна	Близна	PROPN	_	_	4	appos	_	SpaceAfter=No
+7	Близна	Близна	PROPN	_	Foreign=Yes	4	appos	_	Foreign=sr|SpaceAfter=No
 8	)	)	PUNCT	_	_	4	punct	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -166410,7 +166422,7 @@
 9	2007	2007	NUM	_	_	7	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	ratio	ratio	NOUN	_	Gender=Masc|Number=Sing	22	nsubj	_	_
+12	ratio	ratio	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	85	85	NUM	_	_	16	nummod	_	SpaceAfter=No
@@ -175299,7 +175311,7 @@
 # text = Ashida-shuku (芦田宿, Ashida-shuku) était la vingt-sixième des soixante-neuf stations du Nakasendō.
 1	Ashida-shuku	Ashida-shuku	PROPN	_	_	9	nsubj	_	_
 2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	芦田宿	芦田宿	X	_	_	1	appos	_	SpaceAfter=No
+3	芦田宿	芦田宿	X	_	Foreign=Yes	1	appos	_	Foreign=ja|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	Ashida-shuku	Ashida-shuku	PROPN	_	_	3	appos	_	SpaceAfter=No
 6	)	)	PUNCT	_	_	3	punct	_	_
@@ -180542,20 +180554,26 @@
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = fr-ud-train_06456
-# text = était la quatrième des soixante-neuf stations du Nakasendō.
-1	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
-2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	quatrième	quatrième	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-4-5	des	_	_	_	_	_	_	_	_
-4	de	de	ADP	_	_	7	case	_	_
-5	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-6	soixante-neuf	soixante-neuf	NUM	_	_	7	nummod	_	_
-7	stations	station	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
-8-9	du	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	10	case	_	_
-9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Nakasendō	Nakasendō	PROPN	_	_	7	nmod	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	3	punct	_	_
+# text = Ōmiya-shuku (大宮宿, Ōmiya-shuku) était la quatrième des soixante-neuf stations du Nakasendō.
+1	Ōmiya-shuku	Ōmiya-shuku	PROPN	_	_	9	nsubj	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	大宮宿	大宮宿	X	_	Foreign=Yes	1	appos	_	Foreign=ja|SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	Ōmiya-shuku	Ōmiya-shuku	PROPN	_	_	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	3	punct	_	_
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	quatrième	quatrième	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+10-11	des	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	soixante-neuf	soixante-neuf	NUM	_	_	13	nummod	_	_
+13	stations	station	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+14-15	du	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Nakasendō	Nakasendō	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = fr-ud-train_06457
 # text = Dans ce cas, leur travestissement peut être ou ne pas être apparent.
@@ -208176,7 +208194,7 @@
 # text = Sous le signe de Rome (Nel segno di Roma) est un peplum italo-franco-germano-yougoslave réalisé par Guido Brignone en 1958.
 1	Sous	sous	ADP	_	_	3	case	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	signe	signe	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
+3	signe	signe	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	Rome	Rome	PROPN	_	_	3	nmod	_	_
 6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -248381,24 +248399,19 @@
 40	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
 41	pas	pas	ADV	_	Polarity=Neg	42	advmod	_	_
 42	centrosymétrique	centrosymétrique	ADJ	_	Gender=Masc|Number=Sing	16	advcl	_	_
-43	:	:	PUNCT	_	_	58	punct	_	_
+43	:	:	PUNCT	_	_	53	punct	_	_
 44	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	_	_
-45	intensités	intensité	NOUN	_	Gender=Fem|Number=Plur	58	nsubj	_	_
+45	intensités	intensité	NOUN	_	Gender=Fem|Number=Plur	53	nsubj	_	_
 46-47	des	_	_	_	_	_	_	_	_
 46	de	de	ADP	_	_	48	case	_	_
 47	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
 48	réflexions	réflexion	NOUN	_	Gender=Fem|Number=Plur	45	nmod	_	_
 49	hkl	hkl	X	_	_	48	appos	_	_
-50	et	et	CCONJ	_	_	52	cc	_	_
-51	-	-	PUNCT	_	_	52	punct	_	SpaceAfter=No
-52	h	h	X	_	_	49	conj	_	SpaceAfter=No
-53	-	-	PUNCT	_	_	54	punct	_	SpaceAfter=No
-54	k	k	X	_	_	49	conj	_	SpaceAfter=No
-55	-	-	PUNCT	_	_	56	punct	_	SpaceAfter=No
-56	l	l	X	_	_	49	conj	_	_
-57	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	58	cop	_	_
-58	égales	égal	ADJ	_	Gender=Fem|Number=Plur	16	parataxis	_	SpaceAfter=No
-59	.	.	PUNCT	_	_	5	punct	_	_
+50	et	et	CCONJ	_	_	51	cc	_	_
+51	-h-k-l	-h-k-l	X	_	_	49	conj	_	_
+52	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	53	cop	_	_
+53	égales	égal	ADJ	_	Gender=Fem|Number=Plur	16	parataxis	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = fr-ud-train_08854
 # text = En revanche, la médiocrité de l'insonorisation pose vraiment problème : télévision, ronflements, bruits de tuyauteries, discussion... vous entendrez absolument tout ce qui se passe chez vos voisins.
@@ -407599,7 +407612,7 @@
 # sent_id = fr-ud-train_14552
 # text = La population est alors indigène et fait partie des Nearchi, peuple établi sur une partie de la Crau et des Alpilles.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	population	population	NOUN	_	Gender=Fem|Number=Sing	5	obl:mod	_	_
+2	population	population	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	alors	alors	ADV	_	_	5	advmod	_	_
 5	indigène	indigène	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
