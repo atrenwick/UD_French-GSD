@@ -1073,7 +1073,7 @@
 4	de	de	ADP	_	_	5	case	_	_
 5	pied	pied	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
-7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:caus	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 8	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj:agent	_	_
 9	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:caus	_	_
 10	tomber	tomber	VERB	_	VerbForm=Inf	0	root	_	_
@@ -1160,7 +1160,7 @@
 
 # sent_id = fr-ud-train_00049
 # text = Larry Harlow a fait découvrir le trompettiste cubain Alfredo "Chocolate" Armenteros et le tromboniste Mark Weinstein, qui a co-arrangé l'album avec lui.
-1	Larry	Larry	PROPN	_	_	5	nsubj:caus	_	_
+1	Larry	Larry	PROPN	_	_	5	nsubj	_	_
 2	Harlow	Harlow	PROPN	_	_	1	flat:name	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 4	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:caus	_	_
@@ -5766,7 +5766,7 @@
 6	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	sciences	science	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	doyen	doyen	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:caus	_	_
+9	doyen	doyen	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 10	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:caus	_	_
 11	construire	construire	VERB	_	VerbForm=Inf	0	root	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -7258,7 +7258,7 @@
 1	Début	début	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
 2	janvier	janvier	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	Gene	Gene	PROPN	_	_	8	nsubj:caus	_	_
+4	Gene	Gene	PROPN	_	_	8	nsubj	_	_
 5	Raymond	Raymond	PROPN	_	_	4	flat:name	_	_
 6	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj:agent	_	_
 7	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:caus	_	_
@@ -7948,7 +7948,7 @@
 5	propres	propre	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
 6	frais	frais	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:caus	_	_
+8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 9	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:caus	_	_
 10	réparer	réparer	VERB	_	VerbForm=Inf	0	root	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -9926,7 +9926,7 @@
 # sent_id = fr-ud-train_00340
 # text = L'officiant fait se relever le nouveau frère et l'embrasse sur la bouche qui est le baiser d'hommage féodal.
 1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	officiant	officiant	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:caus	_	_
+2	officiant	officiant	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:caus	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
 5	relever	relever	VERB	_	VerbForm=Inf	0	root	_	_
@@ -10005,7 +10005,7 @@
 # text = Puis, Chaplin fait peu à peu entrer dans son univers comique celui du mélodrame et de la réalité sociale comme dans La Ruée vers l'or (1925).
 1	Puis	puis	ADV	_	_	8	cc	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	Chaplin	Chaplin	PROPN	_	_	8	nsubj:caus	_	_
+3	Chaplin	Chaplin	PROPN	_	_	8	nsubj	_	_
 4	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:caus	_	_
 5	peu	peu	ADV	_	_	8	advmod	_	EXTPOS=ADV|Type=MWE
 6	à	à	ADP	_	_	5	fixed	_	_
@@ -10455,7 +10455,7 @@
 32	«	«	PUNCT	_	_	33	punct	_	_
 33	papa	papa	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
 34	»	»	PUNCT	_	_	33	punct	_	_
-35	qui	qui	PRON	_	PronType=Rel	38	nsubj:caus	_	_
+35	qui	qui	PRON	_	PronType=Rel	38	nsubj	_	_
 36	se	se	PRON	_	Person=3|PronType=Prs	38	obj	_	_
 37	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux:caus	_	_
 38	escroquer	escroquer	VERB	_	VerbForm=Inf	33	acl:relcl	_	_
@@ -17580,7 +17580,7 @@
 21	visiter	visiter	VERB	_	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	26	punct	_	_
 23	et	et	CCONJ	_	_	26	cc	_	_
-24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj:caus	_	_
+24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 25	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:caus	_	_
 26	bâtir	bâtir	VERB	_	VerbForm=Inf	11	conj	_	_
 27	pendant	pendant	ADP	_	_	29	case	_	_
@@ -20723,7 +20723,7 @@
 
 # sent_id = fr-ud-train_00730
 # text = Il fait observer à Pierre le Grand la circulation sanguine dans la queue d'une anguille.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:caus	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:caus	_	_
 3	observer	observer	VERB	_	VerbForm=Inf	0	root	_	_
 4	à	à	ADP	_	_	5	case	_	_
@@ -20814,7 +20814,7 @@
 16	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
 17	charge	charge	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	8	punct	_	_
-19	Rodolfo	Rodolfo	PROPN	_	_	22	nsubj:caus	_	_
+19	Rodolfo	Rodolfo	PROPN	_	_	22	nsubj	_	_
 20	Graziani	Graziani	PROPN	_	_	19	flat:name	_	_
 21	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:caus	_	_
 22	construire	construire	VERB	_	VerbForm=Inf	0	root	_	_
@@ -22494,7 +22494,7 @@
 13	dans	dans	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	temps	temps	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
-16	qui	qui	PRON	_	PronType=Rel	19	nsubj:caus	_	_
+16	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
 17	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	19	iobj:agent	_	_
 18	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:caus	_	_
 19	redécouvrir	redécouvrir	VERB	_	VerbForm=Inf	11	acl:relcl	_	_
@@ -26332,7 +26332,7 @@
 # text = Parce qu'Il faisait fonctionner six crématoires jour et nuit, les jours de Sabbat et les jours de fête ?
 1	Parce	parce	ADV	_	_	5	mark	_	EXTPOS=SCONJ|Type=MWE
 2	qu'	que	SCONJ	_	_	1	fixed	_	SpaceAfter=No
-3	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:caus	_	_
+3	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 4	faisait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux:caus	_	_
 5	fonctionner	fonctionner	VERB	_	VerbForm=Inf	0	root	_	_
 6	six	six	NUM	_	_	7	nummod	_	_
@@ -30586,7 +30586,7 @@
 15	avec	avec	ADP	_	_	16	case	_	_
 16	Syd	Syd	PROPN	_	_	14	nmod	_	_
 17	:	:	PUNCT	_	_	20	punct	_	_
-18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj:caus	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 19	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:caus	_	_
 20	venir	venir	VERB	_	VerbForm=Inf	7	parataxis	_	_
 21	à	à	ADP	_	_	23	case	_	_
@@ -30848,7 +30848,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	Première	premier	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
-8	Ministre	ministre	NOUN	_	Gender=Fem|Number=Sing	13	nsubj:caus	_	_
+8	Ministre	ministre	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
 9	Pauline	Pauline	PROPN	_	_	8	appos	_	_
 10	Marois	Marois	PROPN	_	_	9	flat:name	_	_
 11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
@@ -34589,7 +34589,7 @@
 5	mais	mais	CCONJ	_	_	11	cc	_	_
 6	dès	dès	ADP	_	_	7	case	_	_
 7	22h	22h	NUM	_	_	11	obl:mod	_	_
-8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	11	nsubj:caus	_	_
+8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
 9	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	11	obj:agent	_	_
 10	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:caus	_	_
 11	sentir	sentir	VERB	_	VerbForm=Inf	1	conj	_	_
@@ -36452,7 +36452,7 @@
 # sent_id = fr-ud-train_01285
 # text = Les créations sensuelles, modernes et orientales se font remarquer.
 1	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	créations	création	NOUN	_	Gender=Fem|Number=Plur	10	nsubj:caus	_	_
+2	créations	création	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
 3	sensuelles	sensuel	ADJ	_	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	modernes	moderne	ADJ	_	Gender=Fem|Number=Plur	3	conj	_	_
@@ -39018,7 +39018,7 @@
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	Club	Club	PROPN	_	_	32	nmod	_	_
 36	africain	africain	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	_
-37	qui	qui	PRON	_	PronType=Rel	40	nsubj:caus	_	_
+37	qui	qui	PRON	_	PronType=Rel	40	nsubj	_	_
 38	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	40	iobj:agent	_	_
 39	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	aux:caus	_	_
 40	signer	signer	VERB	_	VerbForm=Inf	32	acl:relcl	_	_
@@ -43786,7 +43786,7 @@
 12	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
 13	vaisseaux	vaisseau	NOUN	_	Gender=Masc|Number=Plur	8	obl:arg	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	3	punct	_	_
-15	Hammond	Hammond	PROPN	_	_	17	nsubj:caus	_	_
+15	Hammond	Hammond	PROPN	_	_	17	nsubj	_	_
 16	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:caus	_	_
 17	lancer	lancer	VERB	_	VerbForm=Inf	0	root	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -43950,7 +43950,7 @@
 # sent_id = fr-ud-train_01557
 # text = Ses qualités de vitesse et son sens du but font parler le monde du football.
 1	Ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	2	det	_	_
-2	qualités	qualité	NOUN	_	Gender=Fem|Number=Plur	12	nsubj:caus	_	_
+2	qualités	qualité	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	vitesse	vitesse	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 5	et	et	CCONJ	_	_	7	cc	_	_
@@ -55247,7 +55247,7 @@
 3	à	à	ADP	_	_	4	case	_	_
 4	1910	1910	NUM	_	_	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj:caus	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 7	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:caus	_	_
 8	paraître	paraître	VERB	_	VerbForm=Inf	0	root	_	_
 9	Eggs	Eggs	X	_	Foreign=Yes	8	obj:agent	_	Foreign=en
@@ -58756,7 +58756,7 @@
 # text = Parce qu'Il avait fait brûler des milliers d'enfants dans ses fosses ?
 1	Parce	parce	ADV	_	_	6	mark	_	EXTPOS=SCONJ|Type=MWE
 2	qu'	que	SCONJ	_	_	1	fixed	_	SpaceAfter=No
-3	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj:caus	_	_
+3	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:tense	_	_
 5	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:caus	_	_
 6	brûler	brûler	VERB	_	VerbForm=Inf	0	root	_	_
@@ -59647,7 +59647,7 @@
 1	En	en	ADP	_	_	2	case	_	_
 2	France	France	PROPN	_	_	11	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	France	France	PROPN	_	_	11	nsubj:caus	_	_
+4	France	France	PROPN	_	_	11	nsubj	_	_
 5	Nature	Nature	PROPN	_	_	4	flat:name	_	_
 6	Environnement	Environnement	PROPN	_	_	4	flat:name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
@@ -64527,7 +64527,7 @@
 12	Québec	Québec	PROPN	_	_	9	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	1	punct	_	_
 14	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-15	conditions	condition	NOUN	_	Gender=Fem|Number=Plur	27	nsubj:caus	_	_
+15	conditions	condition	NOUN	_	Gender=Fem|Number=Plur	27	nsubj	_	_
 16	fortement	fortement	ADV	_	_	17	advmod	_	_
 17	dépressionnaires	dépressionnaire	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
 18	présentes	présent	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	_
@@ -70055,7 +70055,7 @@
 6	homologué	homologuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-9	étudiants	étudiant	NOUN	_	Gender=Masc|Number=Plur	14	nsubj:caus	_	_
+9	étudiants	étudiant	NOUN	_	Gender=Masc|Number=Plur	14	nsubj	_	_
 10	arrageois	arrageois	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
 11	se	se	PRON	_	Person=3|PronType=Prs	14	iobj	_	_
 12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
@@ -71909,7 +71909,7 @@
 # text = Nos trois héros se font arrêter à nouveau et ils sont conduits dans un château où une grande partie de l'état-major français est retenue prisonnier.
 1	Nos	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det	_	_
 2	trois	trois	NUM	_	_	3	nummod	_	_
-3	héros	héros	NOUN	_	Gender=Masc|Number=Plur	6	nsubj:caus	_	_
+3	héros	héros	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	6	obj	_	_
 5	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux:caus	_	_
 6	arrêter	arrêter	VERB	_	VerbForm=Inf	0	root	_	_
@@ -72769,7 +72769,7 @@
 6	,	,	PUNCT	_	_	14	punct	_	_
 7	mais	mais	CCONJ	_	_	14	cc	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	public	public	NOUN	_	Gender=Masc|Number=Sing	14	nsubj:caus	_	_
+9	public	public	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 10	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	14	iobj:agent	_	_
 11	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	14	obj	_	_
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
@@ -73059,7 +73059,7 @@
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	Domine	Domine	X	_	Case=Voc|Foreign=Yes|Gender=Masc|Number=Sing	21	flat:foreign	_	Foreign=en
 27	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	parataxis	_	_
-28	qui	qui	PRON	_	PronType=Rel	30	nsubj:caus	_	_
+28	qui	qui	PRON	_	PronType=Rel	30	nsubj	_	_
 29	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux:caus	_	_
 30	dire	dire	VERB	_	VerbForm=Inf	27	acl:relcl	_	_
 31	à	à	ADP	_	_	32	case	_	_
@@ -75289,7 +75289,7 @@
 3	mai	mai	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	CGT	CGT	PROPN	_	_	8	nsubj:caus	_	_
+6	CGT	CGT	PROPN	_	_	8	nsubj	_	_
 7	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:caus	_	_
 8	voter	voter	VERB	_	VerbForm=Inf	0	root	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -87611,7 +87611,7 @@
 18	,	,	PUNCT	_	_	25	punct	_	_
 19	et	et	CCONJ	_	_	25	cc	_	_
 20	plusieurs	plusieurs	DET	_	Gender=Masc|Number=Plur	21	det	_	_
-21	peuples	peuple	NOUN	_	Gender=Masc|Number=Plur	25	nsubj:caus	_	_
+21	peuples	peuple	NOUN	_	Gender=Masc|Number=Plur	25	nsubj	_	_
 22	extra-terrestres	extra-terrestre	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
 23	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	25	iobj	_	_
 24	firent	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	aux:caus	_	_
@@ -88728,7 +88728,7 @@
 9	en	en	ADP	_	_	10	case	_	_
 10	724	724	NUM	_	_	3	obl	_	_
 11	et	et	CCONJ	_	_	16	cc	_	_
-12	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	16	nsubj:caus	_	EXTPOS=PRON|SpaceAfter=No|Type=MWE
+12	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	16	nsubj	_	EXTPOS=PRON|SpaceAfter=No|Type=MWE
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	12	fixed	_	_
 14	y	y	PRON	_	_	16	obl:mod	_	_
 15	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:caus	_	_
@@ -90221,7 +90221,7 @@
 12	Royale	royal	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 13	durant	durant	ADP	_	_	14	case	_	_
 14	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	17	obl	_	_
-15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj:caus	_	_
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
 16	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux:caus	_	_
 17	planter	planter	VERB	_	VerbForm=Inf	11	acl:relcl	_	_
 18	des	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
@@ -93246,7 +93246,7 @@
 
 # sent_id = fr-ud-train_03315
 # text = Sarkozy, pour tenter de se prémunir contre ce scénario catastrophe, a fait savoir qu'aucune preuve concernant le fait que l'otage serait encore en vie, n'a pu être obtenue.
-1	Sarkozy	Sarkozy	PROPN	_	_	15	nsubj:caus	_	SpaceAfter=No
+1	Sarkozy	Sarkozy	PROPN	_	_	15	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	pour	pour	ADP	_	_	4	mark	_	_
 4	tenter	tenter	VERB	_	VerbForm=Inf	15	advcl	_	_
@@ -96640,7 +96640,7 @@
 7	en	en	ADP	_	_	8	case	_	_
 8	1851	1851	NUM	_	_	3	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	_	_
-10	Jules	Jules	PROPN	_	_	13	nsubj:caus	_	_
+10	Jules	Jules	PROPN	_	_	13	nsubj	_	_
 11	Cantini	Cantini	PROPN	_	_	10	flat:name	_	_
 12	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:caus	_	_
 13	prospérer	prospérer	VERB	_	VerbForm=Inf	0	root	_	_
@@ -97254,7 +97254,7 @@
 # text = Mais des détails font douter les enquêteurs qui parviennent rapidement à remonter jusqu'à Buffet qui est arrêté le 8 février 1967.
 1	Mais	mais	CCONJ	_	_	5	cc	_	_
 2	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	détails	détail	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:caus	_	_
+3	détails	détail	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 4	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:caus	_	_
 5	douter	douter	VERB	_	VerbForm=Inf	0	root	_	_
 6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
@@ -97398,7 +97398,7 @@
 1	En	en	ADP	_	_	2	case	_	_
 2	1444	1444	NUM	_	_	22	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	Guillaume	Guillaume	PROPN	_	_	22	nsubj:caus	_	_
+4	Guillaume	Guillaume	PROPN	_	_	22	nsubj	_	_
 5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
 6	Aubusson	Aubusson	PROPN	_	_	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
@@ -97900,7 +97900,7 @@
 
 # sent_id = fr-ud-train_03489
 # text = Bardas Sklèros, qui s'est réfugié en territoire arabe, se fait de nouveau entendre, et une nouvelle fois se fait proclamer basileus.
-1	Bardas	Bardas	PROPN	_	_	16	nsubj:caus	_	_
+1	Bardas	Bardas	PROPN	_	_	16	nsubj	_	_
 2	Sklèros	Sklèros	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
@@ -100824,7 +100824,7 @@
 25	paternel	paternel	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
 26	dans	dans	ADP	_	_	27	case	_	_
 27	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	32	obl:mod	_	_
-28	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj:caus	_	_
+28	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
 29	s'	se	PRON	_	Person=3|PronType=Prs	32	iobj	_	SpaceAfter=No
 30	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux:tense	_	_
 31	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	aux:caus	_	_
@@ -102796,7 +102796,7 @@
 
 # sent_id = fr-ud-train_03659
 # text = Il s'est fait poser des points de suture.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:caus	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	5	iobj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 4	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:caus	_	_
@@ -106033,7 +106033,7 @@
 
 # sent_id = fr-ud-train_03778
 # text = Il se fait interpeller par un policier en civil dans des toilettes publiques.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:caus	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	4	obj	_	_
 3	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:caus	_	_
 4	interpeller	interpeller	VERB	_	VerbForm=Inf	0	root	_	_
@@ -110941,7 +110941,7 @@
 2	—	—	PUNCT	_	_	1	punct	_	_
 3	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
 4	園部町	園部町	X	_	Foreign=Yes	1	appos	_	Foreign=ja|SpaceAfter=No
-5	,	,	PUNCT	_		6	punct	_	_
+5	,	,	PUNCT	_	_	6	punct	_	_
 6	Sonobe	Sonobe	X	_	Foreign=Yes	4	appos	_	Foreign=Yes
 7	chō	chō	X	_	Foreign=Yes	6	flat:foreign	_	Foreign=Yes=ja|SpaceAfter=No
 8	?	?	PUNCT	_	_	4	punct	_	SpaceAfter=No
@@ -114278,7 +114278,7 @@
 27	passe	passe	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	15	punct	_	_
 29	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	parataxis	_	_
-30	qui	qui	PRON	_	PronType=Rel	32	nsubj:caus	_	_
+30	qui	qui	PRON	_	PronType=Rel	32	nsubj	_	_
 31	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:caus	_	_
 32	dire	dire	VERB	_	VerbForm=Inf	29	acl:relcl	_	_
 33	à	à	ADP	_	_	34	case	_	_
@@ -115566,7 +115566,7 @@
 11	1925	1925	NUM	_	_	10	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	9	punct	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
-14	communistes	communiste	NOUN	_	Gender=Masc|Number=Plur	16	nsubj:caus	_	_
+14	communistes	communiste	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
 15	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:caus	_	_
 16	exploser	exploser	VERB	_	VerbForm=Inf	0	root	_	_
 17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
@@ -116839,7 +116839,7 @@
 7	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
 9	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	châtelains	châtelain	NOUN	_	Gender=Masc|Number=Plur	12	nsubj:caus	_	_
+10	châtelains	châtelain	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
 11	firent	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux:caus	_	_
 12	venir	venir	VERB	_	VerbForm=Inf	0	root	_	_
 13	des	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
@@ -117501,7 +117501,7 @@
 3	signifie	signifier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	que	que	SCONJ	_	_	20	mark	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	flux	flux	NOUN	_	Gender=Masc|Number=Sing	20	nsubj:caus	_	_
+6	flux	flux	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
 7	sans	sans	ADP	_	_	8	case	_	_
 8	fin	fin	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
 9	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
@@ -119166,7 +119166,7 @@
 # text = Mais l'opposition des représentants d'Angers et des dissensions au sein des délégués saumurois (entre ceux de la Noblesse du Clergé et du Tiers-Etat) feront échouer cette tentative.
 1	Mais	mais	CCONJ	_	_	34	cc	_	_
 2	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
-3	opposition	opposition	NOUN	_	Gender=Fem|Number=Sing	34	nsubj:caus	_	_
+3	opposition	opposition	NOUN	_	Gender=Fem|Number=Sing	34	nsubj	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
@@ -123978,7 +123978,7 @@
 
 # sent_id = fr-ud-train_04446
 # text = François Dublineau se fit adjuger le tout en 1698, expulsa le propriétaire évincé, mais du le rétrocéder à la famille en 1720.
-1	François	François	PROPN	_	_	5	nsubj:caus	_	_
+1	François	François	PROPN	_	_	5	nsubj	_	_
 2	Dublineau	Dublineau	PROPN	_	_	1	flat:name	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	5	iobj	_	_
 4	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:caus	_	_
@@ -125514,7 +125514,7 @@
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Cyrurgia	Cyrurgia	PROPN	_	_	10	appos	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	19	punct	_	_
-21	qui	qui	PRON	_	PronType=Rel	24	nsubj:caus	_	_
+21	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	_
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
 23	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	aux:caus	_	_
 24	connaître	connaître	VERB	_	VerbForm=Inf	10	acl:relcl	_	_
@@ -127150,7 +127150,7 @@
 15	grand	grand	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
 16	commandant	commandant	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	9	punct	_	_
-18	Collingwood	Collingwood	PROPN	_	_	20	nsubj:caus	_	_
+18	Collingwood	Collingwood	PROPN	_	_	20	nsubj	_	_
 19	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:caus	_	_
 20	remarquer	remarquer	VERB	_	VerbForm=Inf	26	parataxis	_	_
 21	à	à	ADP	_	_	23	case	_	_
@@ -127454,7 +127454,7 @@
 4	fouet	fouet	NOUN	_	Gender=Masc|Number=Sing	1	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	conducteur	conducteur	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:caus	_	_
+7	conducteur	conducteur	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 8	faisait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:caus	_	_
 9	tourner	tourner	VERB	_	VerbForm=Inf	0	root	_	_
 10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
@@ -128403,7 +128403,7 @@
 # sent_id = fr-ud-train_04603
 # text = Son entourage, ses enfants le lui font remarquer.
 1	Son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
-2	entourage	entourage	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:caus	_	SpaceAfter=No
+2	entourage	entourage	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det	_	_
 5	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
@@ -129497,7 +129497,7 @@
 # text = Le fort taux d'imposition en France ferait fuir les talents et empêcherait les clubs de l'Hexagone de progresser.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	fort	fort	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-3	taux	taux	NOUN	_	Gender=Masc|Number=Sing	9	nsubj:caus	_	_
+3	taux	taux	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
 4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
 5	imposition	imposition	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
 6	en	en	ADP	_	_	7	case	_	_
@@ -130245,7 +130245,7 @@
 3	même	même	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 4	époque	époque	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj:caus	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 7	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:caus	_	_
 8	construire	construire	VERB	_	VerbForm=Inf	0	root	_	_
 9	plusieurs	plusieurs	DET	_	Gender=Masc|Number=Plur	10	det	_	_
@@ -130377,7 +130377,7 @@
 3	en	en	ADP	_	_	4	case	_	_
 4	2005	2005	NUM	_	_	8	obl:mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	Azazel	Azazel	PROPN	_	_	8	nsubj:caus	_	_
+6	Azazel	Azazel	PROPN	_	_	8	nsubj	_	_
 7	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:caus	_	_
 8	tuer	tuer	VERB	_	VerbForm=Inf	0	root	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
@@ -130604,7 +130604,7 @@
 1	De	de	ADP	_	_	2	case	_	INMWE=Yes
 2	plus	plus	ADV	_	_	10	advmod	_	EXTPOS=ADV|SpaceAfter=No|Type=MWE
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:caus	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 5	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	10	iobj:agent	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 7	sans	sans	ADP	_	_	8	case	_	INMWE=Yes
@@ -136293,7 +136293,7 @@
 15	province	province	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	1	punct	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	roi	roi	NOUN	_	Gender=Masc|Number=Sing	21	nsubj:caus	_	_
+18	roi	roi	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
 19	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj:agent	_	_
 20	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:caus	_	_
 21	venir	venir	VERB	_	VerbForm=Inf	0	root	_	_
@@ -137601,7 +137601,7 @@
 4	1850	1850	NUM	_	_	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	général	général	NOUN	_	Gender=Masc|Number=Sing	11	nsubj:caus	_	_
+7	général	général	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	Gramont	Gramont	PROPN	_	_	7	nmod	_	_
 10	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:caus	_	_
@@ -139304,7 +139304,7 @@
 
 # sent_id = fr-ud-train_04989
 # text = Claire Després, qui a eu une liaison avec un homme ambitieux devenu Président de la République, se fait voler son sac à main.
-1	Claire	Claire	PROPN	_	_	21	nsubj:caus	_	_
+1	Claire	Claire	PROPN	_	_	21	nsubj	_	_
 2	Després	Després	PROPN	_	_	1	flat:name	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	qui	qui	PRON	_	PronType=Rel	6	nsubj	_	_
@@ -139972,7 +139972,7 @@
 # sent_id = fr-ud-train_05017
 # text = La municipalité a fait stopper les cloches des églises lors des enterrements en raison des effets négatifs qu'elles avaient sur le moral de la population.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	municipalité	municipalité	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:caus	_	_
+2	municipalité	municipalité	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 4	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:caus	_	_
 5	stopper	stopper	VERB	_	VerbForm=Inf	0	root	_	_
@@ -147793,7 +147793,7 @@
 3	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	fois	fois	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj:caus	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 7	se	se	PRON	_	Person=3|PronType=Prs	9	obj:agent	_	_
 8	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:caus	_	_
 9	passer	passer	VERB	_	VerbForm=Inf	0	root	_	_
@@ -147816,7 +147816,7 @@
 26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	autre	autre	PRON	_	Number=Sing	32	obl:mod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
-29	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj:caus	_	_
+29	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
 30	se	se	PRON	_	Person=3|PronType=Prs	32	obj:agent	_	_
 31	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux:caus	_	_
 32	passer	passer	VERB	_	VerbForm=Inf	9	conj	_	_
@@ -160947,7 +160947,7 @@
 
 # sent_id = fr-ud-train_05748
 # text = Il fait accélérer ses troupes.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj:caus	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:caus	_	_
 3	accélérer	accélérer	VERB	_	VerbForm=Inf	0	root	_	_
 4	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det	_	_
@@ -162844,7 +162844,7 @@
 
 # sent_id = fr-ud-train_05820
 # text = Ils font sauter la plupart des ponts, bourrent d'explosifs les autres, aménagent les routes pour faire passer le ravitaillement...
-1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj:caus	_	_
+1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:caus	_	_
 3	sauter	sauter	VERB	_	VerbForm=Inf	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	INMWE=Yes
@@ -163622,7 +163622,7 @@
 14	,	,	PUNCT	_	_	23	punct	_	_
 15	où	où	ADV	_	PronType=Rel	23	advmod	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	23	nsubj:caus	_	_
+17	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
 18	avec	avec	ADP	_	_	19	case	_	_
 19	Robert	Robert	PROPN	_	_	17	nmod	_	_
 20	Persons	Persons	PROPN	_	_	19	flat:name	_	_
@@ -166791,7 +166791,7 @@
 
 # sent_id = fr-ud-train_05961
 # text = Il se fait cependant remplacer une moitié de l'année par sa sœur Geshtinanna.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj:caus	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	5	obj	_	_
 3	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:caus	_	_
 4	cependant	cependant	ADV	_	_	5	advmod	_	_
@@ -170023,7 +170023,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	ainsi	ainsi	ADV	_	_	0	root	_	_
 4	que	que	SCONJ	_	_	8	mark	_	_
-5	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	8	nsubj:caus	_	EXTPOS=PRON|SpaceAfter=No|Type=MWE
+5	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	8	nsubj	_	EXTPOS=PRON|SpaceAfter=No|Type=MWE
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	fixed	_	_
 7	fera	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux:caus	_	_
 8	progresser	progresser	VERB	_	VerbForm=Inf	3	advcl:cleft	_	_
@@ -187354,7 +187354,7 @@
 35	éviter	éviter	VERB	_	VerbForm=Inf	31	advcl	_	_
 36	que	que	SCONJ	_	_	42	mark	_	_
 37	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	42	nsubj:caus	_	_
+38	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	42	nsubj	_	_
 39	ne	ne	ADV	_	Polarity=Neg	42	advmod	_	_
 40	se	se	PRON	_	Person=3|PronType=Prs	42	obj	_	_
 41	fasse	faire	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux:caus	_	_
@@ -193207,7 +193207,7 @@
 # sent_id = fr-ud-train_06892
 # text = L'Association sportive de Grazay fait évoluer deux équipes de football en divisions de district.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	Association	association	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:caus	_	_
+2	Association	association	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	sportive	sportif	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	de	de	ADP	_	_	5	case	_	_
 5	Grazay	Grazay	PROPN	_	_	2	nmod	_	_
@@ -201304,7 +201304,7 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	INMWE=Yes
 13	juste	juste	ADV	_	_	18	advmod	_	EXTPOS=ADV|Type=MWE
 14	quèque	quèque	X	_	_	18	obj	_	_
-15	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	18	nsubj:caus	_	_
+15	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	18	nsubj	_	_
 16	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	18	iobj:agent	_	_
 17	fais	faire	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	aux:caus	_	_
 18	manger	manger	VERB	_	VerbForm=Inf	0	root	_	_
@@ -203178,7 +203178,7 @@
 # text = Mais l'utilisation des ponts fait apparaître un problème d'oscillation : le pont entre facilement en résonance, et la pression qui s'exerce sur les chaînes les fait céder.
 1	Mais	mais	CCONJ	_	_	8	cc	_	_
 2	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
-3	utilisation	utilisation	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:caus	_	_
+3	utilisation	utilisation	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
@@ -203199,7 +203199,7 @@
 20	,	,	PUNCT	_	_	32	punct	_	_
 21	et	et	CCONJ	_	_	32	cc	_	_
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	pression	pression	NOUN	_	Gender=Fem|Number=Sing	32	nsubj:caus	_	_
+23	pression	pression	NOUN	_	Gender=Fem|Number=Sing	32	nsubj	_	_
 24	qui	qui	PRON	_	PronType=Rel	26	nsubj	_	_
 25	s'	se	PRON	_	Person=3|PronType=Prs	26	expl:pass	_	SpaceAfter=No
 26	exerce	exercer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
@@ -210198,7 +210198,7 @@
 # sent_id = fr-ud-train_07504
 # text = Le bureau confédéral fait connaître son opposition à cette initiative.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	bureau	bureau	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:caus	_	_
+2	bureau	bureau	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	confédéral	confédéral	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
 4	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:caus	_	_
 5	connaître	connaître	VERB	_	VerbForm=Inf	0	root	_	_
@@ -210611,7 +210611,7 @@
 52	chaque	chaque	DET	_	Gender=Fem|Number=Sing	53	det	_	_
 53	fois	fois	NOUN	_	Gender=Fem|Number=Sing	50	obl:mod	_	_
 54	et	et	CCONJ	_	_	58	cc	_	_
-55	qui	qui	PRON	_	PronType=Rel	58	nsubj:caus	_	_
+55	qui	qui	PRON	_	PronType=Rel	58	nsubj	_	_
 56	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	58	obj:agent	_	_
 57	faisaient	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	58	aux:caus	_	_
 58	revenir	revenir	VERB	_	VerbForm=Inf	50	conj	_	_
@@ -212792,7 +212792,7 @@
 11	érection	érection	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	appos	_	_
-14	qui	qui	PRON	_	PronType=Rel	16	nsubj:caus	_	_
+14	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	_
 15	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:caus	_	_
 16	naître	naître	VERB	_	VerbForm=Inf	13	acl:relcl	_	_
 17	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
@@ -216621,7 +216621,7 @@
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	1801	1801	NUM	_	_	2	conj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj:caus	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
 8	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	aux:caus	_	_
 9	paraître	paraître	VERB	_	VerbForm=Inf	0	root	_	_
@@ -220249,7 +220249,7 @@
 # sent_id = fr-ud-train_07856
 # text = Récemment elle s'est aussi fait tatouer sous le nombril, dans le cou et sur la poitrine.
 1	Récemment	récemment	ADV	_	_	7	advmod	_	_
-2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj:caus	_	_
+2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 5	aussi	aussi	ADV	_	_	7	advmod	_	_
@@ -224541,7 +224541,7 @@
 1	En	en	ADP	_	_	2	mark	_	_
 2	attendant	attendre	VERB	_	Tense=Pres|VerbForm=Part	7	advcl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj:caus	_	_
+4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
 6	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux:caus	_	_
 7	creuser	creuser	VERB	_	VerbForm=Inf	0	root	_	_
@@ -226980,7 +226980,7 @@
 10	2089	2089	NUM	_	_	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	_
 12	que	que	PRON	_	PronType=Rel	16	obj	_	_
-13	Napoléon	Napoléon	PROPN	_	_	16	nsubj:caus	_	_
+13	Napoléon	Napoléon	PROPN	_	_	16	nsubj	_	_
 14	III	III	NUM	_	_	13	nmod	_	_
 15	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux:caus	_	_
 16	améliorer	améliorer	VERB	_	VerbForm=Inf	9	acl:relcl	_	_
@@ -227526,7 +227526,7 @@
 # sent_id = fr-ud-train_08119
 # text = Sa fragilité nerveuse lui fait supporter les surnoms de Jane la Folle ou de Mélinite.
 1	Sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	_
-2	fragilité	fragilité	NOUN	_	Gender=Fem|Number=Sing	6	nsubj:caus	_	_
+2	fragilité	fragilité	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	nerveuse	nerveux	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	6	iobj:agent	_	_
 5	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:caus	_	_
@@ -231711,7 +231711,7 @@
 
 # sent_id = fr-ud-train_08265
 # text = Il a fait savoir que s'il était à nouveau transféré en prison, où il partage une cellule avec une vingtaine de prisonniers de droit commun, il arrêterait de boire.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:caus	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
 3	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:caus	_	_
 4	savoir	savoir	VERB	_	VerbForm=Inf	0	root	_	_
@@ -238282,7 +238282,7 @@
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	courant	courant	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	_
 15	que	que	PRON	_	PronType=Rel	19	obj:agent	_	_
-16	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	19	nsubj:caus	_	EXTPOS=PRON|SpaceAfter=No|Type=MWE
+16	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	19	nsubj	_	EXTPOS=PRON|SpaceAfter=No|Type=MWE
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	16	fixed	_	_
 18	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:caus	_	_
 19	passer	passer	VERB	_	VerbForm=Inf	14	acl:relcl	_	_
@@ -239420,7 +239420,7 @@
 14	1815	1815	NUM	_	_	9	obl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	4	punct	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	caractère	caractère	NOUN	_	Gender=Masc|Number=Sing	27	nsubj:caus	_	_
+17	caractère	caractère	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
 18	vital	vital	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 19-20	des	_	_	_	_	_	_	_	_
 19	de	de	ADP	_	_	21	case	_	_
@@ -243357,7 +243357,7 @@
 # text = Un petit tour par le gîte d'Etape l'Etoile ne vous fera que mieux apprécier cette région qu'est la Lozère.
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	petit	petit	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
-3	tour	tour	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:caus	_	_
+3	tour	tour	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
 4	par	par	ADP	_	_	6	case	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	gîte	gîte	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
@@ -243392,7 +243392,7 @@
 9	en	en	ADP	_	_	10	case	_	_
 10	1889-1890	1889-1890	NUM	_	_	4	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	2	punct	_	_
-12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj:caus	_	_
+12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 13	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:caus	_	_
 14	porter	porter	VERB	_	VerbForm=Inf	0	root	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -249203,7 +249203,7 @@
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	scène	scène	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
 15	et	et	CCONJ	_	_	19	cc	_	_
-16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	19	nsubj:caus	_	_
+16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
 17	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	19	obj:agent	_	_
 18	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:caus	_	_
 19	rebondir	rebondir	VERB	_	VerbForm=Inf	2	conj	_	_
@@ -251317,7 +251317,7 @@
 3	temps	temps	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 4	après	après	ADV	_	_	10	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:caus	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 7	s'	se	PRON	_	Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 9	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux:caus	_	_
@@ -255137,7 +255137,7 @@
 15	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:caus	_	_
 16	peser	peser	VERB	_	VerbForm=Inf	13	acl:relcl	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	pouvoir	pouvoir	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:caus	_	_
+18	pouvoir	pouvoir	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
 19	économique	économique	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
 21	politique	politique	ADJ	_	Gender=Masc|Number=Sing	19	conj	_	_
@@ -256258,7 +256258,7 @@
 27	sur	sur	ADP	_	_	29	case	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	golf	golf	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
-30	qui	qui	PRON	_	PronType=Rel	33	nsubj:caus	_	_
+30	qui	qui	PRON	_	PronType=Rel	33	nsubj	_	_
 31	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	33	iobj:agent	_	_
 32	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux:caus	_	_
 33	oublier	oublier	VERB	_	VerbForm=Inf	29	acl:relcl	_	_
@@ -256787,7 +256787,7 @@
 # sent_id = fr-ud-train_09154
 # text = L'un d'entre eux se fait remarquer en 63...
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	un	un	PRON	_	Gender=Masc|Number=Sing	8	nsubj:caus	_	_
+2	un	un	PRON	_	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	d'	de	ADP	_	_	5	case	_	EXTPOS=ADP|SpaceAfter=No|Type=MWE
 4	entre	entre	ADP	_	_	3	fixed	_	_
 5	eux	soi	PRON	_	Gender=Masc|Number=Plur|Person=3	2	nmod	_	_
@@ -257306,7 +257306,7 @@
 19	contre	contre	ADP	_	_	21	case	_	_
 20	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 21	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
-22	qui	qui	PRON	_	PronType=Rel	26	nsubj:caus	_	_
+22	qui	qui	PRON	_	PronType=Rel	26	nsubj	_	_
 23	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	26	obj	_	SpaceAfter=No
 24	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
 25	faite	faire	AUX	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	26	aux:caus	_	_
@@ -257834,7 +257834,7 @@
 # sent_id = fr-ud-train_09191
 # text = Les opérateurs se font fournir ces terminaux de compagnies reconnues telles que Siemens, Alcatel, les compagnies de téléphonies cellulaires se transforment ici en distributeurs, avec imprimées sur le produit leur différentes marques.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	opérateurs	opérateur	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:caus	_	_
+2	opérateurs	opérateur	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	5	iobj	_	_
 4	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:caus	_	_
 5	fournir	fournir	VERB	_	VerbForm=Inf	0	root	_	_
@@ -258700,7 +258700,7 @@
 # sent_id = fr-ud-train_09225
 # text = La réaction de Cordoue ne se fait pas attendre.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	9	nsubj:caus	_	_
+2	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	Cordoue	Cordoue	PROPN	_	_	2	nmod	_	_
 5	ne	ne	ADV	_	Polarity=Neg	9	advmod	_	_
@@ -258765,7 +258765,7 @@
 14	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 15	grandes	grand	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
 16	tables	table	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	_
-17	qui	qui	PRON	_	PronType=Rel	20	nsubj:caus	_	_
+17	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	_
 18	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux:caus	_	_
 19	se	se	PRON	_	Person=3|PronType=Prs	20	obj	_	_
 20	rencontrer	rencontrer	VERB	_	VerbForm=Inf	16	acl:relcl	_	_
@@ -259393,7 +259393,7 @@
 7	encore	encore	ADV	_	_	6	advmod	_	_
 8	satisfait	satisfaire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 9	et	et	CCONJ	_	_	12	cc	_	_
-10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj:caus	_	_
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 11	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:caus	_	_
 12	réétudier	réétudier	VERB	_	VerbForm=Inf	8	conj	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -261583,7 +261583,7 @@
 
 # sent_id = fr-ud-train_09325
 # text = Lola, qui devait aller le chercher, s'est fait voler son scooter et n'a pu arriver à l'heure.
-1	Lola	Lola	PROPN	_	_	12	nsubj:caus	_	SpaceAfter=No
+1	Lola	Lola	PROPN	_	_	12	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	qui	qui	PRON	_	PronType=Rel	4	nsubj	_	_
 4	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	acl:relcl	_	_
@@ -264063,7 +264063,7 @@
 2	1534	1534	NUM	_	_	10	obl:mod	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	1547	1547	NUM	_	_	2	conj	_	_
-5	Nicolas	Nicolas	PROPN	_	_	10	nsubj:caus	_	_
+5	Nicolas	Nicolas	PROPN	_	_	10	nsubj	_	_
 6	Perrenot	Perrenot	PROPN	_	_	5	flat:name	_	_
 7	de	de	ADP	_	_	5	flat:name	_	_
 8	Granvelle	Granvelle	PROPN	_	_	5	flat:name	_	_
@@ -267934,7 +267934,7 @@
 2	par	par	ADP	_	_	3	case	_	_
 3	Petrarca	Petrarca	PROPN	_	_	1	obl:agent	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj:caus	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 6	se	se	PRON	_	Person=3|PronType=Prs	9	obj	_	_
 7	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:caus	_	_
 8	véritablement	véritablement	ADV	_	_	9	advmod	_	_
@@ -268650,7 +268650,7 @@
 # sent_id = fr-ud-train_09591
 # text = Les syndicats n'ont pas encore fait connaître leur décision quant au maintien ou non de la grève prévue le 28 mars prochain.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	syndicats	syndicat	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:caus	_	_
+2	syndicats	syndicat	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
 5	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
@@ -272073,7 +272073,7 @@
 33	même	même	ADV	_	_	39	advmod	_	_
 34	si	si	SCONJ	_	_	39	mark	_	_
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	temps	temps	NOUN	_	Gender=Masc|Number=Sing	39	nsubj:caus	_	_
+36	temps	temps	NOUN	_	Gender=Masc|Number=Sing	39	nsubj	_	_
 37	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	aux:tense	_	_
 38	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	aux:caus	_	_
 39	modifier	modifier	VERB	_	VerbForm=Inf	26	advcl	_	_
@@ -273927,7 +273927,7 @@
 23	,	,	PUNCT	_	_	28	punct	_	_
 24	mais	mais	CCONJ	_	_	28	cc	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	tsarine	tsar	NOUN	_	Gender=Fem|Number=Sing	28	nsubj:caus	_	_
+26	tsarine	tsar	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
 27	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:caus	_	_
 28	trainer	trainer	VERB	_	VerbForm=Inf	2	conj	_	_
 29	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
@@ -276786,7 +276786,7 @@
 5	premiers	premiers	NUM	_	_	6	nummod	_	_
 6	mails	mail	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	_
-8	qui	qui	PRON	_	PronType=Rel	12	nsubj:caus	_	_
+8	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
 9	se	se	PRON	_	Person=3|PronType=Prs	12	obj	_	_
 10	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:caus	_	_
 11	toujours	toujours	ADV	_	_	12	advmod	_	_
@@ -286807,14 +286807,14 @@
 # text = Et bien je fais suivre mon vélo ailleurs, je me suis bien fait avoir.
 1	Et	eh	INTJ	_	Typo=Yes	5	advmod	_	CorrectForm=Eh|EXTPOS=INTJ|Type=MWE
 2	bien	bien	ADV	_	_	1	fixed	_	_
-3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj:caus	_	_
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 4	fais	faire	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:caus	_	_
 5	suivre	suivre	VERB	_	VerbForm=Inf	0	root	_	_
 6	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
 7	vélo	vélo	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
 8	ailleurs	ailleurs	ADV	_	_	5	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
-10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj:caus	_	_
+10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 11	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	15	obj	_	_
 12	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
 13	bien	bien	ADV	_	_	15	advmod	_	_
@@ -296477,7 +296477,7 @@
 3	temps	temps	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	_
 4	après	après	ADV	_	_	16	advmod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	frère	frère	NOUN	_	Gender=Masc|Number=Sing	16	nsubj:caus	_	_
+6	frère	frère	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	Jeanne	Jeanne	PROPN	_	_	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -300891,7 +300891,7 @@
 # sent_id = fr-ud-train_10775
 # text = Ses talents le firent élever promptement aux premières dignités de la congrégation.
 1	Ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	2	det	_	_
-2	talents	talent	NOUN	_	Gender=Masc|Number=Plur	5	nsubj:caus	_	_
+2	talents	talent	NOUN	_	Gender=Masc|Number=Plur	5	nsubj	_	_
 3	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 4	firent	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux:caus	_	_
 5	élever	élever	VERB	_	VerbForm=Inf	0	root	_	_
@@ -302488,7 +302488,7 @@
 9	excepté	excepté	ADP	_	_	16	mark	_	_
 10	que	que	SCONJ	_	_	16	mark	_	_
 11	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-12	Alliés	allié	NOUN	_	Gender=Masc|Number=Plur	16	nsubj:caus	_	_
+12	Alliés	allié	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
 13	se	se	PRON	_	Person=3|PronType=Prs	16	obj	_	_
 14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux:tense	_	_
 15	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux:caus	_	_
@@ -307546,7 +307546,7 @@
 
 # sent_id = fr-ud-train_11023
 # text = Ils se firent connaitre par leurs chansons aux paroles à double sens et pour leurs danseuses, connues en tant que les morena do Tchan (brune du Tchan) et loira do Tchan (blonde du Tchan).
-1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj:caus	_	_
+1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	4	obj	_	_
 3	firent	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux:caus	_	_
 4	connaitre	connaître	VERB	_	VerbForm=Inf	0	root	_	_
@@ -311650,7 +311650,7 @@
 16	compétition	compétition	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	3	punct	_	_
 18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
-19	Audi	Audi	PROPN	_	_	26	nsubj:caus	_	_
+19	Audi	Audi	PROPN	_	_	26	nsubj	_	_
 20	R15	R15	X	_	_	19	flat:name	_	_
 21	TDI	TDI	X	_	_	19	flat:name	_	_
 22	Plus	plus	ADV	_	_	19	flat:name	_	_
@@ -312642,7 +312642,7 @@
 
 # sent_id = fr-ud-train_11209
 # text = Antiochos le Grand fait alors gouverner les pays arméniens par deux « stratèges » aux noms iraniens, Artaxias (Grande-Arménie) et Zariadris (Sophène).
-1	Antiochos	Antiochos	PROPN	_	_	6	nsubj:caus	_	_
+1	Antiochos	Antiochos	PROPN	_	_	6	nsubj	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Grand	Grand	PROPN	_	_	1	appos	_	_
 4	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:caus	_	_
@@ -313818,7 +313818,7 @@
 13	américains	américain	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	3	punct	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	27	nsubj:caus	_	_
+16	groupe	groupe	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
 17	révélé	révéler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
 18	par	par	ADP	_	_	20	case	_	_
 19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
@@ -315240,7 +315240,7 @@
 63	Kolomaye	Kolomaye	PROPN	_	_	61	obl:arg	_	SpaceAfter=No
 64	,	,	PUNCT	_	_	69	punct	_	_
 65	où	où	ADV	_	PronType=Rel	69	advmod	_	_
-66	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	69	nsubj:caus	_	_
+66	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	69	nsubj	_	_
 67	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	69	iobj:agent	_	_
 68	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	69	aux:caus	_	_
 69	creuser	creuser	VERB	_	VerbForm=Inf	57	acl:relcl	_	_
@@ -317539,7 +317539,7 @@
 41	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	livre	livre	NOUN	_	Gender=Masc|Number=Sing	39	obl:arg	_	_
 43	que	que	PRON	_	PronType=Rel	48	obj	_	_
-44	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	48	nsubj:caus	_	_
+44	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	48	nsubj	_	_
 45	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	48	iobj	_	SpaceAfter=No
 46	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	48	aux:tense	_	_
 47	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	aux:caus	_	_
@@ -319502,7 +319502,7 @@
 1	Après	après	ADP	_	_	2	case	_	_
 2	1873	1873	NUM	_	_	6	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj:caus	_	_
+4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
 5	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:caus	_	_
 6	venir	venir	VERB	_	VerbForm=Inf	0	root	_	_
 7	également	également	ADV	_	_	6	advmod	_	_
@@ -319513,7 +319513,7 @@
 12	à	à	ADP	_	_	13	case	_	_
 13	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	obl:mod	_	_
 14	que	que	SCONJ	_	_	18	mark	_	_
-15	Mohandas	Mohandas	PROPN	_	_	18	nsubj:caus	_	_
+15	Mohandas	Mohandas	PROPN	_	_	18	nsubj	_	_
 16	Gandhi	Gandhi	PROPN	_	_	15	flat:name	_	_
 17	fasse	faire	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:caus	_	_
 18	mettre	mettre	VERB	_	VerbForm=Inf	13	acl	_	_
@@ -320532,7 +320532,7 @@
 10	et	et	CCONJ	_	_	16	cc	_	_
 11	pourtant	pourtant	ADV	_	_	16	advmod	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	facture	facture	NOUN	_	Gender=Fem|Number=Sing	16	nsubj:caus	_	_
+13	facture	facture	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs	16	obj	_	_
 15	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:caus	_	_
 16	ressentir	ressentir	VERB	_	VerbForm=Inf	4	conj	_	_
@@ -324237,7 +324237,7 @@
 2	sources	source	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	qu'	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:caus	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 6	s'	se	PRON	_	Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:tense	_	_
 8	plutôt	plutôt	ADV	_	_	10	advmod	_	_
@@ -325025,7 +325025,7 @@
 
 # sent_id = fr-ud-train_11639
 # text = Il se fit remarquer à la tribune par la beauté de sa personne non moins que par son éloquence.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:caus	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	4	obj	_	_
 3	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:caus	_	_
 4	remarquer	remarquer	VERB	_	VerbForm=Inf	0	root	_	_
@@ -328819,7 +328819,7 @@
 11	galeriste	galeriste	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
 12	Paul	Paul	PROPN	_	_	9	appos	_	_
 13	Facchetti	Facchetti	PROPN	_	_	12	flat:name	_	_
-14	qui	qui	PRON	_	PronType=Rel	17	nsubj:caus	_	_
+14	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
 15	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj:agent	_	_
 16	fera	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux:caus	_	_
 17	rentrer	rentrer	VERB	_	VerbForm=Inf	9	acl:relcl	_	_
@@ -329553,7 +329553,7 @@
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
 3	quelque	quelque	DET	_	Gender=Fem|Number=Sing	4	det	_	_
 4	chose	chose	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-5	qui	qui	PRON	_	PronType=Rel	9	nsubj:caus	_	_
+5	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
 6	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	9	obj:agent	_	_
 7	faisait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux:caus	_	_
 8	tous	tout	PRON	_	Gender=Masc|Number=Plur	9	obl:mod	_	_
@@ -341209,7 +341209,7 @@
 
 # sent_id = fr-ud-train_12227
 # text = Il fit ensuite construire la villa Pouquette dans la presqu'île et Jean Anouilh procéda de la même façon puisque après avoir loué la villa Takis, il fit construire la villa Les Pêcheurs près de l'église.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:caus	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:caus	_	_
 3	ensuite	ensuite	ADV	_	_	4	advmod	_	_
 4	construire	construire	VERB	_	VerbForm=Inf	0	root	_	_
@@ -341235,7 +341235,7 @@
 24	villa	villa	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 25	Takis	Takis	PROPN	_	_	24	appos	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	22	punct	_	_
-27	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj:caus	_	_
+27	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 28	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux:caus	_	_
 29	construire	construire	VERB	_	VerbForm=Inf	14	advcl	_	_
 30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -344163,7 +344163,7 @@
 # sent_id = fr-ud-train_12329
 # text = Les progrès de l'hygiène se font également sentir : ils permettent d'éradiquer la peste (dès 1720) puis le choléra (vers 1900) en Europe.
 1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	progrès	progrès	NOUN	_	Gender=Masc|Number=Plur	9	nsubj:caus	_	_
+2	progrès	progrès	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
 3	de	de	ADP	_	_	5	case	_	_
 4	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	hygiène	hygiène	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -348872,7 +348872,7 @@
 # sent_id = fr-ud-train_12495
 # text = Le chef vous fait déguster 1 ou 2 sushis pour bien vous apprendre à le manger ce qui est une bonne idée et fait partie du charme du restaurant.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	chef	chef	NOUN	_	Gender=Masc|Number=Sing	5	nsubj:caus	_	_
+2	chef	chef	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	5	obj:agent	_	_
 4	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:caus	_	_
 5	déguster	déguster	VERB	_	VerbForm=Inf	0	root	_	_
@@ -351256,7 +351256,7 @@
 21	à	à	ADP	_	_	23	case	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Caire	Caire	PROPN	_	_	27	obl:mod	_	_
-24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	27	nsubj:caus	_	_
+24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	27	nsubj	_	_
 25	se	se	PRON	_	Person=3|PronType=Prs	27	obj	_	_
 26	faisait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux:caus	_	_
 27	arrêter	arrêter	VERB	_	VerbForm=Inf	3	conj	_	_
@@ -357484,7 +357484,7 @@
 19	sur	sur	ADP	_	_	20	case	_	_
 20	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	18	nmod	_	_
 21	que	que	PRON	_	PronType=Rel	25	obj	_	_
-22	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nsubj:caus	_	SpaceAfter=No
+22	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	SpaceAfter=No
 23	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux:tense	_	_
 24	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	aux:caus	_	_
 25	faire	faire	VERB	_	VerbForm=Inf	20	acl:relcl	_	SpaceAfter=No
@@ -359825,7 +359825,7 @@
 # sent_id = fr-ud-train_12867
 # text = Un ami m'a fait découvrir ce petit resto à Clichy, simplement merveilleux !
 1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	ami	ami	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:caus	_	_
+2	ami	ami	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	6	iobj:agent	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:tense	_	_
 5	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:caus	_	_
@@ -360709,7 +360709,7 @@
 
 # sent_id = fr-ud-train_12901
 # text = Il fait aussi paraître des monographies sur les Meropidae et les Coraciidae, illustrées par John Gerrard Keulemans (1842-1912).
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:caus	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:caus	_	_
 3	aussi	aussi	ADV	_	_	4	advmod	_	_
 4	paraître	paraître	VERB	_	VerbForm=Inf	0	root	_	_
@@ -369455,7 +369455,7 @@
 
 # sent_id = fr-ud-train_13197
 # text = Il y fit construire une maison double, originale avec des toits en forte pente, des fenêtres à baie, un double pignon.
-1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:caus	_	_
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	y	y	PRON	_	_	4	obl:mod	_	_
 3	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:caus	_	_
 4	construire	construire	VERB	_	VerbForm=Inf	0	root	_	_
@@ -380611,7 +380611,7 @@
 # sent_id = fr-ud-train_13585
 # text = Les Metelli le font emprisonner en 205.
 1	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	Metelli	Metelli	PROPN	_	_	5	nsubj:caus	_	_
+2	Metelli	Metelli	PROPN	_	_	5	nsubj	_	_
 3	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 4	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:caus	_	_
 5	emprisonner	emprisonner	VERB	_	VerbForm=Inf	0	root	_	_
@@ -384732,7 +384732,7 @@
 28	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	29	det	_	_
 29	destin	destin	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	3	punct	_	_
-31	Robert	Robert	PROPN	_	_	35	nsubj:caus	_	_
+31	Robert	Robert	PROPN	_	_	35	nsubj	_	_
 32	Vinas	Vinas	PROPN	_	_	31	flat:name	_	_
 33	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	35	obj:agent	_	_
 34	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux:caus	_	_
@@ -388685,7 +388685,7 @@
 
 # sent_id = fr-ud-train_13876
 # text = Barbie se fait virer du tournage de "La Princesse au Petit Pois" parce qu'elle n'a pas la même vision des choses que le réalisateur.
-1	Barbie	Barbie	PROPN	_	_	4	nsubj:caus	_	_
+1	Barbie	Barbie	PROPN	_	_	4	nsubj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	4	obj	_	_
 3	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:caus	_	_
 4	virer	virer	VERB	_	VerbForm=Inf	0	root	_	_
@@ -389189,7 +389189,7 @@
 # sent_id = fr-ud-train_13894
 # text = L'action protectionniste occidentale a fait reculer le tourisme en Mauritanie, mais une contre-offensive intelligente et soutenue pourrait bien inverser la tendance.
 1	L'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	action	action	NOUN	_	Gender=Fem|Number=Sing	7	nsubj:caus	_	_
+2	action	action	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	protectionniste	protectionniste	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 4	occidentale	occidental	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:tense	_	_
@@ -395355,7 +395355,7 @@
 13	Château-Gaillard	Château-Gaillard	PROPN	_	_	8	obl:arg	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	8	punct	_	_
 15	puis	puis	ADV	_	_	19	cc	_	_
-16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	19	nsubj:caus	_	_
+16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
 17	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	19	iobj	_	_
 18	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:caus	_	_
 19	couper	couper	VERB	_	VerbForm=Inf	5	conj	_	_
@@ -403289,7 +403289,7 @@
 # sent_id = fr-ud-train_14400
 # text = La paix retrouvée en Italie fera y retourner une partie de la famille à partir des années 1550.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	paix	paix	NOUN	_	Gender=Fem|Number=Sing	8	nsubj:caus	_	_
+2	paix	paix	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	retrouvée	retrouver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
 4	en	en	ADP	_	_	5	case	_	_
 5	Italie	Italie	PROPN	_	_	3	obl	_	_
@@ -405423,7 +405423,7 @@
 5	seuil	seuil	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	saturation	saturation	NOUN	_	Gender=Fem|Number=Sing	11	nsubj:caus	_	_
+8	saturation	saturation	NOUN	_	Gender=Fem|Number=Sing	11	nsubj	_	_
 9	se	se	PRON	_	Person=3|PronType=Prs	11	obj	_	_
 10	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:caus	_	_
 11	sentir	sentir	VERB	_	VerbForm=Inf	0	root	_	_
@@ -406614,7 +406614,7 @@
 5	monsieur	monsieur	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
 6	Dussau	Dussau	PROPN	_	_	5	appos	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
-8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj:caus	_	_
+8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
 10	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	aux:caus	_	_
 11	revivre	revivre	VERB	_	VerbForm=Inf	3	parataxis	_	_
