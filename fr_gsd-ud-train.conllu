@@ -10845,7 +10845,7 @@
 26	%	%	SYM	_	_	7	conj	_	EXTPOS=NOUN|Type=Trans
 27	pour	pour	ADP	_	_	29	case	_	_
 28	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
-29	mono-cores	mono-core	NOUN	_	Gender=Masc|Number=Plur	26	obl:mod	_	SpaceAfter=No
+29	mono-cores	mono-core	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	34	punct	_	_
 31	et	et	CCONJ	_	_	34	cc	_	_
 32	de	de	ADP	_	_	34	case	_	_
@@ -24163,7 +24163,7 @@
 29	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
 30	Cadet	Cadet	PROPN	_	_	0	root	_	_
 31	en	en	ADP	_	_	32	case	_	_
-32	1778	1778	NUM	_	_	30	obl:mod	_	_
+32	1778	1778	NUM	_	_	30	nmod	_	_
 33-34	au	_	_	_	_	_	_	_	_
 33	à	à	ADP	_	_	35	case	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
@@ -30138,7 +30138,7 @@
 14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 16	pour	pour	ADP	_	_	17	case	_	_
-17	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obl:mod	_	_
+17	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nmod	_	_
 18	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	infléchissement	infléchissement	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
@@ -33701,7 +33701,7 @@
 12	de	de	ADP	_	_	15	case	_	_
 13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 14	quatre	quatre	NUM	_	_	15	nummod	_	_
-15	occupants	occupant	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	_
+15	occupants	occupant	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
 16	à	à	ADP	_	_	18	mark	_	_
 17	avoir	avoir	AUX	_	VerbForm=Inf	18	aux:tense	_	_
 18	attaché	attacher	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
@@ -41068,13 +41068,13 @@
 3	être	être	AUX	_	VerbForm=Inf	6	cop	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	bon	bon	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
-6	ton	ton	NOUN	_	Gender=Masc|Number=Sing	2	ccomp	_	_
+6	ton	ton	NOUN	_	Gender=Masc|Number=Sing	2	xcomp	_	_
 7	depuis	depuis	ADP	_	_	9	case	_	_
 8	plusieurs	plusieurs	DET	_	Gender=Fem|Number=Plur	9	det	_	_
-9	décennies	décennie	NOUN	_	Gender=Fem|Number=Plur	6	obl:mod	_	_
+9	décennies	décennie	NOUN	_	Gender=Fem|Number=Plur	2	obl:mod	_	_
 10	de	de	ADP	_	_	12	mark	_	_
 11	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
-12	imposer	imposer	VERB	_	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+12	imposer	imposer	VERB	_	VerbForm=Inf	2	csubj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	par	par	ADP	_	_	15	case	_	_
 15	médias	média	NOUN	_	Gender=Masc|Number=Plur	12	obl:mod	_	_
@@ -69291,7 +69291,7 @@
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	s'	si	SCONJ	_	_	22	mark	_	SpaceAfter=No
 19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
-20	en	en	PRON	_	Person=3	22	iobj	_	_
+20	en	en	PRON	_	Person=3	22	nmod	_	_
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
 22	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	14	advcl	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	_
@@ -124135,13 +124135,13 @@
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 13	députée	député	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 14	de	de	ADP	_	_	15	case	_	_
-15	1995	1995	NUM	_	_	13	obl:mod	_	_
+15	1995	1995	NUM	_	_	13	nmod	_	_
 16	à	à	ADP	_	_	17	case	_	_
-17	1997	1997	NUM	_	_	13	obl:mod	_	_
+17	1997	1997	NUM	_	_	15	nmod	_	_
 18	de	de	ADP	_	_	21	case	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 20	Troisième	troisième	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	_
-21	circonscription	circonscription	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
+21	circonscription	circonscription	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
 22-23	du	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -143152,7 +143152,7 @@
 5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 7	pour	pour	ADP	_	_	8	case	_	_
-8	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	6	obl:mod	_	_
+8	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nmod	_	_
 9	de	de	ADP	_	_	10	mark	_	_
 10	présenter	présenter	VERB	_	VerbForm=Inf	6	acl	_	_
 11	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det	_	_
@@ -151803,12 +151803,12 @@
 24	de	de	ADP	_	_	25	case	_	_
 25	2,62	2,62	NUM	_	_	8	parataxis	_	_
 26	en	en	ADP	_	_	27	case	_	_
-27	1999	1999	NUM	_	_	25	obl:mod	_	_
+27	1999	1999	NUM	_	_	25	nmod	_	_
 28	et	et	CCONJ	_	_	30	cc	_	_
 29	de	de	ADP	_	_	30	case	_	_
 30	2,77	2,77	NUM	_	_	25	conj	_	_
 31	en	en	ADP	_	_	32	case	_	_
-32	2009	2009	NUM	_	_	30	orphan	_	SpaceAfter=No
+32	2009	2009	NUM	_	_	30	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = fr-ud-train_05434
@@ -159072,7 +159072,7 @@
 15	à	à	ADP	_	_	16	case	_	_
 16	Saint-Louis	Saint-Louis	PROPN	_	_	9	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	jouissant	jouir	VERB	_	Tense=Pres|VerbForm=Part	5	acl	_	_
+18	jouissant	jouir	VERB	_	Tense=Pres|VerbForm=Part	5	advcl	_	_
 19	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 21	très	très	ADV	_	_	22	advmod	_	_
@@ -194437,7 +194437,7 @@
 7	propriétaire	propriétaire	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	7	obl:mod	_	_
+10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	très	très	ADV	_	_	12	advmod	_	_
 12	bref	bref	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
@@ -216017,7 +216017,7 @@
 30	Sine	Sine	PROPN	_	_	27	nmod	_	_
 31	pendant	pendant	ADP	_	_	33	case	_	_
 32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	période	période	NOUN	_	Gender=Fem|Number=Sing	27	obl:mod	_	_
+33	période	période	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	_
 34	Guelwar	Guelwar	PROPN	_	_	33	appos	_	_
 35	portant	porter	VERB	_	Tense=Pres|VerbForm=Part	27	acl	_	_
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
@@ -236923,7 +236923,7 @@
 68	,	,	PUNCT	_	_	71	punct	_	_
 69	dans	dans	ADP	_	_	71	case	_	_
 70	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	71	det	_	SpaceAfter=No
-71	eucharistie	eucharistie	NOUN	_	Gender=Fem|Number=Sing	67	obl:mod	_	SpaceAfter=No
+71	eucharistie	eucharistie	NOUN	_	Gender=Fem|Number=Sing	67	nmod	_	SpaceAfter=No
 72	,	,	PUNCT	_	_	75	punct	_	_
 73-74	du	_	_	_	_	_	_	_	_
 73	de	de	ADP	_	_	75	case	_	_
@@ -242481,7 +242481,7 @@
 26	seul	seul	ADJ	_	Gender=Masc|Number=Sing	12	advcl	_	_
 27	de	de	ADP	_	_	29	case	_	_
 28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	commune	commune	NOUN	_	Gender=Fem|Number=Sing	26	obl:mod	_	_
+29	commune	commune	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
 30	à	à	ADP	_	_	31	mark	_	_
 31	posséder	posséder	VERB	_	VerbForm=Inf	26	xcomp	_	_
 32	et	et	CCONJ	_	_	34	cc	_	_
@@ -305879,7 +305879,7 @@
 30-31	au	_	_	_	_	_	_	_	_
 30	à	à	ADP	_	_	32	case	_	_
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	monde	monde	NOUN	_	Gender=Masc|Number=Sing	29	obl:mod	_	_
+32	monde	monde	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
 33	à	à	ADP	_	_	34	mark	_	_
 34	combiner	combiner	VERB	_	VerbForm=Inf	29	acl	_	_
 35	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	37	det	_	_
@@ -389425,7 +389425,7 @@
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	15	case	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+15	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	P'tit	P'tit	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	INTITLE=Yes
 18	con	con	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	EXTPOS=PROPN|SpaceAfter=No|Type=Title
