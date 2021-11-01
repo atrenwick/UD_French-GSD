@@ -45249,10 +45249,10 @@
 12	feuilletons	feuilleton	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
 13	(	(	PUNCT	_	_	17	punct	_	SpaceAfter=No
 14	comme	comme	ADP	_	_	17	case	_	_
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-16	Mystérieux	mystérieux	ADJ	_	Gender=Masc	17	amod	_	wordform=mystérieux
-17	Docteur	docteur	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	wordform=docteur
-18	Cornélius	Cornélius	PROPN	_	_	17	flat:name	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	InTitle=Yes
+16	Mystérieux	mystérieux	ADJ	_	Gender=Masc	17	amod	_	InTitle=Yes|wordform=mystérieux
+17	Docteur	docteur	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	ExtPos=PROPN|Title=Yes|wordform=docteur
+18	Cornélius	Cornélius	PROPN	_	_	17	appos	_	InTitle=Yes
 19	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
 20	par	par	ADP	_	_	21	case	_	_
 21	Alain	Alain	PROPN	_	_	19	obl:agent	_	_
@@ -83323,7 +83323,7 @@
 13	administrateur	administrateur	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
 14	mais	mais	CCONJ	_	_	19	cc	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Gouverneur	Gouverneur	PROPN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+16	Gouverneur	gouverneur	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	wordform=gouverneur
 17	Général	général	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	wordform=général
 18	y	y	PRON	_	Person=3|PronType=Prs	19	obl:mod	_	_
 19	utilise	utiliser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
@@ -101395,7 +101395,7 @@
 19	discutant	discuter	VERB	_	Tense=Pres|VerbForm=Part	18	acl	_	_
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	_
 21	«	«	PUNCT	_	_	22	punct	_	_
-22	Choses	chose	NOUN	Gender=Fem|Number=Plur	Gender=Fem|Number=Plur	19	obj	_	wordform=choses
+22	Choses	chose	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	wordform=choses
 23	Saintes	saint	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	wordform=saintes
 24	»	»	PUNCT	_	_	22	punct	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	_
@@ -191744,7 +191744,7 @@
 16	monde	monde	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
 17	avec	avec	ADP	_	_	19	case	_	_
 18	12	12	NUM	_	Number=Plur	19	nummod	_	_
-19	mm	mm	NOUN	Gender=Masc|Number=Plur	_	10	nmod	_	_
+19	mm	mm	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	_
 20	de	de	ADP	_	_	21	case	_	_
 21	précipitations	précipitation	NOUN	_	Gender=Fem|Number=Plur	19	nmod	_	_
 22	par	par	ADP	_	_	23	case	_	_
@@ -193675,7 +193675,7 @@
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	bague	bague	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	de	de	ADP	_	_	7	case	_	_
-7	fianciaille	fiançailles	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+7	fianciaille	fiançailles	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	5	nmod	_	CorrectForm=fiançailles
 8	à	à	ADP	_	_	11	case	_	_
 9	environ	environ	ADV	_	_	10	advmod	_	_
 10	700	700	NUM	_	Number=Plur	11	nummod	_	_
@@ -195420,7 +195420,7 @@
 # sent_id = fr-ud-train_06975
 # text = Le Docteur Slump (de son vrai nom Senbei Norimaki) crée un androïde qui a les traits d'une jeune fille de 13 ans et décide de la tester en l'insérant dans la vie du village Pingouin en la présentant comme sa sœur Aralé.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
-2	Docteur	Docteur	PROPN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+2	Docteur	docteur	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	wordform=docteur
 3	Slump	Slump	PROPN	_	_	2	appos	_	_
 4	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 5	de	de	ADP	_	_	8	case	_	_
@@ -199586,7 +199586,7 @@
 11	conféré	conférer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
 12	de	de	ADP	_	_	14	case	_	_
 13	«	«	PUNCT	_	_	14	punct	_	_
-14	Maître	Maître	PROPN	_	_	7	nmod	_	_
+14	Maître	maître	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	wordform=maître
 15-16	des	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
@@ -237334,9 +237334,9 @@
 1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 2	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	wordform=il
 3	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	InIdiom=Yes
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 5	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
-6	question	question	NOUN	_	Gender=Fem|Number=Sing	0	root	_	ExtPos=VERB|Idiom=Yes
+6	question	question	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 7	de	de	ADP	_	_	8	mark	_	_
 8	laisser	laisser	VERB	_	VerbForm=Inf	6	csubj	_	_
 9	perdurer	perdurer	VERB	_	VerbForm=Inf	8	xcomp	_	_
@@ -250856,8 +250856,8 @@
 4	maître	maître	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	français	français	ADJ	_	Gender=Masc	4	amod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	Maître	Maître	PROPN	_	_	4	appos	_	_
-8	Martin	Martin	PROPN	_	_	7	flat:name	_	SpaceAfter=No
+7	Maître	maître	NOUN	_	Gender=Masc|Number=Sing	4	appos	_	wordform=maître
+8	Martin	Martin	PROPN	_	_	7	appos	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
 11	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl:cleft	_	_
@@ -278554,8 +278554,8 @@
 14	vaincre	vaincre	VERB	_	VerbForm=Inf	12	advcl	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	vilain	vilain	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
-17	Général	général	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	wordform=général
-18	Garza	Garza	PROPN	_	_	16	appos	_	SpaceAfter=No
+17	Général	général	NOUN	_	Gender=Masc|Number=Sing	16	appos	_	wordform=général
+18	Garza	Garza	PROPN	_	_	17	appos	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	_
 20	à	à	ADP	_	_	22	case	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -330116,7 +330116,7 @@
 25-26	au	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	27	case	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	Docteur	Docteur	PROPN	_	Gender=Masc|Number=Sing	24	obl:arg	_	_
+27	Docteur	docteur	NOUN	_	Gender=Masc|Number=Sing	24	obl:arg	_	wordform=docteur
 28	Rondepierre	Rondepierre	PROPN	_	_	27	appos	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	24	punct	_	_
 
@@ -369629,7 +369629,7 @@
 2	de	de	ADP	_	_	5	case	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	Grand	grand	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	wordform=grand
-5	Prix	prix	NOUN	Gender=Masc|Number=Sing	Gender=Masc|Number=Sing	1	obl:arg	_	wordform=prix
+5	Prix	prix	NOUN	_	Gender=Masc|Number=Sing	1	obl:arg	_	wordform=prix
 6	de	de	ADP	_	_	7	case	_	_
 7	Detroit	Detroit	PROPN	_	_	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
