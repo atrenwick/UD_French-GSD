@@ -44718,7 +44718,7 @@
 22	)	)	PUNCT	_	_	16	punct	_	_
 23	en	en	ADP	_	_	24	case	_	_
 24	face	face	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-25	B	B	SYM	_	ExtPos=PROPN	24	nmod	_	SpaceAfter=No
+25	B	B	SYM	_	ExtPos=PROPN	24	appos	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_01584
@@ -74704,7 +74704,7 @@
 8	donc	donc	ADV	_	_	10	advmod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	jour	jour	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	_
-11	J	J	X	_	ExtPos=PROPN	10	nmod	_	_
+11	J	J	X	_	ExtPos=PROPN	10	appos	_	_
 12	pour	pour	ADP	_	_	14	case	_	_
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	fête	fête	NOUN	_	Gender=Fem|Number=Sing	10	orphan	_	_
@@ -78795,7 +78795,7 @@
 32	bord	bord	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
 33	de	de	ADP	_	_	34	case	_	_
 34	mer	mer	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
-35	D	D	X	_	ExtPos=PROPN	29	nmod	_	_
+35	D	D	X	_	ExtPos=PROPN	29	appos	_	_
 36	6098	6098	NUM	_	Number=Plur	35	nmod	_	_
 37	et	et	CCONJ	_	_	38	cc	_	_
 38	accueille	accueillir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
@@ -91872,7 +91872,7 @@
 24	ne	ne	ADV	_	Polarity=Neg	25	advmod	_	_
 25	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 26	exactement	exactement	ADV	_	_	25	advmod	_	_
-27	comment	comment	ADV	_	PronType=Int	25	advmod	_	SpaceAfter=No
+27	comment	comment	ADV	_	PronType=Int	25	obj	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = fr-ud-train_03264
@@ -94884,7 +94884,7 @@
 4	parue	paraître	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 5	en	en	ADP	_	_	6	case	_	_
 6	face	face	NOUN	_	Gender=Fem|Number=Sing	4	obl:mod	_	_
-7	B	B	X	_	ExtPos=PROPN	6	nmod	_	_
+7	B	B	X	_	ExtPos=PROPN	6	appos	_	_
 8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
@@ -107130,9 +107130,9 @@
 
 # sent_id = fr-ud-train_03816
 # text = Grace à vous je suis un producteur d'énergie solaire heureux ;)
-1	Grace	grâce	NOUN	_	Typo=Yes	7	advcl	_	CorrectForm=Grâce|wordform=grâce
-2	à	à	ADP	_	_	3	case	_	_
-3	vous	vous	PRON	_	Emph=Yes|Number=Plur|Person=2|PronType=Prs	1	obl:arg	_	_
+1	Grace	grâce	NOUN	_	ExtPos=ADP|Typo=Yes	3	case	_	CorrectForm=Grâce|Idiom=Yes|wordform=grâce
+2	à	à	ADP	_	_	1	fixed	_	InIdiom=Yes
+3	vous	vous	PRON	_	Emph=Yes|Number=Plur|Person=2|PronType=Prs	7	obl:mod	_	_
 4	je	moi	PRON	_	Emph=No|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 5	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -111058,7 +111058,7 @@
 10	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
 11	comment	comment	ADV	_	PronType=Int	13	advmod	_	_
 12	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
-13	faire	faire	VERB	_	VerbForm=Inf	10	advcl	_	SpaceAfter=No|Subject=Generic
+13	faire	faire	VERB	_	VerbForm=Inf	10	ccomp	_	SpaceAfter=No|Subject=Generic
 14	,	,	PUNCT	_	_	19	punct	_	_
 15	et	et	CCONJ	_	_	19	cc	_	_
 16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
@@ -133192,7 +133192,7 @@
 22	spectateurs	spectateur	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	_
 23	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	cop	_	_
 24	aussi	aussi	ADV	_	_	25	advmod	_	_
-25	rayonnants	rayonnant	ADJ	_	Gender=Masc|Number=Plur	15	advcl	_	_
+25	rayonnants	rayonnant	ADJ	_	Gender=Masc|Number=Plur	15	ccomp	_	_
 26	à	à	ADP	_	_	28	case	_	_
 27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	sortie	sortie	NOUN	_	Gender=Fem|Number=Sing	25	obl:mod	_	_
@@ -146277,6 +146277,7 @@
 
 # sent_id = fr-ud-train_05232
 # text = Malgré tout, elle garde toujours sa mauvaise réputation et elle reste celle à blâmer quand la magie cause des vétustes.
+# source = https://fr.wikipedia.org/wiki/Alex_Russo
 1	Malgré	malgré	ADP	_	_	2	case	_	wordform=malgré
 2	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	obl:mod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
@@ -146378,7 +146379,7 @@
 8	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	nsubj	_	_
 9	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
 10	comment	comment	ADV	_	PronType=Int	11	advmod	_	_
-11	arrêter	arrêter	VERB	_	VerbForm=Inf	9	advcl	_	Subject=Generic
+11	arrêter	arrêter	VERB	_	VerbForm=Inf	9	ccomp	_	Subject=Generic
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	épidémie	épidémie	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
@@ -165009,7 +165010,7 @@
 19	catholique	catholique	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	10	punct	_	_
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
-22	différente	différent	ADJ	_	Gender=Fem|Number=Sing	7	advcl	_	_
+22	différente	différent	ADJ	_	Gender=Fem|Number=Sing	7	ccomp	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	prière	prière	NOUN	_	Gender=Fem|Number=Sing	22	obl:mod	_	_
@@ -196156,7 +196157,7 @@
 29	Europe	Europe	PROPN	_	_	26	nmod	_	_
 30	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
 31	ils	eux	PRON	_	Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	32	expl:subj	_	_
-32	Francs-maçons	franc-maçon	NOUN	_	Gender=Masc|Number=Plur	20	advcl	_	wordform=francs-maçons
+32	Francs-maçons	franc-maçon	NOUN	_	Gender=Masc|Number=Plur	20	ccomp	_	wordform=francs-maçons
 33	?	?	PUNCT	_	_	20	punct	_	_
 
 # sent_id = fr-ud-train_06998
@@ -259736,12 +259737,12 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	FC	FC	PROPN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
 16	Metz	Metz	PROPN	_	_	15	flat:name	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
-19	notamment	notamment	ADV	_	_	18	advmod	_	_
-20	à	à	ADP	_	_	22	case	_	_
+17	,	,	PUNCT	_	_	22	punct	_	_
+18	grâce	grâce	NOUN	_	ExtPos=ADP	22	case	_	Idiom=Yes
+19	notamment	notamment	ADV	_	_	22	advmod	_	_
+20	à	à	ADP	_	_	22	case	_	InIdiom=Yes
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	triplé	triplé	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	triplé	triplé	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
 23	de	de	ADP	_	_	24	case	_	_
 24	Pierre	Pierre	PROPN	_	_	22	nmod	_	_
 25	Dosséna	Dosséna	PROPN	_	_	24	flat:name	_	SpaceAfter=No
@@ -331063,7 +331064,7 @@
 5	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Int	6	det	_	_
 6	équipe	équipe	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	_
 7	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-8	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 9	partie	partie	NOUN	_	Gender=Fem|Number=Sing	8	obj:lvc	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	_
 11	entre	entre	ADP	_	_	13	case	_	_
@@ -334417,7 +334418,7 @@
 9	sache	savoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
 10	comment	comment	ADV	_	PronType=Int	12	advmod	_	_
 11	on	on	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	nsubj	_	_
-12	travaillait	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+12	travaillait	travailler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	bois	bois	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
 15	autrefois	autrefois	ADV	_	_	12	advmod	_	_
@@ -351650,7 +351651,7 @@
 19	à	à	ADP	_	_	21	case	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-22	J	J	X	_	ExtPos=PROPN	21	nmod	_	_
+22	J	J	X	_	ExtPos=PROPN	21	appos	_	_
 23	puis	puis	CCONJ	_	_	30	cc	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	_
 25	en	en	ADP	_	_	26	case	_	_
@@ -393165,7 +393166,7 @@
 7	étranges	étrange	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
 8	moyens	moyen	NOUN	_	Gender=Masc|Number=Plur	10	obl:mod	_	_
 9	il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
-10	échappa	échapper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+10	échappa	échapper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	_
 11	à	à	ADP	_	_	13	case	_	_
 12	certaines	certain	DET	_	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
 13	atrocités	atrocité	NOUN	_	Gender=Fem|Number=Plur	10	obl:arg	_	SpaceAfter=No
@@ -397541,7 +397542,7 @@
 10	comment	comment	ADV	_	PronType=Int	13	advmod	_	_
 11	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 12	rêve	rêve	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
-13	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	advcl	_	_
+13	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp	_	_
 14	enfin	enfin	ADV	_	_	13	advmod	_	_
 15	devenir	devenir	VERB	_	VerbForm=Inf	13	xcomp	_	Subject=SubjRaising
 16	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	15	xcomp	_	SpaceAfter=No
@@ -397664,7 +397665,7 @@
 5	de	de	ADP	_	_	7	case	_	_
 6	tels	tel	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
 7	objets	objet	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
-8	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 9	être	être	AUX	_	VerbForm=Inf	11	aux:pass	_	Subject=SubjRaising
 10	si	si	ADV	_	_	11	advmod	_	_
 11	rapprochés	rapprocher	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	8	xcomp	_	SpaceAfter=No
