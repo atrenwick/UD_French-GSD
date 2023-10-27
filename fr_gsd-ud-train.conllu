@@ -125920,7 +125920,7 @@
 4	m	mètre	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	joue	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-7	réceptionneur-attaquant	réceptionneur-attaquant	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+7	réceptionneur-attaquant	réceptionneur-attaquant	NOUN	_	Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_04512
@@ -240424,7 +240424,7 @@
 # text = Lors d'un tremplin rock organisé au Mans, la rencontre avec Les Brigades et Kid Bravo de Rock Radical Records (devenu par la suite Bondage Records) permet au groupe d'enregistrer son premier maxi, 45 Révolutions par minute, et de rencontrer les principaux acteurs du mouvement alternatif qui commence à s'organiser et à prendre de l'ampleur.
 1	Lors	lors	ADV	_	_	31	advmod	_	wordform=lors
 2	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
-3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	tremplin	tremplin	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
 5	rock	rock	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
 6	organisé	organiser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
@@ -252295,8 +252295,8 @@
 3	1,88	1,88	NUM	_	Number=Plur	4	nummod	_	_
 4	m	mètre	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
-6	joue	joue	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
-7	centrale	central	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+6	joue	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	centrale	central	ADJ	_	Gender=Fem|Number=Sing	6	xcomp	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_08995
@@ -303253,11 +303253,12 @@
 
 # sent_id = fr-ud-train_10865
 # text = Il relie le bacino Orseolo en sens est, puis nord au dei Ferali au ponte dei Ferai.
+# source = https://fr.wikipedia.org/wiki/Rio_delle_Procuratie
 1	Il	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	wordform=il
 2	relie	relier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	bacino	bacino	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
-5	Orseolo	Orseolo	PROPN	_	_	4	appos	_	_
+4	bacino	bacino	PROPN	_	_	2	obj	_	_
+5	Orseolo	Orseolo	PROPN	_	_	4	flat:name	_	_
 6	en	en	ADP	_	_	7	case	_	_
 7	sens	sens	NOUN	_	Gender=Masc|Number=Sing	2	obl:mod	_	_
 8	est	est	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
@@ -303265,16 +303266,16 @@
 10	puis	puis	CCONJ	_	_	11	cc	_	_
 11	nord	nord	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
 12-13	au	_	_	_	_	_	_	_	_
-12	à	à	ADP	_	_	15	case	_	_
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-14	dei	dei	X	_	ExtPos=PROPN	15	nmod	_	_
-15	Ferali	Ferali	PROPN	_	Gender=Masc|Number=Sing	2	obl:mod	_	_
+12	à	à	ADP	_	_	14	case	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	dei	dei	PROPN	_	_	2	obl:mod	_	_
+15	Ferali	Ferali	PROPN	_	_	14	flat:name	_	_
 16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	_	20	case	_	_
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-18	ponte	ponte	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
-19	dei	dei	X	_	ExtPos=PROPN	20	nmod	_	_
-20	Ferai	Ferai	PROPN	_	Gender=Masc|Number=Sing	2	obl:arg	_	SpaceAfter=No
+16	à	à	ADP	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	ponte	ponte	PROPN	_	_	2	obl:arg	_	_
+19	dei	dei	PROPN	_	ExtPos=PROPN	18	flat:name	_	_
+20	Ferai	Ferai	PROPN	_	_	18	flat:name	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = fr-ud-train_10866
@@ -311786,7 +311787,7 @@
 12	société	société	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	_
 13	pour	pour	ADP	_	_	14	mark	_	_
 14	partager	partager	VERB	_	VerbForm=Inf	10	advcl	_	Subject=SubjRaising
-15	une	un	NUM	_	Gender=Fem|Number=Sing	18	nummod	_	_
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 16	ou	ou	CCONJ	_	_	17	cc	_	_
 17	plusieurs	plusieurs	DET	_	Number=Plur|PronType=Ind	15	conj	_	_
 18	passions	passion	NOUN	_	Gender=Fem|Number=Plur	14	obj	_	_
