@@ -5158,7 +5158,7 @@
 10	que	que	SCONJ	_	_	19	mark	_	_
 11	n'	ne	ADV	_	ExtPos=DET|Polarity=Neg	14	det	_	Idiom=Yes|SpaceAfter=No
 12	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	fixed	_	InIdiom=Yes
-13	quelle	quel	DET	_	Gender=Fem|Number=Sing	11	fixed	_	InIdiom=Yes
+13	quelle	quel	DET	_	Gender=Fem|Number=Sing|PronType=Ind	11	fixed	_	InIdiom=Yes
 14	source	source	NOUN	_	Number=Sing	19	nsubj	_	Gender[lex]=Fem
 15	de	de	ADP	_	_	16	case	_	_
 16	revenus	revenu	NOUN	_	Number=Plur	14	nmod	_	Gender[lex]=Masc
@@ -28482,7 +28482,7 @@
 25	)	)	PUNCT	_	_	20	punct	_	_
 26	recevant	recevoir	VERB	_	VerbForm=Part	17	acl	_	Tense[denom]=Pres
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-28	WAMPAS	WAMPAS	X	_	ExtPos=PROPN|Foreign=Yes	26	obj	_	_
+28	WAMPAS	WAMPAS	X	_	Foreign=Yes	26	obj	_	_
 29	Baby	Baby	X	_	Foreign=Yes	28	flat:foreign	_	_
 30	Stars	Stars	X	_	Foreign=Yes	28	flat:foreign	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	12	punct	_	_
@@ -54554,8 +54554,8 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
 5	scellé	sceller	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	Tense[denom]=Past
-6	in	in	X	_	ExtPos=ADV|Foreign=Yes	5	advmod	_	Idiom=Yes
-7	extremis	extremis	X	_	Foreign=Yes	6	fixed	_	InIdiom=Yes|SpaceAfter=No
+6	in	in	X	_	ExtPos=ADV	5	advmod	_	Idiom=Yes
+7	extremis	extremis	X	_	_	6	fixed	_	InIdiom=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	à	à	ADP	_	_	11	case	_	_
 10	quelques	quelque	DET	_	Number=Plur|PronType=Ind	11	det	_	_
@@ -76408,7 +76408,7 @@
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	wordform=la
 2	pose	pose	NOUN	_	Number=Sing	5	nsubj	_	Gender[lex]=Fem
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
-4	était	être	AUX	_	Number=Sing|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin	5	cop	_	CorrectForm=été|CorrectVerbForm=Part
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|Typo=Yes|VerbForm=Fin	5	cop	_	CorrectForm=été|CorrectVerbForm=Part
 5	parfaite	parfait	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
 6	!	!	PUNCT	_	_	5	punct	_	_
 
@@ -245394,8 +245394,8 @@
 7	véritablement	véritablement	ADV	_	_	6	advmod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	rock	rock	X	_	Foreign=Yes	6	obj	_	Idiom=Yes|Lang=en
-10	and	and	X	_	Foreign=Yes	9	fixed	_	InIdiom=Yes|Lang=en
-11	roll	roll	X	_	Foreign=Yes	9	fixed	_	InIdiom=Yes|Lang=en|SpaceAfter=No
+10	and	and	X	_	Foreign=Yes	9	flat:name	_	InIdiom=Yes|Lang=en
+11	roll	roll	X	_	Foreign=Yes	9	flat:name	_	InIdiom=Yes|Lang=en|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	provoquant	provoquer	VERB	_	VerbForm=Part	6	advcl	_	Subject=Instantiated|Tense[denom]=Pres
 14	en	en	ADP	_	_	16	case	_	_
@@ -289412,7 +289412,7 @@
 9	sur	sur	ADP	_	_	13	case	_	_
 10	n'	ne	ADV	_	ExtPos=DET|Polarity=Neg	13	det	_	Idiom=Yes|SpaceAfter=No
 11	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	fixed	_	InIdiom=Yes
-12	quel	quel	DET	_	Gender=Masc|Number=Sing	10	fixed	_	InIdiom=Yes
+12	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Ind	10	fixed	_	InIdiom=Yes
 13	système	système	NOUN	_	Number=Sing	8	obl:mod	_	Gender[lex]=Masc
 14	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 15	exploitation	exploitation	NOUN	_	Number=Sing	13	nmod	_	Gender[lex]=Fem
@@ -303612,7 +303612,7 @@
 12	compilation	compilation	NOUN	_	Number=Sing	11	nmod	_	Gender[lex]=Fem
 13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
 14	best	best	X	_	Foreign=Yes	11	amod	_	Idiom=Yes|Lang=en
-15	of	of	X	_	Foreign=Yes	14	fixed	_	InIdiom=Yes|Lang=en|SpaceAfter=No
+15	of	of	X	_	Foreign=Yes	14	flat:foreign	_	InIdiom=Yes|Lang=en|SpaceAfter=No
 16	)	)	PUNCT	_	_	14	punct	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -329205,7 +329205,7 @@
 20	comme	comme	ADP	_	_	24	case	_	_
 21	n'	ne	ADV	_	ExtPos=DET|Polarity=Neg	24	det	_	Idiom=Yes|SpaceAfter=No
 22	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	fixed	_	InIdiom=Yes
-23	quel	quel	DET	_	Gender=Masc|Number=Sing|Typo=Yes	21	fixed	_	CorrectForm=quelle|CorrectGender=Fem|InIdiom=Yes
+23	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Ind|Typo=Yes	21	fixed	_	CorrectForm=quelle|CorrectGender=Fem|InIdiom=Yes
 24	matière	matière	NOUN	_	Number=Sing	7	obl:mod	_	Gender[lex]=Fem
 25	première	premier	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	SpaceAfter=No
 26	,	,	PUNCT	_	_	28	punct	_	_
@@ -365040,9 +365040,9 @@
 8	de	de	ADP	_	_	9	case	_	_
 9	Sion	Sion	PROPN	_	_	7	nmod	_	Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	légat	légat	NOUN	_	Number=Sing	3	appos	_	Gender[lex]=Masc
-12	a	a	X	_	_	11	nmod	_	_
-13	latere	latere	X	_	_	12	flat:foreign	_	SpaceAfter=No
+11	légat	légat	NOUN	_	_	3	appos	_	_
+12	a	a	X	_	Foreign=Yes	11	nmod	_	_
+13	latere	latere	X	_	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
 16	chargea	charger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -373338,7 +373338,7 @@
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	wordform=le
 2	film	film	NOUN	_	Number=Sing	23	nsubj	_	Gender[lex]=Masc
 3	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
-4	Yo	Yo	X	_	ExtPos=PROPN|Foreign=Yes	2	appos	_	_
+4	Yo	Yo	X	_	Foreign=Yes	2	appos	_	_
 5	también	también	X	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
 6	"	"	PUNCT	_	_	4	punct	_	_
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
@@ -387388,7 +387388,7 @@
 11	comme	comme	ADP	_	_	15	case	_	_
 12	n'	ne	ADV	_	ExtPos=DET|Polarity=Neg	15	det	_	Idiom=Yes|SpaceAfter=No
 13	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	fixed	_	InIdiom=Yes
-14	quel	quel	DET	_	Gender=Masc|Number=Sing	12	fixed	_	InIdiom=Yes
+14	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Ind	12	fixed	_	InIdiom=Yes
 15	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	8	obl:mod	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	18	det	_	_
